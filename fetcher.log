@@ -876,3 +876,93 @@
 [2023-07-07 00:49:23] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
 [2023-07-07 00:49:23] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
 [2023-07-07 00:49:23] INFO root fetch - main [MainThread]: Store serial: [18791901]
+[2023-07-07 00:54:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18791901]
+[2023-07-07 00:54:31] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-07 00:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prompttools
+[2023-07-07 00:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tarvis-indicators-webapi
+[2023-07-07 00:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyframe-eval
+[2023-07-07 00:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-blive-danmaku
+[2023-07-07 00:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lamini
+[2023-07-07 00:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hspylib-clitt
+[2023-07-07 00:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: planetary-spip
+[2023-07-07 00:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: universi
+[2023-07-07 00:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: snsphd
+[2023-07-07 00:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spellbot
+[2023-07-07 00:54:32] INFO root fetch - processPackages [prompttools]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-07 00:54:32] INFO root fetch - processPackages [tarvis-indicators-webapi]: New version: [0.9.9] Old Version: [0.9.6]
+[2023-07-07 00:54:32] WARNING root fetch - processPackages [pyframe-eval]: Skipping, unable to determine old version
+[2023-07-07 00:54:32] INFO root fetch - processPackages [pyframe-eval]: Start processing: swarms
+[2023-07-07 00:54:32] INFO root fetch - main [MainThread]: End processing [pyframe-eval] error
+[2023-07-07 00:54:32] INFO root fetch - processPackages [lamini]: New version: [0.0.19] Old Version: [0.0.18]
+[2023-07-07 00:54:32] INFO root fetch - processPackages [planetary-spip]: New version: [1.1.2a0] Old Version: [1.1.2]
+[2023-07-07 00:54:32] INFO root fetch - processPackages [nonebot-plugin-blive-danmaku]: New version: [0.3.40] Old Version: [0.3.31]
+[2023-07-07 00:54:32] INFO root fetch - processPackages [spellbot]: New version: [8.9.4] Old Version: [8.9.3]
+[2023-07-07 00:54:32] WARNING root fetch - processPackages [snsphd]: Skipping, unable to determine old version
+[2023-07-07 00:54:32] INFO root fetch - main [MainThread]: End processing [snsphd] error
+[2023-07-07 00:54:32] INFO root fetch - processPackages [universi]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-07 00:54:32] INFO root fetch - processPackages [hspylib-clitt]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-07 00:54:32] INFO root fetch - processPackages [swarms]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-07-07 00:54:32] INFO root fetch - processPackages [spellbot]: Downloading https://files.pythonhosted.org/packages/28/31/c1c5df3d60ddd2e31cfd5f31f5263365c70d617aa5f7f98074c19e82df44/spellbot-8.9.3.tar.gz
+[2023-07-07 00:54:32] INFO root fetch - processPackages [prompttools]: Downloading https://files.pythonhosted.org/packages/b2/00/5b07689907f0f706e30496c97342517b9384bc8c33dd709a8f446f5c5dc8/prompttools-0.0.4.tar.gz
+[2023-07-07 00:54:32] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/ab/02/dc1290382a631dd1e220547f3bd310d433947aa1a68e0b79655880d81747/swarms-0.7.4.tar.gz
+[2023-07-07 00:54:32] INFO root fetch - processPackages [tarvis-indicators-webapi]: Downloading https://files.pythonhosted.org/packages/aa/99/67337627e078ca2f6391b9aaa95e7740b6fcb68a8d1b36b16d406e95e506/tarvis-indicators-webapi-0.9.6.tar.gz
+[2023-07-07 00:54:32] INFO root fetch - processPackages [planetary-spip]: Downloading https://files.pythonhosted.org/packages/5e/b5/b99f4e1245d6a3b0203afd47c4126e7cd5d9a88f8c09789c2de97e0e1f7f/planetary-spip-1.1.2.tar.gz
+[2023-07-07 00:54:32] INFO root fetch - processPackages [lamini]: Downloading https://files.pythonhosted.org/packages/ad/4c/edbc52e71c27fe160922e74ff897589b0f5f0aac6f73c7566e92c5e8ef8b/lamini-0.0.18-9-py3-none-any.whl
+[2023-07-07 00:54:32] INFO root fetch - processPackages [nonebot-plugin-blive-danmaku]: Downloading https://files.pythonhosted.org/packages/12/6c/b1f77d4a7ca9b5d6adfca2a6c3c6a6b807325aa99cbc9ec322b31190cdee/nonebot_plugin_blive_danmaku-0.3.31.tar.gz
+[2023-07-07 00:54:32] INFO root fetch - processPackages [hspylib-clitt]: Downloading https://files.pythonhosted.org/packages/a0/0f/42b890c8f02902edfff9f8ea73ea79d8acfea76c705b6966ff73e809437a/hspylib-clitt-0.9.8.tar.gz
+[2023-07-07 00:54:32] INFO root fetch - processPackages [universi]: Downloading https://files.pythonhosted.org/packages/73/a5/e7eb7c7a6c1e71d78e4f9626aa5360b97932c0037864907694ac86e28bdd/universi-0.1.0.tar.gz
+[2023-07-07 00:54:33] INFO root fetch - processPackages [spellbot]: Downloading https://files.pythonhosted.org/packages/7e/9e/af26d5387a7ff3029877947698c24541522be84c68fea588307a234971b4/spellbot-8.9.4.tar.gz
+[2023-07-07 00:54:33] INFO root fetch - processPackages [planetary-spip]: Downloading https://files.pythonhosted.org/packages/dc/d8/592c64a3bd123fa51bf9f71d47cffcb381901db6a9e89f398424e6f2828d/planetary-spip-1.1.2a0.tar.gz
+[2023-07-07 00:54:33] INFO root fetch - processPackages [prompttools]: Downloading https://files.pythonhosted.org/packages/39/b2/01c05d6145e9e43da8fdb350ad228fb2010de46fd2e908c750b3e7a78740/prompttools-0.0.5.tar.gz
+[2023-07-07 00:54:33] INFO root fetch - processPackages [lamini]: Downloading https://files.pythonhosted.org/packages/24/fd/cec553f87e88748919b24d131d4e3588973838cac2b29c587b31c6ad3aa5/lamini-0.0.19-11-py3-none-any.whl
+[2023-07-07 00:54:33] INFO root fetch - processPackages [tarvis-indicators-webapi]: Downloading https://files.pythonhosted.org/packages/4d/8f/8911beb864d0b46cb8174aeddc5213b222fd5977bf31b3d79347f0efaec6/tarvis-indicators-webapi-0.9.9.tar.gz
+[2023-07-07 00:54:33] INFO root fetch - processPackages [spellbot]: executing diffoscope
+[2023-07-07 00:54:33] INFO root fetch - processPackages [spellbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spellbot-8.9.3.tar.gz tmp/spellbot-8.9.4.tar.gz --markdown 20230707/s/spellbot/8.9.3-8.9.4/diff.md --exclude *.pyd
+[2023-07-07 00:54:33] INFO root fetch - processPackages [universi]: Downloading https://files.pythonhosted.org/packages/d9/ad/226f512d9287a80f4f196e6a8b1ede5419ab80fb551acbb97708e0eab28d/universi-0.1.1.tar.gz
+[2023-07-07 00:54:33] INFO root fetch - processPackages [planetary-spip]: executing diffoscope
+[2023-07-07 00:54:33] INFO root fetch - processPackages [planetary-spip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetary-spip-1.1.2.tar.gz tmp/planetary-spip-1.1.2a0.tar.gz --markdown 20230707/p/planetary-spip/1.1.2-1.1.2a0/diff.md --exclude *.pyd
+[2023-07-07 00:54:33] INFO root fetch - processPackages [nonebot-plugin-blive-danmaku]: Downloading https://files.pythonhosted.org/packages/74/d8/48df123a2b0ad0fe99786ff29aac9c37d531f7f7cf01a9dd69299c9d0240/nonebot_plugin_blive_danmaku-0.3.40.tar.gz
+[2023-07-07 00:54:33] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/3d/65/b26f3274d7867a7d56f0cdac73c2522d3f5a267005c46d436ebda2f3bd6b/swarms-0.7.5.tar.gz
+[2023-07-07 00:54:33] INFO root fetch - processPackages [hspylib-clitt]: Downloading https://files.pythonhosted.org/packages/47/f9/72c8e44dc280a8f3542b8890670b05e5c03581d2712648f572e4b0717836/hspylib-clitt-0.9.9.tar.gz
+[2023-07-07 00:54:33] INFO root fetch - processPackages [lamini]: executing diffoscope
+[2023-07-07 00:54:33] INFO root fetch - processPackages [lamini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamini-0.0.18-9-py3-none-any.whl.zip tmp/lamini-0.0.19-11-py3-none-any.whl.zip --markdown 20230707/l/lamini/0.0.18-0.0.19/diff.md --exclude *.pyd
+[2023-07-07 00:54:33] INFO root fetch - processPackages [tarvis-indicators-webapi]: executing diffoscope
+[2023-07-07 00:54:33] INFO root fetch - processPackages [tarvis-indicators-webapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tarvis-indicators-webapi-0.9.6.tar.gz tmp/tarvis-indicators-webapi-0.9.9.tar.gz --markdown 20230707/t/tarvis-indicators-webapi/0.9.6-0.9.9/diff.md --exclude *.pyd
+[2023-07-07 00:54:33] INFO root fetch - processPackages [universi]: executing diffoscope
+[2023-07-07 00:54:33] INFO root fetch - processPackages [universi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/universi-0.1.0.tar.gz tmp/universi-0.1.1.tar.gz --markdown 20230707/u/universi/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-07 00:54:33] INFO root fetch - processPackages [prompttools]: executing diffoscope
+[2023-07-07 00:54:33] INFO root fetch - processPackages [prompttools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompttools-0.0.4.tar.gz tmp/prompttools-0.0.5.tar.gz --markdown 20230707/p/prompttools/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-07 00:54:33] INFO root fetch - processPackages [hspylib-clitt]: executing diffoscope
+[2023-07-07 00:54:33] INFO root fetch - processPackages [hspylib-clitt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-clitt-0.9.8.tar.gz tmp/hspylib-clitt-0.9.9.tar.gz --markdown 20230707/h/hspylib-clitt/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-07 00:54:33] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-07 00:54:33] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.7.4.tar.gz tmp/swarms-0.7.5.tar.gz --markdown 20230707/s/swarms/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-07-07 00:54:33] INFO root fetch - processPackages [nonebot-plugin-blive-danmaku]: executing diffoscope
+[2023-07-07 00:54:33] INFO root fetch - processPackages [nonebot-plugin-blive-danmaku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_blive_danmaku-0.3.31.tar.gz tmp/nonebot_plugin_blive_danmaku-0.3.40.tar.gz --markdown 20230707/n/nonebot-plugin-blive-danmaku/0.3.31-0.3.40/diff.md --exclude *.pyd
+[2023-07-07 00:54:34] INFO root fetch - processPackages [planetary-spip]: Remove: archive file [/home/abi/fetcher/tmp/planetary-spip-1.1.2.tar.gz]
+[2023-07-07 00:54:34] INFO root fetch - processPackages [planetary-spip]: Remove: archive file [/home/abi/fetcher/tmp/planetary-spip-1.1.2a0.tar.gz]
+[2023-07-07 00:54:34] INFO root fetch - main [MainThread]: End processing [planetary-spip]: success
+[2023-07-07 00:54:34] INFO root fetch - processPackages [prompttools]: Remove: archive file [/home/abi/fetcher/tmp/prompttools-0.0.4.tar.gz]
+[2023-07-07 00:54:34] INFO root fetch - processPackages [prompttools]: Remove: archive file [/home/abi/fetcher/tmp/prompttools-0.0.5.tar.gz]
+[2023-07-07 00:54:34] INFO root fetch - main [MainThread]: End processing [prompttools]: success
+[2023-07-07 00:54:34] INFO root fetch - processPackages [tarvis-indicators-webapi]: Remove: archive file [/home/abi/fetcher/tmp/tarvis-indicators-webapi-0.9.6.tar.gz]
+[2023-07-07 00:54:34] INFO root fetch - processPackages [tarvis-indicators-webapi]: Remove: archive file [/home/abi/fetcher/tmp/tarvis-indicators-webapi-0.9.9.tar.gz]
+[2023-07-07 00:54:34] INFO root fetch - main [MainThread]: End processing [tarvis-indicators-webapi]: success
+[2023-07-07 00:54:34] INFO root fetch - processPackages [universi]: Remove: archive file [/home/abi/fetcher/tmp/universi-0.1.0.tar.gz]
+[2023-07-07 00:54:34] INFO root fetch - processPackages [universi]: Remove: archive file [/home/abi/fetcher/tmp/universi-0.1.1.tar.gz]
+[2023-07-07 00:54:34] INFO root fetch - main [MainThread]: End processing [universi]: success
+[2023-07-07 00:54:34] INFO root fetch - processPackages [lamini]: Remove: archive file [/home/abi/fetcher/tmp/lamini-0.0.18-9-py3-none-any.whl.zip]
+[2023-07-07 00:54:34] INFO root fetch - processPackages [lamini]: Remove: archive file [/home/abi/fetcher/tmp/lamini-0.0.19-11-py3-none-any.whl.zip]
+[2023-07-07 00:54:34] INFO root fetch - main [MainThread]: End processing [lamini]: success
+[2023-07-07 00:54:35] INFO root fetch - processPackages [spellbot]: Remove: archive file [/home/abi/fetcher/tmp/spellbot-8.9.3.tar.gz]
+[2023-07-07 00:54:35] INFO root fetch - processPackages [spellbot]: Remove: archive file [/home/abi/fetcher/tmp/spellbot-8.9.4.tar.gz]
+[2023-07-07 00:54:35] INFO root fetch - main [MainThread]: End processing [spellbot]: success
+[2023-07-07 00:54:35] INFO root fetch - processPackages [hspylib-clitt]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-clitt-0.9.8.tar.gz]
+[2023-07-07 00:54:35] INFO root fetch - processPackages [hspylib-clitt]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-clitt-0.9.9.tar.gz]
+[2023-07-07 00:54:35] INFO root fetch - main [MainThread]: End processing [hspylib-clitt]: success
+[2023-07-07 00:54:35] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.7.4.tar.gz]
+[2023-07-07 00:54:35] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.7.5.tar.gz]
+[2023-07-07 00:54:35] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-07 00:54:44] INFO root fetch - processPackages [nonebot-plugin-blive-danmaku]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_blive_danmaku-0.3.31.tar.gz]
+[2023-07-07 00:54:44] INFO root fetch - processPackages [nonebot-plugin-blive-danmaku]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_blive_danmaku-0.3.40.tar.gz]
+[2023-07-07 00:54:44] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-blive-danmaku]: success
+[2023-07-07 00:54:44] INFO root fetch - main [MainThread]: Store serial: [18791940]
