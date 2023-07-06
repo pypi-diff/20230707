@@ -1145,3 +1145,109 @@
 [2023-07-07 01:05:13] INFO root fetch - processPackages [opendoor]: Remove: archive file [/home/abi/fetcher/tmp/opendoor-4.1.0.tar.gz]
 [2023-07-07 01:05:13] INFO root fetch - main [MainThread]: End processing [opendoor]: success
 [2023-07-07 01:05:13] INFO root fetch - main [MainThread]: Store serial: [18792005]
+[2023-07-07 01:10:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18792005]
+[2023-07-07 01:10:24] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-07 01:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyquil
+[2023-07-07 01:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sdr
+[2023-07-07 01:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neuro-flow
+[2023-07-07 01:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyquokka
+[2023-07-07 01:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: swarms
+[2023-07-07 01:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spotPython
+[2023-07-07 01:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pref-voting
+[2023-07-07 01:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: city-score
+[2023-07-07 01:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: grai-source-metabase
+[2023-07-07 01:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: blacklight
+[2023-07-07 01:10:24] INFO root fetch - processPackages [pyquil]: New version: [4.0.0rc9] Old Version: [4.0.0rc8]
+[2023-07-07 01:10:24] INFO root fetch - processPackages [city-score]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-07 01:10:24] WARNING root fetch - processPackages [sdr]: Skipping, unable to determine old version
+[2023-07-07 01:10:24] INFO root fetch - processPackages [sdr]: Start processing: granian
+[2023-07-07 01:10:24] INFO root fetch - main [MainThread]: End processing [sdr] error
+[2023-07-07 01:10:24] INFO root fetch - processPackages [pyquokka]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-07 01:10:24] INFO root fetch - processPackages [spotPython]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-07 01:10:24] INFO root fetch - processPackages [grai-source-metabase]: New version: [0.1.1a2] Old Version: [0.1.1a1]
+[2023-07-07 01:10:24] INFO root fetch - processPackages [pref-voting]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-07 01:10:24] INFO root fetch - processPackages [swarms]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-07-07 01:10:24] INFO root fetch - processPackages [neuro-flow]: New version: [23.7.0] Old Version: [22.8.1]
+[2023-07-07 01:10:24] INFO root fetch - processPackages [blacklight]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-07 01:10:24] INFO root fetch - processPackages [city-score]: Downloading https://files.pythonhosted.org/packages/17/d5/61cc9e63e274760240400eca13fd845e18413b0db483322e6a171b64ccb6/city_score-0.1.1.tar.gz
+[2023-07-07 01:10:24] INFO root fetch - processPackages [granian]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-07 01:10:24] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/f0/86/937b2ad1be20038d9e07320c13e0e1116a63f0c52136dfad3b234c8075fc/swarms-0.7.6.tar.gz
+[2023-07-07 01:10:24] INFO root fetch - processPackages [pyquokka]: Downloading https://files.pythonhosted.org/packages/2c/3e/55badf3a55472df25c4eeb944c8f452add1c4b2087576c29ccd64b96102f/pyquokka-0.3.1-py3-none-any.whl
+[2023-07-07 01:10:24] INFO root fetch - processPackages [neuro-flow]: Downloading https://files.pythonhosted.org/packages/79/7c/e465017ae9e326980581f2e35defbdea9649ab94b2daac4955c45f4b2593/neuro-flow-22.8.1.tar.gz
+[2023-07-07 01:10:24] INFO root fetch - processPackages [pyquil]: Downloading https://files.pythonhosted.org/packages/d9/31/04bebe8a0e1e9f50a7c18106b7d8ade8b3377f99c6a2249e5a49105b59b4/pyquil-4.0.0rc8.tar.gz
+[2023-07-07 01:10:24] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/14/88/975343b66219e2c5d50e4aa0546bfafa4194da75772a7c862aa956f7aaf3/spotPython-0.5.0.tar.gz
+[2023-07-07 01:10:24] INFO root fetch - processPackages [pref-voting]: Downloading https://files.pythonhosted.org/packages/77/25/ffa5ff3e018fc7f7c9fb8831d3ec2f3537f5fb2b9ae6b49310fcdce19d48/pref_voting-0.4.8.tar.gz
+[2023-07-07 01:10:24] INFO root fetch - processPackages [grai-source-metabase]: Downloading https://files.pythonhosted.org/packages/fd/0b/9d8f041d3d5120519f5b17d3a693208bce3f58b8eaf9302c31521dbe9fbe/grai_source_metabase-0.1.1a1.tar.gz
+[2023-07-07 01:10:24] INFO root fetch - processPackages [blacklight]: Downloading https://files.pythonhosted.org/packages/1a/eb/9aae4a5193652fa5a214c3675bcd6d6b33f8967f749d8ab2555b3e12c829/blacklight-0.1.7.tar.gz
+[2023-07-07 01:10:25] INFO root fetch - processPackages [granian]: Downloading https://files.pythonhosted.org/packages/dc/2f/7d65bccfc84359cff50938caf73de79e1358a6e8fd666fb78c89ac5649f3/granian-0.5.0.tar.gz
+[2023-07-07 01:10:25] WARNING root fetch - processPackages [spotPython]: Skipping package: exceeds size limit 28705317>=10485760
+[2023-07-07 01:10:25] INFO root fetch - processPackages [spotPython]: Start processing: ecoengine
+[2023-07-07 01:10:25] INFO root fetch - main [MainThread]: End processing [spotPython] error
+[2023-07-07 01:10:25] INFO root fetch - processPackages [city-score]: Downloading https://files.pythonhosted.org/packages/a8/61/5c2b8b933cb72252296a0f40537bc3cfe36918f86c539658496834fbc1bd/city_score-0.1.2.tar.gz
+[2023-07-07 01:10:25] INFO root fetch - processPackages [ecoengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 01:10:25] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/27/0f/6b8c781519e40f046502ee0081218d3026064e9475cb195423a0a88a1c17/swarms-0.7.7.tar.gz
+[2023-07-07 01:10:25] INFO root fetch - processPackages [neuro-flow]: Downloading https://files.pythonhosted.org/packages/f1/ee/35c684d77770b62f00d25a378c3e335dc07cc191a0463720f0deb88cc2a2/neuro-flow-23.7.0.tar.gz
+[2023-07-07 01:10:25] INFO root fetch - processPackages [city-score]: executing diffoscope
+[2023-07-07 01:10:25] INFO root fetch - processPackages [city-score]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/city_score-0.1.1.tar.gz tmp/city_score-0.1.2.tar.gz --markdown 20230707/c/city-score/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-07 01:10:25] INFO root fetch - processPackages [pyquokka]: Downloading https://files.pythonhosted.org/packages/9a/02/8aba4ab52f32ad0d25e6070692fbbd769f290ce8c3a15c081b93cc01d888/pyquokka-0.3.2-py3-none-any.whl
+[2023-07-07 01:10:25] INFO root fetch - processPackages [pyquil]: Downloading https://files.pythonhosted.org/packages/3f/f5/a07361d9cd9abaff042e646976f0046519493e9c310c03d2e627f3ff97e8/pyquil-4.0.0rc9.tar.gz
+[2023-07-07 01:10:25] INFO root fetch - processPackages [grai-source-metabase]: Downloading https://files.pythonhosted.org/packages/0b/34/1b20d314073add20ac0157de9375e49736817c94c94992bc434c71a1254f/grai_source_metabase-0.1.1a2.tar.gz
+[2023-07-07 01:10:25] INFO root fetch - processPackages [blacklight]: Downloading https://files.pythonhosted.org/packages/89/e6/d398f51f42fcc048c60f33a309dbc152215bbcac08d37d996d8544b69dd6/blacklight-0.1.8.tar.gz
+[2023-07-07 01:10:25] INFO root fetch - processPackages [pref-voting]: Downloading https://files.pythonhosted.org/packages/25/33/15bd2e1b3749a053085a61c8c9e6deafd9ffce855827db1f7ad34acb69bb/pref_voting-0.4.9.tar.gz
+[2023-07-07 01:10:25] INFO root fetch - processPackages [ecoengine]: Downloading https://files.pythonhosted.org/packages/d8/e5/5b3594045f107ce24e058d4f5ac188087d76010f4389991a7c9a9ce4beb6/ecoengine-0.0.8.tar.gz
+[2023-07-07 01:10:25] INFO root fetch - processPackages [granian]: Downloading https://files.pythonhosted.org/packages/52/53/48d209ed071f05469915cb1557aa4adf25ef776db00fe17c2044a5e23f00/granian-0.5.1-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-07-07 01:10:25] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-07 01:10:25] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.7.6.tar.gz tmp/swarms-0.7.7.tar.gz --markdown 20230707/s/swarms/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-07-07 01:10:25] INFO root fetch - processPackages [grai-source-metabase]: executing diffoscope
+[2023-07-07 01:10:25] INFO root fetch - processPackages [grai-source-metabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_metabase-0.1.1a1.tar.gz tmp/grai_source_metabase-0.1.1a2.tar.gz --markdown 20230707/g/grai-source-metabase/0.1.1a1-0.1.1a2/diff.md --exclude *.pyd
+[2023-07-07 01:10:25] INFO root fetch - processPackages [pyquil]: executing diffoscope
+[2023-07-07 01:10:25] INFO root fetch - processPackages [pyquil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquil-4.0.0rc8.tar.gz tmp/pyquil-4.0.0rc9.tar.gz --markdown 20230707/p/pyquil/4.0.0rc8-4.0.0rc9/diff.md --exclude *.pyd
+[2023-07-07 01:10:25] INFO root fetch - processPackages [pyquokka]: executing diffoscope
+[2023-07-07 01:10:25] INFO root fetch - processPackages [pyquokka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquokka-0.3.1-py3-none-any.whl.zip tmp/pyquokka-0.3.2-py3-none-any.whl.zip --markdown 20230707/p/pyquokka/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-07 01:10:25] INFO root fetch - processPackages [blacklight]: executing diffoscope
+[2023-07-07 01:10:25] INFO root fetch - processPackages [blacklight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blacklight-0.1.7.tar.gz tmp/blacklight-0.1.8.tar.gz --markdown 20230707/b/blacklight/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-07 01:10:25] INFO root fetch - processPackages [neuro-flow]: executing diffoscope
+[2023-07-07 01:10:25] INFO root fetch - processPackages [neuro-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuro-flow-22.8.1.tar.gz tmp/neuro-flow-23.7.0.tar.gz --markdown 20230707/n/neuro-flow/22.8.1-23.7.0/diff.md --exclude *.pyd
+[2023-07-07 01:10:26] INFO root fetch - processPackages [ecoengine]: Downloading https://files.pythonhosted.org/packages/b4/06/8712491ed487422ca74801e6051cd89e398183d43abb0a99e904022af6ba/ecoengine-0.0.9.tar.gz
+[2023-07-07 01:10:26] INFO root fetch - processPackages [granian]: executing diffoscope
+[2023-07-07 01:10:26] INFO root fetch - processPackages [granian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/granian-0.5.0.tar.gz tmp/granian-0.5.1-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20230707/g/granian/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-07 01:10:26] INFO root fetch - processPackages [ecoengine]: executing diffoscope
+[2023-07-07 01:10:26] INFO root fetch - processPackages [ecoengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoengine-0.0.8.tar.gz tmp/ecoengine-0.0.9.tar.gz --markdown 20230707/e/ecoengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 01:10:26] INFO root fetch - processPackages [pref-voting]: executing diffoscope
+[2023-07-07 01:10:26] INFO root fetch - processPackages [pref-voting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pref_voting-0.4.8.tar.gz tmp/pref_voting-0.4.9.tar.gz --markdown 20230707/p/pref-voting/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-07 01:10:26] INFO root fetch - processPackages [city-score]: Remove: archive file [/home/abi/fetcher/tmp/city_score-0.1.1.tar.gz]
+[2023-07-07 01:10:26] INFO root fetch - processPackages [city-score]: Remove: archive file [/home/abi/fetcher/tmp/city_score-0.1.2.tar.gz]
+[2023-07-07 01:10:26] INFO root fetch - processPackages [city-score]: Start processing: ecoengine
+[2023-07-07 01:10:26] INFO root fetch - main [MainThread]: End processing [city-score]: success
+[2023-07-07 01:10:26] INFO root fetch - processPackages [ecoengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 01:10:26] INFO root fetch - processPackages [ecoengine]: executing diffoscope
+[2023-07-07 01:10:26] INFO root fetch - processPackages [ecoengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoengine-0.0.8.tar.gz tmp/ecoengine-0.0.9.tar.gz --markdown 20230707/e/ecoengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 01:10:27] INFO root fetch - processPackages [grai-source-metabase]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_metabase-0.1.1a1.tar.gz]
+[2023-07-07 01:10:27] INFO root fetch - processPackages [grai-source-metabase]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_metabase-0.1.1a2.tar.gz]
+[2023-07-07 01:10:27] INFO root fetch - main [MainThread]: End processing [grai-source-metabase]: success
+[2023-07-07 01:10:27] INFO root fetch - processPackages [blacklight]: Remove: archive file [/home/abi/fetcher/tmp/blacklight-0.1.7.tar.gz]
+[2023-07-07 01:10:27] INFO root fetch - processPackages [blacklight]: Remove: archive file [/home/abi/fetcher/tmp/blacklight-0.1.8.tar.gz]
+[2023-07-07 01:10:27] INFO root fetch - main [MainThread]: End processing [blacklight]: success
+[2023-07-07 01:10:27] INFO root fetch - processPackages [pyquokka]: Remove: archive file [/home/abi/fetcher/tmp/pyquokka-0.3.1-py3-none-any.whl.zip]
+[2023-07-07 01:10:27] INFO root fetch - processPackages [pyquokka]: Remove: archive file [/home/abi/fetcher/tmp/pyquokka-0.3.2-py3-none-any.whl.zip]
+[2023-07-07 01:10:27] INFO root fetch - main [MainThread]: End processing [pyquokka]: success
+[2023-07-07 01:10:27] INFO root fetch - processPackages [granian]: Remove: archive file [/home/abi/fetcher/tmp/granian-0.5.0.tar.gz]
+[2023-07-07 01:10:27] INFO root fetch - processPackages [granian]: Remove: archive file [/home/abi/fetcher/tmp/granian-0.5.1-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2023-07-07 01:10:27] INFO root fetch - main [MainThread]: End processing [granian]: success
+[2023-07-07 01:10:27] INFO root fetch - processPackages [pyquil]: Remove: archive file [/home/abi/fetcher/tmp/pyquil-4.0.0rc8.tar.gz]
+[2023-07-07 01:10:27] INFO root fetch - processPackages [pyquil]: Remove: archive file [/home/abi/fetcher/tmp/pyquil-4.0.0rc9.tar.gz]
+[2023-07-07 01:10:27] INFO root fetch - main [MainThread]: End processing [pyquil]: success
+[2023-07-07 01:10:27] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.7.6.tar.gz]
+[2023-07-07 01:10:27] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.7.7.tar.gz]
+[2023-07-07 01:10:27] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-07 01:10:27] INFO root fetch - processPackages [ecoengine]: Remove: archive file [/home/abi/fetcher/tmp/ecoengine-0.0.8.tar.gz]
+[2023-07-07 01:10:27] INFO root fetch - processPackages [ecoengine]: Remove: archive file [/home/abi/fetcher/tmp/ecoengine-0.0.9.tar.gz]
+[2023-07-07 01:10:27] INFO root fetch - main [MainThread]: End processing [ecoengine]: success
+[2023-07-07 01:10:27] INFO root fetch - processPackages [neuro-flow]: Remove: archive file [/home/abi/fetcher/tmp/neuro-flow-22.8.1.tar.gz]
+[2023-07-07 01:10:27] INFO root fetch - processPackages [neuro-flow]: Remove: archive file [/home/abi/fetcher/tmp/neuro-flow-23.7.0.tar.gz]
+[2023-07-07 01:10:27] INFO root fetch - main [MainThread]: End processing [neuro-flow]: success
+[2023-07-07 01:10:27] INFO root fetch - processPackages [pref-voting]: Remove: archive file [/home/abi/fetcher/tmp/pref_voting-0.4.8.tar.gz]
+[2023-07-07 01:10:27] INFO root fetch - processPackages [pref-voting]: Remove: archive file [/home/abi/fetcher/tmp/pref_voting-0.4.9.tar.gz]
+[2023-07-07 01:10:27] INFO root fetch - main [MainThread]: End processing [pref-voting]: success
+[2023-07-07 01:10:28] INFO root fetch - main [MainThread]: End processing [ecoengine]: success
+[2023-07-07 01:10:28] INFO root fetch - main [MainThread]: Store serial: [18792059]
