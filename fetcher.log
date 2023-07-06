@@ -306,3 +306,105 @@
 [2023-07-07 00:21:56] INFO root fetch - processPackages [Phidget22Native]: Remove: archive file [/home/abi/fetcher/tmp/Phidget22Native-1.9.20220203-cp39-cp39-win_amd64.whl.zip]
 [2023-07-07 00:21:56] INFO root fetch - main [MainThread]: End processing [Phidget22Native]: success
 [2023-07-07 00:21:56] INFO root fetch - main [MainThread]: Store serial: [18791607]
+[2023-07-07 00:27:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18791607]
+[2023-07-07 00:27:08] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-07 00:27:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: magpiem
+[2023-07-07 00:27:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amortization
+[2023-07-07 00:27:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tarvis-common
+[2023-07-07 00:27:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: punictest
+[2023-07-07 00:27:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: myass
+[2023-07-07 00:27:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyspeedinsights
+[2023-07-07 00:27:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: EnergyCapSdk
+[2023-07-07 00:27:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fast-diff-py
+[2023-07-07 00:27:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ott-jax
+[2023-07-07 00:27:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hspylib
+[2023-07-07 00:27:09] INFO root fetch - processPackages [tarvis-common]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-07 00:27:09] INFO root fetch - processPackages [amortization]: New version: [2.3.0] Old Version: [2.2.1]
+[2023-07-07 00:27:09] INFO root fetch - processPackages [magpiem]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-07 00:27:09] WARNING root fetch - processPackages [myass]: Skipping, unable to determine old version
+[2023-07-07 00:27:09] INFO root fetch - processPackages [myass]: Start processing: sgclimaapiclient
+[2023-07-07 00:27:09] INFO root fetch - main [MainThread]: End processing [myass] error
+[2023-07-07 00:27:09] INFO root fetch - processPackages [punictest]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-07 00:27:09] WARNING root fetch - processPackages [fast-diff-py]: Skipping, unable to determine old version
+[2023-07-07 00:27:09] INFO root fetch - processPackages [fast-diff-py]: Start processing: dwave-preprocessing
+[2023-07-07 00:27:09] INFO root fetch - processPackages [pyspeedinsights]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-07 00:27:09] INFO root fetch - main [MainThread]: End processing [fast-diff-py] error
+[2023-07-07 00:27:09] INFO root fetch - processPackages [hspylib]: New version: [0.9.23] Old Version: [0.9.22]
+[2023-07-07 00:27:09] INFO root fetch - processPackages [ott-jax]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-07 00:27:09] INFO root fetch - processPackages [EnergyCapSdk]: New version: [8.2304.4636] Old Version: [8.2304.4635]
+[2023-07-07 00:27:09] INFO root fetch - processPackages [sgclimaapiclient]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-07 00:27:09] INFO root fetch - processPackages [dwave-preprocessing]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-07 00:27:09] INFO root fetch - processPackages [pyspeedinsights]: Downloading https://files.pythonhosted.org/packages/9b/ec/1c3aefd77752e0043b3373a6397eacd19535e0f0e1443bbb3a446798da1a/pyspeedinsights-0.4.0.tar.gz
+[2023-07-07 00:27:09] INFO root fetch - processPackages [amortization]: Downloading https://files.pythonhosted.org/packages/85/25/ae5bef50146b6a0f0865488f36ab2123f59c0bd7673a47b8a5d66c22b11e/amortization-2.2.1.tar.gz
+[2023-07-07 00:27:09] INFO root fetch - processPackages [hspylib]: Downloading https://files.pythonhosted.org/packages/9a/aa/de6dd6d06a6c7b1d105e1a6cd5b023a280216a7fc26d69f8b6fe0e3e9851/hspylib-0.9.22.tar.gz
+[2023-07-07 00:27:09] INFO root fetch - processPackages [dwave-preprocessing]: Downloading https://files.pythonhosted.org/packages/e9/97/639a8decc538d0f0ef175890b6e67c13202b05e6119a029210306089783b/dwave-preprocessing-0.6.1.tar.gz
+[2023-07-07 00:27:09] INFO root fetch - processPackages [punictest]: Downloading https://files.pythonhosted.org/packages/0d/11/fc934e504e9c067542056bb0a501df175960d95e529c6c4b8aa153f84afc/punictest-0.1.0.tar.gz
+[2023-07-07 00:27:09] INFO root fetch - processPackages [tarvis-common]: Downloading https://files.pythonhosted.org/packages/68/d3/d8cef235562d5bd6af29087b75ae5254c3be57c64680f48d1a4d2e5c5b46/tarvis-common-0.9.8.tar.gz
+[2023-07-07 00:27:09] INFO root fetch - processPackages [magpiem]: Downloading https://files.pythonhosted.org/packages/45/35/d250bf6573e69555149afd85c64472c98900c85485f9ba46f5ac9f0b779a/MagpiEM-0.2.8-py3.10.egg
+[2023-07-07 00:27:09] INFO root fetch - processPackages [EnergyCapSdk]: Downloading https://files.pythonhosted.org/packages/7e/0f/8753b73d5520eabdb1b206e6d9da011d90c8c4dc398106c660bfd26f2d45/EnergyCapSdk-8.2304.4635.tar.gz
+[2023-07-07 00:27:09] INFO root fetch - processPackages [sgclimaapiclient]: Downloading https://files.pythonhosted.org/packages/88/50/7a4d65f2a5ebb8c304716e6c9c6a904ab89aa6e106ba951a82fe959d10b6/sgclimaapiclient-1.1.8.tar.gz
+[2023-07-07 00:27:09] INFO root fetch - processPackages [ott-jax]: Downloading https://files.pythonhosted.org/packages/e3/fc/2bb8ac15c38c4cddcd372b81a704a1d71e1b387a70632b79fd2e4172c535/ott-jax-0.4.1.tar.gz
+[2023-07-07 00:27:09] INFO root fetch - processPackages [hspylib]: Downloading https://files.pythonhosted.org/packages/8f/df/44665e29eaf1932d6c04fa68c0fbd4eb9231dd909256647ad29c0c25f8ae/hspylib-0.9.23.tar.gz
+[2023-07-07 00:27:09] INFO root fetch - processPackages [amortization]: Downloading https://files.pythonhosted.org/packages/20/96/c6170e2197dc0458733e4427f9de59a2241200aff10fca066664e6c7ebad/amortization-2.3.0.tar.gz
+[2023-07-07 00:27:09] INFO root fetch - processPackages [punictest]: Downloading https://files.pythonhosted.org/packages/30/68/14a2fcbcb30b97e198481244ea375e02514131866adf7aa7b69fd4fbc7f3/punictest-0.1.1.tar.gz
+[2023-07-07 00:27:10] INFO root fetch - processPackages [pyspeedinsights]: Downloading https://files.pythonhosted.org/packages/51/da/2f36893edab71c2fe83bab8098ebe6e029ca2b35c207f9ad668a4e606663/pyspeedinsights-0.5.0.tar.gz
+[2023-07-07 00:27:10] INFO root fetch - processPackages [tarvis-common]: Downloading https://files.pythonhosted.org/packages/ef/1e/75a1e3a7561cc00ef6d25a9330b8870a5a7fdca7402e502c04219846a9ab/tarvis-common-0.9.9.tar.gz
+[2023-07-07 00:27:10] INFO root fetch - processPackages [dwave-preprocessing]: Downloading https://files.pythonhosted.org/packages/d2/ee/9355437ea15b49e6dbae64389f00f6fd7996ff1a41dbb795a2b85051290c/dwave_preprocessing-0.6.2-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-07-07 00:27:10] INFO root fetch - processPackages [hspylib]: executing diffoscope
+[2023-07-07 00:27:10] INFO root fetch - processPackages [hspylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-0.9.22.tar.gz tmp/hspylib-0.9.23.tar.gz --markdown 20230707/h/hspylib/0.9.22-0.9.23/diff.md --exclude *.pyd
+[2023-07-07 00:27:10] INFO root fetch - processPackages [amortization]: executing diffoscope
+[2023-07-07 00:27:10] INFO root fetch - processPackages [amortization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amortization-2.2.1.tar.gz tmp/amortization-2.3.0.tar.gz --markdown 20230707/a/amortization/2.2.1-2.3.0/diff.md --exclude *.pyd
+[2023-07-07 00:27:10] INFO root fetch - processPackages [EnergyCapSdk]: Downloading https://files.pythonhosted.org/packages/a7/28/5acb0cd0346d6fc9b31a5ee03b8a247a6d018281c89fde5a7d577c30c7d5/EnergyCapSdk-8.2304.4636.tar.gz
+[2023-07-07 00:27:10] INFO root fetch - processPackages [ott-jax]: Downloading https://files.pythonhosted.org/packages/2e/2a/c267566296dab49da8000d66b8e931f0c7457be703060d37fadb19d6b820/ott-jax-0.4.2.tar.gz
+[2023-07-07 00:27:10] INFO root fetch - processPackages [magpiem]: Downloading https://files.pythonhosted.org/packages/51/5a/bf1b8ac14d82777897da1426f318247eff70192c32ddfa661461d68749b1/MagpiEM-0.2.9-py3.10.egg
+[2023-07-07 00:27:10] INFO root fetch - processPackages [tarvis-common]: executing diffoscope
+[2023-07-07 00:27:10] INFO root fetch - processPackages [tarvis-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tarvis-common-0.9.8.tar.gz tmp/tarvis-common-0.9.9.tar.gz --markdown 20230707/t/tarvis-common/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-07 00:27:10] INFO root fetch - processPackages [pyspeedinsights]: executing diffoscope
+[2023-07-07 00:27:10] INFO root fetch - processPackages [pyspeedinsights]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspeedinsights-0.4.0.tar.gz tmp/pyspeedinsights-0.5.0.tar.gz --markdown 20230707/p/pyspeedinsights/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-07 00:27:10] INFO root fetch - processPackages [magpiem]: executing diffoscope
+[2023-07-07 00:27:10] INFO root fetch - processPackages [magpiem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MagpiEM-0.2.8-py3.10.egg tmp/MagpiEM-0.2.9-py3.10.egg --markdown 20230707/m/magpiem/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-07 00:27:10] INFO root fetch - processPackages [ott-jax]: executing diffoscope
+[2023-07-07 00:27:10] INFO root fetch - processPackages [ott-jax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ott-jax-0.4.1.tar.gz tmp/ott-jax-0.4.2.tar.gz --markdown 20230707/o/ott-jax/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-07 00:27:10] INFO root fetch - processPackages [punictest]: executing diffoscope
+[2023-07-07 00:27:10] INFO root fetch - processPackages [punictest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/punictest-0.1.0.tar.gz tmp/punictest-0.1.1.tar.gz --markdown 20230707/p/punictest/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-07 00:27:10] INFO root fetch - processPackages [EnergyCapSdk]: executing diffoscope
+[2023-07-07 00:27:10] INFO root fetch - processPackages [EnergyCapSdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EnergyCapSdk-8.2304.4635.tar.gz tmp/EnergyCapSdk-8.2304.4636.tar.gz --markdown 20230707/E/EnergyCapSdk/8.2304.4635-8.2304.4636/diff.md --exclude *.pyd
+[2023-07-07 00:27:10] INFO root fetch - processPackages [sgclimaapiclient]: Downloading https://files.pythonhosted.org/packages/6f/10/7c81648b2176694508c5aa7d054fc4f41d8e89f877d149f20290c26b1f16/sgclimaapiclient-1.1.9.tar.gz
+[2023-07-07 00:27:10] INFO root fetch - processPackages [sgclimaapiclient]: executing diffoscope
+[2023-07-07 00:27:10] INFO root fetch - processPackages [sgclimaapiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sgclimaapiclient-1.1.8.tar.gz tmp/sgclimaapiclient-1.1.9.tar.gz --markdown 20230707/s/sgclimaapiclient/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-07 00:27:11] INFO root fetch - processPackages [amortization]: Remove: archive file [/home/abi/fetcher/tmp/amortization-2.2.1.tar.gz]
+[2023-07-07 00:27:11] INFO root fetch - processPackages [amortization]: Remove: archive file [/home/abi/fetcher/tmp/amortization-2.3.0.tar.gz]
+[2023-07-07 00:27:11] INFO root fetch - processPackages [amortization]: Start processing: pyvoikko
+[2023-07-07 00:27:11] INFO root fetch - main [MainThread]: End processing [amortization]: success
+[2023-07-07 00:27:11] WARNING root fetch - processPackages [pyvoikko]: Skipping, unable to determine old version
+[2023-07-07 00:27:11] INFO root fetch - main [MainThread]: End processing [pyvoikko] error
+[2023-07-07 00:27:11] INFO root fetch - processPackages [tarvis-common]: Remove: archive file [/home/abi/fetcher/tmp/tarvis-common-0.9.8.tar.gz]
+[2023-07-07 00:27:11] INFO root fetch - processPackages [tarvis-common]: Remove: archive file [/home/abi/fetcher/tmp/tarvis-common-0.9.9.tar.gz]
+[2023-07-07 00:27:11] INFO root fetch - main [MainThread]: End processing [tarvis-common]: success
+[2023-07-07 00:27:11] INFO root fetch - processPackages [pyspeedinsights]: Remove: archive file [/home/abi/fetcher/tmp/pyspeedinsights-0.4.0.tar.gz]
+[2023-07-07 00:27:11] INFO root fetch - processPackages [pyspeedinsights]: Remove: archive file [/home/abi/fetcher/tmp/pyspeedinsights-0.5.0.tar.gz]
+[2023-07-07 00:27:11] INFO root fetch - main [MainThread]: End processing [pyspeedinsights]: success
+[2023-07-07 00:27:11] INFO root fetch - processPackages [hspylib]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-0.9.22.tar.gz]
+[2023-07-07 00:27:11] INFO root fetch - processPackages [hspylib]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-0.9.23.tar.gz]
+[2023-07-07 00:27:11] INFO root fetch - main [MainThread]: End processing [hspylib]: success
+[2023-07-07 00:27:11] INFO root fetch - processPackages [punictest]: Remove: archive file [/home/abi/fetcher/tmp/punictest-0.1.0.tar.gz]
+[2023-07-07 00:27:11] INFO root fetch - processPackages [punictest]: Remove: archive file [/home/abi/fetcher/tmp/punictest-0.1.1.tar.gz]
+[2023-07-07 00:27:11] INFO root fetch - main [MainThread]: End processing [punictest]: success
+[2023-07-07 00:27:11] INFO root fetch - processPackages [magpiem]: Remove: archive file [/home/abi/fetcher/tmp/MagpiEM-0.2.8-py3.10.egg]
+[2023-07-07 00:27:11] INFO root fetch - processPackages [magpiem]: Remove: archive file [/home/abi/fetcher/tmp/MagpiEM-0.2.9-py3.10.egg]
+[2023-07-07 00:27:11] INFO root fetch - main [MainThread]: End processing [magpiem]: success
+[2023-07-07 00:27:12] INFO root fetch - processPackages [sgclimaapiclient]: Remove: archive file [/home/abi/fetcher/tmp/sgclimaapiclient-1.1.8.tar.gz]
+[2023-07-07 00:27:12] INFO root fetch - processPackages [sgclimaapiclient]: Remove: archive file [/home/abi/fetcher/tmp/sgclimaapiclient-1.1.9.tar.gz]
+[2023-07-07 00:27:12] INFO root fetch - main [MainThread]: End processing [sgclimaapiclient]: success
+[2023-07-07 00:27:12] INFO root fetch - processPackages [ott-jax]: Remove: archive file [/home/abi/fetcher/tmp/ott-jax-0.4.1.tar.gz]
+[2023-07-07 00:27:12] INFO root fetch - processPackages [ott-jax]: Remove: archive file [/home/abi/fetcher/tmp/ott-jax-0.4.2.tar.gz]
+[2023-07-07 00:27:12] INFO root fetch - main [MainThread]: End processing [ott-jax]: success
+[2023-07-07 00:27:13] INFO root fetch - processPackages [dwave-preprocessing]: executing diffoscope
+[2023-07-07 00:27:13] INFO root fetch - processPackages [dwave-preprocessing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwave-preprocessing-0.6.1.tar.gz tmp/dwave_preprocessing-0.6.2-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20230707/d/dwave-preprocessing/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-07 00:27:14] INFO root fetch - processPackages [dwave-preprocessing]: Remove: archive file [/home/abi/fetcher/tmp/dwave-preprocessing-0.6.1.tar.gz]
+[2023-07-07 00:27:14] INFO root fetch - processPackages [dwave-preprocessing]: Remove: archive file [/home/abi/fetcher/tmp/dwave_preprocessing-0.6.2-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2023-07-07 00:27:14] INFO root fetch - main [MainThread]: End processing [dwave-preprocessing]: success
+[2023-07-07 00:27:23] INFO root fetch - processPackages [EnergyCapSdk]: Remove: archive file [/home/abi/fetcher/tmp/EnergyCapSdk-8.2304.4635.tar.gz]
+[2023-07-07 00:27:23] INFO root fetch - processPackages [EnergyCapSdk]: Remove: archive file [/home/abi/fetcher/tmp/EnergyCapSdk-8.2304.4636.tar.gz]
+[2023-07-07 00:27:23] INFO root fetch - main [MainThread]: End processing [EnergyCapSdk]: success
+[2023-07-07 00:27:23] INFO root fetch - main [MainThread]: Store serial: [18791668]
