@@ -1731,3 +1731,111 @@
 [2023-07-07 01:47:03] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev202307052345.tar.gz]
 [2023-07-07 01:47:03] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
 [2023-07-07 01:47:03] INFO root fetch - main [MainThread]: Store serial: [18792358]
+[2023-07-07 01:52:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18792358]
+[2023-07-07 01:52:12] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-07 01:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hspylib-clitt
+[2023-07-07 01:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: creativecontrol-circuitpython-ltc166x
+[2023-07-07 01:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: micropython-lsm6dsox
+[2023-07-07 01:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phasellm
+[2023-07-07 01:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dank-mids
+[2023-07-07 01:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hspylib-cfman
+[2023-07-07 01:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: agixtsdk
+[2023-07-07 01:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pxsecurityapi
+[2023-07-07 01:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pymirc
+[2023-07-07 01:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: agentmemory
+[2023-07-07 01:52:12] WARNING root fetch - processPackages [agentmemory]: Skipping, unable to determine old version
+[2023-07-07 01:52:12] INFO root fetch - processPackages [agentmemory]: Start processing: leechcorepyc
+[2023-07-07 01:52:12] INFO root fetch - main [MainThread]: End processing [agentmemory] error
+[2023-07-07 01:52:12] INFO root fetch - processPackages [creativecontrol-circuitpython-ltc166x]: New version: [1.1] Old Version: [0.2.0]
+[2023-07-07 01:52:12] INFO root fetch - processPackages [agixtsdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 01:52:12] INFO root fetch - processPackages [pymirc]: New version: [0.29] Old Version: [0.28]
+[2023-07-07 01:52:12] WARNING root fetch - processPackages [micropython-lsm6dsox]: Skipping, unable to determine old version
+[2023-07-07 01:52:12] INFO root fetch - processPackages [micropython-lsm6dsox]: Start processing: memprocfs
+[2023-07-07 01:52:12] INFO root fetch - main [MainThread]: End processing [micropython-lsm6dsox] error
+[2023-07-07 01:52:12] INFO root fetch - processPackages [hspylib-cfman]: New version: [0.9.96] Old Version: [0.9.95]
+[2023-07-07 01:52:12] INFO root fetch - processPackages [pxsecurityapi]: New version: [1.0.2] Old Version: [0.0.0]
+[2023-07-07 01:52:12] INFO root fetch - processPackages [phasellm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 01:52:12] INFO root fetch - processPackages [hspylib-clitt]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-07 01:52:12] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-07 01:52:12] INFO root fetch - processPackages [leechcorepyc]: New version: [2.8.1] Old Version: [2.8.0]
+[2023-07-07 01:52:12] INFO root fetch - processPackages [agixtsdk]: Downloading https://files.pythonhosted.org/packages/fc/f4/85d852d47773fa6751a3ed8d3ca02e654579a0a110cdc23896aebd954b2c/agixtsdk-0.0.8.tar.gz
+[2023-07-07 01:52:13] INFO root fetch - processPackages [memprocfs]: New version: [5.7.0] Old Version: [5.6.1]
+[2023-07-07 01:52:13] INFO root fetch - processPackages [hspylib-cfman]: Downloading https://files.pythonhosted.org/packages/8a/68/dd4c0981dd1b3a7060ed4ca9b82dd3ee093dd51fda00deb55ecc0776d484/hspylib-cfman-0.9.95.tar.gz
+[2023-07-07 01:52:13] INFO root fetch - processPackages [pxsecurityapi]: Downloading https://files.pythonhosted.org/packages/85/9a/6ec7202be61f9006da157ef0c9c209eb7e66dfdbdd85bd87df1aeb4b2fcb/pxsecurityapi-0.0.0.tar.gz
+[2023-07-07 01:52:13] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-07 01:52:13] INFO root fetch - processPackages [creativecontrol-circuitpython-ltc166x]: Downloading https://files.pythonhosted.org/packages/dc/40/8599bea9d7d6050028aaad29c9cd28f429bd050159e92b56e837895600a7/creativecontrol-circuitpython-ltc166x-0.2.0.tar.gz
+[2023-07-07 01:52:13] INFO root fetch - processPackages [pymirc]: Downloading https://files.pythonhosted.org/packages/74/89/61804c69fd21a8349c4f823fe137cb6bd5957267a537be0b3440f24a2c5f/pymirc-0.28.tar.gz
+[2023-07-07 01:52:13] INFO root fetch - processPackages [phasellm]: Downloading https://files.pythonhosted.org/packages/58/22/764eea6278a8475eeffe45d1cdb8fb1ab241e07a4286813d00c39e410c6b/phasellm-0.0.8.tar.gz
+[2023-07-07 01:52:13] INFO root fetch - processPackages [hspylib-clitt]: Downloading https://files.pythonhosted.org/packages/a0/0f/42b890c8f02902edfff9f8ea73ea79d8acfea76c705b6966ff73e809437a/hspylib-clitt-0.9.8.tar.gz
+[2023-07-07 01:52:13] INFO root fetch - processPackages [leechcorepyc]: Downloading https://files.pythonhosted.org/packages/54/9e/10b361cfa728f728beecfacdc1e4fc2ca0462f56c8e73fd7e8738f5c8f36/leechcorepyc-2.8.0.tar.gz
+[2023-07-07 01:52:13] INFO root fetch - processPackages [memprocfs]: Downloading https://files.pythonhosted.org/packages/86/1f/7f4b7bae6d58d0e1635e2c0cee1de64018569c8560bc54ad4ce3dfecd941/memprocfs-5.6.1.tar.gz
+[2023-07-07 01:52:13] INFO root fetch - processPackages [agixtsdk]: Downloading https://files.pythonhosted.org/packages/74/75/1048551801b0e2aa197b36b7a2d249437127d0d21a98a3aea7016e0929b9/agixtsdk-0.0.9.tar.gz
+[2023-07-07 01:52:13] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-07 01:52:13] INFO root fetch - processPackages [pxsecurityapi]: Downloading https://files.pythonhosted.org/packages/07/2f/bfebdfd5840da9a0602436151b65457340cb78043e343265f52ee3ee4dc2/pxsecurityapi-1.0.2.tar.gz
+[2023-07-07 01:52:13] INFO root fetch - processPackages [hspylib-cfman]: Downloading https://files.pythonhosted.org/packages/09/dc/192b553616e2db44257d69980fd9657ddef0b95d22bb84dcc6728090b3b4/hspylib-cfman-0.9.96.tar.gz
+[2023-07-07 01:52:13] INFO root fetch - processPackages [creativecontrol-circuitpython-ltc166x]: Downloading https://files.pythonhosted.org/packages/0a/4b/342ec1eab7c3321d0a744e625e270abe7d5f7c85f5a63c7d7452cd7d033f/creativecontrol-circuitpython-ltc166x-1.1.tar.gz
+[2023-07-07 01:52:13] INFO root fetch - processPackages [agixtsdk]: executing diffoscope
+[2023-07-07 01:52:13] INFO root fetch - processPackages [agixtsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixtsdk-0.0.8.tar.gz tmp/agixtsdk-0.0.9.tar.gz --markdown 20230707/a/agixtsdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 01:52:13] INFO root fetch - processPackages [pymirc]: Downloading https://files.pythonhosted.org/packages/3e/97/ade89be62bac8a50d702de35fd20113892e86f4e6af347722ee1f3be97db/pymirc-0.29.tar.gz
+[2023-07-07 01:52:13] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-07 01:52:13] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230707/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-07 01:52:13] INFO root fetch - processPackages [hspylib-clitt]: Downloading https://files.pythonhosted.org/packages/47/f9/72c8e44dc280a8f3542b8890670b05e5c03581d2712648f572e4b0717836/hspylib-clitt-0.9.9.tar.gz
+[2023-07-07 01:52:13] INFO root fetch - processPackages [hspylib-cfman]: executing diffoscope
+[2023-07-07 01:52:13] INFO root fetch - processPackages [hspylib-cfman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-cfman-0.9.95.tar.gz tmp/hspylib-cfman-0.9.96.tar.gz --markdown 20230707/h/hspylib-cfman/0.9.95-0.9.96/diff.md --exclude *.pyd
+[2023-07-07 01:52:13] INFO root fetch - processPackages [phasellm]: Downloading https://files.pythonhosted.org/packages/a3/5d/a0c8aebdc684c4d65e8df425a9dc2e3319533fd6590e407478d53df20110/phasellm-0.0.9.tar.gz
+[2023-07-07 01:52:13] INFO root fetch - processPackages [creativecontrol-circuitpython-ltc166x]: executing diffoscope
+[2023-07-07 01:52:13] INFO root fetch - processPackages [creativecontrol-circuitpython-ltc166x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/creativecontrol-circuitpython-ltc166x-0.2.0.tar.gz tmp/creativecontrol-circuitpython-ltc166x-1.1.tar.gz --markdown 20230707/c/creativecontrol-circuitpython-ltc166x/0.2.0-1.1/diff.md --exclude *.pyd
+[2023-07-07 01:52:13] INFO root fetch - processPackages [pxsecurityapi]: executing diffoscope
+[2023-07-07 01:52:13] INFO root fetch - processPackages [pxsecurityapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pxsecurityapi-0.0.0.tar.gz tmp/pxsecurityapi-1.0.2.tar.gz --markdown 20230707/p/pxsecurityapi/0.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-07-07 01:52:13] INFO root fetch - processPackages [leechcorepyc]: Downloading https://files.pythonhosted.org/packages/e6/52/24292fbdc9d104ec939737b4a4b656fcc87a4a658d6cf8281f31a4ae82e8/leechcorepyc-2.8.1.tar.gz
+[2023-07-07 01:52:13] INFO root fetch - processPackages [pymirc]: executing diffoscope
+[2023-07-07 01:52:13] INFO root fetch - processPackages [pymirc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymirc-0.28.tar.gz tmp/pymirc-0.29.tar.gz --markdown 20230707/p/pymirc/0.28-0.29/diff.md --exclude *.pyd
+[2023-07-07 01:52:13] INFO root fetch - processPackages [phasellm]: executing diffoscope
+[2023-07-07 01:52:13] INFO root fetch - processPackages [phasellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phasellm-0.0.8.tar.gz tmp/phasellm-0.0.9.tar.gz --markdown 20230707/p/phasellm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 01:52:14] INFO root fetch - processPackages [hspylib-clitt]: executing diffoscope
+[2023-07-07 01:52:14] INFO root fetch - processPackages [hspylib-clitt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-clitt-0.9.8.tar.gz tmp/hspylib-clitt-0.9.9.tar.gz --markdown 20230707/h/hspylib-clitt/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-07 01:52:14] INFO root fetch - processPackages [memprocfs]: Downloading https://files.pythonhosted.org/packages/99/6d/427033d96f7f063589905128a6c8415a37a9e7c298bf47e116a7c98a9e05/memprocfs-5.7.0.tar.gz
+[2023-07-07 01:52:14] INFO root fetch - processPackages [leechcorepyc]: executing diffoscope
+[2023-07-07 01:52:14] INFO root fetch - processPackages [leechcorepyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leechcorepyc-2.8.0.tar.gz tmp/leechcorepyc-2.8.1.tar.gz --markdown 20230707/l/leechcorepyc/2.8.0-2.8.1/diff.md --exclude *.pyd
+[2023-07-07 01:52:14] INFO root fetch - processPackages [memprocfs]: executing diffoscope
+[2023-07-07 01:52:14] INFO root fetch - processPackages [memprocfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memprocfs-5.6.1.tar.gz tmp/memprocfs-5.7.0.tar.gz --markdown 20230707/m/memprocfs/5.6.1-5.7.0/diff.md --exclude *.pyd
+[2023-07-07 01:52:15] INFO root fetch - processPackages [agixtsdk]: Remove: archive file [/home/abi/fetcher/tmp/agixtsdk-0.0.8.tar.gz]
+[2023-07-07 01:52:15] INFO root fetch - processPackages [agixtsdk]: Remove: archive file [/home/abi/fetcher/tmp/agixtsdk-0.0.9.tar.gz]
+[2023-07-07 01:52:15] INFO root fetch - processPackages [agixtsdk]: Start processing: spluscalib
+[2023-07-07 01:52:15] INFO root fetch - main [MainThread]: End processing [agixtsdk]: success
+[2023-07-07 01:52:15] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-07 01:52:15] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-07 01:52:15] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-07 01:52:15] INFO root fetch - processPackages [spluscalib]: New version: [0.3.0] Old Version: [0.2.7]
+[2023-07-07 01:52:15] INFO root fetch - processPackages [hspylib-cfman]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-cfman-0.9.95.tar.gz]
+[2023-07-07 01:52:15] INFO root fetch - processPackages [hspylib-cfman]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-cfman-0.9.96.tar.gz]
+[2023-07-07 01:52:15] INFO root fetch - main [MainThread]: End processing [hspylib-cfman]: success
+[2023-07-07 01:52:15] INFO root fetch - processPackages [spluscalib]: Downloading https://files.pythonhosted.org/packages/6d/47/fb2d39150a5aa68675f6cfae46ee0f853bd5194e669043a5db2a4e9c66fc/spluscalib-0.2.7.tar.gz
+[2023-07-07 01:52:15] INFO root fetch - processPackages [creativecontrol-circuitpython-ltc166x]: Remove: archive file [/home/abi/fetcher/tmp/creativecontrol-circuitpython-ltc166x-0.2.0.tar.gz]
+[2023-07-07 01:52:15] INFO root fetch - processPackages [creativecontrol-circuitpython-ltc166x]: Remove: archive file [/home/abi/fetcher/tmp/creativecontrol-circuitpython-ltc166x-1.1.tar.gz]
+[2023-07-07 01:52:15] INFO root fetch - main [MainThread]: End processing [creativecontrol-circuitpython-ltc166x]: success
+[2023-07-07 01:52:15] INFO root fetch - processPackages [pxsecurityapi]: Remove: archive file [/home/abi/fetcher/tmp/pxsecurityapi-0.0.0.tar.gz]
+[2023-07-07 01:52:15] INFO root fetch - processPackages [pxsecurityapi]: Remove: archive file [/home/abi/fetcher/tmp/pxsecurityapi-1.0.2.tar.gz]
+[2023-07-07 01:52:15] INFO root fetch - main [MainThread]: End processing [pxsecurityapi]: success
+[2023-07-07 01:52:15] INFO root fetch - processPackages [phasellm]: Remove: archive file [/home/abi/fetcher/tmp/phasellm-0.0.8.tar.gz]
+[2023-07-07 01:52:15] INFO root fetch - processPackages [phasellm]: Remove: archive file [/home/abi/fetcher/tmp/phasellm-0.0.9.tar.gz]
+[2023-07-07 01:52:15] INFO root fetch - main [MainThread]: End processing [phasellm]: success
+[2023-07-07 01:52:15] INFO root fetch - processPackages [spluscalib]: Downloading https://files.pythonhosted.org/packages/50/fd/bf6b4ba25dbc11239105d780ee92c92d37ec956bfda2a93a3b06e96dd12b/spluscalib-0.3.0.tar.gz
+[2023-07-07 01:52:15] INFO root fetch - processPackages [spluscalib]: executing diffoscope
+[2023-07-07 01:52:15] INFO root fetch - processPackages [spluscalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spluscalib-0.2.7.tar.gz tmp/spluscalib-0.3.0.tar.gz --markdown 20230707/s/spluscalib/0.2.7-0.3.0/diff.md --exclude *.pyd
+[2023-07-07 01:52:15] INFO root fetch - processPackages [hspylib-clitt]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-clitt-0.9.8.tar.gz]
+[2023-07-07 01:52:15] INFO root fetch - processPackages [hspylib-clitt]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-clitt-0.9.9.tar.gz]
+[2023-07-07 01:52:15] INFO root fetch - main [MainThread]: End processing [hspylib-clitt]: success
+[2023-07-07 01:52:15] INFO root fetch - processPackages [pymirc]: Remove: archive file [/home/abi/fetcher/tmp/pymirc-0.28.tar.gz]
+[2023-07-07 01:52:15] INFO root fetch - processPackages [pymirc]: Remove: archive file [/home/abi/fetcher/tmp/pymirc-0.29.tar.gz]
+[2023-07-07 01:52:15] INFO root fetch - main [MainThread]: End processing [pymirc]: success
+[2023-07-07 01:52:15] INFO root fetch - processPackages [leechcorepyc]: Remove: archive file [/home/abi/fetcher/tmp/leechcorepyc-2.8.0.tar.gz]
+[2023-07-07 01:52:15] INFO root fetch - processPackages [leechcorepyc]: Remove: archive file [/home/abi/fetcher/tmp/leechcorepyc-2.8.1.tar.gz]
+[2023-07-07 01:52:15] INFO root fetch - main [MainThread]: End processing [leechcorepyc]: success
+[2023-07-07 01:52:16] INFO root fetch - processPackages [spluscalib]: Remove: archive file [/home/abi/fetcher/tmp/spluscalib-0.2.7.tar.gz]
+[2023-07-07 01:52:16] INFO root fetch - processPackages [spluscalib]: Remove: archive file [/home/abi/fetcher/tmp/spluscalib-0.3.0.tar.gz]
+[2023-07-07 01:52:16] INFO root fetch - main [MainThread]: End processing [spluscalib]: success
+[2023-07-07 01:52:18] INFO root fetch - processPackages [memprocfs]: Remove: archive file [/home/abi/fetcher/tmp/memprocfs-5.6.1.tar.gz]
+[2023-07-07 01:52:18] INFO root fetch - processPackages [memprocfs]: Remove: archive file [/home/abi/fetcher/tmp/memprocfs-5.7.0.tar.gz]
+[2023-07-07 01:52:18] INFO root fetch - main [MainThread]: End processing [memprocfs]: success
+[2023-07-07 01:52:18] INFO root fetch - main [MainThread]: Store serial: [18792407]
