@@ -563,3 +563,102 @@
 [2023-07-07 00:33:27] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.2.3.dev3-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
 [2023-07-07 00:33:27] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
 [2023-07-07 00:33:27] INFO root fetch - main [MainThread]: Store serial: [18791743]
+[2023-07-07 00:38:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18791743]
+[2023-07-07 00:38:47] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-07 00:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dash-auth-external
+[2023-07-07 00:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ocdsextensionregistry
+[2023-07-07 00:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-sops-secrets
+[2023-07-07 00:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: juriscraper
+[2023-07-07 00:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: swarms
+[2023-07-07 00:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spacy
+[2023-07-07 00:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: horde-sdk
+[2023-07-07 00:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tarvis-exchange-dydx
+[2023-07-07 00:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: planetary-spip
+[2023-07-07 00:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spectrum-io
+[2023-07-07 00:38:48] WARNING root fetch - processPackages [horde-sdk]: Skipping, unable to determine old version
+[2023-07-07 00:38:48] INFO root fetch - processPackages [horde-sdk]: Start processing: hspylib
+[2023-07-07 00:38:48] INFO root fetch - main [MainThread]: End processing [horde-sdk] error
+[2023-07-07 00:38:48] INFO root fetch - processPackages [swarms]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-07 00:38:48] INFO root fetch - processPackages [ocdsextensionregistry]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-07-07 00:38:48] INFO root fetch - processPackages [dash-auth-external]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-07-07 00:38:48] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-07 00:38:48] INFO root fetch - processPackages [juriscraper]: New version: [2.5.9] Old Version: [2.5.8]
+[2023-07-07 00:38:48] INFO root fetch - processPackages [spacy]: New version: [4.0.0.dev1] Old Version: [4.0.0.dev0]
+[2023-07-07 00:38:48] INFO root fetch - processPackages [spectrum-io]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-07 00:38:48] INFO root fetch - processPackages [tarvis-exchange-dydx]: New version: [0.9.9] Old Version: [0.9.6]
+[2023-07-07 00:38:48] INFO root fetch - processPackages [hspylib]: New version: [0.9.23] Old Version: [0.9.22]
+[2023-07-07 00:38:48] WARNING root fetch - processPackages [planetary-spip]: Skipping, unable to determine old version
+[2023-07-07 00:38:48] INFO root fetch - processPackages [planetary-spip]: Start processing: omneer
+[2023-07-07 00:38:48] INFO root fetch - main [MainThread]: End processing [planetary-spip] error
+[2023-07-07 00:38:48] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/88/d8/e291db96460959fadbee3e86cdf3db1c78839dad8c94fd50c1a16692b002/swarms-0.7.1.tar.gz
+[2023-07-07 00:38:48] INFO root fetch - processPackages [dash-auth-external]: Downloading https://files.pythonhosted.org/packages/1b/05/7c882d2edb788ae3016de799aaf19848ac88e9f60cf52da7ba39794cc220/dash-auth-external-1.0.1.tar.gz
+[2023-07-07 00:38:48] INFO root fetch - processPackages [omneer]: New version: [0.14] Old Version: [0.13]
+[2023-07-07 00:38:48] INFO root fetch - processPackages [hspylib]: Downloading https://files.pythonhosted.org/packages/9a/aa/de6dd6d06a6c7b1d105e1a6cd5b023a280216a7fc26d69f8b6fe0e3e9851/hspylib-0.9.22.tar.gz
+[2023-07-07 00:38:48] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-07-07 00:38:48] INFO root fetch - processPackages [ocdsextensionregistry]: Downloading https://files.pythonhosted.org/packages/ac/11/9f73ba0d7e88ab5d88e876e414bb88c078a059494bb064cb594a23b27a13/ocdsextensionregistry-0.2.2.tar.gz
+[2023-07-07 00:38:48] INFO root fetch - processPackages [juriscraper]: Downloading https://files.pythonhosted.org/packages/06/e9/d9736ce605b0adb715a2da5d2f72437623aabd121bdcd4161eac596aa495/juriscraper-2.5.8.tar.gz
+[2023-07-07 00:38:48] INFO root fetch - processPackages [spectrum-io]: Downloading https://files.pythonhosted.org/packages/38/63/e66e3b62ccf331236acac62b425e5ade5c34d75d421a88f7c5fff37110ca/spectrum_io-0.2.1.tar.gz
+[2023-07-07 00:38:48] INFO root fetch - processPackages [tarvis-exchange-dydx]: Downloading https://files.pythonhosted.org/packages/18/12/a96157be44d360f804d94ac5cdb8d92b55d704449e646928cdacfe3f6c71/tarvis-exchange-dydx-0.9.6.tar.gz
+[2023-07-07 00:38:48] INFO root fetch - processPackages [omneer]: Downloading https://files.pythonhosted.org/packages/6a/35/c8c33aa220d3df54e943b1118b285e29ac717b59a69ecf36b5671cae37c0/omneer-0.13.tar.gz
+[2023-07-07 00:38:48] INFO root fetch - processPackages [spacy]: Downloading https://files.pythonhosted.org/packages/2e/c5/212a64c021970e13c86b980311f16e60b688c16ab02f7a93b2c9c4e56bab/spacy-4.0.0.dev0.tar.gz
+[2023-07-07 00:38:48] INFO root fetch - processPackages [dash-auth-external]: Downloading https://files.pythonhosted.org/packages/50/f4/ae625ac0fa86be5e8b5e18417e7a310f2d52ccb38fbb0f7049f372d9334e/dash-auth-external-1.1.0.tar.gz
+[2023-07-07 00:38:48] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/a4/5b/18b7d64a24052a905f0df1d826e3a5b112f0cf81a083915b4e358783512d/swarms-0.7.2.tar.gz
+[2023-07-07 00:38:48] INFO root fetch - processPackages [hspylib]: Downloading https://files.pythonhosted.org/packages/8f/df/44665e29eaf1932d6c04fa68c0fbd4eb9231dd909256647ad29c0c25f8ae/hspylib-0.9.23.tar.gz
+[2023-07-07 00:38:48] INFO root fetch - processPackages [dash-auth-external]: executing diffoscope
+[2023-07-07 00:38:48] INFO root fetch - processPackages [dash-auth-external]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash-auth-external-1.0.1.tar.gz tmp/dash-auth-external-1.1.0.tar.gz --markdown 20230707/d/dash-auth-external/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-07 00:38:48] INFO root fetch - processPackages [ocdsextensionregistry]: Downloading https://files.pythonhosted.org/packages/eb/16/93daac067fe9bb37c82b272503227baa73486dbd62f5a87338028d7e4771/ocdsextensionregistry-0.3.0.tar.gz
+[2023-07-07 00:38:49] INFO root fetch - processPackages [hspylib]: executing diffoscope
+[2023-07-07 00:38:49] INFO root fetch - processPackages [hspylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-0.9.22.tar.gz tmp/hspylib-0.9.23.tar.gz --markdown 20230707/h/hspylib/0.9.22-0.9.23/diff.md --exclude *.pyd
+[2023-07-07 00:38:49] INFO root fetch - processPackages [tarvis-exchange-dydx]: Downloading https://files.pythonhosted.org/packages/0a/af/18bc3ee073549fcbda68ae1d7dbeb74738a265fc322df95398f6d6edfd96/tarvis-exchange-dydx-0.9.9.tar.gz
+[2023-07-07 00:38:49] INFO root fetch - processPackages [omneer]: Downloading https://files.pythonhosted.org/packages/ab/60/a3112742828412721e7d729e832d84d07f8ed617a5fe705d0424ac3c6943/omneer-0.14.tar.gz
+[2023-07-07 00:38:49] INFO root fetch - processPackages [juriscraper]: Downloading https://files.pythonhosted.org/packages/5f/25/693a53a8b0f40a035585409fb51a372b6f0292d864d13a6feac4974db145/juriscraper-2.5.9.tar.gz
+[2023-07-07 00:38:49] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-07 00:38:49] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.7.1.tar.gz tmp/swarms-0.7.2.tar.gz --markdown 20230707/s/swarms/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-07 00:38:49] INFO root fetch - processPackages [ocdsextensionregistry]: executing diffoscope
+[2023-07-07 00:38:49] INFO root fetch - processPackages [ocdsextensionregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocdsextensionregistry-0.2.2.tar.gz tmp/ocdsextensionregistry-0.3.0.tar.gz --markdown 20230707/o/ocdsextensionregistry/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-07-07 00:38:49] INFO root fetch - processPackages [tarvis-exchange-dydx]: executing diffoscope
+[2023-07-07 00:38:49] INFO root fetch - processPackages [tarvis-exchange-dydx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tarvis-exchange-dydx-0.9.6.tar.gz tmp/tarvis-exchange-dydx-0.9.9.tar.gz --markdown 20230707/t/tarvis-exchange-dydx/0.9.6-0.9.9/diff.md --exclude *.pyd
+[2023-07-07 00:38:49] INFO root fetch - processPackages [omneer]: executing diffoscope
+[2023-07-07 00:38:49] INFO root fetch - processPackages [omneer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omneer-0.13.tar.gz tmp/omneer-0.14.tar.gz --markdown 20230707/o/omneer/0.13-0.14/diff.md --exclude *.pyd
+[2023-07-07 00:38:49] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-07-07 00:38:49] INFO root fetch - processPackages [juriscraper]: executing diffoscope
+[2023-07-07 00:38:49] INFO root fetch - processPackages [juriscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/juriscraper-2.5.8.tar.gz tmp/juriscraper-2.5.9.tar.gz --markdown 20230707/j/juriscraper/2.5.8-2.5.9/diff.md --exclude *.pyd
+[2023-07-07 00:38:49] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-07-07 00:38:49] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230707/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-07 00:38:49] INFO root fetch - processPackages [spacy]: Downloading https://files.pythonhosted.org/packages/bf/6a/6f69fb268b334b98fcac9e23e36c3af798afb180b83bb99d9ead19b90e00/spacy-4.0.0.dev1.tar.gz
+[2023-07-07 00:38:49] INFO root fetch - processPackages [spectrum-io]: Downloading https://files.pythonhosted.org/packages/e7/4f/f5a9cc20cb364a45ea08dd2b1832a217987b2ef5c679602df90152a10bf2/spectrum_io-0.3.0.tar.gz
+[2023-07-07 00:38:50] INFO root fetch - processPackages [dash-auth-external]: Remove: archive file [/home/abi/fetcher/tmp/dash-auth-external-1.0.1.tar.gz]
+[2023-07-07 00:38:50] INFO root fetch - processPackages [dash-auth-external]: Remove: archive file [/home/abi/fetcher/tmp/dash-auth-external-1.1.0.tar.gz]
+[2023-07-07 00:38:50] INFO root fetch - main [MainThread]: End processing [dash-auth-external]: success
+[2023-07-07 00:38:50] INFO root fetch - processPackages [spectrum-io]: executing diffoscope
+[2023-07-07 00:38:50] INFO root fetch - processPackages [spectrum-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectrum_io-0.2.1.tar.gz tmp/spectrum_io-0.3.0.tar.gz --markdown 20230707/s/spectrum-io/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-07 00:38:50] INFO root fetch - processPackages [spacy]: executing diffoscope
+[2023-07-07 00:38:50] INFO root fetch - processPackages [spacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacy-4.0.0.dev0.tar.gz tmp/spacy-4.0.0.dev1.tar.gz --markdown 20230707/s/spacy/4.0.0.dev0-4.0.0.dev1/diff.md --exclude *.pyd
+[2023-07-07 00:38:50] INFO root fetch - processPackages [tarvis-exchange-dydx]: Remove: archive file [/home/abi/fetcher/tmp/tarvis-exchange-dydx-0.9.6.tar.gz]
+[2023-07-07 00:38:50] INFO root fetch - processPackages [tarvis-exchange-dydx]: Remove: archive file [/home/abi/fetcher/tmp/tarvis-exchange-dydx-0.9.9.tar.gz]
+[2023-07-07 00:38:50] INFO root fetch - main [MainThread]: End processing [tarvis-exchange-dydx]: success
+[2023-07-07 00:38:50] INFO root fetch - processPackages [hspylib]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-0.9.22.tar.gz]
+[2023-07-07 00:38:50] INFO root fetch - processPackages [hspylib]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-0.9.23.tar.gz]
+[2023-07-07 00:38:50] INFO root fetch - main [MainThread]: End processing [hspylib]: success
+[2023-07-07 00:38:50] INFO root fetch - processPackages [omneer]: Remove: archive file [/home/abi/fetcher/tmp/omneer-0.13.tar.gz]
+[2023-07-07 00:38:50] INFO root fetch - processPackages [omneer]: Remove: archive file [/home/abi/fetcher/tmp/omneer-0.14.tar.gz]
+[2023-07-07 00:38:50] INFO root fetch - main [MainThread]: End processing [omneer]: success
+[2023-07-07 00:38:50] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.7.1.tar.gz]
+[2023-07-07 00:38:50] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.7.2.tar.gz]
+[2023-07-07 00:38:50] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-07 00:38:50] INFO root fetch - processPackages [ocdsextensionregistry]: Remove: archive file [/home/abi/fetcher/tmp/ocdsextensionregistry-0.2.2.tar.gz]
+[2023-07-07 00:38:50] INFO root fetch - processPackages [ocdsextensionregistry]: Remove: archive file [/home/abi/fetcher/tmp/ocdsextensionregistry-0.3.0.tar.gz]
+[2023-07-07 00:38:51] INFO root fetch - main [MainThread]: End processing [ocdsextensionregistry]: success
+[2023-07-07 00:38:51] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-07-07 00:38:51] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-07-07 00:38:51] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-07-07 00:38:51] INFO root fetch - processPackages [juriscraper]: Remove: archive file [/home/abi/fetcher/tmp/juriscraper-2.5.8.tar.gz]
+[2023-07-07 00:38:51] INFO root fetch - processPackages [juriscraper]: Remove: archive file [/home/abi/fetcher/tmp/juriscraper-2.5.9.tar.gz]
+[2023-07-07 00:38:51] INFO root fetch - main [MainThread]: End processing [juriscraper]: success
+[2023-07-07 00:38:52] INFO root fetch - processPackages [spectrum-io]: Remove: archive file [/home/abi/fetcher/tmp/spectrum_io-0.2.1.tar.gz]
+[2023-07-07 00:38:52] INFO root fetch - processPackages [spectrum-io]: Remove: archive file [/home/abi/fetcher/tmp/spectrum_io-0.3.0.tar.gz]
+[2023-07-07 00:38:52] INFO root fetch - main [MainThread]: End processing [spectrum-io]: success
+[2023-07-07 00:38:56] INFO root fetch - processPackages [spacy]: Remove: archive file [/home/abi/fetcher/tmp/spacy-4.0.0.dev0.tar.gz]
+[2023-07-07 00:38:56] INFO root fetch - processPackages [spacy]: Remove: archive file [/home/abi/fetcher/tmp/spacy-4.0.0.dev1.tar.gz]
+[2023-07-07 00:38:56] INFO root fetch - main [MainThread]: End processing [spacy]: success
+[2023-07-07 00:38:56] INFO root fetch - main [MainThread]: Store serial: [18791818]
