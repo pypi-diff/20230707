@@ -1251,3 +1251,111 @@
 [2023-07-07 01:10:27] INFO root fetch - main [MainThread]: End processing [pref-voting]: success
 [2023-07-07 01:10:28] INFO root fetch - main [MainThread]: End processing [ecoengine]: success
 [2023-07-07 01:10:28] INFO root fetch - main [MainThread]: Store serial: [18792059]
+[2023-07-07 01:15:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18792059]
+[2023-07-07 01:15:37] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-07 01:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cedarpy
+[2023-07-07 01:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abacusai
+[2023-07-07 01:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chai-guanaco
+[2023-07-07 01:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hkfdb
+[2023-07-07 01:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: visionmetrics
+[2023-07-07 01:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: maggma
+[2023-07-07 01:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: swarms
+[2023-07-07 01:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sweepai
+[2023-07-07 01:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hlagenie
+[2023-07-07 01:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: anyon
+[2023-07-07 01:15:37] INFO root fetch - processPackages [sweepai]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-07 01:15:37] INFO root fetch - processPackages [chai-guanaco]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-07 01:15:37] INFO root fetch - processPackages [hlagenie]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-07 01:15:37] INFO root fetch - processPackages [hkfdb]: New version: [3.7.1] Old Version: [3.6.1]
+[2023-07-07 01:15:37] INFO root fetch - processPackages [swarms]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-07-07 01:15:37] INFO root fetch - processPackages [abacusai]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-07 01:15:37] INFO root fetch - processPackages [visionmetrics]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-07 01:15:37] WARNING root fetch - processPackages [anyon]: Skipping, unable to determine old version
+[2023-07-07 01:15:37] INFO root fetch - processPackages [anyon]: Start processing: tarvis-tradingbot
+[2023-07-07 01:15:37] INFO root fetch - main [MainThread]: End processing [anyon] error
+[2023-07-07 01:15:37] INFO root fetch - processPackages [maggma]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-07 01:15:37] WARNING root fetch - processPackages [cedarpy]: Skipping, unable to determine old version
+[2023-07-07 01:15:37] INFO root fetch - processPackages [cedarpy]: Start processing: onnx2tf
+[2023-07-07 01:15:37] INFO root fetch - main [MainThread]: End processing [cedarpy] error
+[2023-07-07 01:15:37] INFO root fetch - processPackages [tarvis-tradingbot]: New version: [0.9.9] Old Version: [0.9.6]
+[2023-07-07 01:15:37] INFO root fetch - processPackages [chai-guanaco]: Downloading https://files.pythonhosted.org/packages/05/fa/7861aec75292ea02371a491aac13c70a9771f695d717f4714cfba5a43133/chai-guanaco-1.0.2.tar.gz
+[2023-07-07 01:15:37] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/27/0f/6b8c781519e40f046502ee0081218d3026064e9475cb195423a0a88a1c17/swarms-0.7.7.tar.gz
+[2023-07-07 01:15:37] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-07 01:15:37] INFO root fetch - processPackages [maggma]: Downloading https://files.pythonhosted.org/packages/0b/d5/4bfefd3094fe323ae3b4f6043dd7f75d763cd562d238063c16d1d2f30697/maggma-0.8.0.tar.gz
+[2023-07-07 01:15:37] INFO root fetch - processPackages [hlagenie]: Downloading https://files.pythonhosted.org/packages/e6/dc/457133fba67ebc47370a13d44eec2b07d1346a9effd35708ad777c63cd6d/hlagenie-0.0.3.tar.gz
+[2023-07-07 01:15:37] INFO root fetch - processPackages [visionmetrics]: Downloading https://files.pythonhosted.org/packages/7e/44/265f212a7b878c56a6c4bb928c80d466ca494b549d69fbd622d056e5aabc/visionmetrics-0.0.2.tar.gz
+[2023-07-07 01:15:37] INFO root fetch - processPackages [abacusai]: Downloading https://files.pythonhosted.org/packages/20/05/12e6e66d0f2b20efe2d4562023d068bd5ea84aba0ae3272ff7660d944e48/abacusai-0.9.1.tar.gz
+[2023-07-07 01:15:37] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/6f/b3/519ee148592d2531639c5f3c1434df000ecf2c24a5b55b61cba8fd4767f9/onnx2tf-1.9.8.tar.gz
+[2023-07-07 01:15:37] INFO root fetch - processPackages [hkfdb]: Downloading https://files.pythonhosted.org/packages/a4/16/f658bfd4074c177f176dc2d7f497334b610a877630adb1884891f1221a26/hkfdb-3.6.1.tar.gz
+[2023-07-07 01:15:37] INFO root fetch - processPackages [tarvis-tradingbot]: Downloading https://files.pythonhosted.org/packages/cc/c1/ad4d5ca8c2120a254478935dd278c36cd34d860f3cf4cd5869cf30de374c/tarvis-tradingbot-0.9.6.tar.gz
+[2023-07-07 01:15:38] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/58/82/239ca2305fa41bddc18d100c541a67d5d25dbf07102659f50475014da5b9/sweepai-0.2.6.tar.gz
+[2023-07-07 01:15:38] INFO root fetch - processPackages [maggma]: Downloading https://files.pythonhosted.org/packages/e3/6f/7133584ec97cb54d2930706c7623e641ac8328cb0b9166e7bc2f9f04616f/maggma-0.9.0.tar.gz
+[2023-07-07 01:15:38] INFO root fetch - processPackages [chai-guanaco]: Downloading https://files.pythonhosted.org/packages/1d/15/3f8330dabc866240647249c24b679b300435a80d6830a16da73ded2848f9/chai-guanaco-1.0.3.tar.gz
+[2023-07-07 01:15:38] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/93/19/00daf7ff8a86579e0a47623223fdf236bdb5b45bf8fb11de0664036a1e6a/swarms-0.7.8.tar.gz
+[2023-07-07 01:15:38] INFO root fetch - processPackages [visionmetrics]: Downloading https://files.pythonhosted.org/packages/0c/c5/9d69a35d8f43e97044d7f28cc8f94265219086b8b776c225c10ff2b9e524/visionmetrics-0.0.3.tar.gz
+[2023-07-07 01:15:38] INFO root fetch - processPackages [hlagenie]: Downloading https://files.pythonhosted.org/packages/fc/75/a4bb49fd559e87eb1330b10371d7bbc85c21cec139d6e3334b39ea2f48df/hlagenie-0.0.4.tar.gz
+[2023-07-07 01:15:38] INFO root fetch - processPackages [maggma]: executing diffoscope
+[2023-07-07 01:15:38] INFO root fetch - processPackages [maggma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maggma-0.8.0.tar.gz tmp/maggma-0.9.0.tar.gz --markdown 20230707/m/maggma/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-07 01:15:38] INFO root fetch - processPackages [abacusai]: Downloading https://files.pythonhosted.org/packages/2f/8d/d78246b87fef32ca67a6fb9bdb4bfda9bdd690736e1f658aac9fd292cf85/abacusai-0.9.2.tar.gz
+[2023-07-07 01:15:38] INFO root fetch - processPackages [chai-guanaco]: executing diffoscope
+[2023-07-07 01:15:38] INFO root fetch - processPackages [chai-guanaco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chai-guanaco-1.0.2.tar.gz tmp/chai-guanaco-1.0.3.tar.gz --markdown 20230707/c/chai-guanaco/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-07 01:15:38] INFO root fetch - processPackages [tarvis-tradingbot]: Downloading https://files.pythonhosted.org/packages/92/df/4bf3c6d70fc145b6f870c0f60b60558f0cf53cd999447bb6a877002204ce/tarvis-tradingbot-0.9.9.tar.gz
+[2023-07-07 01:15:38] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/0e/df/e0c6978b06db6c5c04de100ecbe0bbb281caed31c4dd88663e61e36ca571/onnx2tf-1.9.9.tar.gz
+[2023-07-07 01:15:38] INFO root fetch - processPackages [hkfdb]: Downloading https://files.pythonhosted.org/packages/86/28/9e32634f106fcfa5340f2612494152fc44e1bc45bf7dac6b7f6cef8647e2/hkfdb-3.7.1.tar.gz
+[2023-07-07 01:15:38] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-07 01:15:38] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.7.7.tar.gz tmp/swarms-0.7.8.tar.gz --markdown 20230707/s/swarms/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-07-07 01:15:38] INFO root fetch - processPackages [visionmetrics]: executing diffoscope
+[2023-07-07 01:15:38] INFO root fetch - processPackages [visionmetrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visionmetrics-0.0.2.tar.gz tmp/visionmetrics-0.0.3.tar.gz --markdown 20230707/v/visionmetrics/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-07 01:15:38] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/36/92/dec890f684d1add1372b4bdc82d9f05d91d354c0b1b51e40f73a99b2a22c/sweepai-0.2.7.tar.gz
+[2023-07-07 01:15:38] INFO root fetch - processPackages [hlagenie]: executing diffoscope
+[2023-07-07 01:15:38] INFO root fetch - processPackages [hlagenie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hlagenie-0.0.3.tar.gz tmp/hlagenie-0.0.4.tar.gz --markdown 20230707/h/hlagenie/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-07 01:15:38] INFO root fetch - processPackages [tarvis-tradingbot]: executing diffoscope
+[2023-07-07 01:15:38] INFO root fetch - processPackages [tarvis-tradingbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tarvis-tradingbot-0.9.6.tar.gz tmp/tarvis-tradingbot-0.9.9.tar.gz --markdown 20230707/t/tarvis-tradingbot/0.9.6-0.9.9/diff.md --exclude *.pyd
+[2023-07-07 01:15:38] INFO root fetch - processPackages [hkfdb]: executing diffoscope
+[2023-07-07 01:15:38] INFO root fetch - processPackages [hkfdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkfdb-3.6.1.tar.gz tmp/hkfdb-3.7.1.tar.gz --markdown 20230707/h/hkfdb/3.6.1-3.7.1/diff.md --exclude *.pyd
+[2023-07-07 01:15:38] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2023-07-07 01:15:38] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20230707/o/onnx2tf/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-07 01:15:38] INFO root fetch - processPackages [abacusai]: executing diffoscope
+[2023-07-07 01:15:38] INFO root fetch - processPackages [abacusai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abacusai-0.9.1.tar.gz tmp/abacusai-0.9.2.tar.gz --markdown 20230707/a/abacusai/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-07 01:15:38] INFO root fetch - processPackages [sweepai]: executing diffoscope
+[2023-07-07 01:15:38] INFO root fetch - processPackages [sweepai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweepai-0.2.6.tar.gz tmp/sweepai-0.2.7.tar.gz --markdown 20230707/s/sweepai/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-07 01:15:40] INFO root fetch - processPackages [maggma]: Remove: archive file [/home/abi/fetcher/tmp/maggma-0.8.0.tar.gz]
+[2023-07-07 01:15:40] INFO root fetch - processPackages [maggma]: Remove: archive file [/home/abi/fetcher/tmp/maggma-0.9.0.tar.gz]
+[2023-07-07 01:15:40] INFO root fetch - processPackages [maggma]: Start processing: hspylib
+[2023-07-07 01:15:40] INFO root fetch - main [MainThread]: End processing [maggma]: success
+[2023-07-07 01:15:40] INFO root fetch - processPackages [hspylib]: New version: [0.9.23] Old Version: [0.9.22]
+[2023-07-07 01:15:40] INFO root fetch - processPackages [chai-guanaco]: Remove: archive file [/home/abi/fetcher/tmp/chai-guanaco-1.0.2.tar.gz]
+[2023-07-07 01:15:40] INFO root fetch - processPackages [chai-guanaco]: Remove: archive file [/home/abi/fetcher/tmp/chai-guanaco-1.0.3.tar.gz]
+[2023-07-07 01:15:40] INFO root fetch - main [MainThread]: End processing [chai-guanaco]: success
+[2023-07-07 01:15:40] INFO root fetch - processPackages [hlagenie]: Remove: archive file [/home/abi/fetcher/tmp/hlagenie-0.0.3.tar.gz]
+[2023-07-07 01:15:40] INFO root fetch - processPackages [hlagenie]: Remove: archive file [/home/abi/fetcher/tmp/hlagenie-0.0.4.tar.gz]
+[2023-07-07 01:15:40] INFO root fetch - main [MainThread]: End processing [hlagenie]: success
+[2023-07-07 01:15:40] INFO root fetch - processPackages [hspylib]: Downloading https://files.pythonhosted.org/packages/9a/aa/de6dd6d06a6c7b1d105e1a6cd5b023a280216a7fc26d69f8b6fe0e3e9851/hspylib-0.9.22.tar.gz
+[2023-07-07 01:15:40] INFO root fetch - processPackages [tarvis-tradingbot]: Remove: archive file [/home/abi/fetcher/tmp/tarvis-tradingbot-0.9.6.tar.gz]
+[2023-07-07 01:15:40] INFO root fetch - processPackages [tarvis-tradingbot]: Remove: archive file [/home/abi/fetcher/tmp/tarvis-tradingbot-0.9.9.tar.gz]
+[2023-07-07 01:15:40] INFO root fetch - main [MainThread]: End processing [tarvis-tradingbot]: success
+[2023-07-07 01:15:40] INFO root fetch - processPackages [hkfdb]: Remove: archive file [/home/abi/fetcher/tmp/hkfdb-3.6.1.tar.gz]
+[2023-07-07 01:15:40] INFO root fetch - processPackages [hkfdb]: Remove: archive file [/home/abi/fetcher/tmp/hkfdb-3.7.1.tar.gz]
+[2023-07-07 01:15:40] INFO root fetch - main [MainThread]: End processing [hkfdb]: success
+[2023-07-07 01:15:40] INFO root fetch - processPackages [visionmetrics]: Remove: archive file [/home/abi/fetcher/tmp/visionmetrics-0.0.2.tar.gz]
+[2023-07-07 01:15:40] INFO root fetch - processPackages [visionmetrics]: Remove: archive file [/home/abi/fetcher/tmp/visionmetrics-0.0.3.tar.gz]
+[2023-07-07 01:15:40] INFO root fetch - main [MainThread]: End processing [visionmetrics]: success
+[2023-07-07 01:15:40] INFO root fetch - processPackages [hspylib]: Downloading https://files.pythonhosted.org/packages/8f/df/44665e29eaf1932d6c04fa68c0fbd4eb9231dd909256647ad29c0c25f8ae/hspylib-0.9.23.tar.gz
+[2023-07-07 01:15:40] INFO root fetch - processPackages [abacusai]: Remove: archive file [/home/abi/fetcher/tmp/abacusai-0.9.1.tar.gz]
+[2023-07-07 01:15:40] INFO root fetch - processPackages [abacusai]: Remove: archive file [/home/abi/fetcher/tmp/abacusai-0.9.2.tar.gz]
+[2023-07-07 01:15:40] INFO root fetch - main [MainThread]: End processing [abacusai]: success
+[2023-07-07 01:15:40] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.7.7.tar.gz]
+[2023-07-07 01:15:40] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.7.8.tar.gz]
+[2023-07-07 01:15:40] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-07 01:15:40] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.2.6.tar.gz]
+[2023-07-07 01:15:40] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.2.7.tar.gz]
+[2023-07-07 01:15:40] INFO root fetch - main [MainThread]: End processing [sweepai]: success
+[2023-07-07 01:15:40] INFO root fetch - processPackages [hspylib]: executing diffoscope
+[2023-07-07 01:15:40] INFO root fetch - processPackages [hspylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-0.9.22.tar.gz tmp/hspylib-0.9.23.tar.gz --markdown 20230707/h/hspylib/0.9.22-0.9.23/diff.md --exclude *.pyd
+[2023-07-07 01:15:41] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.8.tar.gz]
+[2023-07-07 01:15:41] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
+[2023-07-07 01:15:41] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2023-07-07 01:15:41] INFO root fetch - processPackages [hspylib]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-0.9.22.tar.gz]
+[2023-07-07 01:15:41] INFO root fetch - processPackages [hspylib]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-0.9.23.tar.gz]
+[2023-07-07 01:15:41] INFO root fetch - main [MainThread]: End processing [hspylib]: success
+[2023-07-07 01:15:41] INFO root fetch - main [MainThread]: Store serial: [18792145]
