@@ -1389,3 +1389,93 @@
 [2023-07-07 01:20:51] INFO root fetch - processPackages [ecoengine]: Remove: archive file [/home/abi/fetcher/tmp/ecoengine-0.0.9.tar.gz]
 [2023-07-07 01:20:51] INFO root fetch - main [MainThread]: End processing [ecoengine]: success
 [2023-07-07 01:20:51] INFO root fetch - main [MainThread]: Store serial: [18792156]
+[2023-07-07 01:25:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18792156]
+[2023-07-07 01:26:00] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-07 01:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agixtsdk
+[2023-07-07 01:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swarms
+[2023-07-07 01:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datatypes
+[2023-07-07 01:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: httptes232
+[2023-07-07 01:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ogsapi
+[2023-07-07 01:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: redis-docker-harness
+[2023-07-07 01:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: echofish-aws-raw-to-zarr-lambda
+[2023-07-07 01:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dlnpyutils
+[2023-07-07 01:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: micropython-dftds
+[2023-07-07 01:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kenoAPI
+[2023-07-07 01:26:00] INFO root fetch - processPackages [swarms]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-07 01:26:00] INFO root fetch - processPackages [datatypes]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-07 01:26:00] WARNING root fetch - processPackages [httptes232]: Skipping, unable to determine old version
+[2023-07-07 01:26:00] INFO root fetch - processPackages [httptes232]: Start processing: chai-guanaco
+[2023-07-07 01:26:00] INFO root fetch - main [MainThread]: End processing [httptes232] error
+[2023-07-07 01:26:00] WARNING root fetch - processPackages [micropython-dftds]: Skipping, unable to determine old version
+[2023-07-07 01:26:00] INFO root fetch - main [MainThread]: End processing [micropython-dftds] error
+[2023-07-07 01:26:00] INFO root fetch - processPackages [agixtsdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 01:26:00] INFO root fetch - processPackages [ogsapi]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-07 01:26:00] INFO root fetch - processPackages [redis-docker-harness]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-07 01:26:00] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: New version: [1.0.0.dev20230706230354] Old Version: [1.0.0.dev20230706221255]
+[2023-07-07 01:26:00] INFO root fetch - processPackages [kenoAPI]: New version: [4.9.0] Old Version: [4.1.0]
+[2023-07-07 01:26:00] INFO root fetch - processPackages [dlnpyutils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-07 01:26:00] INFO root fetch - processPackages [chai-guanaco]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-07 01:26:00] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/93/19/00daf7ff8a86579e0a47623223fdf236bdb5b45bf8fb11de0664036a1e6a/swarms-0.7.8.tar.gz
+[2023-07-07 01:26:00] INFO root fetch - processPackages [datatypes]: Downloading https://files.pythonhosted.org/packages/40/f3/52b2030b97243065b449da715573dbf47cdbd553f8175483ca3cb19c3df5/datatypes-0.9.5.tar.gz
+[2023-07-07 01:26:00] INFO root fetch - processPackages [ogsapi]: Downloading https://files.pythonhosted.org/packages/0f/c3/05a8a526cd44924505edc74f8d4ddb2c75a175fbe7da9c9a5adc8a16889f/ogsapi-0.7.0.tar.gz
+[2023-07-07 01:26:00] INFO root fetch - processPackages [agixtsdk]: Downloading https://files.pythonhosted.org/packages/fc/f4/85d852d47773fa6751a3ed8d3ca02e654579a0a110cdc23896aebd954b2c/agixtsdk-0.0.8.tar.gz
+[2023-07-07 01:26:00] INFO root fetch - processPackages [chai-guanaco]: Downloading https://files.pythonhosted.org/packages/1d/15/3f8330dabc866240647249c24b679b300435a80d6830a16da73ded2848f9/chai-guanaco-1.0.3.tar.gz
+[2023-07-07 01:26:00] INFO root fetch - processPackages [kenoAPI]: Downloading https://files.pythonhosted.org/packages/30/df/22a2a5b2a6f5ade49eb0889f03a3bb4b655de688b04bae437244448fa4da/kenoAPI-4.1.0.tar.gz
+[2023-07-07 01:26:01] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Downloading https://files.pythonhosted.org/packages/7c/38/aaebcbdf56a5d212861351d4beee0df91efaf27a8c3650c39a5642bfced3/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230706221255.tar.gz
+[2023-07-07 01:26:01] INFO root fetch - processPackages [dlnpyutils]: Downloading https://files.pythonhosted.org/packages/b0/8d/5434db397bde5ab0305c41ff48c32eb75cbb65805028cce27cd8c2306009/dlnpyutils-1.0.8.tar.gz
+[2023-07-07 01:26:01] INFO root fetch - processPackages [redis-docker-harness]: Downloading https://files.pythonhosted.org/packages/b8/31/ae86eabd8c369c74514bcd5fee0a7c644dedc5a5fdf38595d61461850783/redis-docker-harness-0.0.1.tar.gz
+[2023-07-07 01:26:01] INFO root fetch - processPackages [agixtsdk]: Downloading https://files.pythonhosted.org/packages/74/75/1048551801b0e2aa197b36b7a2d249437127d0d21a98a3aea7016e0929b9/agixtsdk-0.0.9.tar.gz
+[2023-07-07 01:26:01] INFO root fetch - processPackages [ogsapi]: Downloading https://files.pythonhosted.org/packages/4e/a3/073dc7cf0741321ffcb5f9ca34541b4a3f25f7a7c53058fc3a6d6e05c654/ogsapi-0.7.1.tar.gz
+[2023-07-07 01:26:01] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/12/72/5780ee4947d3d0d164db7c1e9b90530b9da583d3e90e5db3c5cb4b628f87/swarms-0.7.9.tar.gz
+[2023-07-07 01:26:01] INFO root fetch - processPackages [chai-guanaco]: Downloading https://files.pythonhosted.org/packages/97/83/2ea8304582c3186eaea569ba516ef69c5ed88e2320f33475a1d7ecd42236/chai-guanaco-1.0.4.tar.gz
+[2023-07-07 01:26:01] INFO root fetch - processPackages [kenoAPI]: Downloading https://files.pythonhosted.org/packages/56/6f/c22cb7e42f372ef9b0f6fa67d27d319546e7abbd064b072fe18f11ae42e0/kenoAPI-4.9.0-py3-none-any.whl
+[2023-07-07 01:26:01] INFO root fetch - processPackages [agixtsdk]: executing diffoscope
+[2023-07-07 01:26:01] INFO root fetch - processPackages [agixtsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixtsdk-0.0.8.tar.gz tmp/agixtsdk-0.0.9.tar.gz --markdown 20230707/a/agixtsdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 01:26:01] INFO root fetch - processPackages [datatypes]: Downloading https://files.pythonhosted.org/packages/5e/7f/230c9893c377bdff06282f4948114008ad1866c16216942b339975502c4f/datatypes-0.9.6.tar.gz
+[2023-07-07 01:26:01] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Downloading https://files.pythonhosted.org/packages/60/a5/c3fcefca905ea93ff16780f3eed8279bf8b8b128a6e040700847f54a14fb/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230706230354.tar.gz
+[2023-07-07 01:26:01] INFO root fetch - processPackages [ogsapi]: executing diffoscope
+[2023-07-07 01:26:01] INFO root fetch - processPackages [ogsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogsapi-0.7.0.tar.gz tmp/ogsapi-0.7.1.tar.gz --markdown 20230707/o/ogsapi/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-07 01:26:01] INFO root fetch - processPackages [redis-docker-harness]: Downloading https://files.pythonhosted.org/packages/e5/be/c5998491615834da45a33c8c4071c6fd3d8a21696c3da091f02b2117a234/redis-docker-harness-0.0.2.tar.gz
+[2023-07-07 01:26:01] INFO root fetch - processPackages [dlnpyutils]: Downloading https://files.pythonhosted.org/packages/48/bd/886f6575107a139585e4b43388785b3520866e8f702bd0e0e4a982d566ba/dlnpyutils-1.0.9.tar.gz
+[2023-07-07 01:26:01] INFO root fetch - processPackages [kenoAPI]: executing diffoscope
+[2023-07-07 01:26:01] INFO root fetch - processPackages [kenoAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kenoAPI-4.1.0.tar.gz tmp/kenoAPI-4.9.0-py3-none-any.whl.zip --markdown 20230707/k/kenoAPI/4.1.0-4.9.0/diff.md --exclude *.pyd
+[2023-07-07 01:26:01] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-07 01:26:01] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.7.8.tar.gz tmp/swarms-0.7.9.tar.gz --markdown 20230707/s/swarms/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-07 01:26:01] INFO root fetch - processPackages [chai-guanaco]: executing diffoscope
+[2023-07-07 01:26:01] INFO root fetch - processPackages [chai-guanaco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chai-guanaco-1.0.3.tar.gz tmp/chai-guanaco-1.0.4.tar.gz --markdown 20230707/c/chai-guanaco/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-07 01:26:01] INFO root fetch - processPackages [datatypes]: executing diffoscope
+[2023-07-07 01:26:01] INFO root fetch - processPackages [datatypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datatypes-0.9.5.tar.gz tmp/datatypes-0.9.6.tar.gz --markdown 20230707/d/datatypes/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-07 01:26:01] INFO root fetch - processPackages [redis-docker-harness]: executing diffoscope
+[2023-07-07 01:26:01] INFO root fetch - processPackages [redis-docker-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis-docker-harness-0.0.1.tar.gz tmp/redis-docker-harness-0.0.2.tar.gz --markdown 20230707/r/redis-docker-harness/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-07 01:26:01] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: executing diffoscope
+[2023-07-07 01:26:01] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230706221255.tar.gz tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230706230354.tar.gz --markdown 20230707/e/echofish-aws-raw-to-zarr-lambda/1.0.0.dev20230706221255-1.0.0.dev20230706230354/diff.md --exclude *.pyd
+[2023-07-07 01:26:01] INFO root fetch - processPackages [dlnpyutils]: executing diffoscope
+[2023-07-07 01:26:01] INFO root fetch - processPackages [dlnpyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlnpyutils-1.0.8.tar.gz tmp/dlnpyutils-1.0.9.tar.gz --markdown 20230707/d/dlnpyutils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-07 01:26:02] INFO root fetch - processPackages [agixtsdk]: Remove: archive file [/home/abi/fetcher/tmp/agixtsdk-0.0.8.tar.gz]
+[2023-07-07 01:26:02] INFO root fetch - processPackages [agixtsdk]: Remove: archive file [/home/abi/fetcher/tmp/agixtsdk-0.0.9.tar.gz]
+[2023-07-07 01:26:02] INFO root fetch - main [MainThread]: End processing [agixtsdk]: success
+[2023-07-07 01:26:03] INFO root fetch - processPackages [ogsapi]: Remove: archive file [/home/abi/fetcher/tmp/ogsapi-0.7.0.tar.gz]
+[2023-07-07 01:26:03] INFO root fetch - processPackages [ogsapi]: Remove: archive file [/home/abi/fetcher/tmp/ogsapi-0.7.1.tar.gz]
+[2023-07-07 01:26:03] INFO root fetch - main [MainThread]: End processing [ogsapi]: success
+[2023-07-07 01:26:03] INFO root fetch - processPackages [kenoAPI]: Remove: archive file [/home/abi/fetcher/tmp/kenoAPI-4.1.0.tar.gz]
+[2023-07-07 01:26:03] INFO root fetch - processPackages [kenoAPI]: Remove: archive file [/home/abi/fetcher/tmp/kenoAPI-4.9.0-py3-none-any.whl.zip]
+[2023-07-07 01:26:03] INFO root fetch - main [MainThread]: End processing [kenoAPI]: success
+[2023-07-07 01:26:03] INFO root fetch - processPackages [redis-docker-harness]: Remove: archive file [/home/abi/fetcher/tmp/redis-docker-harness-0.0.1.tar.gz]
+[2023-07-07 01:26:03] INFO root fetch - processPackages [redis-docker-harness]: Remove: archive file [/home/abi/fetcher/tmp/redis-docker-harness-0.0.2.tar.gz]
+[2023-07-07 01:26:03] INFO root fetch - main [MainThread]: End processing [redis-docker-harness]: success
+[2023-07-07 01:26:03] INFO root fetch - processPackages [datatypes]: Remove: archive file [/home/abi/fetcher/tmp/datatypes-0.9.5.tar.gz]
+[2023-07-07 01:26:03] INFO root fetch - processPackages [datatypes]: Remove: archive file [/home/abi/fetcher/tmp/datatypes-0.9.6.tar.gz]
+[2023-07-07 01:26:03] INFO root fetch - main [MainThread]: End processing [datatypes]: success
+[2023-07-07 01:26:03] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230706221255.tar.gz]
+[2023-07-07 01:26:03] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230706230354.tar.gz]
+[2023-07-07 01:26:03] INFO root fetch - main [MainThread]: End processing [echofish-aws-raw-to-zarr-lambda]: success
+[2023-07-07 01:26:03] INFO root fetch - processPackages [chai-guanaco]: Remove: archive file [/home/abi/fetcher/tmp/chai-guanaco-1.0.3.tar.gz]
+[2023-07-07 01:26:03] INFO root fetch - processPackages [chai-guanaco]: Remove: archive file [/home/abi/fetcher/tmp/chai-guanaco-1.0.4.tar.gz]
+[2023-07-07 01:26:03] INFO root fetch - main [MainThread]: End processing [chai-guanaco]: success
+[2023-07-07 01:26:03] INFO root fetch - processPackages [dlnpyutils]: Remove: archive file [/home/abi/fetcher/tmp/dlnpyutils-1.0.8.tar.gz]
+[2023-07-07 01:26:03] INFO root fetch - processPackages [dlnpyutils]: Remove: archive file [/home/abi/fetcher/tmp/dlnpyutils-1.0.9.tar.gz]
+[2023-07-07 01:26:03] INFO root fetch - main [MainThread]: End processing [dlnpyutils]: success
+[2023-07-07 01:26:03] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.7.8.tar.gz]
+[2023-07-07 01:26:03] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.7.9.tar.gz]
+[2023-07-07 01:26:03] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-07 01:26:03] INFO root fetch - main [MainThread]: Store serial: [18792188]
