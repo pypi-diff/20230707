@@ -1839,3 +1839,33 @@
 [2023-07-07 01:52:18] INFO root fetch - processPackages [memprocfs]: Remove: archive file [/home/abi/fetcher/tmp/memprocfs-5.7.0.tar.gz]
 [2023-07-07 01:52:18] INFO root fetch - main [MainThread]: End processing [memprocfs]: success
 [2023-07-07 01:52:18] INFO root fetch - main [MainThread]: Store serial: [18792407]
+[2023-07-07 01:57:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18792407]
+[2023-07-07 01:57:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-07 01:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pxsecurityapi
+[2023-07-07 01:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-hep
+[2023-07-07 01:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: databento
+[2023-07-07 01:57:28] INFO root fetch - processPackages [torch-hep]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-07 01:57:28] INFO root fetch - processPackages [databento]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-07 01:57:28] INFO root fetch - processPackages [pxsecurityapi]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-07 01:57:28] INFO root fetch - processPackages [pxsecurityapi]: Downloading https://files.pythonhosted.org/packages/07/2f/bfebdfd5840da9a0602436151b65457340cb78043e343265f52ee3ee4dc2/pxsecurityapi-1.0.2.tar.gz
+[2023-07-07 01:57:28] INFO root fetch - processPackages [databento]: Downloading https://files.pythonhosted.org/packages/0d/e4/10790d212df7a4c2dea782ab8b245802a946d6669038f3858c84767ecdda/databento-0.8.1.tar.gz
+[2023-07-07 01:57:28] INFO root fetch - processPackages [torch-hep]: Downloading https://files.pythonhosted.org/packages/97/3c/e3509beff25cd28dab0a24bc59493ecc0534ad3548f27e1a8b01952ef50c/torch_hep-0.0.3.tar.gz
+[2023-07-07 01:57:29] INFO root fetch - processPackages [pxsecurityapi]: Downloading https://files.pythonhosted.org/packages/37/43/a6bec38de7482c6e2c8c9fce568d5f661aef289f61fd6cad03397a46080c/pxsecurityapi-1.0.3.tar.gz
+[2023-07-07 01:57:29] INFO root fetch - processPackages [torch-hep]: Downloading https://files.pythonhosted.org/packages/a1/2b/03a9de45280a52f8b5afb20c85537713cfa5ffd0e8078e7ad781f02dcd0f/torch_hep-0.0.4-py3.10.egg
+[2023-07-07 01:57:29] INFO root fetch - processPackages [databento]: Downloading https://files.pythonhosted.org/packages/ec/da/e98fe04d3df728294a2fa7f56a0f9d17514e08ac81160fe5ff493b02cf31/databento-0.9.0.tar.gz
+[2023-07-07 01:57:29] INFO root fetch - processPackages [pxsecurityapi]: executing diffoscope
+[2023-07-07 01:57:29] INFO root fetch - processPackages [pxsecurityapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pxsecurityapi-1.0.2.tar.gz tmp/pxsecurityapi-1.0.3.tar.gz --markdown 20230707/p/pxsecurityapi/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-07 01:57:29] INFO root fetch - processPackages [databento]: executing diffoscope
+[2023-07-07 01:57:29] INFO root fetch - processPackages [databento]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databento-0.8.1.tar.gz tmp/databento-0.9.0.tar.gz --markdown 20230707/d/databento/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-07 01:57:29] INFO root fetch - processPackages [torch-hep]: executing diffoscope
+[2023-07-07 01:57:29] INFO root fetch - processPackages [torch-hep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_hep-0.0.3.tar.gz tmp/torch_hep-0.0.4-py3.10.egg --markdown 20230707/t/torch-hep/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-07 01:57:29] INFO root fetch - processPackages [pxsecurityapi]: Remove: archive file [/home/abi/fetcher/tmp/pxsecurityapi-1.0.2.tar.gz]
+[2023-07-07 01:57:29] INFO root fetch - processPackages [pxsecurityapi]: Remove: archive file [/home/abi/fetcher/tmp/pxsecurityapi-1.0.3.tar.gz]
+[2023-07-07 01:57:29] INFO root fetch - main [MainThread]: End processing [pxsecurityapi]: success
+[2023-07-07 01:57:30] INFO root fetch - processPackages [torch-hep]: Remove: archive file [/home/abi/fetcher/tmp/torch_hep-0.0.3.tar.gz]
+[2023-07-07 01:57:30] INFO root fetch - processPackages [torch-hep]: Remove: archive file [/home/abi/fetcher/tmp/torch_hep-0.0.4-py3.10.egg]
+[2023-07-07 01:57:30] INFO root fetch - main [MainThread]: End processing [torch-hep]: success
+[2023-07-07 01:57:30] INFO root fetch - processPackages [databento]: Remove: archive file [/home/abi/fetcher/tmp/databento-0.8.1.tar.gz]
+[2023-07-07 01:57:30] INFO root fetch - processPackages [databento]: Remove: archive file [/home/abi/fetcher/tmp/databento-0.9.0.tar.gz]
+[2023-07-07 01:57:30] INFO root fetch - main [MainThread]: End processing [databento]: success
+[2023-07-07 01:57:30] INFO root fetch - main [MainThread]: Store serial: [18792429]
