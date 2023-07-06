@@ -1479,3 +1479,81 @@
 [2023-07-07 01:26:03] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.7.9.tar.gz]
 [2023-07-07 01:26:03] INFO root fetch - main [MainThread]: End processing [swarms]: success
 [2023-07-07 01:26:03] INFO root fetch - main [MainThread]: Store serial: [18792188]
+[2023-07-07 01:31:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18792188]
+[2023-07-07 01:31:12] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-07 01:31:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt-oracle
+[2023-07-07 01:31:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neuro-all
+[2023-07-07 01:31:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datamorph-airflow
+[2023-07-07 01:31:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: compose-x-render
+[2023-07-07 01:31:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: protobuf
+[2023-07-07 01:31:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: path
+[2023-07-07 01:31:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hdict
+[2023-07-07 01:31:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: always-updates
+[2023-07-07 01:31:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: axion
+[2023-07-07 01:31:12] INFO root fetch - processPackages [protobuf]: New version: [4.23.4] Old Version: [4.23.3]
+[2023-07-07 01:31:12] INFO root fetch - processPackages [hdict]: New version: [1.230706.1] Old Version: [0.230412.3]
+[2023-07-07 01:31:12] INFO root fetch - processPackages [datamorph-airflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 01:31:12] ERROR root fetch - processPackages [axion]: Unable to get metadata: No such project 'axion'
+[2023-07-07 01:31:12] INFO root fetch - main [MainThread]: End processing [axion] error
+[2023-07-07 01:31:12] INFO root fetch - processPackages [compose-x-render]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-07-07 01:31:12] INFO root fetch - processPackages [path]: New version: [16.7.0] Old Version: [16.6.0]
+[2023-07-07 01:31:12] INFO root fetch - processPackages [neuro-all]: New version: [23.7.0] Old Version: [22.8.1]
+[2023-07-07 01:31:12] INFO root fetch - processPackages [dbt-oracle]: New version: [1.5.1rc2] Old Version: [1.5.1rc1]
+[2023-07-07 01:31:12] INFO root fetch - processPackages [datamorph-airflow]: Downloading https://files.pythonhosted.org/packages/59/4d/c3dced18864c4aedf5ad119c9bad76da645fb5cae9f9b05d9a754d72a223/datamorph-airflow-0.0.8.tar.gz
+[2023-07-07 01:31:12] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-07-07 01:31:12] INFO root fetch - processPackages [protobuf]: Downloading https://files.pythonhosted.org/packages/e5/9d/20e9bf4067e85c3074f1f5bac820a3cfb9ce885cddd8a649fe3570659c77/protobuf-4.23.3.tar.gz
+[2023-07-07 01:31:12] INFO root fetch - processPackages [hdict]: Downloading https://files.pythonhosted.org/packages/be/07/bbaebb821bcc264da7f6cd250451fe758f717eb2f6c08a08960c13af18f3/hdict-0.230412.3.tar.gz
+[2023-07-07 01:31:12] INFO root fetch - processPackages [path]: Downloading https://files.pythonhosted.org/packages/0a/52/94faab34ea4ddff296d99d32d16a7c342f70b1cd0f1d1d65b49e2a04b7a6/path-16.6.0.tar.gz
+[2023-07-07 01:31:12] INFO root fetch - processPackages [dbt-oracle]: Downloading https://files.pythonhosted.org/packages/81/7b/d79024118838b1747b36949389de19583bd563208071f05f47074aa0f59a/dbt-oracle-1.5.1rc1.tar.gz
+[2023-07-07 01:31:12] INFO root fetch - processPackages [compose-x-render]: Downloading https://files.pythonhosted.org/packages/7d/db/270dc0130b88fc3bbdb1d7537c052e636750e4dfbd62dff18209e8405f82/compose_x_render-0.6.1.tar.gz
+[2023-07-07 01:31:12] INFO root fetch - processPackages [neuro-all]: Downloading https://files.pythonhosted.org/packages/77/f9/888dd4ac024d8cb5e002d8dc73a686c79b5ef0913f84f998d743b1a17cfb/neuro-all-22.8.1.tar.gz
+[2023-07-07 01:31:12] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-07-07 01:31:12] INFO root fetch - processPackages [datamorph-airflow]: Downloading https://files.pythonhosted.org/packages/d6/cc/1166b410c837b95fb511c395addcef726790ddba91c635d807935681f0c5/datamorph-airflow-0.0.9.tar.gz
+[2023-07-07 01:31:12] INFO root fetch - processPackages [protobuf]: Downloading https://files.pythonhosted.org/packages/d3/1c/de86d82a5fc780feca36ef52c1231823bb3140266af8a04ed6286957aa6e/protobuf-4.23.4.tar.gz
+[2023-07-07 01:31:13] INFO root fetch - processPackages [path]: Downloading https://files.pythonhosted.org/packages/09/f1/9c5037970b484db1b5cf6cf4ed615b7c58a62e1f4b351d57611ecec3d60d/path-16.7.0.tar.gz
+[2023-07-07 01:31:13] INFO root fetch - processPackages [hdict]: Downloading https://files.pythonhosted.org/packages/df/fa/50be12d22dc751b1a0829e57b86fcc3e265faf9f645f3258e430837f4b77/hdict-1.230706.1.tar.gz
+[2023-07-07 01:31:13] INFO root fetch - processPackages [datamorph-airflow]: executing diffoscope
+[2023-07-07 01:31:13] INFO root fetch - processPackages [datamorph-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamorph-airflow-0.0.8.tar.gz tmp/datamorph-airflow-0.0.9.tar.gz --markdown 20230707/d/datamorph-airflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 01:31:13] INFO root fetch - processPackages [compose-x-render]: Downloading https://files.pythonhosted.org/packages/0d/d5/8dcb35e40c1f26ce7807c88427e2d8af1cc15388a03411a6e96dba0ab831/compose_x_render-0.7.0.tar.gz
+[2023-07-07 01:31:13] INFO root fetch - processPackages [dbt-oracle]: Downloading https://files.pythonhosted.org/packages/87/63/5c89b7e5d429f34e1726d8fe4d3e42955ee4bd5f028ec9061a5d2419e46e/dbt-oracle-1.5.1rc2.tar.gz
+[2023-07-07 01:31:13] INFO root fetch - processPackages [protobuf]: executing diffoscope
+[2023-07-07 01:31:13] INFO root fetch - processPackages [protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protobuf-4.23.3.tar.gz tmp/protobuf-4.23.4.tar.gz --markdown 20230707/p/protobuf/4.23.3-4.23.4/diff.md --exclude *.pyd
+[2023-07-07 01:31:13] INFO root fetch - processPackages [neuro-all]: Downloading https://files.pythonhosted.org/packages/e2/ac/9b8bdc4672fca8ac7e69e96038fd4e0ce14a72afd4166c8039190e540776/neuro_all-23.7.0.tar.gz
+[2023-07-07 01:31:13] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-07-07 01:31:13] INFO root fetch - processPackages [compose-x-render]: executing diffoscope
+[2023-07-07 01:31:13] INFO root fetch - processPackages [compose-x-render]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compose_x_render-0.6.1.tar.gz tmp/compose_x_render-0.7.0.tar.gz --markdown 20230707/c/compose-x-render/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-07-07 01:31:13] INFO root fetch - processPackages [path]: executing diffoscope
+[2023-07-07 01:31:13] INFO root fetch - processPackages [path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/path-16.6.0.tar.gz tmp/path-16.7.0.tar.gz --markdown 20230707/p/path/16.6.0-16.7.0/diff.md --exclude *.pyd
+[2023-07-07 01:31:13] INFO root fetch - processPackages [hdict]: executing diffoscope
+[2023-07-07 01:31:13] INFO root fetch - processPackages [hdict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdict-0.230412.3.tar.gz tmp/hdict-1.230706.1.tar.gz --markdown 20230707/h/hdict/0.230412.3-1.230706.1/diff.md --exclude *.pyd
+[2023-07-07 01:31:13] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-07-07 01:31:13] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230707/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-07-07 01:31:13] INFO root fetch - processPackages [neuro-all]: executing diffoscope
+[2023-07-07 01:31:13] INFO root fetch - processPackages [neuro-all]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuro-all-22.8.1.tar.gz tmp/neuro_all-23.7.0.tar.gz --markdown 20230707/n/neuro-all/22.8.1-23.7.0/diff.md --exclude *.pyd
+[2023-07-07 01:31:13] INFO root fetch - processPackages [dbt-oracle]: executing diffoscope
+[2023-07-07 01:31:13] INFO root fetch - processPackages [dbt-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-oracle-1.5.1rc1.tar.gz tmp/dbt-oracle-1.5.1rc2.tar.gz --markdown 20230707/d/dbt-oracle/1.5.1rc1-1.5.1rc2/diff.md --exclude *.pyd
+[2023-07-07 01:31:14] INFO root fetch - processPackages [compose-x-render]: Remove: archive file [/home/abi/fetcher/tmp/compose_x_render-0.6.1.tar.gz]
+[2023-07-07 01:31:14] INFO root fetch - processPackages [compose-x-render]: Remove: archive file [/home/abi/fetcher/tmp/compose_x_render-0.7.0.tar.gz]
+[2023-07-07 01:31:14] INFO root fetch - main [MainThread]: End processing [compose-x-render]: success
+[2023-07-07 01:31:14] INFO root fetch - processPackages [datamorph-airflow]: Remove: archive file [/home/abi/fetcher/tmp/datamorph-airflow-0.0.8.tar.gz]
+[2023-07-07 01:31:14] INFO root fetch - processPackages [datamorph-airflow]: Remove: archive file [/home/abi/fetcher/tmp/datamorph-airflow-0.0.9.tar.gz]
+[2023-07-07 01:31:14] INFO root fetch - main [MainThread]: End processing [datamorph-airflow]: success
+[2023-07-07 01:31:14] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-07-07 01:31:14] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-07-07 01:31:14] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-07-07 01:31:14] INFO root fetch - processPackages [path]: Remove: archive file [/home/abi/fetcher/tmp/path-16.6.0.tar.gz]
+[2023-07-07 01:31:14] INFO root fetch - processPackages [path]: Remove: archive file [/home/abi/fetcher/tmp/path-16.7.0.tar.gz]
+[2023-07-07 01:31:14] INFO root fetch - main [MainThread]: End processing [path]: success
+[2023-07-07 01:31:14] INFO root fetch - processPackages [neuro-all]: Remove: archive file [/home/abi/fetcher/tmp/neuro-all-22.8.1.tar.gz]
+[2023-07-07 01:31:14] INFO root fetch - processPackages [neuro-all]: Remove: archive file [/home/abi/fetcher/tmp/neuro_all-23.7.0.tar.gz]
+[2023-07-07 01:31:14] INFO root fetch - main [MainThread]: End processing [neuro-all]: success
+[2023-07-07 01:31:14] INFO root fetch - processPackages [hdict]: Remove: archive file [/home/abi/fetcher/tmp/hdict-0.230412.3.tar.gz]
+[2023-07-07 01:31:14] INFO root fetch - processPackages [hdict]: Remove: archive file [/home/abi/fetcher/tmp/hdict-1.230706.1.tar.gz]
+[2023-07-07 01:31:14] INFO root fetch - main [MainThread]: End processing [hdict]: success
+[2023-07-07 01:31:15] INFO root fetch - processPackages [dbt-oracle]: Remove: archive file [/home/abi/fetcher/tmp/dbt-oracle-1.5.1rc1.tar.gz]
+[2023-07-07 01:31:15] INFO root fetch - processPackages [dbt-oracle]: Remove: archive file [/home/abi/fetcher/tmp/dbt-oracle-1.5.1rc2.tar.gz]
+[2023-07-07 01:31:15] INFO root fetch - main [MainThread]: End processing [dbt-oracle]: success
+[2023-07-07 01:31:15] INFO root fetch - processPackages [protobuf]: Remove: archive file [/home/abi/fetcher/tmp/protobuf-4.23.3.tar.gz]
+[2023-07-07 01:31:15] INFO root fetch - processPackages [protobuf]: Remove: archive file [/home/abi/fetcher/tmp/protobuf-4.23.4.tar.gz]
+[2023-07-07 01:31:15] INFO root fetch - main [MainThread]: End processing [protobuf]: success
+[2023-07-07 01:31:15] INFO root fetch - main [MainThread]: Store serial: [18792224]
