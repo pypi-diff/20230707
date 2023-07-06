@@ -1646,3 +1646,88 @@
 [2023-07-07 01:41:51] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.9.tar.gz]
 [2023-07-07 01:41:51] INFO root fetch - main [MainThread]: End processing [agixt]: success
 [2023-07-07 01:41:51] INFO root fetch - main [MainThread]: Store serial: [18792327]
+[2023-07-07 01:46:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18792327]
+[2023-07-07 01:47:00] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-07 01:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pxsecurityapi
+[2023-07-07 01:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datamorph-airflow
+[2023-07-07 01:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydeequ
+[2023-07-07 01:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ratelimit-types
+[2023-07-07 01:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simple-redis-helper
+[2023-07-07 01:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyisyox
+[2023-07-07 01:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ogsapi
+[2023-07-07 01:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pik-intercom
+[2023-07-07 01:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: skyplane-nightly
+[2023-07-07 01:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pxsecurityapi
+[2023-07-07 01:47:00] INFO root fetch - processPackages [pxsecurityapi]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-07 01:47:00] INFO root fetch - processPackages [datamorph-airflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 01:47:00] INFO root fetch - processPackages [pxsecurityapi]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-07 01:47:00] INFO root fetch - processPackages [skyplane-nightly]: New version: [0.3.2.dev202307052345] Old Version: [0.3.2.dev202307042345]
+[2023-07-07 01:47:00] INFO root fetch - processPackages [pydeequ]: New version: [1.1.0rc0] Old Version: [1.1.0]
+[2023-07-07 01:47:00] INFO root fetch - processPackages [pyisyox]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-07-07 01:47:00] INFO root fetch - processPackages [simple-redis-helper]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-07 01:47:00] INFO root fetch - processPackages [pik-intercom]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-07 01:47:00] WARNING root fetch - processPackages [ratelimit-types]: Skipping, unable to determine old version
+[2023-07-07 01:47:00] INFO root fetch - main [MainThread]: End processing [ratelimit-types] error
+[2023-07-07 01:47:00] INFO root fetch - processPackages [ogsapi]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-07 01:47:00] INFO root fetch - processPackages [datamorph-airflow]: Downloading https://files.pythonhosted.org/packages/59/4d/c3dced18864c4aedf5ad119c9bad76da645fb5cae9f9b05d9a754d72a223/datamorph-airflow-0.0.8.tar.gz
+[2023-07-07 01:47:00] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/3d/b1/90657d9cfe6db6d262b3bdd36887577510fad556b71935109d06a497be94/skyplane_nightly-0.3.2.dev202307042345.tar.gz
+[2023-07-07 01:47:00] INFO root fetch - processPackages [ogsapi]: Downloading https://files.pythonhosted.org/packages/4e/a3/073dc7cf0741321ffcb5f9ca34541b4a3f25f7a7c53058fc3a6d6e05c654/ogsapi-0.7.1.tar.gz
+[2023-07-07 01:47:01] INFO root fetch - processPackages [pxsecurityapi]: Downloading https://files.pythonhosted.org/packages/af/d7/2b17e548ab29cb308dc42294c883eecb8d2f93acbe65a6d5eae1a37ec677/pxsecurityapi-1.0.0.tar.gz
+[2023-07-07 01:47:01] INFO root fetch - processPackages [pydeequ]: Downloading https://files.pythonhosted.org/packages/e9/9f/ff25f16c873fd6b56983b5595026ee78eeca76f9b7c44e132e754b754fd6/pydeequ-1.1.0.tar.gz
+[2023-07-07 01:47:01] INFO root fetch - processPackages [pxsecurityapi]: Downloading https://files.pythonhosted.org/packages/af/d7/2b17e548ab29cb308dc42294c883eecb8d2f93acbe65a6d5eae1a37ec677/pxsecurityapi-1.0.0.tar.gz
+[2023-07-07 01:47:01] INFO root fetch - processPackages [simple-redis-helper]: Downloading https://files.pythonhosted.org/packages/66/7d/28b103fcff4b91a23683838a572ae73ce4b94c3cef882468d559adf9c8de/simple-redis-helper-0.1.3.tar.gz
+[2023-07-07 01:47:01] INFO root fetch - processPackages [pyisyox]: Downloading https://files.pythonhosted.org/packages/36/9b/5a92913ca6d0368b8cb05248b954edbddd1ab9cd7585c0c63d5f76139f51/pyisyox-1.0.0a8.tar.gz
+[2023-07-07 01:47:01] INFO root fetch - processPackages [pik-intercom]: Downloading https://files.pythonhosted.org/packages/8c/9a/3be2e1a3501e6a0ce5e88643222bf1b9430608e3d875273499d6dbd4001b/pik_intercom-0.0.1.tar.gz
+[2023-07-07 01:47:01] INFO root fetch - processPackages [datamorph-airflow]: Downloading https://files.pythonhosted.org/packages/d6/cc/1166b410c837b95fb511c395addcef726790ddba91c635d807935681f0c5/datamorph-airflow-0.0.9.tar.gz
+[2023-07-07 01:47:01] INFO root fetch - processPackages [datamorph-airflow]: executing diffoscope
+[2023-07-07 01:47:01] INFO root fetch - processPackages [datamorph-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamorph-airflow-0.0.8.tar.gz tmp/datamorph-airflow-0.0.9.tar.gz --markdown 20230707/d/datamorph-airflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 01:47:01] INFO root fetch - processPackages [ogsapi]: Downloading https://files.pythonhosted.org/packages/56/5a/3f4f2834f808c7296cd80a403414045250cc83b1a21c383d7aa1c5268a63/ogsapi-0.7.2.tar.gz
+[2023-07-07 01:47:01] INFO root fetch - processPackages [pxsecurityapi]: Downloading https://files.pythonhosted.org/packages/f9/dd/9dc73f0609e1c05b689f26406b53e81f17ff7dd668ce41dc2e9ed05952b9/pxsecurityapi-1.0.1.tar.gz
+[2023-07-07 01:47:01] INFO root fetch - processPackages [pxsecurityapi]: Downloading https://files.pythonhosted.org/packages/f9/dd/9dc73f0609e1c05b689f26406b53e81f17ff7dd668ce41dc2e9ed05952b9/pxsecurityapi-1.0.1.tar.gz
+[2023-07-07 01:47:01] INFO root fetch - processPackages [simple-redis-helper]: Downloading https://files.pythonhosted.org/packages/4c/08/1e37ee111995c64ec3e68050c89fb85b72b838f1be884c7dee49c8f96af1/simple-redis-helper-0.1.4.tar.gz
+[2023-07-07 01:47:01] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/16/8b/e71e001825a0208dcb4dd71ca173259e64d349df10b13a75e4744b8d2cb2/skyplane_nightly-0.3.2.dev202307052345.tar.gz
+[2023-07-07 01:47:01] INFO root fetch - processPackages [pydeequ]: Downloading https://files.pythonhosted.org/packages/85/e1/78f64dd0986b4a3cb938e95f246616c714e77abd0527093ce5e09bab54dd/pydeequ-1.1.0rc0.tar.gz
+[2023-07-07 01:47:01] INFO root fetch - processPackages [pik-intercom]: Downloading https://files.pythonhosted.org/packages/63/65/d409b0bb11d908b25f216a8c4cfa7f11c6c949aa7fb7479b1d12b248a4bb/pik_intercom-0.0.2.tar.gz
+[2023-07-07 01:47:01] INFO root fetch - processPackages [pyisyox]: Downloading https://files.pythonhosted.org/packages/62/66/11657f31c7d9dbdc2744dd96da23d4df44b371bc7acbc278655c538ed431/pyisyox-1.0.0a9.tar.gz
+[2023-07-07 01:47:01] INFO root fetch - processPackages [simple-redis-helper]: executing diffoscope
+[2023-07-07 01:47:01] INFO root fetch - processPackages [simple-redis-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple-redis-helper-0.1.3.tar.gz tmp/simple-redis-helper-0.1.4.tar.gz --markdown 20230707/s/simple-redis-helper/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-07 01:47:01] INFO root fetch - processPackages [ogsapi]: executing diffoscope
+[2023-07-07 01:47:01] INFO root fetch - processPackages [ogsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogsapi-0.7.1.tar.gz tmp/ogsapi-0.7.2.tar.gz --markdown 20230707/o/ogsapi/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-07 01:47:01] INFO root fetch - processPackages [skyplane-nightly]: executing diffoscope
+[2023-07-07 01:47:01] INFO root fetch - processPackages [skyplane-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyplane_nightly-0.3.2.dev202307042345.tar.gz tmp/skyplane_nightly-0.3.2.dev202307052345.tar.gz --markdown 20230707/s/skyplane-nightly/0.3.2.dev202307042345-0.3.2.dev202307052345/diff.md --exclude *.pyd
+[2023-07-07 01:47:01] INFO root fetch - processPackages [pxsecurityapi]: executing diffoscope
+[2023-07-07 01:47:01] INFO root fetch - processPackages [pxsecurityapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pxsecurityapi-1.0.0.tar.gz tmp/pxsecurityapi-1.0.1.tar.gz --markdown 20230707/p/pxsecurityapi/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-07 01:47:01] INFO root fetch - processPackages [pxsecurityapi]: executing diffoscope
+[2023-07-07 01:47:01] INFO root fetch - processPackages [pxsecurityapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pxsecurityapi-1.0.0.tar.gz tmp/pxsecurityapi-1.0.1.tar.gz --markdown 20230707/p/pxsecurityapi/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-07 01:47:01] INFO root fetch - processPackages [pik-intercom]: executing diffoscope
+[2023-07-07 01:47:01] INFO root fetch - processPackages [pik-intercom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pik_intercom-0.0.1.tar.gz tmp/pik_intercom-0.0.2.tar.gz --markdown 20230707/p/pik-intercom/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-07 01:47:01] INFO root fetch - processPackages [pydeequ]: executing diffoscope
+[2023-07-07 01:47:01] INFO root fetch - processPackages [pydeequ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydeequ-1.1.0.tar.gz tmp/pydeequ-1.1.0rc0.tar.gz --markdown 20230707/p/pydeequ/1.1.0-1.1.0rc0/diff.md --exclude *.pyd
+[2023-07-07 01:47:01] INFO root fetch - processPackages [pyisyox]: executing diffoscope
+[2023-07-07 01:47:01] INFO root fetch - processPackages [pyisyox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyisyox-1.0.0a8.tar.gz tmp/pyisyox-1.0.0a9.tar.gz --markdown 20230707/p/pyisyox/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-07 01:47:02] INFO root fetch - processPackages [datamorph-airflow]: Remove: archive file [/home/abi/fetcher/tmp/datamorph-airflow-0.0.8.tar.gz]
+[2023-07-07 01:47:02] INFO root fetch - processPackages [datamorph-airflow]: Remove: archive file [/home/abi/fetcher/tmp/datamorph-airflow-0.0.9.tar.gz]
+[2023-07-07 01:47:02] INFO root fetch - main [MainThread]: End processing [datamorph-airflow]: success
+[2023-07-07 01:47:03] INFO root fetch - processPackages [pxsecurityapi]: Remove: archive file [/home/abi/fetcher/tmp/pxsecurityapi-1.0.0.tar.gz]
+[2023-07-07 01:47:03] INFO root fetch - processPackages [pxsecurityapi]: Remove: archive file [/home/abi/fetcher/tmp/pxsecurityapi-1.0.1.tar.gz]
+[2023-07-07 01:47:03] INFO root fetch - main [MainThread]: End processing [pxsecurityapi]: success
+[2023-07-07 01:47:03] INFO root fetch - processPackages [pik-intercom]: Remove: archive file [/home/abi/fetcher/tmp/pik_intercom-0.0.1.tar.gz]
+[2023-07-07 01:47:03] INFO root fetch - processPackages [pik-intercom]: Remove: archive file [/home/abi/fetcher/tmp/pik_intercom-0.0.2.tar.gz]
+[2023-07-07 01:47:03] INFO root fetch - main [MainThread]: End processing [pik-intercom]: success
+[2023-07-07 01:47:03] INFO root fetch - processPackages [simple-redis-helper]: Remove: archive file [/home/abi/fetcher/tmp/simple-redis-helper-0.1.3.tar.gz]
+[2023-07-07 01:47:03] INFO root fetch - processPackages [simple-redis-helper]: Remove: archive file [/home/abi/fetcher/tmp/simple-redis-helper-0.1.4.tar.gz]
+[2023-07-07 01:47:03] INFO root fetch - main [MainThread]: End processing [simple-redis-helper]: success
+[2023-07-07 01:47:03] INFO root fetch - main [MainThread]: End processing [pxsecurityapi]: success
+[2023-07-07 01:47:03] INFO root fetch - processPackages [ogsapi]: Remove: archive file [/home/abi/fetcher/tmp/ogsapi-0.7.1.tar.gz]
+[2023-07-07 01:47:03] INFO root fetch - processPackages [ogsapi]: Remove: archive file [/home/abi/fetcher/tmp/ogsapi-0.7.2.tar.gz]
+[2023-07-07 01:47:03] INFO root fetch - main [MainThread]: End processing [ogsapi]: success
+[2023-07-07 01:47:03] INFO root fetch - processPackages [pydeequ]: Remove: archive file [/home/abi/fetcher/tmp/pydeequ-1.1.0.tar.gz]
+[2023-07-07 01:47:03] INFO root fetch - processPackages [pydeequ]: Remove: archive file [/home/abi/fetcher/tmp/pydeequ-1.1.0rc0.tar.gz]
+[2023-07-07 01:47:03] INFO root fetch - main [MainThread]: End processing [pydeequ]: success
+[2023-07-07 01:47:03] INFO root fetch - processPackages [pyisyox]: Remove: archive file [/home/abi/fetcher/tmp/pyisyox-1.0.0a8.tar.gz]
+[2023-07-07 01:47:03] INFO root fetch - processPackages [pyisyox]: Remove: archive file [/home/abi/fetcher/tmp/pyisyox-1.0.0a9.tar.gz]
+[2023-07-07 01:47:03] INFO root fetch - main [MainThread]: End processing [pyisyox]: success
+[2023-07-07 01:47:03] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev202307042345.tar.gz]
+[2023-07-07 01:47:03] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev202307052345.tar.gz]
+[2023-07-07 01:47:03] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
+[2023-07-07 01:47:03] INFO root fetch - main [MainThread]: Store serial: [18792358]
