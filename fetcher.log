@@ -236,3 +236,73 @@
 [2023-07-07 00:16:38] INFO root fetch - processPackages [google-cloud-tpu]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-tpu-1.9.0.tar.gz]
 [2023-07-07 00:16:38] INFO root fetch - main [MainThread]: End processing [google-cloud-tpu]: success
 [2023-07-07 00:16:38] INFO root fetch - main [MainThread]: Store serial: [18791573]
+[2023-07-07 00:21:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18791573]
+[2023-07-07 00:21:46] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-07 00:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openpgpcard-x25519-agent
+[2023-07-07 00:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hermespy
+[2023-07-07 00:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Phidget22
+[2023-07-07 00:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Phidget22Native
+[2023-07-07 00:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coiled
+[2023-07-07 00:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-product-pricelist-supplierinfo
+[2023-07-07 00:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crash
+[2023-07-07 00:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: swarms
+[2023-07-07 00:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: samus-logging
+[2023-07-07 00:21:47] INFO root fetch - processPackages [openpgpcard-x25519-agent]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-07 00:21:47] WARNING root fetch - processPackages [samus-logging]: Skipping, unable to determine old version
+[2023-07-07 00:21:47] INFO root fetch - main [MainThread]: End processing [samus-logging] error
+[2023-07-07 00:21:47] INFO root fetch - processPackages [odoo-addon-product-pricelist-supplierinfo]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.3]
+[2023-07-07 00:21:47] INFO root fetch - processPackages [hermespy]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-07 00:21:47] INFO root fetch - processPackages [Phidget22Native]: New version: [1.9.20220203] Old Version: [1.9.20220112]
+[2023-07-07 00:21:47] INFO root fetch - processPackages [Phidget22]: New version: [1.9.20220203] Old Version: [1.9.20220112]
+[2023-07-07 00:21:47] INFO root fetch - processPackages [coiled]: New version: [0.8.4.dev5] Old Version: [0.8.4.dev4]
+[2023-07-07 00:21:47] INFO root fetch - processPackages [crash]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-07 00:21:47] INFO root fetch - processPackages [swarms]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-07-07 00:21:47] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/72/3f/eca31d33a644f9b0c971ef2dac6f91bc62267f1baa3bb84f5f23f4f778d8/coiled-0.8.4.dev4.tar.gz
+[2023-07-07 00:21:47] INFO root fetch - processPackages [hermespy]: Downloading https://files.pythonhosted.org/packages/11/5c/35d03c25306c0ab22fa655905e41baf7105f2bed7e7f80ba9b1e0569ee65/hermespy-1.0.0.tar.gz
+[2023-07-07 00:21:47] INFO root fetch - processPackages [openpgpcard-x25519-agent]: Downloading https://files.pythonhosted.org/packages/8f/4f/0ff6d4e3d392e4ce3e08d8e796c7c74322f8a5568ad14a43b3446eb5276a/openpgpcard-x25519-agent-1.0.1.tar.gz
+[2023-07-07 00:21:47] INFO root fetch - processPackages [odoo-addon-product-pricelist-supplierinfo]: Downloading https://files.pythonhosted.org/packages/d5/99/ed2ac6f555e852422c7547392fd8b8bcbb0d3a3fd92c0b2ad0cb12089e5c/odoo_addon_product_pricelist_supplierinfo-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-07 00:21:47] INFO root fetch - processPackages [Phidget22]: Downloading https://files.pythonhosted.org/packages/5c/0f/9aba89b0881783f1575b0729ee5c8faaf57ed1b0322f20850960a1f9cf58/Phidget22-1.9.20220112.tar.gz
+[2023-07-07 00:21:47] INFO root fetch - processPackages [Phidget22Native]: Downloading https://files.pythonhosted.org/packages/97/4d/cfad4d35527d95c665c319212ff8afc6cb56609566f12332eea0c88bacfe/Phidget22Native-1.9.20220112-cp39-cp39-win_amd64.whl
+[2023-07-07 00:21:47] WARNING root fetch - processPackages [hermespy]: Skipping package: exceeds size limit 54639753>=10485760
+[2023-07-07 00:21:47] INFO root fetch - main [MainThread]: End processing [hermespy] error
+[2023-07-07 00:21:47] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/1a/7d/633a5d122ea7539e1b8a7689a8c34782b76c7d2cad83a352cea4cb48d9c4/swarms-0.6.1.tar.gz
+[2023-07-07 00:21:47] WARNING root fetch - processPackages [swarms]: Skipping package: exceeds size limit 30404709>=10485760
+[2023-07-07 00:21:47] INFO root fetch - main [MainThread]: End processing [swarms] error
+[2023-07-07 00:21:47] INFO root fetch - processPackages [crash]: Downloading https://files.pythonhosted.org/packages/c6/9e/a380f7b13ab423739ac3d1fd0cbdbbe111731b09bbcfb156855f869538be/crash-0.9.8.tar.gz
+[2023-07-07 00:21:47] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/da/a3/da20f088485c91072198098a9818a71ffe0d56210c4f97cdf1a26ba3c531/coiled-0.8.4.dev5.tar.gz
+[2023-07-07 00:21:47] INFO root fetch - processPackages [openpgpcard-x25519-agent]: Downloading https://files.pythonhosted.org/packages/a5/d8/56bc115be1cca29c575facd3964f86847a4c1de147a7b1c9d442cd927b74/openpgpcard-x25519-agent-1.0.2.tar.gz
+[2023-07-07 00:21:47] INFO root fetch - processPackages [odoo-addon-product-pricelist-supplierinfo]: Downloading https://files.pythonhosted.org/packages/2f/a4/e888fb96317f6f08c0b7856bc011910e48f729897816304aa2c682924fe9/odoo_addon_product_pricelist_supplierinfo-16.0.1.0.1-py3-none-any.whl
+[2023-07-07 00:21:48] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-07 00:21:48] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.4.dev4.tar.gz tmp/coiled-0.8.4.dev5.tar.gz --markdown 20230707/c/coiled/0.8.4.dev4-0.8.4.dev5/diff.md --exclude *.pyd
+[2023-07-07 00:21:48] INFO root fetch - processPackages [Phidget22]: Downloading https://files.pythonhosted.org/packages/cc/e2/59e8526ade7ce009d540836ffd6e11033106cc976374ae0caa4c7e61d074/Phidget22-1.9.20220203.tar.gz
+[2023-07-07 00:21:48] INFO root fetch - processPackages [Phidget22Native]: Downloading https://files.pythonhosted.org/packages/e6/e2/cfe3da25d10f9981e8c90c8d3cdf4b205ce3e87e95986f9f3c36fc0f5939/Phidget22Native-1.9.20220203-cp39-cp39-win_amd64.whl
+[2023-07-07 00:21:48] INFO root fetch - processPackages [openpgpcard-x25519-agent]: executing diffoscope
+[2023-07-07 00:21:48] INFO root fetch - processPackages [openpgpcard-x25519-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openpgpcard-x25519-agent-1.0.1.tar.gz tmp/openpgpcard-x25519-agent-1.0.2.tar.gz --markdown 20230707/o/openpgpcard-x25519-agent/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-07 00:21:48] INFO root fetch - processPackages [odoo-addon-product-pricelist-supplierinfo]: executing diffoscope
+[2023-07-07 00:21:48] INFO root fetch - processPackages [odoo-addon-product-pricelist-supplierinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_pricelist_supplierinfo-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_product_pricelist_supplierinfo-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230707/o/odoo-addon-product-pricelist-supplierinfo/16.0.1.0.0.3-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-07-07 00:21:48] INFO root fetch - processPackages [crash]: Downloading https://files.pythonhosted.org/packages/02/d4/cf4431f0744b719f5643157b1fc420bd5aea002ac043661b4465840235a8/crash-0.9.9.tar.gz
+[2023-07-07 00:21:48] INFO root fetch - processPackages [Phidget22]: executing diffoscope
+[2023-07-07 00:21:48] INFO root fetch - processPackages [Phidget22]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Phidget22-1.9.20220112.tar.gz tmp/Phidget22-1.9.20220203.tar.gz --markdown 20230707/P/Phidget22/1.9.20220112-1.9.20220203/diff.md --exclude *.pyd
+[2023-07-07 00:21:48] INFO root fetch - processPackages [Phidget22Native]: executing diffoscope
+[2023-07-07 00:21:48] INFO root fetch - processPackages [Phidget22Native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Phidget22Native-1.9.20220112-cp39-cp39-win_amd64.whl.zip tmp/Phidget22Native-1.9.20220203-cp39-cp39-win_amd64.whl.zip --markdown 20230707/P/Phidget22Native/1.9.20220112-1.9.20220203/diff.md --exclude *.pyd
+[2023-07-07 00:21:48] INFO root fetch - processPackages [crash]: executing diffoscope
+[2023-07-07 00:21:48] INFO root fetch - processPackages [crash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crash-0.9.8.tar.gz tmp/crash-0.9.9.tar.gz --markdown 20230707/c/crash/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-07 00:21:49] INFO root fetch - processPackages [odoo-addon-product-pricelist-supplierinfo]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_pricelist_supplierinfo-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-07 00:21:49] INFO root fetch - processPackages [odoo-addon-product-pricelist-supplierinfo]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_pricelist_supplierinfo-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-07 00:21:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-pricelist-supplierinfo]: success
+[2023-07-07 00:21:49] INFO root fetch - processPackages [openpgpcard-x25519-agent]: Remove: archive file [/home/abi/fetcher/tmp/openpgpcard-x25519-agent-1.0.1.tar.gz]
+[2023-07-07 00:21:49] INFO root fetch - processPackages [openpgpcard-x25519-agent]: Remove: archive file [/home/abi/fetcher/tmp/openpgpcard-x25519-agent-1.0.2.tar.gz]
+[2023-07-07 00:21:49] INFO root fetch - main [MainThread]: End processing [openpgpcard-x25519-agent]: success
+[2023-07-07 00:21:49] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.4.dev4.tar.gz]
+[2023-07-07 00:21:49] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.4.dev5.tar.gz]
+[2023-07-07 00:21:49] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-07 00:21:49] INFO root fetch - processPackages [crash]: Remove: archive file [/home/abi/fetcher/tmp/crash-0.9.8.tar.gz]
+[2023-07-07 00:21:49] INFO root fetch - processPackages [crash]: Remove: archive file [/home/abi/fetcher/tmp/crash-0.9.9.tar.gz]
+[2023-07-07 00:21:49] INFO root fetch - main [MainThread]: End processing [crash]: success
+[2023-07-07 00:21:49] INFO root fetch - processPackages [Phidget22]: Remove: archive file [/home/abi/fetcher/tmp/Phidget22-1.9.20220112.tar.gz]
+[2023-07-07 00:21:49] INFO root fetch - processPackages [Phidget22]: Remove: archive file [/home/abi/fetcher/tmp/Phidget22-1.9.20220203.tar.gz]
+[2023-07-07 00:21:49] INFO root fetch - main [MainThread]: End processing [Phidget22]: success
+[2023-07-07 00:21:56] INFO root fetch - processPackages [Phidget22Native]: Remove: archive file [/home/abi/fetcher/tmp/Phidget22Native-1.9.20220112-cp39-cp39-win_amd64.whl.zip]
+[2023-07-07 00:21:56] INFO root fetch - processPackages [Phidget22Native]: Remove: archive file [/home/abi/fetcher/tmp/Phidget22Native-1.9.20220203-cp39-cp39-win_amd64.whl.zip]
+[2023-07-07 00:21:56] INFO root fetch - main [MainThread]: End processing [Phidget22Native]: success
+[2023-07-07 00:21:56] INFO root fetch - main [MainThread]: Store serial: [18791607]
