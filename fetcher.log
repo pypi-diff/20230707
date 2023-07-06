@@ -1060,3 +1060,88 @@
 [2023-07-07 00:59:58] INFO root fetch - processPackages [django-connectwise]: Remove: archive file [/home/abi/fetcher/tmp/django-connectwise-1.3.3.tar.gz]
 [2023-07-07 00:59:58] INFO root fetch - main [MainThread]: End processing [django-connectwise]: success
 [2023-07-07 00:59:58] INFO root fetch - main [MainThread]: Store serial: [18791975]
+[2023-07-07 01:05:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18791975]
+[2023-07-07 01:05:08] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-07 01:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snsphd
+[2023-07-07 01:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spellbot
+[2023-07-07 01:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: threads-api
+[2023-07-07 01:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmnt-cu101
+[2023-07-07 01:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tmnt
+[2023-07-07 01:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flwr-nightly
+[2023-07-07 01:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: findmyfile
+[2023-07-07 01:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spellbot
+[2023-07-07 01:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: opendoor
+[2023-07-07 01:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hosh
+[2023-07-07 01:05:08] INFO root fetch - processPackages [snsphd]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-07 01:05:08] INFO root fetch - processPackages [opendoor]: New version: [4.1.0] Old Version: [4.0.6]
+[2023-07-07 01:05:08] WARNING root fetch - processPackages [threads-api]: Skipping, unable to determine old version
+[2023-07-07 01:05:08] INFO root fetch - main [MainThread]: End processing [threads-api] error
+[2023-07-07 01:05:08] INFO root fetch - processPackages [findmyfile]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-07 01:05:08] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230706] Old Version: [0.7.0b20230705]
+[2023-07-07 01:05:08] INFO root fetch - processPackages [spellbot]: New version: [8.9.4] Old Version: [8.9.3]
+[2023-07-07 01:05:08] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230706] Old Version: [0.7.0b20230705]
+[2023-07-07 01:05:08] INFO root fetch - processPackages [spellbot]: New version: [8.9.4] Old Version: [8.9.3]
+[2023-07-07 01:05:08] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230705] Old Version: [1.5.0.dev20230704]
+[2023-07-07 01:05:08] INFO root fetch - processPackages [spellbot]: Downloading https://files.pythonhosted.org/packages/28/31/c1c5df3d60ddd2e31cfd5f31f5263365c70d617aa5f7f98074c19e82df44/spellbot-8.9.3.tar.gz
+[2023-07-07 01:05:08] INFO root fetch - processPackages [hosh]: New version: [3.230705.2] Old Version: [3.230705.1]
+[2023-07-07 01:05:08] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/41/27/db64fcb20a5064fa7cbe355d99402a2f6c5ae39f3369d8221ff91fc294af/flwr_nightly-1.5.0.dev20230704.tar.gz
+[2023-07-07 01:05:08] INFO root fetch - processPackages [snsphd]: Downloading https://files.pythonhosted.org/packages/33/b2/53bc0d63dd0f804badb221835eb7229ad4aff658842578f3af8488266cac/snsphd-0.1.0.tar.gz
+[2023-07-07 01:05:08] INFO root fetch - processPackages [spellbot]: Downloading https://files.pythonhosted.org/packages/28/31/c1c5df3d60ddd2e31cfd5f31f5263365c70d617aa5f7f98074c19e82df44/spellbot-8.9.3.tar.gz
+[2023-07-07 01:05:08] INFO root fetch - processPackages [findmyfile]: Downloading https://files.pythonhosted.org/packages/15/dd/705ba733c0e1d858295ad50a871fbbb7b94b13d690f5b445c139187dc87c/findmyfile-0.3.0.tar.gz
+[2023-07-07 01:05:08] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/4a/fa/dca51409c1d679b9b6e28ae50047d1397063dcefed1d7c193d7e0ae9765e/tmnt-cu101-0.7.0b20230705.tar.gz
+[2023-07-07 01:05:09] INFO root fetch - processPackages [opendoor]: Downloading https://files.pythonhosted.org/packages/69/97/e078c58ab5f455f1a1cfb6943545858f4ed073a8d88a5d9f326fd789a56b/opendoor-4.0.6.tar.gz
+[2023-07-07 01:05:09] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/29/6e/087d8518c77133bf1762e0f0b4686bf736b128394389cd2af6fe9816f84f/tmnt-0.7.0b20230705.tar.gz
+[2023-07-07 01:05:09] INFO root fetch - processPackages [hosh]: Downloading https://files.pythonhosted.org/packages/bf/43/d3f03fdc7e4976b1699ddd62b5d51f43ecc2f43fa6198b275aeb89004328/hosh-3.230705.1.tar.gz
+[2023-07-07 01:05:09] INFO root fetch - processPackages [spellbot]: Downloading https://files.pythonhosted.org/packages/7e/9e/af26d5387a7ff3029877947698c24541522be84c68fea588307a234971b4/spellbot-8.9.4.tar.gz
+[2023-07-07 01:05:09] INFO root fetch - processPackages [spellbot]: Downloading https://files.pythonhosted.org/packages/7e/9e/af26d5387a7ff3029877947698c24541522be84c68fea588307a234971b4/spellbot-8.9.4.tar.gz
+[2023-07-07 01:05:09] INFO root fetch - processPackages [spellbot]: executing diffoscope
+[2023-07-07 01:05:09] INFO root fetch - processPackages [spellbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spellbot-8.9.3.tar.gz tmp/spellbot-8.9.4.tar.gz --markdown 20230707/s/spellbot/8.9.3-8.9.4/diff.md --exclude *.pyd
+[2023-07-07 01:05:09] INFO root fetch - processPackages [spellbot]: executing diffoscope
+[2023-07-07 01:05:09] INFO root fetch - processPackages [spellbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spellbot-8.9.3.tar.gz tmp/spellbot-8.9.4.tar.gz --markdown 20230707/s/spellbot/8.9.3-8.9.4/diff.md --exclude *.pyd
+[2023-07-07 01:05:09] INFO root fetch - processPackages [snsphd]: Downloading https://files.pythonhosted.org/packages/69/c6/fd6dd99438b54aeb9dc69ce852fb47c22ccd99ed040234a41640e65f085e/snsphd-0.1.1.tar.gz
+[2023-07-07 01:05:09] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/38/f0/b8bce8261eb3125f8b96e6f0393ad26d80a52cc9e721f472e4031249c2ba/tmnt-cu101-0.7.0b20230706.tar.gz
+[2023-07-07 01:05:09] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/fb/d3/edeb4a58bb085d9ae05af2f0d24c7e081a1001878d778644d57fc165df1d/flwr_nightly-1.5.0.dev20230705.tar.gz
+[2023-07-07 01:05:09] INFO root fetch - processPackages [findmyfile]: Downloading https://files.pythonhosted.org/packages/56/5e/72dcc98b9b11d3d6a0316f30528db53b434fe0e858a5f63180db857cbb90/findmyfile-0.3.1.tar.gz
+[2023-07-07 01:05:09] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/75/f3/1c87c4bd47b32ef88cebccddc53f8a9695b4347104f33bd3dc29901bc7e5/tmnt-0.7.0b20230706.tar.gz
+[2023-07-07 01:05:09] INFO root fetch - processPackages [hosh]: Downloading https://files.pythonhosted.org/packages/0b/d4/d39c129fed70f5b05440e79dad78f630060593e7e84143033a62a3b407b6/hosh-3.230705.2.tar.gz
+[2023-07-07 01:05:09] INFO root fetch - processPackages [opendoor]: Downloading https://files.pythonhosted.org/packages/ec/cf/d4993234b587b62f81a1dbe9c0affc8ac016c750826d32e7b11d4926172f/opendoor-4.1.0.tar.gz
+[2023-07-07 01:05:09] INFO root fetch - processPackages [snsphd]: executing diffoscope
+[2023-07-07 01:05:09] INFO root fetch - processPackages [snsphd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snsphd-0.1.0.tar.gz tmp/snsphd-0.1.1.tar.gz --markdown 20230707/s/snsphd/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-07 01:05:09] INFO root fetch - processPackages [findmyfile]: executing diffoscope
+[2023-07-07 01:05:09] INFO root fetch - processPackages [findmyfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyfile-0.3.0.tar.gz tmp/findmyfile-0.3.1.tar.gz --markdown 20230707/f/findmyfile/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-07 01:05:09] INFO root fetch - processPackages [opendoor]: executing diffoscope
+[2023-07-07 01:05:09] INFO root fetch - processPackages [opendoor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendoor-4.0.6.tar.gz tmp/opendoor-4.1.0.tar.gz --markdown 20230707/o/opendoor/4.0.6-4.1.0/diff.md --exclude *.pyd
+[2023-07-07 01:05:09] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-07-07 01:05:09] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-07-07 01:05:09] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230704.tar.gz tmp/flwr_nightly-1.5.0.dev20230705.tar.gz --markdown 20230707/f/flwr-nightly/1.5.0.dev20230704-1.5.0.dev20230705/diff.md --exclude *.pyd
+[2023-07-07 01:05:09] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230705.tar.gz tmp/tmnt-cu101-0.7.0b20230706.tar.gz --markdown 20230707/t/tmnt-cu101/0.7.0b20230705-0.7.0b20230706/diff.md --exclude *.pyd
+[2023-07-07 01:05:09] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-07-07 01:05:09] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230705.tar.gz tmp/tmnt-0.7.0b20230706.tar.gz --markdown 20230707/t/tmnt/0.7.0b20230705-0.7.0b20230706/diff.md --exclude *.pyd
+[2023-07-07 01:05:09] INFO root fetch - processPackages [hosh]: executing diffoscope
+[2023-07-07 01:05:09] INFO root fetch - processPackages [hosh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hosh-3.230705.1.tar.gz tmp/hosh-3.230705.2.tar.gz --markdown 20230707/h/hosh/3.230705.1-3.230705.2/diff.md --exclude *.pyd
+[2023-07-07 01:05:11] INFO root fetch - processPackages [snsphd]: Remove: archive file [/home/abi/fetcher/tmp/snsphd-0.1.0.tar.gz]
+[2023-07-07 01:05:11] INFO root fetch - processPackages [snsphd]: Remove: archive file [/home/abi/fetcher/tmp/snsphd-0.1.1.tar.gz]
+[2023-07-07 01:05:11] INFO root fetch - main [MainThread]: End processing [snsphd]: success
+[2023-07-07 01:05:11] INFO root fetch - processPackages [spellbot]: Remove: archive file [/home/abi/fetcher/tmp/spellbot-8.9.3.tar.gz]
+[2023-07-07 01:05:11] INFO root fetch - processPackages [spellbot]: Remove: archive file [/home/abi/fetcher/tmp/spellbot-8.9.4.tar.gz]
+[2023-07-07 01:05:11] INFO root fetch - main [MainThread]: End processing [spellbot]: success
+[2023-07-07 01:05:11] INFO root fetch - processPackages [findmyfile]: Remove: archive file [/home/abi/fetcher/tmp/findmyfile-0.3.0.tar.gz]
+[2023-07-07 01:05:11] INFO root fetch - processPackages [findmyfile]: Remove: archive file [/home/abi/fetcher/tmp/findmyfile-0.3.1.tar.gz]
+[2023-07-07 01:05:11] INFO root fetch - main [MainThread]: End processing [findmyfile]: success
+[2023-07-07 01:05:11] INFO root fetch - main [MainThread]: End processing [spellbot]: success
+[2023-07-07 01:05:11] INFO root fetch - processPackages [hosh]: Remove: archive file [/home/abi/fetcher/tmp/hosh-3.230705.1.tar.gz]
+[2023-07-07 01:05:11] INFO root fetch - processPackages [hosh]: Remove: archive file [/home/abi/fetcher/tmp/hosh-3.230705.2.tar.gz]
+[2023-07-07 01:05:11] INFO root fetch - main [MainThread]: End processing [hosh]: success
+[2023-07-07 01:05:11] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230705.tar.gz]
+[2023-07-07 01:05:11] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230706.tar.gz]
+[2023-07-07 01:05:11] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-07-07 01:05:11] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230705.tar.gz]
+[2023-07-07 01:05:11] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230706.tar.gz]
+[2023-07-07 01:05:11] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-07-07 01:05:11] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230704.tar.gz]
+[2023-07-07 01:05:11] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230705.tar.gz]
+[2023-07-07 01:05:11] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-07-07 01:05:13] INFO root fetch - processPackages [opendoor]: Remove: archive file [/home/abi/fetcher/tmp/opendoor-4.0.6.tar.gz]
+[2023-07-07 01:05:13] INFO root fetch - processPackages [opendoor]: Remove: archive file [/home/abi/fetcher/tmp/opendoor-4.1.0.tar.gz]
+[2023-07-07 01:05:13] INFO root fetch - main [MainThread]: End processing [opendoor]: success
+[2023-07-07 01:05:13] INFO root fetch - main [MainThread]: Store serial: [18792005]
