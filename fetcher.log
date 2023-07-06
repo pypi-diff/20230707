@@ -1,0 +1,65 @@
+[2023-07-07 00:02:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18791446]
+[2023-07-07 00:03:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-07 00:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: liege
+[2023-07-07 00:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: idms
+[2023-07-07 00:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cjm-yolox-pytorch
+[2023-07-07 00:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hiperwalk
+[2023-07-07 00:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: QVSED
+[2023-07-07 00:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dimod
+[2023-07-07 00:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: envlogger
+[2023-07-07 00:03:01] INFO root fetch - processPackages [hiperwalk]: New version: [2.0a5] Old Version: [2.0a4]
+[2023-07-07 00:03:01] INFO root fetch - processPackages [envlogger]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-07 00:03:01] INFO root fetch - processPackages [idms]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-07 00:03:01] INFO root fetch - processPackages [QVSED]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-07-07 00:03:01] INFO root fetch - processPackages [liege]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-07-07 00:03:01] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 00:03:01] INFO root fetch - processPackages [dimod]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-07 00:03:01] INFO root fetch - processPackages [QVSED]: Downloading https://files.pythonhosted.org/packages/e1/d1/2f5f700c7013355ee78cfa90cf1ecf53bc015bb1ed0e7b8f25c326dfd8ac/QVSED-1.0.3.tar.gz
+[2023-07-07 00:03:01] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-07 00:03:01] INFO root fetch - processPackages [dimod]: Downloading https://files.pythonhosted.org/packages/76/58/645a597eed11830b92a2e2f18a2b34609d89fb54cac0770e6665dee4fced/dimod-0.9.8.tar.gz
+[2023-07-07 00:03:01] INFO root fetch - processPackages [envlogger]: Downloading https://files.pythonhosted.org/packages/dd/3b/47d07ad9b439b14cb43b54ac497d92f5dd9d7f3cd80e62f6dc613d49f587/envlogger-1.0.7-cp39-cp39-manylinux2010_x86_64.whl
+[2023-07-07 00:03:01] INFO root fetch - processPackages [idms]: Downloading https://files.pythonhosted.org/packages/7d/9c/b24fb76a698bc7d2690d65bab162abbb6bd61f67aa44c600512a5f629d78/idms-0.1.9.tar.gz
+[2023-07-07 00:03:01] INFO root fetch - processPackages [hiperwalk]: Downloading https://files.pythonhosted.org/packages/36/d8/b8c0d5913fe2f258ba45b224672f9e38a714843200e14c7085cdb81447e5/hiperwalk-2.0a4.tar.gz
+[2023-07-07 00:03:01] INFO root fetch - processPackages [liege]: Downloading https://files.pythonhosted.org/packages/cc/ad/ebd82624afff7bef5e8d65f167b22ba86e4745738f496d073aeef5d8a315/liege-0.1.3.tar.gz
+[2023-07-07 00:03:02] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-07 00:03:02] INFO root fetch - processPackages [QVSED]: Downloading https://files.pythonhosted.org/packages/15/ea/f72c1454ca6a6e4d8c861551a63f86cc875abd031040f9dfb3a0546ad54c/QVSED-1.1.0.tar.gz
+[2023-07-07 00:03:02] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-07 00:03:02] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230707/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 00:03:02] INFO root fetch - processPackages [QVSED]: executing diffoscope
+[2023-07-07 00:03:02] INFO root fetch - processPackages [QVSED]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QVSED-1.0.3.tar.gz tmp/QVSED-1.1.0.tar.gz --markdown 20230707/Q/QVSED/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-07-07 00:03:02] INFO root fetch - processPackages [liege]: Downloading https://files.pythonhosted.org/packages/90/79/328e316e155def8a6d826fd246d62c7e2bd3b36aba1eda31c3c6325dde58/liege-0.2.0.tar.gz
+[2023-07-07 00:03:02] INFO root fetch - processPackages [idms]: Downloading https://files.pythonhosted.org/packages/40/7d/a71ce9ce755d4e2dd61e06ca44c68f14cfd975f41fe0947590a3ba9cdd36/idms-0.2.0.tar.gz
+[2023-07-07 00:03:02] INFO root fetch - processPackages [hiperwalk]: Downloading https://files.pythonhosted.org/packages/f4/ea/301e11139b6b55413714be94c06da75228da2ef98a3b8afb7e21b74ef6a1/hiperwalk-2.0a5.tar.gz
+[2023-07-07 00:03:02] INFO root fetch - processPackages [idms]: executing diffoscope
+[2023-07-07 00:03:02] INFO root fetch - processPackages [idms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idms-0.1.9.tar.gz tmp/idms-0.2.0.tar.gz --markdown 20230707/i/idms/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-07 00:03:02] INFO root fetch - processPackages [liege]: executing diffoscope
+[2023-07-07 00:03:02] INFO root fetch - processPackages [liege]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liege-0.1.3.tar.gz tmp/liege-0.2.0.tar.gz --markdown 20230707/l/liege/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-07-07 00:03:02] INFO root fetch - processPackages [dimod]: Downloading https://files.pythonhosted.org/packages/ad/78/2ad2a1953daba92bde62f5c0750d0bd0ea504800e351e637c16059665652/dimod-0.9.9.tar.gz
+[2023-07-07 00:03:02] INFO root fetch - processPackages [dimod]: executing diffoscope
+[2023-07-07 00:03:02] INFO root fetch - processPackages [dimod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dimod-0.9.8.tar.gz tmp/dimod-0.9.9.tar.gz --markdown 20230707/d/dimod/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-07 00:03:02] INFO root fetch - processPackages [hiperwalk]: executing diffoscope
+[2023-07-07 00:03:02] INFO root fetch - processPackages [hiperwalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiperwalk-2.0a4.tar.gz tmp/hiperwalk-2.0a5.tar.gz --markdown 20230707/h/hiperwalk/2.0a4-2.0a5/diff.md --exclude *.pyd
+[2023-07-07 00:03:02] INFO root fetch - processPackages [envlogger]: Downloading https://files.pythonhosted.org/packages/1d/a5/59b3479bcb1d39fd41ba970bc588668b8859d607dce0177a89e542bc43dd/envlogger-1.0.8-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-07 00:03:03] INFO root fetch - processPackages [QVSED]: Remove: archive file [/home/abi/fetcher/tmp/QVSED-1.0.3.tar.gz]
+[2023-07-07 00:03:03] INFO root fetch - processPackages [QVSED]: Remove: archive file [/home/abi/fetcher/tmp/QVSED-1.1.0.tar.gz]
+[2023-07-07 00:03:03] INFO root fetch - main [MainThread]: End processing [QVSED]: success
+[2023-07-07 00:03:03] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-07 00:03:03] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-07 00:03:03] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-07 00:03:03] INFO root fetch - processPackages [envlogger]: executing diffoscope
+[2023-07-07 00:03:03] INFO root fetch - processPackages [envlogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envlogger-1.0.7-cp39-cp39-manylinux2010_x86_64.whl.zip tmp/envlogger-1.0.8-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230707/e/envlogger/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-07 00:03:03] INFO root fetch - processPackages [idms]: Remove: archive file [/home/abi/fetcher/tmp/idms-0.1.9.tar.gz]
+[2023-07-07 00:03:03] INFO root fetch - processPackages [idms]: Remove: archive file [/home/abi/fetcher/tmp/idms-0.2.0.tar.gz]
+[2023-07-07 00:03:03] INFO root fetch - main [MainThread]: End processing [idms]: success
+[2023-07-07 00:03:03] INFO root fetch - processPackages [liege]: Remove: archive file [/home/abi/fetcher/tmp/liege-0.1.3.tar.gz]
+[2023-07-07 00:03:03] INFO root fetch - processPackages [liege]: Remove: archive file [/home/abi/fetcher/tmp/liege-0.2.0.tar.gz]
+[2023-07-07 00:03:03] INFO root fetch - main [MainThread]: End processing [liege]: success
+[2023-07-07 00:03:05] INFO root fetch - processPackages [dimod]: Remove: archive file [/home/abi/fetcher/tmp/dimod-0.9.8.tar.gz]
+[2023-07-07 00:03:05] INFO root fetch - processPackages [dimod]: Remove: archive file [/home/abi/fetcher/tmp/dimod-0.9.9.tar.gz]
+[2023-07-07 00:03:05] INFO root fetch - main [MainThread]: End processing [dimod]: success
+[2023-07-07 00:03:44] INFO root fetch - processPackages [envlogger]: Remove: archive file [/home/abi/fetcher/tmp/envlogger-1.0.7-cp39-cp39-manylinux2010_x86_64.whl.zip]
+[2023-07-07 00:03:44] INFO root fetch - processPackages [envlogger]: Remove: archive file [/home/abi/fetcher/tmp/envlogger-1.0.8-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-07 00:03:44] INFO root fetch - main [MainThread]: End processing [envlogger]: success
+[2023-07-07 00:06:02] ERROR root fetch - processPackages [hiperwalk]: Timeout during execution of pkgdiff
+[2023-07-07 00:06:02] INFO root fetch - main [MainThread]: End processing [hiperwalk] error
+[2023-07-07 00:06:02] INFO root fetch - main [MainThread]: Store serial: [18791504]
