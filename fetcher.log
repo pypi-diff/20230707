@@ -966,3 +966,97 @@
 [2023-07-07 00:54:44] INFO root fetch - processPackages [nonebot-plugin-blive-danmaku]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_blive_danmaku-0.3.40.tar.gz]
 [2023-07-07 00:54:44] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-blive-danmaku]: success
 [2023-07-07 00:54:44] INFO root fetch - main [MainThread]: Store serial: [18791940]
+[2023-07-07 00:59:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18791940]
+[2023-07-07 00:59:53] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-07 00:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarms
+[2023-07-07 00:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hspylib-cfman
+[2023-07-07 00:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maggma
+[2023-07-07 00:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hspylib-firebase
+[2023-07-07 00:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hspylib-vault
+[2023-07-07 00:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: planetary-spip
+[2023-07-07 00:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hspylib-setman
+[2023-07-07 00:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hspylib-setman
+[2023-07-07 00:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: agixtsdk
+[2023-07-07 00:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sqlite-ner
+[2023-07-07 00:59:53] INFO root fetch - processPackages [planetary-spip]: New version: [1.1.2a0] Old Version: [1.1.2]
+[2023-07-07 00:59:53] INFO root fetch - processPackages [hspylib-setman]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-07 00:59:53] INFO root fetch - processPackages [hspylib-setman]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-07 00:59:53] INFO root fetch - processPackages [maggma]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-07 00:59:53] INFO root fetch - processPackages [planetary-spip]: Downloading https://files.pythonhosted.org/packages/5e/b5/b99f4e1245d6a3b0203afd47c4126e7cd5d9a88f8c09789c2de97e0e1f7f/planetary-spip-1.1.2.tar.gz
+[2023-07-07 00:59:53] INFO root fetch - processPackages [hspylib-setman]: Downloading https://files.pythonhosted.org/packages/23/a0/01708d2bc5be74c10c19efb152fd00e6cde7c7f105d24445de015923998f/hspylib-setman-0.9.5.tar.gz
+[2023-07-07 00:59:53] INFO root fetch - processPackages [hspylib-cfman]: New version: [0.9.95] Old Version: [0.9.94]
+[2023-07-07 00:59:53] WARNING root fetch - processPackages [sqlite-ner]: Skipping, unable to determine old version
+[2023-07-07 00:59:53] INFO root fetch - processPackages [sqlite-ner]: Start processing: django-connectwise
+[2023-07-07 00:59:53] INFO root fetch - main [MainThread]: End processing [sqlite-ner] error
+[2023-07-07 00:59:53] INFO root fetch - processPackages [hspylib-setman]: Downloading https://files.pythonhosted.org/packages/23/a0/01708d2bc5be74c10c19efb152fd00e6cde7c7f105d24445de015923998f/hspylib-setman-0.9.5.tar.gz
+[2023-07-07 00:59:53] INFO root fetch - processPackages [agixtsdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 00:59:53] INFO root fetch - processPackages [swarms]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-07-07 00:59:53] INFO root fetch - processPackages [hspylib-firebase]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-07 00:59:53] INFO root fetch - processPackages [hspylib-vault]: New version: [0.9.9] Old Version: [0.9.88]
+[2023-07-07 00:59:53] INFO root fetch - processPackages [django-connectwise]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-07 00:59:54] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/3d/65/b26f3274d7867a7d56f0cdac73c2522d3f5a267005c46d436ebda2f3bd6b/swarms-0.7.5.tar.gz
+[2023-07-07 00:59:54] INFO root fetch - processPackages [maggma]: Downloading https://files.pythonhosted.org/packages/0b/d5/4bfefd3094fe323ae3b4f6043dd7f75d763cd562d238063c16d1d2f30697/maggma-0.8.0.tar.gz
+[2023-07-07 00:59:54] INFO root fetch - processPackages [hspylib-cfman]: Downloading https://files.pythonhosted.org/packages/35/ed/b7b69178c2b6f1a94e9aba825a5671a4e2d5184877c5b967ece5ff0211c2/hspylib-cfman-0.9.94.tar.gz
+[2023-07-07 00:59:54] INFO root fetch - processPackages [django-connectwise]: Downloading https://files.pythonhosted.org/packages/c6/7b/403221fae31bc60ac147203546ed332591965ecfe59f07b574542cd652d5/django-connectwise-1.3.2.tar.gz
+[2023-07-07 00:59:54] INFO root fetch - processPackages [planetary-spip]: Downloading https://files.pythonhosted.org/packages/dc/d8/592c64a3bd123fa51bf9f71d47cffcb381901db6a9e89f398424e6f2828d/planetary-spip-1.1.2a0.tar.gz
+[2023-07-07 00:59:54] INFO root fetch - processPackages [hspylib-firebase]: Downloading https://files.pythonhosted.org/packages/b3/c1/df924c9a05ded1364ea44caeaf6b35bb300ce4bfaec0c1b8300044798fe7/hspylib-firebase-0.9.98.tar.gz
+[2023-07-07 00:59:54] INFO root fetch - processPackages [hspylib-vault]: Downloading https://files.pythonhosted.org/packages/fe/c3/4f081a6d3da414d1029ff867e9f95a293cb318d14f16d824db96b9666770/hspylib-vault-0.9.88.tar.gz
+[2023-07-07 00:59:54] INFO root fetch - processPackages [agixtsdk]: Downloading https://files.pythonhosted.org/packages/fc/f4/85d852d47773fa6751a3ed8d3ca02e654579a0a110cdc23896aebd954b2c/agixtsdk-0.0.8.tar.gz
+[2023-07-07 00:59:54] INFO root fetch - processPackages [hspylib-setman]: Downloading https://files.pythonhosted.org/packages/87/99/5bfbd3a7d5b715091efade230ef6018ce904ffea127aac9122a1fbab1f25/hspylib-setman-0.9.6.tar.gz
+[2023-07-07 00:59:54] INFO root fetch - processPackages [planetary-spip]: executing diffoscope
+[2023-07-07 00:59:54] INFO root fetch - processPackages [planetary-spip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetary-spip-1.1.2.tar.gz tmp/planetary-spip-1.1.2a0.tar.gz --markdown 20230707/p/planetary-spip/1.1.2-1.1.2a0/diff.md --exclude *.pyd
+[2023-07-07 00:59:54] INFO root fetch - processPackages [hspylib-setman]: Downloading https://files.pythonhosted.org/packages/87/99/5bfbd3a7d5b715091efade230ef6018ce904ffea127aac9122a1fbab1f25/hspylib-setman-0.9.6.tar.gz
+[2023-07-07 00:59:54] INFO root fetch - processPackages [maggma]: Downloading https://files.pythonhosted.org/packages/e3/6f/7133584ec97cb54d2930706c7623e641ac8328cb0b9166e7bc2f9f04616f/maggma-0.9.0.tar.gz
+[2023-07-07 00:59:54] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/f0/86/937b2ad1be20038d9e07320c13e0e1116a63f0c52136dfad3b234c8075fc/swarms-0.7.6.tar.gz
+[2023-07-07 00:59:54] INFO root fetch - processPackages [hspylib-setman]: executing diffoscope
+[2023-07-07 00:59:54] INFO root fetch - processPackages [hspylib-setman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-setman-0.9.5.tar.gz tmp/hspylib-setman-0.9.6.tar.gz --markdown 20230707/h/hspylib-setman/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-07 00:59:54] INFO root fetch - processPackages [hspylib-cfman]: Downloading https://files.pythonhosted.org/packages/8a/68/dd4c0981dd1b3a7060ed4ca9b82dd3ee093dd51fda00deb55ecc0776d484/hspylib-cfman-0.9.95.tar.gz
+[2023-07-07 00:59:54] INFO root fetch - processPackages [hspylib-firebase]: Downloading https://files.pythonhosted.org/packages/b3/3b/97937a13574633ebabf4064ad625a14153340d653ddaf08abb25c870255d/hspylib-firebase-0.9.99.tar.gz
+[2023-07-07 00:59:54] INFO root fetch - processPackages [hspylib-setman]: executing diffoscope
+[2023-07-07 00:59:54] INFO root fetch - processPackages [hspylib-setman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-setman-0.9.5.tar.gz tmp/hspylib-setman-0.9.6.tar.gz --markdown 20230707/h/hspylib-setman/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-07 00:59:54] INFO root fetch - processPackages [django-connectwise]: Downloading https://files.pythonhosted.org/packages/b9/d1/827ad804c0bd1a4c5a0850fcd2b4815b811e1b5d9263549c4d26a9b19bd4/django-connectwise-1.3.3.tar.gz
+[2023-07-07 00:59:54] INFO root fetch - processPackages [agixtsdk]: Downloading https://files.pythonhosted.org/packages/74/75/1048551801b0e2aa197b36b7a2d249437127d0d21a98a3aea7016e0929b9/agixtsdk-0.0.9.tar.gz
+[2023-07-07 00:59:54] INFO root fetch - processPackages [hspylib-firebase]: executing diffoscope
+[2023-07-07 00:59:54] INFO root fetch - processPackages [hspylib-firebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-firebase-0.9.98.tar.gz tmp/hspylib-firebase-0.9.99.tar.gz --markdown 20230707/h/hspylib-firebase/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-07 00:59:54] INFO root fetch - processPackages [hspylib-vault]: Downloading https://files.pythonhosted.org/packages/31/99/9f7d53773a561c5eaa7232ac972256dc49d0093b72522b58b18c8a20d238/hspylib-vault-0.9.9.tar.gz
+[2023-07-07 00:59:54] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-07 00:59:54] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.7.5.tar.gz tmp/swarms-0.7.6.tar.gz --markdown 20230707/s/swarms/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-07-07 00:59:54] INFO root fetch - processPackages [django-connectwise]: executing diffoscope
+[2023-07-07 00:59:54] INFO root fetch - processPackages [django-connectwise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-connectwise-1.3.2.tar.gz tmp/django-connectwise-1.3.3.tar.gz --markdown 20230707/d/django-connectwise/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-07 00:59:54] INFO root fetch - processPackages [hspylib-cfman]: executing diffoscope
+[2023-07-07 00:59:54] INFO root fetch - processPackages [hspylib-cfman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-cfman-0.9.94.tar.gz tmp/hspylib-cfman-0.9.95.tar.gz --markdown 20230707/h/hspylib-cfman/0.9.94-0.9.95/diff.md --exclude *.pyd
+[2023-07-07 00:59:54] INFO root fetch - processPackages [maggma]: executing diffoscope
+[2023-07-07 00:59:54] INFO root fetch - processPackages [maggma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maggma-0.8.0.tar.gz tmp/maggma-0.9.0.tar.gz --markdown 20230707/m/maggma/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-07 00:59:54] INFO root fetch - processPackages [hspylib-vault]: executing diffoscope
+[2023-07-07 00:59:54] INFO root fetch - processPackages [hspylib-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-vault-0.9.88.tar.gz tmp/hspylib-vault-0.9.9.tar.gz --markdown 20230707/h/hspylib-vault/0.9.88-0.9.9/diff.md --exclude *.pyd
+[2023-07-07 00:59:54] INFO root fetch - processPackages [agixtsdk]: executing diffoscope
+[2023-07-07 00:59:54] INFO root fetch - processPackages [agixtsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixtsdk-0.0.8.tar.gz tmp/agixtsdk-0.0.9.tar.gz --markdown 20230707/a/agixtsdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 00:59:55] INFO root fetch - processPackages [planetary-spip]: Remove: archive file [/home/abi/fetcher/tmp/planetary-spip-1.1.2.tar.gz]
+[2023-07-07 00:59:55] INFO root fetch - processPackages [planetary-spip]: Remove: archive file [/home/abi/fetcher/tmp/planetary-spip-1.1.2a0.tar.gz]
+[2023-07-07 00:59:55] INFO root fetch - main [MainThread]: End processing [planetary-spip]: success
+[2023-07-07 00:59:56] INFO root fetch - processPackages [hspylib-setman]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-setman-0.9.5.tar.gz]
+[2023-07-07 00:59:56] INFO root fetch - processPackages [hspylib-setman]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-setman-0.9.6.tar.gz]
+[2023-07-07 00:59:56] INFO root fetch - main [MainThread]: End processing [hspylib-setman]: success
+[2023-07-07 00:59:56] INFO root fetch - processPackages [hspylib-firebase]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-firebase-0.9.98.tar.gz]
+[2023-07-07 00:59:56] INFO root fetch - processPackages [hspylib-firebase]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-firebase-0.9.99.tar.gz]
+[2023-07-07 00:59:56] INFO root fetch - main [MainThread]: End processing [hspylib-firebase]: success
+[2023-07-07 00:59:56] INFO root fetch - main [MainThread]: End processing [hspylib-setman]: success
+[2023-07-07 00:59:56] INFO root fetch - processPackages [agixtsdk]: Remove: archive file [/home/abi/fetcher/tmp/agixtsdk-0.0.8.tar.gz]
+[2023-07-07 00:59:56] INFO root fetch - processPackages [agixtsdk]: Remove: archive file [/home/abi/fetcher/tmp/agixtsdk-0.0.9.tar.gz]
+[2023-07-07 00:59:56] INFO root fetch - main [MainThread]: End processing [agixtsdk]: success
+[2023-07-07 00:59:56] INFO root fetch - processPackages [hspylib-cfman]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-cfman-0.9.94.tar.gz]
+[2023-07-07 00:59:56] INFO root fetch - processPackages [hspylib-cfman]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-cfman-0.9.95.tar.gz]
+[2023-07-07 00:59:56] INFO root fetch - main [MainThread]: End processing [hspylib-cfman]: success
+[2023-07-07 00:59:56] INFO root fetch - processPackages [hspylib-vault]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-vault-0.9.88.tar.gz]
+[2023-07-07 00:59:56] INFO root fetch - processPackages [hspylib-vault]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-vault-0.9.9.tar.gz]
+[2023-07-07 00:59:56] INFO root fetch - main [MainThread]: End processing [hspylib-vault]: success
+[2023-07-07 00:59:56] INFO root fetch - processPackages [maggma]: Remove: archive file [/home/abi/fetcher/tmp/maggma-0.8.0.tar.gz]
+[2023-07-07 00:59:56] INFO root fetch - processPackages [maggma]: Remove: archive file [/home/abi/fetcher/tmp/maggma-0.9.0.tar.gz]
+[2023-07-07 00:59:56] INFO root fetch - main [MainThread]: End processing [maggma]: success
+[2023-07-07 00:59:56] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.7.5.tar.gz]
+[2023-07-07 00:59:56] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.7.6.tar.gz]
+[2023-07-07 00:59:56] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-07 00:59:58] INFO root fetch - processPackages [django-connectwise]: Remove: archive file [/home/abi/fetcher/tmp/django-connectwise-1.3.2.tar.gz]
+[2023-07-07 00:59:58] INFO root fetch - processPackages [django-connectwise]: Remove: archive file [/home/abi/fetcher/tmp/django-connectwise-1.3.3.tar.gz]
+[2023-07-07 00:59:58] INFO root fetch - main [MainThread]: End processing [django-connectwise]: success
+[2023-07-07 00:59:58] INFO root fetch - main [MainThread]: Store serial: [18791975]
