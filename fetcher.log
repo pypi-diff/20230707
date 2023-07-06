@@ -408,3 +408,158 @@
 [2023-07-07 00:27:23] INFO root fetch - processPackages [EnergyCapSdk]: Remove: archive file [/home/abi/fetcher/tmp/EnergyCapSdk-8.2304.4636.tar.gz]
 [2023-07-07 00:27:23] INFO root fetch - main [MainThread]: End processing [EnergyCapSdk]: success
 [2023-07-07 00:27:23] INFO root fetch - main [MainThread]: Store serial: [18791668]
+[2023-07-07 00:32:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18791668]
+[2023-07-07 00:32:32] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-07 00:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spam
+[2023-07-07 00:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymor
+[2023-07-07 00:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: st-blogpost-component
+[2023-07-07 00:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swarms
+[2023-07-07 00:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oms-mqclient
+[2023-07-07 00:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaraco.develop
+[2023-07-07 00:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: discord-advert-framework
+[2023-07-07 00:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-07-07 00:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tarvis-atb
+[2023-07-07 00:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xnattagger
+[2023-07-07 00:32:32] INFO root fetch - processPackages [pymor]: New version: [2023.1.0] Old Version: [2022.2.1]
+[2023-07-07 00:32:32] WARNING root fetch - processPackages [tarvis-atb]: Skipping, unable to determine old version
+[2023-07-07 00:32:32] INFO root fetch - processPackages [tarvis-atb]: Start processing: pywebgo
+[2023-07-07 00:32:32] INFO root fetch - main [MainThread]: End processing [tarvis-atb] error
+[2023-07-07 00:32:32] INFO root fetch - processPackages [spam]: New version: [0.7] Old Version: [0.6.3]
+[2023-07-07 00:32:32] INFO root fetch - processPackages [xnattagger]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-07 00:32:32] INFO root fetch - processPackages [oms-mqclient]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-07-07 00:32:32] INFO root fetch - processPackages [discord-advert-framework]: New version: [2.9.1] Old Version: [2.9.0.4]
+[2023-07-07 00:32:32] INFO root fetch - processPackages [swarms]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-07 00:32:32] INFO root fetch - processPackages [st-blogpost-component]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-07 00:32:32] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.390] Old Version: [0.3.389]
+[2023-07-07 00:32:32] INFO root fetch - processPackages [jaraco.develop]: New version: [8.0.0] Old Version: [7.9.1]
+[2023-07-07 00:32:32] INFO root fetch - processPackages [pywebgo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 00:32:33] INFO root fetch - processPackages [jaraco.develop]: Downloading https://files.pythonhosted.org/packages/20/2d/16cf4a7654cc9364083e4419a0641648e22fc2a6bc8b941bb5752d923a56/jaraco.develop-7.9.1.tar.gz
+[2023-07-07 00:32:33] INFO root fetch - processPackages [xnattagger]: Downloading https://files.pythonhosted.org/packages/b5/99/0069972f891ee529b7cd46d7956f48986219d3873299ccd2de14b808a8f9/xnattagger-0.4.8-py2.py3-none-any.whl
+[2023-07-07 00:32:33] INFO root fetch - processPackages [pywebgo]: Downloading https://files.pythonhosted.org/packages/79/d0/524a38520d67a82a39f7fbcc4c2158b470d021a9a62b6afe28c91ee286de/pywebgo-0.0.8.tar.gz
+[2023-07-07 00:32:33] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/ca/d0/223e58d25c950c6872d2dc673e6269f0fd8b992e892d7e7f7c0c10797c34/pepperize.cdk-ses-smtp-credentials-0.3.389.tar.gz
+[2023-07-07 00:32:33] INFO root fetch - processPackages [discord-advert-framework]: Downloading https://files.pythonhosted.org/packages/b9/41/9d0df1bec87e02e5bf39b257f5ba959829945c885438fabd7b3223889cea/discord-advert-framework-2.9.0.4.tar.gz
+[2023-07-07 00:32:33] INFO root fetch - processPackages [spam]: Downloading https://files.pythonhosted.org/packages/e9/97/cfbcf3e42f43d5735141906ca187bbe7b40734e88252d9045a228497a7ab/spam-0.6.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-07 00:32:33] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/f7/53/922ac19332cbca836a80aa15ad76f55337ba17f3e72fee2b189fb0836f29/swarms-0.7.0.tar.gz
+[2023-07-07 00:32:33] INFO root fetch - processPackages [pymor]: Downloading https://files.pythonhosted.org/packages/a5/f2/da4f7bcd2bd9d694f0759121ff8b5f15dc273e55363b90166aae41e2c780/pymor-2022.2.1.tar.gz
+[2023-07-07 00:32:33] WARNING root fetch - processPackages [discord-advert-framework]: Skipping package: exceeds size limit 11286844>=10485760
+[2023-07-07 00:32:33] INFO root fetch - processPackages [discord-advert-framework]: Start processing: echofish-aws-raw-to-zarr-lambda
+[2023-07-07 00:32:33] INFO root fetch - main [MainThread]: End processing [discord-advert-framework] error
+[2023-07-07 00:32:33] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: New version: [1.0.0.dev20230706204200] Old Version: [1.0.0.dev20230706193815]
+[2023-07-07 00:32:33] INFO root fetch - processPackages [st-blogpost-component]: Downloading https://files.pythonhosted.org/packages/01/ac/ce0424757d814a3a9c9ee09052b29511714564f728da8c0debb59289b0df/st_blogpost_component-0.0.9.tar.gz
+[2023-07-07 00:32:33] INFO root fetch - processPackages [oms-mqclient]: Downloading https://files.pythonhosted.org/packages/c7/ce/7ad0be4bd968bc6c9ba2b8d71760c23472bd50653daa1ea5f62be622bea8/oms-mqclient-2.1.0.tar.gz
+[2023-07-07 00:32:33] INFO root fetch - processPackages [xnattagger]: Downloading https://files.pythonhosted.org/packages/88/a3/0d1a82de7a69315a0cfec45ecd4bbd0b38efd05625b61de72aa3a755640f/xnattagger-0.4.9-py2.py3-none-any.whl
+[2023-07-07 00:32:33] INFO root fetch - processPackages [pywebgo]: Downloading https://files.pythonhosted.org/packages/6e/05/3c470aa109d99535eab11a2993cf033843be17834a0d190b9cb03ecafbca/pywebgo-0.0.9.tar.gz
+[2023-07-07 00:32:33] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Downloading https://files.pythonhosted.org/packages/7b/61/c73ff2ad6f1edb0ff650bb3d055679f09f48ebd6d925cb5081004b98b4c6/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230706193815.tar.gz
+[2023-07-07 00:32:33] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/b0/88/cd3cfa4b32272e6a95db03514050bedcafc850f965d2c5869cf9994f916c/pepperize.cdk-ses-smtp-credentials-0.3.390.tar.gz
+[2023-07-07 00:32:33] INFO root fetch - processPackages [jaraco.develop]: Downloading https://files.pythonhosted.org/packages/14/2a/a05eee3abbda5ff9561fba0cd900ab51d0825088d81c1c8d70480c650836/jaraco.develop-8.0.0.tar.gz
+[2023-07-07 00:32:33] INFO root fetch - processPackages [xnattagger]: executing diffoscope
+[2023-07-07 00:32:33] INFO root fetch - processPackages [xnattagger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xnattagger-0.4.8-py2.py3-none-any.whl.zip tmp/xnattagger-0.4.9-py2.py3-none-any.whl.zip --markdown 20230707/x/xnattagger/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-07 00:32:33] INFO root fetch - processPackages [pywebgo]: executing diffoscope
+[2023-07-07 00:32:33] INFO root fetch - processPackages [pywebgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywebgo-0.0.8.tar.gz tmp/pywebgo-0.0.9.tar.gz --markdown 20230707/p/pywebgo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 00:32:33] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/88/d8/e291db96460959fadbee3e86cdf3db1c78839dad8c94fd50c1a16692b002/swarms-0.7.1.tar.gz
+[2023-07-07 00:32:33] INFO root fetch - processPackages [oms-mqclient]: Downloading https://files.pythonhosted.org/packages/f1/02/03f75a179ca9f0e1aa4c501f7b5d7a4d2776f1766f2fd209cb70b741259f/oms-mqclient-2.1.1.tar.gz
+[2023-07-07 00:32:33] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-07-07 00:32:33] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.389.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.390.tar.gz --markdown 20230707/p/pepperize.cdk-ses-smtp-credentials/0.3.389-0.3.390/diff.md --exclude *.pyd
+[2023-07-07 00:32:33] INFO root fetch - processPackages [jaraco.develop]: executing diffoscope
+[2023-07-07 00:32:33] INFO root fetch - processPackages [jaraco.develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco.develop-7.9.1.tar.gz tmp/jaraco.develop-8.0.0.tar.gz --markdown 20230707/j/jaraco.develop/7.9.1-8.0.0/diff.md --exclude *.pyd
+[2023-07-07 00:32:33] INFO root fetch - processPackages [st-blogpost-component]: Downloading https://files.pythonhosted.org/packages/4d/27/2f7aa6fd05ff5960ba786a0278675142de06f47d1aca97837dad843abca9/st_blogpost_component-0.1.0.tar.gz
+[2023-07-07 00:32:33] INFO root fetch - processPackages [pymor]: Downloading https://files.pythonhosted.org/packages/82/1d/9f793f1d75da1aa323b88111019a63f75dfeb3853dea028b5a0d9bbf9a57/pymor-2023.1.0.tar.gz
+[2023-07-07 00:32:34] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Downloading https://files.pythonhosted.org/packages/72/43/67576d1d2acdf46d57b336dfb6a603995fce4694787dc3d65118fe29d786/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230706204200.tar.gz
+[2023-07-07 00:32:34] INFO root fetch - processPackages [oms-mqclient]: executing diffoscope
+[2023-07-07 00:32:34] INFO root fetch - processPackages [oms-mqclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oms-mqclient-2.1.0.tar.gz tmp/oms-mqclient-2.1.1.tar.gz --markdown 20230707/o/oms-mqclient/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-07-07 00:32:34] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-07 00:32:34] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.7.0.tar.gz tmp/swarms-0.7.1.tar.gz --markdown 20230707/s/swarms/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-07 00:32:34] INFO root fetch - processPackages [st-blogpost-component]: executing diffoscope
+[2023-07-07 00:32:34] INFO root fetch - processPackages [st-blogpost-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_blogpost_component-0.0.9.tar.gz tmp/st_blogpost_component-0.1.0.tar.gz --markdown 20230707/s/st-blogpost-component/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-07 00:32:34] INFO root fetch - processPackages [pymor]: executing diffoscope
+[2023-07-07 00:32:34] INFO root fetch - processPackages [pymor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymor-2022.2.1.tar.gz tmp/pymor-2023.1.0.tar.gz --markdown 20230707/p/pymor/2022.2.1-2023.1.0/diff.md --exclude *.pyd
+[2023-07-07 00:32:34] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: executing diffoscope
+[2023-07-07 00:32:34] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230706193815.tar.gz tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230706204200.tar.gz --markdown 20230707/e/echofish-aws-raw-to-zarr-lambda/1.0.0.dev20230706193815-1.0.0.dev20230706204200/diff.md --exclude *.pyd
+[2023-07-07 00:32:34] WARNING root fetch - processPackages [spam]: fallback to get urls: [0.7]
+[2023-07-07 00:32:34] WARNING root fetch - processPackages [spam]: None
+[2023-07-07 00:32:34] WARNING root fetch - processPackages [spam]: None
+[2023-07-07 00:32:34] WARNING root fetch - processPackages [spam]: unable to get url for both version [0.7]
+[2023-07-07 00:32:34] WARNING root fetch - processPackages [spam]: None
+[2023-07-07 00:32:34] INFO root fetch - processPackages [spam]: Start processing: dwiqc
+[2023-07-07 00:32:34] INFO root fetch - main [MainThread]: End processing [spam] error
+[2023-07-07 00:32:35] INFO root fetch - processPackages [xnattagger]: Remove: archive file [/home/abi/fetcher/tmp/xnattagger-0.4.8-py2.py3-none-any.whl.zip]
+[2023-07-07 00:32:35] INFO root fetch - processPackages [xnattagger]: Remove: archive file [/home/abi/fetcher/tmp/xnattagger-0.4.9-py2.py3-none-any.whl.zip]
+[2023-07-07 00:32:35] INFO root fetch - processPackages [xnattagger]: Start processing: composabl-dev
+[2023-07-07 00:32:35] INFO root fetch - main [MainThread]: End processing [xnattagger]: success
+[2023-07-07 00:32:35] INFO root fetch - processPackages [dwiqc]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-07 00:32:35] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/fa/6a/d36e03a715e14cdf3b3742a3521d7dfa51402c683236ad2681048119cff2/dwiqc-0.5.8-py2.py3-none-any.whl
+[2023-07-07 00:32:35] INFO root fetch - processPackages [pywebgo]: Remove: archive file [/home/abi/fetcher/tmp/pywebgo-0.0.8.tar.gz]
+[2023-07-07 00:32:35] INFO root fetch - processPackages [pywebgo]: Remove: archive file [/home/abi/fetcher/tmp/pywebgo-0.0.9.tar.gz]
+[2023-07-07 00:32:35] INFO root fetch - processPackages [pywebgo]: Start processing: remin
+[2023-07-07 00:32:35] INFO root fetch - main [MainThread]: End processing [pywebgo]: success
+[2023-07-07 00:32:35] INFO root fetch - processPackages [composabl-dev]: New version: [0.2.3.dev3] Old Version: [0.2.3.dev26]
+[2023-07-07 00:32:35] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.389.tar.gz]
+[2023-07-07 00:32:35] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.390.tar.gz]
+[2023-07-07 00:32:35] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Start processing: mosaicml-cli
+[2023-07-07 00:32:35] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-07-07 00:32:35] INFO root fetch - processPackages [remin]: New version: [0.2.5] Old Version: [0.2.0]
+[2023-07-07 00:32:35] INFO root fetch - processPackages [jaraco.develop]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.develop-7.9.1.tar.gz]
+[2023-07-07 00:32:35] INFO root fetch - processPackages [jaraco.develop]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.develop-8.0.0.tar.gz]
+[2023-07-07 00:32:35] INFO root fetch - processPackages [jaraco.develop]: Start processing: capparser
+[2023-07-07 00:32:35] INFO root fetch - main [MainThread]: End processing [jaraco.develop]: success
+[2023-07-07 00:32:35] INFO root fetch - processPackages [remin]: Downloading https://files.pythonhosted.org/packages/da/5a/3be2215da4f34be21f455704faf7324eb3cc118837b6cede419240f3d56f/remin-0.2.0.tar.gz
+[2023-07-07 00:32:35] INFO root fetch - processPackages [mosaicml-cli]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-07 00:32:35] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/0c/73/d29b3b15c0b27b26c7d344d49f5fbe716984eaccaa31ba2b3560803ba50b/dwiqc-0.5.9-py2.py3-none-any.whl
+[2023-07-07 00:32:35] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/6e/9b/c89890ee26dadb89e652214f918cac0a3a310e336edbfd60a5d01ec3e08a/composabl_dev-0.2.3.dev26-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-07-07 00:32:35] INFO root fetch - processPackages [mosaicml-cli]: Downloading https://files.pythonhosted.org/packages/08/41/a9c5dd61375b8ef9f749f0e1e0c1277adfbac1e63a96dfd08d91eb55a11f/mosaicml-cli-0.4.8.tar.gz
+[2023-07-07 00:32:35] INFO root fetch - processPackages [capparser]: New version: [2.0.4] Old Version: [1.0.0]
+[2023-07-07 00:32:35] INFO root fetch - processPackages [dwiqc]: executing diffoscope
+[2023-07-07 00:32:35] INFO root fetch - processPackages [dwiqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwiqc-0.5.8-py2.py3-none-any.whl.zip tmp/dwiqc-0.5.9-py2.py3-none-any.whl.zip --markdown 20230707/d/dwiqc/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-07 00:32:35] INFO root fetch - processPackages [oms-mqclient]: Remove: archive file [/home/abi/fetcher/tmp/oms-mqclient-2.1.0.tar.gz]
+[2023-07-07 00:32:35] INFO root fetch - processPackages [oms-mqclient]: Remove: archive file [/home/abi/fetcher/tmp/oms-mqclient-2.1.1.tar.gz]
+[2023-07-07 00:32:35] INFO root fetch - processPackages [oms-mqclient]: Start processing: dash-auth-external
+[2023-07-07 00:32:35] INFO root fetch - main [MainThread]: End processing [oms-mqclient]: success
+[2023-07-07 00:32:35] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230706193815.tar.gz]
+[2023-07-07 00:32:35] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230706204200.tar.gz]
+[2023-07-07 00:32:35] INFO root fetch - main [MainThread]: End processing [echofish-aws-raw-to-zarr-lambda]: success
+[2023-07-07 00:32:35] INFO root fetch - processPackages [remin]: Downloading https://files.pythonhosted.org/packages/34/9d/c1cfe0fd99776e7ceab2b665fb8d2e488afd7904ac182f4df783ad242245/remin-0.2.5.tar.gz
+[2023-07-07 00:32:35] INFO root fetch - processPackages [dash-auth-external]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-07-07 00:32:35] INFO root fetch - processPackages [capparser]: Downloading https://files.pythonhosted.org/packages/c8/d5/72b54756b789fac5962591de315f2b04f8fd021a43eb4ef2c9c7052ccecf/capparser-1.0.0.tar.gz
+[2023-07-07 00:32:35] INFO root fetch - processPackages [remin]: executing diffoscope
+[2023-07-07 00:32:35] INFO root fetch - processPackages [remin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remin-0.2.0.tar.gz tmp/remin-0.2.5.tar.gz --markdown 20230707/r/remin/0.2.0-0.2.5/diff.md --exclude *.pyd
+[2023-07-07 00:32:35] INFO root fetch - processPackages [mosaicml-cli]: Downloading https://files.pythonhosted.org/packages/a1/78/4910b54eb33cffcaa9c3ae169edce10958dd5c158e1fb8995d6a874f2542/mosaicml-cli-0.4.9.tar.gz
+[2023-07-07 00:32:36] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.7.0.tar.gz]
+[2023-07-07 00:32:36] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.7.1.tar.gz]
+[2023-07-07 00:32:36] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-07 00:32:36] INFO root fetch - processPackages [mosaicml-cli]: executing diffoscope
+[2023-07-07 00:32:36] INFO root fetch - processPackages [mosaicml-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosaicml-cli-0.4.8.tar.gz tmp/mosaicml-cli-0.4.9.tar.gz --markdown 20230707/m/mosaicml-cli/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-07 00:32:36] INFO root fetch - processPackages [dash-auth-external]: Downloading https://files.pythonhosted.org/packages/1b/05/7c882d2edb788ae3016de799aaf19848ac88e9f60cf52da7ba39794cc220/dash-auth-external-1.0.1.tar.gz
+[2023-07-07 00:32:36] INFO root fetch - processPackages [capparser]: Downloading https://files.pythonhosted.org/packages/4b/2e/8e5cf0ae7597e26aee3947db824a8a9ffd1b40ee7e34737b9bce7bb2265e/capparser-2.0.4.tar.gz
+[2023-07-07 00:32:36] INFO root fetch - processPackages [st-blogpost-component]: Remove: archive file [/home/abi/fetcher/tmp/st_blogpost_component-0.0.9.tar.gz]
+[2023-07-07 00:32:36] INFO root fetch - processPackages [st-blogpost-component]: Remove: archive file [/home/abi/fetcher/tmp/st_blogpost_component-0.1.0.tar.gz]
+[2023-07-07 00:32:36] INFO root fetch - main [MainThread]: End processing [st-blogpost-component]: success
+[2023-07-07 00:32:36] INFO root fetch - processPackages [capparser]: executing diffoscope
+[2023-07-07 00:32:36] INFO root fetch - processPackages [capparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capparser-1.0.0.tar.gz tmp/capparser-2.0.4.tar.gz --markdown 20230707/c/capparser/1.0.0-2.0.4/diff.md --exclude *.pyd
+[2023-07-07 00:32:36] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/ff/69/caa4f330f35ba0b6828da0dd2e288bf1192a9fa476089150ad877b95dfb6/composabl_dev-0.2.3.dev3-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-07-07 00:32:36] INFO root fetch - processPackages [dash-auth-external]: Downloading https://files.pythonhosted.org/packages/50/f4/ae625ac0fa86be5e8b5e18417e7a310f2d52ccb38fbb0f7049f372d9334e/dash-auth-external-1.1.0.tar.gz
+[2023-07-07 00:32:36] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.5.8-py2.py3-none-any.whl.zip]
+[2023-07-07 00:32:36] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.5.9-py2.py3-none-any.whl.zip]
+[2023-07-07 00:32:36] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
+[2023-07-07 00:32:36] INFO root fetch - processPackages [dash-auth-external]: executing diffoscope
+[2023-07-07 00:32:36] INFO root fetch - processPackages [dash-auth-external]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash-auth-external-1.0.1.tar.gz tmp/dash-auth-external-1.1.0.tar.gz --markdown 20230707/d/dash-auth-external/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-07 00:32:36] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2023-07-07 00:32:36] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.2.3.dev26-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_dev-0.2.3.dev3-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230707/c/composabl-dev/0.2.3.dev26-0.2.3.dev3/diff.md --exclude *.pyd
+[2023-07-07 00:32:37] INFO root fetch - processPackages [remin]: Remove: archive file [/home/abi/fetcher/tmp/remin-0.2.0.tar.gz]
+[2023-07-07 00:32:37] INFO root fetch - processPackages [remin]: Remove: archive file [/home/abi/fetcher/tmp/remin-0.2.5.tar.gz]
+[2023-07-07 00:32:37] INFO root fetch - main [MainThread]: End processing [remin]: success
+[2023-07-07 00:32:37] INFO root fetch - processPackages [capparser]: Remove: archive file [/home/abi/fetcher/tmp/capparser-1.0.0.tar.gz]
+[2023-07-07 00:32:37] INFO root fetch - processPackages [capparser]: Remove: archive file [/home/abi/fetcher/tmp/capparser-2.0.4.tar.gz]
+[2023-07-07 00:32:37] INFO root fetch - main [MainThread]: End processing [capparser]: success
+[2023-07-07 00:32:37] INFO root fetch - processPackages [dash-auth-external]: Remove: archive file [/home/abi/fetcher/tmp/dash-auth-external-1.0.1.tar.gz]
+[2023-07-07 00:32:37] INFO root fetch - processPackages [dash-auth-external]: Remove: archive file [/home/abi/fetcher/tmp/dash-auth-external-1.1.0.tar.gz]
+[2023-07-07 00:32:37] INFO root fetch - main [MainThread]: End processing [dash-auth-external]: success
+[2023-07-07 00:32:37] INFO root fetch - processPackages [mosaicml-cli]: Remove: archive file [/home/abi/fetcher/tmp/mosaicml-cli-0.4.8.tar.gz]
+[2023-07-07 00:32:37] INFO root fetch - processPackages [mosaicml-cli]: Remove: archive file [/home/abi/fetcher/tmp/mosaicml-cli-0.4.9.tar.gz]
+[2023-07-07 00:32:37] INFO root fetch - main [MainThread]: End processing [mosaicml-cli]: success
+[2023-07-07 00:32:39] INFO root fetch - processPackages [pymor]: Remove: archive file [/home/abi/fetcher/tmp/pymor-2022.2.1.tar.gz]
+[2023-07-07 00:32:39] INFO root fetch - processPackages [pymor]: Remove: archive file [/home/abi/fetcher/tmp/pymor-2023.1.0.tar.gz]
+[2023-07-07 00:32:39] INFO root fetch - main [MainThread]: End processing [pymor]: success
+[2023-07-07 00:33:27] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.2.3.dev26-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-07-07 00:33:27] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.2.3.dev3-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-07-07 00:33:27] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2023-07-07 00:33:27] INFO root fetch - main [MainThread]: Store serial: [18791743]
