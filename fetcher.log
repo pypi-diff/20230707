@@ -789,3 +789,90 @@
 [2023-07-07 00:44:10] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
 [2023-07-07 00:44:10] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
 [2023-07-07 00:44:10] INFO root fetch - main [MainThread]: Store serial: [18791870]
+[2023-07-07 00:49:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18791870]
+[2023-07-07 00:49:19] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-07 00:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: assisted-service-client
+[2023-07-07 00:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-lazy-srcset
+[2023-07-07 00:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: k8s-voca
+[2023-07-07 00:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neon-utils
+[2023-07-07 00:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spellbot
+[2023-07-07 00:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tarvis-exchange-binance
+[2023-07-07 00:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: horde-sdk
+[2023-07-07 00:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pymino
+[2023-07-07 00:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: swarms
+[2023-07-07 00:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hspylib
+[2023-07-07 00:49:19] INFO root fetch - processPackages [k8s-voca]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-07 00:49:19] INFO root fetch - processPackages [spellbot]: New version: [8.9.4] Old Version: [8.9.3]
+[2023-07-07 00:49:19] INFO root fetch - processPackages [horde-sdk]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-07 00:49:19] INFO root fetch - processPackages [swarms]: New version: [0.7.4] Old Version: [0.7.2]
+[2023-07-07 00:49:19] INFO root fetch - processPackages [pymino]: New version: [1.2.3.0] Old Version: [1.2.2.6]
+[2023-07-07 00:49:19] INFO root fetch - processPackages [hspylib]: New version: [0.9.23] Old Version: [0.9.22]
+[2023-07-07 00:49:19] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-07-07 00:49:19] INFO root fetch - processPackages [django-lazy-srcset]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-07 00:49:19] WARNING root fetch - processPackages [tarvis-exchange-binance]: Skipping, unable to determine old version
+[2023-07-07 00:49:19] INFO root fetch - main [MainThread]: End processing [tarvis-exchange-binance] error
+[2023-07-07 00:49:19] INFO root fetch - processPackages [neon-utils]: New version: [1.6.1a1] Old Version: [1.6.0]
+[2023-07-07 00:49:19] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/a4/5b/18b7d64a24052a905f0df1d826e3a5b112f0cf81a083915b4e358783512d/swarms-0.7.2.tar.gz
+[2023-07-07 00:49:19] INFO root fetch - processPackages [spellbot]: Downloading https://files.pythonhosted.org/packages/28/31/c1c5df3d60ddd2e31cfd5f31f5263365c70d617aa5f7f98074c19e82df44/spellbot-8.9.3.tar.gz
+[2023-07-07 00:49:19] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-07-07 00:49:19] INFO root fetch - processPackages [hspylib]: Downloading https://files.pythonhosted.org/packages/9a/aa/de6dd6d06a6c7b1d105e1a6cd5b023a280216a7fc26d69f8b6fe0e3e9851/hspylib-0.9.22.tar.gz
+[2023-07-07 00:49:19] INFO root fetch - processPackages [k8s-voca]: Downloading https://files.pythonhosted.org/packages/bb/e5/7edf603d3012f702cfa10474958e1d165b97c0a20c1229f092c9504558d9/k8s_voca-0.1.0.tar.gz
+[2023-07-07 00:49:19] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/e1/7c/810f203756ff8534e2cf36933e509901b09a3fd46b462aa9f18c66888cf3/pymino-1.2.2.6.tar.gz
+[2023-07-07 00:49:19] INFO root fetch - processPackages [horde-sdk]: Downloading https://files.pythonhosted.org/packages/e0/b3/8e91f93dd38d953250f009a9c2b5399ff436c513f95412dfd44805bb4c70/horde_sdk-0.1.1.tar.gz
+[2023-07-07 00:49:19] INFO root fetch - processPackages [neon-utils]: Downloading https://files.pythonhosted.org/packages/ba/ac/fabd58fd6cc642056723736e79965b8b0a71cc798b2786e9c32e5a8c6645/neon-utils-1.6.0.tar.gz
+[2023-07-07 00:49:19] INFO root fetch - processPackages [django-lazy-srcset]: Downloading https://files.pythonhosted.org/packages/2d/21/d7b411ea79a04e91827cd368b7b44ac84298080c4cbabaefa22da3f75cdb/django-lazy-srcset-0.2.1.tar.gz
+[2023-07-07 00:49:19] INFO root fetch - processPackages [spellbot]: Downloading https://files.pythonhosted.org/packages/7e/9e/af26d5387a7ff3029877947698c24541522be84c68fea588307a234971b4/spellbot-8.9.4.tar.gz
+[2023-07-07 00:49:20] INFO root fetch - processPackages [hspylib]: Downloading https://files.pythonhosted.org/packages/8f/df/44665e29eaf1932d6c04fa68c0fbd4eb9231dd909256647ad29c0c25f8ae/hspylib-0.9.23.tar.gz
+[2023-07-07 00:49:20] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-07-07 00:49:20] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/66/46/7113df0c9b9b92ea116cc436d9c0ee9054086683f6812f9a3472ff172cb5/pymino-1.2.3.0.tar.gz
+[2023-07-07 00:49:20] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/ab/02/dc1290382a631dd1e220547f3bd310d433947aa1a68e0b79655880d81747/swarms-0.7.4.tar.gz
+[2023-07-07 00:49:20] INFO root fetch - processPackages [spellbot]: executing diffoscope
+[2023-07-07 00:49:20] INFO root fetch - processPackages [spellbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spellbot-8.9.3.tar.gz tmp/spellbot-8.9.4.tar.gz --markdown 20230707/s/spellbot/8.9.3-8.9.4/diff.md --exclude *.pyd
+[2023-07-07 00:49:20] INFO root fetch - processPackages [k8s-voca]: Downloading https://files.pythonhosted.org/packages/9b/10/a428bace5f67acd1ea915890ccb74123213a5847d859c59115a9c297d40b/k8s_voca-0.2.0.tar.gz
+[2023-07-07 00:49:20] INFO root fetch - processPackages [hspylib]: executing diffoscope
+[2023-07-07 00:49:20] INFO root fetch - processPackages [hspylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-0.9.22.tar.gz tmp/hspylib-0.9.23.tar.gz --markdown 20230707/h/hspylib/0.9.22-0.9.23/diff.md --exclude *.pyd
+[2023-07-07 00:49:20] INFO root fetch - processPackages [django-lazy-srcset]: Downloading https://files.pythonhosted.org/packages/a9/c8/b37adfbfaaa590f0fb5a3f2b0e840205d4e35408ab1e715d796910ebe4ec/django-lazy-srcset-0.2.2.tar.gz
+[2023-07-07 00:49:20] INFO root fetch - processPackages [pymino]: executing diffoscope
+[2023-07-07 00:49:20] INFO root fetch - processPackages [pymino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymino-1.2.2.6.tar.gz tmp/pymino-1.2.3.0.tar.gz --markdown 20230707/p/pymino/1.2.2.6-1.2.3.0/diff.md --exclude *.pyd
+[2023-07-07 00:49:20] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-07-07 00:49:20] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230707/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-07-07 00:49:20] INFO root fetch - processPackages [neon-utils]: Downloading https://files.pythonhosted.org/packages/ac/47/a0cadc893e28f0ad608a6855d697972774390af472c787b9f97224847398/neon-utils-1.6.1a1.tar.gz
+[2023-07-07 00:49:20] INFO root fetch - processPackages [k8s-voca]: executing diffoscope
+[2023-07-07 00:49:20] INFO root fetch - processPackages [k8s-voca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k8s_voca-0.1.0.tar.gz tmp/k8s_voca-0.2.0.tar.gz --markdown 20230707/k/k8s-voca/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-07 00:49:20] INFO root fetch - processPackages [horde-sdk]: Downloading https://files.pythonhosted.org/packages/52/b6/929042ac1c1b7bd2bb0fdb594af8f1c03b4de59934cec73650a539856cce/horde_sdk-0.1.2.tar.gz
+[2023-07-07 00:49:20] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-07 00:49:20] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.7.2.tar.gz tmp/swarms-0.7.4.tar.gz --markdown 20230707/s/swarms/0.7.2-0.7.4/diff.md --exclude *.pyd
+[2023-07-07 00:49:20] INFO root fetch - processPackages [django-lazy-srcset]: executing diffoscope
+[2023-07-07 00:49:20] INFO root fetch - processPackages [django-lazy-srcset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-lazy-srcset-0.2.1.tar.gz tmp/django-lazy-srcset-0.2.2.tar.gz --markdown 20230707/d/django-lazy-srcset/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-07 00:49:20] INFO root fetch - processPackages [neon-utils]: executing diffoscope
+[2023-07-07 00:49:20] INFO root fetch - processPackages [neon-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-utils-1.6.0.tar.gz tmp/neon-utils-1.6.1a1.tar.gz --markdown 20230707/n/neon-utils/1.6.0-1.6.1a1/diff.md --exclude *.pyd
+[2023-07-07 00:49:20] INFO root fetch - processPackages [horde-sdk]: executing diffoscope
+[2023-07-07 00:49:20] INFO root fetch - processPackages [horde-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/horde_sdk-0.1.1.tar.gz tmp/horde_sdk-0.1.2.tar.gz --markdown 20230707/h/horde-sdk/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-07 00:49:22] INFO root fetch - processPackages [k8s-voca]: Remove: archive file [/home/abi/fetcher/tmp/k8s_voca-0.1.0.tar.gz]
+[2023-07-07 00:49:22] INFO root fetch - processPackages [k8s-voca]: Remove: archive file [/home/abi/fetcher/tmp/k8s_voca-0.2.0.tar.gz]
+[2023-07-07 00:49:22] INFO root fetch - main [MainThread]: End processing [k8s-voca]: success
+[2023-07-07 00:49:22] INFO root fetch - processPackages [django-lazy-srcset]: Remove: archive file [/home/abi/fetcher/tmp/django-lazy-srcset-0.2.1.tar.gz]
+[2023-07-07 00:49:22] INFO root fetch - processPackages [django-lazy-srcset]: Remove: archive file [/home/abi/fetcher/tmp/django-lazy-srcset-0.2.2.tar.gz]
+[2023-07-07 00:49:22] INFO root fetch - main [MainThread]: End processing [django-lazy-srcset]: success
+[2023-07-07 00:49:22] INFO root fetch - processPackages [spellbot]: Remove: archive file [/home/abi/fetcher/tmp/spellbot-8.9.3.tar.gz]
+[2023-07-07 00:49:22] INFO root fetch - processPackages [spellbot]: Remove: archive file [/home/abi/fetcher/tmp/spellbot-8.9.4.tar.gz]
+[2023-07-07 00:49:22] INFO root fetch - main [MainThread]: End processing [spellbot]: success
+[2023-07-07 00:49:22] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.2.6.tar.gz]
+[2023-07-07 00:49:22] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.3.0.tar.gz]
+[2023-07-07 00:49:22] INFO root fetch - main [MainThread]: End processing [pymino]: success
+[2023-07-07 00:49:22] INFO root fetch - processPackages [hspylib]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-0.9.22.tar.gz]
+[2023-07-07 00:49:22] INFO root fetch - processPackages [hspylib]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-0.9.23.tar.gz]
+[2023-07-07 00:49:22] INFO root fetch - main [MainThread]: End processing [hspylib]: success
+[2023-07-07 00:49:22] INFO root fetch - processPackages [horde-sdk]: Remove: archive file [/home/abi/fetcher/tmp/horde_sdk-0.1.1.tar.gz]
+[2023-07-07 00:49:22] INFO root fetch - processPackages [horde-sdk]: Remove: archive file [/home/abi/fetcher/tmp/horde_sdk-0.1.2.tar.gz]
+[2023-07-07 00:49:22] INFO root fetch - main [MainThread]: End processing [horde-sdk]: success
+[2023-07-07 00:49:22] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.7.2.tar.gz]
+[2023-07-07 00:49:22] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.7.4.tar.gz]
+[2023-07-07 00:49:22] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-07 00:49:22] INFO root fetch - processPackages [neon-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon-utils-1.6.0.tar.gz]
+[2023-07-07 00:49:22] INFO root fetch - processPackages [neon-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon-utils-1.6.1a1.tar.gz]
+[2023-07-07 00:49:22] INFO root fetch - main [MainThread]: End processing [neon-utils]: success
+[2023-07-07 00:49:23] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-07-07 00:49:23] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-07-07 00:49:23] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-07-07 00:49:23] INFO root fetch - main [MainThread]: Store serial: [18791901]
