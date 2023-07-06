@@ -185,3 +185,54 @@
 [2023-07-07 00:11:27] INFO root fetch - processPackages [climatePy]: Remove: archive file [/home/abi/fetcher/tmp/climatePy-0.4.22.tar.gz]
 [2023-07-07 00:11:27] INFO root fetch - main [MainThread]: End processing [climatePy]: success
 [2023-07-07 00:11:27] INFO root fetch - main [MainThread]: Store serial: [18791555]
+[2023-07-07 00:16:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18791555]
+[2023-07-07 00:16:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-07 00:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-cmr
+[2023-07-07 00:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dank-mids
+[2023-07-07 00:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fundus-lesions-toolkit
+[2023-07-07 00:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seun01-distributions
+[2023-07-07 00:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: google-cloud-tpu
+[2023-07-07 00:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: google-cloud-run
+[2023-07-07 00:16:36] INFO root fetch - processPackages [google-cloud-run]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-07 00:16:36] WARNING root fetch - processPackages [seun01-distributions]: Skipping, unable to determine old version
+[2023-07-07 00:16:36] INFO root fetch - main [MainThread]: End processing [seun01-distributions] error
+[2023-07-07 00:16:36] INFO root fetch - processPackages [google-cloud-tpu]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-07 00:16:36] INFO root fetch - processPackages [fundus-lesions-toolkit]: New version: [0.1.0b0] Old Version: [0.1.0a0]
+[2023-07-07 00:16:36] INFO root fetch - processPackages [python-cmr]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-07 00:16:36] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-07 00:16:36] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-07 00:16:36] INFO root fetch - processPackages [fundus-lesions-toolkit]: Downloading https://files.pythonhosted.org/packages/5f/e8/bf21b6be50ef5e7ffaa91d290fb09c470a5709bfdb02c09f901a54844574/fundus_lesions_toolkit-0.1.0a0.tar.gz
+[2023-07-07 00:16:36] INFO root fetch - processPackages [python-cmr]: Downloading https://files.pythonhosted.org/packages/cc/4f/815713d49ef4ff88dd615465827be4c4545570f7c61dbed416de6584b27b/python-cmr-0.7.0.tar.gz
+[2023-07-07 00:16:36] INFO root fetch - processPackages [google-cloud-run]: Downloading https://files.pythonhosted.org/packages/2c/16/d301592bc149b276db18dd2bf06cfbd83d048a20cc8aab2a24e1629452af/google-cloud-run-0.8.1.tar.gz
+[2023-07-07 00:16:36] INFO root fetch - processPackages [google-cloud-tpu]: Downloading https://files.pythonhosted.org/packages/10/3e/d83a2b2187b8189af5ab355528d5d2ceff9194da43ec91056ffe31c3cbea/google-cloud-tpu-1.8.0.tar.gz
+[2023-07-07 00:16:36] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-07 00:16:36] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-07 00:16:36] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230707/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-07 00:16:36] INFO root fetch - processPackages [fundus-lesions-toolkit]: Downloading https://files.pythonhosted.org/packages/58/57/6fb07df5b4f2db883681e352e7e21aa008481fa24b56ac370053864822ae/fundus_lesions_toolkit-0.1.0b0.tar.gz
+[2023-07-07 00:16:36] INFO root fetch - processPackages [google-cloud-run]: Downloading https://files.pythonhosted.org/packages/dc/83/b5c6ccbd2c2174fc20bef29a0e9ea33867ec3ff23aba2613f4c75a25dc9b/google-cloud-run-0.9.0.tar.gz
+[2023-07-07 00:16:36] INFO root fetch - processPackages [python-cmr]: Downloading https://files.pythonhosted.org/packages/a7/1f/66d29fff9c65a4741a4c144f0cf1acf83e37f507c31213a527161186f037/python_cmr-0.8.0.tar.gz
+[2023-07-07 00:16:36] INFO root fetch - processPackages [google-cloud-tpu]: Downloading https://files.pythonhosted.org/packages/c5/30/ff329b5a24653995f2188d596c6dfaeb8167ce02a2ef54202431e7a32730/google-cloud-tpu-1.9.0.tar.gz
+[2023-07-07 00:16:36] INFO root fetch - processPackages [fundus-lesions-toolkit]: executing diffoscope
+[2023-07-07 00:16:36] INFO root fetch - processPackages [fundus-lesions-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fundus_lesions_toolkit-0.1.0a0.tar.gz tmp/fundus_lesions_toolkit-0.1.0b0.tar.gz --markdown 20230707/f/fundus-lesions-toolkit/0.1.0a0-0.1.0b0/diff.md --exclude *.pyd
+[2023-07-07 00:16:37] INFO root fetch - processPackages [google-cloud-run]: executing diffoscope
+[2023-07-07 00:16:37] INFO root fetch - processPackages [google-cloud-run]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-run-0.8.1.tar.gz tmp/google-cloud-run-0.9.0.tar.gz --markdown 20230707/g/google-cloud-run/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-07 00:16:37] INFO root fetch - processPackages [python-cmr]: executing diffoscope
+[2023-07-07 00:16:37] INFO root fetch - processPackages [python-cmr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-cmr-0.7.0.tar.gz tmp/python_cmr-0.8.0.tar.gz --markdown 20230707/p/python-cmr/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-07 00:16:37] INFO root fetch - processPackages [google-cloud-tpu]: executing diffoscope
+[2023-07-07 00:16:37] INFO root fetch - processPackages [google-cloud-tpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-tpu-1.8.0.tar.gz tmp/google-cloud-tpu-1.9.0.tar.gz --markdown 20230707/g/google-cloud-tpu/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-07 00:16:37] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-07 00:16:37] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-07 00:16:37] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-07 00:16:37] INFO root fetch - processPackages [fundus-lesions-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fundus_lesions_toolkit-0.1.0a0.tar.gz]
+[2023-07-07 00:16:37] INFO root fetch - processPackages [fundus-lesions-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fundus_lesions_toolkit-0.1.0b0.tar.gz]
+[2023-07-07 00:16:37] INFO root fetch - main [MainThread]: End processing [fundus-lesions-toolkit]: success
+[2023-07-07 00:16:37] INFO root fetch - processPackages [python-cmr]: Remove: archive file [/home/abi/fetcher/tmp/python-cmr-0.7.0.tar.gz]
+[2023-07-07 00:16:37] INFO root fetch - processPackages [python-cmr]: Remove: archive file [/home/abi/fetcher/tmp/python_cmr-0.8.0.tar.gz]
+[2023-07-07 00:16:37] INFO root fetch - main [MainThread]: End processing [python-cmr]: success
+[2023-07-07 00:16:38] INFO root fetch - processPackages [google-cloud-run]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-run-0.8.1.tar.gz]
+[2023-07-07 00:16:38] INFO root fetch - processPackages [google-cloud-run]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-run-0.9.0.tar.gz]
+[2023-07-07 00:16:38] INFO root fetch - main [MainThread]: End processing [google-cloud-run]: success
+[2023-07-07 00:16:38] INFO root fetch - processPackages [google-cloud-tpu]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-tpu-1.8.0.tar.gz]
+[2023-07-07 00:16:38] INFO root fetch - processPackages [google-cloud-tpu]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-tpu-1.9.0.tar.gz]
+[2023-07-07 00:16:38] INFO root fetch - main [MainThread]: End processing [google-cloud-tpu]: success
+[2023-07-07 00:16:38] INFO root fetch - main [MainThread]: Store serial: [18791573]
