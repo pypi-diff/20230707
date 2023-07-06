@@ -63,3 +63,125 @@
 [2023-07-07 00:06:02] ERROR root fetch - processPackages [hiperwalk]: Timeout during execution of pkgdiff
 [2023-07-07 00:06:02] INFO root fetch - main [MainThread]: End processing [hiperwalk] error
 [2023-07-07 00:06:02] INFO root fetch - main [MainThread]: Store serial: [18791504]
+[2023-07-07 00:11:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18791504]
+[2023-07-07 00:11:21] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-07 00:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: QVSED
+[2023-07-07 00:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: astropy-iers-data
+[2023-07-07 00:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-07-07 00:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: climatePy
+[2023-07-07 00:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ciare-world-creator
+[2023-07-07 00:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hoppr-nexus-bundler
+[2023-07-07 00:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cjm-yolox-pytorch
+[2023-07-07 00:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: punictest
+[2023-07-07 00:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nhs-aws-helpers
+[2023-07-07 00:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dask-awkward
+[2023-07-07 00:11:22] INFO root fetch - processPackages [nhs-aws-helpers]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-07 00:11:22] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 00:11:22] WARNING root fetch - processPackages [ciare-world-creator]: Skipping, unable to determine old version
+[2023-07-07 00:11:22] INFO root fetch - processPackages [ciare-world-creator]: Start processing: truss
+[2023-07-07 00:11:22] INFO root fetch - main [MainThread]: End processing [ciare-world-creator] error
+[2023-07-07 00:11:22] INFO root fetch - processPackages [astropy-iers-data]: New version: [0.2023.7.6.22.3.16] Old Version: [0.2023.6.26.17.14.7]
+[2023-07-07 00:11:22] INFO root fetch - processPackages [hoppr-nexus-bundler]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-07 00:11:22] INFO root fetch - processPackages [QVSED]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-07 00:11:22] INFO root fetch - processPackages [climatePy]: New version: [0.4.22] Old Version: [0.4.21]
+[2023-07-07 00:11:22] INFO root fetch - processPackages [dask-awkward]: New version: [2023.7.0] Old Version: [2023.6.3]
+[2023-07-07 00:11:22] WARNING root fetch - processPackages [punictest]: Skipping, unable to determine old version
+[2023-07-07 00:11:22] INFO root fetch - processPackages [punictest]: Start processing: psm-utils
+[2023-07-07 00:11:22] INFO root fetch - main [MainThread]: End processing [punictest] error
+[2023-07-07 00:11:22] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-07 00:11:22] INFO root fetch - processPackages [truss]: New version: [0.4.9rc9] Old Version: [0.4.9rc5]
+[2023-07-07 00:11:22] INFO root fetch - processPackages [psm-utils]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-07-07 00:11:22] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-07 00:11:22] INFO root fetch - processPackages [nhs-aws-helpers]: Downloading https://files.pythonhosted.org/packages/a9/53/0d0ed0d1f8742ebb9797583466bea4564135d990d0c296a131d5e8d800dc/nhs_aws_helpers-0.1.3.tar.gz
+[2023-07-07 00:11:22] INFO root fetch - processPackages [astropy-iers-data]: Downloading https://files.pythonhosted.org/packages/07/64/7fce2170680731619e68a1171184d02f146f2693d5a26ebf2b8c54fb8f98/astropy-iers-data-0.2023.6.26.17.14.7.tar.gz
+[2023-07-07 00:11:22] INFO root fetch - processPackages [QVSED]: Downloading https://files.pythonhosted.org/packages/15/ea/f72c1454ca6a6e4d8c861551a63f86cc875abd031040f9dfb3a0546ad54c/QVSED-1.1.0.tar.gz
+[2023-07-07 00:11:22] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/a5/ac/6da658c05b328c158997857f4315d9203f0c68cfcb1a90b247c8966bad5b/truss-0.4.9rc5.tar.gz
+[2023-07-07 00:11:22] INFO root fetch - processPackages [psm-utils]: Downloading https://files.pythonhosted.org/packages/74/a7/9cc6bcf548cf64a788a83e95779265f99039cf32ca45f7662a203fc5dbee/psm_utils-0.3.1.tar.gz
+[2023-07-07 00:11:22] INFO root fetch - processPackages [climatePy]: Downloading https://files.pythonhosted.org/packages/53/3d/e396dcacaf65bd0e68b655f8b7aa1e99e332a1d5ba68e28763713a8c4503/climatePy-0.4.21.tar.gz
+[2023-07-07 00:11:22] INFO root fetch - processPackages [dask-awkward]: Downloading https://files.pythonhosted.org/packages/d3/73/49f89a0b52ab9f821b1325ec5e3d9f488231fc09b2f60059c51823cb4c8b/dask_awkward-2023.6.3.tar.gz
+[2023-07-07 00:11:22] WARNING root fetch - processPackages [psm-utils]: Skipping package: exceeds size limit 65255565>=10485760
+[2023-07-07 00:11:22] INFO root fetch - processPackages [psm-utils]: Start processing: predibase-api
+[2023-07-07 00:11:22] INFO root fetch - main [MainThread]: End processing [psm-utils] error
+[2023-07-07 00:11:22] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/41/ed/5efe219dc09a3767781b18e59998e46265479245ef5e56798033e654efe2/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz
+[2023-07-07 00:11:22] INFO root fetch - processPackages [hoppr-nexus-bundler]: Downloading https://files.pythonhosted.org/packages/39/77/7e6d2a56238f82b552aabcb3ce6b28efae70421ec92aa6999d9bc80d1226/hoppr_nexus_bundler-0.4.8.tar.gz
+[2023-07-07 00:11:22] INFO root fetch - processPackages [predibase-api]: New version: [2023.7.1] Old Version: [2023.5.8]
+[2023-07-07 00:11:22] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-07 00:11:22] INFO root fetch - processPackages [nhs-aws-helpers]: Downloading https://files.pythonhosted.org/packages/ec/ac/ef0ad8c9dd8af0d4d8e70413576f665d1c5d4cf62edba2aab85ceba9c918/nhs_aws_helpers-0.1.4.tar.gz
+[2023-07-07 00:11:22] INFO root fetch - processPackages [QVSED]: Downloading https://files.pythonhosted.org/packages/9b/ea/e0127ea073f19abcfebcddc456d50fa11623a589471d9c91bcdd807197cd/QVSED-1.1.1.tar.gz
+[2023-07-07 00:11:22] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/92/97/5f78d50e5618eaf7c5f3f918d7ea2a494d65cb8ebc0daf5e329af774240d/truss-0.4.9rc9.tar.gz
+[2023-07-07 00:11:23] INFO root fetch - processPackages [predibase-api]: Downloading https://files.pythonhosted.org/packages/a3/f9/f969d43e5985cc829dc15801b85833c4823f9b17ede8f75a138be949cc67/predibase-api-2023.5.8.tar.gz
+[2023-07-07 00:11:23] INFO root fetch - processPackages [dask-awkward]: Downloading https://files.pythonhosted.org/packages/7d/2c/c9616826e9bc047aeee6f65f8c40fa55fdcfce68e8ba6bbc48260bf6903f/dask_awkward-2023.7.0.tar.gz
+[2023-07-07 00:11:23] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-07 00:11:23] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230707/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 00:11:23] INFO root fetch - processPackages [nhs-aws-helpers]: executing diffoscope
+[2023-07-07 00:11:23] INFO root fetch - processPackages [nhs-aws-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nhs_aws_helpers-0.1.3.tar.gz tmp/nhs_aws_helpers-0.1.4.tar.gz --markdown 20230707/n/nhs-aws-helpers/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-07 00:11:23] INFO root fetch - processPackages [hoppr-nexus-bundler]: Downloading https://files.pythonhosted.org/packages/ee/b9/8881e5dce1a89254fdcee37c3a94ef322a8000030b58c179465d6b91ddd1/hoppr_nexus_bundler-0.4.9.tar.gz
+[2023-07-07 00:11:23] INFO root fetch - processPackages [QVSED]: executing diffoscope
+[2023-07-07 00:11:23] INFO root fetch - processPackages [QVSED]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QVSED-1.1.0.tar.gz tmp/QVSED-1.1.1.tar.gz --markdown 20230707/Q/QVSED/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-07 00:11:23] INFO root fetch - processPackages [truss]: executing diffoscope
+[2023-07-07 00:11:23] INFO root fetch - processPackages [truss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truss-0.4.9rc5.tar.gz tmp/truss-0.4.9rc9.tar.gz --markdown 20230707/t/truss/0.4.9rc5-0.4.9rc9/diff.md --exclude *.pyd
+[2023-07-07 00:11:23] INFO root fetch - processPackages [climatePy]: Downloading https://files.pythonhosted.org/packages/b5/66/2a3af73f7dee9dff08775073d93eca88ab485f20d3775eb94023572f35dd/climatePy-0.4.22.tar.gz
+[2023-07-07 00:11:23] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/0a/e1/974dfac343666db334bd3dc6b819d5e46e3769ce75e9baccd0067702f4ad/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz
+[2023-07-07 00:11:23] INFO root fetch - processPackages [dask-awkward]: executing diffoscope
+[2023-07-07 00:11:23] INFO root fetch - processPackages [dask-awkward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask_awkward-2023.6.3.tar.gz tmp/dask_awkward-2023.7.0.tar.gz --markdown 20230707/d/dask-awkward/2023.6.3-2023.7.0/diff.md --exclude *.pyd
+[2023-07-07 00:11:23] INFO root fetch - processPackages [hoppr-nexus-bundler]: executing diffoscope
+[2023-07-07 00:11:23] INFO root fetch - processPackages [hoppr-nexus-bundler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoppr_nexus_bundler-0.4.8.tar.gz tmp/hoppr_nexus_bundler-0.4.9.tar.gz --markdown 20230707/h/hoppr-nexus-bundler/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-07 00:11:23] INFO root fetch - processPackages [astropy-iers-data]: Downloading https://files.pythonhosted.org/packages/d3/92/498095ea68b16bd60d68231b6f8a0dd7e0812579a482009eeec42902ed8c/astropy-iers-data-0.2023.7.6.22.3.16.tar.gz
+[2023-07-07 00:11:23] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-07-07 00:11:23] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230707/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-07 00:11:23] INFO root fetch - processPackages [climatePy]: executing diffoscope
+[2023-07-07 00:11:23] INFO root fetch - processPackages [climatePy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climatePy-0.4.21.tar.gz tmp/climatePy-0.4.22.tar.gz --markdown 20230707/c/climatePy/0.4.21-0.4.22/diff.md --exclude *.pyd
+[2023-07-07 00:11:23] INFO root fetch - processPackages [predibase-api]: Downloading https://files.pythonhosted.org/packages/38/7f/e29a8e3531905a33fce80318fe5936b16c0ea52d54fa3bf4a4c3b2b54ac6/predibase-api-2023.7.1.tar.gz
+[2023-07-07 00:11:23] INFO root fetch - processPackages [predibase-api]: executing diffoscope
+[2023-07-07 00:11:23] INFO root fetch - processPackages [predibase-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/predibase-api-2023.5.8.tar.gz tmp/predibase-api-2023.7.1.tar.gz --markdown 20230707/p/predibase-api/2023.5.8-2023.7.1/diff.md --exclude *.pyd
+[2023-07-07 00:11:23] INFO root fetch - processPackages [astropy-iers-data]: executing diffoscope
+[2023-07-07 00:11:23] INFO root fetch - processPackages [astropy-iers-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astropy-iers-data-0.2023.6.26.17.14.7.tar.gz tmp/astropy-iers-data-0.2023.7.6.22.3.16.tar.gz --markdown 20230707/a/astropy-iers-data/0.2023.6.26.17.14.7-0.2023.7.6.22.3.16/diff.md --exclude *.pyd
+[2023-07-07 00:11:24] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-07 00:11:24] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-07 00:11:24] INFO root fetch - processPackages [cjm-yolox-pytorch]: Start processing: predibase
+[2023-07-07 00:11:24] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-07 00:11:24] INFO root fetch - processPackages [nhs-aws-helpers]: Remove: archive file [/home/abi/fetcher/tmp/nhs_aws_helpers-0.1.3.tar.gz]
+[2023-07-07 00:11:24] INFO root fetch - processPackages [nhs-aws-helpers]: Remove: archive file [/home/abi/fetcher/tmp/nhs_aws_helpers-0.1.4.tar.gz]
+[2023-07-07 00:11:24] INFO root fetch - processPackages [nhs-aws-helpers]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-07-07 00:11:24] INFO root fetch - main [MainThread]: End processing [nhs-aws-helpers]: success
+[2023-07-07 00:11:24] INFO root fetch - processPackages [QVSED]: Remove: archive file [/home/abi/fetcher/tmp/QVSED-1.1.0.tar.gz]
+[2023-07-07 00:11:24] INFO root fetch - processPackages [QVSED]: Remove: archive file [/home/abi/fetcher/tmp/QVSED-1.1.1.tar.gz]
+[2023-07-07 00:11:24] INFO root fetch - main [MainThread]: End processing [QVSED]: success
+[2023-07-07 00:11:24] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-07 00:11:24] INFO root fetch - processPackages [predibase]: New version: [2023.7.1] Old Version: [2023.5.8]
+[2023-07-07 00:11:24] INFO root fetch - processPackages [dask-awkward]: Remove: archive file [/home/abi/fetcher/tmp/dask_awkward-2023.6.3.tar.gz]
+[2023-07-07 00:11:24] INFO root fetch - processPackages [dask-awkward]: Remove: archive file [/home/abi/fetcher/tmp/dask_awkward-2023.7.0.tar.gz]
+[2023-07-07 00:11:24] INFO root fetch - main [MainThread]: End processing [dask-awkward]: success
+[2023-07-07 00:11:24] INFO root fetch - processPackages [hoppr-nexus-bundler]: Remove: archive file [/home/abi/fetcher/tmp/hoppr_nexus_bundler-0.4.8.tar.gz]
+[2023-07-07 00:11:24] INFO root fetch - processPackages [hoppr-nexus-bundler]: Remove: archive file [/home/abi/fetcher/tmp/hoppr_nexus_bundler-0.4.9.tar.gz]
+[2023-07-07 00:11:24] INFO root fetch - main [MainThread]: End processing [hoppr-nexus-bundler]: success
+[2023-07-07 00:11:25] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-07-07 00:11:25] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230707/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-07 00:11:25] INFO root fetch - processPackages [predibase]: Downloading https://files.pythonhosted.org/packages/68/ce/4b67a4cb3c6626f83074859055da9723182f58f2eb58d703054be67af714/predibase-2023.5.8.tar.gz
+[2023-07-07 00:11:25] INFO root fetch - processPackages [predibase-api]: Remove: archive file [/home/abi/fetcher/tmp/predibase-api-2023.5.8.tar.gz]
+[2023-07-07 00:11:25] INFO root fetch - processPackages [predibase-api]: Remove: archive file [/home/abi/fetcher/tmp/predibase-api-2023.7.1.tar.gz]
+[2023-07-07 00:11:25] INFO root fetch - main [MainThread]: End processing [predibase-api]: success
+[2023-07-07 00:11:25] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz]
+[2023-07-07 00:11:25] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz]
+[2023-07-07 00:11:25] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-07-07 00:11:25] INFO root fetch - processPackages [predibase]: Downloading https://files.pythonhosted.org/packages/0e/72/e18fa23ce417524ab0c7483d438f46bda303bf51d873133d3468fe2e429a/predibase-2023.7.1.tar.gz
+[2023-07-07 00:11:25] INFO root fetch - processPackages [predibase]: executing diffoscope
+[2023-07-07 00:11:25] INFO root fetch - processPackages [predibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/predibase-2023.5.8.tar.gz tmp/predibase-2023.7.1.tar.gz --markdown 20230707/p/predibase/2023.5.8-2023.7.1/diff.md --exclude *.pyd
+[2023-07-07 00:11:25] ERROR root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Diffoscope failed: time="2023-07-07T00:11:25+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz: No such file or directory
+
+[2023-07-07 00:11:25] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot] error
+[2023-07-07 00:11:25] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.4.9rc5.tar.gz]
+[2023-07-07 00:11:25] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.4.9rc9.tar.gz]
+[2023-07-07 00:11:25] INFO root fetch - main [MainThread]: End processing [truss]: success
+[2023-07-07 00:11:25] INFO root fetch - processPackages [astropy-iers-data]: Remove: archive file [/home/abi/fetcher/tmp/astropy-iers-data-0.2023.6.26.17.14.7.tar.gz]
+[2023-07-07 00:11:25] INFO root fetch - processPackages [astropy-iers-data]: Remove: archive file [/home/abi/fetcher/tmp/astropy-iers-data-0.2023.7.6.22.3.16.tar.gz]
+[2023-07-07 00:11:25] INFO root fetch - main [MainThread]: End processing [astropy-iers-data]: success
+[2023-07-07 00:11:26] INFO root fetch - processPackages [predibase]: Remove: archive file [/home/abi/fetcher/tmp/predibase-2023.5.8.tar.gz]
+[2023-07-07 00:11:26] INFO root fetch - processPackages [predibase]: Remove: archive file [/home/abi/fetcher/tmp/predibase-2023.7.1.tar.gz]
+[2023-07-07 00:11:26] INFO root fetch - main [MainThread]: End processing [predibase]: success
+[2023-07-07 00:11:27] INFO root fetch - processPackages [climatePy]: Remove: archive file [/home/abi/fetcher/tmp/climatePy-0.4.21.tar.gz]
+[2023-07-07 00:11:27] INFO root fetch - processPackages [climatePy]: Remove: archive file [/home/abi/fetcher/tmp/climatePy-0.4.22.tar.gz]
+[2023-07-07 00:11:27] INFO root fetch - main [MainThread]: End processing [climatePy]: success
+[2023-07-07 00:11:27] INFO root fetch - main [MainThread]: Store serial: [18791555]
