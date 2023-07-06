@@ -1557,3 +1557,48 @@
 [2023-07-07 01:31:15] INFO root fetch - processPackages [protobuf]: Remove: archive file [/home/abi/fetcher/tmp/protobuf-4.23.4.tar.gz]
 [2023-07-07 01:31:15] INFO root fetch - main [MainThread]: End processing [protobuf]: success
 [2023-07-07 01:31:15] INFO root fetch - main [MainThread]: Store serial: [18792224]
+[2023-07-07 01:36:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18792224]
+[2023-07-07 01:36:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-07 01:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: axion
+[2023-07-07 01:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: frogbase
+[2023-07-07 01:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: httptes232
+[2023-07-07 01:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spluscalib
+[2023-07-07 01:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: music-assistant-frontend
+[2023-07-07 01:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zdatabase
+[2023-07-07 01:36:25] INFO root fetch - processPackages [spluscalib]: New version: [0.3.0] Old Version: [0.2.7]
+[2023-07-07 01:36:25] INFO root fetch - processPackages [frogbase]: New version: [2.0.0a2] Old Version: [2.0.0a1]
+[2023-07-07 01:36:25] WARNING root fetch - processPackages [httptes232]: Skipping, unable to determine old version
+[2023-07-07 01:36:25] INFO root fetch - main [MainThread]: End processing [httptes232] error
+[2023-07-07 01:36:25] INFO root fetch - processPackages [music-assistant-frontend]: New version: [20230707.0] Old Version: [20230616.0]
+[2023-07-07 01:36:25] WARNING root fetch - processPackages [axion]: Skipping, unable to determine old version
+[2023-07-07 01:36:25] INFO root fetch - main [MainThread]: End processing [axion] error
+[2023-07-07 01:36:25] INFO root fetch - processPackages [zdatabase]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-07 01:36:25] INFO root fetch - processPackages [spluscalib]: Downloading https://files.pythonhosted.org/packages/6d/47/fb2d39150a5aa68675f6cfae46ee0f853bd5194e669043a5db2a4e9c66fc/spluscalib-0.2.7.tar.gz
+[2023-07-07 01:36:25] INFO root fetch - processPackages [music-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/94/cc/6263100459f4f0ac23793ac9513c3cdb2149fac550c451ddd7658d0e8b30/music_assistant_frontend-20230616.0-py3-none-any.whl
+[2023-07-07 01:36:25] INFO root fetch - processPackages [frogbase]: Downloading https://files.pythonhosted.org/packages/13/bc/ff9997076f650ea7b838ef3ec5a4c29937fc4993b47a47771c2dfcfca610/frogbase-2.0.0a1.tar.gz
+[2023-07-07 01:36:25] INFO root fetch - processPackages [zdatabase]: Downloading https://files.pythonhosted.org/packages/ca/de/48ff515c728e12e5b50b544a106e7866a31c1c9fb7db6ded288b346d956e/zdatabase-0.5.2.tar.gz
+[2023-07-07 01:36:25] INFO root fetch - processPackages [frogbase]: Downloading https://files.pythonhosted.org/packages/ac/ea/de3d3f5ec5ee444a9c5dc593b1cf0bc76bf6bc73c6b71494a6c50b8828cb/frogbase-2.0.0a2.tar.gz
+[2023-07-07 01:36:26] INFO root fetch - processPackages [spluscalib]: Downloading https://files.pythonhosted.org/packages/50/fd/bf6b4ba25dbc11239105d780ee92c92d37ec956bfda2a93a3b06e96dd12b/spluscalib-0.3.0.tar.gz
+[2023-07-07 01:36:26] INFO root fetch - processPackages [zdatabase]: Downloading https://files.pythonhosted.org/packages/6c/07/641b887046f6602a9146ece26e6953c188e1dc60fae2d2eb983f4d27286b/zdatabase-0.5.3.tar.gz
+[2023-07-07 01:36:26] INFO root fetch - processPackages [frogbase]: executing diffoscope
+[2023-07-07 01:36:26] INFO root fetch - processPackages [frogbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frogbase-2.0.0a1.tar.gz tmp/frogbase-2.0.0a2.tar.gz --markdown 20230707/f/frogbase/2.0.0a1-2.0.0a2/diff.md --exclude *.pyd
+[2023-07-07 01:36:26] INFO root fetch - processPackages [spluscalib]: executing diffoscope
+[2023-07-07 01:36:26] INFO root fetch - processPackages [spluscalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spluscalib-0.2.7.tar.gz tmp/spluscalib-0.3.0.tar.gz --markdown 20230707/s/spluscalib/0.2.7-0.3.0/diff.md --exclude *.pyd
+[2023-07-07 01:36:26] INFO root fetch - processPackages [zdatabase]: executing diffoscope
+[2023-07-07 01:36:26] INFO root fetch - processPackages [zdatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zdatabase-0.5.2.tar.gz tmp/zdatabase-0.5.3.tar.gz --markdown 20230707/z/zdatabase/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-07 01:36:26] INFO root fetch - processPackages [music-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/8a/1d/59d0aec14ecca76a4609710336bf9654c0533c319812e0b21579d51dd8ee/music_assistant_frontend-20230707.0-py3-none-any.whl
+[2023-07-07 01:36:26] INFO root fetch - processPackages [music-assistant-frontend]: executing diffoscope
+[2023-07-07 01:36:26] INFO root fetch - processPackages [music-assistant-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music_assistant_frontend-20230616.0-py3-none-any.whl.zip tmp/music_assistant_frontend-20230707.0-py3-none-any.whl.zip --markdown 20230707/m/music-assistant-frontend/20230616.0-20230707.0/diff.md --exclude *.pyd
+[2023-07-07 01:36:27] INFO root fetch - processPackages [frogbase]: Remove: archive file [/home/abi/fetcher/tmp/frogbase-2.0.0a1.tar.gz]
+[2023-07-07 01:36:27] INFO root fetch - processPackages [frogbase]: Remove: archive file [/home/abi/fetcher/tmp/frogbase-2.0.0a2.tar.gz]
+[2023-07-07 01:36:27] INFO root fetch - main [MainThread]: End processing [frogbase]: success
+[2023-07-07 01:36:27] INFO root fetch - processPackages [zdatabase]: Remove: archive file [/home/abi/fetcher/tmp/zdatabase-0.5.2.tar.gz]
+[2023-07-07 01:36:27] INFO root fetch - processPackages [zdatabase]: Remove: archive file [/home/abi/fetcher/tmp/zdatabase-0.5.3.tar.gz]
+[2023-07-07 01:36:27] INFO root fetch - main [MainThread]: End processing [zdatabase]: success
+[2023-07-07 01:36:27] INFO root fetch - processPackages [spluscalib]: Remove: archive file [/home/abi/fetcher/tmp/spluscalib-0.2.7.tar.gz]
+[2023-07-07 01:36:27] INFO root fetch - processPackages [spluscalib]: Remove: archive file [/home/abi/fetcher/tmp/spluscalib-0.3.0.tar.gz]
+[2023-07-07 01:36:27] INFO root fetch - main [MainThread]: End processing [spluscalib]: success
+[2023-07-07 01:36:40] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music_assistant_frontend-20230616.0-py3-none-any.whl.zip]
+[2023-07-07 01:36:40] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music_assistant_frontend-20230707.0-py3-none-any.whl.zip]
+[2023-07-07 01:36:40] INFO root fetch - main [MainThread]: End processing [music-assistant-frontend]: success
+[2023-07-07 01:36:40] INFO root fetch - main [MainThread]: Store serial: [18792296]
