@@ -15965,3 +15965,133 @@ EOFError: EOF read where object expected
 [2023-07-07 10:42:25] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230706-py2.py3-none-any.whl.zip]
 [2023-07-07 10:42:25] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
 [2023-07-07 10:42:25] INFO root fetch - main [MainThread]: Store serial: [18797637]
+[2023-07-07 10:47:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18797637]
+[2023-07-07 10:47:34] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-07 10:47:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: transmorph
+[2023-07-07 10:47:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CmonCrawl
+[2023-07-07 10:47:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: affinda
+[2023-07-07 10:47:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyciactions
+[2023-07-07 10:47:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zbxtool-cfomp
+[2023-07-07 10:47:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ISRpy
+[2023-07-07 10:47:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kolibri-explore-plugin
+[2023-07-07 10:47:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: documentdataextraction
+[2023-07-07 10:47:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openi-test
+[2023-07-07 10:47:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyappbundler
+[2023-07-07 10:47:34] INFO root fetch - processPackages [CmonCrawl]: New version: [1.3] Old Version: [1.0.2]
+[2023-07-07 10:47:35] INFO root fetch - processPackages [openi-test]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-07 10:47:35] INFO root fetch - processPackages [kolibri-explore-plugin]: New version: [6.9.0] Old Version: [6.8.0]
+[2023-07-07 10:47:35] INFO root fetch - processPackages [pyciactions]: New version: [1.0.9] Old Version: [1.0.8a8]
+[2023-07-07 10:47:35] INFO root fetch - processPackages [transmorph]: New version: [0.2.8] Old Version: [0.2.7b0]
+[2023-07-07 10:47:35] INFO root fetch - processPackages [affinda]: New version: [4.7.2] Old Version: [4.7.1]
+[2023-07-07 10:47:35] INFO root fetch - processPackages [documentdataextraction]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 10:47:35] INFO root fetch - processPackages [zbxtool-cfomp]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-07 10:47:35] INFO root fetch - processPackages [pyappbundler]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-07 10:47:35] INFO root fetch - processPackages [ISRpy]: New version: [0.0.23] Old Version: [0.0.22]
+[2023-07-07 10:47:35] INFO root fetch - processPackages [zbxtool-cfomp]: Downloading https://files.pythonhosted.org/packages/a2/af/b197bd86cab21e82f9a9e5f3178e2cd10c9ed0caccddd151f0a722e203dd/zbxtool-cfomp-0.9.8.tar.gz
+[2023-07-07 10:47:35] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/4f/f3/3f4bce0f1e4c09bf27f8534421b31f53514ec81a4b706ba66930ae207c9f/pyciactions-1.0.8a8.tar.gz
+[2023-07-07 10:47:35] INFO root fetch - processPackages [transmorph]: Downloading https://files.pythonhosted.org/packages/15/9b/2b283fe70017c35bfa1858f9e8073cc9c0c2846f630d81a4db6fee43b914/transmorph-0.2.7b0.tar.gz
+[2023-07-07 10:47:35] INFO root fetch - processPackages [affinda]: Downloading https://files.pythonhosted.org/packages/27/62/b0a863c88ff75a645a86f98fb7edd7323ca3786bdee196926a4abea4797d/affinda-4.7.1.tar.gz
+[2023-07-07 10:47:35] INFO root fetch - processPackages [pyappbundler]: Downloading https://files.pythonhosted.org/packages/0b/a1/cd2fd5c665f86bc04d2ea9a213527df31e2e419a6d65d1b21a3e40c2420d/pyappbundler-0.1.2.tar.gz
+[2023-07-07 10:47:35] INFO root fetch - processPackages [openi-test]: Downloading https://files.pythonhosted.org/packages/2b/8a/a2fcd5d73af22f79bc45eb5767262e029e9c966c3cdb65210b8c0a1cc804/openi_test-0.2.6.tar.gz
+[2023-07-07 10:47:35] INFO root fetch - processPackages [CmonCrawl]: Downloading https://files.pythonhosted.org/packages/76/77/c41e45cf0a54dec7f990dfbf2c1e31d5337ad7162d56d53379a0cd559032/CmonCrawl-1.0.2.tar.gz
+[2023-07-07 10:47:35] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/1a/e4/1e85519ce247c6ed7c20e6c47ef38f5c09cf919ff231bf453cc23a1f0ba0/documentdataextraction-0.0.8-py3-none-any.whl
+[2023-07-07 10:47:35] INFO root fetch - processPackages [kolibri-explore-plugin]: Downloading https://files.pythonhosted.org/packages/ce/f9/31b5cbfd9a83d09f22e7a4a1bcfe80aa5ac42dcb7177d812abc4159b1f22/kolibri_explore_plugin-6.8.0-py2.py3-none-any.whl
+[2023-07-07 10:47:35] INFO root fetch - processPackages [ISRpy]: Downloading https://files.pythonhosted.org/packages/f9/93/777c6a91179d058049647d6743f0aa52d8f0e5e7b55efec454dba5176d15/ISRpy-0.0.22.tar.gz
+[2023-07-07 10:47:35] WARNING root fetch - processPackages [kolibri-explore-plugin]: Skipping package: exceeds size limit 17418137>=10485760
+[2023-07-07 10:47:35] INFO root fetch - processPackages [kolibri-explore-plugin]: Start processing: veetility
+[2023-07-07 10:47:35] INFO root fetch - main [MainThread]: End processing [kolibri-explore-plugin] error
+[2023-07-07 10:47:35] INFO root fetch - processPackages [zbxtool-cfomp]: Downloading https://files.pythonhosted.org/packages/d7/f7/5b055effe9c5650ac3ff3993bd9d1e2077b59cb55512af186bf0ed073c5c/zbxtool-cfomp-0.9.9.tar.gz
+[2023-07-07 10:47:35] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/31/76/449e2f9925c75cb9cae72fcc6ebcb769640e519cf941ad29cee965d3ac35/pyciactions-1.0.9.tar.gz
+[2023-07-07 10:47:35] INFO root fetch - processPackages [veetility]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-07 10:47:35] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/b3/ec/eb9901e48d02bee04847cd1afe0c6b8ca7231d1a8b133261a63ae052f777/documentdataextraction-0.0.9-py3-none-any.whl
+[2023-07-07 10:47:35] INFO root fetch - processPackages [affinda]: Downloading https://files.pythonhosted.org/packages/e4/d4/83a065be4919c0ff30f3048d1e0f5836cdd8661737e41437be61944e2457/affinda-4.7.2.tar.gz
+[2023-07-07 10:47:35] INFO root fetch - processPackages [pyappbundler]: Downloading https://files.pythonhosted.org/packages/76/e0/d5039d1f3a6a112a44365d6888847de24611b529d1e599988da35ea025cf/pyappbundler-0.1.3.tar.gz
+[2023-07-07 10:47:35] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/b4/6c/d6775912e1f4b22333ed3a4fee91721e0069b8797ba5c31097f91a3135d6/veetility-0.1.98.tar.gz
+[2023-07-07 10:47:35] INFO root fetch - processPackages [zbxtool-cfomp]: executing diffoscope
+[2023-07-07 10:47:35] INFO root fetch - processPackages [zbxtool-cfomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zbxtool-cfomp-0.9.8.tar.gz tmp/zbxtool-cfomp-0.9.9.tar.gz --markdown 20230707/z/zbxtool-cfomp/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-07 10:47:35] INFO root fetch - processPackages [transmorph]: Downloading https://files.pythonhosted.org/packages/b5/39/78c6f73988bfc7779ee2270af8ed6df0610c923cb06c3c2c77417de08938/transmorph-0.2.8.tar.gz
+[2023-07-07 10:47:35] INFO root fetch - processPackages [pyciactions]: executing diffoscope
+[2023-07-07 10:47:35] INFO root fetch - processPackages [pyciactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyciactions-1.0.8a8.tar.gz tmp/pyciactions-1.0.9.tar.gz --markdown 20230707/p/pyciactions/1.0.8a8-1.0.9/diff.md --exclude *.pyd
+[2023-07-07 10:47:35] INFO root fetch - processPackages [openi-test]: Downloading https://files.pythonhosted.org/packages/a5/5f/0f0e50cb81e16be0f5f110b337caf96d087eb7a8d8c001b21229cdf0d4c7/openi_test-0.2.7.tar.gz
+[2023-07-07 10:47:36] ERROR root fetch - processPackages [CmonCrawl]: Unable to fetch info: No such project/version 'CmonCrawl' 1.3
+[2023-07-07 10:47:36] INFO root fetch - processPackages [CmonCrawl]: Start processing: panda-utils
+[2023-07-07 10:47:36] INFO root fetch - main [MainThread]: End processing [CmonCrawl] error
+[2023-07-07 10:47:36] INFO root fetch - processPackages [documentdataextraction]: executing diffoscope
+[2023-07-07 10:47:36] INFO root fetch - processPackages [documentdataextraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip --markdown 20230707/d/documentdataextraction/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 10:47:36] INFO root fetch - processPackages [ISRpy]: Downloading https://files.pythonhosted.org/packages/c0/66/ca65ffac0b8892c2c79bcd3c6e08ad96ca7b1d1d40fdb84a0cd09da56fe6/ISRpy-0.0.23.tar.gz
+[2023-07-07 10:47:36] INFO root fetch - processPackages [pyappbundler]: executing diffoscope
+[2023-07-07 10:47:36] INFO root fetch - processPackages [pyappbundler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyappbundler-0.1.2.tar.gz tmp/pyappbundler-0.1.3.tar.gz --markdown 20230707/p/pyappbundler/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-07 10:47:36] INFO root fetch - processPackages [panda-utils]: New version: [1.3.1] Old Version: [1.3]
+[2023-07-07 10:47:36] INFO root fetch - processPackages [openi-test]: executing diffoscope
+[2023-07-07 10:47:36] INFO root fetch - processPackages [openi-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi_test-0.2.6.tar.gz tmp/openi_test-0.2.7.tar.gz --markdown 20230707/o/openi-test/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-07 10:47:36] INFO root fetch - processPackages [affinda]: executing diffoscope
+[2023-07-07 10:47:36] INFO root fetch - processPackages [affinda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/affinda-4.7.1.tar.gz tmp/affinda-4.7.2.tar.gz --markdown 20230707/a/affinda/4.7.1-4.7.2/diff.md --exclude *.pyd
+[2023-07-07 10:47:36] INFO root fetch - processPackages [transmorph]: executing diffoscope
+[2023-07-07 10:47:36] INFO root fetch - processPackages [transmorph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transmorph-0.2.7b0.tar.gz tmp/transmorph-0.2.8.tar.gz --markdown 20230707/t/transmorph/0.2.7b0-0.2.8/diff.md --exclude *.pyd
+[2023-07-07 10:47:36] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/a0/4f/eb1359196e4e216d1ccfde231e462db3887b8a191ac90d104f3b45fa4169/veetility-0.1.99.tar.gz
+[2023-07-07 10:47:36] INFO root fetch - processPackages [panda-utils]: Downloading https://files.pythonhosted.org/packages/04/47/99d7a013b39165ae9b4842a62c14eecf3f190862b2a0130d32d1421de81d/panda_utils-1.3.tar.gz
+[2023-07-07 10:47:36] INFO root fetch - processPackages [ISRpy]: executing diffoscope
+[2023-07-07 10:47:36] INFO root fetch - processPackages [ISRpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ISRpy-0.0.22.tar.gz tmp/ISRpy-0.0.23.tar.gz --markdown 20230707/I/ISRpy/0.0.22-0.0.23/diff.md --exclude *.pyd
+[2023-07-07 10:47:36] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-07-07 10:47:36] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.98.tar.gz tmp/veetility-0.1.99.tar.gz --markdown 20230707/v/veetility/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-07 10:47:36] INFO root fetch - processPackages [panda-utils]: Downloading https://files.pythonhosted.org/packages/c1/8c/0a8ddb506b7cfb13b10f9d646c1d213985d05dacb81321ac057bc410e858/panda_utils-1.3.1.tar.gz
+[2023-07-07 10:47:36] INFO root fetch - processPackages [panda-utils]: executing diffoscope
+[2023-07-07 10:47:36] INFO root fetch - processPackages [panda-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda_utils-1.3.tar.gz tmp/panda_utils-1.3.1.tar.gz --markdown 20230707/p/panda-utils/1.3-1.3.1/diff.md --exclude *.pyd
+[2023-07-07 10:47:37] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.8a8.tar.gz]
+[2023-07-07 10:47:37] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.9.tar.gz]
+[2023-07-07 10:47:37] INFO root fetch - processPackages [pyciactions]: Start processing: azure-databricks-sdk-python
+[2023-07-07 10:47:37] INFO root fetch - main [MainThread]: End processing [pyciactions]: success
+[2023-07-07 10:47:37] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip]
+[2023-07-07 10:47:37] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip]
+[2023-07-07 10:47:37] INFO root fetch - processPackages [documentdataextraction]: Start processing: mxmake
+[2023-07-07 10:47:37] INFO root fetch - main [MainThread]: End processing [documentdataextraction]: success
+[2023-07-07 10:47:37] INFO root fetch - processPackages [azure-databricks-sdk-python]: New version: [0.0.3.dev1] Old Version: [0.0.2]
+[2023-07-07 10:47:37] INFO root fetch - processPackages [zbxtool-cfomp]: Remove: archive file [/home/abi/fetcher/tmp/zbxtool-cfomp-0.9.8.tar.gz]
+[2023-07-07 10:47:37] INFO root fetch - processPackages [zbxtool-cfomp]: Remove: archive file [/home/abi/fetcher/tmp/zbxtool-cfomp-0.9.9.tar.gz]
+[2023-07-07 10:47:37] INFO root fetch - processPackages [zbxtool-cfomp]: Start processing: pulumi-awsx
+[2023-07-07 10:47:37] INFO root fetch - main [MainThread]: End processing [zbxtool-cfomp]: success
+[2023-07-07 10:47:37] INFO root fetch - processPackages [mxmake]: New version: [1.0a2.dev0] Old Version: [1.0a1]
+[2023-07-07 10:47:37] INFO root fetch - processPackages [pyappbundler]: Remove: archive file [/home/abi/fetcher/tmp/pyappbundler-0.1.2.tar.gz]
+[2023-07-07 10:47:37] INFO root fetch - processPackages [pyappbundler]: Remove: archive file [/home/abi/fetcher/tmp/pyappbundler-0.1.3.tar.gz]
+[2023-07-07 10:47:37] INFO root fetch - main [MainThread]: End processing [pyappbundler]: success
+[2023-07-07 10:47:37] INFO root fetch - processPackages [openi-test]: Remove: archive file [/home/abi/fetcher/tmp/openi_test-0.2.6.tar.gz]
+[2023-07-07 10:47:37] INFO root fetch - processPackages [openi-test]: Remove: archive file [/home/abi/fetcher/tmp/openi_test-0.2.7.tar.gz]
+[2023-07-07 10:47:37] INFO root fetch - main [MainThread]: End processing [openi-test]: success
+[2023-07-07 10:47:37] INFO root fetch - processPackages [azure-databricks-sdk-python]: Downloading https://files.pythonhosted.org/packages/47/ba/f61a48f952fe27117ab16405bab2959e3342fb071a57752399a7a269edba/azure-databricks-sdk-python-0.0.2.tar.gz
+[2023-07-07 10:47:37] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.98.tar.gz]
+[2023-07-07 10:47:37] INFO root fetch - processPackages [pulumi-awsx]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-07 10:47:37] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.99.tar.gz]
+[2023-07-07 10:47:37] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-07-07 10:47:37] INFO root fetch - processPackages [mxmake]: Downloading https://files.pythonhosted.org/packages/d0/dd/ada5004e87215082d81e746bf6f84daf7e1d20cddc5ac5776db1d21fcfec/mxmake-1.0a1.tar.gz
+[2023-07-07 10:47:38] INFO root fetch - processPackages [panda-utils]: Remove: archive file [/home/abi/fetcher/tmp/panda_utils-1.3.tar.gz]
+[2023-07-07 10:47:38] INFO root fetch - processPackages [panda-utils]: Remove: archive file [/home/abi/fetcher/tmp/panda_utils-1.3.1.tar.gz]
+[2023-07-07 10:47:38] INFO root fetch - main [MainThread]: End processing [panda-utils]: success
+[2023-07-07 10:47:38] INFO root fetch - processPackages [ISRpy]: Remove: archive file [/home/abi/fetcher/tmp/ISRpy-0.0.22.tar.gz]
+[2023-07-07 10:47:38] INFO root fetch - processPackages [ISRpy]: Remove: archive file [/home/abi/fetcher/tmp/ISRpy-0.0.23.tar.gz]
+[2023-07-07 10:47:38] INFO root fetch - main [MainThread]: End processing [ISRpy]: success
+[2023-07-07 10:47:38] INFO root fetch - processPackages [transmorph]: Remove: archive file [/home/abi/fetcher/tmp/transmorph-0.2.7b0.tar.gz]
+[2023-07-07 10:47:38] INFO root fetch - processPackages [transmorph]: Remove: archive file [/home/abi/fetcher/tmp/transmorph-0.2.8.tar.gz]
+[2023-07-07 10:47:38] INFO root fetch - main [MainThread]: End processing [transmorph]: success
+[2023-07-07 10:47:38] INFO root fetch - processPackages [pulumi-awsx]: Downloading https://files.pythonhosted.org/packages/4d/e8/5491d5cfef95e88245d7b464299ca8b4a0005d2a2d6fdcc6f685d350fc01/pulumi_awsx-1.0.1.tar.gz
+[2023-07-07 10:47:38] INFO root fetch - processPackages [mxmake]: Downloading https://files.pythonhosted.org/packages/fc/c4/0bf9791cf088054cc9736645de87162fb26c751710e433af978512dbe1d0/mxmake-1.0a2.dev0.tar.gz
+[2023-07-07 10:47:38] INFO root fetch - processPackages [azure-databricks-sdk-python]: Downloading https://files.pythonhosted.org/packages/8b/b4/b9d42d129116e03e14fd75cbb73f8fb1d0b5a0a999629f7558ef52a8888a/azure-databricks-sdk-python-0.0.3.dev1.tar.gz
+[2023-07-07 10:47:38] INFO root fetch - processPackages [mxmake]: executing diffoscope
+[2023-07-07 10:47:38] INFO root fetch - processPackages [mxmake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxmake-1.0a1.tar.gz tmp/mxmake-1.0a2.dev0.tar.gz --markdown 20230707/m/mxmake/1.0a1-1.0a2.dev0/diff.md --exclude *.pyd
+[2023-07-07 10:47:38] INFO root fetch - processPackages [azure-databricks-sdk-python]: executing diffoscope
+[2023-07-07 10:47:38] INFO root fetch - processPackages [azure-databricks-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-databricks-sdk-python-0.0.2.tar.gz tmp/azure-databricks-sdk-python-0.0.3.dev1.tar.gz --markdown 20230707/a/azure-databricks-sdk-python/0.0.2-0.0.3.dev1/diff.md --exclude *.pyd
+[2023-07-07 10:47:38] INFO root fetch - processPackages [pulumi-awsx]: Downloading https://files.pythonhosted.org/packages/22/54/076af0e5d0b6ffde29af3abe2bab657b240779ce0cb71b26ebb5c1b7a31d/pulumi_awsx-1.0.2.tar.gz
+[2023-07-07 10:47:38] INFO root fetch - processPackages [pulumi-awsx]: executing diffoscope
+[2023-07-07 10:47:38] INFO root fetch - processPackages [pulumi-awsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_awsx-1.0.1.tar.gz tmp/pulumi_awsx-1.0.2.tar.gz --markdown 20230707/p/pulumi-awsx/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-07 10:47:39] INFO root fetch - processPackages [affinda]: Remove: archive file [/home/abi/fetcher/tmp/affinda-4.7.1.tar.gz]
+[2023-07-07 10:47:39] INFO root fetch - processPackages [affinda]: Remove: archive file [/home/abi/fetcher/tmp/affinda-4.7.2.tar.gz]
+[2023-07-07 10:47:39] INFO root fetch - main [MainThread]: End processing [affinda]: success
+[2023-07-07 10:47:39] INFO root fetch - processPackages [azure-databricks-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/azure-databricks-sdk-python-0.0.2.tar.gz]
+[2023-07-07 10:47:39] INFO root fetch - processPackages [azure-databricks-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/azure-databricks-sdk-python-0.0.3.dev1.tar.gz]
+[2023-07-07 10:47:39] INFO root fetch - main [MainThread]: End processing [azure-databricks-sdk-python]: success
+[2023-07-07 10:47:39] INFO root fetch - processPackages [mxmake]: Remove: archive file [/home/abi/fetcher/tmp/mxmake-1.0a1.tar.gz]
+[2023-07-07 10:47:39] INFO root fetch - processPackages [mxmake]: Remove: archive file [/home/abi/fetcher/tmp/mxmake-1.0a2.dev0.tar.gz]
+[2023-07-07 10:47:39] INFO root fetch - main [MainThread]: End processing [mxmake]: success
+[2023-07-07 10:47:39] INFO root fetch - processPackages [pulumi-awsx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_awsx-1.0.1.tar.gz]
+[2023-07-07 10:47:39] INFO root fetch - processPackages [pulumi-awsx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_awsx-1.0.2.tar.gz]
+[2023-07-07 10:47:39] INFO root fetch - main [MainThread]: End processing [pulumi-awsx]: success
+[2023-07-07 10:47:39] INFO root fetch - main [MainThread]: Store serial: [18797684]
