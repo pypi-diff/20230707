@@ -12663,3 +12663,102 @@ EOFError: EOF read where object expected
 [2023-07-07 08:09:35] INFO root fetch - processPackages [odoo14-addon-assets-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_assets_management-14.0.1.0.6-py3-none-any.whl.zip]
 [2023-07-07 08:09:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-assets-management]: success
 [2023-07-07 08:09:35] INFO root fetch - main [MainThread]: Store serial: [18796332]
+[2023-07-07 08:14:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18796332]
+[2023-07-07 08:14:44] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-07 08:14:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-stdimage2
+[2023-07-07 08:14:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trilium-py
+[2023-07-07 08:14:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiobotocore
+[2023-07-07 08:14:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ccdt
+[2023-07-07 08:14:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moore-itertools
+[2023-07-07 08:14:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xj-captcha
+[2023-07-07 08:14:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyjd
+[2023-07-07 08:14:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quantplay
+[2023-07-07 08:14:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyg-nightly
+[2023-07-07 08:14:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-cp-broadcast
+[2023-07-07 08:14:44] WARNING root fetch - processPackages [nonebot-plugin-cp-broadcast]: Skipping, unable to determine old version
+[2023-07-07 08:14:44] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Start processing: my-shell-script
+[2023-07-07 08:14:44] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-cp-broadcast] error
+[2023-07-07 08:14:44] INFO root fetch - processPackages [trilium-py]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-07 08:14:44] INFO root fetch - processPackages [django-stdimage2]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-07 08:14:44] INFO root fetch - processPackages [moore-itertools]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-07 08:14:44] INFO root fetch - processPackages [pyjd]: New version: [1.0.1] Old Version: [1.0]
+[2023-07-07 08:14:44] INFO root fetch - processPackages [aiobotocore]: New version: [2.5.2] Old Version: [2.5.1]
+[2023-07-07 08:14:44] INFO root fetch - processPackages [xj-captcha]: New version: [1.0.9] Old Version: [1.0.6]
+[2023-07-07 08:14:44] WARNING root fetch - processPackages [my-shell-script]: Skipping, unable to determine old version
+[2023-07-07 08:14:44] INFO root fetch - processPackages [my-shell-script]: Start processing: xj-flow
+[2023-07-07 08:14:44] INFO root fetch - main [MainThread]: End processing [my-shell-script] error
+[2023-07-07 08:14:44] INFO root fetch - processPackages [ccdt]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-07 08:14:44] INFO root fetch - processPackages [quantplay]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-07-07 08:14:44] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230706] Old Version: [2.4.0.dev20230705]
+[2023-07-07 08:14:44] INFO root fetch - processPackages [xj-flow]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-07 08:14:44] INFO root fetch - processPackages [pyjd]: Downloading https://files.pythonhosted.org/packages/63/f4/b9300a8eee56f2c7aa48a77507e1cfaa4c3070492e829ce083d994c17d20/pyjd-1.0.tar.gz
+[2023-07-07 08:14:44] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/ef/77/94622f9577a05b4640c272adff4dd811c298403ddea301af4ec243fb464c/pyg_nightly-2.4.0.dev20230705.tar.gz
+[2023-07-07 08:14:44] INFO root fetch - processPackages [django-stdimage2]: Downloading https://files.pythonhosted.org/packages/28/e3/61cfce3c6230b8b0a826e91517733e86faaf3bdd557bba5abc448712c416/django-stdimage2-0.1.2.tar.gz
+[2023-07-07 08:14:44] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/57/6e/f14772501966f0da2217c6c0dc9b873e99a50b0e8872443684ea3236fd0a/quantplay-1.3.6.tar.gz
+[2023-07-07 08:14:44] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/4b/74/4580a005cbe4f6dc4e16ce3a9feb5716c4cf901b4839d048dfff2001ee3d/ccdt-2.1.8.tar.gz
+[2023-07-07 08:14:44] INFO root fetch - processPackages [moore-itertools]: Downloading https://files.pythonhosted.org/packages/17/45/cce3469a33d40fc382b1a7a8524813e2a1ddafb9503c9ae9d9f74c541ff0/moore-itertools-0.0.1.tar.gz
+[2023-07-07 08:14:44] INFO root fetch - processPackages [xj-captcha]: Downloading https://files.pythonhosted.org/packages/00/a5/84a3749279294e1932267ab065a6fc338830d2d6353b264a0aa3faa9cf89/xj_captcha-1.0.6.tar.gz
+[2023-07-07 08:14:44] INFO root fetch - processPackages [trilium-py]: Downloading https://files.pythonhosted.org/packages/cc/30/b2825dc06126f6dfd0b05aa341e5d10b2a1408d63957f3d632e2b52f5e24/trilium_py-0.8.0-py3-none-any.whl
+[2023-07-07 08:14:44] INFO root fetch - processPackages [aiobotocore]: Downloading https://files.pythonhosted.org/packages/8d/07/c6445ff8a9eba553a4ee371a15ea9e615b60ba5a6263f89cd8be4c7591c9/aiobotocore-2.5.1.tar.gz
+[2023-07-07 08:14:44] INFO root fetch - processPackages [xj-flow]: Downloading https://files.pythonhosted.org/packages/4b/98/1a3f618c2c4858fcf9b224f239f42c312217e8a3deb7f2ac59a023163a9f/xj_flow-1.0.8.tar.gz
+[2023-07-07 08:14:45] INFO root fetch - processPackages [pyjd]: Downloading https://files.pythonhosted.org/packages/bf/77/1ea0c3cde777d3bbd98b1996057454b6f5d9cdf49c94b2dbcc5f0dd23cf6/pyjd-1.0.1.tar.gz
+[2023-07-07 08:14:45] INFO root fetch - processPackages [django-stdimage2]: Downloading https://files.pythonhosted.org/packages/7a/da/afc93f5d9a601cb98b01c1abe4cb56a165548b2af78fcee1e1b6075ab314/django-stdimage2-0.1.3.tar.gz
+[2023-07-07 08:14:45] INFO root fetch - processPackages [moore-itertools]: Downloading https://files.pythonhosted.org/packages/d6/e4/2a4354d3ecc6c4506c8907a03acf8b36bf0a4c48327eaaabd1465cf6b519/moore-itertools-0.0.2.tar.gz
+[2023-07-07 08:14:45] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/50/af/65fff3985f9d4875a45ed6cf7122cb0adbbf1e48ee8cec6d3d280ea60b98/quantplay-1.3.7.tar.gz
+[2023-07-07 08:14:45] INFO root fetch - processPackages [trilium-py]: Downloading https://files.pythonhosted.org/packages/3e/84/b747dee6692591279355d2d4bffaee7c1e4649d75ee3c51ccd90aac99c5f/trilium_py-0.8.1-py3-none-any.whl
+[2023-07-07 08:14:45] INFO root fetch - processPackages [aiobotocore]: Downloading https://files.pythonhosted.org/packages/b1/29/a89423bbf1aac0d68ef903f5586c64b50326628b3a0b55101cee475f488f/aiobotocore-2.5.2.tar.gz
+[2023-07-07 08:14:45] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/d5/f2/7926d58fa933cd6e8d4ce55e92df2097043f323dba456534345b8dd248c1/ccdt-2.1.9.tar.gz
+[2023-07-07 08:14:45] INFO root fetch - processPackages [xj-captcha]: Downloading https://files.pythonhosted.org/packages/e9/a2/939aae9f244db14f395894bf0d0ca874c2c2608148ec272fa37055697d26/xj_captcha-1.0.9.tar.gz
+[2023-07-07 08:14:45] INFO root fetch - processPackages [django-stdimage2]: executing diffoscope
+[2023-07-07 08:14:45] INFO root fetch - processPackages [django-stdimage2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-stdimage2-0.1.2.tar.gz tmp/django-stdimage2-0.1.3.tar.gz --markdown 20230707/d/django-stdimage2/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-07 08:14:45] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/e9/5b/47f4b60ecc7d958d050a6dc06c2d2383d2bcdd1b071f63d827e4f8835680/pyg_nightly-2.4.0.dev20230706.tar.gz
+[2023-07-07 08:14:45] INFO root fetch - processPackages [pyjd]: executing diffoscope
+[2023-07-07 08:14:45] INFO root fetch - processPackages [pyjd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjd-1.0.tar.gz tmp/pyjd-1.0.1.tar.gz --markdown 20230707/p/pyjd/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-07 08:14:45] INFO root fetch - processPackages [moore-itertools]: executing diffoscope
+[2023-07-07 08:14:45] INFO root fetch - processPackages [moore-itertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moore-itertools-0.0.1.tar.gz tmp/moore-itertools-0.0.2.tar.gz --markdown 20230707/m/moore-itertools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-07 08:14:45] INFO root fetch - processPackages [trilium-py]: executing diffoscope
+[2023-07-07 08:14:45] INFO root fetch - processPackages [trilium-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trilium_py-0.8.0-py3-none-any.whl.zip tmp/trilium_py-0.8.1-py3-none-any.whl.zip --markdown 20230707/t/trilium-py/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-07 08:14:45] INFO root fetch - processPackages [xj-flow]: Downloading https://files.pythonhosted.org/packages/93/02/013abb0effbefa548538af1945ba2798a7c0ccbda7de2e19a099047da628/xj_flow-1.0.9.tar.gz
+[2023-07-07 08:14:45] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-07-07 08:14:45] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.3.6.tar.gz tmp/quantplay-1.3.7.tar.gz --markdown 20230707/q/quantplay/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2023-07-07 08:14:45] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2023-07-07 08:14:45] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.1.8.tar.gz tmp/ccdt-2.1.9.tar.gz --markdown 20230707/c/ccdt/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-07 08:14:45] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-07-07 08:14:45] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230705.tar.gz tmp/pyg_nightly-2.4.0.dev20230706.tar.gz --markdown 20230707/p/pyg-nightly/2.4.0.dev20230705-2.4.0.dev20230706/diff.md --exclude *.pyd
+[2023-07-07 08:14:45] INFO root fetch - processPackages [aiobotocore]: executing diffoscope
+[2023-07-07 08:14:45] INFO root fetch - processPackages [aiobotocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiobotocore-2.5.1.tar.gz tmp/aiobotocore-2.5.2.tar.gz --markdown 20230707/a/aiobotocore/2.5.1-2.5.2/diff.md --exclude *.pyd
+[2023-07-07 08:14:45] INFO root fetch - processPackages [xj-flow]: executing diffoscope
+[2023-07-07 08:14:45] INFO root fetch - processPackages [xj-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_flow-1.0.8.tar.gz tmp/xj_flow-1.0.9.tar.gz --markdown 20230707/x/xj-flow/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-07 08:14:45] INFO root fetch - processPackages [xj-captcha]: executing diffoscope
+[2023-07-07 08:14:45] INFO root fetch - processPackages [xj-captcha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_captcha-1.0.6.tar.gz tmp/xj_captcha-1.0.9.tar.gz --markdown 20230707/x/xj-captcha/1.0.6-1.0.9/diff.md --exclude *.pyd
+[2023-07-07 08:14:46] INFO root fetch - processPackages [moore-itertools]: Remove: archive file [/home/abi/fetcher/tmp/moore-itertools-0.0.1.tar.gz]
+[2023-07-07 08:14:46] INFO root fetch - processPackages [moore-itertools]: Remove: archive file [/home/abi/fetcher/tmp/moore-itertools-0.0.2.tar.gz]
+[2023-07-07 08:14:46] INFO root fetch - main [MainThread]: End processing [moore-itertools]: success
+[2023-07-07 08:14:47] INFO root fetch - processPackages [django-stdimage2]: Remove: archive file [/home/abi/fetcher/tmp/django-stdimage2-0.1.2.tar.gz]
+[2023-07-07 08:14:47] INFO root fetch - processPackages [django-stdimage2]: Remove: archive file [/home/abi/fetcher/tmp/django-stdimage2-0.1.3.tar.gz]
+[2023-07-07 08:14:47] INFO root fetch - main [MainThread]: End processing [django-stdimage2]: success
+[2023-07-07 08:14:47] INFO root fetch - processPackages [trilium-py]: Remove: archive file [/home/abi/fetcher/tmp/trilium_py-0.8.0-py3-none-any.whl.zip]
+[2023-07-07 08:14:47] INFO root fetch - processPackages [trilium-py]: Remove: archive file [/home/abi/fetcher/tmp/trilium_py-0.8.1-py3-none-any.whl.zip]
+[2023-07-07 08:14:47] INFO root fetch - main [MainThread]: End processing [trilium-py]: success
+[2023-07-07 08:14:47] INFO root fetch - processPackages [pyjd]: Remove: archive file [/home/abi/fetcher/tmp/pyjd-1.0.tar.gz]
+[2023-07-07 08:14:47] INFO root fetch - processPackages [pyjd]: Remove: archive file [/home/abi/fetcher/tmp/pyjd-1.0.1.tar.gz]
+[2023-07-07 08:14:47] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.8.tar.gz]
+[2023-07-07 08:14:47] INFO root fetch - main [MainThread]: End processing [pyjd]: success
+[2023-07-07 08:14:47] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.9.tar.gz]
+[2023-07-07 08:14:47] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2023-07-07 08:14:47] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.6.tar.gz]
+[2023-07-07 08:14:47] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.7.tar.gz]
+[2023-07-07 08:14:47] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-07-07 08:14:47] INFO root fetch - processPackages [aiobotocore]: Remove: archive file [/home/abi/fetcher/tmp/aiobotocore-2.5.1.tar.gz]
+[2023-07-07 08:14:47] INFO root fetch - processPackages [aiobotocore]: Remove: archive file [/home/abi/fetcher/tmp/aiobotocore-2.5.2.tar.gz]
+[2023-07-07 08:14:47] INFO root fetch - main [MainThread]: End processing [aiobotocore]: success
+[2023-07-07 08:14:47] INFO root fetch - processPackages [xj-captcha]: Remove: archive file [/home/abi/fetcher/tmp/xj_captcha-1.0.6.tar.gz]
+[2023-07-07 08:14:47] INFO root fetch - processPackages [xj-captcha]: Remove: archive file [/home/abi/fetcher/tmp/xj_captcha-1.0.9.tar.gz]
+[2023-07-07 08:14:47] INFO root fetch - main [MainThread]: End processing [xj-captcha]: success
+[2023-07-07 08:14:47] INFO root fetch - processPackages [xj-flow]: Remove: archive file [/home/abi/fetcher/tmp/xj_flow-1.0.8.tar.gz]
+[2023-07-07 08:14:47] INFO root fetch - processPackages [xj-flow]: Remove: archive file [/home/abi/fetcher/tmp/xj_flow-1.0.9.tar.gz]
+[2023-07-07 08:14:47] INFO root fetch - main [MainThread]: End processing [xj-flow]: success
+[2023-07-07 08:14:49] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230705.tar.gz]
+[2023-07-07 08:14:49] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230706.tar.gz]
+[2023-07-07 08:14:49] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-07-07 08:14:49] INFO root fetch - main [MainThread]: Store serial: [18796370]
