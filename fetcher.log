@@ -5141,3 +5141,66 @@ EOFError: EOF read where object expected
 [2023-07-07 02:56:01] INFO root fetch - processPackages [im-openai]: Remove: archive file [/home/abi/fetcher/tmp/im_openai-0.5.0.tar.gz]
 [2023-07-07 02:56:01] INFO root fetch - main [MainThread]: End processing [im-openai]: success
 [2023-07-07 02:56:01] INFO root fetch - main [MainThread]: Store serial: [18793535]
+[2023-07-07 03:01:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18793535]
+[2023-07-07 03:01:10] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-07 03:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cryptographyComplements
+[2023-07-07 03:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cardda-python
+[2023-07-07 03:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pik-intercom
+[2023-07-07 03:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: composabl-ray-dev
+[2023-07-07 03:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seismic-rna
+[2023-07-07 03:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gen3-util-plugin-nvidia
+[2023-07-07 03:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sortedness
+[2023-07-07 03:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MambuPy
+[2023-07-07 03:01:10] INFO root fetch - processPackages [seismic-rna]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-07 03:01:10] INFO root fetch - processPackages [composabl-ray-dev]: New version: [0.2.3.dev3] Old Version: [0.2.3.dev26]
+[2023-07-07 03:01:10] INFO root fetch - processPackages [pik-intercom]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-07 03:01:10] WARNING root fetch - processPackages [cardda-python]: Skipping, unable to determine old version
+[2023-07-07 03:01:10] INFO root fetch - main [MainThread]: End processing [cardda-python] error
+[2023-07-07 03:01:10] INFO root fetch - processPackages [cryptographyComplements]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-07-07 03:01:10] INFO root fetch - processPackages [sortedness]: New version: [0.230706.2] Old Version: [0.230501.9]
+[2023-07-07 03:01:10] INFO root fetch - processPackages [MambuPy]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-07-07 03:01:10] WARNING root fetch - processPackages [gen3-util-plugin-nvidia]: Skipping, unable to determine old version
+[2023-07-07 03:01:10] INFO root fetch - main [MainThread]: End processing [gen3-util-plugin-nvidia] error
+[2023-07-07 03:01:10] INFO root fetch - processPackages [pik-intercom]: Downloading https://files.pythonhosted.org/packages/63/65/d409b0bb11d908b25f216a8c4cfa7f11c6c949aa7fb7479b1d12b248a4bb/pik_intercom-0.0.2.tar.gz
+[2023-07-07 03:01:10] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/36/27/200702113f5bb1cef479817b490096f4a6f25a5542459aa33f0827a32a7d/composabl_ray_dev-0.2.3.dev26-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-07-07 03:01:10] INFO root fetch - processPackages [seismic-rna]: Downloading https://files.pythonhosted.org/packages/3e/4f/90fcc1f6395220a7eb4dfdf59b68b1588b1ad86b54be86adc460e289d281/seismic-rna-0.1.1.tar.gz
+[2023-07-07 03:01:11] INFO root fetch - processPackages [sortedness]: Downloading https://files.pythonhosted.org/packages/78/fc/af48317a9f8d83b94e02591da8a59d1fd8b565cb3d39c433389bfc1a0cb4/sortedness-0.230501.9.tar.gz
+[2023-07-07 03:01:11] INFO root fetch - processPackages [MambuPy]: Downloading https://files.pythonhosted.org/packages/10/be/ed83b02c72c57597465b97df6b0c71b1a4b4e52a6ffe963ff0edf1409f0c/MambuPy-2.0.0b8.tar.gz
+[2023-07-07 03:01:11] INFO root fetch - processPackages [pik-intercom]: Downloading https://files.pythonhosted.org/packages/f6/bd/30637864cb1a2e583a457cbe6e343837a86919aae6ff9472a3c1d11c01cd/pik_intercom-0.0.3.tar.gz
+[2023-07-07 03:01:11] INFO root fetch - processPackages [pik-intercom]: executing diffoscope
+[2023-07-07 03:01:11] INFO root fetch - processPackages [pik-intercom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pik_intercom-0.0.2.tar.gz tmp/pik_intercom-0.0.3.tar.gz --markdown 20230707/p/pik-intercom/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-07 03:01:11] INFO root fetch - processPackages [seismic-rna]: Downloading https://files.pythonhosted.org/packages/f6/e1/e708212ced2a70ba7559b1f846748cac9998ceee9d845d2df2e857513b49/seismic-rna-0.1.2.tar.gz
+[2023-07-07 03:01:11] INFO root fetch - processPackages [seismic-rna]: executing diffoscope
+[2023-07-07 03:01:11] INFO root fetch - processPackages [seismic-rna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seismic-rna-0.1.1.tar.gz tmp/seismic-rna-0.1.2.tar.gz --markdown 20230707/s/seismic-rna/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-07 03:01:11] INFO root fetch - processPackages [sortedness]: Downloading https://files.pythonhosted.org/packages/24/12/6222a0f36a4ea58fda27f40cb62738d880c92e3427c2acbfcce484508168/sortedness-0.230706.2.tar.gz
+[2023-07-07 03:01:11] INFO root fetch - processPackages [MambuPy]: Downloading https://files.pythonhosted.org/packages/62/4b/170e3742038b58448c2733e8f206eb6f367edc67d01e8c721086ddb46e3b/MambuPy-2.0.0b9.tar.gz
+[2023-07-07 03:01:11] INFO root fetch - processPackages [cryptographyComplements]: Downloading https://files.pythonhosted.org/packages/53/1a/825a862e0126a8d11d879f3bea35b4f98b9d41120b8f6c694b25ebe9a5fd/cryptographyComplements-0.2.9.tar.gz
+[2023-07-07 03:01:11] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/ca/bd/f796fcac94ae965974dd39baa0d0f864c3763c28d8b4d36889dfa686f458/composabl_ray_dev-0.2.3.dev3-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-07-07 03:01:11] INFO root fetch - processPackages [sortedness]: executing diffoscope
+[2023-07-07 03:01:11] INFO root fetch - processPackages [sortedness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sortedness-0.230501.9.tar.gz tmp/sortedness-0.230706.2.tar.gz --markdown 20230707/s/sortedness/0.230501.9-0.230706.2/diff.md --exclude *.pyd
+[2023-07-07 03:01:11] INFO root fetch - processPackages [MambuPy]: executing diffoscope
+[2023-07-07 03:01:11] INFO root fetch - processPackages [MambuPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MambuPy-2.0.0b8.tar.gz tmp/MambuPy-2.0.0b9.tar.gz --markdown 20230707/M/MambuPy/2.0.0b8-2.0.0b9/diff.md --exclude *.pyd
+[2023-07-07 03:01:11] INFO root fetch - processPackages [composabl-ray-dev]: executing diffoscope
+[2023-07-07 03:01:11] INFO root fetch - processPackages [composabl-ray-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_ray_dev-0.2.3.dev26-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_ray_dev-0.2.3.dev3-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230707/c/composabl-ray-dev/0.2.3.dev26-0.2.3.dev3/diff.md --exclude *.pyd
+[2023-07-07 03:01:11] INFO root fetch - processPackages [cryptographyComplements]: Downloading https://files.pythonhosted.org/packages/a9/67/837eed1eeae7606072e18a3ed82afb58d53bc26ccddda928921e11ecbef2/cryptographyComplements-0.3.0.tar.gz
+[2023-07-07 03:01:12] INFO root fetch - processPackages [cryptographyComplements]: executing diffoscope
+[2023-07-07 03:01:12] INFO root fetch - processPackages [cryptographyComplements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptographyComplements-0.2.9.tar.gz tmp/cryptographyComplements-0.3.0.tar.gz --markdown 20230707/c/cryptographyComplements/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-07-07 03:01:12] INFO root fetch - processPackages [pik-intercom]: Remove: archive file [/home/abi/fetcher/tmp/pik_intercom-0.0.2.tar.gz]
+[2023-07-07 03:01:12] INFO root fetch - processPackages [pik-intercom]: Remove: archive file [/home/abi/fetcher/tmp/pik_intercom-0.0.3.tar.gz]
+[2023-07-07 03:01:12] INFO root fetch - main [MainThread]: End processing [pik-intercom]: success
+[2023-07-07 03:01:12] INFO root fetch - processPackages [seismic-rna]: Remove: archive file [/home/abi/fetcher/tmp/seismic-rna-0.1.1.tar.gz]
+[2023-07-07 03:01:12] INFO root fetch - processPackages [seismic-rna]: Remove: archive file [/home/abi/fetcher/tmp/seismic-rna-0.1.2.tar.gz]
+[2023-07-07 03:01:12] INFO root fetch - main [MainThread]: End processing [seismic-rna]: success
+[2023-07-07 03:01:12] INFO root fetch - processPackages [cryptographyComplements]: Remove: archive file [/home/abi/fetcher/tmp/cryptographyComplements-0.2.9.tar.gz]
+[2023-07-07 03:01:12] INFO root fetch - processPackages [cryptographyComplements]: Remove: archive file [/home/abi/fetcher/tmp/cryptographyComplements-0.3.0.tar.gz]
+[2023-07-07 03:01:12] INFO root fetch - main [MainThread]: End processing [cryptographyComplements]: success
+[2023-07-07 03:01:13] INFO root fetch - processPackages [MambuPy]: Remove: archive file [/home/abi/fetcher/tmp/MambuPy-2.0.0b8.tar.gz]
+[2023-07-07 03:01:13] INFO root fetch - processPackages [MambuPy]: Remove: archive file [/home/abi/fetcher/tmp/MambuPy-2.0.0b9.tar.gz]
+[2023-07-07 03:01:13] INFO root fetch - main [MainThread]: End processing [MambuPy]: success
+[2023-07-07 03:01:17] INFO root fetch - processPackages [sortedness]: Remove: archive file [/home/abi/fetcher/tmp/sortedness-0.230501.9.tar.gz]
+[2023-07-07 03:01:17] INFO root fetch - processPackages [sortedness]: Remove: archive file [/home/abi/fetcher/tmp/sortedness-0.230706.2.tar.gz]
+[2023-07-07 03:01:17] INFO root fetch - main [MainThread]: End processing [sortedness]: success
+[2023-07-07 03:01:35] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.2.3.dev26-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-07-07 03:01:35] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.2.3.dev3-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-07-07 03:01:35] INFO root fetch - main [MainThread]: End processing [composabl-ray-dev]: success
+[2023-07-07 03:01:35] INFO root fetch - main [MainThread]: Store serial: [18793573]
