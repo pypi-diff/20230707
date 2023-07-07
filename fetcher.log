@@ -17319,3 +17319,140 @@ EOFError: EOF read where object expected
 [2023-07-07 11:30:24] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
 [2023-07-07 11:30:24] INFO root fetch - main [MainThread]: End processing [docarray]: success
 [2023-07-07 11:30:24] INFO root fetch - main [MainThread]: Store serial: [18798261]
+[2023-07-07 11:35:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18798261]
+[2023-07-07 11:35:33] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-07 11:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codat-files
+[2023-07-07 11:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gsoup
+[2023-07-07 11:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: boinc-client
+[2023-07-07 11:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-openobserve
+[2023-07-07 11:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: android-sdk-supporter
+[2023-07-07 11:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: when
+[2023-07-07 11:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: partitura
+[2023-07-07 11:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: irene-pro
+[2023-07-07 11:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: OpenFisca-France
+[2023-07-07 11:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fyerstest
+[2023-07-07 11:35:33] INFO root fetch - processPackages [android-sdk-supporter]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-07 11:35:33] INFO root fetch - processPackages [irene-pro]: New version: [0.0.89] Old Version: [0.0.88]
+[2023-07-07 11:35:33] INFO root fetch - processPackages [codat-files]: New version: [0.8.4] Old Version: [0.5.1]
+[2023-07-07 11:35:33] INFO root fetch - processPackages [boinc-client]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-07-07 11:35:33] INFO root fetch - processPackages [gsoup]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 11:35:34] INFO root fetch - processPackages [when]: New version: [3.0.0] Old Version: [2.0.0]
+[2023-07-07 11:35:34] INFO root fetch - processPackages [python-openobserve]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-07 11:35:34] WARNING root fetch - processPackages [fyerstest]: Skipping, unable to determine old version
+[2023-07-07 11:35:34] INFO root fetch - processPackages [fyerstest]: Start processing: uptrain
+[2023-07-07 11:35:34] INFO root fetch - main [MainThread]: End processing [fyerstest] error
+[2023-07-07 11:35:34] INFO root fetch - processPackages [partitura]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-07 11:35:34] INFO root fetch - processPackages [OpenFisca-France]: New version: [99.0.1] Old Version: [99.0.0]
+[2023-07-07 11:35:34] INFO root fetch - processPackages [uptrain]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-07 11:35:34] INFO root fetch - processPackages [python-openobserve]: Downloading https://files.pythonhosted.org/packages/f8/cf/907201d9732d16ffb8f227dd37d4644410ced015dd0f185d65ca4f4f8c7f/python_openobserve-0.1.1.tar.gz
+[2023-07-07 11:35:34] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/70/8b/f7e6ae929e6bc09831757bdb5cdb964099c9af3419db607df1bdfebfe6fd/OpenFisca_France-99.0.0-py3-none-any.whl
+[2023-07-07 11:35:34] INFO root fetch - processPackages [android-sdk-supporter]: Downloading https://files.pythonhosted.org/packages/22/76/806cfc461b6494b168bc8304edcf9c8c2b8cfbf9b6af47508f9eb7913c63/android-sdk-supporter-0.0.5.tar.gz
+[2023-07-07 11:35:34] INFO root fetch - processPackages [uptrain]: Downloading https://files.pythonhosted.org/packages/01/f2/fa82d56a9ab42ad2f519805c0398b1578aa205deeb0ab8d2c3d60c4b40e6/uptrain-0.3.3.tar.gz
+[2023-07-07 11:35:34] INFO root fetch - processPackages [boinc-client]: Downloading https://files.pythonhosted.org/packages/e8/47/e142bc37b57637b9d2208eb3ee34e694227ecab5fcb7b43bf4ec3e7737f3/boinc_client-1.4.3.tar.gz
+[2023-07-07 11:35:34] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/fd/fc/e0f1df3c6460db5f1c07e520a4126030bb2120816ced60090826e49b2cec/irene_pro-0.0.88.tar.gz
+[2023-07-07 11:35:34] INFO root fetch - processPackages [codat-files]: Downloading https://files.pythonhosted.org/packages/b0/fe/a53b4b765043b4fe93829f81e707b8a4bb74754c9af05dff9090b876395a/codat-files-0.5.1.tar.gz
+[2023-07-07 11:35:34] INFO root fetch - processPackages [partitura]: Downloading https://files.pythonhosted.org/packages/fe/ff/ccb01190bbcee7c0411f9e048e9b2d7d87bac6b997eb7d9503999ef447d1/partitura-1.3.0.tar.gz
+[2023-07-07 11:35:34] INFO root fetch - processPackages [when]: Downloading https://files.pythonhosted.org/packages/15/86/5717b0a6f7ba41ab1bbfc268fb37e5fdffa3e5e81d7a53fbe7215ed17c72/when-2.0.0.tar.gz
+[2023-07-07 11:35:34] INFO root fetch - processPackages [gsoup]: Downloading https://files.pythonhosted.org/packages/fe/9b/153b9913a4b567dd9c8edbb5268c5f168d4c0e71be7650cc2e24097fe2ee/gsoup-0.0.8.tar.gz
+[2023-07-07 11:35:34] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/b5/c6/01bc5d57d2ec6bf602cdc2aacf3444fa5f25fbb7d9e9a5bdda07728b537d/OpenFisca_France-99.0.1-py3-none-any.whl
+[2023-07-07 11:35:34] INFO root fetch - processPackages [python-openobserve]: Downloading https://files.pythonhosted.org/packages/8f/be/d9c1d84dfd12476350eb210d0ec22fd08a44dcba6600473ac55f7c4dfe75/python_openobserve-0.1.2.tar.gz
+[2023-07-07 11:35:34] INFO root fetch - processPackages [android-sdk-supporter]: Downloading https://files.pythonhosted.org/packages/96/97/8863321bfe223b99079238fe73bf4c158a5b3e1a8c9012c94262cd0b0e8b/android-sdk-supporter-0.0.6.tar.gz
+[2023-07-07 11:35:34] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/ec/c1/b45273945a2b9524bb2df70f3d95ef9f1e92efdb4c74c174be3bc90c3100/irene_pro-0.0.89.tar.gz
+[2023-07-07 11:35:34] INFO root fetch - processPackages [uptrain]: Downloading https://files.pythonhosted.org/packages/36/43/88998427ede4278af25024d5a5d12a57dbe612d5dda5f524d5eee3e9ea66/uptrain-0.3.4.tar.gz
+[2023-07-07 11:35:34] INFO root fetch - processPackages [boinc-client]: Downloading https://files.pythonhosted.org/packages/2d/41/568dc370bfe940eeaf0d8a23c0f57d59c44c19b4d63df09a662daecee3d3/boinc_client-1.4.4.tar.gz
+[2023-07-07 11:35:34] INFO root fetch - processPackages [python-openobserve]: executing diffoscope
+[2023-07-07 11:35:34] INFO root fetch - processPackages [python-openobserve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_openobserve-0.1.1.tar.gz tmp/python_openobserve-0.1.2.tar.gz --markdown 20230707/p/python-openobserve/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-07 11:35:34] INFO root fetch - processPackages [codat-files]: Downloading https://files.pythonhosted.org/packages/f7/59/40db2426b2418665047a57166d68c373463f3fc2be5dc4b9b82f056e35e5/codat-files-0.8.4.tar.gz
+[2023-07-07 11:35:34] INFO root fetch - processPackages [when]: Downloading https://files.pythonhosted.org/packages/fb/20/66b3ad078d6b3814410bb023faae0ec99b3b7e71d026f1363fb95828c26a/when-3.0.0.tar.gz
+[2023-07-07 11:35:34] INFO root fetch - processPackages [OpenFisca-France]: executing diffoscope
+[2023-07-07 11:35:34] INFO root fetch - processPackages [OpenFisca-France]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip --markdown 20230707/O/OpenFisca-France/99.0.0-99.0.1/diff.md --exclude *.pyd
+[2023-07-07 11:35:35] INFO root fetch - processPackages [partitura]: Downloading https://files.pythonhosted.org/packages/c5/02/48969d43c83d153b0352d204512b7213900867fc6610abeca3f9409ca08e/partitura-1.3.1.tar.gz
+[2023-07-07 11:35:35] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-07-07 11:35:35] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.88.tar.gz tmp/irene_pro-0.0.89.tar.gz --markdown 20230707/i/irene-pro/0.0.88-0.0.89/diff.md --exclude *.pyd
+[2023-07-07 11:35:35] INFO root fetch - processPackages [android-sdk-supporter]: executing diffoscope
+[2023-07-07 11:35:35] INFO root fetch - processPackages [android-sdk-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/android-sdk-supporter-0.0.5.tar.gz tmp/android-sdk-supporter-0.0.6.tar.gz --markdown 20230707/a/android-sdk-supporter/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-07 11:35:35] INFO root fetch - processPackages [gsoup]: Downloading https://files.pythonhosted.org/packages/ab/33/9007a7b5227ef7142666eeff93d37cce2f5cc5d1032cbf8c1a1174af84f8/gsoup-0.0.9.tar.gz
+[2023-07-07 11:35:35] INFO root fetch - processPackages [boinc-client]: executing diffoscope
+[2023-07-07 11:35:35] INFO root fetch - processPackages [boinc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boinc_client-1.4.3.tar.gz tmp/boinc_client-1.4.4.tar.gz --markdown 20230707/b/boinc-client/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-07-07 11:35:35] INFO root fetch - processPackages [uptrain]: executing diffoscope
+[2023-07-07 11:35:35] INFO root fetch - processPackages [uptrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uptrain-0.3.3.tar.gz tmp/uptrain-0.3.4.tar.gz --markdown 20230707/u/uptrain/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-07 11:35:35] INFO root fetch - processPackages [when]: executing diffoscope
+[2023-07-07 11:35:35] INFO root fetch - processPackages [when]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/when-2.0.0.tar.gz tmp/when-3.0.0.tar.gz --markdown 20230707/w/when/2.0.0-3.0.0/diff.md --exclude *.pyd
+[2023-07-07 11:35:35] INFO root fetch - processPackages [codat-files]: executing diffoscope
+[2023-07-07 11:35:35] INFO root fetch - processPackages [codat-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-files-0.5.1.tar.gz tmp/codat-files-0.8.4.tar.gz --markdown 20230707/c/codat-files/0.5.1-0.8.4/diff.md --exclude *.pyd
+[2023-07-07 11:35:35] INFO root fetch - processPackages [gsoup]: executing diffoscope
+[2023-07-07 11:35:35] INFO root fetch - processPackages [gsoup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gsoup-0.0.8.tar.gz tmp/gsoup-0.0.9.tar.gz --markdown 20230707/g/gsoup/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 11:35:35] INFO root fetch - processPackages [partitura]: executing diffoscope
+[2023-07-07 11:35:35] INFO root fetch - processPackages [partitura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/partitura-1.3.0.tar.gz tmp/partitura-1.3.1.tar.gz --markdown 20230707/p/partitura/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-07 11:35:36] INFO root fetch - processPackages [python-openobserve]: Remove: archive file [/home/abi/fetcher/tmp/python_openobserve-0.1.1.tar.gz]
+[2023-07-07 11:35:36] INFO root fetch - processPackages [python-openobserve]: Remove: archive file [/home/abi/fetcher/tmp/python_openobserve-0.1.2.tar.gz]
+[2023-07-07 11:35:36] INFO root fetch - processPackages [python-openobserve]: Start processing: quarchpy
+[2023-07-07 11:35:36] INFO root fetch - main [MainThread]: End processing [python-openobserve]: success
+[2023-07-07 11:35:36] INFO root fetch - processPackages [quarchpy]: New version: [2.1.9.dev3] Old Version: [2.1.9.dev2]
+[2023-07-07 11:35:36] INFO root fetch - processPackages [android-sdk-supporter]: Remove: archive file [/home/abi/fetcher/tmp/android-sdk-supporter-0.0.5.tar.gz]
+[2023-07-07 11:35:36] INFO root fetch - processPackages [android-sdk-supporter]: Remove: archive file [/home/abi/fetcher/tmp/android-sdk-supporter-0.0.6.tar.gz]
+[2023-07-07 11:35:36] INFO root fetch - processPackages [android-sdk-supporter]: Start processing: pyframe-eval
+[2023-07-07 11:35:36] INFO root fetch - main [MainThread]: End processing [android-sdk-supporter]: success
+[2023-07-07 11:35:36] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.88.tar.gz]
+[2023-07-07 11:35:36] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.89.tar.gz]
+[2023-07-07 11:35:36] INFO root fetch - processPackages [irene-pro]: Start processing: lusid-notifications-sdk-preview
+[2023-07-07 11:35:36] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-07-07 11:35:36] INFO root fetch - processPackages [pyframe-eval]: New version: [0.0.3.2] Old Version: [0.0.3.1]
+[2023-07-07 11:35:36] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.775] Old Version: [0.1.774]
+[2023-07-07 11:35:36] INFO root fetch - processPackages [quarchpy]: Downloading https://files.pythonhosted.org/packages/4c/58/57c71932b71449bc466e74bd8478a30bedf723227a6aa33c2934896c2345/quarchpy-2.1.9.dev2-py2.py3-none-any.whl
+[2023-07-07 11:35:36] INFO root fetch - processPackages [pyframe-eval]: Downloading https://files.pythonhosted.org/packages/c7/1d/54206413947c4a343092c82f625934dd2b81c2e41221b6df3c02ec456fad/pyframe_eval-0.0.3.1.tar.gz
+[2023-07-07 11:35:36] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/f2/36/474745aa945161412347d51004bf9ecd6a350cbe8fd2cf86b1b127b713b6/lusid-notifications-sdk-preview-0.1.774.tar.gz
+[2023-07-07 11:35:36] INFO root fetch - processPackages [codat-files]: Remove: archive file [/home/abi/fetcher/tmp/codat-files-0.5.1.tar.gz]
+[2023-07-07 11:35:36] INFO root fetch - processPackages [codat-files]: Remove: archive file [/home/abi/fetcher/tmp/codat-files-0.8.4.tar.gz]
+[2023-07-07 11:35:36] INFO root fetch - processPackages [codat-files]: Start processing: azure-databricks-sdk-python
+[2023-07-07 11:35:36] INFO root fetch - main [MainThread]: End processing [codat-files]: success
+[2023-07-07 11:35:36] INFO root fetch - processPackages [boinc-client]: Remove: archive file [/home/abi/fetcher/tmp/boinc_client-1.4.3.tar.gz]
+[2023-07-07 11:35:36] INFO root fetch - processPackages [when]: Remove: archive file [/home/abi/fetcher/tmp/when-2.0.0.tar.gz]
+[2023-07-07 11:35:36] INFO root fetch - processPackages [boinc-client]: Remove: archive file [/home/abi/fetcher/tmp/boinc_client-1.4.4.tar.gz]
+[2023-07-07 11:35:36] INFO root fetch - processPackages [when]: Remove: archive file [/home/abi/fetcher/tmp/when-3.0.0.tar.gz]
+[2023-07-07 11:35:36] INFO root fetch - processPackages [boinc-client]: Start processing: sofar
+[2023-07-07 11:35:36] INFO root fetch - main [MainThread]: End processing [boinc-client]: success
+[2023-07-07 11:35:36] INFO root fetch - main [MainThread]: End processing [when]: success
+[2023-07-07 11:35:36] INFO root fetch - processPackages [gsoup]: Remove: archive file [/home/abi/fetcher/tmp/gsoup-0.0.8.tar.gz]
+[2023-07-07 11:35:36] INFO root fetch - processPackages [gsoup]: Remove: archive file [/home/abi/fetcher/tmp/gsoup-0.0.9.tar.gz]
+[2023-07-07 11:35:36] INFO root fetch - main [MainThread]: End processing [gsoup]: success
+[2023-07-07 11:35:37] INFO root fetch - processPackages [sofar]: New version: [1.0.0] Old Version: [0.3.1]
+[2023-07-07 11:35:37] INFO root fetch - processPackages [azure-databricks-sdk-python]: New version: [0.0.4.dev1] Old Version: [0.0.2]
+[2023-07-07 11:35:37] INFO root fetch - processPackages [pyframe-eval]: Downloading https://files.pythonhosted.org/packages/54/2d/187e9831ee78fa4b44e89e0315ffc4ba2632c45e827c09db00f121286865/pyframe_eval-0.0.3.2.tar.gz
+[2023-07-07 11:35:37] INFO root fetch - processPackages [azure-databricks-sdk-python]: Downloading https://files.pythonhosted.org/packages/47/ba/f61a48f952fe27117ab16405bab2959e3342fb071a57752399a7a269edba/azure-databricks-sdk-python-0.0.2.tar.gz
+[2023-07-07 11:35:37] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/3e/50/c84855a9b586ff6d23d5a4adf726d33626d501736ae50aa1540dc269492f/lusid-notifications-sdk-preview-0.1.775.tar.gz
+[2023-07-07 11:35:37] INFO root fetch - processPackages [sofar]: Downloading https://files.pythonhosted.org/packages/4b/3d/eb2860caf3cea54ec7678ae3409d80dc4164d91246d8d3329b5395b866aa/sofar-0.3.1.tar.gz
+[2023-07-07 11:35:37] WARNING root fetch - processPackages [quarchpy]: Skipping package: exceeds size limit 34469980>=10485760
+[2023-07-07 11:35:37] INFO root fetch - main [MainThread]: End processing [quarchpy] error
+[2023-07-07 11:35:37] INFO root fetch - processPackages [pyframe-eval]: executing diffoscope
+[2023-07-07 11:35:37] INFO root fetch - processPackages [pyframe-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyframe_eval-0.0.3.1.tar.gz tmp/pyframe_eval-0.0.3.2.tar.gz --markdown 20230707/p/pyframe-eval/0.0.3.1-0.0.3.2/diff.md --exclude *.pyd
+[2023-07-07 11:35:37] INFO root fetch - processPackages [uptrain]: Remove: archive file [/home/abi/fetcher/tmp/uptrain-0.3.3.tar.gz]
+[2023-07-07 11:35:37] INFO root fetch - processPackages [uptrain]: Remove: archive file [/home/abi/fetcher/tmp/uptrain-0.3.4.tar.gz]
+[2023-07-07 11:35:37] INFO root fetch - main [MainThread]: End processing [uptrain]: success
+[2023-07-07 11:35:37] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-07-07 11:35:37] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.774.tar.gz tmp/lusid-notifications-sdk-preview-0.1.775.tar.gz --markdown 20230707/l/lusid-notifications-sdk-preview/0.1.774-0.1.775/diff.md --exclude *.pyd
+[2023-07-07 11:35:37] INFO root fetch - processPackages [azure-databricks-sdk-python]: Downloading https://files.pythonhosted.org/packages/52/05/32f9080b8ad2ea4c8cc9431f7cae6892df59c98a3cdb4b3dba3fbc259e93/azure-databricks-sdk-python-0.0.4.dev1.tar.gz
+[2023-07-07 11:35:37] INFO root fetch - processPackages [sofar]: Downloading https://files.pythonhosted.org/packages/3c/98/36f5fce75f9652e2c6e467653cac43b9cbf8950fca9ac472580f802edd0e/sofar-1.0.0.tar.gz
+[2023-07-07 11:35:37] INFO root fetch - processPackages [azure-databricks-sdk-python]: executing diffoscope
+[2023-07-07 11:35:37] INFO root fetch - processPackages [azure-databricks-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-databricks-sdk-python-0.0.2.tar.gz tmp/azure-databricks-sdk-python-0.0.4.dev1.tar.gz --markdown 20230707/a/azure-databricks-sdk-python/0.0.2-0.0.4.dev1/diff.md --exclude *.pyd
+[2023-07-07 11:35:37] INFO root fetch - processPackages [partitura]: Remove: archive file [/home/abi/fetcher/tmp/partitura-1.3.0.tar.gz]
+[2023-07-07 11:35:37] INFO root fetch - processPackages [partitura]: Remove: archive file [/home/abi/fetcher/tmp/partitura-1.3.1.tar.gz]
+[2023-07-07 11:35:37] INFO root fetch - main [MainThread]: End processing [partitura]: success
+[2023-07-07 11:35:37] INFO root fetch - processPackages [sofar]: executing diffoscope
+[2023-07-07 11:35:37] INFO root fetch - processPackages [sofar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sofar-0.3.1.tar.gz tmp/sofar-1.0.0.tar.gz --markdown 20230707/s/sofar/0.3.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-07 11:35:38] INFO root fetch - processPackages [pyframe-eval]: Remove: archive file [/home/abi/fetcher/tmp/pyframe_eval-0.0.3.1.tar.gz]
+[2023-07-07 11:35:38] INFO root fetch - processPackages [pyframe-eval]: Remove: archive file [/home/abi/fetcher/tmp/pyframe_eval-0.0.3.2.tar.gz]
+[2023-07-07 11:35:38] INFO root fetch - main [MainThread]: End processing [pyframe-eval]: success
+[2023-07-07 11:35:38] INFO root fetch - processPackages [azure-databricks-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/azure-databricks-sdk-python-0.0.2.tar.gz]
+[2023-07-07 11:35:38] INFO root fetch - processPackages [azure-databricks-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/azure-databricks-sdk-python-0.0.4.dev1.tar.gz]
+[2023-07-07 11:35:38] INFO root fetch - main [MainThread]: End processing [azure-databricks-sdk-python]: success
+[2023-07-07 11:35:38] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.774.tar.gz]
+[2023-07-07 11:35:38] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.775.tar.gz]
+[2023-07-07 11:35:38] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-07-07 11:35:39] INFO root fetch - processPackages [sofar]: Remove: archive file [/home/abi/fetcher/tmp/sofar-0.3.1.tar.gz]
+[2023-07-07 11:35:39] INFO root fetch - processPackages [sofar]: Remove: archive file [/home/abi/fetcher/tmp/sofar-1.0.0.tar.gz]
+[2023-07-07 11:35:39] INFO root fetch - main [MainThread]: End processing [sofar]: success
+[2023-07-07 11:35:56] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip]
+[2023-07-07 11:35:56] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip]
+[2023-07-07 11:35:56] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
+[2023-07-07 11:35:56] INFO root fetch - main [MainThread]: Store serial: [18798340]
