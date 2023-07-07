@@ -10502,3 +10502,67 @@ EOFError: EOF read where object expected
 [2023-07-07 05:17:17] INFO root fetch - processPackages [eyes-soatra]: Remove: archive file [/home/abi/fetcher/tmp/eyes_soatra-0.0.30.tar.gz]
 [2023-07-07 05:17:17] INFO root fetch - main [MainThread]: End processing [eyes-soatra]: success
 [2023-07-07 05:17:17] INFO root fetch - main [MainThread]: Store serial: [18795480]
+[2023-07-07 05:22:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18795480]
+[2023-07-07 05:22:26] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-07 05:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tclab-sdk
+[2023-07-07 05:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: visualpython
+[2023-07-07 05:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coguard-cli
+[2023-07-07 05:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyterlab-visualpython
+[2023-07-07 05:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rafaelmicro-matter-tool
+[2023-07-07 05:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyscanasdk
+[2023-07-07 05:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: prismstudio
+[2023-07-07 05:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: GANDLF
+[2023-07-07 05:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hspylib-clitt
+[2023-07-07 05:22:26] INFO root fetch - processPackages [tclab-sdk]: New version: [1.2] Old Version: [1.1]
+[2023-07-07 05:22:26] WARNING root fetch - processPackages [rafaelmicro-matter-tool]: Skipping, unable to determine old version
+[2023-07-07 05:22:26] INFO root fetch - main [MainThread]: End processing [rafaelmicro-matter-tool] error
+[2023-07-07 05:22:26] INFO root fetch - processPackages [hspylib-clitt]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-07 05:22:26] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230706] Old Version: [0.0.17.dev20230705]
+[2023-07-07 05:22:26] INFO root fetch - processPackages [visualpython]: New version: [2.4.4] Old Version: [2.4.3]
+[2023-07-07 05:22:26] WARNING root fetch - processPackages [pyscanasdk]: Skipping, unable to determine old version
+[2023-07-07 05:22:26] INFO root fetch - main [MainThread]: End processing [pyscanasdk] error
+[2023-07-07 05:22:26] INFO root fetch - processPackages [tclab-sdk]: Downloading https://files.pythonhosted.org/packages/cb/0c/e29e3e4d0e05c1c4972661adc4140d2db5c296b0682274cd48e08c6d47ec/tclab-sdk-1.1.tar.gz
+[2023-07-07 05:22:26] INFO root fetch - processPackages [coguard-cli]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-07 05:22:26] INFO root fetch - processPackages [prismstudio]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-07-07 05:22:26] INFO root fetch - processPackages [hspylib-clitt]: Downloading https://files.pythonhosted.org/packages/a0/0f/42b890c8f02902edfff9f8ea73ea79d8acfea76c705b6966ff73e809437a/hspylib-clitt-0.9.8.tar.gz
+[2023-07-07 05:22:26] INFO root fetch - processPackages [jupyterlab-visualpython]: New version: [2.4.4] Old Version: [2.4.3]
+[2023-07-07 05:22:26] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/fb/91/756cdc84605c115d6b85dd80db98b502dac8aa1507febdc3bf6508837e06/GANDLF-0.0.17.dev20230705.tar.gz
+[2023-07-07 05:22:26] INFO root fetch - processPackages [visualpython]: Downloading https://files.pythonhosted.org/packages/29/76/4498a416e90cd6169e5d7515e149a1ab72f8204ece78a2f5d3e066725d68/visualpython-2.4.3.tar.gz
+[2023-07-07 05:22:26] WARNING root fetch - processPackages [visualpython]: Skipping package: exceeds size limit 14922622>=10485760
+[2023-07-07 05:22:26] INFO root fetch - main [MainThread]: End processing [visualpython] error
+[2023-07-07 05:22:26] INFO root fetch - processPackages [coguard-cli]: Downloading https://files.pythonhosted.org/packages/b8/73/d9cba4d8c7d0f8c97547575fe2a6b760566e5cc0331c1e7ca04b0f494d8a/coguard-cli-0.2.8.tar.gz
+[2023-07-07 05:22:26] INFO root fetch - processPackages [prismstudio]: Downloading https://files.pythonhosted.org/packages/66/24/a0139da7b2f00aaa7ce04d879706dfaf0ae837c837092d054853879c511d/prismstudio-1.1.5.tar.gz
+[2023-07-07 05:22:26] INFO root fetch - processPackages [hspylib-clitt]: Downloading https://files.pythonhosted.org/packages/47/f9/72c8e44dc280a8f3542b8890670b05e5c03581d2712648f572e4b0717836/hspylib-clitt-0.9.9.tar.gz
+[2023-07-07 05:22:26] INFO root fetch - processPackages [jupyterlab-visualpython]: Downloading https://files.pythonhosted.org/packages/86/71/f18e18d631f505a0b55b402fcef69b5fc97aab4e2040a0ea61cc2efe13b8/jupyterlab_visualpython-2.4.3.tar.gz
+[2023-07-07 05:22:27] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/6c/2e/348ecfac4b02bb7ebf3745fa5b372cfbadb151ab0c547dbc352125bae1a6/GANDLF-0.0.17.dev20230706.tar.gz
+[2023-07-07 05:22:27] INFO root fetch - processPackages [tclab-sdk]: Downloading https://files.pythonhosted.org/packages/46/02/881fddf00082c1c932ae4d96355865d2c034626f5248c3f8f86383f7b0fd/tclab-sdk-1.2.tar.gz
+[2023-07-07 05:22:27] WARNING root fetch - processPackages [jupyterlab-visualpython]: Skipping package: exceeds size limit 19132367>=10485760
+[2023-07-07 05:22:27] INFO root fetch - main [MainThread]: End processing [jupyterlab-visualpython] error
+[2023-07-07 05:22:27] INFO root fetch - processPackages [hspylib-clitt]: executing diffoscope
+[2023-07-07 05:22:27] INFO root fetch - processPackages [hspylib-clitt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-clitt-0.9.8.tar.gz tmp/hspylib-clitt-0.9.9.tar.gz --markdown 20230707/h/hspylib-clitt/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-07 05:22:27] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-07-07 05:22:27] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230705.tar.gz tmp/GANDLF-0.0.17.dev20230706.tar.gz --markdown 20230707/G/GANDLF/0.0.17.dev20230705-0.0.17.dev20230706/diff.md --exclude *.pyd
+[2023-07-07 05:22:27] INFO root fetch - processPackages [tclab-sdk]: executing diffoscope
+[2023-07-07 05:22:27] INFO root fetch - processPackages [tclab-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tclab-sdk-1.1.tar.gz tmp/tclab-sdk-1.2.tar.gz --markdown 20230707/t/tclab-sdk/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-07 05:22:27] INFO root fetch - processPackages [coguard-cli]: Downloading https://files.pythonhosted.org/packages/f1/d5/774d6c77526935394608b2fcb80ea9eabb52f7db94ff28edebe5ba23721e/coguard-cli-0.2.9.tar.gz
+[2023-07-07 05:22:27] INFO root fetch - processPackages [prismstudio]: Downloading https://files.pythonhosted.org/packages/88/ea/4a72a7e73a241e9ecd7237e3c1b6b62784a5462377836a79bcb260041e49/prismstudio-1.1.6.tar.gz
+[2023-07-07 05:22:27] INFO root fetch - processPackages [coguard-cli]: executing diffoscope
+[2023-07-07 05:22:27] INFO root fetch - processPackages [coguard-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coguard-cli-0.2.8.tar.gz tmp/coguard-cli-0.2.9.tar.gz --markdown 20230707/c/coguard-cli/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-07 05:22:27] INFO root fetch - processPackages [prismstudio]: executing diffoscope
+[2023-07-07 05:22:27] INFO root fetch - processPackages [prismstudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prismstudio-1.1.5.tar.gz tmp/prismstudio-1.1.6.tar.gz --markdown 20230707/p/prismstudio/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-07-07 05:22:28] INFO root fetch - processPackages [tclab-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tclab-sdk-1.1.tar.gz]
+[2023-07-07 05:22:28] INFO root fetch - processPackages [tclab-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tclab-sdk-1.2.tar.gz]
+[2023-07-07 05:22:28] INFO root fetch - main [MainThread]: End processing [tclab-sdk]: success
+[2023-07-07 05:22:28] INFO root fetch - processPackages [hspylib-clitt]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-clitt-0.9.8.tar.gz]
+[2023-07-07 05:22:28] INFO root fetch - processPackages [hspylib-clitt]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-clitt-0.9.9.tar.gz]
+[2023-07-07 05:22:28] INFO root fetch - main [MainThread]: End processing [hspylib-clitt]: success
+[2023-07-07 05:22:28] INFO root fetch - processPackages [prismstudio]: Remove: archive file [/home/abi/fetcher/tmp/prismstudio-1.1.5.tar.gz]
+[2023-07-07 05:22:28] INFO root fetch - processPackages [prismstudio]: Remove: archive file [/home/abi/fetcher/tmp/prismstudio-1.1.6.tar.gz]
+[2023-07-07 05:22:28] INFO root fetch - main [MainThread]: End processing [prismstudio]: success
+[2023-07-07 05:22:28] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230705.tar.gz]
+[2023-07-07 05:22:28] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230706.tar.gz]
+[2023-07-07 05:22:28] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-07-07 05:22:28] INFO root fetch - processPackages [coguard-cli]: Remove: archive file [/home/abi/fetcher/tmp/coguard-cli-0.2.8.tar.gz]
+[2023-07-07 05:22:28] INFO root fetch - processPackages [coguard-cli]: Remove: archive file [/home/abi/fetcher/tmp/coguard-cli-0.2.9.tar.gz]
+[2023-07-07 05:22:28] INFO root fetch - main [MainThread]: End processing [coguard-cli]: success
+[2023-07-07 05:22:28] INFO root fetch - main [MainThread]: Store serial: [18795511]
