@@ -18707,3 +18707,132 @@ AssertionError: tmp/tester-package-sdk-2.0.9.tar.gz does not exist
 [2023-07-07 12:18:32] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230707101250.tar.gz]
 [2023-07-07 12:18:32] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-07-07 12:18:32] INFO root fetch - main [MainThread]: Store serial: [18798876]
+[2023-07-07 12:23:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18798876]
+[2023-07-07 12:23:41] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-07 12:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vulp
+[2023-07-07 12:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pantherdb
+[2023-07-07 12:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mantik
+[2023-07-07 12:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-openobserve
+[2023-07-07 12:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onnx2torch
+[2023-07-07 12:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lexikos
+[2023-07-07 12:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sunpeek
+[2023-07-07 12:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: libcove
+[2023-07-07 12:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: exasol-script-languages-container-ci
+[2023-07-07 12:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: py-book-util
+[2023-07-07 12:23:42] INFO root fetch - processPackages [sunpeek]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-07 12:23:42] INFO root fetch - processPackages [python-openobserve]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-07 12:23:42] INFO root fetch - processPackages [vulp]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-07 12:23:42] INFO root fetch - processPackages [pantherdb]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-07-07 12:23:42] INFO root fetch - processPackages [onnx2torch]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-07 12:23:42] INFO root fetch - processPackages [libcove]: New version: [0.31.0] Old Version: [0.30.0]
+[2023-07-07 12:23:42] INFO root fetch - processPackages [exasol-script-languages-container-ci]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-07 12:23:42] INFO root fetch - processPackages [mantik]: New version: [0.3.1] Old Version: [0.2.0]
+[2023-07-07 12:23:42] INFO root fetch - processPackages [lexikos]: New version: [0.0.1rc6] Old Version: [0.0.1rc5]
+[2023-07-07 12:23:42] INFO root fetch - processPackages [py-book-util]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-07 12:23:42] INFO root fetch - processPackages [sunpeek]: Downloading https://files.pythonhosted.org/packages/7d/87/fc2d2721ed03813871d259741139dcbcb0f1a5a7686743ee6d533d5af952/sunpeek-0.2.8-py3-none-any.whl
+[2023-07-07 12:23:42] INFO root fetch - processPackages [python-openobserve]: Downloading https://files.pythonhosted.org/packages/8f/be/d9c1d84dfd12476350eb210d0ec22fd08a44dcba6600473ac55f7c4dfe75/python_openobserve-0.1.2.tar.gz
+[2023-07-07 12:23:42] INFO root fetch - processPackages [libcove]: Downloading https://files.pythonhosted.org/packages/c9/94/2dd774899f65492ee5e64c900d0c0d2e25163bc71119a692062d6699e5d8/libcove-0.30.0.tar.gz
+[2023-07-07 12:23:42] INFO root fetch - processPackages [exasol-script-languages-container-ci]: Downloading https://files.pythonhosted.org/packages/ef/46/1c95cf27e3c3cbecf0e52bf0628a942fee8a583528f899caf0ead0601e3b/exasol_script_languages_container_ci-1.3.1.tar.gz
+[2023-07-07 12:23:42] INFO root fetch - processPackages [pantherdb]: Downloading https://files.pythonhosted.org/packages/43/c1/3bed38186e3682d84ada23921e60c780215e79afbc09ae318a9140d908e1/pantherdb-1.2.5.tar.gz
+[2023-07-07 12:23:42] INFO root fetch - processPackages [onnx2torch]: Downloading https://files.pythonhosted.org/packages/86/1c/b8a635cce048476ea91757c54f7ec257d1d42af493ec7986edafdb5b262b/onnx2torch-1.5.8.tar.gz
+[2023-07-07 12:23:42] INFO root fetch - processPackages [mantik]: Downloading https://files.pythonhosted.org/packages/1b/ae/c9b5dc94aab7d19c891f8ec7cc46a220c0d645e726f2dfbd2601ca9ca42b/mantik-0.2.0.tar.gz
+[2023-07-07 12:23:42] INFO root fetch - processPackages [py-book-util]: Downloading https://files.pythonhosted.org/packages/8e/b0/9504155f9895b66bac6ce6ec5f9f521cfcc070673417ec7d583fb50bef75/py_book_util-0.1.8.tar.gz
+[2023-07-07 12:23:42] INFO root fetch - processPackages [vulp]: Downloading https://files.pythonhosted.org/packages/64/70/bd3a9eac5f2cec6f653ed22ad40435d510335fcb6fdc8df7d96d2e331e6a/vulp-1.2.0.tar.gz
+[2023-07-07 12:23:42] INFO root fetch - processPackages [lexikos]: Downloading https://files.pythonhosted.org/packages/e7/3f/ac8cbcb35a58487210d94d3c1d16dd21618e04dcd017193653f063c64ab4/lexikos-0.0.1rc5.tar.gz
+[2023-07-07 12:23:42] INFO root fetch - processPackages [sunpeek]: Downloading https://files.pythonhosted.org/packages/a5/83/92e0e84a50850a618aae14d33638554bcbb3ccc7fc4a8bad2c03cfa0ed20/sunpeek-0.2.9-py3-none-any.whl
+[2023-07-07 12:23:43] INFO root fetch - processPackages [python-openobserve]: Downloading https://files.pythonhosted.org/packages/9b/68/10d605cbae20b044e5d2e34d8c748a5f7c308e711161928ff12b05e25505/python_openobserve-0.1.3.tar.gz
+[2023-07-07 12:23:43] INFO root fetch - processPackages [exasol-script-languages-container-ci]: Downloading https://files.pythonhosted.org/packages/ac/bb/fbaa7ed7181125172d4b91b46c4c4040b5fd2bc7f29e0b3e262435e06257/exasol_script_languages_container_ci-1.3.2.tar.gz
+[2023-07-07 12:23:43] INFO root fetch - processPackages [libcove]: Downloading https://files.pythonhosted.org/packages/16/6e/426bb0f1e212084a8e8135825e67ff8e04f0616ab6c9f705a992d441025a/libcove-0.31.0.tar.gz
+[2023-07-07 12:23:43] INFO root fetch - processPackages [sunpeek]: executing diffoscope
+[2023-07-07 12:23:43] INFO root fetch - processPackages [sunpeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunpeek-0.2.8-py3-none-any.whl.zip tmp/sunpeek-0.2.9-py3-none-any.whl.zip --markdown 20230707/s/sunpeek/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-07 12:23:43] INFO root fetch - processPackages [pantherdb]: Downloading https://files.pythonhosted.org/packages/86/55/5e35d81dd4d3ee4bce70672c00d2b1c5fc851f4d0ef85ece28cd2ed29575/pantherdb-1.2.6.tar.gz
+[2023-07-07 12:23:43] INFO root fetch - processPackages [onnx2torch]: Downloading https://files.pythonhosted.org/packages/f2/bb/3ea0517a2f25d3ac8c4874f365f3981880a5aaad9f7807fb90c3c4e1bfed/onnx2torch-1.5.9.tar.gz
+[2023-07-07 12:23:43] INFO root fetch - processPackages [python-openobserve]: executing diffoscope
+[2023-07-07 12:23:43] INFO root fetch - processPackages [python-openobserve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_openobserve-0.1.2.tar.gz tmp/python_openobserve-0.1.3.tar.gz --markdown 20230707/p/python-openobserve/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-07 12:23:43] INFO root fetch - processPackages [vulp]: Downloading https://files.pythonhosted.org/packages/f2/55/109ba7cf7320d870846412e0e5d287d109e3d492fb6ab3ecf312a4424b74/vulp-1.2.1.tar.gz
+[2023-07-07 12:23:43] INFO root fetch - processPackages [exasol-script-languages-container-ci]: executing diffoscope
+[2023-07-07 12:23:43] INFO root fetch - processPackages [exasol-script-languages-container-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exasol_script_languages_container_ci-1.3.1.tar.gz tmp/exasol_script_languages_container_ci-1.3.2.tar.gz --markdown 20230707/e/exasol-script-languages-container-ci/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-07 12:23:43] INFO root fetch - processPackages [mantik]: Downloading https://files.pythonhosted.org/packages/00/65/a059412dbbc299090c56757def77d7fdd099621deb3a791a233f9dda8b4c/mantik-0.3.1.tar.gz
+[2023-07-07 12:23:43] INFO root fetch - processPackages [libcove]: executing diffoscope
+[2023-07-07 12:23:43] INFO root fetch - processPackages [libcove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcove-0.30.0.tar.gz tmp/libcove-0.31.0.tar.gz --markdown 20230707/l/libcove/0.30.0-0.31.0/diff.md --exclude *.pyd
+[2023-07-07 12:23:43] INFO root fetch - processPackages [py-book-util]: Downloading https://files.pythonhosted.org/packages/7a/24/f9aa1a02020217de693a235eede5ff9b666a960b8f5f4d7f052c6527bcaf/py_book_util-0.1.9.tar.gz
+[2023-07-07 12:23:43] INFO root fetch - processPackages [pantherdb]: executing diffoscope
+[2023-07-07 12:23:43] INFO root fetch - processPackages [pantherdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pantherdb-1.2.5.tar.gz tmp/pantherdb-1.2.6.tar.gz --markdown 20230707/p/pantherdb/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-07-07 12:23:43] INFO root fetch - processPackages [onnx2torch]: executing diffoscope
+[2023-07-07 12:23:43] INFO root fetch - processPackages [onnx2torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2torch-1.5.8.tar.gz tmp/onnx2torch-1.5.9.tar.gz --markdown 20230707/o/onnx2torch/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-07 12:23:43] INFO root fetch - processPackages [vulp]: executing diffoscope
+[2023-07-07 12:23:43] INFO root fetch - processPackages [vulp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vulp-1.2.0.tar.gz tmp/vulp-1.2.1.tar.gz --markdown 20230707/v/vulp/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-07 12:23:43] INFO root fetch - processPackages [mantik]: executing diffoscope
+[2023-07-07 12:23:43] INFO root fetch - processPackages [py-book-util]: executing diffoscope
+[2023-07-07 12:23:43] INFO root fetch - processPackages [mantik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mantik-0.2.0.tar.gz tmp/mantik-0.3.1.tar.gz --markdown 20230707/m/mantik/0.2.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-07 12:23:43] INFO root fetch - processPackages [py-book-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_book_util-0.1.8.tar.gz tmp/py_book_util-0.1.9.tar.gz --markdown 20230707/p/py-book-util/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-07 12:23:44] INFO root fetch - processPackages [lexikos]: Downloading https://files.pythonhosted.org/packages/f3/29/8c04fc35d09155d7d69f0ca0bbf34b79bc2e775637419d524674f1e06f81/lexikos-0.0.1rc6.tar.gz
+[2023-07-07 12:23:44] INFO root fetch - processPackages [python-openobserve]: Remove: archive file [/home/abi/fetcher/tmp/python_openobserve-0.1.2.tar.gz]
+[2023-07-07 12:23:44] INFO root fetch - processPackages [python-openobserve]: Remove: archive file [/home/abi/fetcher/tmp/python_openobserve-0.1.3.tar.gz]
+[2023-07-07 12:23:44] INFO root fetch - processPackages [python-openobserve]: Start processing: genetic-algo
+[2023-07-07 12:23:44] INFO root fetch - main [MainThread]: End processing [python-openobserve]: success
+[2023-07-07 12:23:44] INFO root fetch - processPackages [genetic-algo]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-07-07 12:23:44] INFO root fetch - processPackages [libcove]: Remove: archive file [/home/abi/fetcher/tmp/libcove-0.30.0.tar.gz]
+[2023-07-07 12:23:44] INFO root fetch - processPackages [libcove]: Remove: archive file [/home/abi/fetcher/tmp/libcove-0.31.0.tar.gz]
+[2023-07-07 12:23:44] INFO root fetch - processPackages [libcove]: Start processing: cval-lib
+[2023-07-07 12:23:44] INFO root fetch - main [MainThread]: End processing [libcove]: success
+[2023-07-07 12:23:44] INFO root fetch - processPackages [exasol-script-languages-container-ci]: Remove: archive file [/home/abi/fetcher/tmp/exasol_script_languages_container_ci-1.3.1.tar.gz]
+[2023-07-07 12:23:44] INFO root fetch - processPackages [exasol-script-languages-container-ci]: Remove: archive file [/home/abi/fetcher/tmp/exasol_script_languages_container_ci-1.3.2.tar.gz]
+[2023-07-07 12:23:44] INFO root fetch - processPackages [exasol-script-languages-container-ci]: Start processing: dbt-graph-builder
+[2023-07-07 12:23:44] INFO root fetch - main [MainThread]: End processing [exasol-script-languages-container-ci]: success
+[2023-07-07 12:23:44] INFO root fetch - processPackages [genetic-algo]: Downloading https://files.pythonhosted.org/packages/14/cb/41bdf7e2138644e5a37d13ecbdf90b714f9e53ade238bee78d8bb315a2b6/genetic-algo-0.0.5.tar.gz
+[2023-07-07 12:23:44] INFO root fetch - processPackages [cval-lib]: New version: [0.0.2.7] Old Version: [0.0.2.6]
+[2023-07-07 12:23:44] INFO root fetch - processPackages [sunpeek]: Remove: archive file [/home/abi/fetcher/tmp/sunpeek-0.2.8-py3-none-any.whl.zip]
+[2023-07-07 12:23:44] INFO root fetch - processPackages [sunpeek]: Remove: archive file [/home/abi/fetcher/tmp/sunpeek-0.2.9-py3-none-any.whl.zip]
+[2023-07-07 12:23:44] INFO root fetch - processPackages [sunpeek]: Start processing: lntopo
+[2023-07-07 12:23:44] INFO root fetch - main [MainThread]: End processing [sunpeek]: success
+[2023-07-07 12:23:44] INFO root fetch - processPackages [dbt-graph-builder]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-07-07 12:23:44] INFO root fetch - processPackages [pantherdb]: Remove: archive file [/home/abi/fetcher/tmp/pantherdb-1.2.5.tar.gz]
+[2023-07-07 12:23:44] INFO root fetch - processPackages [pantherdb]: Remove: archive file [/home/abi/fetcher/tmp/pantherdb-1.2.6.tar.gz]
+[2023-07-07 12:23:44] INFO root fetch - main [MainThread]: End processing [pantherdb]: success
+[2023-07-07 12:23:44] INFO root fetch - processPackages [cval-lib]: Downloading https://files.pythonhosted.org/packages/f0/4a/3d74d4512203ba87f6e8bd32adeae6c564b3624b351252aa4a48f117a35a/cval-lib-0.0.2.6.tar.gz
+[2023-07-07 12:23:44] INFO root fetch - processPackages [py-book-util]: Remove: archive file [/home/abi/fetcher/tmp/py_book_util-0.1.8.tar.gz]
+[2023-07-07 12:23:44] INFO root fetch - processPackages [py-book-util]: Remove: archive file [/home/abi/fetcher/tmp/py_book_util-0.1.9.tar.gz]
+[2023-07-07 12:23:44] INFO root fetch - main [MainThread]: End processing [py-book-util]: success
+[2023-07-07 12:23:44] INFO root fetch - processPackages [lntopo]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-07 12:23:44] INFO root fetch - processPackages [vulp]: Remove: archive file [/home/abi/fetcher/tmp/vulp-1.2.0.tar.gz]
+[2023-07-07 12:23:44] INFO root fetch - processPackages [vulp]: Remove: archive file [/home/abi/fetcher/tmp/vulp-1.2.1.tar.gz]
+[2023-07-07 12:23:44] INFO root fetch - main [MainThread]: End processing [vulp]: success
+[2023-07-07 12:23:45] INFO root fetch - processPackages [genetic-algo]: Downloading https://files.pythonhosted.org/packages/a9/df/2392dc146d63909379ae81127e9ab7799966c951f54ebbe26fc129c93c69/genetic-algo-0.1.0.tar.gz
+[2023-07-07 12:23:45] INFO root fetch - processPackages [dbt-graph-builder]: Downloading https://files.pythonhosted.org/packages/5a/a6/5e6fecee45502395e9f3d68f7d6de8019e6a1d0ee084623bfe4e8fe8912a/dbt-graph-builder-0.4.1.tar.gz
+[2023-07-07 12:23:45] INFO root fetch - processPackages [lntopo]: Downloading https://files.pythonhosted.org/packages/5a/f0/4538a02053d94f7e1bd0f5bc6e36c9559920e04454d71ab5541c2b8a5d11/lntopo-0.1.1.tar.gz
+[2023-07-07 12:23:45] INFO root fetch - processPackages [cval-lib]: Downloading https://files.pythonhosted.org/packages/41/61/3480975c603312d7482362edf84227b1178769b667b416e00dca7241e8b1/cval-lib-0.0.2.7.tar.gz
+[2023-07-07 12:23:45] INFO root fetch - processPackages [onnx2torch]: Remove: archive file [/home/abi/fetcher/tmp/onnx2torch-1.5.8.tar.gz]
+[2023-07-07 12:23:45] INFO root fetch - processPackages [onnx2torch]: Remove: archive file [/home/abi/fetcher/tmp/onnx2torch-1.5.9.tar.gz]
+[2023-07-07 12:23:45] INFO root fetch - main [MainThread]: End processing [onnx2torch]: success
+[2023-07-07 12:23:45] INFO root fetch - processPackages [genetic-algo]: executing diffoscope
+[2023-07-07 12:23:45] INFO root fetch - processPackages [genetic-algo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genetic-algo-0.0.5.tar.gz tmp/genetic-algo-0.1.0.tar.gz --markdown 20230707/g/genetic-algo/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-07-07 12:23:45] INFO root fetch - processPackages [lexikos]: executing diffoscope
+[2023-07-07 12:23:45] INFO root fetch - processPackages [lexikos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lexikos-0.0.1rc5.tar.gz tmp/lexikos-0.0.1rc6.tar.gz --markdown 20230707/l/lexikos/0.0.1rc5-0.0.1rc6/diff.md --exclude *.pyd
+[2023-07-07 12:23:45] INFO root fetch - processPackages [dbt-graph-builder]: Downloading https://files.pythonhosted.org/packages/3b/20/d0e7858ed222346c2958710dc79ca164c7dbb682ecaa3f6879501e9f4d59/dbt-graph-builder-0.5.0.tar.gz
+[2023-07-07 12:23:45] INFO root fetch - processPackages [cval-lib]: executing diffoscope
+[2023-07-07 12:23:45] INFO root fetch - processPackages [cval-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cval-lib-0.0.2.6.tar.gz tmp/cval-lib-0.0.2.7.tar.gz --markdown 20230707/c/cval-lib/0.0.2.6-0.0.2.7/diff.md --exclude *.pyd
+[2023-07-07 12:23:45] INFO root fetch - processPackages [mantik]: Remove: archive file [/home/abi/fetcher/tmp/mantik-0.2.0.tar.gz]
+[2023-07-07 12:23:45] INFO root fetch - processPackages [mantik]: Remove: archive file [/home/abi/fetcher/tmp/mantik-0.3.1.tar.gz]
+[2023-07-07 12:23:45] INFO root fetch - main [MainThread]: End processing [mantik]: success
+[2023-07-07 12:23:45] INFO root fetch - processPackages [lntopo]: Downloading https://files.pythonhosted.org/packages/18/a2/eeba8079c5f405556c4f2544ea51268b7d9039e77dc0b7b0771d68ff9228/lntopo-0.1.2.tar.gz
+[2023-07-07 12:23:45] INFO root fetch - processPackages [dbt-graph-builder]: executing diffoscope
+[2023-07-07 12:23:45] INFO root fetch - processPackages [dbt-graph-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-graph-builder-0.4.1.tar.gz tmp/dbt-graph-builder-0.5.0.tar.gz --markdown 20230707/d/dbt-graph-builder/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-07-07 12:23:45] INFO root fetch - processPackages [lntopo]: executing diffoscope
+[2023-07-07 12:23:45] INFO root fetch - processPackages [lntopo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lntopo-0.1.1.tar.gz tmp/lntopo-0.1.2.tar.gz --markdown 20230707/l/lntopo/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-07 12:23:46] INFO root fetch - processPackages [genetic-algo]: Remove: archive file [/home/abi/fetcher/tmp/genetic-algo-0.0.5.tar.gz]
+[2023-07-07 12:23:46] INFO root fetch - processPackages [genetic-algo]: Remove: archive file [/home/abi/fetcher/tmp/genetic-algo-0.1.0.tar.gz]
+[2023-07-07 12:23:46] INFO root fetch - main [MainThread]: End processing [genetic-algo]: success
+[2023-07-07 12:23:46] INFO root fetch - processPackages [cval-lib]: Remove: archive file [/home/abi/fetcher/tmp/cval-lib-0.0.2.6.tar.gz]
+[2023-07-07 12:23:46] INFO root fetch - processPackages [cval-lib]: Remove: archive file [/home/abi/fetcher/tmp/cval-lib-0.0.2.7.tar.gz]
+[2023-07-07 12:23:46] INFO root fetch - main [MainThread]: End processing [cval-lib]: success
+[2023-07-07 12:23:46] INFO root fetch - processPackages [lntopo]: Remove: archive file [/home/abi/fetcher/tmp/lntopo-0.1.1.tar.gz]
+[2023-07-07 12:23:46] INFO root fetch - processPackages [lntopo]: Remove: archive file [/home/abi/fetcher/tmp/lntopo-0.1.2.tar.gz]
+[2023-07-07 12:23:46] INFO root fetch - main [MainThread]: End processing [lntopo]: success
+[2023-07-07 12:23:46] INFO root fetch - processPackages [dbt-graph-builder]: Remove: archive file [/home/abi/fetcher/tmp/dbt-graph-builder-0.4.1.tar.gz]
+[2023-07-07 12:23:46] INFO root fetch - processPackages [dbt-graph-builder]: Remove: archive file [/home/abi/fetcher/tmp/dbt-graph-builder-0.5.0.tar.gz]
+[2023-07-07 12:23:46] INFO root fetch - main [MainThread]: End processing [dbt-graph-builder]: success
+[2023-07-07 12:23:47] INFO root fetch - processPackages [lexikos]: Remove: archive file [/home/abi/fetcher/tmp/lexikos-0.0.1rc5.tar.gz]
+[2023-07-07 12:23:47] INFO root fetch - processPackages [lexikos]: Remove: archive file [/home/abi/fetcher/tmp/lexikos-0.0.1rc6.tar.gz]
+[2023-07-07 12:23:47] INFO root fetch - main [MainThread]: End processing [lexikos]: success
+[2023-07-07 12:23:47] INFO root fetch - main [MainThread]: Store serial: [18798921]
