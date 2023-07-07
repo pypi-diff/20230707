@@ -10234,3 +10234,54 @@ EOFError: EOF read where object expected
 [2023-07-07 05:01:36] INFO root fetch - processPackages [odoo-addon-connector]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_connector-16.0.1.0.0.2-py3-none-any.whl.zip]
 [2023-07-07 05:01:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-connector]: success
 [2023-07-07 05:01:36] INFO root fetch - main [MainThread]: Store serial: [18795366]
+[2023-07-07 05:06:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18795366]
+[2023-07-07 05:06:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-07 05:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: slice-to-py-dist
+[2023-07-07 05:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlglot
+[2023-07-07 05:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: huckle
+[2023-07-07 05:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hcli-core
+[2023-07-07 05:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-financial-risk
+[2023-07-07 05:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xxx-chat
+[2023-07-07 05:06:45] WARNING root fetch - processPackages [slice-to-py-dist]: Skipping, unable to determine old version
+[2023-07-07 05:06:45] INFO root fetch - main [MainThread]: End processing [slice-to-py-dist] error
+[2023-07-07 05:06:45] INFO root fetch - processPackages [xxx-chat]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-07 05:06:45] INFO root fetch - processPackages [odoo-addon-account-financial-risk]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-07-07 05:06:45] INFO root fetch - processPackages [huckle]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-07-07 05:06:45] INFO root fetch - processPackages [hcli-core]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-07 05:06:45] INFO root fetch - processPackages [sqlglot]: New version: [9.0.6] Old Version: [9.0.5]
+[2023-07-07 05:06:45] INFO root fetch - processPackages [xxx-chat]: Downloading https://files.pythonhosted.org/packages/9d/7f/040c5b1a249d388f4de02ef2e7f98789414e8e00592d593159848fa73021/xxx-chat-0.0.2.tar.gz
+[2023-07-07 05:06:45] INFO root fetch - processPackages [odoo-addon-account-financial-risk]: Downloading https://files.pythonhosted.org/packages/15/a9/330afa5a8c78b7f62b94e80e0e120e88d7237284ac67057ccafe9d82f994/odoo_addon_account_financial_risk-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-07 05:06:45] INFO root fetch - processPackages [huckle]: Downloading https://files.pythonhosted.org/packages/51/c1/4a105f3f85dd6ea41bd5feb7797d8ecb01c16e42e8c9918bb6b350452a24/huckle-3.0.0.tar.gz
+[2023-07-07 05:06:45] INFO root fetch - processPackages [hcli-core]: Downloading https://files.pythonhosted.org/packages/6b/c1/5e085a3c4ac830a12c44fcbc907efc2f7e0fa4ba2b9860331bce714220a6/hcli_core-0.8.0.tar.gz
+[2023-07-07 05:06:45] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/20/6b/5034324cd2ac42831b5103037f6a14e518172128c4196b8d01b93dcc76c8/sqlglot-9.0.5.tar.gz
+[2023-07-07 05:06:46] INFO root fetch - processPackages [xxx-chat]: Downloading https://files.pythonhosted.org/packages/60/0f/f8f3e2ad047a282da56138f7c50484c6442406d6ae9835c55a887bb27c90/xxx-chat-0.0.3.tar.gz
+[2023-07-07 05:06:46] INFO root fetch - processPackages [xxx-chat]: executing diffoscope
+[2023-07-07 05:06:46] INFO root fetch - processPackages [xxx-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xxx-chat-0.0.2.tar.gz tmp/xxx-chat-0.0.3.tar.gz --markdown 20230707/x/xxx-chat/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-07 05:06:46] INFO root fetch - processPackages [huckle]: Downloading https://files.pythonhosted.org/packages/17/66/514e99a2b56c0ad29b65f1a2b96fd8764d0c3f4e3a165eb522043aca5eeb/huckle-3.0.1.tar.gz
+[2023-07-07 05:06:46] INFO root fetch - processPackages [odoo-addon-account-financial-risk]: Downloading https://files.pythonhosted.org/packages/e7/ab/5923f6d4e89805d366045b30f28c45d634fde1f232edaf9ccefcea619d27/odoo_addon_account_financial_risk-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-07 05:06:46] INFO root fetch - processPackages [hcli-core]: Downloading https://files.pythonhosted.org/packages/6f/b4/19d468c66cf3eb10188374e2181a4f8d497514ff41a3655bc844c82c229e/hcli_core-0.9.0.tar.gz
+[2023-07-07 05:06:46] INFO root fetch - processPackages [huckle]: executing diffoscope
+[2023-07-07 05:06:46] INFO root fetch - processPackages [huckle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huckle-3.0.0.tar.gz tmp/huckle-3.0.1.tar.gz --markdown 20230707/h/huckle/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-07-07 05:06:46] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/36/2a/e7389a112e1a7cfd1fcc7c7209a0f8f5ffe905ce8aad03f447367dc9b209/sqlglot-9.0.6.tar.gz
+[2023-07-07 05:06:46] INFO root fetch - processPackages [odoo-addon-account-financial-risk]: executing diffoscope
+[2023-07-07 05:06:46] INFO root fetch - processPackages [odoo-addon-account-financial-risk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_financial_risk-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_financial_risk-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230707/o/odoo-addon-account-financial-risk/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-07-07 05:06:46] INFO root fetch - processPackages [sqlglot]: executing diffoscope
+[2023-07-07 05:06:46] INFO root fetch - processPackages [sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-9.0.5.tar.gz tmp/sqlglot-9.0.6.tar.gz --markdown 20230707/s/sqlglot/9.0.5-9.0.6/diff.md --exclude *.pyd
+[2023-07-07 05:06:46] INFO root fetch - processPackages [hcli-core]: executing diffoscope
+[2023-07-07 05:06:46] INFO root fetch - processPackages [hcli-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcli_core-0.8.0.tar.gz tmp/hcli_core-0.9.0.tar.gz --markdown 20230707/h/hcli-core/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-07 05:06:47] INFO root fetch - processPackages [xxx-chat]: Remove: archive file [/home/abi/fetcher/tmp/xxx-chat-0.0.2.tar.gz]
+[2023-07-07 05:06:47] INFO root fetch - processPackages [xxx-chat]: Remove: archive file [/home/abi/fetcher/tmp/xxx-chat-0.0.3.tar.gz]
+[2023-07-07 05:06:47] INFO root fetch - main [MainThread]: End processing [xxx-chat]: success
+[2023-07-07 05:06:47] INFO root fetch - processPackages [huckle]: Remove: archive file [/home/abi/fetcher/tmp/huckle-3.0.0.tar.gz]
+[2023-07-07 05:06:47] INFO root fetch - processPackages [huckle]: Remove: archive file [/home/abi/fetcher/tmp/huckle-3.0.1.tar.gz]
+[2023-07-07 05:06:47] INFO root fetch - main [MainThread]: End processing [huckle]: success
+[2023-07-07 05:06:47] INFO root fetch - processPackages [odoo-addon-account-financial-risk]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_risk-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-07 05:06:47] INFO root fetch - processPackages [odoo-addon-account-financial-risk]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_risk-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-07 05:06:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-risk]: success
+[2023-07-07 05:06:47] INFO root fetch - processPackages [hcli-core]: Remove: archive file [/home/abi/fetcher/tmp/hcli_core-0.8.0.tar.gz]
+[2023-07-07 05:06:47] INFO root fetch - processPackages [hcli-core]: Remove: archive file [/home/abi/fetcher/tmp/hcli_core-0.9.0.tar.gz]
+[2023-07-07 05:06:47] INFO root fetch - main [MainThread]: End processing [hcli-core]: success
+[2023-07-07 05:06:47] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.5.tar.gz]
+[2023-07-07 05:06:47] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.6.tar.gz]
+[2023-07-07 05:06:47] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
+[2023-07-07 05:06:47] INFO root fetch - main [MainThread]: Store serial: [18795402]
