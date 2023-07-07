@@ -19402,3 +19402,114 @@ AssertionError: tmp/tester-package-sdk-2.0.9.tar.gz does not exist
 [2023-07-07 12:44:51] INFO root fetch - processPackages [creditas]: Remove: archive file [/home/abi/fetcher/tmp/creditas-1.0.0.1.tar.gz]
 [2023-07-07 12:44:51] INFO root fetch - main [MainThread]: End processing [creditas]: success
 [2023-07-07 12:44:51] INFO root fetch - main [MainThread]: Store serial: [18799158]
+[2023-07-07 12:49:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18799158]
+[2023-07-07 12:50:00] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-07 12:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cval-lib
+[2023-07-07 12:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anta
+[2023-07-07 12:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FiberFusing
+[2023-07-07 12:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: larq
+[2023-07-07 12:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: phepy
+[2023-07-07 12:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: veetility
+[2023-07-07 12:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cikuu
+[2023-07-07 12:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mavcom
+[2023-07-07 12:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sdc11073
+[2023-07-07 12:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openhab-pythonrule-engine
+[2023-07-07 12:50:00] INFO root fetch - processPackages [cval-lib]: New version: [0.0.2.8] Old Version: [0.0.2.7]
+[2023-07-07 12:50:00] INFO root fetch - processPackages [anta]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-07 12:50:00] INFO root fetch - processPackages [veetility]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-07 12:50:00] INFO root fetch - processPackages [mavcom]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-07 12:50:00] INFO root fetch - processPackages [cikuu]: New version: [2022.8.9] Old Version: [2022.8.8]
+[2023-07-07 12:50:00] INFO root fetch - processPackages [sdc11073]: New version: [2.0.0a5] Old Version: [2.0.0a4]
+[2023-07-07 12:50:00] INFO root fetch - processPackages [cval-lib]: Downloading https://files.pythonhosted.org/packages/41/61/3480975c603312d7482362edf84227b1178769b667b416e00dca7241e8b1/cval-lib-0.0.2.7.tar.gz
+[2023-07-07 12:50:00] INFO root fetch - processPackages [phepy]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-07-07 12:50:00] INFO root fetch - processPackages [FiberFusing]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-07-07 12:50:00] INFO root fetch - processPackages [openhab-pythonrule-engine]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-07 12:50:00] INFO root fetch - processPackages [larq]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-07 12:50:00] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/b4/6c/d6775912e1f4b22333ed3a4fee91721e0069b8797ba5c31097f91a3135d6/veetility-0.1.98.tar.gz
+[2023-07-07 12:50:00] INFO root fetch - processPackages [anta]: Downloading https://files.pythonhosted.org/packages/5a/eb/514183fe26bcbb40791bb4097e59beaa5a6c26a1b9214ce1bc59b30de958/anta-0.5.0.tar.gz
+[2023-07-07 12:50:00] INFO root fetch - processPackages [mavcom]: Downloading https://files.pythonhosted.org/packages/d0/d4/f57018aa5250ab4dc321f56f75e0e28a8d16bd1d4eeff036ac8961525775/mavcom-1.1.2.tar.gz
+[2023-07-07 12:50:01] INFO root fetch - processPackages [sdc11073]: Downloading https://files.pythonhosted.org/packages/59/5f/8ce07f7cba2b508fe21be08e96eb4f39511400b30e57169bf4211a8ba2f8/sdc11073-2.0.0a4.tar.gz
+[2023-07-07 12:50:01] INFO root fetch - processPackages [larq]: Downloading https://files.pythonhosted.org/packages/b0/76/d0a72b910bd81dfdd3b413136f82a313df550c6958c002165b06ff4ce49c/larq-0.9.5.tar.gz
+[2023-07-07 12:50:01] INFO root fetch - processPackages [FiberFusing]: Downloading https://files.pythonhosted.org/packages/5b/01/f3dac8462034893d085ad6f62a57757c64a403715a84ae82cf4d44d447c6/FiberFusing-0.4.6-py3-none-any.whl
+[2023-07-07 12:50:01] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/a0/4f/eb1359196e4e216d1ccfde231e462db3887b8a191ac90d104f3b45fa4169/veetility-0.1.99.tar.gz
+[2023-07-07 12:50:01] INFO root fetch - processPackages [phepy]: Downloading https://files.pythonhosted.org/packages/f3/dc/af1d2d422835b5dfdf7e823a22708cac5b1ba67f92e225b1b140ffbc9f54/phepy-0.0.0.tar.gz
+[2023-07-07 12:50:01] INFO root fetch - processPackages [cikuu]: Downloading https://files.pythonhosted.org/packages/db/a7/7f80d8f63b8d473fb994eb9b07c0ad3b4d3f84b19c99b8a9165adf54a4fe/cikuu-2022.8.8.tar.gz
+[2023-07-07 12:50:01] INFO root fetch - processPackages [openhab-pythonrule-engine]: Downloading https://files.pythonhosted.org/packages/53/b8/8bd822aa58f48f87a165a41c13622aca27f3899dbee42acdab33276b63b3/openhab_pythonrule_engine-1.1.8.tar.gz
+[2023-07-07 12:50:01] INFO root fetch - processPackages [cval-lib]: Downloading https://files.pythonhosted.org/packages/9a/70/031d75ff39efd5cfbf481fa0b0070109f80278197ca0e35e59f2860b242c/cval-lib-0.0.2.8.tar.gz
+[2023-07-07 12:50:01] INFO root fetch - processPackages [anta]: Downloading https://files.pythonhosted.org/packages/6d/3a/57076426ee131cd9902549d2a41daf82f61bf69050c528d37a664e1a6af9/anta-0.6.0.tar.gz
+[2023-07-07 12:50:01] INFO root fetch - processPackages [mavcom]: Downloading https://files.pythonhosted.org/packages/cb/ef/56f16c53fb8017505ef2d4aeed0f093cd952b13e65848a1a5b8be8ca1b48/mavcom-1.1.3.tar.gz
+[2023-07-07 12:50:01] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-07-07 12:50:01] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.98.tar.gz tmp/veetility-0.1.99.tar.gz --markdown 20230707/v/veetility/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-07 12:50:01] INFO root fetch - processPackages [cval-lib]: executing diffoscope
+[2023-07-07 12:50:01] INFO root fetch - processPackages [cval-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cval-lib-0.0.2.7.tar.gz tmp/cval-lib-0.0.2.8.tar.gz --markdown 20230707/c/cval-lib/0.0.2.7-0.0.2.8/diff.md --exclude *.pyd
+[2023-07-07 12:50:01] INFO root fetch - processPackages [mavcom]: executing diffoscope
+[2023-07-07 12:50:01] INFO root fetch - processPackages [mavcom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mavcom-1.1.2.tar.gz tmp/mavcom-1.1.3.tar.gz --markdown 20230707/m/mavcom/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-07 12:50:01] INFO root fetch - processPackages [anta]: executing diffoscope
+[2023-07-07 12:50:01] INFO root fetch - processPackages [anta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anta-0.5.0.tar.gz tmp/anta-0.6.0.tar.gz --markdown 20230707/a/anta/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-07 12:50:01] INFO root fetch - processPackages [FiberFusing]: Downloading https://files.pythonhosted.org/packages/72/80/7d1caca3afbe04d10a242223ccdf1594d4b034e1a08d4b9ca956a57ee52d/FiberFusing-0.4.7-py3-none-any.whl
+[2023-07-07 12:50:01] INFO root fetch - processPackages [sdc11073]: Downloading https://files.pythonhosted.org/packages/b9/08/3ed2268cc888c308a73a4111ee0a725bbab25b0e130326098f0b3a06f08c/sdc11073-2.0.0a5.tar.gz
+[2023-07-07 12:50:01] INFO root fetch - processPackages [phepy]: Downloading https://files.pythonhosted.org/packages/7e/f6/5c39481dd71d895caa2f62f068ebed1012b7900a533a96322f0b92f65a72/phepy-0.1.0.tar.gz
+[2023-07-07 12:50:01] INFO root fetch - processPackages [FiberFusing]: executing diffoscope
+[2023-07-07 12:50:01] INFO root fetch - processPackages [FiberFusing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FiberFusing-0.4.6-py3-none-any.whl.zip tmp/FiberFusing-0.4.7-py3-none-any.whl.zip --markdown 20230707/F/FiberFusing/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-07-07 12:50:01] INFO root fetch - processPackages [openhab-pythonrule-engine]: Downloading https://files.pythonhosted.org/packages/1b/0a/e52241e767752cebdb61146d8c9d4151b7cdd5a1b4c1d8234193fcde1b20/openhab_pythonrule_engine-1.1.9.tar.gz
+[2023-07-07 12:50:01] INFO root fetch - processPackages [sdc11073]: executing diffoscope
+[2023-07-07 12:50:01] INFO root fetch - processPackages [sdc11073]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdc11073-2.0.0a4.tar.gz tmp/sdc11073-2.0.0a5.tar.gz --markdown 20230707/s/sdc11073/2.0.0a4-2.0.0a5/diff.md --exclude *.pyd
+[2023-07-07 12:50:01] INFO root fetch - processPackages [larq]: Downloading https://files.pythonhosted.org/packages/b3/24/6485443af878f1d94fb93ac720436f22fc4fbe47618395f45c41d8164e0b/larq-0.9.6.tar.gz
+[2023-07-07 12:50:01] INFO root fetch - processPackages [phepy]: executing diffoscope
+[2023-07-07 12:50:01] INFO root fetch - processPackages [phepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phepy-0.0.0.tar.gz tmp/phepy-0.1.0.tar.gz --markdown 20230707/p/phepy/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-07-07 12:50:02] INFO root fetch - processPackages [cikuu]: Downloading https://files.pythonhosted.org/packages/27/35/3dade08a487bb2e5605cf651ce3742ec430bb5e48cf7b57187a4935a6a80/cikuu-2022.8.9.tar.gz
+[2023-07-07 12:50:02] INFO root fetch - processPackages [openhab-pythonrule-engine]: executing diffoscope
+[2023-07-07 12:50:02] INFO root fetch - processPackages [openhab-pythonrule-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhab_pythonrule_engine-1.1.8.tar.gz tmp/openhab_pythonrule_engine-1.1.9.tar.gz --markdown 20230707/o/openhab-pythonrule-engine/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-07 12:50:02] INFO root fetch - processPackages [larq]: executing diffoscope
+[2023-07-07 12:50:02] INFO root fetch - processPackages [larq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/larq-0.9.5.tar.gz tmp/larq-0.9.6.tar.gz --markdown 20230707/l/larq/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-07 12:50:02] INFO root fetch - processPackages [cikuu]: executing diffoscope
+[2023-07-07 12:50:02] INFO root fetch - processPackages [cikuu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cikuu-2022.8.8.tar.gz tmp/cikuu-2022.8.9.tar.gz --markdown 20230707/c/cikuu/2022.8.8-2022.8.9/diff.md --exclude *.pyd
+[2023-07-07 12:50:02] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.98.tar.gz]
+[2023-07-07 12:50:02] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.99.tar.gz]
+[2023-07-07 12:50:02] INFO root fetch - processPackages [veetility]: Start processing: hkfdb
+[2023-07-07 12:50:02] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-07-07 12:50:02] INFO root fetch - processPackages [cval-lib]: Remove: archive file [/home/abi/fetcher/tmp/cval-lib-0.0.2.7.tar.gz]
+[2023-07-07 12:50:02] INFO root fetch - processPackages [cval-lib]: Remove: archive file [/home/abi/fetcher/tmp/cval-lib-0.0.2.8.tar.gz]
+[2023-07-07 12:50:02] INFO root fetch - processPackages [cval-lib]: Start processing: idoctorai
+[2023-07-07 12:50:02] INFO root fetch - main [MainThread]: End processing [cval-lib]: success
+[2023-07-07 12:50:02] INFO root fetch - processPackages [mavcom]: Remove: archive file [/home/abi/fetcher/tmp/mavcom-1.1.2.tar.gz]
+[2023-07-07 12:50:02] INFO root fetch - processPackages [mavcom]: Remove: archive file [/home/abi/fetcher/tmp/mavcom-1.1.3.tar.gz]
+[2023-07-07 12:50:02] INFO root fetch - main [MainThread]: End processing [mavcom]: success
+[2023-07-07 12:50:03] INFO root fetch - processPackages [hkfdb]: New version: [3.7.1] Old Version: [3.6.1]
+[2023-07-07 12:50:03] INFO root fetch - processPackages [idoctorai]: New version: [0.7.0] Old Version: [0.6.9]
+[2023-07-07 12:50:03] INFO root fetch - processPackages [anta]: Remove: archive file [/home/abi/fetcher/tmp/anta-0.5.0.tar.gz]
+[2023-07-07 12:50:03] INFO root fetch - processPackages [anta]: Remove: archive file [/home/abi/fetcher/tmp/anta-0.6.0.tar.gz]
+[2023-07-07 12:50:03] INFO root fetch - main [MainThread]: End processing [anta]: success
+[2023-07-07 12:50:03] INFO root fetch - processPackages [hkfdb]: Downloading https://files.pythonhosted.org/packages/a4/16/f658bfd4074c177f176dc2d7f497334b610a877630adb1884891f1221a26/hkfdb-3.6.1.tar.gz
+[2023-07-07 12:50:03] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/c3/40/29a56a591939723224c909b862d677aaedaca6eb6fff2f4820cd1a8b007c/idoctorai-0.6.9.tar.gz
+[2023-07-07 12:50:03] INFO root fetch - processPackages [phepy]: Remove: archive file [/home/abi/fetcher/tmp/phepy-0.0.0.tar.gz]
+[2023-07-07 12:50:03] INFO root fetch - processPackages [phepy]: Remove: archive file [/home/abi/fetcher/tmp/phepy-0.1.0.tar.gz]
+[2023-07-07 12:50:03] INFO root fetch - main [MainThread]: End processing [phepy]: success
+[2023-07-07 12:50:03] INFO root fetch - processPackages [hkfdb]: Downloading https://files.pythonhosted.org/packages/86/28/9e32634f106fcfa5340f2612494152fc44e1bc45bf7dac6b7f6cef8647e2/hkfdb-3.7.1.tar.gz
+[2023-07-07 12:50:03] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/82/ae/6923d0caac63e2864360d44c90adbb6e93afca41f5ebd30c767f452284fe/idoctorai-0.7.0.tar.gz
+[2023-07-07 12:50:03] INFO root fetch - processPackages [openhab-pythonrule-engine]: Remove: archive file [/home/abi/fetcher/tmp/openhab_pythonrule_engine-1.1.8.tar.gz]
+[2023-07-07 12:50:03] INFO root fetch - processPackages [openhab-pythonrule-engine]: Remove: archive file [/home/abi/fetcher/tmp/openhab_pythonrule_engine-1.1.9.tar.gz]
+[2023-07-07 12:50:03] INFO root fetch - main [MainThread]: End processing [openhab-pythonrule-engine]: success
+[2023-07-07 12:50:03] INFO root fetch - processPackages [idoctorai]: executing diffoscope
+[2023-07-07 12:50:03] INFO root fetch - processPackages [idoctorai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idoctorai-0.6.9.tar.gz tmp/idoctorai-0.7.0.tar.gz --markdown 20230707/i/idoctorai/0.6.9-0.7.0/diff.md --exclude *.pyd
+[2023-07-07 12:50:03] INFO root fetch - processPackages [hkfdb]: executing diffoscope
+[2023-07-07 12:50:03] INFO root fetch - processPackages [hkfdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkfdb-3.6.1.tar.gz tmp/hkfdb-3.7.1.tar.gz --markdown 20230707/h/hkfdb/3.6.1-3.7.1/diff.md --exclude *.pyd
+[2023-07-07 12:50:03] INFO root fetch - processPackages [larq]: Remove: archive file [/home/abi/fetcher/tmp/larq-0.9.5.tar.gz]
+[2023-07-07 12:50:03] INFO root fetch - processPackages [larq]: Remove: archive file [/home/abi/fetcher/tmp/larq-0.9.6.tar.gz]
+[2023-07-07 12:50:03] INFO root fetch - main [MainThread]: End processing [larq]: success
+[2023-07-07 12:50:03] INFO root fetch - processPackages [FiberFusing]: Remove: archive file [/home/abi/fetcher/tmp/FiberFusing-0.4.6-py3-none-any.whl.zip]
+[2023-07-07 12:50:03] INFO root fetch - processPackages [FiberFusing]: Remove: archive file [/home/abi/fetcher/tmp/FiberFusing-0.4.7-py3-none-any.whl.zip]
+[2023-07-07 12:50:03] INFO root fetch - main [MainThread]: End processing [FiberFusing]: success
+[2023-07-07 12:50:04] INFO root fetch - processPackages [sdc11073]: Remove: archive file [/home/abi/fetcher/tmp/sdc11073-2.0.0a4.tar.gz]
+[2023-07-07 12:50:04] INFO root fetch - processPackages [sdc11073]: Remove: archive file [/home/abi/fetcher/tmp/sdc11073-2.0.0a5.tar.gz]
+[2023-07-07 12:50:04] INFO root fetch - main [MainThread]: End processing [sdc11073]: success
+[2023-07-07 12:50:04] INFO root fetch - processPackages [hkfdb]: Remove: archive file [/home/abi/fetcher/tmp/hkfdb-3.6.1.tar.gz]
+[2023-07-07 12:50:04] INFO root fetch - processPackages [hkfdb]: Remove: archive file [/home/abi/fetcher/tmp/hkfdb-3.7.1.tar.gz]
+[2023-07-07 12:50:04] INFO root fetch - main [MainThread]: End processing [hkfdb]: success
+[2023-07-07 12:50:04] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.6.9.tar.gz]
+[2023-07-07 12:50:04] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.7.0.tar.gz]
+[2023-07-07 12:50:04] INFO root fetch - main [MainThread]: End processing [idoctorai]: success
+[2023-07-07 12:50:07] INFO root fetch - processPackages [cikuu]: Remove: archive file [/home/abi/fetcher/tmp/cikuu-2022.8.8.tar.gz]
+[2023-07-07 12:50:07] INFO root fetch - processPackages [cikuu]: Remove: archive file [/home/abi/fetcher/tmp/cikuu-2022.8.9.tar.gz]
+[2023-07-07 12:50:07] INFO root fetch - main [MainThread]: End processing [cikuu]: success
+[2023-07-07 12:50:07] INFO root fetch - main [MainThread]: Store serial: [18799199]
