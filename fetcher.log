@@ -12481,3 +12481,72 @@ EOFError: EOF read where object expected
 [2023-07-07 07:54:01] INFO root fetch - processPackages [mezcla]: Remove: archive file [/home/abi/fetcher/tmp/mezcla-1.3.9.1.tar.gz]
 [2023-07-07 07:54:01] INFO root fetch - main [MainThread]: End processing [mezcla]: success
 [2023-07-07 07:54:01] INFO root fetch - main [MainThread]: Store serial: [18796240]
+[2023-07-07 07:59:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18796240]
+[2023-07-07 07:59:10] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-07 07:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rqpattr
+[2023-07-07 07:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quantecon-book-theme
+[2023-07-07 07:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: from-dict
+[2023-07-07 07:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hestia-earth-distribution
+[2023-07-07 07:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-cp-broadcast
+[2023-07-07 07:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mrchef
+[2023-07-07 07:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: model-lib
+[2023-07-07 07:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo13-addon-maintenance-stock
+[2023-07-07 07:59:11] INFO root fetch - processPackages [quantecon-book-theme]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-07 07:59:11] INFO root fetch - processPackages [from-dict]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-07-07 07:59:11] INFO root fetch - processPackages [mrchef]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-07 07:59:11] INFO root fetch - processPackages [rqpattr]: New version: [0.0.17] Old Version: [0.0.15]
+[2023-07-07 07:59:11] INFO root fetch - processPackages [hestia-earth-distribution]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 07:59:11] INFO root fetch - processPackages [model-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 07:59:11] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-07 07:59:11] WARNING root fetch - processPackages [odoo13-addon-maintenance-stock]: Skipping, unable to determine old version
+[2023-07-07 07:59:11] INFO root fetch - main [MainThread]: End processing [odoo13-addon-maintenance-stock] error
+[2023-07-07 07:59:11] INFO root fetch - processPackages [model-lib]: Downloading https://files.pythonhosted.org/packages/3a/37/f439fc46ad12d47c469a89b962f6930daa6f1af9319dce3ed5f398a5b0f2/model_lib-0.0.8-py3-none-any.whl
+[2023-07-07 07:59:11] INFO root fetch - processPackages [rqpattr]: Downloading https://files.pythonhosted.org/packages/ad/df/f00e36fa0121767d784909e94c47c5f90332341e64ba4fcecaf9297937b9/rqpattr-0.0.15-cp39-cp39-win_amd64.whl
+[2023-07-07 07:59:11] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Downloading https://files.pythonhosted.org/packages/c9/79/168b108b1fc2cc73f5aff0f0713003250995366af82b7006a7cd75d88d66/nonebot-plugin-cp-broadcast-0.0.2.tar.gz
+[2023-07-07 07:59:11] INFO root fetch - processPackages [quantecon-book-theme]: Downloading https://files.pythonhosted.org/packages/51/88/e00ac7dd2205fd6a43d918e946283a0025713c3c7cbf0a033728fe019d98/quantecon-book-theme-0.5.2.tar.gz
+[2023-07-07 07:59:11] INFO root fetch - processPackages [hestia-earth-distribution]: Downloading https://files.pythonhosted.org/packages/8a/f7/0f10e6ec3cb925176c82376f5d1e36f6da2f3ea0d3c38b0148bb0bddbb67/hestia-earth-distribution-0.0.8.tar.gz
+[2023-07-07 07:59:11] INFO root fetch - processPackages [from-dict]: Downloading https://files.pythonhosted.org/packages/44/a0/7304f20a0db8ac4b5de3f29be03c8cf6539ba3ef5ebd14963de27a39d495/from-dict-0.3.3.tar.gz
+[2023-07-07 07:59:11] INFO root fetch - processPackages [mrchef]: Downloading https://files.pythonhosted.org/packages/1f/f7/aa9f3ed4587ceed23a477c9c939a0d964c7909967ef1ec5eabe3a5839c0d/mrchef-0.5.0.tar.gz
+[2023-07-07 07:59:11] INFO root fetch - processPackages [model-lib]: Downloading https://files.pythonhosted.org/packages/0e/81/219c8c28610fddb4410a4cb595f3323d27988d35dd0ab098737ad0d8b598/model_lib-0.0.9-py3-none-any.whl
+[2023-07-07 07:59:11] INFO root fetch - processPackages [model-lib]: executing diffoscope
+[2023-07-07 07:59:11] INFO root fetch - processPackages [model-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_lib-0.0.8-py3-none-any.whl.zip tmp/model_lib-0.0.9-py3-none-any.whl.zip --markdown 20230707/m/model-lib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 07:59:11] INFO root fetch - processPackages [quantecon-book-theme]: Downloading https://files.pythonhosted.org/packages/61/ae/d8aadcaa264e45decc461918ab682633d6dae323d95bcc313ec53087b37e/quantecon-book-theme-0.5.3.tar.gz
+[2023-07-07 07:59:11] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Downloading https://files.pythonhosted.org/packages/f2/01/5c3f056a401911887f29f69ac2302ca25fb155821310f6b017c5ae5930a0/nonebot-plugin-cp-broadcast-0.0.3.tar.gz
+[2023-07-07 07:59:11] INFO root fetch - processPackages [hestia-earth-distribution]: Downloading https://files.pythonhosted.org/packages/65/e4/d8546fd6a5d86ac709edcb59989d2f56da2b6747ec39ce4ad5713544cd10/hestia-earth-distribution-0.0.9.tar.gz
+[2023-07-07 07:59:11] INFO root fetch - processPackages [rqpattr]: Downloading https://files.pythonhosted.org/packages/b3/b2/e708c933ba92df0fec07cf9506bf961a12986f942a67b792e3f95b06eb02/rqpattr-0.0.17-cp39-cp39-win_amd64.whl
+[2023-07-07 07:59:11] INFO root fetch - processPackages [mrchef]: Downloading https://files.pythonhosted.org/packages/20/16/99d8da83d0ef759d92aa881629216b6b19e3cabf34214a3da0e0c4259e82/mrchef-0.6.0.tar.gz
+[2023-07-07 07:59:11] INFO root fetch - processPackages [from-dict]: Downloading https://files.pythonhosted.org/packages/31/57/09473e444113c98cd3d81dc06758685157b3211633b2c780a0398483b7ed/from-dict-0.4.0.tar.gz
+[2023-07-07 07:59:11] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: executing diffoscope
+[2023-07-07 07:59:11] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-cp-broadcast-0.0.2.tar.gz tmp/nonebot-plugin-cp-broadcast-0.0.3.tar.gz --markdown 20230707/n/nonebot-plugin-cp-broadcast/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-07 07:59:11] INFO root fetch - processPackages [quantecon-book-theme]: executing diffoscope
+[2023-07-07 07:59:11] INFO root fetch - processPackages [quantecon-book-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantecon-book-theme-0.5.2.tar.gz tmp/quantecon-book-theme-0.5.3.tar.gz --markdown 20230707/q/quantecon-book-theme/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-07 07:59:12] INFO root fetch - processPackages [from-dict]: executing diffoscope
+[2023-07-07 07:59:12] INFO root fetch - processPackages [from-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/from-dict-0.3.3.tar.gz tmp/from-dict-0.4.0.tar.gz --markdown 20230707/f/from-dict/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-07-07 07:59:12] INFO root fetch - processPackages [mrchef]: executing diffoscope
+[2023-07-07 07:59:12] INFO root fetch - processPackages [mrchef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrchef-0.5.0.tar.gz tmp/mrchef-0.6.0.tar.gz --markdown 20230707/m/mrchef/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-07 07:59:12] INFO root fetch - processPackages [hestia-earth-distribution]: executing diffoscope
+[2023-07-07 07:59:12] INFO root fetch - processPackages [hestia-earth-distribution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-distribution-0.0.8.tar.gz tmp/hestia-earth-distribution-0.0.9.tar.gz --markdown 20230707/h/hestia-earth-distribution/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 07:59:12] INFO root fetch - processPackages [rqpattr]: executing diffoscope
+[2023-07-07 07:59:12] INFO root fetch - processPackages [rqpattr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rqpattr-0.0.15-cp39-cp39-win_amd64.whl.zip tmp/rqpattr-0.0.17-cp39-cp39-win_amd64.whl.zip --markdown 20230707/r/rqpattr/0.0.15-0.0.17/diff.md --exclude *.pyd
+[2023-07-07 07:59:12] INFO root fetch - processPackages [model-lib]: Remove: archive file [/home/abi/fetcher/tmp/model_lib-0.0.8-py3-none-any.whl.zip]
+[2023-07-07 07:59:12] INFO root fetch - processPackages [model-lib]: Remove: archive file [/home/abi/fetcher/tmp/model_lib-0.0.9-py3-none-any.whl.zip]
+[2023-07-07 07:59:12] INFO root fetch - main [MainThread]: End processing [model-lib]: success
+[2023-07-07 07:59:13] INFO root fetch - processPackages [quantecon-book-theme]: Remove: archive file [/home/abi/fetcher/tmp/quantecon-book-theme-0.5.2.tar.gz]
+[2023-07-07 07:59:13] INFO root fetch - processPackages [quantecon-book-theme]: Remove: archive file [/home/abi/fetcher/tmp/quantecon-book-theme-0.5.3.tar.gz]
+[2023-07-07 07:59:13] INFO root fetch - main [MainThread]: End processing [quantecon-book-theme]: success
+[2023-07-07 07:59:13] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-cp-broadcast-0.0.2.tar.gz]
+[2023-07-07 07:59:13] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-cp-broadcast-0.0.3.tar.gz]
+[2023-07-07 07:59:13] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-cp-broadcast]: success
+[2023-07-07 07:59:13] INFO root fetch - processPackages [from-dict]: Remove: archive file [/home/abi/fetcher/tmp/from-dict-0.3.3.tar.gz]
+[2023-07-07 07:59:13] INFO root fetch - processPackages [from-dict]: Remove: archive file [/home/abi/fetcher/tmp/from-dict-0.4.0.tar.gz]
+[2023-07-07 07:59:13] INFO root fetch - main [MainThread]: End processing [from-dict]: success
+[2023-07-07 07:59:13] INFO root fetch - processPackages [mrchef]: Remove: archive file [/home/abi/fetcher/tmp/mrchef-0.5.0.tar.gz]
+[2023-07-07 07:59:13] INFO root fetch - processPackages [mrchef]: Remove: archive file [/home/abi/fetcher/tmp/mrchef-0.6.0.tar.gz]
+[2023-07-07 07:59:13] INFO root fetch - main [MainThread]: End processing [mrchef]: success
+[2023-07-07 07:59:13] INFO root fetch - processPackages [hestia-earth-distribution]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-distribution-0.0.8.tar.gz]
+[2023-07-07 07:59:13] INFO root fetch - processPackages [hestia-earth-distribution]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-distribution-0.0.9.tar.gz]
+[2023-07-07 07:59:13] INFO root fetch - main [MainThread]: End processing [hestia-earth-distribution]: success
+[2023-07-07 07:59:13] INFO root fetch - processPackages [rqpattr]: Remove: archive file [/home/abi/fetcher/tmp/rqpattr-0.0.15-cp39-cp39-win_amd64.whl.zip]
+[2023-07-07 07:59:13] INFO root fetch - processPackages [rqpattr]: Remove: archive file [/home/abi/fetcher/tmp/rqpattr-0.0.17-cp39-cp39-win_amd64.whl.zip]
+[2023-07-07 07:59:13] INFO root fetch - main [MainThread]: End processing [rqpattr]: success
+[2023-07-07 07:59:13] INFO root fetch - main [MainThread]: Store serial: [18796277]
