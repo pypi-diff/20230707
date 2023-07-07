@@ -11640,3 +11640,84 @@ EOFError: EOF read where object expected
 [2023-07-07 06:35:53] INFO root fetch - processPackages [beastiary]: Remove: archive file [/home/abi/fetcher/tmp/beastiary-1.7.1.tar.gz]
 [2023-07-07 06:35:53] INFO root fetch - main [MainThread]: End processing [beastiary]: success
 [2023-07-07 06:35:53] INFO root fetch - main [MainThread]: Store serial: [18795887]
+[2023-07-07 06:41:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18795887]
+[2023-07-07 06:41:10] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-07 06:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rit-housing-data-schema
+[2023-07-07 06:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: axion
+[2023-07-07 06:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyciactions
+[2023-07-07 06:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-product-pricelist-supplierinfo
+[2023-07-07 06:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyciactions
+[2023-07-07 06:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gaohn-common-utils
+[2023-07-07 06:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: psyke
+[2023-07-07 06:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tf-nightly-macos
+[2023-07-07 06:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: idoctorai
+[2023-07-07 06:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: higlass-widget
+[2023-07-07 06:41:10] INFO root fetch - processPackages [idoctorai]: New version: [0.7.0] Old Version: [0.6.9]
+[2023-07-07 06:41:10] INFO root fetch - processPackages [odoo-addon-product-pricelist-supplierinfo]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.1]
+[2023-07-07 06:41:11] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.88] Old Version: [0.0.87]
+[2023-07-07 06:41:11] WARNING root fetch - processPackages [rit-housing-data-schema]: Skipping, unable to determine old version
+[2023-07-07 06:41:11] INFO root fetch - main [MainThread]: End processing [rit-housing-data-schema] error
+[2023-07-07 06:41:11] INFO root fetch - processPackages [pyciactions]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-07 06:41:11] INFO root fetch - processPackages [axion]: New version: [3.5.7] Old Version: [3.5.6]
+[2023-07-07 06:41:11] INFO root fetch - processPackages [higlass-widget]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-07 06:41:11] INFO root fetch - processPackages [pyciactions]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-07 06:41:11] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.14.0.dev20230705] Old Version: [2.14.0.dev20230704]
+[2023-07-07 06:41:11] INFO root fetch - processPackages [psyke]: New version: [0.4.9.dev8] Old Version: [0.4.9.dev7]
+[2023-07-07 06:41:11] INFO root fetch - processPackages [odoo-addon-product-pricelist-supplierinfo]: Downloading https://files.pythonhosted.org/packages/2f/a4/e888fb96317f6f08c0b7856bc011910e48f729897816304aa2c682924fe9/odoo_addon_product_pricelist_supplierinfo-16.0.1.0.1-py3-none-any.whl
+[2023-07-07 06:41:11] INFO root fetch - processPackages [higlass-widget]: Downloading https://files.pythonhosted.org/packages/44/14/38d5d3dd6f1962c571e7c0771acb7e5686ea0c83b3fd9da0f8780bda981c/higlass_widget-0.1.1.tar.gz
+[2023-07-07 06:41:11] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/c3/40/29a56a591939723224c909b862d677aaedaca6eb6fff2f4820cd1a8b007c/idoctorai-0.6.9.tar.gz
+[2023-07-07 06:41:11] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/7a/d3/4718e3a4e1d8a444cf6969f783176366c8c5e7a8243cc408f8ac64cfce59/gaohn-common-utils-0.0.87.tar.gz
+[2023-07-07 06:41:11] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/1c/bb/9d715b15ecf54edde68ea5e8851015166225ccd95ac10cc431cb55f3daa2/tf_nightly_macos-2.14.0.dev20230704-cp39-cp39-macosx_12_0_arm64.whl
+[2023-07-07 06:41:11] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/12/22/57409dc95d101c956e98b126fee2b574b903c914ba9fa6e70b2fc372a5c8/axion-3.5.6-cp311-none-win_amd64.whl
+[2023-07-07 06:41:11] INFO root fetch - processPackages [psyke]: Downloading https://files.pythonhosted.org/packages/5e/11/fd62b2034a76051a53ceac8ecdbd71ccc86e52ca2017411885af1d437ff5/psyke-0.4.9.dev7.tar.gz
+[2023-07-07 06:41:11] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 199657273>=10485760
+[2023-07-07 06:41:11] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-07-07 06:41:11] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/18/41/254254d13c2b135dd0dc2d08aaba498e37137e47cecf6485445fd3d12312/pyciactions-1.0.7.tar.gz
+[2023-07-07 06:41:11] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/18/41/254254d13c2b135dd0dc2d08aaba498e37137e47cecf6485445fd3d12312/pyciactions-1.0.7.tar.gz
+[2023-07-07 06:41:11] INFO root fetch - processPackages [higlass-widget]: Downloading https://files.pythonhosted.org/packages/a6/38/a56803d01695888e5357a98d32a3fd75bf86c94c4a1f70d3ecb0d1962d30/higlass_widget-0.1.2.tar.gz
+[2023-07-07 06:41:11] INFO root fetch - processPackages [odoo-addon-product-pricelist-supplierinfo]: Downloading https://files.pythonhosted.org/packages/88/2f/a6f943d5393815a38eeac4d825b3e259eb4e10dc6596f378d1a6ff3a8bde/odoo_addon_product_pricelist_supplierinfo-16.0.1.0.1.1-py3-none-any.whl
+[2023-07-07 06:41:11] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/82/ae/6923d0caac63e2864360d44c90adbb6e93afca41f5ebd30c767f452284fe/idoctorai-0.7.0.tar.gz
+[2023-07-07 06:41:11] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/52/c6/1d0c2325059802d51cadf10bc933c2e49151f21b8a8b073f8f8a7cf11104/gaohn-common-utils-0.0.88.tar.gz
+[2023-07-07 06:41:11] INFO root fetch - processPackages [higlass-widget]: executing diffoscope
+[2023-07-07 06:41:11] INFO root fetch - processPackages [higlass-widget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/higlass_widget-0.1.1.tar.gz tmp/higlass_widget-0.1.2.tar.gz --markdown 20230707/h/higlass-widget/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-07 06:41:11] INFO root fetch - processPackages [odoo-addon-product-pricelist-supplierinfo]: executing diffoscope
+[2023-07-07 06:41:11] INFO root fetch - processPackages [odoo-addon-product-pricelist-supplierinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_pricelist_supplierinfo-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_product_pricelist_supplierinfo-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20230707/o/odoo-addon-product-pricelist-supplierinfo/16.0.1.0.1-16.0.1.0.1.1/diff.md --exclude *.pyd
+[2023-07-07 06:41:11] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-07-07 06:41:11] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.87.tar.gz tmp/gaohn-common-utils-0.0.88.tar.gz --markdown 20230707/g/gaohn-common-utils/0.0.87-0.0.88/diff.md --exclude *.pyd
+[2023-07-07 06:41:11] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/fc/2a/8d12a1007564b0422e4011a83ede3d859552a77e17dd9f408595a5544eec/axion-3.5.7-cp311-none-win_amd64.whl
+[2023-07-07 06:41:11] INFO root fetch - processPackages [idoctorai]: executing diffoscope
+[2023-07-07 06:41:11] INFO root fetch - processPackages [idoctorai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idoctorai-0.6.9.tar.gz tmp/idoctorai-0.7.0.tar.gz --markdown 20230707/i/idoctorai/0.6.9-0.7.0/diff.md --exclude *.pyd
+[2023-07-07 06:41:11] INFO root fetch - processPackages [psyke]: Downloading https://files.pythonhosted.org/packages/58/85/6147396e1ee43b6657869d503e8864e087e8af4c86a69aa0d21e8442e50b/psyke-0.4.9.dev8.tar.gz
+[2023-07-07 06:41:11] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/57/dc/84dd65efe06a2873509a679a4bf99148ba7ef7b80f5daabd4c1b2e51a6ea/pyciactions-1.0.8.tar.gz
+[2023-07-07 06:41:11] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/57/dc/84dd65efe06a2873509a679a4bf99148ba7ef7b80f5daabd4c1b2e51a6ea/pyciactions-1.0.8.tar.gz
+[2023-07-07 06:41:12] INFO root fetch - processPackages [axion]: executing diffoscope
+[2023-07-07 06:41:12] INFO root fetch - processPackages [axion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axion-3.5.6-cp311-none-win_amd64.whl.zip tmp/axion-3.5.7-cp311-none-win_amd64.whl.zip --markdown 20230707/a/axion/3.5.6-3.5.7/diff.md --exclude *.pyd
+[2023-07-07 06:41:12] INFO root fetch - processPackages [pyciactions]: executing diffoscope
+[2023-07-07 06:41:12] INFO root fetch - processPackages [pyciactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyciactions-1.0.7.tar.gz tmp/pyciactions-1.0.8.tar.gz --markdown 20230707/p/pyciactions/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-07 06:41:12] INFO root fetch - processPackages [pyciactions]: executing diffoscope
+[2023-07-07 06:41:12] INFO root fetch - processPackages [pyciactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyciactions-1.0.7.tar.gz tmp/pyciactions-1.0.8.tar.gz --markdown 20230707/p/pyciactions/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-07 06:41:12] INFO root fetch - processPackages [psyke]: executing diffoscope
+[2023-07-07 06:41:12] INFO root fetch - processPackages [psyke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psyke-0.4.9.dev7.tar.gz tmp/psyke-0.4.9.dev8.tar.gz --markdown 20230707/p/psyke/0.4.9.dev7-0.4.9.dev8/diff.md --exclude *.pyd
+[2023-07-07 06:41:13] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.87.tar.gz]
+[2023-07-07 06:41:13] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.88.tar.gz]
+[2023-07-07 06:41:13] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-07-07 06:41:13] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.6.9.tar.gz]
+[2023-07-07 06:41:13] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.7.0.tar.gz]
+[2023-07-07 06:41:13] INFO root fetch - main [MainThread]: End processing [idoctorai]: success
+[2023-07-07 06:41:13] INFO root fetch - processPackages [odoo-addon-product-pricelist-supplierinfo]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_pricelist_supplierinfo-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-07 06:41:13] INFO root fetch - processPackages [odoo-addon-product-pricelist-supplierinfo]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_pricelist_supplierinfo-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2023-07-07 06:41:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-pricelist-supplierinfo]: success
+[2023-07-07 06:41:13] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.7.tar.gz]
+[2023-07-07 06:41:13] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.8.tar.gz]
+[2023-07-07 06:41:13] INFO root fetch - main [MainThread]: End processing [pyciactions]: success
+[2023-07-07 06:41:13] INFO root fetch - main [MainThread]: End processing [pyciactions]: success
+[2023-07-07 06:41:13] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-3.5.6-cp311-none-win_amd64.whl.zip]
+[2023-07-07 06:41:13] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-3.5.7-cp311-none-win_amd64.whl.zip]
+[2023-07-07 06:41:13] INFO root fetch - main [MainThread]: End processing [axion]: success
+[2023-07-07 06:41:13] INFO root fetch - processPackages [higlass-widget]: Remove: archive file [/home/abi/fetcher/tmp/higlass_widget-0.1.1.tar.gz]
+[2023-07-07 06:41:13] INFO root fetch - processPackages [higlass-widget]: Remove: archive file [/home/abi/fetcher/tmp/higlass_widget-0.1.2.tar.gz]
+[2023-07-07 06:41:13] INFO root fetch - main [MainThread]: End processing [higlass-widget]: success
+[2023-07-07 06:41:13] INFO root fetch - processPackages [psyke]: Remove: archive file [/home/abi/fetcher/tmp/psyke-0.4.9.dev7.tar.gz]
+[2023-07-07 06:41:13] INFO root fetch - processPackages [psyke]: Remove: archive file [/home/abi/fetcher/tmp/psyke-0.4.9.dev8.tar.gz]
+[2023-07-07 06:41:13] INFO root fetch - main [MainThread]: End processing [psyke]: success
+[2023-07-07 06:41:13] INFO root fetch - main [MainThread]: Store serial: [18795923]
