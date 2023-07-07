@@ -5770,3 +5770,74 @@ EOFError: EOF read where object expected
 [2023-07-07 03:33:35] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
 [2023-07-07 03:33:35] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
 [2023-07-07 03:33:35] INFO root fetch - main [MainThread]: Store serial: [18793835]
+[2023-07-07 03:38:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18793835]
+[2023-07-07 03:38:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-07 03:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OpenGeode-core
+[2023-07-07 03:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-subminute
+[2023-07-07 03:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-stdlib
+[2023-07-07 03:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elifecleaner
+[2023-07-07 03:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hubotlibs
+[2023-07-07 03:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-numpy
+[2023-07-07 03:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seven-cloudapp-frame
+[2023-07-07 03:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-pandas
+[2023-07-07 03:38:44] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-07 03:38:44] INFO root fetch - processPackages [elifecleaner]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-07 03:38:44] INFO root fetch - processPackages [hubotlibs]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-07 03:38:44] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.4.1rc1]
+[2023-07-07 03:38:44] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-07 03:38:44] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-07 03:38:44] INFO root fetch - processPackages [hubotlibs]: Downloading https://files.pythonhosted.org/packages/4f/03/fc77ab3290898d1a7aad1d627460a24e53c068832b4e4af6e4228b9a0365/hubotlibs-0.2.4.tar.gz
+[2023-07-07 03:38:44] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-07 03:38:44] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-07-07 03:38:44] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-07-07 03:38:44] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-07 03:38:44] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-07-07 03:38:44] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-07 03:38:44] INFO root fetch - processPackages [elifecleaner]: Downloading https://files.pythonhosted.org/packages/d8/0e/4046c55d79880da671663d71e149bd71481ded59f3d48fcdbcb00ba806d5/elifecleaner-0.9.0.tar.gz
+[2023-07-07 03:38:44] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/86/5e/781a242672aaac491f89444dae9e5b132aa5ca2f9c9ef84a0144c153d8f0/OpenGeode_core-14.4.1rc1-cp39-cp39-win_amd64.whl
+[2023-07-07 03:38:44] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/35/2b/05b1b8a3faf3e0417c648bb54a3032af0de6b3d08180acd83e1eea5e3701/seven_cloudapp_frame-1.0.9.8.tar.gz
+[2023-07-07 03:38:44] INFO root fetch - processPackages [hubotlibs]: Downloading https://files.pythonhosted.org/packages/e2/bc/a6e823f52fa541f1428dd38c06ddbde36fab8ac89ddc9f186de9e7a05cdc/hubotlibs-0.2.5.tar.gz
+[2023-07-07 03:38:44] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-07-07 03:38:44] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-07 03:38:44] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-07-07 03:38:45] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-07 03:38:45] INFO root fetch - processPackages [hubotlibs]: executing diffoscope
+[2023-07-07 03:38:45] INFO root fetch - processPackages [hubotlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubotlibs-0.2.4.tar.gz tmp/hubotlibs-0.2.5.tar.gz --markdown 20230707/h/hubotlibs/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-07 03:38:45] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-07 03:38:45] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230707/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-07 03:38:45] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-07-07 03:38:45] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230707/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-07 03:38:45] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-07 03:38:45] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230707/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-07 03:38:45] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-07-07 03:38:45] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230707/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-07 03:38:45] INFO root fetch - processPackages [elifecleaner]: Downloading https://files.pythonhosted.org/packages/ba/d9/f14856c509de287aec8a31e76808f681383e338462e051c31edcecd1527f/elifecleaner-0.9.1.tar.gz
+[2023-07-07 03:38:45] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 17571872>=10485760
+[2023-07-07 03:38:45] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2023-07-07 03:38:45] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/74/d6/645286f46e81a7cbd30574c917b65af03679c974a979c0421012bd713cbd/seven_cloudapp_frame-1.0.9.9.tar.gz
+[2023-07-07 03:38:45] INFO root fetch - processPackages [elifecleaner]: executing diffoscope
+[2023-07-07 03:38:45] INFO root fetch - processPackages [elifecleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elifecleaner-0.9.0.tar.gz tmp/elifecleaner-0.9.1.tar.gz --markdown 20230707/e/elifecleaner/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-07 03:38:45] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-07-07 03:38:45] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230707/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-07-07 03:38:46] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-07 03:38:46] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-07 03:38:46] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-07 03:38:46] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-07-07 03:38:46] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-07-07 03:38:46] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-07-07 03:38:46] INFO root fetch - processPackages [elifecleaner]: Remove: archive file [/home/abi/fetcher/tmp/elifecleaner-0.9.0.tar.gz]
+[2023-07-07 03:38:46] INFO root fetch - processPackages [elifecleaner]: Remove: archive file [/home/abi/fetcher/tmp/elifecleaner-0.9.1.tar.gz]
+[2023-07-07 03:38:46] INFO root fetch - main [MainThread]: End processing [elifecleaner]: success
+[2023-07-07 03:38:46] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-07 03:38:46] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-07 03:38:46] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-07 03:38:46] INFO root fetch - processPackages [hubotlibs]: Remove: archive file [/home/abi/fetcher/tmp/hubotlibs-0.2.4.tar.gz]
+[2023-07-07 03:38:46] INFO root fetch - processPackages [hubotlibs]: Remove: archive file [/home/abi/fetcher/tmp/hubotlibs-0.2.5.tar.gz]
+[2023-07-07 03:38:46] INFO root fetch - main [MainThread]: End processing [hubotlibs]: success
+[2023-07-07 03:38:46] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-07-07 03:38:46] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-07-07 03:38:46] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-07-07 03:38:46] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.8.tar.gz]
+[2023-07-07 03:38:46] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.9.tar.gz]
+[2023-07-07 03:38:46] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-07-07 03:38:46] INFO root fetch - main [MainThread]: Store serial: [18793862]
