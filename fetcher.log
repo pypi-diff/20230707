@@ -14910,3 +14910,178 @@ EOFError: EOF read where object expected
 [2023-07-07 09:59:53] INFO root fetch - processPackages [webgui-jupyter-widgets]: Remove: archive file [/home/abi/fetcher/tmp/webgui_jupyter_widgets-0.2.9-py2.py3-none-any.whl.zip]
 [2023-07-07 09:59:53] INFO root fetch - main [MainThread]: End processing [webgui-jupyter-widgets]: success
 [2023-07-07 09:59:53] INFO root fetch - main [MainThread]: Store serial: [18797179]
+[2023-07-07 10:04:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18797179]
+[2023-07-07 10:05:02] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-07 10:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fixms
+[2023-07-07 10:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fossbill
+[2023-07-07 10:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openi-test
+[2023-07-07 10:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: terminal-manager
+[2023-07-07 10:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: connect-extension-runner
+[2023-07-07 10:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lollms
+[2023-07-07 10:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ert
+[2023-07-07 10:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: session-repository
+[2023-07-07 10:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openi-test
+[2023-07-07 10:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lesscode-py
+[2023-07-07 10:05:03] INFO root fetch - processPackages [fossbill]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-07 10:05:03] INFO root fetch - processPackages [terminal-manager]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-07 10:05:03] INFO root fetch - processPackages [openi-test]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-07 10:05:03] INFO root fetch - processPackages [fixms]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-07 10:05:03] INFO root fetch - processPackages [session-repository]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-07 10:05:03] INFO root fetch - processPackages [connect-extension-runner]: New version: [28.4] Old Version: [28.3]
+[2023-07-07 10:05:03] INFO root fetch - processPackages [openi-test]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-07 10:05:03] INFO root fetch - processPackages [lollms]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-07 10:05:03] INFO root fetch - processPackages [ert]: New version: [5.1.0b2] Old Version: [5.1.0b1]
+[2023-07-07 10:05:03] INFO root fetch - processPackages [lesscode-py]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-07 10:05:03] INFO root fetch - processPackages [session-repository]: Downloading https://files.pythonhosted.org/packages/05/e9/c75db2c319b2ea0bd83bc8dfdf3ad1da02529d7206888734c6f4f9cb4a2b/session-repository-0.1.8.tar.gz
+[2023-07-07 10:05:03] INFO root fetch - processPackages [connect-extension-runner]: Downloading https://files.pythonhosted.org/packages/44/7c/a8e6c3c4db7837b974ade2ab86827b4b11eb89d066259d10de8da00b8567/connect_extension_runner-28.3.tar.gz
+[2023-07-07 10:05:03] INFO root fetch - processPackages [openi-test]: Downloading https://files.pythonhosted.org/packages/5c/69/bf652e363f4f30f2d27d40f41b43c519256f7f433f9752fa057f15fd5aec/openi_test-0.2.4.tar.gz
+[2023-07-07 10:05:03] INFO root fetch - processPackages [openi-test]: Downloading https://files.pythonhosted.org/packages/5c/69/bf652e363f4f30f2d27d40f41b43c519256f7f433f9752fa057f15fd5aec/openi_test-0.2.4.tar.gz
+[2023-07-07 10:05:03] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/55/8e/c10a453677812ff66a65c459737c99f6b99cc00da8cc2e27f3a1f924faa0/lollms-2.1.8.tar.gz
+[2023-07-07 10:05:03] INFO root fetch - processPackages [fossbill]: Downloading https://files.pythonhosted.org/packages/9b/8a/1820c5bc1b2d6160705f01db22b2c93757deaccb5660801f01e9f5e73e3a/fossbill-0.8.1-py3-none-any.whl
+[2023-07-07 10:05:03] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/c1/e9/4dfd8e70e799c5123798d75983e02b6c842b73f46dad71d119d3ebcf7899/terminal_manager-0.1.0.tar.gz
+[2023-07-07 10:05:03] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/c0/8b/7e99a858cd05588848a800cca8b2ffb8af059ba2ffbc13cc145545d4e6f7/ert-5.1.0b1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-07 10:05:03] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/93/59/9c87e90597a4fc3c2567abe4a0ff19fd2b89df126eacc6b3d22b92ec47b4/lesscode-py-0.3.8.tar.gz
+[2023-07-07 10:05:03] INFO root fetch - processPackages [fixms]: Downloading https://files.pythonhosted.org/packages/2b/60/ae5a2ff61f81c303732313b882c240e8a9ff9c6f850fd422f2216d1b6c09/fixms-0.0.0.tar.gz
+[2023-07-07 10:05:03] INFO root fetch - processPackages [session-repository]: Downloading https://files.pythonhosted.org/packages/75/17/403c276893ce7dbb7aecaad4db614f2e19404eb494e57f71adca16fb1275/session-repository-0.1.9.tar.gz
+[2023-07-07 10:05:03] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/6a/83/7745db4a743155e7a857ec418630027696e10e7fb67dfd6805a2496bdb64/lollms-2.1.9.tar.gz
+[2023-07-07 10:05:03] INFO root fetch - processPackages [connect-extension-runner]: Downloading https://files.pythonhosted.org/packages/03/14/71a6e954cd0a9de0c41d3f50021f90837d5f77b90111ebe35327e18df68a/connect_extension_runner-28.4.tar.gz
+[2023-07-07 10:05:04] INFO root fetch - processPackages [openi-test]: Downloading https://files.pythonhosted.org/packages/1f/8d/65131ebfe70ca05590b1b2b93a682f18ea1e6bef3ac0ff262920ff0f6567/openi_test-0.2.5.tar.gz
+[2023-07-07 10:05:04] INFO root fetch - processPackages [openi-test]: Downloading https://files.pythonhosted.org/packages/1f/8d/65131ebfe70ca05590b1b2b93a682f18ea1e6bef3ac0ff262920ff0f6567/openi_test-0.2.5.tar.gz
+[2023-07-07 10:05:04] INFO root fetch - processPackages [fossbill]: Downloading https://files.pythonhosted.org/packages/06/57/01c7f211973b328bba6e445bfa190a9031e0d2fc1a9e2c409ba8fcd2bb0c/fossbill-0.9.0-py3-none-any.whl
+[2023-07-07 10:05:04] INFO root fetch - processPackages [lollms]: executing diffoscope
+[2023-07-07 10:05:04] INFO root fetch - processPackages [lollms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms-2.1.8.tar.gz tmp/lollms-2.1.9.tar.gz --markdown 20230707/l/lollms/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-07 10:05:04] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/0c/21/aa352b74357a2f3e6d8d203d40dd17ae3d7f1ebea50c8b5f5f682fd0e5d0/terminal_manager-0.2.0.tar.gz
+[2023-07-07 10:05:04] INFO root fetch - processPackages [session-repository]: executing diffoscope
+[2023-07-07 10:05:04] INFO root fetch - processPackages [session-repository]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/session-repository-0.1.8.tar.gz tmp/session-repository-0.1.9.tar.gz --markdown 20230707/s/session-repository/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-07 10:05:04] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/64/97/cec698b665aba9a27d2cddb9f7528a8982bbaa3379372774ff671e45fb3e/lesscode-py-0.3.9.tar.gz
+[2023-07-07 10:05:04] INFO root fetch - processPackages [fixms]: Downloading https://files.pythonhosted.org/packages/d1/23/04f8e04cb6eee2406e14bb3c0386249fbc34f0320d72b8ac55827fbdb18d/fixms-0.0.1.tar.gz
+[2023-07-07 10:05:04] INFO root fetch - processPackages [connect-extension-runner]: executing diffoscope
+[2023-07-07 10:05:04] INFO root fetch - processPackages [connect-extension-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connect_extension_runner-28.3.tar.gz tmp/connect_extension_runner-28.4.tar.gz --markdown 20230707/c/connect-extension-runner/28.3-28.4/diff.md --exclude *.pyd
+[2023-07-07 10:05:04] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/2b/26/b7282bd9570f0247b6ca5528718dada34c4fe166df3e85cdb8f21b441fc6/ert-5.1.0b2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-07 10:05:04] INFO root fetch - processPackages [openi-test]: executing diffoscope
+[2023-07-07 10:05:04] INFO root fetch - processPackages [openi-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi_test-0.2.4.tar.gz tmp/openi_test-0.2.5.tar.gz --markdown 20230707/o/openi-test/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-07 10:05:04] INFO root fetch - processPackages [openi-test]: executing diffoscope
+[2023-07-07 10:05:04] INFO root fetch - processPackages [openi-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi_test-0.2.4.tar.gz tmp/openi_test-0.2.5.tar.gz --markdown 20230707/o/openi-test/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-07 10:05:04] INFO root fetch - processPackages [terminal-manager]: executing diffoscope
+[2023-07-07 10:05:04] INFO root fetch - processPackages [terminal-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminal_manager-0.1.0.tar.gz tmp/terminal_manager-0.2.0.tar.gz --markdown 20230707/t/terminal-manager/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-07 10:05:04] INFO root fetch - processPackages [lesscode-py]: executing diffoscope
+[2023-07-07 10:05:04] INFO root fetch - processPackages [lesscode-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode-py-0.3.8.tar.gz tmp/lesscode-py-0.3.9.tar.gz --markdown 20230707/l/lesscode-py/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-07 10:05:04] INFO root fetch - processPackages [fossbill]: executing diffoscope
+[2023-07-07 10:05:04] INFO root fetch - processPackages [fossbill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fossbill-0.8.1-py3-none-any.whl.zip tmp/fossbill-0.9.0-py3-none-any.whl.zip --markdown 20230707/f/fossbill/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-07 10:05:04] INFO root fetch - processPackages [fixms]: executing diffoscope
+[2023-07-07 10:05:04] INFO root fetch - processPackages [fixms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixms-0.0.0.tar.gz tmp/fixms-0.0.1.tar.gz --markdown 20230707/f/fixms/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-07 10:05:04] INFO root fetch - processPackages [ert]: executing diffoscope
+[2023-07-07 10:05:04] INFO root fetch - processPackages [ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert-5.1.0b1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ert-5.1.0b2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230707/e/ert/5.1.0b1-5.1.0b2/diff.md --exclude *.pyd
+[2023-07-07 10:05:05] INFO root fetch - processPackages [session-repository]: Remove: archive file [/home/abi/fetcher/tmp/session-repository-0.1.8.tar.gz]
+[2023-07-07 10:05:05] INFO root fetch - processPackages [session-repository]: Remove: archive file [/home/abi/fetcher/tmp/session-repository-0.1.9.tar.gz]
+[2023-07-07 10:05:05] INFO root fetch - processPackages [session-repository]: Start processing: pyciactions
+[2023-07-07 10:05:05] INFO root fetch - main [MainThread]: End processing [session-repository]: success
+[2023-07-07 10:05:05] INFO root fetch - processPackages [pyciactions]: New version: [1.0.9] Old Version: [1.0.8a8]
+[2023-07-07 10:05:05] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.8.tar.gz]
+[2023-07-07 10:05:05] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.9.tar.gz]
+[2023-07-07 10:05:05] INFO root fetch - processPackages [lollms]: Start processing: simplesundragon
+[2023-07-07 10:05:05] INFO root fetch - main [MainThread]: End processing [lollms]: success
+[2023-07-07 10:05:05] WARNING root fetch - processPackages [simplesundragon]: Skipping, unable to determine old version
+[2023-07-07 10:05:05] INFO root fetch - processPackages [simplesundragon]: Start processing: pyjd
+[2023-07-07 10:05:05] INFO root fetch - main [MainThread]: End processing [simplesundragon] error
+[2023-07-07 10:05:05] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/4f/f3/3f4bce0f1e4c09bf27f8534421b31f53514ec81a4b706ba66930ae207c9f/pyciactions-1.0.8a8.tar.gz
+[2023-07-07 10:05:05] INFO root fetch - processPackages [pyjd]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-07 10:05:05] INFO root fetch - processPackages [connect-extension-runner]: Remove: archive file [/home/abi/fetcher/tmp/connect_extension_runner-28.3.tar.gz]
+[2023-07-07 10:05:05] INFO root fetch - processPackages [connect-extension-runner]: Remove: archive file [/home/abi/fetcher/tmp/connect_extension_runner-28.4.tar.gz]
+[2023-07-07 10:05:05] INFO root fetch - processPackages [connect-extension-runner]: Start processing: krutils
+[2023-07-07 10:05:05] INFO root fetch - main [MainThread]: End processing [connect-extension-runner]: success
+[2023-07-07 10:05:05] INFO root fetch - processPackages [openi-test]: Remove: archive file [/home/abi/fetcher/tmp/openi_test-0.2.4.tar.gz]
+[2023-07-07 10:05:05] INFO root fetch - processPackages [openi-test]: Remove: archive file [/home/abi/fetcher/tmp/openi_test-0.2.5.tar.gz]
+[2023-07-07 10:05:05] INFO root fetch - processPackages [openi-test]: Start processing: subaligner
+[2023-07-07 10:05:05] INFO root fetch - main [MainThread]: End processing [openi-test]: success
+[2023-07-07 10:05:05] INFO root fetch - processPackages [pyjd]: Downloading https://files.pythonhosted.org/packages/57/fe/810ca47854ddb09d0b9bd00e2981ca18196f3a63d215c09a20122a6ce2de/pyjd-1.0.3.tar.gz
+[2023-07-07 10:05:05] INFO root fetch - processPackages [fixms]: Remove: archive file [/home/abi/fetcher/tmp/fixms-0.0.0.tar.gz]
+[2023-07-07 10:05:05] INFO root fetch - processPackages [fixms]: Remove: archive file [/home/abi/fetcher/tmp/fixms-0.0.1.tar.gz]
+[2023-07-07 10:05:05] INFO root fetch - processPackages [fixms]: Start processing: lazyearth
+[2023-07-07 10:05:05] INFO root fetch - main [MainThread]: End processing [fixms]: success
+[2023-07-07 10:05:06] INFO root fetch - processPackages [openi-test]: Start processing: kikyo
+[2023-07-07 10:05:06] INFO root fetch - main [MainThread]: End processing [openi-test]: success
+[2023-07-07 10:05:06] INFO root fetch - processPackages [krutils]: New version: [0.20230707.1702] Old Version: [0.20230624.2235]
+[2023-07-07 10:05:06] INFO root fetch - processPackages [lazyearth]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-07 10:05:06] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.1.0.tar.gz]
+[2023-07-07 10:05:06] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.2.0.tar.gz]
+[2023-07-07 10:05:06] INFO root fetch - processPackages [terminal-manager]: Start processing: nonebot-plugin-cp-broadcast
+[2023-07-07 10:05:06] INFO root fetch - main [MainThread]: End processing [terminal-manager]: success
+[2023-07-07 10:05:06] INFO root fetch - processPackages [fossbill]: Remove: archive file [/home/abi/fetcher/tmp/fossbill-0.8.1-py3-none-any.whl.zip]
+[2023-07-07 10:05:06] INFO root fetch - processPackages [fossbill]: Remove: archive file [/home/abi/fetcher/tmp/fossbill-0.9.0-py3-none-any.whl.zip]
+[2023-07-07 10:05:06] INFO root fetch - processPackages [fossbill]: Start processing: xpyutils
+[2023-07-07 10:05:06] INFO root fetch - main [MainThread]: End processing [fossbill]: success
+[2023-07-07 10:05:06] INFO root fetch - processPackages [pyjd]: Downloading https://files.pythonhosted.org/packages/02/cb/fed913430448c2449e14cb014f8cf67263657f0c064026504bb77f463c3e/pyjd-1.0.4.tar.gz
+[2023-07-07 10:05:06] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/31/76/449e2f9925c75cb9cae72fcc6ebcb769640e519cf941ad29cee965d3ac35/pyciactions-1.0.9.tar.gz
+[2023-07-07 10:05:06] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/d9/c7/af1d2c78694d1c93c56f540f2905e5ba84ce2e701c057e6ed55b4a5924bd/lazyearth-1.0.7.tar.gz
+[2023-07-07 10:05:06] INFO root fetch - processPackages [kikyo]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-07 10:05:06] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.8.tar.gz]
+[2023-07-07 10:05:06] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.9.tar.gz]
+[2023-07-07 10:05:06] INFO root fetch - processPackages [lesscode-py]: Start processing: tungstenkit
+[2023-07-07 10:05:06] INFO root fetch - main [MainThread]: End processing [lesscode-py]: success
+[2023-07-07 10:05:06] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-07-07 10:05:06] INFO root fetch - processPackages [xpyutils]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-07 10:05:06] INFO root fetch - processPackages [pyciactions]: executing diffoscope
+[2023-07-07 10:05:06] INFO root fetch - processPackages [pyciactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyciactions-1.0.8a8.tar.gz tmp/pyciactions-1.0.9.tar.gz --markdown 20230707/p/pyciactions/1.0.8a8-1.0.9/diff.md --exclude *.pyd
+[2023-07-07 10:05:06] INFO root fetch - processPackages [pyjd]: executing diffoscope
+[2023-07-07 10:05:06] INFO root fetch - processPackages [pyjd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjd-1.0.3.tar.gz tmp/pyjd-1.0.4.tar.gz --markdown 20230707/p/pyjd/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-07 10:05:06] INFO root fetch - processPackages [subaligner]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-07 10:05:06] INFO root fetch - processPackages [krutils]: Downloading https://files.pythonhosted.org/packages/33/01/7741f19327beee735a0bd8b5ac6acdf18daa18e167b28470c1e2c263de97/krutils-0.20230624.2235.tar.gz
+[2023-07-07 10:05:06] INFO root fetch - processPackages [xpyutils]: Downloading https://files.pythonhosted.org/packages/91/b8/f331ed7bf5681a87ffb54582cbfe80d1e8c6d9d14168d7a20bcb9b79bbe5/xpyutils-0.0.2.tar.gz
+[2023-07-07 10:05:06] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/57/a4/1f336b2de35597565a2417d8be51639317ff136edaf8e169f5f0828f24fc/lazyearth-1.0.8.tar.gz
+[2023-07-07 10:05:06] INFO root fetch - processPackages [kikyo]: Downloading https://files.pythonhosted.org/packages/87/46/c71a33a9e207c76ade05abb19970a671488174738425fd4fc772f0722d01/kikyo-0.9.1.tar.gz
+[2023-07-07 10:05:06] INFO root fetch - processPackages [tungstenkit]: New version: [0.1.1a2] Old Version: [0.1.1a1]
+[2023-07-07 10:05:06] INFO root fetch - processPackages [lazyearth]: executing diffoscope
+[2023-07-07 10:05:06] INFO root fetch - processPackages [lazyearth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyearth-1.0.7.tar.gz tmp/lazyearth-1.0.8.tar.gz --markdown 20230707/l/lazyearth/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-07 10:05:06] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Downloading https://files.pythonhosted.org/packages/79/36/0f49706de963ae0a68f38b5564aef1d66c143c7c50d49391f0c88f402942/nonebot_plugin_cp_broadcast-0.1.1.tar.gz
+[2023-07-07 10:05:06] INFO root fetch - processPackages [subaligner]: Downloading https://files.pythonhosted.org/packages/7a/bf/6f9c929fca85238670cc5ed98b98eb02ea85cb342c6b9dbbc9e9f4b0a286/subaligner-0.3.3.tar.gz
+[2023-07-07 10:05:06] INFO root fetch - processPackages [krutils]: Downloading https://files.pythonhosted.org/packages/50/4c/39839aada52e6d68e5d035cd2c29ca3a7cc27e961d98ccadad9f8aee3fe7/krutils-0.20230707.1702.tar.gz
+[2023-07-07 10:05:06] INFO root fetch - processPackages [tungstenkit]: Downloading https://files.pythonhosted.org/packages/76/50/2eda4b2f957c53f7b1a2e9a2ae9ebd994f1c2cf5bb265978f7351e9a2f95/tungstenkit-0.1.1a1.tar.gz
+[2023-07-07 10:05:06] INFO root fetch - processPackages [xpyutils]: Downloading https://files.pythonhosted.org/packages/0f/f9/104a05c96ae535649f26fd1ede0e2be12f335d2ae6a3d299f140c5af3331/xpyutils-0.0.3.tar.gz
+[2023-07-07 10:05:06] INFO root fetch - processPackages [xpyutils]: executing diffoscope
+[2023-07-07 10:05:06] INFO root fetch - processPackages [xpyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpyutils-0.0.2.tar.gz tmp/xpyutils-0.0.3.tar.gz --markdown 20230707/x/xpyutils/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-07 10:05:06] INFO root fetch - processPackages [krutils]: executing diffoscope
+[2023-07-07 10:05:06] INFO root fetch - processPackages [krutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krutils-0.20230624.2235.tar.gz tmp/krutils-0.20230707.1702.tar.gz --markdown 20230707/k/krutils/0.20230624.2235-0.20230707.1702/diff.md --exclude *.pyd
+[2023-07-07 10:05:07] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Downloading https://files.pythonhosted.org/packages/c6/4d/e1c246a81a508492a23d940f890cd406e38a3379387899eeaf00aec7179b/nonebot_plugin_cp_broadcast-0.1.3.tar.gz
+[2023-07-07 10:05:07] INFO root fetch - processPackages [kikyo]: Downloading https://files.pythonhosted.org/packages/6c/8c/8da29e51448211a8f2af9a0adaed230adc516cc930c317436c1f1f3c3337/kikyo-0.9.2.tar.gz
+[2023-07-07 10:05:07] INFO root fetch - processPackages [tungstenkit]: Downloading https://files.pythonhosted.org/packages/68/fd/5d548bdf4f36183af2b2ea30d4142c55b2a6575f43ea1d65d686619d6447/tungstenkit-0.1.1a2.tar.gz
+[2023-07-07 10:05:07] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: executing diffoscope
+[2023-07-07 10:05:07] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_cp_broadcast-0.1.1.tar.gz tmp/nonebot_plugin_cp_broadcast-0.1.3.tar.gz --markdown 20230707/n/nonebot-plugin-cp-broadcast/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-07-07 10:05:07] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.8a8.tar.gz]
+[2023-07-07 10:05:07] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.9.tar.gz]
+[2023-07-07 10:05:07] INFO root fetch - main [MainThread]: End processing [pyciactions]: success
+[2023-07-07 10:05:07] INFO root fetch - processPackages [tungstenkit]: executing diffoscope
+[2023-07-07 10:05:07] INFO root fetch - processPackages [tungstenkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tungstenkit-0.1.1a1.tar.gz tmp/tungstenkit-0.1.1a2.tar.gz --markdown 20230707/t/tungstenkit/0.1.1a1-0.1.1a2/diff.md --exclude *.pyd
+[2023-07-07 10:05:07] INFO root fetch - processPackages [subaligner]: Downloading https://files.pythonhosted.org/packages/81/52/90d5e8c6b6af430d7a3d8174b2be2317cbdf843a16f4ad025ffe7866c523/subaligner-0.3.4.tar.gz
+[2023-07-07 10:05:07] INFO root fetch - processPackages [lazyearth]: Remove: archive file [/home/abi/fetcher/tmp/lazyearth-1.0.7.tar.gz]
+[2023-07-07 10:05:07] INFO root fetch - processPackages [lazyearth]: Remove: archive file [/home/abi/fetcher/tmp/lazyearth-1.0.8.tar.gz]
+[2023-07-07 10:05:07] INFO root fetch - main [MainThread]: End processing [lazyearth]: success
+[2023-07-07 10:05:07] INFO root fetch - processPackages [pyjd]: Remove: archive file [/home/abi/fetcher/tmp/pyjd-1.0.3.tar.gz]
+[2023-07-07 10:05:07] INFO root fetch - processPackages [pyjd]: Remove: archive file [/home/abi/fetcher/tmp/pyjd-1.0.4.tar.gz]
+[2023-07-07 10:05:07] INFO root fetch - main [MainThread]: End processing [pyjd]: success
+[2023-07-07 10:05:07] INFO root fetch - processPackages [subaligner]: executing diffoscope
+[2023-07-07 10:05:07] INFO root fetch - processPackages [subaligner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subaligner-0.3.3.tar.gz tmp/subaligner-0.3.4.tar.gz --markdown 20230707/s/subaligner/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-07 10:05:07] INFO root fetch - processPackages [kikyo]: executing diffoscope
+[2023-07-07 10:05:07] INFO root fetch - processPackages [kikyo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kikyo-0.9.1.tar.gz tmp/kikyo-0.9.2.tar.gz --markdown 20230707/k/kikyo/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-07 10:05:08] INFO root fetch - processPackages [xpyutils]: Remove: archive file [/home/abi/fetcher/tmp/xpyutils-0.0.2.tar.gz]
+[2023-07-07 10:05:08] INFO root fetch - processPackages [xpyutils]: Remove: archive file [/home/abi/fetcher/tmp/xpyutils-0.0.3.tar.gz]
+[2023-07-07 10:05:08] INFO root fetch - main [MainThread]: End processing [xpyutils]: success
+[2023-07-07 10:05:08] INFO root fetch - processPackages [krutils]: Remove: archive file [/home/abi/fetcher/tmp/krutils-0.20230624.2235.tar.gz]
+[2023-07-07 10:05:08] INFO root fetch - processPackages [krutils]: Remove: archive file [/home/abi/fetcher/tmp/krutils-0.20230707.1702.tar.gz]
+[2023-07-07 10:05:08] INFO root fetch - main [MainThread]: End processing [krutils]: success
+[2023-07-07 10:05:08] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_cp_broadcast-0.1.1.tar.gz]
+[2023-07-07 10:05:08] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_cp_broadcast-0.1.3.tar.gz]
+[2023-07-07 10:05:08] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-cp-broadcast]: success
+[2023-07-07 10:05:08] INFO root fetch - processPackages [kikyo]: Remove: archive file [/home/abi/fetcher/tmp/kikyo-0.9.1.tar.gz]
+[2023-07-07 10:05:08] INFO root fetch - processPackages [kikyo]: Remove: archive file [/home/abi/fetcher/tmp/kikyo-0.9.2.tar.gz]
+[2023-07-07 10:05:08] INFO root fetch - main [MainThread]: End processing [kikyo]: success
+[2023-07-07 10:05:08] INFO root fetch - processPackages [subaligner]: Remove: archive file [/home/abi/fetcher/tmp/subaligner-0.3.3.tar.gz]
+[2023-07-07 10:05:08] INFO root fetch - processPackages [subaligner]: Remove: archive file [/home/abi/fetcher/tmp/subaligner-0.3.4.tar.gz]
+[2023-07-07 10:05:08] INFO root fetch - main [MainThread]: End processing [subaligner]: success
+[2023-07-07 10:05:11] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-5.1.0b1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-07 10:05:11] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-5.1.0b2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-07 10:05:11] INFO root fetch - main [MainThread]: End processing [ert]: success
+[2023-07-07 10:05:16] INFO root fetch - processPackages [tungstenkit]: Remove: archive file [/home/abi/fetcher/tmp/tungstenkit-0.1.1a1.tar.gz]
+[2023-07-07 10:05:16] INFO root fetch - processPackages [tungstenkit]: Remove: archive file [/home/abi/fetcher/tmp/tungstenkit-0.1.1a2.tar.gz]
+[2023-07-07 10:05:16] INFO root fetch - main [MainThread]: End processing [tungstenkit]: success
+[2023-07-07 10:05:16] INFO root fetch - main [MainThread]: Store serial: [18797245]
