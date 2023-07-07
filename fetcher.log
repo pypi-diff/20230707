@@ -18009,3 +18009,102 @@ EOFError: EOF read where object expected
 [2023-07-07 11:51:43] INFO root fetch - processPackages [pypi-version]: Remove: archive file [/home/abi/fetcher/tmp/pypi-version-0.2.0.tar.gz]
 [2023-07-07 11:51:43] INFO root fetch - main [MainThread]: End processing [pypi-version]: success
 [2023-07-07 11:51:43] INFO root fetch - main [MainThread]: Store serial: [18798589]
+[2023-07-07 11:56:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18798589]
+[2023-07-07 11:56:52] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-07 11:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: threads-net
+[2023-07-07 11:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trumpy
+[2023-07-07 11:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fnum
+[2023-07-07 11:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autopio
+[2023-07-07 11:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oobabot
+[2023-07-07 11:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kube-copilot
+[2023-07-07 11:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DupliPy
+[2023-07-07 11:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tank-inspector
+[2023-07-07 11:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nndescent
+[2023-07-07 11:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: up-paraspace
+[2023-07-07 11:56:52] WARNING root fetch - processPackages [threads-net]: Skipping, unable to determine old version
+[2023-07-07 11:56:52] INFO root fetch - processPackages [threads-net]: Start processing: tui-typer-tutor
+[2023-07-07 11:56:52] INFO root fetch - main [MainThread]: End processing [threads-net] error
+[2023-07-07 11:56:52] INFO root fetch - processPackages [fnum]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-07-07 11:56:52] WARNING root fetch - processPackages [up-paraspace]: Skipping, unable to determine old version
+[2023-07-07 11:56:52] INFO root fetch - processPackages [up-paraspace]: Start processing: cloudtik
+[2023-07-07 11:56:52] INFO root fetch - main [MainThread]: End processing [up-paraspace] error
+[2023-07-07 11:56:52] WARNING root fetch - processPackages [DupliPy]: Skipping, unable to determine old version
+[2023-07-07 11:56:52] INFO root fetch - processPackages [DupliPy]: Start processing: v-quantum-annealing
+[2023-07-07 11:56:52] INFO root fetch - main [MainThread]: End processing [DupliPy] error
+[2023-07-07 11:56:52] INFO root fetch - processPackages [trumpy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-07 11:56:52] INFO root fetch - processPackages [kube-copilot]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-07 11:56:52] INFO root fetch - processPackages [autopio]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-07-07 11:56:52] WARNING root fetch - processPackages [nndescent]: Skipping, unable to determine old version
+[2023-07-07 11:56:52] INFO root fetch - processPackages [nndescent]: Start processing: sequencelib
+[2023-07-07 11:56:52] INFO root fetch - main [MainThread]: End processing [nndescent] error
+[2023-07-07 11:56:52] WARNING root fetch - processPackages [tank-inspector]: Skipping, unable to determine old version
+[2023-07-07 11:56:52] INFO root fetch - main [MainThread]: End processing [tank-inspector] error
+[2023-07-07 11:56:52] INFO root fetch - processPackages [oobabot]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-07 11:56:53] INFO root fetch - processPackages [tui-typer-tutor]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-07-07 11:56:53] INFO root fetch - processPackages [v-quantum-annealing]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 11:56:53] INFO root fetch - processPackages [cloudtik]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-07 11:56:53] INFO root fetch - processPackages [v-quantum-annealing]: Downloading https://files.pythonhosted.org/packages/a3/22/b01e7bb04835215ae01270e487b97dab9b252137f1801d1115400ea8d90a/v_quantum_annealing-0.0.8.tar.gz
+[2023-07-07 11:56:53] INFO root fetch - processPackages [trumpy]: Downloading https://files.pythonhosted.org/packages/59/3a/4b70f9913920a3e74f83c9ccfc896c2058d6d7c2043106b2842b0959cd07/trumpy-0.1.1.tar.gz
+[2023-07-07 11:56:53] INFO root fetch - processPackages [fnum]: Downloading https://files.pythonhosted.org/packages/1c/39/5d644a65c3ff4e3392773e395b69154a909945b5c87530684f2c92c3d37d/fnum-1.0.3-py3-none-any.whl
+[2023-07-07 11:56:53] INFO root fetch - processPackages [sequencelib]: New version: [2.9.0] Old Version: [2.8.3]
+[2023-07-07 11:56:53] INFO root fetch - processPackages [autopio]: Downloading https://files.pythonhosted.org/packages/e3/d4/e6c87f2db05ce6caa97cc5f6d5f22d0eea8f3e97a750e3538d407158c771/autopio-0.1.0.tar.gz
+[2023-07-07 11:56:53] INFO root fetch - processPackages [oobabot]: Downloading https://files.pythonhosted.org/packages/3e/cd/2d46ae9934db8a1b9976ed055aa0a88220eb8920fea3849e434119aaedfd/oobabot-0.1.9.tar.gz
+[2023-07-07 11:56:53] INFO root fetch - processPackages [tui-typer-tutor]: Downloading https://files.pythonhosted.org/packages/a0/9a/9a594fb469e099bad6f7ffa2f5893d84a26ee0d8b6f2f7bc1e503dee8465/tui_typer_tutor-1.0.1.tar.gz
+[2023-07-07 11:56:53] INFO root fetch - processPackages [kube-copilot]: Downloading https://files.pythonhosted.org/packages/92/ed/ae22c3eb11fd91f9bc01dbdcba0f4a7c22cef980bf8f5fef46caec814480/kube_copilot-0.1.8.tar.gz
+[2023-07-07 11:56:53] INFO root fetch - processPackages [cloudtik]: Downloading https://files.pythonhosted.org/packages/a4/65/e661725082b618a9564d8e49c198721b8e56cb4e2c09b548461436cdece8/cloudtik-1.1.0-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-07 11:56:53] INFO root fetch - processPackages [sequencelib]: Downloading https://files.pythonhosted.org/packages/df/af/aeffb658f34a9d10c424ea196dc62836c82233f84182f628019517b023b0/sequencelib-2.8.3.tar.gz
+[2023-07-07 11:56:53] INFO root fetch - processPackages [trumpy]: Downloading https://files.pythonhosted.org/packages/d3/4a/f30527de5c05b729de59c8413a33f002a20a46bef39c1c9d58cbd08e5a61/trumpy-0.1.2.tar.gz
+[2023-07-07 11:56:53] INFO root fetch - processPackages [v-quantum-annealing]: Downloading https://files.pythonhosted.org/packages/9d/8f/5bc22a08352bc6e11eb0dee3d5cc0e9511595befb00f71e0c4b8fcb5f07b/v_quantum_annealing-0.0.9.tar.gz
+[2023-07-07 11:56:53] INFO root fetch - processPackages [fnum]: Downloading https://files.pythonhosted.org/packages/8a/23/6cba324d5727f55921cee5d23db9429fe0ff17c6be0a656b591c87fd69a9/fnum-1.1.0-py3-none-any.whl
+[2023-07-07 11:56:53] INFO root fetch - processPackages [tui-typer-tutor]: Downloading https://files.pythonhosted.org/packages/71/50/9cd209e3624f7f4700f5d101d59f2a7a33a375c9fe8452588e5da34b0316/tui_typer_tutor-1.1.0.tar.gz
+[2023-07-07 11:56:53] INFO root fetch - processPackages [autopio]: Downloading https://files.pythonhosted.org/packages/4e/d1/1cb8b49f886c3efe3eba3adf0809c73fe9973226767f827370bfff046c54/autopio-0.1.2.tar.gz
+[2023-07-07 11:56:53] INFO root fetch - processPackages [kube-copilot]: Downloading https://files.pythonhosted.org/packages/fd/35/3e18869b47a41c295ac800019e28347fde14879ede6506f97393faade562/kube_copilot-0.1.9.tar.gz
+[2023-07-07 11:56:53] INFO root fetch - processPackages [fnum]: executing diffoscope
+[2023-07-07 11:56:53] INFO root fetch - processPackages [fnum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnum-1.0.3-py3-none-any.whl.zip tmp/fnum-1.1.0-py3-none-any.whl.zip --markdown 20230707/f/fnum/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-07-07 11:56:53] INFO root fetch - processPackages [trumpy]: executing diffoscope
+[2023-07-07 11:56:53] INFO root fetch - processPackages [trumpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trumpy-0.1.1.tar.gz tmp/trumpy-0.1.2.tar.gz --markdown 20230707/t/trumpy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-07 11:56:53] INFO root fetch - processPackages [oobabot]: Downloading https://files.pythonhosted.org/packages/84/84/cb5f71a80d630835166622138ca167c1dcc3e7ec551f229a7dbe2ff391c0/oobabot-0.2.0.tar.gz
+[2023-07-07 11:56:53] INFO root fetch - processPackages [autopio]: executing diffoscope
+[2023-07-07 11:56:53] INFO root fetch - processPackages [autopio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopio-0.1.0.tar.gz tmp/autopio-0.1.2.tar.gz --markdown 20230707/a/autopio/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-07-07 11:56:53] INFO root fetch - processPackages [tui-typer-tutor]: executing diffoscope
+[2023-07-07 11:56:53] INFO root fetch - processPackages [tui-typer-tutor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui_typer_tutor-1.0.1.tar.gz tmp/tui_typer_tutor-1.1.0.tar.gz --markdown 20230707/t/tui-typer-tutor/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-07 11:56:54] INFO root fetch - processPackages [v-quantum-annealing]: executing diffoscope
+[2023-07-07 11:56:54] INFO root fetch - processPackages [v-quantum-annealing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v_quantum_annealing-0.0.8.tar.gz tmp/v_quantum_annealing-0.0.9.tar.gz --markdown 20230707/v/v-quantum-annealing/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 11:56:54] INFO root fetch - processPackages [kube-copilot]: executing diffoscope
+[2023-07-07 11:56:54] INFO root fetch - processPackages [kube-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kube_copilot-0.1.8.tar.gz tmp/kube_copilot-0.1.9.tar.gz --markdown 20230707/k/kube-copilot/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-07 11:56:54] INFO root fetch - processPackages [sequencelib]: Downloading https://files.pythonhosted.org/packages/75/be/3444e09a307974313d38cd27f3f6ac864823eaa25067f32496ef0a8f44f3/sequencelib-2.9.0.tar.gz
+[2023-07-07 11:56:54] INFO root fetch - processPackages [oobabot]: executing diffoscope
+[2023-07-07 11:56:54] INFO root fetch - processPackages [oobabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oobabot-0.1.9.tar.gz tmp/oobabot-0.2.0.tar.gz --markdown 20230707/o/oobabot/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-07 11:56:54] INFO root fetch - processPackages [sequencelib]: executing diffoscope
+[2023-07-07 11:56:54] INFO root fetch - processPackages [sequencelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sequencelib-2.8.3.tar.gz tmp/sequencelib-2.9.0.tar.gz --markdown 20230707/s/sequencelib/2.8.3-2.9.0/diff.md --exclude *.pyd
+[2023-07-07 11:56:55] INFO root fetch - processPackages [cloudtik]: Downloading https://files.pythonhosted.org/packages/a2/88/a6e40a1a6812347bdbe2b9b867bc1bb35033e57948aff05e808de37a60da/cloudtik-1.2.0-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-07 11:56:55] INFO root fetch - processPackages [trumpy]: Remove: archive file [/home/abi/fetcher/tmp/trumpy-0.1.1.tar.gz]
+[2023-07-07 11:56:55] INFO root fetch - processPackages [trumpy]: Remove: archive file [/home/abi/fetcher/tmp/trumpy-0.1.2.tar.gz]
+[2023-07-07 11:56:55] INFO root fetch - main [MainThread]: End processing [trumpy]: success
+[2023-07-07 11:56:55] INFO root fetch - processPackages [tui-typer-tutor]: Remove: archive file [/home/abi/fetcher/tmp/tui_typer_tutor-1.0.1.tar.gz]
+[2023-07-07 11:56:55] INFO root fetch - processPackages [tui-typer-tutor]: Remove: archive file [/home/abi/fetcher/tmp/tui_typer_tutor-1.1.0.tar.gz]
+[2023-07-07 11:56:55] INFO root fetch - main [MainThread]: End processing [tui-typer-tutor]: success
+[2023-07-07 11:56:55] INFO root fetch - processPackages [fnum]: Remove: archive file [/home/abi/fetcher/tmp/fnum-1.0.3-py3-none-any.whl.zip]
+[2023-07-07 11:56:55] INFO root fetch - processPackages [fnum]: Remove: archive file [/home/abi/fetcher/tmp/fnum-1.1.0-py3-none-any.whl.zip]
+[2023-07-07 11:56:55] INFO root fetch - main [MainThread]: End processing [fnum]: success
+[2023-07-07 11:56:55] INFO root fetch - processPackages [autopio]: Remove: archive file [/home/abi/fetcher/tmp/autopio-0.1.0.tar.gz]
+[2023-07-07 11:56:55] INFO root fetch - processPackages [autopio]: Remove: archive file [/home/abi/fetcher/tmp/autopio-0.1.2.tar.gz]
+[2023-07-07 11:56:55] INFO root fetch - main [MainThread]: End processing [autopio]: success
+[2023-07-07 11:56:55] INFO root fetch - processPackages [kube-copilot]: Remove: archive file [/home/abi/fetcher/tmp/kube_copilot-0.1.8.tar.gz]
+[2023-07-07 11:56:55] INFO root fetch - processPackages [kube-copilot]: Remove: archive file [/home/abi/fetcher/tmp/kube_copilot-0.1.9.tar.gz]
+[2023-07-07 11:56:55] INFO root fetch - main [MainThread]: End processing [kube-copilot]: success
+[2023-07-07 11:56:55] INFO root fetch - processPackages [oobabot]: Remove: archive file [/home/abi/fetcher/tmp/oobabot-0.1.9.tar.gz]
+[2023-07-07 11:56:55] INFO root fetch - processPackages [oobabot]: Remove: archive file [/home/abi/fetcher/tmp/oobabot-0.2.0.tar.gz]
+[2023-07-07 11:56:55] INFO root fetch - main [MainThread]: End processing [oobabot]: success
+[2023-07-07 11:56:55] INFO root fetch - processPackages [sequencelib]: Remove: archive file [/home/abi/fetcher/tmp/sequencelib-2.8.3.tar.gz]
+[2023-07-07 11:56:55] INFO root fetch - processPackages [sequencelib]: Remove: archive file [/home/abi/fetcher/tmp/sequencelib-2.9.0.tar.gz]
+[2023-07-07 11:56:55] INFO root fetch - main [MainThread]: End processing [sequencelib]: success
+[2023-07-07 11:56:55] INFO root fetch - processPackages [v-quantum-annealing]: Remove: archive file [/home/abi/fetcher/tmp/v_quantum_annealing-0.0.8.tar.gz]
+[2023-07-07 11:56:55] INFO root fetch - processPackages [v-quantum-annealing]: Remove: archive file [/home/abi/fetcher/tmp/v_quantum_annealing-0.0.9.tar.gz]
+[2023-07-07 11:56:55] INFO root fetch - main [MainThread]: End processing [v-quantum-annealing]: success
+[2023-07-07 11:56:56] INFO root fetch - processPackages [cloudtik]: executing diffoscope
+[2023-07-07 11:56:56] INFO root fetch - processPackages [cloudtik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudtik-1.1.0-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/cloudtik-1.2.0-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230707/c/cloudtik/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-07 11:57:00] INFO root fetch - processPackages [cloudtik]: Remove: archive file [/home/abi/fetcher/tmp/cloudtik-1.1.0-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-07 11:57:00] INFO root fetch - processPackages [cloudtik]: Remove: archive file [/home/abi/fetcher/tmp/cloudtik-1.2.0-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-07 11:57:00] INFO root fetch - main [MainThread]: End processing [cloudtik]: success
+[2023-07-07 11:57:00] INFO root fetch - main [MainThread]: Store serial: [18798644]
