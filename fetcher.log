@@ -10566,3 +10566,77 @@ EOFError: EOF read where object expected
 [2023-07-07 05:22:28] INFO root fetch - processPackages [coguard-cli]: Remove: archive file [/home/abi/fetcher/tmp/coguard-cli-0.2.9.tar.gz]
 [2023-07-07 05:22:28] INFO root fetch - main [MainThread]: End processing [coguard-cli]: success
 [2023-07-07 05:22:28] INFO root fetch - main [MainThread]: Store serial: [18795511]
+[2023-07-07 05:27:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18795511]
+[2023-07-07 05:27:37] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-07 05:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PSNAWP
+[2023-07-07 05:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: virtool-workflow
+[2023-07-07 05:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyatp
+[2023-07-07 05:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: test-yapi1
+[2023-07-07 05:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openplugincore
+[2023-07-07 05:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imeta
+[2023-07-07 05:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aapns
+[2023-07-07 05:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hspylib-cfman
+[2023-07-07 05:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spyrograph
+[2023-07-07 05:27:37] INFO root fetch - processPackages [openplugincore]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-07-07 05:27:37] INFO root fetch - processPackages [hspylib-cfman]: New version: [0.9.97] Old Version: [0.9.96]
+[2023-07-07 05:27:37] INFO root fetch - processPackages [imeta]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-07-07 05:27:37] INFO root fetch - processPackages [pyatp]: New version: [1.1.6] Old Version: [1.1.4]
+[2023-07-07 05:27:37] WARNING root fetch - processPackages [test-yapi1]: Skipping, unable to determine old version
+[2023-07-07 05:27:37] INFO root fetch - main [MainThread]: End processing [test-yapi1] error
+[2023-07-07 05:27:37] INFO root fetch - processPackages [openplugincore]: Downloading https://files.pythonhosted.org/packages/94/2c/732c9d59fbe0a8863c86d3db8ff9292beef808dba65a2bb289b2c5240289/openplugincore-0.3.3.tar.gz
+[2023-07-07 05:27:37] INFO root fetch - processPackages [virtool-workflow]: New version: [5.3.2] Old Version: [5.3.1]
+[2023-07-07 05:27:37] INFO root fetch - processPackages [PSNAWP]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-07 05:27:37] INFO root fetch - processPackages [aapns]: New version: [23.7] Old Version: [20.8.1]
+[2023-07-07 05:27:37] INFO root fetch - processPackages [hspylib-cfman]: Downloading https://files.pythonhosted.org/packages/09/dc/192b553616e2db44257d69980fd9657ddef0b95d22bb84dcc6728090b3b4/hspylib-cfman-0.9.96.tar.gz
+[2023-07-07 05:27:37] INFO root fetch - processPackages [spyrograph]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-07 05:27:38] INFO root fetch - processPackages [imeta]: Downloading https://files.pythonhosted.org/packages/0c/e3/62e2c862a03b7887f6335f6ec3056c70454ad2157b36cf362015bcac8a83/imeta-0.1.0-py3-none-any.whl
+[2023-07-07 05:27:38] INFO root fetch - processPackages [pyatp]: Downloading https://files.pythonhosted.org/packages/6e/c1/48654739d77325a2768f8f8af7f38ce09dda678e7b3dacf097b5442b6b75/pyatp-1.1.4.tar.gz
+[2023-07-07 05:27:38] INFO root fetch - processPackages [openplugincore]: Downloading https://files.pythonhosted.org/packages/9e/86/bd572ca9db0030cd3e4fb838349bce850ef9788f32bc5b66aad32bbc2237/openplugincore-0.4.0.tar.gz
+[2023-07-07 05:27:38] INFO root fetch - processPackages [hspylib-cfman]: Downloading https://files.pythonhosted.org/packages/30/f6/0d06432c6970152b749405597fcc5b538c09accd2866fce3c595fb858176/hspylib-cfman-0.9.97.tar.gz
+[2023-07-07 05:27:38] INFO root fetch - processPackages [virtool-workflow]: Downloading https://files.pythonhosted.org/packages/3d/ba/48bc8251c715edd2d3ac95363e83348c45f98b7d6a4e9e9db9c2e6651af5/virtool_workflow-5.3.1.tar.gz
+[2023-07-07 05:27:38] INFO root fetch - processPackages [spyrograph]: Downloading https://files.pythonhosted.org/packages/67/9a/25ba3a250a428f6e3a06d273c6571f937d95528c400781c7a45060385683/spyrograph-0.8.0.tar.gz
+[2023-07-07 05:27:38] INFO root fetch - processPackages [aapns]: Downloading https://files.pythonhosted.org/packages/70/48/786594e8355dcef06220cf3cb05e5958acbff0eb5a01386fdf2b2c7be7f0/aapns-20.8.1-py3-none-any.whl
+[2023-07-07 05:27:38] INFO root fetch - processPackages [PSNAWP]: Downloading https://files.pythonhosted.org/packages/de/7e/b074468172cea2e77cfa8d561041e045082377114810aab76aee1f1afaae/PSNAWP-1.3.0.tar.gz
+[2023-07-07 05:27:38] INFO root fetch - processPackages [openplugincore]: executing diffoscope
+[2023-07-07 05:27:38] INFO root fetch - processPackages [openplugincore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openplugincore-0.3.3.tar.gz tmp/openplugincore-0.4.0.tar.gz --markdown 20230707/o/openplugincore/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-07-07 05:27:38] INFO root fetch - processPackages [hspylib-cfman]: executing diffoscope
+[2023-07-07 05:27:38] INFO root fetch - processPackages [hspylib-cfman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-cfman-0.9.96.tar.gz tmp/hspylib-cfman-0.9.97.tar.gz --markdown 20230707/h/hspylib-cfman/0.9.96-0.9.97/diff.md --exclude *.pyd
+[2023-07-07 05:27:38] INFO root fetch - processPackages [imeta]: Downloading https://files.pythonhosted.org/packages/7a/67/542236387a7fb133538da553328d55f56612cfb935694f6d3427eb40c37d/imeta-1.0.0-py3-none-any.whl
+[2023-07-07 05:27:38] INFO root fetch - processPackages [virtool-workflow]: Downloading https://files.pythonhosted.org/packages/c1/73/ec5c4619c5e8da09665af0a596d57feac38f1b16de953adbd957e3c910a7/virtool_workflow-5.3.2.tar.gz
+[2023-07-07 05:27:38] INFO root fetch - processPackages [PSNAWP]: Downloading https://files.pythonhosted.org/packages/a7/0a/bb91101bb15faceca64381f9a4776c55cca599e3e8a9ad369b781559cfa6/PSNAWP-1.3.1.tar.gz
+[2023-07-07 05:27:38] WARNING root fetch - processPackages [pyatp]: Skipping package: exceeds size limit 26077566>=10485760
+[2023-07-07 05:27:38] INFO root fetch - main [MainThread]: End processing [pyatp] error
+[2023-07-07 05:27:38] INFO root fetch - processPackages [imeta]: executing diffoscope
+[2023-07-07 05:27:38] INFO root fetch - processPackages [imeta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imeta-0.1.0-py3-none-any.whl.zip tmp/imeta-1.0.0-py3-none-any.whl.zip --markdown 20230707/i/imeta/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-07 05:27:38] INFO root fetch - processPackages [aapns]: Downloading https://files.pythonhosted.org/packages/3a/e0/b0828a1ac432ea8254f8fd8c61baf80747abe65248a075e8ecae0c843487/aapns-23.7.tar.gz
+[2023-07-07 05:27:38] INFO root fetch - processPackages [spyrograph]: Downloading https://files.pythonhosted.org/packages/b5/24/7ea9bdfe8369678b6c1d4b4025a32fd71c9ef203a235dbce5c482f2d015f/spyrograph-0.9.0.tar.gz
+[2023-07-07 05:27:38] INFO root fetch - processPackages [virtool-workflow]: executing diffoscope
+[2023-07-07 05:27:38] INFO root fetch - processPackages [virtool-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virtool_workflow-5.3.1.tar.gz tmp/virtool_workflow-5.3.2.tar.gz --markdown 20230707/v/virtool-workflow/5.3.1-5.3.2/diff.md --exclude *.pyd
+[2023-07-07 05:27:38] INFO root fetch - processPackages [PSNAWP]: executing diffoscope
+[2023-07-07 05:27:38] INFO root fetch - processPackages [PSNAWP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PSNAWP-1.3.0.tar.gz tmp/PSNAWP-1.3.1.tar.gz --markdown 20230707/P/PSNAWP/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-07 05:27:38] INFO root fetch - processPackages [spyrograph]: executing diffoscope
+[2023-07-07 05:27:38] INFO root fetch - processPackages [spyrograph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyrograph-0.8.0.tar.gz tmp/spyrograph-0.9.0.tar.gz --markdown 20230707/s/spyrograph/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-07 05:27:38] INFO root fetch - processPackages [aapns]: executing diffoscope
+[2023-07-07 05:27:38] INFO root fetch - processPackages [aapns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aapns-20.8.1-py3-none-any.whl.zip tmp/aapns-23.7.tar.gz --markdown 20230707/a/aapns/20.8.1-23.7/diff.md --exclude *.pyd
+[2023-07-07 05:27:39] INFO root fetch - processPackages [openplugincore]: Remove: archive file [/home/abi/fetcher/tmp/openplugincore-0.3.3.tar.gz]
+[2023-07-07 05:27:39] INFO root fetch - processPackages [openplugincore]: Remove: archive file [/home/abi/fetcher/tmp/openplugincore-0.4.0.tar.gz]
+[2023-07-07 05:27:39] INFO root fetch - main [MainThread]: End processing [openplugincore]: success
+[2023-07-07 05:27:39] INFO root fetch - processPackages [hspylib-cfman]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-cfman-0.9.96.tar.gz]
+[2023-07-07 05:27:39] INFO root fetch - processPackages [hspylib-cfman]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-cfman-0.9.97.tar.gz]
+[2023-07-07 05:27:39] INFO root fetch - main [MainThread]: End processing [hspylib-cfman]: success
+[2023-07-07 05:27:39] INFO root fetch - processPackages [imeta]: Remove: archive file [/home/abi/fetcher/tmp/imeta-0.1.0-py3-none-any.whl.zip]
+[2023-07-07 05:27:39] INFO root fetch - processPackages [imeta]: Remove: archive file [/home/abi/fetcher/tmp/imeta-1.0.0-py3-none-any.whl.zip]
+[2023-07-07 05:27:39] INFO root fetch - main [MainThread]: End processing [imeta]: success
+[2023-07-07 05:27:39] INFO root fetch - processPackages [aapns]: Remove: archive file [/home/abi/fetcher/tmp/aapns-20.8.1-py3-none-any.whl.zip]
+[2023-07-07 05:27:39] INFO root fetch - processPackages [aapns]: Remove: archive file [/home/abi/fetcher/tmp/aapns-23.7.tar.gz]
+[2023-07-07 05:27:39] INFO root fetch - main [MainThread]: End processing [aapns]: success
+[2023-07-07 05:27:39] INFO root fetch - processPackages [spyrograph]: Remove: archive file [/home/abi/fetcher/tmp/spyrograph-0.8.0.tar.gz]
+[2023-07-07 05:27:39] INFO root fetch - processPackages [spyrograph]: Remove: archive file [/home/abi/fetcher/tmp/spyrograph-0.9.0.tar.gz]
+[2023-07-07 05:27:39] INFO root fetch - main [MainThread]: End processing [spyrograph]: success
+[2023-07-07 05:27:40] INFO root fetch - processPackages [PSNAWP]: Remove: archive file [/home/abi/fetcher/tmp/PSNAWP-1.3.0.tar.gz]
+[2023-07-07 05:27:40] INFO root fetch - processPackages [PSNAWP]: Remove: archive file [/home/abi/fetcher/tmp/PSNAWP-1.3.1.tar.gz]
+[2023-07-07 05:27:40] INFO root fetch - main [MainThread]: End processing [PSNAWP]: success
+[2023-07-07 05:27:40] INFO root fetch - processPackages [virtool-workflow]: Remove: archive file [/home/abi/fetcher/tmp/virtool_workflow-5.3.1.tar.gz]
+[2023-07-07 05:27:40] INFO root fetch - processPackages [virtool-workflow]: Remove: archive file [/home/abi/fetcher/tmp/virtool_workflow-5.3.2.tar.gz]
+[2023-07-07 05:27:40] INFO root fetch - main [MainThread]: End processing [virtool-workflow]: success
+[2023-07-07 05:27:40] INFO root fetch - main [MainThread]: Store serial: [18795539]
