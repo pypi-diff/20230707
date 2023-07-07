@@ -11601,3 +11601,42 @@ EOFError: EOF read where object expected
 [2023-07-07 06:30:05] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
 [2023-07-07 06:30:05] INFO root fetch - main [MainThread]: End processing [hak]: success
 [2023-07-07 06:30:05] INFO root fetch - main [MainThread]: Store serial: [18795874]
+[2023-07-07 06:35:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18795874]
+[2023-07-07 06:35:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-07 06:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: readyocr
+[2023-07-07 06:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: beastiary
+[2023-07-07 06:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyciactions
+[2023-07-07 06:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: higlass-widget
+[2023-07-07 06:35:14] INFO root fetch - processPackages [pyciactions]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-07 06:35:14] INFO root fetch - processPackages [readyocr]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-07 06:35:14] INFO root fetch - processPackages [beastiary]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-07-07 06:35:14] INFO root fetch - processPackages [higlass-widget]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-07 06:35:14] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/1a/cf/bb729453c83053520a7d57a07618baf3e639e2c717c68b25a639a6f15271/pyciactions-1.0.5.tar.gz
+[2023-07-07 06:35:14] INFO root fetch - processPackages [beastiary]: Downloading https://files.pythonhosted.org/packages/9f/2e/b22ecc7573b2862dc613e613b03b0d8e3903a83ba9363203d3d5018023de/beastiary-1.7.0.tar.gz
+[2023-07-07 06:35:14] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/32/15/694df14c62824c216d7e7231033f2257125dfefe29209414234b72a4d8a8/readyocr-0.0.5.tar.gz
+[2023-07-07 06:35:14] INFO root fetch - processPackages [higlass-widget]: Downloading https://files.pythonhosted.org/packages/82/a3/1288a66ebc1ba398d391216c0727fabdcd33f0be2d7770a9d112b83c603c/higlass_widget-0.1.0.tar.gz
+[2023-07-07 06:35:14] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/8b/65/359be6e3dc8bf63209696e587957bd29e306a538d44ff6db56449931a0ac/pyciactions-1.0.6.tar.gz
+[2023-07-07 06:35:14] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/97/23/a8be90cd2deb7179e40c20580536e809cc84ecbeb16f5884db128ace429c/readyocr-0.0.6.tar.gz
+[2023-07-07 06:35:14] INFO root fetch - processPackages [higlass-widget]: Downloading https://files.pythonhosted.org/packages/44/14/38d5d3dd6f1962c571e7c0771acb7e5686ea0c83b3fd9da0f8780bda981c/higlass_widget-0.1.1.tar.gz
+[2023-07-07 06:35:14] INFO root fetch - processPackages [pyciactions]: executing diffoscope
+[2023-07-07 06:35:14] INFO root fetch - processPackages [pyciactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyciactions-1.0.5.tar.gz tmp/pyciactions-1.0.6.tar.gz --markdown 20230707/p/pyciactions/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-07 06:35:14] INFO root fetch - processPackages [beastiary]: Downloading https://files.pythonhosted.org/packages/8c/70/688f75b3f997f8c3cc958e76c80e933594785cb7e622af49b018079b011e/beastiary-1.7.1.tar.gz
+[2023-07-07 06:35:14] INFO root fetch - processPackages [readyocr]: executing diffoscope
+[2023-07-07 06:35:14] INFO root fetch - processPackages [readyocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readyocr-0.0.5.tar.gz tmp/readyocr-0.0.6.tar.gz --markdown 20230707/r/readyocr/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-07 06:35:15] INFO root fetch - processPackages [higlass-widget]: executing diffoscope
+[2023-07-07 06:35:15] INFO root fetch - processPackages [higlass-widget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/higlass_widget-0.1.0.tar.gz tmp/higlass_widget-0.1.1.tar.gz --markdown 20230707/h/higlass-widget/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-07 06:35:15] INFO root fetch - processPackages [beastiary]: executing diffoscope
+[2023-07-07 06:35:15] INFO root fetch - processPackages [beastiary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beastiary-1.7.0.tar.gz tmp/beastiary-1.7.1.tar.gz --markdown 20230707/b/beastiary/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-07-07 06:35:15] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.5.tar.gz]
+[2023-07-07 06:35:15] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.6.tar.gz]
+[2023-07-07 06:35:15] INFO root fetch - main [MainThread]: End processing [pyciactions]: success
+[2023-07-07 06:35:15] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.5.tar.gz]
+[2023-07-07 06:35:15] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.6.tar.gz]
+[2023-07-07 06:35:15] INFO root fetch - main [MainThread]: End processing [readyocr]: success
+[2023-07-07 06:35:16] INFO root fetch - processPackages [higlass-widget]: Remove: archive file [/home/abi/fetcher/tmp/higlass_widget-0.1.0.tar.gz]
+[2023-07-07 06:35:16] INFO root fetch - processPackages [higlass-widget]: Remove: archive file [/home/abi/fetcher/tmp/higlass_widget-0.1.1.tar.gz]
+[2023-07-07 06:35:16] INFO root fetch - main [MainThread]: End processing [higlass-widget]: success
+[2023-07-07 06:35:53] INFO root fetch - processPackages [beastiary]: Remove: archive file [/home/abi/fetcher/tmp/beastiary-1.7.0.tar.gz]
+[2023-07-07 06:35:53] INFO root fetch - processPackages [beastiary]: Remove: archive file [/home/abi/fetcher/tmp/beastiary-1.7.1.tar.gz]
+[2023-07-07 06:35:53] INFO root fetch - main [MainThread]: End processing [beastiary]: success
+[2023-07-07 06:35:53] INFO root fetch - main [MainThread]: Store serial: [18795887]
