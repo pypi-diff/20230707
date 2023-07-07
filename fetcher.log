@@ -11806,3 +11806,51 @@ EOFError: EOF read where object expected
 [2023-07-07 06:51:35] INFO root fetch - processPackages [nxs-analysis-tools]: Remove: archive file [/home/abi/fetcher/tmp/nxs_analysis_tools-0.0.9.tar.gz]
 [2023-07-07 06:51:35] INFO root fetch - main [MainThread]: End processing [nxs-analysis-tools]: success
 [2023-07-07 06:51:35] INFO root fetch - main [MainThread]: Store serial: [18795949]
+[2023-07-07 06:56:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18795949]
+[2023-07-07 06:56:44] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-07 06:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: slice-to-py-dist
+[2023-07-07 06:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bastila-search
+[2023-07-07 06:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ai2-kit
+[2023-07-07 06:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-sale-layout-category-hide-detail
+[2023-07-07 06:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-sale-reporting
+[2023-07-07 06:56:44] INFO root fetch - processPackages [bastila-search]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-07 06:56:44] INFO root fetch - processPackages [odoo-addon-sale-layout-category-hide-detail]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.4]
+[2023-07-07 06:56:44] INFO root fetch - processPackages [slice-to-py-dist]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-07 06:56:44] INFO root fetch - processPackages [ai2-kit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-07 06:56:45] INFO root fetch - processPackages [odoo-addons-oca-sale-reporting]: New version: [16.0.20230706.0] Old Version: [16.0.20230613.0]
+[2023-07-07 06:56:45] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/eb/f4/ea38d8c9f78873edcbb17216f185baee2019ecb183cd80b334c593f2b1bc/ai2_kit-0.3.8.tar.gz
+[2023-07-07 06:56:45] INFO root fetch - processPackages [bastila-search]: Downloading https://files.pythonhosted.org/packages/55/de/8d3cf592565d9275f5e9f03cd4d08871e82c7ab6f22c03123d47a5bd1530/bastila_search-0.3.1.tar.gz
+[2023-07-07 06:56:45] INFO root fetch - processPackages [odoo-addon-sale-layout-category-hide-detail]: Downloading https://files.pythonhosted.org/packages/7d/09/7a559d3c2b039cea556f6de7917f36da358e76015925f0c9606d7b6ef052/odoo_addon_sale_layout_category_hide_detail-15.0.1.0.0.4-py3-none-any.whl
+[2023-07-07 06:56:45] INFO root fetch - processPackages [slice-to-py-dist]: Downloading https://files.pythonhosted.org/packages/36/8a/3fb6e140610914c3ce05323a2abd69f5e592776ced2e3dd0f6c3ce808b60/slice_to_py_dist-0.0.1.tar.gz
+[2023-07-07 06:56:45] INFO root fetch - processPackages [odoo-addons-oca-sale-reporting]: Downloading https://files.pythonhosted.org/packages/f7/a2/a75b3783a58776bf958f4936091c10e8144e8f35e0590477dce882b91f08/odoo_addons_oca_sale_reporting-16.0.20230613.0-py3-none-any.whl
+[2023-07-07 06:56:45] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/f8/ec/3044fde579418570279eb9f4c2d60facdbd573ed724ec7fa07e3a4c940aa/ai2_kit-0.3.9.tar.gz
+[2023-07-07 06:56:45] INFO root fetch - processPackages [odoo-addon-sale-layout-category-hide-detail]: Downloading https://files.pythonhosted.org/packages/d7/f8/6730ff98932e81789972aebb670b66ecebe43478c8451ef52a1370bf305a/odoo_addon_sale_layout_category_hide_detail-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-07 06:56:45] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2023-07-07 06:56:45] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.3.8.tar.gz tmp/ai2_kit-0.3.9.tar.gz --markdown 20230707/a/ai2-kit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-07 06:56:45] INFO root fetch - processPackages [bastila-search]: Downloading https://files.pythonhosted.org/packages/c2/67/2faaafd10d4123114cdc472231ca19d4b5264ab42b02b28f56966f190f51/bastila_search-0.3.2.tar.gz
+[2023-07-07 06:56:45] INFO root fetch - processPackages [slice-to-py-dist]: Downloading https://files.pythonhosted.org/packages/09/44/e1b88a53ecd7903344ae61868520fd231b250461af10a19c5c9c02c89432/slice_to_py_dist-0.0.2.tar.gz
+[2023-07-07 06:56:45] INFO root fetch - processPackages [odoo-addon-sale-layout-category-hide-detail]: executing diffoscope
+[2023-07-07 06:56:45] INFO root fetch - processPackages [odoo-addon-sale-layout-category-hide-detail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_layout_category_hide_detail-15.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_sale_layout_category_hide_detail-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230707/o/odoo-addon-sale-layout-category-hide-detail/15.0.1.0.0.4-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-07-07 06:56:45] INFO root fetch - processPackages [slice-to-py-dist]: executing diffoscope
+[2023-07-07 06:56:45] INFO root fetch - processPackages [slice-to-py-dist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slice_to_py_dist-0.0.1.tar.gz tmp/slice_to_py_dist-0.0.2.tar.gz --markdown 20230707/s/slice-to-py-dist/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-07 06:56:45] INFO root fetch - processPackages [odoo-addons-oca-sale-reporting]: Downloading https://files.pythonhosted.org/packages/d3/82/b6bac1769a61471f78dfc3bc26fe299371616c928c64ee653e14247e119e/odoo_addons_oca_sale_reporting-16.0.20230706.0-py3-none-any.whl
+[2023-07-07 06:56:45] INFO root fetch - processPackages [bastila-search]: executing diffoscope
+[2023-07-07 06:56:45] INFO root fetch - processPackages [bastila-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bastila_search-0.3.1.tar.gz tmp/bastila_search-0.3.2.tar.gz --markdown 20230707/b/bastila-search/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-07 06:56:46] INFO root fetch - processPackages [odoo-addons-oca-sale-reporting]: executing diffoscope
+[2023-07-07 06:56:46] INFO root fetch - processPackages [odoo-addons-oca-sale-reporting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_sale_reporting-16.0.20230613.0-py3-none-any.whl.zip tmp/odoo_addons_oca_sale_reporting-16.0.20230706.0-py3-none-any.whl.zip --markdown 20230707/o/odoo-addons-oca-sale-reporting/16.0.20230613.0-16.0.20230706.0/diff.md --exclude *.pyd
+[2023-07-07 06:56:46] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.8.tar.gz]
+[2023-07-07 06:56:46] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.9.tar.gz]
+[2023-07-07 06:56:46] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2023-07-07 06:56:46] INFO root fetch - processPackages [slice-to-py-dist]: Remove: archive file [/home/abi/fetcher/tmp/slice_to_py_dist-0.0.1.tar.gz]
+[2023-07-07 06:56:46] INFO root fetch - processPackages [slice-to-py-dist]: Remove: archive file [/home/abi/fetcher/tmp/slice_to_py_dist-0.0.2.tar.gz]
+[2023-07-07 06:56:46] INFO root fetch - main [MainThread]: End processing [slice-to-py-dist]: success
+[2023-07-07 06:56:46] INFO root fetch - processPackages [odoo-addon-sale-layout-category-hide-detail]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_layout_category_hide_detail-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-07 06:56:46] INFO root fetch - processPackages [odoo-addon-sale-layout-category-hide-detail]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_layout_category_hide_detail-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-07 06:56:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-layout-category-hide-detail]: success
+[2023-07-07 06:56:46] INFO root fetch - processPackages [odoo-addons-oca-sale-reporting]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_reporting-16.0.20230613.0-py3-none-any.whl.zip]
+[2023-07-07 06:56:46] INFO root fetch - processPackages [odoo-addons-oca-sale-reporting]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_reporting-16.0.20230706.0-py3-none-any.whl.zip]
+[2023-07-07 06:56:46] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-reporting]: success
+[2023-07-07 06:56:46] INFO root fetch - processPackages [bastila-search]: Remove: archive file [/home/abi/fetcher/tmp/bastila_search-0.3.1.tar.gz]
+[2023-07-07 06:56:46] INFO root fetch - processPackages [bastila-search]: Remove: archive file [/home/abi/fetcher/tmp/bastila_search-0.3.2.tar.gz]
+[2023-07-07 06:56:46] INFO root fetch - main [MainThread]: End processing [bastila-search]: success
+[2023-07-07 06:56:46] INFO root fetch - main [MainThread]: Store serial: [18795961]
