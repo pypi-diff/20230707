@@ -12132,3 +12132,72 @@ EOFError: EOF read where object expected
 [2023-07-07 07:27:56] INFO root fetch - processPackages [flgo]: Remove: archive file [/home/abi/fetcher/tmp/flgo-0.0.4.tar.gz]
 [2023-07-07 07:27:56] INFO root fetch - main [MainThread]: End processing [flgo]: success
 [2023-07-07 07:27:56] INFO root fetch - main [MainThread]: Store serial: [18796092]
+[2023-07-07 07:33:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18796092]
+[2023-07-07 07:33:05] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-07 07:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: frontengine
+[2023-07-07 07:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-stock-picking-kind
+[2023-07-07 07:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crazy-thursday
+[2023-07-07 07:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: woebin-python
+[2023-07-07 07:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-stock-logistics-workflow
+[2023-07-07 07:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: helicone
+[2023-07-07 07:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proto-clip-toolkit
+[2023-07-07 07:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydflow
+[2023-07-07 07:33:05] INFO root fetch - processPackages [frontengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 07:33:05] INFO root fetch - processPackages [odoo-addon-stock-picking-kind]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-07-07 07:33:05] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.7.7.1] Old Version: [2023.7.7.0]
+[2023-07-07 07:33:05] INFO root fetch - processPackages [woebin-python]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-07-07 07:33:05] INFO root fetch - processPackages [pydflow]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-07 07:33:05] INFO root fetch - processPackages [helicone]: New version: [1.0.0b0] Old Version: [0.1.3]
+[2023-07-07 07:33:05] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/62/88/6d99d7b463365da48db6f37c9bde41e7f7f20eeb1a13653a273586e81d3a/frontengine-0.0.8.tar.gz
+[2023-07-07 07:33:05] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: New version: [16.0.20230706.0] Old Version: [16.0.20230704.0]
+[2023-07-07 07:33:05] WARNING root fetch - processPackages [proto-clip-toolkit]: Skipping, unable to determine old version
+[2023-07-07 07:33:05] INFO root fetch - main [MainThread]: End processing [proto-clip-toolkit] error
+[2023-07-07 07:33:05] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/33/96/a989d9cfcdb5dcb43d60a72640c59e2efb7fd053182742205b332006f813/pydflow-1.7.8.tar.gz
+[2023-07-07 07:33:05] INFO root fetch - processPackages [odoo-addon-stock-picking-kind]: Downloading https://files.pythonhosted.org/packages/3f/11/eececc9a3250e063dc9799c4cb439378556235bb52d08308f9df78f84bba/odoo_addon_stock_picking_kind-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-07 07:33:05] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/ef/72/0bafea015e8554b0bbd47c4de0b94b98080743a3876f0de5b1a4e848a62f/crazy-thursday-2023.7.7.0.tar.gz
+[2023-07-07 07:33:05] INFO root fetch - processPackages [woebin-python]: Downloading https://files.pythonhosted.org/packages/eb/4b/038f30734702d685ee0bfc034091a949ca5c4ab45b1c48302f2845da1f2c/woebin-python-0.1.0.tar.gz
+[2023-07-07 07:33:05] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/92/04/5e9c671bd3b17a9b890aa3cc8823f4922cd9e37281cca497ccbdde9ff289/odoo_addons_oca_stock_logistics_workflow-16.0.20230704.0-py3-none-any.whl
+[2023-07-07 07:33:05] INFO root fetch - processPackages [helicone]: Downloading https://files.pythonhosted.org/packages/5d/a2/84a5e6e040244885c74340b064a3e65cf58a45ddd98d954357c0772bc3f8/helicone-0.1.3.tar.gz
+[2023-07-07 07:33:05] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/a5/8e/4bb92b2db27649b96b46469f263e2fdd091c8283ff06a24534624c34be9d/frontengine-0.0.9.tar.gz
+[2023-07-07 07:33:06] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/9c/41/6c9bc72fde943869899725f55fade9f850f62ecbc6fa31e53b8fa79ae5a3/pydflow-1.7.9.tar.gz
+[2023-07-07 07:33:06] INFO root fetch - processPackages [frontengine]: executing diffoscope
+[2023-07-07 07:33:06] INFO root fetch - processPackages [frontengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine-0.0.8.tar.gz tmp/frontengine-0.0.9.tar.gz --markdown 20230707/f/frontengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 07:33:06] INFO root fetch - processPackages [odoo-addon-stock-picking-kind]: Downloading https://files.pythonhosted.org/packages/c2/76/56387717367db44f110a2257a093b22a8833d5170a8d5a9279252eb80630/odoo_addon_stock_picking_kind-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-07 07:33:06] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/80/37/72907dd647d6f86ac41fbeafae77fbf1f78c65b2c0f0789d580fc4d37aa0/crazy-thursday-2023.7.7.1.tar.gz
+[2023-07-07 07:33:06] INFO root fetch - processPackages [helicone]: Downloading https://files.pythonhosted.org/packages/fe/5b/3a56e8a78ac2042a5eccd4e1b4f4ddc4d721432e0adf4634d9c890eda28c/helicone-1.0.0b0.tar.gz
+[2023-07-07 07:33:06] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-07-07 07:33:06] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.8.tar.gz tmp/pydflow-1.7.9.tar.gz --markdown 20230707/p/pydflow/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-07 07:33:06] INFO root fetch - processPackages [woebin-python]: Downloading https://files.pythonhosted.org/packages/9c/c7/6ad5338976b442d2ac6e6cb4c5e3887aedcfa9f5902e8809a1d56692d45e/woebin-python-0.1.2.tar.gz
+[2023-07-07 07:33:06] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/2e/9c/1071448314c67dae03edc3750937d020333532e91e103299b82ec5a01f3d/odoo_addons_oca_stock_logistics_workflow-16.0.20230706.0-py3-none-any.whl
+[2023-07-07 07:33:06] INFO root fetch - processPackages [helicone]: executing diffoscope
+[2023-07-07 07:33:06] INFO root fetch - processPackages [helicone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helicone-0.1.3.tar.gz tmp/helicone-1.0.0b0.tar.gz --markdown 20230707/h/helicone/0.1.3-1.0.0b0/diff.md --exclude *.pyd
+[2023-07-07 07:33:06] INFO root fetch - processPackages [odoo-addon-stock-picking-kind]: executing diffoscope
+[2023-07-07 07:33:06] INFO root fetch - processPackages [odoo-addon-stock-picking-kind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_kind-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_kind-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230707/o/odoo-addon-stock-picking-kind/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-07-07 07:33:06] INFO root fetch - processPackages [woebin-python]: executing diffoscope
+[2023-07-07 07:33:06] INFO root fetch - processPackages [woebin-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woebin-python-0.1.0.tar.gz tmp/woebin-python-0.1.2.tar.gz --markdown 20230707/w/woebin-python/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-07-07 07:33:06] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: executing diffoscope
+[2023-07-07 07:33:06] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20230704.0-py3-none-any.whl.zip tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20230706.0-py3-none-any.whl.zip --markdown 20230707/o/odoo-addons-oca-stock-logistics-workflow/16.0.20230704.0-16.0.20230706.0/diff.md --exclude *.pyd
+[2023-07-07 07:33:06] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-07-07 07:33:06] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.7.7.0.tar.gz tmp/crazy-thursday-2023.7.7.1.tar.gz --markdown 20230707/c/crazy-thursday/2023.7.7.0-2023.7.7.1/diff.md --exclude *.pyd
+[2023-07-07 07:33:07] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.8.tar.gz]
+[2023-07-07 07:33:07] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.9.tar.gz]
+[2023-07-07 07:33:07] INFO root fetch - main [MainThread]: End processing [frontengine]: success
+[2023-07-07 07:33:07] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20230704.0-py3-none-any.whl.zip]
+[2023-07-07 07:33:07] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20230706.0-py3-none-any.whl.zip]
+[2023-07-07 07:33:07] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-stock-logistics-workflow]: success
+[2023-07-07 07:33:07] INFO root fetch - processPackages [odoo-addon-stock-picking-kind]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_kind-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-07 07:33:07] INFO root fetch - processPackages [odoo-addon-stock-picking-kind]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_kind-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-07 07:33:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-kind]: success
+[2023-07-07 07:33:07] INFO root fetch - processPackages [helicone]: Remove: archive file [/home/abi/fetcher/tmp/helicone-0.1.3.tar.gz]
+[2023-07-07 07:33:07] INFO root fetch - processPackages [helicone]: Remove: archive file [/home/abi/fetcher/tmp/helicone-1.0.0b0.tar.gz]
+[2023-07-07 07:33:07] INFO root fetch - main [MainThread]: End processing [helicone]: success
+[2023-07-07 07:33:07] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.7.0.tar.gz]
+[2023-07-07 07:33:07] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.7.1.tar.gz]
+[2023-07-07 07:33:07] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-07-07 07:33:07] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.8.tar.gz]
+[2023-07-07 07:33:07] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.9.tar.gz]
+[2023-07-07 07:33:07] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-07-07 07:33:07] INFO root fetch - processPackages [woebin-python]: Remove: archive file [/home/abi/fetcher/tmp/woebin-python-0.1.0.tar.gz]
+[2023-07-07 07:33:07] INFO root fetch - processPackages [woebin-python]: Remove: archive file [/home/abi/fetcher/tmp/woebin-python-0.1.2.tar.gz]
+[2023-07-07 07:33:07] INFO root fetch - main [MainThread]: End processing [woebin-python]: success
+[2023-07-07 07:33:07] INFO root fetch - main [MainThread]: Store serial: [18796114]
