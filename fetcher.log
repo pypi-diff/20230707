@@ -22092,3 +22092,120 @@ AssertionError: tmp/polyanalyst6api-0.9.1.tar.gz does not exist
 [2023-07-07 14:35:37] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-1.9.1.tar.gz]
 [2023-07-07 14:35:37] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
 [2023-07-07 14:35:37] INFO root fetch - main [MainThread]: Store serial: [18800403]
+[2023-07-07 14:40:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18800403]
+[2023-07-07 14:40:47] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-07 14:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: projen
+[2023-07-07 14:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: awadb
+[2023-07-07 14:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: satosacontrib.perun
+[2023-07-07 14:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kalman-labs
+[2023-07-07 14:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RepRepBuild
+[2023-07-07 14:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lib310-lite
+[2023-07-07 14:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bimdata-api-client
+[2023-07-07 14:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-dllib
+[2023-07-07 14:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lstchain
+[2023-07-07 14:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: macrostrat-app-frame
+[2023-07-07 14:40:47] INFO root fetch - processPackages [satosacontrib.perun]: New version: [3.6.1] Old Version: [3.6.0]
+[2023-07-07 14:40:47] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-07-07 14:40:47] INFO root fetch - processPackages [awadb]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-07 14:40:47] INFO root fetch - processPackages [kalman-labs]: New version: [1.0.312] Old Version: [1.0.31]
+[2023-07-07 14:40:47] INFO root fetch - processPackages [RepRepBuild]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-07 14:40:47] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230707] Old Version: [2.4.0b20230706]
+[2023-07-07 14:40:47] INFO root fetch - processPackages [lib310-lite]: New version: [0.1.0.dev4] Old Version: [0.1.0.dev3]
+[2023-07-07 14:40:47] INFO root fetch - processPackages [bimdata-api-client]: New version: [9.9.0] Old Version: [9.8.1]
+[2023-07-07 14:40:47] INFO root fetch - processPackages [lstchain]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-07 14:40:47] INFO root fetch - processPackages [macrostrat-app-frame]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-07 14:40:47] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-07-07 14:40:47] INFO root fetch - processPackages [satosacontrib.perun]: Downloading https://files.pythonhosted.org/packages/77/be/8741441f0459970954140859405035e899179e9ee669d9198d56ae6cd9c5/satosacontrib.perun-3.6.0.tar.gz
+[2023-07-07 14:40:47] INFO root fetch - processPackages [kalman-labs]: Downloading https://files.pythonhosted.org/packages/29/53/96afb773035a3f05c22eb461b92bf662ad8478de30934e4e4c909f2fa19e/kalman-labs-1.0.31.tar.gz
+[2023-07-07 14:40:47] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/dc/7d/2c26ddeadf0d668a7f80e2c4909d31830edc493bbffd2b7fde86c570daaa/bigdl-dllib-2.4.0b20230706.tar.gz
+[2023-07-07 14:40:47] INFO root fetch - processPackages [RepRepBuild]: Downloading https://files.pythonhosted.org/packages/0e/81/183fa2673ed8f4d3c885d0958bd140616694b516dd59d7e8cab1fa824ff3/RepRepBuild-0.9.0.tar.gz
+[2023-07-07 14:40:47] INFO root fetch - processPackages [awadb]: Downloading https://files.pythonhosted.org/packages/f2/dc/c36325b91273b033534d8e001703fefbf699690cbc5c0ad18590df9cb16b/awadb-0.3.5-cp39-cp39-manylinux1_x86_64.whl
+[2023-07-07 14:40:47] INFO root fetch - processPackages [lib310-lite]: Downloading https://files.pythonhosted.org/packages/f5/6e/d9b6776d3891342341d00a85210c02edcf6910827ec276854875b4f5ab51/lib310_lite-0.1.0.dev3.tar.gz
+[2023-07-07 14:40:47] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53638726>=10485760
+[2023-07-07 14:40:47] INFO root fetch - processPackages [bigdl-dllib]: Start processing: bigdl-orca
+[2023-07-07 14:40:47] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-07-07 14:40:47] INFO root fetch - processPackages [bimdata-api-client]: Downloading https://files.pythonhosted.org/packages/2f/7a/025bd38858b44925fac4abf2105445c93da1a5221e526c5a3f6388951530/bimdata-api-client-9.8.1.tar.gz
+[2023-07-07 14:40:47] INFO root fetch - processPackages [lstchain]: Downloading https://files.pythonhosted.org/packages/da/51/c4a6b851d78d7583637daeb88ed096f41e9ffa6d56ab8618c22ad05ec83d/lstchain-0.9.8.tar.gz
+[2023-07-07 14:40:47] INFO root fetch - processPackages [macrostrat-app-frame]: Downloading https://files.pythonhosted.org/packages/be/bd/24e00b16142b5f30b84b4cd336f2178f91f70ddf77a29fdb37a6fe05c761/macrostrat_app_frame-1.0.4.tar.gz
+[2023-07-07 14:40:48] INFO root fetch - processPackages [bigdl-orca]: New version: [2.4.0b20230707] Old Version: [2.4.0b20230706]
+[2023-07-07 14:40:48] WARNING root fetch - processPackages [lstchain]: Skipping package: exceeds size limit 22876427>=10485760
+[2023-07-07 14:40:48] INFO root fetch - processPackages [lstchain]: Start processing: bigdl-friesian
+[2023-07-07 14:40:48] INFO root fetch - main [MainThread]: End processing [lstchain] error
+[2023-07-07 14:40:48] INFO root fetch - processPackages [kalman-labs]: Downloading https://files.pythonhosted.org/packages/7c/86/8c906356cc5dbae734abaeaa79cc44e7a57dbffc70957aa245c3a948b2a7/kalman-labs-1.0.312.tar.gz
+[2023-07-07 14:40:48] INFO root fetch - processPackages [satosacontrib.perun]: Downloading https://files.pythonhosted.org/packages/71/e0/21d462e67e12b3abd94db1ab0a1d532243a6719202d613590a0e0bb9d2be/satosacontrib.perun-3.6.1.tar.gz
+[2023-07-07 14:40:48] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-07-07 14:40:48] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.4.0b20230707] Old Version: [2.4.0b20230706]
+[2023-07-07 14:40:48] INFO root fetch - processPackages [lib310-lite]: Downloading https://files.pythonhosted.org/packages/18/ed/eae0016f5c4a20a4eb60a94de037f050ebe572cb0425cb173e654fdbc72b/lib310_lite-0.1.0.dev4.tar.gz
+[2023-07-07 14:40:48] INFO root fetch - processPackages [RepRepBuild]: Downloading https://files.pythonhosted.org/packages/50/c1/f5a59c51cae6a695fbe01266bb7f75ded67d632b67bcbbee079deaecbc69/RepRepBuild-0.9.1.tar.gz
+[2023-07-07 14:40:48] INFO root fetch - processPackages [bimdata-api-client]: Downloading https://files.pythonhosted.org/packages/04/d6/f16eeffb47cb62e83c3459330ab4b2f40e6502e16df942ccd8185cf05998/bimdata-api-client-9.9.0.tar.gz
+[2023-07-07 14:40:48] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/e6/4f/3dfcca2a8e99ae348032aa2a99e86330cbefa0a70344cc1c9260ec1c85b2/bigdl_orca-2.4.0b20230706-py3-none-manylinux1_x86_64.whl
+[2023-07-07 14:40:48] INFO root fetch - processPackages [satosacontrib.perun]: executing diffoscope
+[2023-07-07 14:40:48] INFO root fetch - processPackages [satosacontrib.perun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satosacontrib.perun-3.6.0.tar.gz tmp/satosacontrib.perun-3.6.1.tar.gz --markdown 20230707/s/satosacontrib.perun/3.6.0-3.6.1/diff.md --exclude *.pyd
+[2023-07-07 14:40:48] INFO root fetch - processPackages [kalman-labs]: executing diffoscope
+[2023-07-07 14:40:48] INFO root fetch - processPackages [kalman-labs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalman-labs-1.0.31.tar.gz tmp/kalman-labs-1.0.312.tar.gz --markdown 20230707/k/kalman-labs/1.0.31-1.0.312/diff.md --exclude *.pyd
+[2023-07-07 14:40:48] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20369798>=10485760
+[2023-07-07 14:40:48] INFO root fetch - processPackages [bigdl-orca]: Start processing: mo-parsing
+[2023-07-07 14:40:48] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-07-07 14:40:48] INFO root fetch - processPackages [awadb]: Downloading https://files.pythonhosted.org/packages/cb/5c/863c1beb015aebcb8514f41a3c07b5ed6ea295196eb91b6dfcb6efd283e0/awadb-0.3.6-cp311-cp311-macosx_10_13_x86_64.whl
+[2023-07-07 14:40:48] INFO root fetch - processPackages [macrostrat-app-frame]: Downloading https://files.pythonhosted.org/packages/22/8a/1fe8744e2151c28bd0935a22cf5e45818bc2332edc3dc1b9180329d8bbee/macrostrat_app_frame-1.0.5.tar.gz
+[2023-07-07 14:40:48] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/88/97/3626125276ad0d39c558d04fde4a3ba29331c83410ef0f55df253e6b0850/bigdl_friesian-2.4.0b20230706-py3-none-manylinux1_x86_64.whl
+[2023-07-07 14:40:48] INFO root fetch - processPackages [RepRepBuild]: executing diffoscope
+[2023-07-07 14:40:48] INFO root fetch - processPackages [RepRepBuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RepRepBuild-0.9.0.tar.gz tmp/RepRepBuild-0.9.1.tar.gz --markdown 20230707/R/RepRepBuild/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-07 14:40:48] INFO root fetch - processPackages [mo-parsing]: New version: [8.6.21337] Old Version: [8.408.23161]
+[2023-07-07 14:40:48] INFO root fetch - processPackages [bimdata-api-client]: executing diffoscope
+[2023-07-07 14:40:48] INFO root fetch - processPackages [bimdata-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bimdata-api-client-9.8.1.tar.gz tmp/bimdata-api-client-9.9.0.tar.gz --markdown 20230707/b/bimdata-api-client/9.8.1-9.9.0/diff.md --exclude *.pyd
+[2023-07-07 14:40:48] INFO root fetch - processPackages [lib310-lite]: executing diffoscope
+[2023-07-07 14:40:48] INFO root fetch - processPackages [lib310-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib310_lite-0.1.0.dev3.tar.gz tmp/lib310_lite-0.1.0.dev4.tar.gz --markdown 20230707/l/lib310-lite/0.1.0.dev3-0.1.0.dev4/diff.md --exclude *.pyd
+[2023-07-07 14:40:48] INFO root fetch - processPackages [macrostrat-app-frame]: executing diffoscope
+[2023-07-07 14:40:48] INFO root fetch - processPackages [macrostrat-app-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrostrat_app_frame-1.0.4.tar.gz tmp/macrostrat_app_frame-1.0.5.tar.gz --markdown 20230707/m/macrostrat-app-frame/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-07 14:40:48] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-07-07 14:40:48] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230707/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-07-07 14:40:48] INFO root fetch - processPackages [awadb]: executing diffoscope
+[2023-07-07 14:40:48] INFO root fetch - processPackages [awadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awadb-0.3.5-cp39-cp39-manylinux1_x86_64.whl.zip tmp/awadb-0.3.6-cp311-cp311-macosx_10_13_x86_64.whl.zip --markdown 20230707/a/awadb/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-07 14:40:48] INFO root fetch - processPackages [mo-parsing]: Downloading https://files.pythonhosted.org/packages/8f/7c/be4327b5532ca51f33335a5f1913bc667669b9b543238fd8aae25b1add48/mo_parsing-8.408.23161-py2.py3-none-any.whl
+[2023-07-07 14:40:48] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/14/60/74864a51c7c968c0a5279f9e069786c2af3cc856ecb3fac4e3546bebfaa3/bigdl_friesian-2.4.0b20230707-py3-none-manylinux1_x86_64.whl
+[2023-07-07 14:40:49] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-07-07 14:40:49] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.4.0b20230706-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.4.0b20230707-py3-none-manylinux1_x86_64.whl.zip --markdown 20230707/b/bigdl-friesian/2.4.0b20230706-2.4.0b20230707/diff.md --exclude *.pyd
+[2023-07-07 14:40:49] INFO root fetch - processPackages [mo-parsing]: Downloading https://files.pythonhosted.org/packages/f5/1a/82201993fe48978b96bd30729e1d7c8097d4513168689bc51790c6a20d90/mo-parsing-8.6.21337.tar.gz
+[2023-07-07 14:40:49] INFO root fetch - processPackages [mo-parsing]: executing diffoscope
+[2023-07-07 14:40:49] INFO root fetch - processPackages [mo-parsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_parsing-8.408.23161-py2.py3-none-any.whl.zip tmp/mo-parsing-8.6.21337.tar.gz --markdown 20230707/m/mo-parsing/8.408.23161-8.6.21337/diff.md --exclude *.pyd
+[2023-07-07 14:40:49] INFO root fetch - processPackages [kalman-labs]: Remove: archive file [/home/abi/fetcher/tmp/kalman-labs-1.0.31.tar.gz]
+[2023-07-07 14:40:49] INFO root fetch - processPackages [kalman-labs]: Remove: archive file [/home/abi/fetcher/tmp/kalman-labs-1.0.312.tar.gz]
+[2023-07-07 14:40:49] INFO root fetch - processPackages [kalman-labs]: Start processing: bigdl
+[2023-07-07 14:40:49] INFO root fetch - main [MainThread]: End processing [kalman-labs]: success
+[2023-07-07 14:40:49] INFO root fetch - processPackages [lib310-lite]: Remove: archive file [/home/abi/fetcher/tmp/lib310_lite-0.1.0.dev3.tar.gz]
+[2023-07-07 14:40:49] INFO root fetch - processPackages [lib310-lite]: Remove: archive file [/home/abi/fetcher/tmp/lib310_lite-0.1.0.dev4.tar.gz]
+[2023-07-07 14:40:49] INFO root fetch - main [MainThread]: End processing [lib310-lite]: success
+[2023-07-07 14:40:50] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230707] Old Version: [2.4.0b20230706]
+[2023-07-07 14:40:50] INFO root fetch - processPackages [macrostrat-app-frame]: Remove: archive file [/home/abi/fetcher/tmp/macrostrat_app_frame-1.0.4.tar.gz]
+[2023-07-07 14:40:50] INFO root fetch - processPackages [macrostrat-app-frame]: Remove: archive file [/home/abi/fetcher/tmp/macrostrat_app_frame-1.0.5.tar.gz]
+[2023-07-07 14:40:50] INFO root fetch - main [MainThread]: End processing [macrostrat-app-frame]: success
+[2023-07-07 14:40:50] INFO root fetch - processPackages [RepRepBuild]: Remove: archive file [/home/abi/fetcher/tmp/RepRepBuild-0.9.0.tar.gz]
+[2023-07-07 14:40:50] INFO root fetch - processPackages [RepRepBuild]: Remove: archive file [/home/abi/fetcher/tmp/RepRepBuild-0.9.1.tar.gz]
+[2023-07-07 14:40:50] INFO root fetch - main [MainThread]: End processing [RepRepBuild]: success
+[2023-07-07 14:40:50] INFO root fetch - processPackages [satosacontrib.perun]: Remove: archive file [/home/abi/fetcher/tmp/satosacontrib.perun-3.6.0.tar.gz]
+[2023-07-07 14:40:50] INFO root fetch - processPackages [satosacontrib.perun]: Remove: archive file [/home/abi/fetcher/tmp/satosacontrib.perun-3.6.1.tar.gz]
+[2023-07-07 14:40:50] INFO root fetch - main [MainThread]: End processing [satosacontrib.perun]: success
+[2023-07-07 14:40:50] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/c0/df/a9566ad689e601fff8b3f793bcd45857833edd7f15651587137d73d7367a/bigdl-2.4.0b20230706-py3-none-manylinux1_x86_64.whl
+[2023-07-07 14:40:50] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/0f/fc/d5ea7cd56b863975eccde550522f6c757a20631d21567336df9d9e2cfd34/bigdl-2.4.0b20230707-py3-none-manylinux1_x86_64.whl
+[2023-07-07 14:40:50] INFO root fetch - processPackages [mo-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo_parsing-8.408.23161-py2.py3-none-any.whl.zip]
+[2023-07-07 14:40:50] INFO root fetch - processPackages [mo-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo-parsing-8.6.21337.tar.gz]
+[2023-07-07 14:40:50] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-07-07 14:40:50] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230706-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230707-py3-none-manylinux1_x86_64.whl.zip --markdown 20230707/b/bigdl/2.4.0b20230706-2.4.0b20230707/diff.md --exclude *.pyd
+[2023-07-07 14:40:50] INFO root fetch - main [MainThread]: End processing [mo-parsing]: success
+[2023-07-07 14:40:50] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-07-07 14:40:50] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-07-07 14:40:50] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-07-07 14:40:50] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230706-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-07 14:40:50] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230707-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-07 14:40:50] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-07-07 14:40:51] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230706-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-07 14:40:51] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230707-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-07 14:40:51] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-07-07 14:40:51] INFO root fetch - processPackages [awadb]: Remove: archive file [/home/abi/fetcher/tmp/awadb-0.3.5-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2023-07-07 14:40:51] INFO root fetch - processPackages [awadb]: Remove: archive file [/home/abi/fetcher/tmp/awadb-0.3.6-cp311-cp311-macosx_10_13_x86_64.whl.zip]
+[2023-07-07 14:40:51] INFO root fetch - main [MainThread]: End processing [awadb]: success
+[2023-07-07 14:40:52] INFO root fetch - processPackages [bimdata-api-client]: Remove: archive file [/home/abi/fetcher/tmp/bimdata-api-client-9.8.1.tar.gz]
+[2023-07-07 14:40:52] INFO root fetch - processPackages [bimdata-api-client]: Remove: archive file [/home/abi/fetcher/tmp/bimdata-api-client-9.9.0.tar.gz]
+[2023-07-07 14:40:52] INFO root fetch - main [MainThread]: End processing [bimdata-api-client]: success
+[2023-07-07 14:40:52] INFO root fetch - main [MainThread]: Store serial: [18800455]
