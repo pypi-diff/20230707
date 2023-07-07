@@ -16326,3 +16326,205 @@ EOFError: EOF read where object expected
 [2023-07-07 10:58:42] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.1.1.tar.gz]
 [2023-07-07 10:58:42] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-07-07 10:58:42] INFO root fetch - main [MainThread]: Store serial: [18797825]
+[2023-07-07 11:03:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18797825]
+[2023-07-07 11:03:51] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-07-07 11:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ipynao
+[2023-07-07 11:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: catencfamily
+[2023-07-07 11:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fairyfishnet
+[2023-07-07 11:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pantherdb
+[2023-07-07 11:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CmonCrawl
+[2023-07-07 11:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AutoFun
+[2023-07-07 11:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: track-generator
+[2023-07-07 11:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sh-dynamodb
+[2023-07-07 11:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: compare-dfs
+[2023-07-07 11:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyautocorpus
+[2023-07-07 11:03:51] INFO root fetch - processPackages [CmonCrawl]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-07 11:03:51] INFO root fetch - processPackages [track-generator]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-07 11:03:51] INFO root fetch - processPackages [AutoFun]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-07 11:03:51] INFO root fetch - processPackages [fairyfishnet]: New version: [1.16.9] Old Version: [1.16.8]
+[2023-07-07 11:03:51] INFO root fetch - processPackages [ipynao]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-07 11:03:51] INFO root fetch - processPackages [pantherdb]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-07-07 11:03:51] INFO root fetch - processPackages [sh-dynamodb]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-07 11:03:51] INFO root fetch - processPackages [catencfamily]: New version: [0.0.87] Old Version: [0.0.86]
+[2023-07-07 11:03:51] INFO root fetch - processPackages [pyautocorpus]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-07 11:03:52] INFO root fetch - processPackages [compare-dfs]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-07 11:03:52] INFO root fetch - processPackages [track-generator]: Downloading https://files.pythonhosted.org/packages/a3/8f/e5a8dbf9727fa1034fb8ad5cfa169fd9b0d672d38084c236ab2d4ad67310/track_generator-0.5.0.tar.gz
+[2023-07-07 11:03:52] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/d0/41/b15e78adc4a228d03fa0d084ee0cafac63fa3325d5c630448811ab34f92e/sh-dynamodb-1.3.2.tar.gz
+[2023-07-07 11:03:52] INFO root fetch - processPackages [catencfamily]: Downloading https://files.pythonhosted.org/packages/e4/43/009d39ed1dbc74f620ca46274366039f4ae208fef1666dc63e41ea583981/catencfamily-0.0.86.tar.gz
+[2023-07-07 11:03:52] INFO root fetch - processPackages [AutoFun]: Downloading https://files.pythonhosted.org/packages/6d/85/279de912dfd86b7879f37f77c5c39ae00a9494aaaa37c06107212b72ef03/AutoFun-0.3.9.tar.gz
+[2023-07-07 11:03:52] INFO root fetch - processPackages [ipynao]: Downloading https://files.pythonhosted.org/packages/52/f3/553ea8aacd8693e7023e22913b41ee8ec824fde062ac74785d76bf68085a/ipynao-0.4.0-py3-none-any.whl
+[2023-07-07 11:03:52] INFO root fetch - processPackages [CmonCrawl]: Downloading https://files.pythonhosted.org/packages/69/b8/81ef33738d4af3019d0ddc10cfab1fe52a01140299ffce044ef5563d783e/CmonCrawl-1.0.3.tar.gz
+[2023-07-07 11:03:52] INFO root fetch - processPackages [fairyfishnet]: Downloading https://files.pythonhosted.org/packages/d1/1e/d6ef5b25325a62b9f256f7d6404c02a9a6ffc070ffb3bf54d55817a14977/fairyfishnet-1.16.8.tar.gz
+[2023-07-07 11:03:52] INFO root fetch - processPackages [pyautocorpus]: Downloading https://files.pythonhosted.org/packages/84/9b/28868d232047acfb415e33eea8baaa0634b595f99851fa87eaff3e140892/pyautocorpus-0.1.8.tar.gz
+[2023-07-07 11:03:52] INFO root fetch - processPackages [pantherdb]: Downloading https://files.pythonhosted.org/packages/35/a1/ab11f3bd6008ad0e0b012e1ae4fee2d70b795caaebb39de83c20f7ee72fe/pantherdb-1.2.3.tar.gz
+[2023-07-07 11:03:52] WARNING root fetch - processPackages [AutoFun]: Skipping package: exceeds size limit 61458619>=10485760
+[2023-07-07 11:03:52] INFO root fetch - processPackages [AutoFun]: Start processing: matplotlib-ai
+[2023-07-07 11:03:52] INFO root fetch - main [MainThread]: End processing [AutoFun] error
+[2023-07-07 11:03:52] INFO root fetch - processPackages [compare-dfs]: Downloading https://files.pythonhosted.org/packages/40/3f/31e3c4c461cdba19c3563b18af5d5e39e786ffaeb7765123d5f73fda3ca4/compare_dfs-0.0.1.tar.gz
+[2023-07-07 11:03:52] WARNING root fetch - processPackages [matplotlib-ai]: Skipping, unable to determine old version
+[2023-07-07 11:03:52] INFO root fetch - processPackages [matplotlib-ai]: Start processing: tungstenkit
+[2023-07-07 11:03:52] INFO root fetch - main [MainThread]: End processing [matplotlib-ai] error
+[2023-07-07 11:03:52] INFO root fetch - processPackages [track-generator]: Downloading https://files.pythonhosted.org/packages/64/e5/7250d901b2bb92d5a1d9dd63c11dcf6263efdc9ed7979c0e3d77ebbd4d90/track_generator-0.5.1.tar.gz
+[2023-07-07 11:03:52] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/f3/31/bff37ff329fad87bb28d57968260c551498cfb9a6c26ee331b6edecd189c/sh-dynamodb-1.3.3.tar.gz
+[2023-07-07 11:03:52] INFO root fetch - processPackages [pyautocorpus]: Downloading https://files.pythonhosted.org/packages/e9/b2/88efd388e99a1051d728431ce4bb3e45960b984afbaebb3b22a76ce992ab/pyautocorpus-0.1.9.tar.gz
+[2023-07-07 11:03:52] INFO root fetch - processPackages [catencfamily]: Downloading https://files.pythonhosted.org/packages/f8/df/fa9a6d77588e1d915410d78e4cf76af479466e573ebc02c5546bac740cc3/catencfamily-0.0.87.tar.gz
+[2023-07-07 11:03:52] INFO root fetch - processPackages [tungstenkit]: New version: [0.1.2] Old Version: [0.1.1a2]
+[2023-07-07 11:03:52] INFO root fetch - processPackages [CmonCrawl]: executing diffoscope
+[2023-07-07 11:03:52] INFO root fetch - processPackages [CmonCrawl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CmonCrawl-1.0.2.tar.gz tmp/CmonCrawl-1.0.3.tar.gz --markdown 20230707/C/CmonCrawl/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-07 11:03:52] INFO root fetch - processPackages [ipynao]: Downloading https://files.pythonhosted.org/packages/c0/81/afc5591f4cf6e1f73445b3cf7bd06e4389fc596306edc05a5b1643720e1d/ipynao-0.4.1-py3-none-any.whl
+[2023-07-07 11:03:52] INFO root fetch - processPackages [pantherdb]: Downloading https://files.pythonhosted.org/packages/88/d0/8092c8873db50470752cbc971dfeb1f1567412421bc872956b987fe26a31/pantherdb-1.2.4.tar.gz
+[2023-07-07 11:03:52] INFO root fetch - processPackages [compare-dfs]: Downloading https://files.pythonhosted.org/packages/3d/14/c613e86b6649a2207855568b8b8908601b4c2f85c0c387ab3c6b932ccb2b/compare_dfs-0.0.2.tar.gz
+[2023-07-07 11:03:52] INFO root fetch - processPackages [track-generator]: executing diffoscope
+[2023-07-07 11:03:52] INFO root fetch - processPackages [track-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/track_generator-0.5.0.tar.gz tmp/track_generator-0.5.1.tar.gz --markdown 20230707/t/track-generator/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-07 11:03:52] INFO root fetch - processPackages [sh-dynamodb]: executing diffoscope
+[2023-07-07 11:03:52] INFO root fetch - processPackages [sh-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sh-dynamodb-1.3.2.tar.gz tmp/sh-dynamodb-1.3.3.tar.gz --markdown 20230707/s/sh-dynamodb/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-07 11:03:52] INFO root fetch - processPackages [fairyfishnet]: Downloading https://files.pythonhosted.org/packages/3f/d3/5fb0b2518420ab6b476eece8f57018e1c84458e385fce144f12376a52fb5/fairyfishnet-1.16.9.tar.gz
+[2023-07-07 11:03:52] INFO root fetch - processPackages [pyautocorpus]: executing diffoscope
+[2023-07-07 11:03:52] INFO root fetch - processPackages [pyautocorpus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyautocorpus-0.1.8.tar.gz tmp/pyautocorpus-0.1.9.tar.gz --markdown 20230707/p/pyautocorpus/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-07 11:03:52] INFO root fetch - processPackages [catencfamily]: executing diffoscope
+[2023-07-07 11:03:52] INFO root fetch - processPackages [catencfamily]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catencfamily-0.0.86.tar.gz tmp/catencfamily-0.0.87.tar.gz --markdown 20230707/c/catencfamily/0.0.86-0.0.87/diff.md --exclude *.pyd
+[2023-07-07 11:03:52] INFO root fetch - processPackages [tungstenkit]: Downloading https://files.pythonhosted.org/packages/68/fd/5d548bdf4f36183af2b2ea30d4142c55b2a6575f43ea1d65d686619d6447/tungstenkit-0.1.1a2.tar.gz
+[2023-07-07 11:03:52] INFO root fetch - processPackages [pantherdb]: executing diffoscope
+[2023-07-07 11:03:52] INFO root fetch - processPackages [pantherdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pantherdb-1.2.3.tar.gz tmp/pantherdb-1.2.4.tar.gz --markdown 20230707/p/pantherdb/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-07-07 11:03:52] INFO root fetch - processPackages [ipynao]: executing diffoscope
+[2023-07-07 11:03:52] INFO root fetch - processPackages [ipynao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipynao-0.4.0-py3-none-any.whl.zip tmp/ipynao-0.4.1-py3-none-any.whl.zip --markdown 20230707/i/ipynao/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-07 11:03:53] INFO root fetch - processPackages [compare-dfs]: executing diffoscope
+[2023-07-07 11:03:53] INFO root fetch - processPackages [compare-dfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compare_dfs-0.0.1.tar.gz tmp/compare_dfs-0.0.2.tar.gz --markdown 20230707/c/compare-dfs/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-07 11:03:53] INFO root fetch - processPackages [fairyfishnet]: executing diffoscope
+[2023-07-07 11:03:53] INFO root fetch - processPackages [fairyfishnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fairyfishnet-1.16.8.tar.gz tmp/fairyfishnet-1.16.9.tar.gz --markdown 20230707/f/fairyfishnet/1.16.8-1.16.9/diff.md --exclude *.pyd
+[2023-07-07 11:03:53] INFO root fetch - processPackages [tungstenkit]: Downloading https://files.pythonhosted.org/packages/3d/c0/b98a93b250a6d69c11f5018d61417e211b652f19121d1c3e28fa4ffc3b2b/tungstenkit-0.1.2.tar.gz
+[2023-07-07 11:03:53] INFO root fetch - processPackages [tungstenkit]: executing diffoscope
+[2023-07-07 11:03:53] INFO root fetch - processPackages [tungstenkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tungstenkit-0.1.1a2.tar.gz tmp/tungstenkit-0.1.2.tar.gz --markdown 20230707/t/tungstenkit/0.1.1a2-0.1.2/diff.md --exclude *.pyd
+[2023-07-07 11:03:54] INFO root fetch - processPackages [sh-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/sh-dynamodb-1.3.2.tar.gz]
+[2023-07-07 11:03:54] INFO root fetch - processPackages [sh-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/sh-dynamodb-1.3.3.tar.gz]
+[2023-07-07 11:03:54] INFO root fetch - processPackages [sh-dynamodb]: Start processing: compare-dfs
+[2023-07-07 11:03:54] INFO root fetch - main [MainThread]: End processing [sh-dynamodb]: success
+[2023-07-07 11:03:54] INFO root fetch - processPackages [track-generator]: Remove: archive file [/home/abi/fetcher/tmp/track_generator-0.5.0.tar.gz]
+[2023-07-07 11:03:54] INFO root fetch - processPackages [track-generator]: Remove: archive file [/home/abi/fetcher/tmp/track_generator-0.5.1.tar.gz]
+[2023-07-07 11:03:54] INFO root fetch - processPackages [track-generator]: Start processing: dipex
+[2023-07-07 11:03:54] INFO root fetch - main [MainThread]: End processing [track-generator]: success
+[2023-07-07 11:03:54] INFO root fetch - processPackages [catencfamily]: Remove: archive file [/home/abi/fetcher/tmp/catencfamily-0.0.86.tar.gz]
+[2023-07-07 11:03:54] INFO root fetch - processPackages [catencfamily]: Remove: archive file [/home/abi/fetcher/tmp/catencfamily-0.0.87.tar.gz]
+[2023-07-07 11:03:54] INFO root fetch - processPackages [catencfamily]: Start processing: edwh-pipcompile-plugin
+[2023-07-07 11:03:54] INFO root fetch - main [MainThread]: End processing [catencfamily]: success
+[2023-07-07 11:03:54] INFO root fetch - processPackages [compare-dfs]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-07 11:03:54] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-07-07 11:03:54] INFO root fetch - processPackages [pyautocorpus]: Remove: archive file [/home/abi/fetcher/tmp/pyautocorpus-0.1.8.tar.gz]
+[2023-07-07 11:03:54] INFO root fetch - processPackages [pyautocorpus]: Remove: archive file [/home/abi/fetcher/tmp/pyautocorpus-0.1.9.tar.gz]
+[2023-07-07 11:03:54] INFO root fetch - processPackages [pyautocorpus]: Start processing: strictdoc
+[2023-07-07 11:03:54] INFO root fetch - main [MainThread]: End processing [pyautocorpus]: success
+[2023-07-07 11:03:54] INFO root fetch - processPackages [edwh-pipcompile-plugin]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-07 11:03:54] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/ca/fb/bcdbc34d4ffff4b37acd3e2fb76f42bcea1844762d4b998c319652fc6b38/dipex-4.9.1.tar.gz
+[2023-07-07 11:03:54] INFO root fetch - processPackages [strictdoc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 11:03:54] INFO root fetch - processPackages [compare-dfs]: Remove: archive file [/home/abi/fetcher/tmp/compare_dfs-0.0.1.tar.gz]
+[2023-07-07 11:03:54] INFO root fetch - processPackages [compare-dfs]: Remove: archive file [/home/abi/fetcher/tmp/compare_dfs-0.0.2.tar.gz]
+[2023-07-07 11:03:54] INFO root fetch - processPackages [compare-dfs]: Start processing: pydfql
+[2023-07-07 11:03:54] INFO root fetch - main [MainThread]: End processing [compare-dfs]: success
+[2023-07-07 11:03:54] INFO root fetch - processPackages [compare-dfs]: Downloading https://files.pythonhosted.org/packages/3d/14/c613e86b6649a2207855568b8b8908601b4c2f85c0c387ab3c6b932ccb2b/compare_dfs-0.0.2.tar.gz
+[2023-07-07 11:03:54] INFO root fetch - processPackages [fairyfishnet]: Remove: archive file [/home/abi/fetcher/tmp/fairyfishnet-1.16.8.tar.gz]
+[2023-07-07 11:03:54] INFO root fetch - processPackages [fairyfishnet]: Remove: archive file [/home/abi/fetcher/tmp/fairyfishnet-1.16.9.tar.gz]
+[2023-07-07 11:03:54] INFO root fetch - processPackages [fairyfishnet]: Start processing: modal-client
+[2023-07-07 11:03:54] INFO root fetch - main [MainThread]: End processing [fairyfishnet]: success
+[2023-07-07 11:03:54] INFO root fetch - processPackages [modal-client]: New version: [0.50.2604] Old Version: [0.50.2597]
+[2023-07-07 11:03:54] INFO root fetch - processPackages [edwh-pipcompile-plugin]: Downloading https://files.pythonhosted.org/packages/74/94/15a3cb69a7b6cd56dc9b591af487742fdc622fd58c85b393f672925847c1/edwh_pipcompile_plugin-0.2.1.tar.gz
+[2023-07-07 11:03:54] INFO root fetch - processPackages [compare-dfs]: executing diffoscope
+[2023-07-07 11:03:54] INFO root fetch - processPackages [compare-dfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compare_dfs-0.0.1.tar.gz tmp/compare_dfs-0.0.2.tar.gz --markdown 20230707/c/compare-dfs/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-07 11:03:54] WARNING root fetch - processPackages [pydfql]: Skipping, unable to determine old version
+[2023-07-07 11:03:54] INFO root fetch - processPackages [pydfql]: Start processing: modal
+[2023-07-07 11:03:54] INFO root fetch - main [MainThread]: End processing [pydfql] error
+[2023-07-07 11:03:54] INFO root fetch - processPackages [pantherdb]: Remove: archive file [/home/abi/fetcher/tmp/pantherdb-1.2.3.tar.gz]
+[2023-07-07 11:03:54] INFO root fetch - processPackages [pantherdb]: Remove: archive file [/home/abi/fetcher/tmp/pantherdb-1.2.4.tar.gz]
+[2023-07-07 11:03:54] INFO root fetch - processPackages [pantherdb]: Start processing: flet-core
+[2023-07-07 11:03:54] INFO root fetch - main [MainThread]: End processing [pantherdb]: success
+[2023-07-07 11:03:54] INFO root fetch - processPackages [modal]: New version: [0.50.2604] Old Version: [0.50.2597]
+[2023-07-07 11:03:54] INFO root fetch - processPackages [flet-core]: New version: [0.9.0.dev1604] Old Version: [0.9.0.dev1603]
+[2023-07-07 11:03:54] INFO root fetch - processPackages [strictdoc]: Downloading https://files.pythonhosted.org/packages/0e/0c/3782c5673a36cda9e2189ef1e7d9661ba2f1e5c9822b736cf2ce0d2545a7/strictdoc-0.0.8.tar.gz
+[2023-07-07 11:03:54] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/5a/86/bdb763bded4f5c9d239190fdf2e0a20d4cd4c0239e0b6473c05011895c57/modal_client-0.50.2597-py3-none-any.whl
+[2023-07-07 11:03:55] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/f0/74/c9eeb80d637b6dbb5e0549128acb0467fe78d5f19e8db8159f67120dd9f8/modal-0.50.2597-py3-none-any.whl
+[2023-07-07 11:03:55] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/d3/fa/fbf692999f299bb256217f34df9cc1e4ee2f9e1ae9e87e051b2b8b92aaa1/dipex-4.9.2.tar.gz
+[2023-07-07 11:03:55] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/9a/ce/206cafc13e78aa1a818a581073fab72458252e18c04f0628652d2c3fba5e/flet_core-0.9.0.dev1603.tar.gz
+[2023-07-07 11:03:55] INFO root fetch - processPackages [edwh-pipcompile-plugin]: Downloading https://files.pythonhosted.org/packages/2a/06/f4352db68c758fae470394af7ea9863303ae464d8f0f1177edeaa548f065/edwh_pipcompile_plugin-0.2.2.tar.gz
+[2023-07-07 11:03:55] ERROR root fetch - processPackages [compare-dfs]: Diffoscope failed: time="2023-07-07T11:03:54+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/compare_dfs-0.0.1.tar.gz: No such file or directory
+
+[2023-07-07 11:03:55] INFO root fetch - processPackages [compare-dfs]: Start processing: flet-runtime
+[2023-07-07 11:03:55] INFO root fetch - main [MainThread]: End processing [compare-dfs] error
+[2023-07-07 11:03:55] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/b4/81/da492c45a8bad44c28abb78f4748cb45997085ea7a1679d950b6a0e37659/flet_core-0.9.0.dev1604.tar.gz
+[2023-07-07 11:03:55] INFO root fetch - processPackages [edwh-pipcompile-plugin]: executing diffoscope
+[2023-07-07 11:03:55] INFO root fetch - processPackages [edwh-pipcompile-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_pipcompile_plugin-0.2.1.tar.gz tmp/edwh_pipcompile_plugin-0.2.2.tar.gz --markdown 20230707/e/edwh-pipcompile-plugin/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-07 11:03:55] INFO root fetch - processPackages [flet-runtime]: New version: [0.9.0.dev1604] Old Version: [0.9.0.dev1603]
+[2023-07-07 11:03:55] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/99/ac/95d89d40ef969324a1a2fc60203aee7114167e5b2f28209cad687ef0e506/modal-0.50.2604-py3-none-any.whl
+[2023-07-07 11:03:55] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/a8/45/03e1ec0007ab44ab6186bd4a998b227c70e09af97c336bd8305f6020c2dc/modal_client-0.50.2604-py3-none-any.whl
+[2023-07-07 11:03:55] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/c1/75/8247ca9d6f3ac6b0919179f1a4c16397db477cae56f81669c7bfd2988727/flet_runtime-0.9.0.dev1603.tar.gz
+[2023-07-07 11:03:55] INFO root fetch - processPackages [flet-core]: executing diffoscope
+[2023-07-07 11:03:55] INFO root fetch - processPackages [flet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_core-0.9.0.dev1603.tar.gz tmp/flet_core-0.9.0.dev1604.tar.gz --markdown 20230707/f/flet-core/0.9.0.dev1603-0.9.0.dev1604/diff.md --exclude *.pyd
+[2023-07-07 11:03:55] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-07-07 11:03:55] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230707/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-07-07 11:03:55] INFO root fetch - processPackages [modal]: executing diffoscope
+[2023-07-07 11:03:55] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.50.2597-py3-none-any.whl.zip tmp/modal-0.50.2604-py3-none-any.whl.zip --markdown 20230707/m/modal/0.50.2597-0.50.2604/diff.md --exclude *.pyd
+[2023-07-07 11:03:55] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-07-07 11:03:55] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.50.2597-py3-none-any.whl.zip tmp/modal_client-0.50.2604-py3-none-any.whl.zip --markdown 20230707/m/modal-client/0.50.2597-0.50.2604/diff.md --exclude *.pyd
+[2023-07-07 11:03:55] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/52/ae/7b43445f0e6d8f8bfa4dc4e2385d5763abd202d57b5c0d45891985596e4a/flet_runtime-0.9.0.dev1604.tar.gz
+[2023-07-07 11:03:55] INFO root fetch - processPackages [strictdoc]: Downloading https://files.pythonhosted.org/packages/b6/06/2219b569301c00406d344dca69ac5e31a169bb9529b66ec957609495d940/strictdoc-0.0.9.tar.gz
+[2023-07-07 11:03:55] INFO root fetch - processPackages [flet-runtime]: executing diffoscope
+[2023-07-07 11:03:55] INFO root fetch - processPackages [flet-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_runtime-0.9.0.dev1603.tar.gz tmp/flet_runtime-0.9.0.dev1604.tar.gz --markdown 20230707/f/flet-runtime/0.9.0.dev1603-0.9.0.dev1604/diff.md --exclude *.pyd
+[2023-07-07 11:03:56] INFO root fetch - processPackages [strictdoc]: executing diffoscope
+[2023-07-07 11:03:56] INFO root fetch - processPackages [strictdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strictdoc-0.0.8.tar.gz tmp/strictdoc-0.0.9.tar.gz --markdown 20230707/s/strictdoc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 11:03:56] INFO root fetch - processPackages [edwh-pipcompile-plugin]: Remove: archive file [/home/abi/fetcher/tmp/edwh_pipcompile_plugin-0.2.1.tar.gz]
+[2023-07-07 11:03:56] INFO root fetch - processPackages [edwh-pipcompile-plugin]: Remove: archive file [/home/abi/fetcher/tmp/edwh_pipcompile_plugin-0.2.2.tar.gz]
+[2023-07-07 11:03:56] INFO root fetch - processPackages [edwh-pipcompile-plugin]: Start processing: flet-embed
+[2023-07-07 11:03:56] INFO root fetch - main [MainThread]: End processing [edwh-pipcompile-plugin]: success
+[2023-07-07 11:03:56] INFO root fetch - processPackages [flet-embed]: New version: [0.9.0.dev1604] Old Version: [0.9.0.dev1603]
+[2023-07-07 11:03:56] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/df/41/8618be395103919d489a96a4368f9ae80a1a5de717371a6f1d263ca6df49/flet_embed-0.9.0.dev1603.tar.gz
+[2023-07-07 11:03:56] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2597-py3-none-any.whl.zip]
+[2023-07-07 11:03:56] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2604-py3-none-any.whl.zip]
+[2023-07-07 11:03:56] INFO root fetch - processPackages [modal]: Start processing: flet
+[2023-07-07 11:03:56] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2023-07-07 11:03:56] INFO root fetch - processPackages [flet]: New version: [0.9.0.dev1604] Old Version: [0.9.0.dev1603]
+[2023-07-07 11:03:57] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/ed/4d/1dca18984bd08c324509bf699c6beb54bce8b9415797bf0d5f1691837b21/flet-0.9.0.dev1603.tar.gz
+[2023-07-07 11:03:57] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/35/99/27dd6fc1d3bcd31c1ba2ebee6bc5c4083638dc5715dbb1a67a0803607443/flet_embed-0.9.0.dev1604.tar.gz
+[2023-07-07 11:03:57] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.9.0.dev1603.tar.gz]
+[2023-07-07 11:03:57] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.9.0.dev1604.tar.gz]
+[2023-07-07 11:03:57] INFO root fetch - processPackages [flet-runtime]: Start processing: flet-pyodide
+[2023-07-07 11:03:57] INFO root fetch - main [MainThread]: End processing [flet-runtime]: success
+[2023-07-07 11:03:57] INFO root fetch - processPackages [flet-embed]: executing diffoscope
+[2023-07-07 11:03:57] INFO root fetch - processPackages [flet-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_embed-0.9.0.dev1603.tar.gz tmp/flet_embed-0.9.0.dev1604.tar.gz --markdown 20230707/f/flet-embed/0.9.0.dev1603-0.9.0.dev1604/diff.md --exclude *.pyd
+[2023-07-07 11:03:57] INFO root fetch - processPackages [flet-pyodide]: New version: [0.9.0.dev1604] Old Version: [0.9.0.dev1603]
+[2023-07-07 11:03:57] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/9f/75/629f6be450d5ac01077edaf64978cb251f7e3044363ab4f8a81b4a7c4cd4/flet-0.9.0.dev1604.tar.gz
+[2023-07-07 11:03:57] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/8b/fb/28acc66919da82542b9a49e74f8665bffc94929de5b678d4d7d4cd0ddb41/flet_pyodide-0.9.0.dev1603.tar.gz
+[2023-07-07 11:03:57] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/f9/9b/31c43853b6fd0efeb7cdf2fba063e22becf3654cbfeb5ce4925d40abf2c4/flet_pyodide-0.9.0.dev1604.tar.gz
+[2023-07-07 11:03:57] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.9.0.dev1603.tar.gz]
+[2023-07-07 11:03:57] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.9.0.dev1604.tar.gz]
+[2023-07-07 11:03:57] INFO root fetch - main [MainThread]: End processing [flet-core]: success
+[2023-07-07 11:03:57] INFO root fetch - processPackages [flet]: executing diffoscope
+[2023-07-07 11:03:57] INFO root fetch - processPackages [flet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-0.9.0.dev1603.tar.gz tmp/flet-0.9.0.dev1604.tar.gz --markdown 20230707/f/flet/0.9.0.dev1603-0.9.0.dev1604/diff.md --exclude *.pyd
+[2023-07-07 11:03:57] INFO root fetch - processPackages [flet-pyodide]: executing diffoscope
+[2023-07-07 11:03:57] INFO root fetch - processPackages [flet-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_pyodide-0.9.0.dev1603.tar.gz tmp/flet_pyodide-0.9.0.dev1604.tar.gz --markdown 20230707/f/flet-pyodide/0.9.0.dev1603-0.9.0.dev1604/diff.md --exclude *.pyd
+[2023-07-07 11:03:57] INFO root fetch - processPackages [ipynao]: Remove: archive file [/home/abi/fetcher/tmp/ipynao-0.4.0-py3-none-any.whl.zip]
+[2023-07-07 11:03:57] INFO root fetch - processPackages [ipynao]: Remove: archive file [/home/abi/fetcher/tmp/ipynao-0.4.1-py3-none-any.whl.zip]
+[2023-07-07 11:03:57] INFO root fetch - main [MainThread]: End processing [ipynao]: success
+[2023-07-07 11:03:57] INFO root fetch - processPackages [strictdoc]: Remove: archive file [/home/abi/fetcher/tmp/strictdoc-0.0.8.tar.gz]
+[2023-07-07 11:03:57] INFO root fetch - processPackages [strictdoc]: Remove: archive file [/home/abi/fetcher/tmp/strictdoc-0.0.9.tar.gz]
+[2023-07-07 11:03:57] INFO root fetch - main [MainThread]: End processing [strictdoc]: success
+[2023-07-07 11:03:58] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.1.tar.gz]
+[2023-07-07 11:03:58] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.2.tar.gz]
+[2023-07-07 11:03:58] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-07-07 11:03:58] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2597-py3-none-any.whl.zip]
+[2023-07-07 11:03:58] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2604-py3-none-any.whl.zip]
+[2023-07-07 11:03:58] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-07-07 11:03:58] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.9.0.dev1603.tar.gz]
+[2023-07-07 11:03:58] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.9.0.dev1604.tar.gz]
+[2023-07-07 11:03:58] INFO root fetch - main [MainThread]: End processing [flet-embed]: success
+[2023-07-07 11:03:58] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.9.0.dev1603.tar.gz]
+[2023-07-07 11:03:58] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.9.0.dev1604.tar.gz]
+[2023-07-07 11:03:58] INFO root fetch - main [MainThread]: End processing [flet-pyodide]: success
+[2023-07-07 11:03:59] INFO root fetch - processPackages [CmonCrawl]: Remove: archive file [/home/abi/fetcher/tmp/CmonCrawl-1.0.2.tar.gz]
+[2023-07-07 11:03:59] INFO root fetch - processPackages [CmonCrawl]: Remove: archive file [/home/abi/fetcher/tmp/CmonCrawl-1.0.3.tar.gz]
+[2023-07-07 11:03:59] INFO root fetch - main [MainThread]: End processing [CmonCrawl]: success
+[2023-07-07 11:03:59] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.9.0.dev1603.tar.gz]
+[2023-07-07 11:03:59] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.9.0.dev1604.tar.gz]
+[2023-07-07 11:03:59] INFO root fetch - main [MainThread]: End processing [flet]: success
+[2023-07-07 11:04:02] INFO root fetch - processPackages [tungstenkit]: Remove: archive file [/home/abi/fetcher/tmp/tungstenkit-0.1.1a2.tar.gz]
+[2023-07-07 11:04:02] INFO root fetch - processPackages [tungstenkit]: Remove: archive file [/home/abi/fetcher/tmp/tungstenkit-0.1.2.tar.gz]
+[2023-07-07 11:04:02] INFO root fetch - main [MainThread]: End processing [tungstenkit]: success
+[2023-07-07 11:04:02] INFO root fetch - main [MainThread]: Store serial: [18797916]
