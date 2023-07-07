@@ -13878,3 +13878,112 @@ EOFError: EOF read where object expected
 [2023-07-07 09:16:46] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.9.tar.gz]
 [2023-07-07 09:16:46] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
 [2023-07-07 09:16:46] INFO root fetch - main [MainThread]: Store serial: [18796808]
+[2023-07-07 09:21:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18796808]
+[2023-07-07 09:21:55] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-07 09:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: auto_dataclass
+[2023-07-07 09:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-stdimage2
+[2023-07-07 09:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: localstripe
+[2023-07-07 09:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-request-hook
+[2023-07-07 09:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tinybird-cli
+[2023-07-07 09:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: connect-eaas-core
+[2023-07-07 09:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fenjing
+[2023-07-07 09:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: home-assistant-streamdeck-yaml
+[2023-07-07 09:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dan-build
+[2023-07-07 09:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-stdimage2
+[2023-07-07 09:21:55] INFO root fetch - processPackages [connect-eaas-core]: New version: [4.1.0] Old Version: [4.0.0]
+[2023-07-07 09:21:55] INFO root fetch - processPackages [django-stdimage2]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-07 09:21:55] INFO root fetch - processPackages [fenjing]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-07 09:21:55] INFO root fetch - processPackages [localstripe]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-07 09:21:55] INFO root fetch - processPackages [auto_dataclass]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-07 09:21:55] INFO root fetch - processPackages [django-stdimage2]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-07 09:21:55] INFO root fetch - processPackages [home-assistant-streamdeck-yaml]: New version: [2023.7.4] Old Version: [2023.7.3]
+[2023-07-07 09:21:55] INFO root fetch - processPackages [dan-build]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-07 09:21:55] INFO root fetch - processPackages [django-request-hook]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-07 09:21:55] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-07-07 09:21:55] INFO root fetch - processPackages [connect-eaas-core]: Downloading https://files.pythonhosted.org/packages/cc/2b/dea815280942b1c045ca9eecfafffe56712d2b8c5e293241f99caf0d825c/connect-eaas-core-4.0.0.tar.gz
+[2023-07-07 09:21:55] INFO root fetch - processPackages [fenjing]: Downloading https://files.pythonhosted.org/packages/9b/6f/e6ab788460c6fa28cace5e221f52894f598adbfcf67a15f146f4f2ac1da7/fenjing-0.4.0.tar.gz
+[2023-07-07 09:21:55] INFO root fetch - processPackages [auto_dataclass]: Downloading https://files.pythonhosted.org/packages/97/ca/5bb93c77bdb6d36417fbad276507b9d46dfe850b53bbc87107fe75379c67/auto_dataclass-0.1.2.tar.gz
+[2023-07-07 09:21:55] INFO root fetch - processPackages [django-stdimage2]: Downloading https://files.pythonhosted.org/packages/fb/2c/e2513402612f2f0c49c0d3e6a10662865e4c7538069f6016881e4378ee12/django-stdimage2-0.1.5.tar.gz
+[2023-07-07 09:21:55] INFO root fetch - processPackages [django-stdimage2]: Downloading https://files.pythonhosted.org/packages/fb/2c/e2513402612f2f0c49c0d3e6a10662865e4c7538069f6016881e4378ee12/django-stdimage2-0.1.5.tar.gz
+[2023-07-07 09:21:55] INFO root fetch - processPackages [django-request-hook]: Downloading https://files.pythonhosted.org/packages/bc/18/e000971da738d800ba223b80414df0bb7246078162041bc8cedc4aa89f9b/django-request-hook-0.0.1.tar.gz
+[2023-07-07 09:21:55] INFO root fetch - processPackages [dan-build]: Downloading https://files.pythonhosted.org/packages/a3/eb/3a7b4f563cff1abe2b13215cfbb640907eb4e8bf1b6dab518fda5d4440e5/dan-build-0.2.5.tar.gz
+[2023-07-07 09:21:55] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/cf/bc/f6fe2aa48ad97fc6f03b105a263497f0cc5d7173fa89703bbc609c18f13a/tinybird-cli-1.0.0b98.tar.gz
+[2023-07-07 09:21:55] INFO root fetch - processPackages [localstripe]: Downloading https://files.pythonhosted.org/packages/23/2b/be6ee88ac3ebab0fc0a086593310cf126567eeecaba9718dfcb509e30540/localstripe-1.9.0.tar.gz
+[2023-07-07 09:21:55] INFO root fetch - processPackages [home-assistant-streamdeck-yaml]: Downloading https://files.pythonhosted.org/packages/af/93/3ec938ff6ac83175e068088cad1ab8e86fa11e82c92a59667a793e0f677d/home_assistant_streamdeck_yaml-2023.7.3.tar.gz
+[2023-07-07 09:21:55] INFO root fetch - processPackages [connect-eaas-core]: Downloading https://files.pythonhosted.org/packages/b8/0e/223cf7857305fa1f3a5dd5f98ef3ffefc0eabf78b1d8512dc021aac41705/connect-eaas-core-4.1.0.tar.gz
+[2023-07-07 09:21:56] INFO root fetch - processPackages [fenjing]: Downloading https://files.pythonhosted.org/packages/64/2f/92d2cc6308dc0581e4535d10bf5fbb130784e1c17924facc0cd25a21443e/fenjing-0.4.1.tar.gz
+[2023-07-07 09:21:56] INFO root fetch - processPackages [connect-eaas-core]: executing diffoscope
+[2023-07-07 09:21:56] INFO root fetch - processPackages [connect-eaas-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connect-eaas-core-4.0.0.tar.gz tmp/connect-eaas-core-4.1.0.tar.gz --markdown 20230707/c/connect-eaas-core/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2023-07-07 09:21:56] INFO root fetch - processPackages [auto_dataclass]: Downloading https://files.pythonhosted.org/packages/00/a6/55de4a18d28a369ec7198893aa3c88470184adc9a9123699f3190b16240f/auto_dataclass-0.1.3.tar.gz
+[2023-07-07 09:21:56] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/6a/27/a5d411f1a02b44b9f386c7d18397784dcaa5fe1129d9a77e87a5e048edc5/tinybird-cli-1.0.0b99.tar.gz
+[2023-07-07 09:21:56] INFO root fetch - processPackages [django-request-hook]: Downloading https://files.pythonhosted.org/packages/bc/2e/a37eefbd9b360e72fb5c3dbf58d6fa03dbf82ebd538be1bdb2e04d2549dc/django-request-hook-0.0.2.tar.gz
+[2023-07-07 09:21:56] INFO root fetch - processPackages [django-stdimage2]: Downloading https://files.pythonhosted.org/packages/fe/52/a80df77ed47f9e8dd5455b69dbdfca4ce5c21decfa7bc5f4c0dde99e69e3/django-stdimage2-0.1.6.tar.gz
+[2023-07-07 09:21:56] INFO root fetch - processPackages [django-stdimage2]: Downloading https://files.pythonhosted.org/packages/fe/52/a80df77ed47f9e8dd5455b69dbdfca4ce5c21decfa7bc5f4c0dde99e69e3/django-stdimage2-0.1.6.tar.gz
+[2023-07-07 09:21:56] INFO root fetch - processPackages [dan-build]: Downloading https://files.pythonhosted.org/packages/e1/28/11b69f84a8d26e967cd65f6c6bcbabe3d6a15689a6e940be95e75bd14194/dan-build-0.2.6.tar.gz
+[2023-07-07 09:21:56] INFO root fetch - processPackages [auto_dataclass]: executing diffoscope
+[2023-07-07 09:21:56] INFO root fetch - processPackages [auto_dataclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_dataclass-0.1.2.tar.gz tmp/auto_dataclass-0.1.3.tar.gz --markdown 20230707/a/auto_dataclass/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-07 09:21:56] INFO root fetch - processPackages [localstripe]: Downloading https://files.pythonhosted.org/packages/93/a0/2949de50403feab2feb2a849f0846fb8893e4397a31616ff5ae6aff7dc44/localstripe-1.9.1.tar.gz
+[2023-07-07 09:21:56] INFO root fetch - processPackages [home-assistant-streamdeck-yaml]: Downloading https://files.pythonhosted.org/packages/fa/74/3eb2f2ddaf3f1632cab86c5f6de981523d133aba96df01f7a1e6ed35f7dd/home_assistant_streamdeck_yaml-2023.7.4.tar.gz
+[2023-07-07 09:21:56] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-07-07 09:21:56] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230707/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-07-07 09:21:56] INFO root fetch - processPackages [fenjing]: executing diffoscope
+[2023-07-07 09:21:56] INFO root fetch - processPackages [fenjing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fenjing-0.4.0.tar.gz tmp/fenjing-0.4.1.tar.gz --markdown 20230707/f/fenjing/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-07 09:21:56] INFO root fetch - processPackages [django-request-hook]: executing diffoscope
+[2023-07-07 09:21:56] INFO root fetch - processPackages [django-request-hook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-request-hook-0.0.1.tar.gz tmp/django-request-hook-0.0.2.tar.gz --markdown 20230707/d/django-request-hook/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-07 09:21:56] INFO root fetch - processPackages [dan-build]: executing diffoscope
+[2023-07-07 09:21:56] INFO root fetch - processPackages [dan-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dan-build-0.2.5.tar.gz tmp/dan-build-0.2.6.tar.gz --markdown 20230707/d/dan-build/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-07 09:21:56] INFO root fetch - processPackages [django-stdimage2]: executing diffoscope
+[2023-07-07 09:21:56] INFO root fetch - processPackages [django-stdimage2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-stdimage2-0.1.5.tar.gz tmp/django-stdimage2-0.1.6.tar.gz --markdown 20230707/d/django-stdimage2/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-07 09:21:56] INFO root fetch - processPackages [localstripe]: executing diffoscope
+[2023-07-07 09:21:56] INFO root fetch - processPackages [localstripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstripe-1.9.0.tar.gz tmp/localstripe-1.9.1.tar.gz --markdown 20230707/l/localstripe/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-07 09:21:56] INFO root fetch - processPackages [django-stdimage2]: executing diffoscope
+[2023-07-07 09:21:56] INFO root fetch - processPackages [django-stdimage2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-stdimage2-0.1.5.tar.gz tmp/django-stdimage2-0.1.6.tar.gz --markdown 20230707/d/django-stdimage2/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-07 09:21:56] INFO root fetch - processPackages [home-assistant-streamdeck-yaml]: executing diffoscope
+[2023-07-07 09:21:56] INFO root fetch - processPackages [home-assistant-streamdeck-yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/home_assistant_streamdeck_yaml-2023.7.3.tar.gz tmp/home_assistant_streamdeck_yaml-2023.7.4.tar.gz --markdown 20230707/h/home-assistant-streamdeck-yaml/2023.7.3-2023.7.4/diff.md --exclude *.pyd
+[2023-07-07 09:21:57] INFO root fetch - processPackages [connect-eaas-core]: Remove: archive file [/home/abi/fetcher/tmp/connect-eaas-core-4.0.0.tar.gz]
+[2023-07-07 09:21:57] INFO root fetch - processPackages [connect-eaas-core]: Remove: archive file [/home/abi/fetcher/tmp/connect-eaas-core-4.1.0.tar.gz]
+[2023-07-07 09:21:57] INFO root fetch - processPackages [connect-eaas-core]: Start processing: ectool
+[2023-07-07 09:21:57] INFO root fetch - main [MainThread]: End processing [connect-eaas-core]: success
+[2023-07-07 09:21:57] INFO root fetch - processPackages [ectool]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-07 09:21:57] INFO root fetch - processPackages [ectool]: Downloading https://files.pythonhosted.org/packages/e0/32/1cd16c7cd84dcddc3b71937a95fea1c666ffcee470ef8a50f72531d63040/ectool-1.1.0.tar.gz
+[2023-07-07 09:21:57] INFO root fetch - processPackages [auto_dataclass]: Remove: archive file [/home/abi/fetcher/tmp/auto_dataclass-0.1.2.tar.gz]
+[2023-07-07 09:21:57] INFO root fetch - processPackages [auto_dataclass]: Remove: archive file [/home/abi/fetcher/tmp/auto_dataclass-0.1.3.tar.gz]
+[2023-07-07 09:21:57] INFO root fetch - processPackages [auto_dataclass]: Start processing: scitacean
+[2023-07-07 09:21:57] INFO root fetch - main [MainThread]: End processing [auto_dataclass]: success
+[2023-07-07 09:21:58] INFO root fetch - processPackages [scitacean]: New version: [23.7.7] Old Version: [23.5.0]
+[2023-07-07 09:21:58] INFO root fetch - processPackages [fenjing]: Remove: archive file [/home/abi/fetcher/tmp/fenjing-0.4.0.tar.gz]
+[2023-07-07 09:21:58] INFO root fetch - processPackages [fenjing]: Remove: archive file [/home/abi/fetcher/tmp/fenjing-0.4.1.tar.gz]
+[2023-07-07 09:21:58] INFO root fetch - main [MainThread]: End processing [fenjing]: success
+[2023-07-07 09:21:58] INFO root fetch - processPackages [django-request-hook]: Remove: archive file [/home/abi/fetcher/tmp/django-request-hook-0.0.1.tar.gz]
+[2023-07-07 09:21:58] INFO root fetch - processPackages [django-request-hook]: Remove: archive file [/home/abi/fetcher/tmp/django-request-hook-0.0.2.tar.gz]
+[2023-07-07 09:21:58] INFO root fetch - main [MainThread]: End processing [django-request-hook]: success
+[2023-07-07 09:21:58] INFO root fetch - processPackages [django-stdimage2]: Remove: archive file [/home/abi/fetcher/tmp/django-stdimage2-0.1.5.tar.gz]
+[2023-07-07 09:21:58] INFO root fetch - processPackages [django-stdimage2]: Remove: archive file [/home/abi/fetcher/tmp/django-stdimage2-0.1.6.tar.gz]
+[2023-07-07 09:21:58] INFO root fetch - main [MainThread]: End processing [django-stdimage2]: success
+[2023-07-07 09:21:58] INFO root fetch - processPackages [ectool]: Downloading https://files.pythonhosted.org/packages/1b/0e/c69a1cef79e1bed12ab0e395e580c7f2b56cfe0a41fa354671220882a7ae/ectool-1.1.1.tar.gz
+[2023-07-07 09:21:58] INFO root fetch - processPackages [scitacean]: Downloading https://files.pythonhosted.org/packages/e7/9d/11c4704eabf0d356a3e1360ef9e63bfa8f959f3c61a5d5aafca5950ede04/scitacean-23.5.0.tar.gz
+[2023-07-07 09:21:58] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b98.tar.gz]
+[2023-07-07 09:21:58] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b99.tar.gz]
+[2023-07-07 09:21:58] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-07-07 09:21:58] INFO root fetch - processPackages [localstripe]: Remove: archive file [/home/abi/fetcher/tmp/localstripe-1.9.0.tar.gz]
+[2023-07-07 09:21:58] INFO root fetch - processPackages [localstripe]: Remove: archive file [/home/abi/fetcher/tmp/localstripe-1.9.1.tar.gz]
+[2023-07-07 09:21:58] INFO root fetch - main [MainThread]: End processing [localstripe]: success
+[2023-07-07 09:21:58] INFO root fetch - main [MainThread]: End processing [django-stdimage2]: success
+[2023-07-07 09:21:58] INFO root fetch - processPackages [home-assistant-streamdeck-yaml]: Remove: archive file [/home/abi/fetcher/tmp/home_assistant_streamdeck_yaml-2023.7.3.tar.gz]
+[2023-07-07 09:21:58] INFO root fetch - processPackages [home-assistant-streamdeck-yaml]: Remove: archive file [/home/abi/fetcher/tmp/home_assistant_streamdeck_yaml-2023.7.4.tar.gz]
+[2023-07-07 09:21:58] INFO root fetch - main [MainThread]: End processing [home-assistant-streamdeck-yaml]: success
+[2023-07-07 09:21:58] INFO root fetch - processPackages [ectool]: executing diffoscope
+[2023-07-07 09:21:58] INFO root fetch - processPackages [ectool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ectool-1.1.0.tar.gz tmp/ectool-1.1.1.tar.gz --markdown 20230707/e/ectool/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-07 09:21:58] INFO root fetch - processPackages [dan-build]: Remove: archive file [/home/abi/fetcher/tmp/dan-build-0.2.5.tar.gz]
+[2023-07-07 09:21:58] INFO root fetch - processPackages [dan-build]: Remove: archive file [/home/abi/fetcher/tmp/dan-build-0.2.6.tar.gz]
+[2023-07-07 09:21:58] INFO root fetch - main [MainThread]: End processing [dan-build]: success
+[2023-07-07 09:21:58] INFO root fetch - processPackages [scitacean]: Downloading https://files.pythonhosted.org/packages/41/b3/127936edb7d2762141769941bab9c818532358f86067f686223ee86a10ba/scitacean-23.7.7.tar.gz
+[2023-07-07 09:21:58] INFO root fetch - processPackages [scitacean]: executing diffoscope
+[2023-07-07 09:21:58] INFO root fetch - processPackages [scitacean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scitacean-23.5.0.tar.gz tmp/scitacean-23.7.7.tar.gz --markdown 20230707/s/scitacean/23.5.0-23.7.7/diff.md --exclude *.pyd
+[2023-07-07 09:21:59] INFO root fetch - processPackages [ectool]: Remove: archive file [/home/abi/fetcher/tmp/ectool-1.1.0.tar.gz]
+[2023-07-07 09:21:59] INFO root fetch - processPackages [ectool]: Remove: archive file [/home/abi/fetcher/tmp/ectool-1.1.1.tar.gz]
+[2023-07-07 09:21:59] INFO root fetch - main [MainThread]: End processing [ectool]: success
+[2023-07-07 09:22:00] INFO root fetch - processPackages [scitacean]: Remove: archive file [/home/abi/fetcher/tmp/scitacean-23.5.0.tar.gz]
+[2023-07-07 09:22:00] INFO root fetch - processPackages [scitacean]: Remove: archive file [/home/abi/fetcher/tmp/scitacean-23.7.7.tar.gz]
+[2023-07-07 09:22:00] INFO root fetch - main [MainThread]: End processing [scitacean]: success
+[2023-07-07 09:22:00] INFO root fetch - main [MainThread]: Store serial: [18796846]
