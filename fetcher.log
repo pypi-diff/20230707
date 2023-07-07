@@ -12350,3 +12350,49 @@ EOFError: EOF read where object expected
 [2023-07-07 07:43:38] INFO root fetch - processPackages [secretflow-rayfed]: Remove: archive file [/home/abi/fetcher/tmp/secretflow_rayfed-0.1.1a4-py3-none-any.whl.zip]
 [2023-07-07 07:43:38] INFO root fetch - main [MainThread]: End processing [secretflow-rayfed]: success
 [2023-07-07 07:43:38] INFO root fetch - main [MainThread]: Store serial: [18796165]
+[2023-07-07 07:48:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18796165]
+[2023-07-07 07:48:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-07 07:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reactivated
+[2023-07-07 07:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ez0th
+[2023-07-07 07:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tclab-sdk
+[2023-07-07 07:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-bili-push
+[2023-07-07 07:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ez0th
+[2023-07-07 07:48:47] INFO root fetch - processPackages [ez0th]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-07 07:48:47] INFO root fetch - processPackages [ez0th]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-07 07:48:47] INFO root fetch - processPackages [nonebot-plugin-bili-push]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-07 07:48:47] INFO root fetch - processPackages [tclab-sdk]: New version: [1.3.1] Old Version: [1.3]
+[2023-07-07 07:48:47] INFO root fetch - processPackages [reactivated]: New version: [3.0.0a64] Old Version: [0.9.0]
+[2023-07-07 07:48:47] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/39/39/d1e974268ffd67486d5d2a3a5517b88f829cee0f9b36e9c892d5af45dbf8/nonebot_plugin_bili_push-0.1.8.tar.gz
+[2023-07-07 07:48:47] INFO root fetch - processPackages [ez0th]: Downloading https://files.pythonhosted.org/packages/a4/3e/9b40ec95bf137458f7228c223d06ac0544bc83e17cf96d1fcb378863dcc4/ez0th-0.1.3.tar.gz
+[2023-07-07 07:48:47] INFO root fetch - processPackages [ez0th]: Downloading https://files.pythonhosted.org/packages/a4/3e/9b40ec95bf137458f7228c223d06ac0544bc83e17cf96d1fcb378863dcc4/ez0th-0.1.3.tar.gz
+[2023-07-07 07:48:47] INFO root fetch - processPackages [reactivated]: Downloading https://files.pythonhosted.org/packages/1a/71/35446a123e19409f94888e6e11acb49110c8ff7c7a45a894cb072e06ec46/reactivated-0.9.0.tar.gz
+[2023-07-07 07:48:47] INFO root fetch - processPackages [tclab-sdk]: Downloading https://files.pythonhosted.org/packages/8e/c2/e114b354249520c0582ea4d26d2d75f856d33e15f4b265a505bd1f967f0e/tclab-sdk-1.3.tar.gz
+[2023-07-07 07:48:47] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/7a/de/eb6aaa4df9bfca89e16091310ba9209ee5026d1ad5eaaaa17aa8e4121daf/nonebot_plugin_bili_push-0.1.9.tar.gz
+[2023-07-07 07:48:47] INFO root fetch - processPackages [nonebot-plugin-bili-push]: executing diffoscope
+[2023-07-07 07:48:47] INFO root fetch - processPackages [nonebot-plugin-bili-push]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bili_push-0.1.8.tar.gz tmp/nonebot_plugin_bili_push-0.1.9.tar.gz --markdown 20230707/n/nonebot-plugin-bili-push/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-07 07:48:47] INFO root fetch - processPackages [ez0th]: Downloading https://files.pythonhosted.org/packages/85/4e/f97cb6bd324b3bf14cb8cda855cb04dfc493d56794b00a3b8b0de32e6be3/ez0th-0.1.4.tar.gz
+[2023-07-07 07:48:47] INFO root fetch - processPackages [ez0th]: Downloading https://files.pythonhosted.org/packages/85/4e/f97cb6bd324b3bf14cb8cda855cb04dfc493d56794b00a3b8b0de32e6be3/ez0th-0.1.4.tar.gz
+[2023-07-07 07:48:48] INFO root fetch - processPackages [tclab-sdk]: Downloading https://files.pythonhosted.org/packages/30/db/98fa07cc36df9344184255e00d2581cecda732bea63f15681a701d3c1261/tclab-sdk-1.3.1.tar.gz
+[2023-07-07 07:48:48] INFO root fetch - processPackages [reactivated]: Downloading https://files.pythonhosted.org/packages/bc/d8/5e07e04244e84ca0f743649c1aa5514ec10843e552f82eb830dbb5e7cca7/reactivated-3.0.0a64.tar.gz
+[2023-07-07 07:48:48] INFO root fetch - processPackages [ez0th]: executing diffoscope
+[2023-07-07 07:48:48] INFO root fetch - processPackages [ez0th]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez0th-0.1.3.tar.gz tmp/ez0th-0.1.4.tar.gz --markdown 20230707/e/ez0th/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-07 07:48:48] INFO root fetch - processPackages [ez0th]: executing diffoscope
+[2023-07-07 07:48:48] INFO root fetch - processPackages [ez0th]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez0th-0.1.3.tar.gz tmp/ez0th-0.1.4.tar.gz --markdown 20230707/e/ez0th/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-07 07:48:48] INFO root fetch - processPackages [reactivated]: executing diffoscope
+[2023-07-07 07:48:48] INFO root fetch - processPackages [reactivated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reactivated-0.9.0.tar.gz tmp/reactivated-3.0.0a64.tar.gz --markdown 20230707/r/reactivated/0.9.0-3.0.0a64/diff.md --exclude *.pyd
+[2023-07-07 07:48:48] INFO root fetch - processPackages [tclab-sdk]: executing diffoscope
+[2023-07-07 07:48:48] INFO root fetch - processPackages [tclab-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tclab-sdk-1.3.tar.gz tmp/tclab-sdk-1.3.1.tar.gz --markdown 20230707/t/tclab-sdk/1.3-1.3.1/diff.md --exclude *.pyd
+[2023-07-07 07:48:48] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.8.tar.gz]
+[2023-07-07 07:48:48] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.9.tar.gz]
+[2023-07-07 07:48:48] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bili-push]: success
+[2023-07-07 07:48:49] INFO root fetch - processPackages [ez0th]: Remove: archive file [/home/abi/fetcher/tmp/ez0th-0.1.3.tar.gz]
+[2023-07-07 07:48:49] INFO root fetch - processPackages [ez0th]: Remove: archive file [/home/abi/fetcher/tmp/ez0th-0.1.4.tar.gz]
+[2023-07-07 07:48:49] INFO root fetch - main [MainThread]: End processing [ez0th]: success
+[2023-07-07 07:48:49] INFO root fetch - processPackages [tclab-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tclab-sdk-1.3.tar.gz]
+[2023-07-07 07:48:49] INFO root fetch - processPackages [tclab-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tclab-sdk-1.3.1.tar.gz]
+[2023-07-07 07:48:49] INFO root fetch - main [MainThread]: End processing [tclab-sdk]: success
+[2023-07-07 07:48:49] INFO root fetch - processPackages [reactivated]: Remove: archive file [/home/abi/fetcher/tmp/reactivated-0.9.0.tar.gz]
+[2023-07-07 07:48:49] INFO root fetch - processPackages [reactivated]: Remove: archive file [/home/abi/fetcher/tmp/reactivated-3.0.0a64.tar.gz]
+[2023-07-07 07:48:49] INFO root fetch - main [MainThread]: End processing [reactivated]: success
+[2023-07-07 07:48:49] INFO root fetch - main [MainThread]: End processing [ez0th]: success
+[2023-07-07 07:48:49] INFO root fetch - main [MainThread]: Store serial: [18796203]
