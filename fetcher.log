@@ -19008,3 +19008,87 @@ AssertionError: tmp/tester-package-sdk-2.0.9.tar.gz does not exist
 [2023-07-07 12:29:02] INFO root fetch - processPackages [mech-client]: Remove: archive file [/home/abi/fetcher/tmp/mech_client-0.2.2.tar.gz]
 [2023-07-07 12:29:02] INFO root fetch - main [MainThread]: End processing [mech-client]: success
 [2023-07-07 12:29:02] INFO root fetch - main [MainThread]: Store serial: [18799015]
+[2023-07-07 12:34:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18799015]
+[2023-07-07 12:34:11] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-07 12:34:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytbai
+[2023-07-07 12:34:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: similarities
+[2023-07-07 12:34:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: syngen
+[2023-07-07 12:34:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: threads-net
+[2023-07-07 12:34:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oobabot-plugin
+[2023-07-07 12:34:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fyerstest
+[2023-07-07 12:34:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kfst
+[2023-07-07 12:34:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gnssrefl
+[2023-07-07 12:34:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: query-strings-parser
+[2023-07-07 12:34:11] INFO root fetch - processPackages [kfst]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-07 12:34:11] INFO root fetch - processPackages [pytbai]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-07 12:34:11] INFO root fetch - processPackages [query-strings-parser]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-07 12:34:11] INFO root fetch - processPackages [similarities]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-07 12:34:11] INFO root fetch - processPackages [gnssrefl]: New version: [1.4.1] Old Version: [1.3.8]
+[2023-07-07 12:34:11] INFO root fetch - processPackages [oobabot-plugin]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-07 12:34:11] INFO root fetch - processPackages [threads-net]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-07 12:34:11] INFO root fetch - processPackages [fyerstest]: New version: [0.5] Old Version: [0.4]
+[2023-07-07 12:34:11] INFO root fetch - processPackages [syngen]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-07 12:34:12] INFO root fetch - processPackages [kfst]: Downloading https://files.pythonhosted.org/packages/7d/6c/5d2f8f56a510e722611fc1d7ac18ecef4f8484fcd52b123eb8efb4faa1f2/kfst-1.1.0.tar.gz
+[2023-07-07 12:34:12] INFO root fetch - processPackages [fyerstest]: Downloading https://files.pythonhosted.org/packages/91/37/bd3afb716d05873dbbeeb1b840f16a984b1defb03d360304acd1f8538a74/fyerstest-0.4.tar.gz
+[2023-07-07 12:34:12] INFO root fetch - processPackages [pytbai]: Downloading https://files.pythonhosted.org/packages/74/85/b4a0dc68de77a6f0ddddff7db3e1678e0bbca685e4f01f1214915daf8c53/pytbai-1.3.3.tar.gz
+[2023-07-07 12:34:12] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/d1/5c/1a07748f97870290d6219c56768425459aa1519f941153183894348fc83a/syngen-0.1.8.tar.gz
+[2023-07-07 12:34:12] INFO root fetch - processPackages [query-strings-parser]: Downloading https://files.pythonhosted.org/packages/75/db/219c5df1cb50933358b3317e58b574c7358728791028dde9965fecd57d51/query_strings_parser-0.1.0.tar.gz
+[2023-07-07 12:34:12] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/25/1c/311a0a7c0fe3fe7ee3520d6a8ce57ee855e738b16afa5125029c4ec64a50/threads-net-0.0.1.tar.gz
+[2023-07-07 12:34:12] INFO root fetch - processPackages [oobabot-plugin]: Downloading https://files.pythonhosted.org/packages/07/ca/4d7aa4e03d91d2a8e1640a41ffc74f0978dfd94951a0ac9c94b2bf926080/oobabot_plugin-0.1.9.tar.gz
+[2023-07-07 12:34:12] INFO root fetch - processPackages [gnssrefl]: Downloading https://files.pythonhosted.org/packages/58/ca/e783ec5ced96c271dfccce3e4af083e94ee3baec149a1e2374beb8c43fdf/gnssrefl-1.3.8.tar.gz
+[2023-07-07 12:34:12] INFO root fetch - processPackages [similarities]: Downloading https://files.pythonhosted.org/packages/7c/83/8208dab3139200243c71eba12bf59dbf64ea7c4b41e5f5b23738a327de3b/similarities-1.0.5.tar.gz
+[2023-07-07 12:34:12] INFO root fetch - processPackages [kfst]: Downloading https://files.pythonhosted.org/packages/75/8e/d38e988ebf240b70f81488dfed97ee4cbc57cc75da78c3db18a1e86c1683/kfst-1.1.1.tar.gz
+[2023-07-07 12:34:12] INFO root fetch - processPackages [fyerstest]: Downloading https://files.pythonhosted.org/packages/49/81/5359a4fb3c6044a5f24e90554b052f1dcd51c9e9b8b4725da60e52775725/fyerstest-0.5.tar.gz
+[2023-07-07 12:34:12] INFO root fetch - processPackages [pytbai]: Downloading https://files.pythonhosted.org/packages/80/01/f75367270d90a89204482225fbfff6ba6d6339f13fbd7ded69f56f51af85/pytbai-1.3.4.tar.gz
+[2023-07-07 12:34:12] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/1c/ec/09634635304cfe54bd538c9f136477113b28b8b56e10596aec3cf678573a/syngen-0.1.9.tar.gz
+[2023-07-07 12:34:12] INFO root fetch - processPackages [query-strings-parser]: Downloading https://files.pythonhosted.org/packages/f8/d9/e3eab5b795d09ac7ce91afc75a6209f5952f12c3cb3a7901bae9ba0d43c7/query_strings_parser-0.1.1.tar.gz
+[2023-07-07 12:34:12] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/06/e1/14eb0f8c2289a5f92fa683eed9b92803ac750ac6c236271309226401597b/threads-net-0.0.2.tar.gz
+[2023-07-07 12:34:12] INFO root fetch - processPackages [oobabot-plugin]: Downloading https://files.pythonhosted.org/packages/ba/bf/854d246e54e23134453bbea92443624184f2f3848cf931f9bf321a77caeb/oobabot_plugin-0.2.0.tar.gz
+[2023-07-07 12:34:12] INFO root fetch - processPackages [similarities]: Downloading https://files.pythonhosted.org/packages/85/27/72c82b647dcb92e1bca6a1b97061508649c565322d8ce5055201967b40c2/similarities-1.0.6.tar.gz
+[2023-07-07 12:34:12] INFO root fetch - processPackages [kfst]: executing diffoscope
+[2023-07-07 12:34:12] INFO root fetch - processPackages [kfst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfst-1.1.0.tar.gz tmp/kfst-1.1.1.tar.gz --markdown 20230707/k/kfst/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-07 12:34:12] INFO root fetch - processPackages [fyerstest]: executing diffoscope
+[2023-07-07 12:34:12] INFO root fetch - processPackages [fyerstest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyerstest-0.4.tar.gz tmp/fyerstest-0.5.tar.gz --markdown 20230707/f/fyerstest/0.4-0.5/diff.md --exclude *.pyd
+[2023-07-07 12:34:12] INFO root fetch - processPackages [query-strings-parser]: executing diffoscope
+[2023-07-07 12:34:12] INFO root fetch - processPackages [query-strings-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/query_strings_parser-0.1.0.tar.gz tmp/query_strings_parser-0.1.1.tar.gz --markdown 20230707/q/query-strings-parser/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-07 12:34:12] INFO root fetch - processPackages [pytbai]: executing diffoscope
+[2023-07-07 12:34:12] INFO root fetch - processPackages [pytbai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytbai-1.3.3.tar.gz tmp/pytbai-1.3.4.tar.gz --markdown 20230707/p/pytbai/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-07 12:34:12] INFO root fetch - processPackages [oobabot-plugin]: executing diffoscope
+[2023-07-07 12:34:12] INFO root fetch - processPackages [oobabot-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oobabot_plugin-0.1.9.tar.gz tmp/oobabot_plugin-0.2.0.tar.gz --markdown 20230707/o/oobabot-plugin/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-07 12:34:12] INFO root fetch - processPackages [threads-net]: executing diffoscope
+[2023-07-07 12:34:12] INFO root fetch - processPackages [threads-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-net-0.0.1.tar.gz tmp/threads-net-0.0.2.tar.gz --markdown 20230707/t/threads-net/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-07 12:34:13] INFO root fetch - processPackages [syngen]: executing diffoscope
+[2023-07-07 12:34:13] INFO root fetch - processPackages [syngen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syngen-0.1.8.tar.gz tmp/syngen-0.1.9.tar.gz --markdown 20230707/s/syngen/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-07 12:34:13] INFO root fetch - processPackages [similarities]: executing diffoscope
+[2023-07-07 12:34:13] INFO root fetch - processPackages [similarities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/similarities-1.0.5.tar.gz tmp/similarities-1.0.6.tar.gz --markdown 20230707/s/similarities/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-07 12:34:13] INFO root fetch - processPackages [gnssrefl]: Downloading https://files.pythonhosted.org/packages/6d/74/042b227041bd31540fcbcbadbb03698dfc8ad4b9308ca23fa5a8ef1f530a/gnssrefl-1.4.1.tar.gz
+[2023-07-07 12:34:14] INFO root fetch - processPackages [query-strings-parser]: Remove: archive file [/home/abi/fetcher/tmp/query_strings_parser-0.1.0.tar.gz]
+[2023-07-07 12:34:14] INFO root fetch - processPackages [query-strings-parser]: Remove: archive file [/home/abi/fetcher/tmp/query_strings_parser-0.1.1.tar.gz]
+[2023-07-07 12:34:14] INFO root fetch - processPackages [kfst]: Remove: archive file [/home/abi/fetcher/tmp/kfst-1.1.0.tar.gz]
+[2023-07-07 12:34:14] INFO root fetch - processPackages [kfst]: Remove: archive file [/home/abi/fetcher/tmp/kfst-1.1.1.tar.gz]
+[2023-07-07 12:34:14] INFO root fetch - main [MainThread]: End processing [query-strings-parser]: success
+[2023-07-07 12:34:14] INFO root fetch - main [MainThread]: End processing [kfst]: success
+[2023-07-07 12:34:14] INFO root fetch - processPackages [fyerstest]: Remove: archive file [/home/abi/fetcher/tmp/fyerstest-0.4.tar.gz]
+[2023-07-07 12:34:14] INFO root fetch - processPackages [fyerstest]: Remove: archive file [/home/abi/fetcher/tmp/fyerstest-0.5.tar.gz]
+[2023-07-07 12:34:14] INFO root fetch - main [MainThread]: End processing [fyerstest]: success
+[2023-07-07 12:34:14] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.1.tar.gz]
+[2023-07-07 12:34:14] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.2.tar.gz]
+[2023-07-07 12:34:14] INFO root fetch - main [MainThread]: End processing [threads-net]: success
+[2023-07-07 12:34:14] INFO root fetch - processPackages [oobabot-plugin]: Remove: archive file [/home/abi/fetcher/tmp/oobabot_plugin-0.1.9.tar.gz]
+[2023-07-07 12:34:14] INFO root fetch - processPackages [oobabot-plugin]: Remove: archive file [/home/abi/fetcher/tmp/oobabot_plugin-0.2.0.tar.gz]
+[2023-07-07 12:34:14] INFO root fetch - main [MainThread]: End processing [oobabot-plugin]: success
+[2023-07-07 12:34:14] INFO root fetch - processPackages [pytbai]: Remove: archive file [/home/abi/fetcher/tmp/pytbai-1.3.3.tar.gz]
+[2023-07-07 12:34:14] INFO root fetch - processPackages [pytbai]: Remove: archive file [/home/abi/fetcher/tmp/pytbai-1.3.4.tar.gz]
+[2023-07-07 12:34:14] INFO root fetch - main [MainThread]: End processing [pytbai]: success
+[2023-07-07 12:34:14] INFO root fetch - processPackages [gnssrefl]: executing diffoscope
+[2023-07-07 12:34:14] INFO root fetch - processPackages [gnssrefl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnssrefl-1.3.8.tar.gz tmp/gnssrefl-1.4.1.tar.gz --markdown 20230707/g/gnssrefl/1.3.8-1.4.1/diff.md --exclude *.pyd
+[2023-07-07 12:34:14] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.1.8.tar.gz]
+[2023-07-07 12:34:14] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.1.9.tar.gz]
+[2023-07-07 12:34:14] INFO root fetch - main [MainThread]: End processing [syngen]: success
+[2023-07-07 12:34:14] INFO root fetch - processPackages [similarities]: Remove: archive file [/home/abi/fetcher/tmp/similarities-1.0.5.tar.gz]
+[2023-07-07 12:34:14] INFO root fetch - processPackages [similarities]: Remove: archive file [/home/abi/fetcher/tmp/similarities-1.0.6.tar.gz]
+[2023-07-07 12:34:14] INFO root fetch - main [MainThread]: End processing [similarities]: success
+[2023-07-07 12:34:18] INFO root fetch - processPackages [gnssrefl]: Remove: archive file [/home/abi/fetcher/tmp/gnssrefl-1.3.8.tar.gz]
+[2023-07-07 12:34:18] INFO root fetch - processPackages [gnssrefl]: Remove: archive file [/home/abi/fetcher/tmp/gnssrefl-1.4.1.tar.gz]
+[2023-07-07 12:34:18] INFO root fetch - main [MainThread]: End processing [gnssrefl]: success
+[2023-07-07 12:34:18] INFO root fetch - main [MainThread]: Store serial: [18799039]
