@@ -13420,3 +13420,108 @@ EOFError: EOF read where object expected
 [2023-07-07 08:55:42] ERROR root fetch - processPackages [kiwi]: Timeout during execution of pkgdiff
 [2023-07-07 08:55:42] INFO root fetch - main [MainThread]: End processing [kiwi] error
 [2023-07-07 08:55:42] INFO root fetch - main [MainThread]: Store serial: [18796643]
+[2023-07-07 09:00:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18796643]
+[2023-07-07 09:00:50] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-07 09:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-07-07 09:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kube-copilot
+[2023-07-07 09:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: documentdataextraction
+[2023-07-07 09:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clize
+[2023-07-07 09:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aitemplates
+[2023-07-07 09:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: uptrain
+[2023-07-07 09:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gval
+[2023-07-07 09:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openi-test
+[2023-07-07 09:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: androtools
+[2023-07-07 09:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: muffin-rest
+[2023-07-07 09:00:51] INFO root fetch - processPackages [uptrain]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-07 09:00:51] INFO root fetch - processPackages [aitemplates]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-07 09:00:51] INFO root fetch - processPackages [documentdataextraction]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 09:00:51] INFO root fetch - processPackages [openi-test]: New version: [0.1.6] Old Version: [0.1.4]
+[2023-07-07 09:00:51] WARNING root fetch - processPackages [androtools]: Skipping, unable to determine old version
+[2023-07-07 09:00:51] INFO root fetch - processPackages [androtools]: Start processing: treGen
+[2023-07-07 09:00:51] INFO root fetch - main [MainThread]: End processing [androtools] error
+[2023-07-07 09:00:51] INFO root fetch - processPackages [clize]: New version: [5.0.1] Old Version: [5.0.0b2]
+[2023-07-07 09:00:51] INFO root fetch - processPackages [gval]: New version: [0.1.3a0] Old Version: [0.1.2a0]
+[2023-07-07 09:00:51] INFO root fetch - processPackages [muffin-rest]: New version: [6.0.0] Old Version: [5.2.0]
+[2023-07-07 09:00:51] INFO root fetch - processPackages [kube-copilot]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-07 09:00:51] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-07-07 09:00:51] INFO root fetch - processPackages [treGen]: New version: [3.0.0] Old Version: [2.2.5]
+[2023-07-07 09:00:51] INFO root fetch - processPackages [openi-test]: Downloading https://files.pythonhosted.org/packages/26/78/0b6e1b6599e863f4467ff297da02e3bc09f33ccbabea2adcf4059e500baa/openi_test-0.1.4.tar.gz
+[2023-07-07 09:00:51] INFO root fetch - processPackages [uptrain]: Downloading https://files.pythonhosted.org/packages/a5/ee/0d99987236760e516cf5695638884201ca8127f3969b016fa6331d7461df/uptrain-0.3.2.tar.gz
+[2023-07-07 09:00:51] INFO root fetch - processPackages [gval]: Downloading https://files.pythonhosted.org/packages/b4/6d/acee8f17ef26bb08bd0744cb49a54fa5773e7e3ae00ff4aa4742eee0704f/gval-0.1.2a0.tar.gz
+[2023-07-07 09:00:51] INFO root fetch - processPackages [aitemplates]: Downloading https://files.pythonhosted.org/packages/c9/1f/c3b35e203e73c6562287311527c36798cf058f4542a1cc2012699e54c8f2/aitemplates-0.1.8.tar.gz
+[2023-07-07 09:00:51] INFO root fetch - processPackages [muffin-rest]: Downloading https://files.pythonhosted.org/packages/c9/1f/7831202640165bf381105e16607839de931d4622c134ae86743252e5fbfc/muffin_rest-5.2.0.tar.gz
+[2023-07-07 09:00:51] INFO root fetch - processPackages [treGen]: Downloading https://files.pythonhosted.org/packages/7b/c6/36c01e1d5c1e51ec0cabc1740be659d047244e60cd653c0cec54514db682/treGen-2.2.5.tar.gz
+[2023-07-07 09:00:51] INFO root fetch - processPackages [clize]: Downloading https://files.pythonhosted.org/packages/39/5a/530632538c0376cacf70645dc4066b0201c50e593120ea2afe0199789598/clize-5.0.0b2.tar.gz
+[2023-07-07 09:00:51] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/1a/e4/1e85519ce247c6ed7c20e6c47ef38f5c09cf919ff231bf453cc23a1f0ba0/documentdataextraction-0.0.8-py3-none-any.whl
+[2023-07-07 09:00:51] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-07-07 09:00:51] INFO root fetch - processPackages [kube-copilot]: Downloading https://files.pythonhosted.org/packages/92/ed/ae22c3eb11fd91f9bc01dbdcba0f4a7c22cef980bf8f5fef46caec814480/kube_copilot-0.1.8.tar.gz
+[2023-07-07 09:00:51] INFO root fetch - processPackages [openi-test]: Downloading https://files.pythonhosted.org/packages/76/99/0235b741f9faf0c569ba098cdccf1a297f879bed1ff8691380d5e0f87cd1/openi_test-0.1.6.tar.gz
+[2023-07-07 09:00:51] INFO root fetch - processPackages [uptrain]: Downloading https://files.pythonhosted.org/packages/01/f2/fa82d56a9ab42ad2f519805c0398b1578aa205deeb0ab8d2c3d60c4b40e6/uptrain-0.3.3.tar.gz
+[2023-07-07 09:00:51] INFO root fetch - processPackages [gval]: Downloading https://files.pythonhosted.org/packages/86/6f/4f3195a4441d416bd9881a259d65edc94b2cf19d3c026aea967399b8e74b/gval-0.1.3a0.tar.gz
+[2023-07-07 09:00:51] INFO root fetch - processPackages [muffin-rest]: Downloading https://files.pythonhosted.org/packages/3e/8d/ef759be8caf12d42ecb1418d3b7a3de8e7b121c96778e09c9d17d59de346/muffin_rest-6.0.0.tar.gz
+[2023-07-07 09:00:52] INFO root fetch - processPackages [treGen]: Downloading https://files.pythonhosted.org/packages/c1/0b/346351845e5198200fa016d3517ac58e7602000c41e4855d8d582f0f334a/treGen-3.0.0-py3.9.egg
+[2023-07-07 09:00:52] INFO root fetch - processPackages [aitemplates]: Downloading https://files.pythonhosted.org/packages/31/8d/fec27aa91f72352e256e81460077515d340f93b087b2d5f555a95e17896a/aitemplates-0.1.9.tar.gz
+[2023-07-07 09:00:52] INFO root fetch - processPackages [clize]: Downloading https://files.pythonhosted.org/packages/d4/c5/b29e1f3a3e1762d3d144c311515e7bd207c871ac7b2c9dc4c0db31d35267/clize-5.0.1.tar.gz
+[2023-07-07 09:00:52] INFO root fetch - processPackages [openi-test]: executing diffoscope
+[2023-07-07 09:00:52] INFO root fetch - processPackages [openi-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi_test-0.1.4.tar.gz tmp/openi_test-0.1.6.tar.gz --markdown 20230707/o/openi-test/0.1.4-0.1.6/diff.md --exclude *.pyd
+[2023-07-07 09:00:52] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/b3/ec/eb9901e48d02bee04847cd1afe0c6b8ca7231d1a8b133261a63ae052f777/documentdataextraction-0.0.9-py3-none-any.whl
+[2023-07-07 09:00:52] INFO root fetch - processPackages [gval]: executing diffoscope
+[2023-07-07 09:00:52] INFO root fetch - processPackages [gval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gval-0.1.2a0.tar.gz tmp/gval-0.1.3a0.tar.gz --markdown 20230707/g/gval/0.1.2a0-0.1.3a0/diff.md --exclude *.pyd
+[2023-07-07 09:00:52] INFO root fetch - processPackages [treGen]: executing diffoscope
+[2023-07-07 09:00:52] INFO root fetch - processPackages [treGen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treGen-2.2.5.tar.gz tmp/treGen-3.0.0-py3.9.egg --markdown 20230707/t/treGen/2.2.5-3.0.0/diff.md --exclude *.pyd
+[2023-07-07 09:00:52] INFO root fetch - processPackages [aitemplates]: executing diffoscope
+[2023-07-07 09:00:52] INFO root fetch - processPackages [aitemplates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aitemplates-0.1.8.tar.gz tmp/aitemplates-0.1.9.tar.gz --markdown 20230707/a/aitemplates/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-07 09:00:52] INFO root fetch - processPackages [kube-copilot]: Downloading https://files.pythonhosted.org/packages/fd/35/3e18869b47a41c295ac800019e28347fde14879ede6506f97393faade562/kube_copilot-0.1.9.tar.gz
+[2023-07-07 09:00:52] INFO root fetch - processPackages [uptrain]: executing diffoscope
+[2023-07-07 09:00:52] INFO root fetch - processPackages [uptrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uptrain-0.3.2.tar.gz tmp/uptrain-0.3.3.tar.gz --markdown 20230707/u/uptrain/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-07 09:00:52] INFO root fetch - processPackages [muffin-rest]: executing diffoscope
+[2023-07-07 09:00:52] INFO root fetch - processPackages [muffin-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin_rest-5.2.0.tar.gz tmp/muffin_rest-6.0.0.tar.gz --markdown 20230707/m/muffin-rest/5.2.0-6.0.0/diff.md --exclude *.pyd
+[2023-07-07 09:00:52] INFO root fetch - processPackages [clize]: executing diffoscope
+[2023-07-07 09:00:52] INFO root fetch - processPackages [clize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clize-5.0.0b2.tar.gz tmp/clize-5.0.1.tar.gz --markdown 20230707/c/clize/5.0.0b2-5.0.1/diff.md --exclude *.pyd
+[2023-07-07 09:00:52] INFO root fetch - processPackages [documentdataextraction]: executing diffoscope
+[2023-07-07 09:00:52] INFO root fetch - processPackages [documentdataextraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip --markdown 20230707/d/documentdataextraction/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 09:00:52] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-07-07 09:00:52] INFO root fetch - processPackages [kube-copilot]: executing diffoscope
+[2023-07-07 09:00:52] INFO root fetch - processPackages [kube-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kube_copilot-0.1.8.tar.gz tmp/kube_copilot-0.1.9.tar.gz --markdown 20230707/k/kube-copilot/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-07 09:00:52] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-07-07 09:00:52] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230707/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-07-07 09:00:53] INFO root fetch - processPackages [treGen]: Remove: archive file [/home/abi/fetcher/tmp/treGen-2.2.5.tar.gz]
+[2023-07-07 09:00:53] INFO root fetch - processPackages [treGen]: Remove: archive file [/home/abi/fetcher/tmp/treGen-3.0.0-py3.9.egg]
+[2023-07-07 09:00:53] INFO root fetch - processPackages [treGen]: Start processing: muffin-rest
+[2023-07-07 09:00:53] INFO root fetch - main [MainThread]: End processing [treGen]: success
+[2023-07-07 09:00:53] INFO root fetch - processPackages [muffin-rest]: New version: [6.0.1] Old Version: [6.0.0]
+[2023-07-07 09:00:54] INFO root fetch - processPackages [openi-test]: Remove: archive file [/home/abi/fetcher/tmp/openi_test-0.1.4.tar.gz]
+[2023-07-07 09:00:54] INFO root fetch - processPackages [openi-test]: Remove: archive file [/home/abi/fetcher/tmp/openi_test-0.1.6.tar.gz]
+[2023-07-07 09:00:54] INFO root fetch - main [MainThread]: End processing [openi-test]: success
+[2023-07-07 09:00:54] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip]
+[2023-07-07 09:00:54] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip]
+[2023-07-07 09:00:54] INFO root fetch - main [MainThread]: End processing [documentdataextraction]: success
+[2023-07-07 09:00:54] INFO root fetch - processPackages [aitemplates]: Remove: archive file [/home/abi/fetcher/tmp/aitemplates-0.1.8.tar.gz]
+[2023-07-07 09:00:54] INFO root fetch - processPackages [aitemplates]: Remove: archive file [/home/abi/fetcher/tmp/aitemplates-0.1.9.tar.gz]
+[2023-07-07 09:00:54] INFO root fetch - main [MainThread]: End processing [aitemplates]: success
+[2023-07-07 09:00:54] INFO root fetch - processPackages [muffin-rest]: Downloading https://files.pythonhosted.org/packages/9a/cc/e433680693cdcad9238914c94cf590d8bd7b0ee8512ccfcf8ca22bf1ee87/muffin_rest-6.0.1.tar.gz
+[2023-07-07 09:00:54] INFO root fetch - processPackages [muffin-rest]: Remove: archive file [/home/abi/fetcher/tmp/muffin_rest-5.2.0.tar.gz]
+[2023-07-07 09:00:54] INFO root fetch - processPackages [muffin-rest]: Remove: archive file [/home/abi/fetcher/tmp/muffin_rest-6.0.0.tar.gz]
+[2023-07-07 09:00:54] INFO root fetch - main [MainThread]: End processing [muffin-rest]: success
+[2023-07-07 09:00:54] INFO root fetch - processPackages [kube-copilot]: Remove: archive file [/home/abi/fetcher/tmp/kube_copilot-0.1.8.tar.gz]
+[2023-07-07 09:00:54] INFO root fetch - processPackages [kube-copilot]: Remove: archive file [/home/abi/fetcher/tmp/kube_copilot-0.1.9.tar.gz]
+[2023-07-07 09:00:54] INFO root fetch - main [MainThread]: End processing [kube-copilot]: success
+[2023-07-07 09:00:54] INFO root fetch - processPackages [gval]: Remove: archive file [/home/abi/fetcher/tmp/gval-0.1.2a0.tar.gz]
+[2023-07-07 09:00:54] INFO root fetch - processPackages [gval]: Remove: archive file [/home/abi/fetcher/tmp/gval-0.1.3a0.tar.gz]
+[2023-07-07 09:00:54] INFO root fetch - main [MainThread]: End processing [gval]: success
+[2023-07-07 09:00:54] INFO root fetch - processPackages [muffin-rest]: executing diffoscope
+[2023-07-07 09:00:54] INFO root fetch - processPackages [muffin-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin_rest-6.0.0.tar.gz tmp/muffin_rest-6.0.1.tar.gz --markdown 20230707/m/muffin-rest/6.0.0-6.0.1/diff.md --exclude *.pyd
+[2023-07-07 09:00:54] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-07-07 09:00:54] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-07-07 09:00:54] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-07-07 09:00:54] INFO root fetch - processPackages [clize]: Remove: archive file [/home/abi/fetcher/tmp/clize-5.0.0b2.tar.gz]
+[2023-07-07 09:00:54] INFO root fetch - processPackages [clize]: Remove: archive file [/home/abi/fetcher/tmp/clize-5.0.1.tar.gz]
+[2023-07-07 09:00:54] INFO root fetch - main [MainThread]: End processing [clize]: success
+[2023-07-07 09:00:54] INFO root fetch - processPackages [uptrain]: Remove: archive file [/home/abi/fetcher/tmp/uptrain-0.3.2.tar.gz]
+[2023-07-07 09:00:54] INFO root fetch - processPackages [uptrain]: Remove: archive file [/home/abi/fetcher/tmp/uptrain-0.3.3.tar.gz]
+[2023-07-07 09:00:54] INFO root fetch - main [MainThread]: End processing [uptrain]: success
+[2023-07-07 09:00:55] ERROR root fetch - processPackages [muffin-rest]: Diffoscope failed: time="2023-07-07T09:00:54+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/muffin_rest-6.0.0.tar.gz: No such file or directory
+
+[2023-07-07 09:00:55] INFO root fetch - main [MainThread]: End processing [muffin-rest] error
+[2023-07-07 09:00:55] INFO root fetch - main [MainThread]: Store serial: [18796680]
