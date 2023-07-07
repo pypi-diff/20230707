@@ -13621,3 +13621,136 @@ EOFError: EOF read where object expected
 [2023-07-07 09:06:09] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.7.15.3.6.tar.gz]
 [2023-07-07 09:06:09] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-07-07 09:06:09] INFO root fetch - main [MainThread]: Store serial: [18796716]
+[2023-07-07 09:11:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18796716]
+[2023-07-07 09:11:18] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-07 09:11:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: histcmp
+[2023-07-07 09:11:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hello-whmou
+[2023-07-07 09:11:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: parsagon
+[2023-07-07 09:11:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: domain-admin
+[2023-07-07 09:11:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bgstools
+[2023-07-07 09:11:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sh-dynamodb
+[2023-07-07 09:11:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: androtools
+[2023-07-07 09:11:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: waveforms
+[2023-07-07 09:11:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: QuNet
+[2023-07-07 09:11:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sh-dynamodb
+[2023-07-07 09:11:18] INFO root fetch - processPackages [bgstools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-07 09:11:18] INFO root fetch - processPackages [domain-admin]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-07 09:11:18] INFO root fetch - processPackages [sh-dynamodb]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-07-07 09:11:18] INFO root fetch - processPackages [QuNet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-07 09:11:18] INFO root fetch - processPackages [sh-dynamodb]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-07-07 09:11:18] INFO root fetch - processPackages [parsagon]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-07-07 09:11:18] INFO root fetch - processPackages [histcmp]: New version: [0.6.0] Old Version: [0.5.3]
+[2023-07-07 09:11:18] WARNING root fetch - processPackages [hello-whmou]: Skipping, unable to determine old version
+[2023-07-07 09:11:18] INFO root fetch - processPackages [hello-whmou]: Start processing: th2-check2-recon
+[2023-07-07 09:11:18] INFO root fetch - main [MainThread]: End processing [hello-whmou] error
+[2023-07-07 09:11:18] INFO root fetch - processPackages [androtools]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-07 09:11:18] INFO root fetch - processPackages [waveforms]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-07-07 09:11:19] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/a3/d9/0f2b579fbbb29225abec7da824c3d2177fa751c84913339da89e8d0b4f89/bgstools-0.1.8.tar.gz
+[2023-07-07 09:11:19] INFO root fetch - processPackages [th2-check2-recon]: New version: [4.0.0.dev4312132973] Old Version: [4.0.0.dev3884233338]
+[2023-07-07 09:11:19] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/3a/f2/23400df41503073b93b342c8dcf715e54b76978a0ee3202a010a8c6a2fe7/domain-admin-1.4.8.tar.gz
+[2023-07-07 09:11:19] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/e5/4e/59fc4378e4426c7a11de9891272f84c186e3b51b28a401593ead014f941c/sh-dynamodb-1.2.3.tar.gz
+[2023-07-07 09:11:19] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/e5/4e/59fc4378e4426c7a11de9891272f84c186e3b51b28a401593ead014f941c/sh-dynamodb-1.2.3.tar.gz
+[2023-07-07 09:11:19] INFO root fetch - processPackages [histcmp]: Downloading https://files.pythonhosted.org/packages/d9/1a/021ba9497dfdfe7d6807112a814b24bf0063c3f3768e2bd71ab9e9df247f/histcmp-0.5.3.tar.gz
+[2023-07-07 09:11:19] INFO root fetch - processPackages [androtools]: Downloading https://files.pythonhosted.org/packages/83/bd/8a2bc0dccb514392ad9fd7c16db4d72867688479aa432aa23bc5470a7775/androtools-0.1.0-py3-none-any.whl
+[2023-07-07 09:11:19] INFO root fetch - processPackages [th2-check2-recon]: Downloading https://files.pythonhosted.org/packages/21/8e/29b366312c8bd19e0082fa999b1a20cdf5c0870a085a5a70323b731808e3/th2_check2_recon-4.0.0.dev3884233338.tar.gz
+[2023-07-07 09:11:19] INFO root fetch - processPackages [parsagon]: Downloading https://files.pythonhosted.org/packages/72/af/d6ae14b29c7476d7e261d7ab8e6a7a828621c5a5d5ab92ab0fa7c2d0613f/parsagon-0.7.4.tar.gz
+[2023-07-07 09:11:19] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/d5/ed/08e3812ae99f48d271d226b77d4a7da9cf1105ce195a4687389eb1e2d646/QuNet-0.0.98-py3-none-any.whl
+[2023-07-07 09:11:19] INFO root fetch - processPackages [waveforms]: Downloading https://files.pythonhosted.org/packages/39/ff/bae1dddbdbb7bc32c0a453bfca6e5cedfd02cd30402df60bb90e0823e844/waveforms-1.6.3.tar.gz
+[2023-07-07 09:11:19] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/0a/3c/638191cc7a3a6135dbf58e2857b29d83bacba72ac3e579510aae9606e202/bgstools-0.1.9.tar.gz
+[2023-07-07 09:11:19] INFO root fetch - processPackages [bgstools]: executing diffoscope
+[2023-07-07 09:11:19] INFO root fetch - processPackages [bgstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgstools-0.1.8.tar.gz tmp/bgstools-0.1.9.tar.gz --markdown 20230707/b/bgstools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-07 09:11:19] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/c8/72/cfb118e14c007a151e3448decdf03d9f857f769cf0e5fce80f46281b8de5/domain-admin-1.4.9.tar.gz
+[2023-07-07 09:11:19] INFO root fetch - processPackages [th2-check2-recon]: Downloading https://files.pythonhosted.org/packages/17/cd/330081b9a886f5f5194c556f84e05cb2e324ec5d1b3922530f3a9efc04f2/th2_check2_recon-4.0.0.dev4312132973.tar.gz
+[2023-07-07 09:11:19] INFO root fetch - processPackages [parsagon]: Downloading https://files.pythonhosted.org/packages/25/4f/ce4f7ead605c9fbd9efe879491bbb6ac73a32e56c35bfb78299b315bc26a/parsagon-0.7.5.tar.gz
+[2023-07-07 09:11:19] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/cf/69/f38c82a29b39b16e58c5ef6b2fb532583b9c1570062b24b523d48b7cc059/sh-dynamodb-1.2.4.tar.gz
+[2023-07-07 09:11:19] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/cf/69/f38c82a29b39b16e58c5ef6b2fb532583b9c1570062b24b523d48b7cc059/sh-dynamodb-1.2.4.tar.gz
+[2023-07-07 09:11:19] INFO root fetch - processPackages [androtools]: Downloading https://files.pythonhosted.org/packages/bd/08/b8e48f9d9676e97e66354d7842a05f24bc1dc1cb138ef756f8dfc0dbedaf/androtools-0.1.1.tar.gz
+[2023-07-07 09:11:19] INFO root fetch - processPackages [histcmp]: Downloading https://files.pythonhosted.org/packages/dc/f5/1e7d2f8873243c7b827717395a28aaaff16db184195e2a940608ef8aed39/histcmp-0.6.0.tar.gz
+[2023-07-07 09:11:19] INFO root fetch - processPackages [waveforms]: Downloading https://files.pythonhosted.org/packages/a0/e4/94552dea0e37358436d8005bb90e8884f01cd0121139586af8869f5ae419/waveforms-1.6.4.tar.gz
+[2023-07-07 09:11:19] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/e0/80/c34810051dcacd44f750dc59c5f982f9a679cbb6caaccd0aad3288430f3e/QuNet-0.0.99-py3-none-any.whl
+[2023-07-07 09:11:19] INFO root fetch - processPackages [th2-check2-recon]: executing diffoscope
+[2023-07-07 09:11:19] INFO root fetch - processPackages [th2-check2-recon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_check2_recon-4.0.0.dev3884233338.tar.gz tmp/th2_check2_recon-4.0.0.dev4312132973.tar.gz --markdown 20230707/t/th2-check2-recon/4.0.0.dev3884233338-4.0.0.dev4312132973/diff.md --exclude *.pyd
+[2023-07-07 09:11:19] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-07-07 09:11:19] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.4.8.tar.gz tmp/domain-admin-1.4.9.tar.gz --markdown 20230707/d/domain-admin/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-07 09:11:19] INFO root fetch - processPackages [sh-dynamodb]: executing diffoscope
+[2023-07-07 09:11:19] INFO root fetch - processPackages [sh-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sh-dynamodb-1.2.3.tar.gz tmp/sh-dynamodb-1.2.4.tar.gz --markdown 20230707/s/sh-dynamodb/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-07-07 09:11:19] INFO root fetch - processPackages [parsagon]: executing diffoscope
+[2023-07-07 09:11:19] INFO root fetch - processPackages [parsagon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsagon-0.7.4.tar.gz tmp/parsagon-0.7.5.tar.gz --markdown 20230707/p/parsagon/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-07-07 09:11:19] INFO root fetch - processPackages [sh-dynamodb]: executing diffoscope
+[2023-07-07 09:11:19] INFO root fetch - processPackages [sh-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sh-dynamodb-1.2.3.tar.gz tmp/sh-dynamodb-1.2.4.tar.gz --markdown 20230707/s/sh-dynamodb/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-07-07 09:11:20] INFO root fetch - processPackages [androtools]: executing diffoscope
+[2023-07-07 09:11:20] INFO root fetch - processPackages [androtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/androtools-0.1.0-py3-none-any.whl.zip tmp/androtools-0.1.1.tar.gz --markdown 20230707/a/androtools/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-07 09:11:20] INFO root fetch - processPackages [histcmp]: executing diffoscope
+[2023-07-07 09:11:20] INFO root fetch - processPackages [histcmp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/histcmp-0.5.3.tar.gz tmp/histcmp-0.6.0.tar.gz --markdown 20230707/h/histcmp/0.5.3-0.6.0/diff.md --exclude *.pyd
+[2023-07-07 09:11:20] INFO root fetch - processPackages [waveforms]: executing diffoscope
+[2023-07-07 09:11:20] INFO root fetch - processPackages [waveforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waveforms-1.6.3.tar.gz tmp/waveforms-1.6.4.tar.gz --markdown 20230707/w/waveforms/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-07-07 09:11:20] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-07-07 09:11:20] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.98-py3-none-any.whl.zip tmp/QuNet-0.0.99-py3-none-any.whl.zip --markdown 20230707/Q/QuNet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-07 09:11:20] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.8.tar.gz]
+[2023-07-07 09:11:20] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.9.tar.gz]
+[2023-07-07 09:11:20] INFO root fetch - processPackages [bgstools]: Start processing: oarepo-runtime
+[2023-07-07 09:11:20] INFO root fetch - main [MainThread]: End processing [bgstools]: success
+[2023-07-07 09:11:20] INFO root fetch - processPackages [oarepo-runtime]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-07 09:11:21] INFO root fetch - processPackages [oarepo-runtime]: Downloading https://files.pythonhosted.org/packages/17/18/dcc7b08301454d96434492978faaaf5d8f943c96d8560d5742eb6824dfcd/oarepo-runtime-1.3.8.tar.gz
+[2023-07-07 09:11:21] INFO root fetch - processPackages [th2-check2-recon]: Remove: archive file [/home/abi/fetcher/tmp/th2_check2_recon-4.0.0.dev3884233338.tar.gz]
+[2023-07-07 09:11:21] INFO root fetch - processPackages [th2-check2-recon]: Remove: archive file [/home/abi/fetcher/tmp/th2_check2_recon-4.0.0.dev4312132973.tar.gz]
+[2023-07-07 09:11:21] INFO root fetch - processPackages [th2-check2-recon]: Start processing: streamlit-nightly
+[2023-07-07 09:11:21] INFO root fetch - main [MainThread]: End processing [th2-check2-recon]: success
+[2023-07-07 09:11:21] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-07-07 09:11:21] INFO root fetch - processPackages [androtools]: Remove: archive file [/home/abi/fetcher/tmp/androtools-0.1.0-py3-none-any.whl.zip]
+[2023-07-07 09:11:21] INFO root fetch - processPackages [androtools]: Remove: archive file [/home/abi/fetcher/tmp/androtools-0.1.1.tar.gz]
+[2023-07-07 09:11:21] INFO root fetch - processPackages [androtools]: Start processing: cr-api-client
+[2023-07-07 09:11:21] INFO root fetch - main [MainThread]: End processing [androtools]: success
+[2023-07-07 09:11:21] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-07-07 09:11:21] INFO root fetch - processPackages [sh-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/sh-dynamodb-1.2.3.tar.gz]
+[2023-07-07 09:11:21] INFO root fetch - processPackages [sh-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/sh-dynamodb-1.2.4.tar.gz]
+[2023-07-07 09:11:21] INFO root fetch - processPackages [sh-dynamodb]: Start processing: covdrugsim
+[2023-07-07 09:11:21] INFO root fetch - main [MainThread]: End processing [sh-dynamodb]: success
+[2023-07-07 09:11:21] INFO root fetch - processPackages [cr-api-client]: New version: [4.3.0] Old Version: [4.1.0]
+[2023-07-07 09:11:21] INFO root fetch - processPackages [parsagon]: Remove: archive file [/home/abi/fetcher/tmp/parsagon-0.7.4.tar.gz]
+[2023-07-07 09:11:21] INFO root fetch - processPackages [parsagon]: Remove: archive file [/home/abi/fetcher/tmp/parsagon-0.7.5.tar.gz]
+[2023-07-07 09:11:21] INFO root fetch - processPackages [parsagon]: Start processing: resource-monitor-scanner
+[2023-07-07 09:11:21] INFO root fetch - main [MainThread]: End processing [parsagon]: success
+[2023-07-07 09:11:21] INFO root fetch - processPackages [covdrugsim]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-07 09:11:21] INFO root fetch - main [MainThread]: End processing [sh-dynamodb]: success
+[2023-07-07 09:11:21] WARNING root fetch - processPackages [resource-monitor-scanner]: Skipping, unable to determine old version
+[2023-07-07 09:11:21] INFO root fetch - main [MainThread]: End processing [resource-monitor-scanner] error
+[2023-07-07 09:11:21] INFO root fetch - processPackages [oarepo-runtime]: Downloading https://files.pythonhosted.org/packages/d4/a6/bbef3bd266677026b7d501efe81bd8f82ca65597bab5e89f9a32ef64b034/oarepo-runtime-1.3.9.tar.gz
+[2023-07-07 09:11:21] INFO root fetch - processPackages [histcmp]: Remove: archive file [/home/abi/fetcher/tmp/histcmp-0.5.3.tar.gz]
+[2023-07-07 09:11:21] INFO root fetch - processPackages [histcmp]: Remove: archive file [/home/abi/fetcher/tmp/histcmp-0.6.0.tar.gz]
+[2023-07-07 09:11:21] INFO root fetch - main [MainThread]: End processing [histcmp]: success
+[2023-07-07 09:11:21] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.98-py3-none-any.whl.zip]
+[2023-07-07 09:11:21] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.99-py3-none-any.whl.zip]
+[2023-07-07 09:11:21] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-07-07 09:11:21] INFO root fetch - processPackages [oarepo-runtime]: executing diffoscope
+[2023-07-07 09:11:21] INFO root fetch - processPackages [oarepo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-runtime-1.3.8.tar.gz tmp/oarepo-runtime-1.3.9.tar.gz --markdown 20230707/o/oarepo-runtime/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-07 09:11:21] INFO root fetch - processPackages [cr-api-client]: Downloading https://files.pythonhosted.org/packages/b5/1f/27b32e5382fba02b94610bb6724b3148ddece84b8b9119218ae908872dc5/cr_api_client-4.1.0.tar.gz
+[2023-07-07 09:11:21] INFO root fetch - processPackages [covdrugsim]: Downloading https://files.pythonhosted.org/packages/eb/df/815cf3f765ba33a11b030a3da48f8624f4d0d185d6a85d8bd07563590c67/covdrugsim-0.2.0.tar.gz
+[2023-07-07 09:11:22] INFO root fetch - processPackages [covdrugsim]: Downloading https://files.pythonhosted.org/packages/5e/8c/c1ac98f06072a0ac0cd47b9b2f7797b9b9cc41e7c0b10063e4d898e7f33c/covdrugsim-0.3.0.tar.gz
+[2023-07-07 09:11:22] INFO root fetch - processPackages [cr-api-client]: Downloading https://files.pythonhosted.org/packages/ef/7f/b2577bb0a01fb74ecc8915708e48504a99a294df6eeeb6aa713d3c35d2c0/cr_api_client-4.3.0.tar.gz
+[2023-07-07 09:11:22] INFO root fetch - processPackages [waveforms]: Remove: archive file [/home/abi/fetcher/tmp/waveforms-1.6.3.tar.gz]
+[2023-07-07 09:11:22] INFO root fetch - processPackages [waveforms]: Remove: archive file [/home/abi/fetcher/tmp/waveforms-1.6.4.tar.gz]
+[2023-07-07 09:11:22] INFO root fetch - main [MainThread]: End processing [waveforms]: success
+[2023-07-07 09:11:22] INFO root fetch - processPackages [covdrugsim]: executing diffoscope
+[2023-07-07 09:11:22] INFO root fetch - processPackages [covdrugsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covdrugsim-0.2.0.tar.gz tmp/covdrugsim-0.3.0.tar.gz --markdown 20230707/c/covdrugsim/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-07 09:11:22] INFO root fetch - processPackages [cr-api-client]: executing diffoscope
+[2023-07-07 09:11:22] INFO root fetch - processPackages [cr-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cr_api_client-4.1.0.tar.gz tmp/cr_api_client-4.3.0.tar.gz --markdown 20230707/c/cr-api-client/4.1.0-4.3.0/diff.md --exclude *.pyd
+[2023-07-07 09:11:22] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-07-07 09:11:22] INFO root fetch - processPackages [oarepo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-runtime-1.3.8.tar.gz]
+[2023-07-07 09:11:22] INFO root fetch - processPackages [oarepo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-runtime-1.3.9.tar.gz]
+[2023-07-07 09:11:22] INFO root fetch - main [MainThread]: End processing [oarepo-runtime]: success
+[2023-07-07 09:11:23] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-07-07 09:11:23] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230707/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-07-07 09:11:23] INFO root fetch - processPackages [covdrugsim]: Remove: archive file [/home/abi/fetcher/tmp/covdrugsim-0.2.0.tar.gz]
+[2023-07-07 09:11:23] INFO root fetch - processPackages [covdrugsim]: Remove: archive file [/home/abi/fetcher/tmp/covdrugsim-0.3.0.tar.gz]
+[2023-07-07 09:11:23] INFO root fetch - main [MainThread]: End processing [covdrugsim]: success
+[2023-07-07 09:11:23] INFO root fetch - processPackages [cr-api-client]: Remove: archive file [/home/abi/fetcher/tmp/cr_api_client-4.1.0.tar.gz]
+[2023-07-07 09:11:23] INFO root fetch - processPackages [cr-api-client]: Remove: archive file [/home/abi/fetcher/tmp/cr_api_client-4.3.0.tar.gz]
+[2023-07-07 09:11:23] INFO root fetch - main [MainThread]: End processing [cr-api-client]: success
+[2023-07-07 09:11:29] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.8.tar.gz]
+[2023-07-07 09:11:29] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.9.tar.gz]
+[2023-07-07 09:11:29] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-07-07 09:11:31] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-07-07 09:11:31] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-07-07 09:11:31] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-07-07 09:11:31] INFO root fetch - main [MainThread]: Store serial: [18796764]
