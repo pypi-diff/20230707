@@ -12906,3 +12906,59 @@ EOFError: EOF read where object expected
 [2023-07-07 08:25:16] INFO root fetch - processPackages [bluecast]: Remove: archive file [/home/abi/fetcher/tmp/bluecast-0.9.tar.gz]
 [2023-07-07 08:25:16] INFO root fetch - main [MainThread]: End processing [bluecast]: success
 [2023-07-07 08:25:16] INFO root fetch - main [MainThread]: Store serial: [18796426]
+[2023-07-07 08:30:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18796426]
+[2023-07-07 08:30:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-07 08:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytlgateway
+[2023-07-07 08:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fake-bpy-module-latest
+[2023-07-07 08:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vlite
+[2023-07-07 08:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dialogy
+[2023-07-07 08:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fundaml
+[2023-07-07 08:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-account-statement-import-camt
+[2023-07-07 08:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-master
+[2023-07-07 08:30:25] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230706.8.43.256459] Old Version: [20230706.12.28.608987]
+[2023-07-07 08:30:25] WARNING root fetch - processPackages [fundaml]: Skipping, unable to determine old version
+[2023-07-07 08:30:25] INFO root fetch - processPackages [pytlgateway]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-07 08:30:25] INFO root fetch - main [MainThread]: End processing [fundaml] error
+[2023-07-07 08:30:25] INFO root fetch - processPackages [vlite]: New version: [0.1.7] Old Version: [0.1.4]
+[2023-07-07 08:30:25] INFO root fetch - processPackages [odoo-addon-account-statement-import-camt]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.1]
+[2023-07-07 08:30:25] INFO root fetch - processPackages [dialogy]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-07 08:30:25] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230707] Old Version: [20230706]
+[2023-07-07 08:30:25] INFO root fetch - processPackages [vlite]: Downloading https://files.pythonhosted.org/packages/04/21/99638ddd82e8bb2fcc49e72327da75d58b63477bc8cab8f87f1a01c4d74c/vlite-0.1.4.tar.gz
+[2023-07-07 08:30:25] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/15/b2/6bfb9af4ba3920c12cf7e13cab64f1d7862f582c6225ee45dc40b6a4f9fb/certora_cli_alpha_master-20230706.12.28.608987-py3-none-any.whl
+[2023-07-07 08:30:25] INFO root fetch - processPackages [pytlgateway]: Downloading https://files.pythonhosted.org/packages/e3/0b/a307305c8607d605d2d5f0ff5730b4e6e0455c02ef1ba9252280a95dc55a/pytlgateway-0.2.8.tar.gz
+[2023-07-07 08:30:25] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/51/ba/2211a318c82642bbac128cbaf6f2a99cbd9b61b9a68211c7dcdff914a438/fake-bpy-module-latest-20230706.tar.gz
+[2023-07-07 08:30:25] INFO root fetch - processPackages [dialogy]: Downloading https://files.pythonhosted.org/packages/ca/98/9c0607140525a5654c6e21f4f5142382491d00618c71ab35f6d398597a78/dialogy-2.0.8.tar.gz
+[2023-07-07 08:30:26] INFO root fetch - processPackages [odoo-addon-account-statement-import-camt]: Downloading https://files.pythonhosted.org/packages/4c/57/c069e44d2c9c979a343319d51e84b495e96d766d727f4ec7bdd1d5852855/odoo_addon_account_statement_import_camt-15.0.1.0.1-py3-none-any.whl
+[2023-07-07 08:30:26] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 40685540>=10485760
+[2023-07-07 08:30:26] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-07 08:30:26] INFO root fetch - processPackages [vlite]: Downloading https://files.pythonhosted.org/packages/f0/70/f3e7aeb939292d9c5bf918d9e3a070254da628a7c32305c0e24c136c00c3/vlite-0.1.7.tar.gz
+[2023-07-07 08:30:26] INFO root fetch - processPackages [pytlgateway]: Downloading https://files.pythonhosted.org/packages/9f/e6/9b96f04a4f3ec43222c9c9fc99dfdaa689ae9fa03583b57727c461413769/pytlgateway-0.2.9.tar.gz
+[2023-07-07 08:30:26] INFO root fetch - processPackages [odoo-addon-account-statement-import-camt]: Downloading https://files.pythonhosted.org/packages/f0/34/5eca17c5722ebabfdca7dca0bcc4befda540867b2f451d5f072441847382/odoo_addon_account_statement_import_camt-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-07 08:30:26] INFO root fetch - processPackages [vlite]: executing diffoscope
+[2023-07-07 08:30:26] INFO root fetch - processPackages [vlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vlite-0.1.4.tar.gz tmp/vlite-0.1.7.tar.gz --markdown 20230707/v/vlite/0.1.4-0.1.7/diff.md --exclude *.pyd
+[2023-07-07 08:30:26] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/da/07/f4c25eaffc60c6ab98c71e27965b278aba9908aaf96081e44fc89e50aced/fake-bpy-module-latest-20230707.tar.gz
+[2023-07-07 08:30:26] INFO root fetch - processPackages [dialogy]: Downloading https://files.pythonhosted.org/packages/ca/d9/dca00478422152d39f4cd3351f106029580ab4f7401eaf41b4329643ddbe/dialogy-2.0.9.tar.gz
+[2023-07-07 08:30:26] INFO root fetch - processPackages [odoo-addon-account-statement-import-camt]: executing diffoscope
+[2023-07-07 08:30:26] INFO root fetch - processPackages [odoo-addon-account-statement-import-camt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_statement_import_camt-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_statement_import_camt-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230707/o/odoo-addon-account-statement-import-camt/15.0.1.0.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-07-07 08:30:26] INFO root fetch - processPackages [pytlgateway]: executing diffoscope
+[2023-07-07 08:30:26] INFO root fetch - processPackages [pytlgateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytlgateway-0.2.8.tar.gz tmp/pytlgateway-0.2.9.tar.gz --markdown 20230707/p/pytlgateway/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-07 08:30:26] INFO root fetch - processPackages [dialogy]: executing diffoscope
+[2023-07-07 08:30:26] INFO root fetch - processPackages [dialogy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialogy-2.0.8.tar.gz tmp/dialogy-2.0.9.tar.gz --markdown 20230707/d/dialogy/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-07 08:30:26] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-07-07 08:30:26] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230706.tar.gz tmp/fake-bpy-module-latest-20230707.tar.gz --markdown 20230707/f/fake-bpy-module-latest/20230706-20230707/diff.md --exclude *.pyd
+[2023-07-07 08:30:27] INFO root fetch - processPackages [vlite]: Remove: archive file [/home/abi/fetcher/tmp/vlite-0.1.4.tar.gz]
+[2023-07-07 08:30:27] INFO root fetch - processPackages [vlite]: Remove: archive file [/home/abi/fetcher/tmp/vlite-0.1.7.tar.gz]
+[2023-07-07 08:30:27] INFO root fetch - main [MainThread]: End processing [vlite]: success
+[2023-07-07 08:30:27] INFO root fetch - processPackages [pytlgateway]: Remove: archive file [/home/abi/fetcher/tmp/pytlgateway-0.2.8.tar.gz]
+[2023-07-07 08:30:27] INFO root fetch - processPackages [pytlgateway]: Remove: archive file [/home/abi/fetcher/tmp/pytlgateway-0.2.9.tar.gz]
+[2023-07-07 08:30:27] INFO root fetch - main [MainThread]: End processing [pytlgateway]: success
+[2023-07-07 08:30:27] INFO root fetch - processPackages [odoo-addon-account-statement-import-camt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_camt-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-07 08:30:27] INFO root fetch - processPackages [odoo-addon-account-statement-import-camt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_camt-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-07 08:30:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-statement-import-camt]: success
+[2023-07-07 08:30:27] INFO root fetch - processPackages [dialogy]: Remove: archive file [/home/abi/fetcher/tmp/dialogy-2.0.8.tar.gz]
+[2023-07-07 08:30:27] INFO root fetch - processPackages [dialogy]: Remove: archive file [/home/abi/fetcher/tmp/dialogy-2.0.9.tar.gz]
+[2023-07-07 08:30:27] INFO root fetch - main [MainThread]: End processing [dialogy]: success
+[2023-07-07 08:30:30] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230706.tar.gz]
+[2023-07-07 08:30:30] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230707.tar.gz]
+[2023-07-07 08:30:30] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-07-07 08:30:30] INFO root fetch - main [MainThread]: Store serial: [18796448]
