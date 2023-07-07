@@ -9438,3 +9438,81 @@ EOFError: EOF read where object expected
 [2023-07-07 03:58:39] INFO root fetch - processPackages [runtime-yolk]: Remove: archive file [/home/abi/fetcher/tmp/runtime-yolk-1.2.3.tar.gz]
 [2023-07-07 03:58:39] INFO root fetch - main [MainThread]: End processing [runtime-yolk]: success
 [2023-07-07 03:58:39] INFO root fetch - main [MainThread]: Store serial: [18794906]
+[2023-07-07 04:03:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18794906]
+[2023-07-07 04:03:57] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-07 04:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-fast-ratelimit
+[2023-07-07 04:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain-interpreter
+[2023-07-07 04:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imarkdown
+[2023-07-07 04:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seven-cloudapp-frame
+[2023-07-07 04:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cjm-yolox-pytorch
+[2023-07-07 04:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hubotlibs
+[2023-07-07 04:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: braille-bars
+[2023-07-07 04:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hak
+[2023-07-07 04:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: posetree
+[2023-07-07 04:03:58] INFO root fetch - processPackages [hubotlibs]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-07 04:03:58] INFO root fetch - processPackages [django-fast-ratelimit]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-07 04:03:58] INFO root fetch - processPackages [braille-bars]: New version: [0.2] Old Version: [0.1]
+[2023-07-07 04:03:58] INFO root fetch - processPackages [langchain-interpreter]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-07 04:03:58] WARNING root fetch - processPackages [imarkdown]: Skipping, unable to determine old version
+[2023-07-07 04:03:58] INFO root fetch - main [MainThread]: End processing [imarkdown] error
+[2023-07-07 04:03:58] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 04:03:58] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 04:03:58] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-07-07 04:03:58] INFO root fetch - processPackages [hubotlibs]: Downloading https://files.pythonhosted.org/packages/e2/bc/a6e823f52fa541f1428dd38c06ddbde36fab8ac89ddc9f186de9e7a05cdc/hubotlibs-0.2.5.tar.gz
+[2023-07-07 04:03:58] INFO root fetch - processPackages [posetree]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-07 04:03:58] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-07 04:03:58] INFO root fetch - processPackages [django-fast-ratelimit]: Downloading https://files.pythonhosted.org/packages/89/c0/ca8c7a97b5297642a219dfa34a13c51c44c02fadbad50cb8514f6fa937b0/django_fast_ratelimit-0.9.0.tar.gz
+[2023-07-07 04:03:58] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/35/2b/05b1b8a3faf3e0417c648bb54a3032af0de6b3d08180acd83e1eea5e3701/seven_cloudapp_frame-1.0.9.8.tar.gz
+[2023-07-07 04:03:58] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-07-07 04:03:58] INFO root fetch - processPackages [braille-bars]: Downloading https://files.pythonhosted.org/packages/80/84/ed7876dfd39199038c238406abba66895644da52e25a8b67e014783d79d2/braille-bars-0.1.tar.gz
+[2023-07-07 04:03:58] INFO root fetch - processPackages [langchain-interpreter]: Downloading https://files.pythonhosted.org/packages/3e/99/6a3a92988618be2c47887f62a9fe9afbd9f39df6ce6cff735594cec2d47a/langchain_interpreter-0.0.4.tar.gz
+[2023-07-07 04:03:58] INFO root fetch - processPackages [posetree]: Downloading https://files.pythonhosted.org/packages/ce/fd/a15729c306103240315063d98638aaed8b84e9626ab95d0ebd60dc097c34/posetree-1.0.0.tar.gz
+[2023-07-07 04:03:58] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-07 04:03:58] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/74/d6/645286f46e81a7cbd30574c917b65af03679c974a979c0421012bd713cbd/seven_cloudapp_frame-1.0.9.9.tar.gz
+[2023-07-07 04:03:58] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-07 04:03:58] INFO root fetch - processPackages [django-fast-ratelimit]: Downloading https://files.pythonhosted.org/packages/72/81/dacd92e83eab32f7180733b1b529426b97c957397865672ca74eceab7ddb/django_fast_ratelimit-0.9.1.tar.gz
+[2023-07-07 04:03:58] INFO root fetch - processPackages [hubotlibs]: Downloading https://files.pythonhosted.org/packages/4b/0c/9974330cd0f3659b64ef765ac4873df4458dde7110a4aa121acf1d6b0885/hubotlibs-0.2.6.tar.gz
+[2023-07-07 04:03:59] INFO root fetch - processPackages [langchain-interpreter]: Downloading https://files.pythonhosted.org/packages/bb/9c/0017a7c036e235c8ed7fa936c00305b692c3ff6dbb6a59ae72a47ce79d0f/langchain_interpreter-0.0.5.tar.gz
+[2023-07-07 04:03:59] INFO root fetch - processPackages [braille-bars]: Downloading https://files.pythonhosted.org/packages/f9/bc/0f950a416ce1d9fa3915abd357177e16214df1755c0636c66570bf9c9eaa/braille-bars-0.2.tar.gz
+[2023-07-07 04:03:59] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-07 04:03:59] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230707/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 04:03:59] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-07-07 04:03:59] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230707/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-07-07 04:03:59] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-07 04:03:59] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230707/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 04:03:59] INFO root fetch - processPackages [hubotlibs]: executing diffoscope
+[2023-07-07 04:03:59] INFO root fetch - processPackages [hubotlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubotlibs-0.2.5.tar.gz tmp/hubotlibs-0.2.6.tar.gz --markdown 20230707/h/hubotlibs/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-07 04:03:59] INFO root fetch - processPackages [braille-bars]: executing diffoscope
+[2023-07-07 04:03:59] INFO root fetch - processPackages [braille-bars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braille-bars-0.1.tar.gz tmp/braille-bars-0.2.tar.gz --markdown 20230707/b/braille-bars/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-07 04:03:59] INFO root fetch - processPackages [langchain-interpreter]: executing diffoscope
+[2023-07-07 04:03:59] INFO root fetch - processPackages [langchain-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_interpreter-0.0.4.tar.gz tmp/langchain_interpreter-0.0.5.tar.gz --markdown 20230707/l/langchain-interpreter/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-07 04:03:59] INFO root fetch - processPackages [django-fast-ratelimit]: executing diffoscope
+[2023-07-07 04:03:59] INFO root fetch - processPackages [django-fast-ratelimit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_fast_ratelimit-0.9.0.tar.gz tmp/django_fast_ratelimit-0.9.1.tar.gz --markdown 20230707/d/django-fast-ratelimit/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-07 04:03:59] INFO root fetch - processPackages [posetree]: Downloading https://files.pythonhosted.org/packages/0c/38/f6394ed2cdd6081b56a5d003c98601d13b5168d0fa5b44640380832a3902/posetree-1.1.0.tar.gz
+[2023-07-07 04:03:59] INFO root fetch - processPackages [posetree]: executing diffoscope
+[2023-07-07 04:03:59] INFO root fetch - processPackages [posetree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/posetree-1.0.0.tar.gz tmp/posetree-1.1.0.tar.gz --markdown 20230707/p/posetree/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-07 04:04:00] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-07 04:04:00] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-07 04:04:00] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-07 04:04:00] INFO root fetch - processPackages [django-fast-ratelimit]: Remove: archive file [/home/abi/fetcher/tmp/django_fast_ratelimit-0.9.0.tar.gz]
+[2023-07-07 04:04:00] INFO root fetch - processPackages [django-fast-ratelimit]: Remove: archive file [/home/abi/fetcher/tmp/django_fast_ratelimit-0.9.1.tar.gz]
+[2023-07-07 04:04:00] INFO root fetch - main [MainThread]: End processing [django-fast-ratelimit]: success
+[2023-07-07 04:04:00] INFO root fetch - processPackages [braille-bars]: Remove: archive file [/home/abi/fetcher/tmp/braille-bars-0.1.tar.gz]
+[2023-07-07 04:04:00] INFO root fetch - processPackages [braille-bars]: Remove: archive file [/home/abi/fetcher/tmp/braille-bars-0.2.tar.gz]
+[2023-07-07 04:04:00] INFO root fetch - main [MainThread]: End processing [braille-bars]: success
+[2023-07-07 04:04:00] INFO root fetch - processPackages [hubotlibs]: Remove: archive file [/home/abi/fetcher/tmp/hubotlibs-0.2.5.tar.gz]
+[2023-07-07 04:04:00] INFO root fetch - processPackages [hubotlibs]: Remove: archive file [/home/abi/fetcher/tmp/hubotlibs-0.2.6.tar.gz]
+[2023-07-07 04:04:00] INFO root fetch - main [MainThread]: End processing [hubotlibs]: success
+[2023-07-07 04:04:00] INFO root fetch - processPackages [posetree]: Remove: archive file [/home/abi/fetcher/tmp/posetree-1.0.0.tar.gz]
+[2023-07-07 04:04:00] INFO root fetch - processPackages [posetree]: Remove: archive file [/home/abi/fetcher/tmp/posetree-1.1.0.tar.gz]
+[2023-07-07 04:04:00] INFO root fetch - main [MainThread]: End processing [posetree]: success
+[2023-07-07 04:04:00] INFO root fetch - processPackages [langchain-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/langchain_interpreter-0.0.4.tar.gz]
+[2023-07-07 04:04:00] INFO root fetch - processPackages [langchain-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/langchain_interpreter-0.0.5.tar.gz]
+[2023-07-07 04:04:00] INFO root fetch - main [MainThread]: End processing [langchain-interpreter]: success
+[2023-07-07 04:04:00] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.8.tar.gz]
+[2023-07-07 04:04:00] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.9.tar.gz]
+[2023-07-07 04:04:00] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-07-07 04:04:00] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-07-07 04:04:00] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-07 04:04:00] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-07 04:04:00] INFO root fetch - main [MainThread]: Store serial: [18795112]
