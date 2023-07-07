@@ -20912,3 +20912,129 @@ AssertionError: tmp/tester-package-sdk-2.0.9.tar.gz does not exist
 [2023-07-07 13:48:16] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music_assistant_frontend-20230707.1-py3-none-any.whl.zip]
 [2023-07-07 13:48:16] INFO root fetch - main [MainThread]: End processing [music-assistant-frontend]: success
 [2023-07-07 13:48:16] INFO root fetch - main [MainThread]: Store serial: [18799776]
+[2023-07-07 13:53:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18799776]
+[2023-07-07 13:53:26] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-07 13:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: up-paraspace
+[2023-07-07 13:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meowy
+[2023-07-07 13:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-dynamic-file
+[2023-07-07 13:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dipex
+[2023-07-07 13:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moordyn
+[2023-07-07 13:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kcli
+[2023-07-07 13:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: threads-net
+[2023-07-07 13:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: apache-airflow-providers-kettle
+[2023-07-07 13:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pycompall
+[2023-07-07 13:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: terminal-notebook-bad-code
+[2023-07-07 13:53:26] WARNING root fetch - processPackages [meowy]: Skipping, unable to determine old version
+[2023-07-07 13:53:26] INFO root fetch - processPackages [meowy]: Start processing: pycrispr
+[2023-07-07 13:53:26] INFO root fetch - main [MainThread]: End processing [meowy] error
+[2023-07-07 13:53:26] INFO root fetch - processPackages [moordyn]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-07 13:53:26] INFO root fetch - processPackages [pycompall]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-07 13:53:26] INFO root fetch - processPackages [apache-airflow-providers-kettle]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-07 13:53:26] INFO root fetch - processPackages [up-paraspace]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-07 13:53:26] INFO root fetch - processPackages [threads-net]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-07 13:53:26] INFO root fetch - processPackages [django-dynamic-file]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-07 13:53:26] WARNING root fetch - processPackages [terminal-notebook-bad-code]: Skipping, unable to determine old version
+[2023-07-07 13:53:26] INFO root fetch - processPackages [terminal-notebook-bad-code]: Start processing: ima-predeployed
+[2023-07-07 13:53:26] INFO root fetch - main [MainThread]: End processing [terminal-notebook-bad-code] error
+[2023-07-07 13:53:26] WARNING root fetch - processPackages [pycrispr]: Skipping, unable to determine old version
+[2023-07-07 13:53:26] INFO root fetch - processPackages [pycrispr]: Start processing: message-chat-client
+[2023-07-07 13:53:26] INFO root fetch - main [MainThread]: End processing [pycrispr] error
+[2023-07-07 13:53:26] INFO root fetch - processPackages [kcli]: New version: [99.0.202307071149] Old Version: [99.0.202307060949]
+[2023-07-07 13:53:26] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-07-07 13:53:26] INFO root fetch - processPackages [ima-predeployed]: New version: [2.0.0b4] Old Version: [2.0.0b3]
+[2023-07-07 13:53:26] WARNING root fetch - processPackages [message-chat-client]: Skipping, unable to determine old version
+[2023-07-07 13:53:26] INFO root fetch - processPackages [message-chat-client]: Start processing: kfish
+[2023-07-07 13:53:26] INFO root fetch - main [MainThread]: End processing [message-chat-client] error
+[2023-07-07 13:53:26] INFO root fetch - processPackages [pycompall]: Downloading https://files.pythonhosted.org/packages/54/ed/03cd04e39d8544c2316500a98a5e0243d524d10a61a1a04562f83aab0950/pycompall-0.1.8.tar.gz
+[2023-07-07 13:53:26] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/06/e1/14eb0f8c2289a5f92fa683eed9b92803ac750ac6c236271309226401597b/threads-net-0.0.2.tar.gz
+[2023-07-07 13:53:26] INFO root fetch - processPackages [django-dynamic-file]: Downloading https://files.pythonhosted.org/packages/fc/77/40c126400809ef0c2769f9b9ba38da8688585de4ade5ecd2b3ed140cc56e/django-dynamic-file-0.5.1.tar.gz
+[2023-07-07 13:53:26] INFO root fetch - processPackages [up-paraspace]: Downloading https://files.pythonhosted.org/packages/26/d2/7e2ed0d35a35b4a45f1f5f4657392751da38001b3a6c6cba8ec427c96fb3/up_paraspace-0.0.5.tar.gz
+[2023-07-07 13:53:26] INFO root fetch - processPackages [kfish]: New version: [99.0.202307071152] Old Version: [99.0.202307060951]
+[2023-07-07 13:53:26] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/ca/fb/bcdbc34d4ffff4b37acd3e2fb76f42bcea1844762d4b998c319652fc6b38/dipex-4.9.1.tar.gz
+[2023-07-07 13:53:26] INFO root fetch - processPackages [moordyn]: Downloading https://files.pythonhosted.org/packages/49/97/eb9e917cd51cd5b31648a8de2b8e5a0e60d41940b931f0fdb4238545c347/moordyn-2.1.0.tar.gz
+[2023-07-07 13:53:26] INFO root fetch - processPackages [apache-airflow-providers-kettle]: Downloading https://files.pythonhosted.org/packages/33/9f/24e34fc2e741683471d5daf969958d05b222938a4631806891c71814349d/apache_airflow_providers_kettle-1.0.4.tar.gz
+[2023-07-07 13:53:26] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/1c/6e/a21c5dc5636cb007ce86c62c208f6eace15bdaf014deb4ebffa19e7b5330/kcli-99.0.202307060949-py3-none-any.whl
+[2023-07-07 13:53:26] INFO root fetch - processPackages [ima-predeployed]: Downloading https://files.pythonhosted.org/packages/d3/44/27908dbe50c5cf6fcb4af8df17b2acc19a3a2558e156a58c022a0ceee99d/ima-predeployed-2.0.0b3.tar.gz
+[2023-07-07 13:53:27] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/56/2e/4de6bdbb5b59bc5c0685f70a0a404ed0861a5c0a2ba759489c52a9a7f966/kfish-99.0.202307060951-py3-none-any.whl
+[2023-07-07 13:53:27] INFO root fetch - processPackages [pycompall]: Downloading https://files.pythonhosted.org/packages/50/40/92c1a0ecab4ac6e924b7073264247bf95385f88b923b563a9483bf2f7e0c/pycompall-0.1.9.tar.gz
+[2023-07-07 13:53:27] INFO root fetch - processPackages [django-dynamic-file]: Downloading https://files.pythonhosted.org/packages/e8/2e/fb0d42a2d480dfd4e95cf8927fb14ebabacc5d917674f88450876ad2bdff/django-dynamic-file-0.5.2.tar.gz
+[2023-07-07 13:53:27] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/d3/fa/fbf692999f299bb256217f34df9cc1e4ee2f9e1ae9e87e051b2b8b92aaa1/dipex-4.9.2.tar.gz
+[2023-07-07 13:53:27] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/70/34/473e02a4752d8ce8f0c9d602df9ea9831f1c874a3a0688a38a7bd2b073b7/threads-net-0.0.3.tar.gz
+[2023-07-07 13:53:27] INFO root fetch - processPackages [apache-airflow-providers-kettle]: Downloading https://files.pythonhosted.org/packages/98/90/6bec8419f031a140e4e186f29a81e72ed3b8cb5ac14a5d68187e89f7a4bf/apache_airflow_providers_kettle-1.0.5.tar.gz
+[2023-07-07 13:53:27] INFO root fetch - processPackages [up-paraspace]: Downloading https://files.pythonhosted.org/packages/fd/b6/0d701eb489a9dd81935deb6332d80193bfcf749107faddfae3065e499802/up_paraspace-0.0.6.tar.gz
+[2023-07-07 13:53:27] INFO root fetch - processPackages [pycompall]: executing diffoscope
+[2023-07-07 13:53:27] INFO root fetch - processPackages [pycompall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycompall-0.1.8.tar.gz tmp/pycompall-0.1.9.tar.gz --markdown 20230707/p/pycompall/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-07 13:53:27] INFO root fetch - processPackages [django-dynamic-file]: executing diffoscope
+[2023-07-07 13:53:27] INFO root fetch - processPackages [django-dynamic-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-dynamic-file-0.5.1.tar.gz tmp/django-dynamic-file-0.5.2.tar.gz --markdown 20230707/d/django-dynamic-file/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-07 13:53:27] INFO root fetch - processPackages [moordyn]: Downloading https://files.pythonhosted.org/packages/db/8d/26d03f60c47ebdfbf77b741c4cec95d0f5499fcc25a427cd420ca2de3fbc/moordyn-2.2.0-cp37-cp37m-macosx_10_9_x86_64.whl
+[2023-07-07 13:53:27] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/2d/5c/e6db0503cd0714b193a494258a5cd5e41eb3db10f8250a40eb47151ee57a/kcli-99.0.202307071149-py3-none-any.whl
+[2023-07-07 13:53:27] INFO root fetch - processPackages [threads-net]: executing diffoscope
+[2023-07-07 13:53:27] INFO root fetch - processPackages [threads-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-net-0.0.2.tar.gz tmp/threads-net-0.0.3.tar.gz --markdown 20230707/t/threads-net/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-07 13:53:27] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-07-07 13:53:27] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230707/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-07-07 13:53:27] INFO root fetch - processPackages [up-paraspace]: executing diffoscope
+[2023-07-07 13:53:27] INFO root fetch - processPackages [up-paraspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_paraspace-0.0.5.tar.gz tmp/up_paraspace-0.0.6.tar.gz --markdown 20230707/u/up-paraspace/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-07 13:53:27] INFO root fetch - processPackages [apache-airflow-providers-kettle]: executing diffoscope
+[2023-07-07 13:53:27] INFO root fetch - processPackages [apache-airflow-providers-kettle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache_airflow_providers_kettle-1.0.4.tar.gz tmp/apache_airflow_providers_kettle-1.0.5.tar.gz --markdown 20230707/a/apache-airflow-providers-kettle/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-07 13:53:27] INFO root fetch - processPackages [ima-predeployed]: Downloading https://files.pythonhosted.org/packages/08/b9/bdce816b8cdd4df27314d070da2c5ebbb63236e3a1b0cf211ba3f14907cf/ima-predeployed-2.0.0b4.tar.gz
+[2023-07-07 13:53:27] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/4c/00/a2e1b0024e7ddef8d3ae92ffa71f89e3b958bd03a23ac02dad1efbe21900/kfish-99.0.202307071152-py3-none-any.whl
+[2023-07-07 13:53:27] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-07 13:53:27] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307060949-py3-none-any.whl.zip tmp/kcli-99.0.202307071149-py3-none-any.whl.zip --markdown 20230707/k/kcli/99.0.202307060949-99.0.202307071149/diff.md --exclude *.pyd
+[2023-07-07 13:53:27] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-07 13:53:27] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307060951-py3-none-any.whl.zip tmp/kfish-99.0.202307071152-py3-none-any.whl.zip --markdown 20230707/k/kfish/99.0.202307060951-99.0.202307071152/diff.md --exclude *.pyd
+[2023-07-07 13:53:27] INFO root fetch - processPackages [ima-predeployed]: executing diffoscope
+[2023-07-07 13:53:27] INFO root fetch - processPackages [ima-predeployed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ima-predeployed-2.0.0b3.tar.gz tmp/ima-predeployed-2.0.0b4.tar.gz --markdown 20230707/i/ima-predeployed/2.0.0b3-2.0.0b4/diff.md --exclude *.pyd
+[2023-07-07 13:53:28] INFO root fetch - processPackages [pycompall]: Remove: archive file [/home/abi/fetcher/tmp/pycompall-0.1.8.tar.gz]
+[2023-07-07 13:53:28] INFO root fetch - processPackages [pycompall]: Remove: archive file [/home/abi/fetcher/tmp/pycompall-0.1.9.tar.gz]
+[2023-07-07 13:53:28] INFO root fetch - processPackages [pycompall]: Start processing: rebotics-sdk
+[2023-07-07 13:53:28] INFO root fetch - main [MainThread]: End processing [pycompall]: success
+[2023-07-07 13:53:28] INFO root fetch - processPackages [django-dynamic-file]: Remove: archive file [/home/abi/fetcher/tmp/django-dynamic-file-0.5.1.tar.gz]
+[2023-07-07 13:53:28] INFO root fetch - processPackages [django-dynamic-file]: Remove: archive file [/home/abi/fetcher/tmp/django-dynamic-file-0.5.2.tar.gz]
+[2023-07-07 13:53:28] INFO root fetch - processPackages [django-dynamic-file]: Start processing: spidermon
+[2023-07-07 13:53:28] INFO root fetch - main [MainThread]: End processing [django-dynamic-file]: success
+[2023-07-07 13:53:28] INFO root fetch - processPackages [rebotics-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-07 13:53:28] INFO root fetch - processPackages [spidermon]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-07 13:53:28] INFO root fetch - processPackages [up-paraspace]: Remove: archive file [/home/abi/fetcher/tmp/up_paraspace-0.0.5.tar.gz]
+[2023-07-07 13:53:28] INFO root fetch - processPackages [up-paraspace]: Remove: archive file [/home/abi/fetcher/tmp/up_paraspace-0.0.6.tar.gz]
+[2023-07-07 13:53:28] INFO root fetch - processPackages [up-paraspace]: Start processing: phastc
+[2023-07-07 13:53:28] INFO root fetch - main [MainThread]: End processing [up-paraspace]: success
+[2023-07-07 13:53:29] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.2.tar.gz]
+[2023-07-07 13:53:29] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.3.tar.gz]
+[2023-07-07 13:53:29] INFO root fetch - main [MainThread]: End processing [threads-net]: success
+[2023-07-07 13:53:29] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307060951-py3-none-any.whl.zip]
+[2023-07-07 13:53:29] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307071152-py3-none-any.whl.zip]
+[2023-07-07 13:53:29] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-07 13:53:29] INFO root fetch - processPackages [apache-airflow-providers-kettle]: Remove: archive file [/home/abi/fetcher/tmp/apache_airflow_providers_kettle-1.0.4.tar.gz]
+[2023-07-07 13:53:29] INFO root fetch - processPackages [apache-airflow-providers-kettle]: Remove: archive file [/home/abi/fetcher/tmp/apache_airflow_providers_kettle-1.0.5.tar.gz]
+[2023-07-07 13:53:29] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-kettle]: success
+[2023-07-07 13:53:29] INFO root fetch - processPackages [spidermon]: Downloading https://files.pythonhosted.org/packages/6b/a3/9a1dbb65c7f332ad9a87aa4337a80ccf41da4653c59fadc8400dfe5f748f/spidermon-1.8.0.tar.gz
+[2023-07-07 13:53:29] INFO root fetch - processPackages [rebotics-sdk]: Downloading https://files.pythonhosted.org/packages/51/65/08d641bf16e8c340b76e15f57bf4c36d7254f98e49c96a1ac85a040f86b0/rebotics_sdk-0.9.0.tar.gz
+[2023-07-07 13:53:29] WARNING root fetch - processPackages [phastc]: Skipping, unable to determine old version
+[2023-07-07 13:53:29] INFO root fetch - main [MainThread]: End processing [phastc] error
+[2023-07-07 13:53:29] INFO root fetch - processPackages [moordyn]: executing diffoscope
+[2023-07-07 13:53:29] INFO root fetch - processPackages [moordyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moordyn-2.1.0.tar.gz tmp/moordyn-2.2.0-cp37-cp37m-macosx_10_9_x86_64.whl.zip --markdown 20230707/m/moordyn/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-07 13:53:29] INFO root fetch - processPackages [spidermon]: Downloading https://files.pythonhosted.org/packages/a4/31/03bbee1e8b7316f5f953707bdbb7cf1d226b9fee3e2763f15ca80f19ee28/spidermon-1.9.0.tar.gz
+[2023-07-07 13:53:29] INFO root fetch - processPackages [rebotics-sdk]: Downloading https://files.pythonhosted.org/packages/3a/af/a2aa77307cf3fac9701095f738d855d74af3c987de0ec7d7a1d8b75aee7f/rebotics_sdk-0.9.1.tar.gz
+[2023-07-07 13:53:29] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.1.tar.gz]
+[2023-07-07 13:53:29] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.2.tar.gz]
+[2023-07-07 13:53:29] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-07-07 13:53:29] INFO root fetch - processPackages [rebotics-sdk]: executing diffoscope
+[2023-07-07 13:53:29] INFO root fetch - processPackages [rebotics-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebotics_sdk-0.9.0.tar.gz tmp/rebotics_sdk-0.9.1.tar.gz --markdown 20230707/r/rebotics-sdk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-07 13:53:29] INFO root fetch - processPackages [spidermon]: executing diffoscope
+[2023-07-07 13:53:29] INFO root fetch - processPackages [spidermon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spidermon-1.8.0.tar.gz tmp/spidermon-1.9.0.tar.gz --markdown 20230707/s/spidermon/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-07 13:53:30] INFO root fetch - processPackages [ima-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/ima-predeployed-2.0.0b3.tar.gz]
+[2023-07-07 13:53:30] INFO root fetch - processPackages [ima-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/ima-predeployed-2.0.0b4.tar.gz]
+[2023-07-07 13:53:30] INFO root fetch - main [MainThread]: End processing [ima-predeployed]: success
+[2023-07-07 13:53:30] INFO root fetch - processPackages [moordyn]: Remove: archive file [/home/abi/fetcher/tmp/moordyn-2.1.0.tar.gz]
+[2023-07-07 13:53:30] INFO root fetch - processPackages [moordyn]: Remove: archive file [/home/abi/fetcher/tmp/moordyn-2.2.0-cp37-cp37m-macosx_10_9_x86_64.whl.zip]
+[2023-07-07 13:53:30] INFO root fetch - main [MainThread]: End processing [moordyn]: success
+[2023-07-07 13:53:30] INFO root fetch - processPackages [rebotics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rebotics_sdk-0.9.0.tar.gz]
+[2023-07-07 13:53:30] INFO root fetch - processPackages [rebotics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rebotics_sdk-0.9.1.tar.gz]
+[2023-07-07 13:53:30] INFO root fetch - main [MainThread]: End processing [rebotics-sdk]: success
+[2023-07-07 13:53:31] INFO root fetch - processPackages [spidermon]: Remove: archive file [/home/abi/fetcher/tmp/spidermon-1.8.0.tar.gz]
+[2023-07-07 13:53:31] INFO root fetch - processPackages [spidermon]: Remove: archive file [/home/abi/fetcher/tmp/spidermon-1.9.0.tar.gz]
+[2023-07-07 13:53:31] INFO root fetch - main [MainThread]: End processing [spidermon]: success
+[2023-07-07 13:53:31] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307060949-py3-none-any.whl.zip]
+[2023-07-07 13:53:31] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307071149-py3-none-any.whl.zip]
+[2023-07-07 13:53:31] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-07 13:53:31] INFO root fetch - main [MainThread]: Store serial: [18799848]
