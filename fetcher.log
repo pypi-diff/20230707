@@ -15815,3 +15815,153 @@ EOFError: EOF read where object expected
 [2023-07-07 10:37:09] INFO root fetch - processPackages [crocoddyl]: Remove: archive file [/home/abi/fetcher/tmp/crocoddyl-2.0.1-1-cp39-cp39-macosx_11_0_arm64.whl.zip]
 [2023-07-07 10:37:09] INFO root fetch - main [MainThread]: End processing [crocoddyl]: success
 [2023-07-07 10:37:09] INFO root fetch - main [MainThread]: Store serial: [18797582]
+[2023-07-07 10:42:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18797582]
+[2023-07-07 10:42:19] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-07 10:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: biochatter
+[2023-07-07 10:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: franky-panda
+[2023-07-07 10:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ailingbot
+[2023-07-07 10:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: upm-oct-dataset-utils
+[2023-07-07 10:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sliceguard
+[2023-07-07 10:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-estimator-nightly
+[2023-07-07 10:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: s3cps3
+[2023-07-07 10:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: for-testing
+[2023-07-07 10:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aliyun-python-sdk-oos
+[2023-07-07 10:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pellipop
+[2023-07-07 10:42:19] INFO root fetch - processPackages [biochatter]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-07 10:42:19] INFO root fetch - processPackages [pellipop]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-07 10:42:19] INFO root fetch - processPackages [sliceguard]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-07 10:42:19] WARNING root fetch - processPackages [for-testing]: Skipping, unable to determine old version
+[2023-07-07 10:42:19] INFO root fetch - processPackages [for-testing]: Start processing: zhousf-lib
+[2023-07-07 10:42:19] INFO root fetch - processPackages [upm-oct-dataset-utils]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-07-07 10:42:19] INFO root fetch - main [MainThread]: End processing [for-testing] error
+[2023-07-07 10:42:19] INFO root fetch - processPackages [ailingbot]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-07 10:42:19] INFO root fetch - processPackages [s3cps3]: New version: [6.6.6] Old Version: [6.6.5]
+[2023-07-07 10:42:19] INFO root fetch - processPackages [franky-panda]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-07 10:42:19] INFO root fetch - processPackages [aliyun-python-sdk-oos]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-07 10:42:19] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-07-07 10:42:19] INFO root fetch - processPackages [zhousf-lib]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-07-07 10:42:19] INFO root fetch - processPackages [sliceguard]: Downloading https://files.pythonhosted.org/packages/02/8c/4bae11a7a208400a9c7cb9a9d650c0b6767525e296351fe1519171f93790/sliceguard-0.0.4.tar.gz
+[2023-07-07 10:42:19] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-07-07 10:42:19] INFO root fetch - processPackages [biochatter]: Downloading https://files.pythonhosted.org/packages/f2/d7/f942b1ff2b40ba8beef1b9e5667b9fc739d6056d6daa2060e1e6f8ac9684/biochatter-0.1.4.tar.gz
+[2023-07-07 10:42:20] INFO root fetch - processPackages [franky-panda]: Downloading https://files.pythonhosted.org/packages/a4/57/7ad99e341071e74f40f5c8c285ea95d9076ad14bd8807e7e9891ebff3d8f/franky_panda-0.3.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-07 10:42:20] INFO root fetch - processPackages [s3cps3]: Downloading https://files.pythonhosted.org/packages/29/90/181b666e9ced3646dfc5cdfa22303b5d4ec84953edd82f0b89198298bed4/s3cps3-6.6.5.tar.gz
+[2023-07-07 10:42:20] INFO root fetch - processPackages [upm-oct-dataset-utils]: Downloading https://files.pythonhosted.org/packages/dd/f5/df3cbaf495c8eb87eb459c7a92a574608cd3558fc5893fdc85c54f073793/upm_oct_dataset_utils-0.8.5-py3-none-any.whl
+[2023-07-07 10:42:20] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/31/f6/b4731234d154ad4cb0b11d0435f467d6481dff5534a9eb71d956000f4b0d/zhousf-lib-0.8.2.tar.gz
+[2023-07-07 10:42:20] INFO root fetch - processPackages [pellipop]: Downloading https://files.pythonhosted.org/packages/65/93/5e9933c2d244cb4fdf5098da9aad686b844c5b1e587554b27d49a291a682/pellipop-0.1.2.tar.gz
+[2023-07-07 10:42:20] INFO root fetch - processPackages [ailingbot]: Downloading https://files.pythonhosted.org/packages/44/f5/b4f29283a13c3bed44e816f8a3917944448dd0ef60b511b04b62b83f9b1d/ailingbot-0.0.7.tar.gz
+[2023-07-07 10:42:20] INFO root fetch - processPackages [aliyun-python-sdk-oos]: Downloading https://files.pythonhosted.org/packages/c6/d4/05da89d7e334e86661f9d6d4d71b1e43b4e7640946ef551adc40b52ee59c/aliyun-python-sdk-oos-1.5.8.tar.gz
+[2023-07-07 10:42:20] INFO root fetch - processPackages [biochatter]: Downloading https://files.pythonhosted.org/packages/b0/39/88a2ffb98c8455841d7f4911688231f2f48ad4d8ebcdc2613c7c1479040f/biochatter-0.1.5.tar.gz
+[2023-07-07 10:42:20] INFO root fetch - processPackages [sliceguard]: Downloading https://files.pythonhosted.org/packages/d8/8a/d43248aaee9d61cc5a30eeb45cec632a4080240329e1bd8aba5d1828eb8b/sliceguard-0.0.5.tar.gz
+[2023-07-07 10:42:20] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-07-07 10:42:20] INFO root fetch - processPackages [s3cps3]: Downloading https://files.pythonhosted.org/packages/f1/1b/fd01c689b34d4f79e94a16251aead1adbdde2c71df9a4791011f667f1d50/s3cps3-6.6.6.tar.gz
+[2023-07-07 10:42:20] INFO root fetch - processPackages [biochatter]: executing diffoscope
+[2023-07-07 10:42:20] INFO root fetch - processPackages [biochatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biochatter-0.1.4.tar.gz tmp/biochatter-0.1.5.tar.gz --markdown 20230707/b/biochatter/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-07 10:42:20] INFO root fetch - processPackages [ailingbot]: Downloading https://files.pythonhosted.org/packages/ce/23/b20aba40408e243afcef39116c179f4e29e809160dbd3c62925d4a64b38d/ailingbot-0.0.8.tar.gz
+[2023-07-07 10:42:20] INFO root fetch - processPackages [sliceguard]: executing diffoscope
+[2023-07-07 10:42:20] INFO root fetch - processPackages [sliceguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sliceguard-0.0.4.tar.gz tmp/sliceguard-0.0.5.tar.gz --markdown 20230707/s/sliceguard/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-07 10:42:20] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-07-07 10:42:20] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230707/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-07-07 10:42:20] INFO root fetch - processPackages [upm-oct-dataset-utils]: Downloading https://files.pythonhosted.org/packages/81/57/40c1fab3d576e55f4c836e1a783c8fb68d77238a0c52aa9e56239d664210/upm_oct_dataset_utils-0.8.6-py3-none-any.whl
+[2023-07-07 10:42:20] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/3b/7d/d3c76edffdd59c21ea529ed92759084984e3e5ea26b94d01ab0e2efffbe2/zhousf-lib-0.8.3.tar.gz
+[2023-07-07 10:42:20] INFO root fetch - processPackages [pellipop]: Downloading https://files.pythonhosted.org/packages/38/c5/b5e109b277259fca3e607d397be487e89fca5ccb629e92ff2cabbf5c3d2a/pellipop-0.2.0.tar.gz
+[2023-07-07 10:42:20] INFO root fetch - processPackages [s3cps3]: executing diffoscope
+[2023-07-07 10:42:20] INFO root fetch - processPackages [s3cps3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3cps3-6.6.5.tar.gz tmp/s3cps3-6.6.6.tar.gz --markdown 20230707/s/s3cps3/6.6.5-6.6.6/diff.md --exclude *.pyd
+[2023-07-07 10:42:20] INFO root fetch - processPackages [aliyun-python-sdk-oos]: Downloading https://files.pythonhosted.org/packages/2f/ec/d5c650f46dbf41510176e73ca2ddff09c3de0856def755e1b9b9888db5ee/aliyun-python-sdk-oos-1.5.9.tar.gz
+[2023-07-07 10:42:20] INFO root fetch - processPackages [ailingbot]: executing diffoscope
+[2023-07-07 10:42:20] INFO root fetch - processPackages [ailingbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ailingbot-0.0.7.tar.gz tmp/ailingbot-0.0.8.tar.gz --markdown 20230707/a/ailingbot/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-07 10:42:20] INFO root fetch - processPackages [upm-oct-dataset-utils]: executing diffoscope
+[2023-07-07 10:42:20] INFO root fetch - processPackages [upm-oct-dataset-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upm_oct_dataset_utils-0.8.5-py3-none-any.whl.zip tmp/upm_oct_dataset_utils-0.8.6-py3-none-any.whl.zip --markdown 20230707/u/upm-oct-dataset-utils/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-07-07 10:42:20] INFO root fetch - processPackages [pellipop]: executing diffoscope
+[2023-07-07 10:42:20] INFO root fetch - processPackages [pellipop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pellipop-0.1.2.tar.gz tmp/pellipop-0.2.0.tar.gz --markdown 20230707/p/pellipop/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-07 10:42:20] INFO root fetch - processPackages [zhousf-lib]: executing diffoscope
+[2023-07-07 10:42:20] INFO root fetch - processPackages [zhousf-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhousf-lib-0.8.2.tar.gz tmp/zhousf-lib-0.8.3.tar.gz --markdown 20230707/z/zhousf-lib/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-07-07 10:42:21] INFO root fetch - processPackages [aliyun-python-sdk-oos]: executing diffoscope
+[2023-07-07 10:42:21] INFO root fetch - processPackages [aliyun-python-sdk-oos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-oos-1.5.8.tar.gz tmp/aliyun-python-sdk-oos-1.5.9.tar.gz --markdown 20230707/a/aliyun-python-sdk-oos/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-07 10:42:21] INFO root fetch - processPackages [franky-panda]: Downloading https://files.pythonhosted.org/packages/c5/fc/76e2f5a4187d7b4fbf1f7f64655735a68ba67ae9e8f198d98ebe47ce4eba/franky_panda-0.3.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-07 10:42:21] INFO root fetch - processPackages [franky-panda]: executing diffoscope
+[2023-07-07 10:42:21] INFO root fetch - processPackages [franky-panda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/franky_panda-0.3.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/franky_panda-0.3.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230707/f/franky-panda/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-07 10:42:21] INFO root fetch - processPackages [sliceguard]: Remove: archive file [/home/abi/fetcher/tmp/sliceguard-0.0.4.tar.gz]
+[2023-07-07 10:42:21] INFO root fetch - processPackages [sliceguard]: Remove: archive file [/home/abi/fetcher/tmp/sliceguard-0.0.5.tar.gz]
+[2023-07-07 10:42:21] INFO root fetch - processPackages [sliceguard]: Start processing: brian2lava
+[2023-07-07 10:42:21] INFO root fetch - main [MainThread]: End processing [sliceguard]: success
+[2023-07-07 10:42:22] INFO root fetch - processPackages [brian2lava]: New version: [1.0.0a3] Old Version: [1.0.0a2]
+[2023-07-07 10:42:22] INFO root fetch - processPackages [biochatter]: Remove: archive file [/home/abi/fetcher/tmp/biochatter-0.1.4.tar.gz]
+[2023-07-07 10:42:22] INFO root fetch - processPackages [biochatter]: Remove: archive file [/home/abi/fetcher/tmp/biochatter-0.1.5.tar.gz]
+[2023-07-07 10:42:22] INFO root fetch - processPackages [biochatter]: Start processing: zbxtool-cfomp
+[2023-07-07 10:42:22] INFO root fetch - main [MainThread]: End processing [biochatter]: success
+[2023-07-07 10:42:22] INFO root fetch - processPackages [s3cps3]: Remove: archive file [/home/abi/fetcher/tmp/s3cps3-6.6.5.tar.gz]
+[2023-07-07 10:42:22] INFO root fetch - processPackages [s3cps3]: Remove: archive file [/home/abi/fetcher/tmp/s3cps3-6.6.6.tar.gz]
+[2023-07-07 10:42:22] INFO root fetch - processPackages [s3cps3]: Start processing: tff-nightly
+[2023-07-07 10:42:22] INFO root fetch - main [MainThread]: End processing [s3cps3]: success
+[2023-07-07 10:42:22] INFO root fetch - processPackages [zbxtool-cfomp]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-07 10:42:22] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230706] Old Version: [0.0.1.dev20230705]
+[2023-07-07 10:42:22] INFO root fetch - processPackages [zbxtool-cfomp]: Downloading https://files.pythonhosted.org/packages/a2/af/b197bd86cab21e82f9a9e5f3178e2cd10c9ed0caccddd151f0a722e203dd/zbxtool-cfomp-0.9.8.tar.gz
+[2023-07-07 10:42:22] INFO root fetch - processPackages [brian2lava]: Downloading https://files.pythonhosted.org/packages/c4/37/86e7e5087c552ccc4967c1483895544f3b6f7edf20ddc9531e91f13229ff/brian2lava-1.0.0a2.tar.gz
+[2023-07-07 10:42:22] INFO root fetch - processPackages [ailingbot]: Remove: archive file [/home/abi/fetcher/tmp/ailingbot-0.0.7.tar.gz]
+[2023-07-07 10:42:22] INFO root fetch - processPackages [ailingbot]: Remove: archive file [/home/abi/fetcher/tmp/ailingbot-0.0.8.tar.gz]
+[2023-07-07 10:42:22] INFO root fetch - processPackages [ailingbot]: Start processing: power-grid-model
+[2023-07-07 10:42:22] INFO root fetch - main [MainThread]: End processing [ailingbot]: success
+[2023-07-07 10:42:22] INFO root fetch - processPackages [upm-oct-dataset-utils]: Remove: archive file [/home/abi/fetcher/tmp/upm_oct_dataset_utils-0.8.5-py3-none-any.whl.zip]
+[2023-07-07 10:42:22] INFO root fetch - processPackages [upm-oct-dataset-utils]: Remove: archive file [/home/abi/fetcher/tmp/upm_oct_dataset_utils-0.8.6-py3-none-any.whl.zip]
+[2023-07-07 10:42:22] INFO root fetch - processPackages [upm-oct-dataset-utils]: Start processing: Products.MeetingMons
+[2023-07-07 10:42:22] INFO root fetch - main [MainThread]: End processing [upm-oct-dataset-utils]: success
+[2023-07-07 10:42:22] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9205913270508] Old Version: [1.5.0rc9203313270508]
+[2023-07-07 10:42:22] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/66/d5/a825f7db717c1620973cd8767341a38e12e68949560a6fdcf9080b610f92/tff_nightly-0.0.1.dev20230705-py2.py3-none-any.whl
+[2023-07-07 10:42:22] INFO root fetch - processPackages [Products.MeetingMons]: New version: [4.2.0b3] Old Version: [4.2.0b2]
+[2023-07-07 10:42:22] INFO root fetch - processPackages [Products.MeetingMons]: Downloading https://files.pythonhosted.org/packages/f0/e7/4bffa6da72645c48b7dcbdfd87fcf1db69225626f9d7cfbb9d3e5db0fb39/Products.MeetingMons-4.2.0b2.tar.gz
+[2023-07-07 10:42:22] INFO root fetch - processPackages [zbxtool-cfomp]: Downloading https://files.pythonhosted.org/packages/d7/f7/5b055effe9c5650ac3ff3993bd9d1e2077b59cb55512af186bf0ed073c5c/zbxtool-cfomp-0.9.9.tar.gz
+[2023-07-07 10:42:22] INFO root fetch - processPackages [pellipop]: Remove: archive file [/home/abi/fetcher/tmp/pellipop-0.1.2.tar.gz]
+[2023-07-07 10:42:22] INFO root fetch - processPackages [pellipop]: Remove: archive file [/home/abi/fetcher/tmp/pellipop-0.2.0.tar.gz]
+[2023-07-07 10:42:22] INFO root fetch - processPackages [pellipop]: Start processing: transmorph
+[2023-07-07 10:42:22] INFO root fetch - main [MainThread]: End processing [pellipop]: success
+[2023-07-07 10:42:22] INFO root fetch - processPackages [transmorph]: New version: [0.2.7b0] Old Version: [0.2.7]
+[2023-07-07 10:42:22] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/d1/4d/61fed4571857e90f9e279aa9f7a43555b49c7b9ae192c04664e330a70153/power-grid-model-1.5.0rc9203313270508.tar.gz
+[2023-07-07 10:42:22] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-07-07 10:42:22] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-07-07 10:42:22] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-07-07 10:42:22] INFO root fetch - processPackages [transmorph]: Downloading https://files.pythonhosted.org/packages/ce/c2/7cfabe115aa8071820eefbe65b995facd668edbf4b946ec38dbc95d8b084/transmorph-0.2.7.tar.gz
+[2023-07-07 10:42:22] INFO root fetch - processPackages [brian2lava]: Downloading https://files.pythonhosted.org/packages/f0/5a/f6ad709743772c5ee743c2bbb8e9a006a1450d2cf8a2d403803dcfbdf4dc/brian2lava-1.0.0a3.tar.gz
+[2023-07-07 10:42:22] INFO root fetch - processPackages [aliyun-python-sdk-oos]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-oos-1.5.8.tar.gz]
+[2023-07-07 10:42:22] INFO root fetch - processPackages [aliyun-python-sdk-oos]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-oos-1.5.9.tar.gz]
+[2023-07-07 10:42:22] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-oos]: success
+[2023-07-07 10:42:22] INFO root fetch - processPackages [zbxtool-cfomp]: executing diffoscope
+[2023-07-07 10:42:22] INFO root fetch - processPackages [zbxtool-cfomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zbxtool-cfomp-0.9.8.tar.gz tmp/zbxtool-cfomp-0.9.9.tar.gz --markdown 20230707/z/zbxtool-cfomp/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-07 10:42:22] INFO root fetch - processPackages [transmorph]: Downloading https://files.pythonhosted.org/packages/15/9b/2b283fe70017c35bfa1858f9e8073cc9c0c2846f630d81a4db6fee43b914/transmorph-0.2.7b0.tar.gz
+[2023-07-07 10:42:23] INFO root fetch - processPackages [Products.MeetingMons]: Downloading https://files.pythonhosted.org/packages/2c/38/791a3878051ad167a94f98ee20183884d49ea8d9b6f19d126bd2316b0e41/Products.MeetingMons-4.2.0b3.tar.gz
+[2023-07-07 10:42:23] INFO root fetch - processPackages [brian2lava]: executing diffoscope
+[2023-07-07 10:42:23] INFO root fetch - processPackages [brian2lava]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brian2lava-1.0.0a2.tar.gz tmp/brian2lava-1.0.0a3.tar.gz --markdown 20230707/b/brian2lava/1.0.0a2-1.0.0a3/diff.md --exclude *.pyd
+[2023-07-07 10:42:23] INFO root fetch - processPackages [transmorph]: executing diffoscope
+[2023-07-07 10:42:23] INFO root fetch - processPackages [transmorph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transmorph-0.2.7.tar.gz tmp/transmorph-0.2.7b0.tar.gz --markdown 20230707/t/transmorph/0.2.7-0.2.7b0/diff.md --exclude *.pyd
+[2023-07-07 10:42:23] INFO root fetch - processPackages [franky-panda]: Remove: archive file [/home/abi/fetcher/tmp/franky_panda-0.3.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-07 10:42:23] INFO root fetch - processPackages [franky-panda]: Remove: archive file [/home/abi/fetcher/tmp/franky_panda-0.3.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-07 10:42:23] INFO root fetch - main [MainThread]: End processing [franky-panda]: success
+[2023-07-07 10:42:23] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/bc/2c/6da94439a82f5f763dfc0b3ab087b1a474431fbf87f0054f83cd04814291/power-grid-model-1.5.0rc9205913270508.tar.gz
+[2023-07-07 10:42:23] INFO root fetch - processPackages [Products.MeetingMons]: executing diffoscope
+[2023-07-07 10:42:23] INFO root fetch - processPackages [Products.MeetingMons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.MeetingMons-4.2.0b2.tar.gz tmp/Products.MeetingMons-4.2.0b3.tar.gz --markdown 20230707/P/Products.MeetingMons/4.2.0b2-4.2.0b3/diff.md --exclude *.pyd
+[2023-07-07 10:42:23] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-07-07 10:42:23] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.5.0rc9203313270508.tar.gz tmp/power-grid-model-1.5.0rc9205913270508.tar.gz --markdown 20230707/p/power-grid-model/1.5.0rc9203313270508-1.5.0rc9205913270508/diff.md --exclude *.pyd
+[2023-07-07 10:42:23] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/e9/fd/35a5b9fb8ecdd7e27028a6eaa6b30d219393c26f9ffb7d22059243910abf/tff_nightly-0.0.1.dev20230706-py2.py3-none-any.whl
+[2023-07-07 10:42:23] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.8.2.tar.gz]
+[2023-07-07 10:42:23] INFO root fetch - processPackages [zbxtool-cfomp]: Remove: archive file [/home/abi/fetcher/tmp/zbxtool-cfomp-0.9.8.tar.gz]
+[2023-07-07 10:42:23] INFO root fetch - processPackages [zbxtool-cfomp]: Remove: archive file [/home/abi/fetcher/tmp/zbxtool-cfomp-0.9.9.tar.gz]
+[2023-07-07 10:42:23] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.8.3.tar.gz]
+[2023-07-07 10:42:23] INFO root fetch - main [MainThread]: End processing [zbxtool-cfomp]: success
+[2023-07-07 10:42:23] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
+[2023-07-07 10:42:24] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-07-07 10:42:24] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230705-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230706-py2.py3-none-any.whl.zip --markdown 20230707/t/tff-nightly/0.0.1.dev20230705-0.0.1.dev20230706/diff.md --exclude *.pyd
+[2023-07-07 10:42:24] INFO root fetch - processPackages [brian2lava]: Remove: archive file [/home/abi/fetcher/tmp/brian2lava-1.0.0a2.tar.gz]
+[2023-07-07 10:42:24] INFO root fetch - processPackages [brian2lava]: Remove: archive file [/home/abi/fetcher/tmp/brian2lava-1.0.0a3.tar.gz]
+[2023-07-07 10:42:24] INFO root fetch - main [MainThread]: End processing [brian2lava]: success
+[2023-07-07 10:42:24] INFO root fetch - processPackages [transmorph]: Remove: archive file [/home/abi/fetcher/tmp/transmorph-0.2.7.tar.gz]
+[2023-07-07 10:42:24] INFO root fetch - processPackages [transmorph]: Remove: archive file [/home/abi/fetcher/tmp/transmorph-0.2.7b0.tar.gz]
+[2023-07-07 10:42:24] INFO root fetch - main [MainThread]: End processing [transmorph]: success
+[2023-07-07 10:42:24] INFO root fetch - processPackages [Products.MeetingMons]: Remove: archive file [/home/abi/fetcher/tmp/Products.MeetingMons-4.2.0b2.tar.gz]
+[2023-07-07 10:42:24] INFO root fetch - processPackages [Products.MeetingMons]: Remove: archive file [/home/abi/fetcher/tmp/Products.MeetingMons-4.2.0b3.tar.gz]
+[2023-07-07 10:42:24] INFO root fetch - main [MainThread]: End processing [Products.MeetingMons]: success
+[2023-07-07 10:42:25] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9203313270508.tar.gz]
+[2023-07-07 10:42:25] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9205913270508.tar.gz]
+[2023-07-07 10:42:25] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-07-07 10:42:25] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230705-py2.py3-none-any.whl.zip]
+[2023-07-07 10:42:25] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230706-py2.py3-none-any.whl.zip]
+[2023-07-07 10:42:25] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-07-07 10:42:25] INFO root fetch - main [MainThread]: Store serial: [18797637]
