@@ -11871,3 +11871,51 @@ EOFError: EOF read where object expected
 [2023-07-07 07:01:57] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.9.tar.gz]
 [2023-07-07 07:01:57] INFO root fetch - main [MainThread]: End processing [bgstools]: success
 [2023-07-07 07:01:57] INFO root fetch - main [MainThread]: Store serial: [18795966]
+[2023-07-07 07:07:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18795966]
+[2023-07-07 07:07:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-07 07:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openai-function-calling
+[2023-07-07 07:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-sql-explorer-squad
+[2023-07-07 07:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpyt
+[2023-07-07 07:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rapid-pe
+[2023-07-07 07:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addons-oca-server-brand
+[2023-07-07 07:07:06] INFO root fetch - processPackages [gpyt]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-07 07:07:06] INFO root fetch - processPackages [openai-function-calling]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-07-07 07:07:06] INFO root fetch - processPackages [django-sql-explorer-squad]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-07 07:07:06] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230707] Old Version: [0.1.1.dev20230706]
+[2023-07-07 07:07:06] INFO root fetch - processPackages [odoo14-addons-oca-server-brand]: New version: [14.0.20230706.0] Old Version: [14.0.20220209.0]
+[2023-07-07 07:07:06] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/ac/fa/cd28c5a6a6dccd6461afd3e4ca682ce4d7db27e63d3504274737aeb5761a/rapid_pe-0.1.1.dev20230706.tar.gz
+[2023-07-07 07:07:06] INFO root fetch - processPackages [django-sql-explorer-squad]: Downloading https://files.pythonhosted.org/packages/90/c7/9142ff58231887983b889980e68ebde5a91a43d71727afe94695068ddc43/django_sql_explorer_squad-0.9.8-py3-none-any.whl
+[2023-07-07 07:07:06] INFO root fetch - processPackages [openai-function-calling]: Downloading https://files.pythonhosted.org/packages/a3/32/9973c18d352d80c792233dc3bc07d3f135300115ce28be3da9efdc0a0c02/openai_function_calling-1.0.1.tar.gz
+[2023-07-07 07:07:06] INFO root fetch - processPackages [gpyt]: Downloading https://files.pythonhosted.org/packages/7f/d3/b17aac5e24d33b266c17f2b984cbf3b796885c37c9c4d83f5686d0710a85/gpyt-0.2.8.tar.gz
+[2023-07-07 07:07:06] INFO root fetch - processPackages [odoo14-addons-oca-server-brand]: Downloading https://files.pythonhosted.org/packages/94/d6/d98f6e6e8f55c5784cef6fad83f0bf4fc0bd592a46420b83aad9e8f89c7f/odoo14_addons_oca_server_brand-14.0.20220209.0-py3-none-any.whl
+[2023-07-07 07:07:06] INFO root fetch - processPackages [django-sql-explorer-squad]: Downloading https://files.pythonhosted.org/packages/b7/2e/491e0b57bd65f72b320cc98089151b4abdf96aba414e327989a386dca1f2/django_sql_explorer_squad-0.9.9-py3-none-any.whl
+[2023-07-07 07:07:06] INFO root fetch - processPackages [openai-function-calling]: Downloading https://files.pythonhosted.org/packages/51/08/074fd05943262024669529c444c8eabeb2163f8b0dafd20452c6d4b4ed1a/openai_function_calling-1.1.0.tar.gz
+[2023-07-07 07:07:06] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/c1/6c/ff426b5cd3c53c7f056a26df7cf57006cfdb1c92d1b6a5928322a1231f6e/rapid_pe-0.1.1.dev20230707.tar.gz
+[2023-07-07 07:07:06] INFO root fetch - processPackages [django-sql-explorer-squad]: executing diffoscope
+[2023-07-07 07:07:06] INFO root fetch - processPackages [django-sql-explorer-squad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_sql_explorer_squad-0.9.8-py3-none-any.whl.zip tmp/django_sql_explorer_squad-0.9.9-py3-none-any.whl.zip --markdown 20230707/d/django-sql-explorer-squad/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-07 07:07:07] INFO root fetch - processPackages [odoo14-addons-oca-server-brand]: Downloading https://files.pythonhosted.org/packages/e7/6c/2543ca94b9d7168e014301a3b5b81eb16624b521fb7439167b03b78148b5/odoo14_addons_oca_server_brand-14.0.20230706.0-py3-none-any.whl
+[2023-07-07 07:07:07] INFO root fetch - processPackages [gpyt]: Downloading https://files.pythonhosted.org/packages/a9/66/b60384915b7d030e84c5815bb2d3e307e2d6014f31c06cb7c3195f75d1fd/gpyt-0.2.9.tar.gz
+[2023-07-07 07:07:07] INFO root fetch - processPackages [openai-function-calling]: executing diffoscope
+[2023-07-07 07:07:07] INFO root fetch - processPackages [openai-function-calling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_function_calling-1.0.1.tar.gz tmp/openai_function_calling-1.1.0.tar.gz --markdown 20230707/o/openai-function-calling/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-07 07:07:07] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-07-07 07:07:07] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230706.tar.gz tmp/rapid_pe-0.1.1.dev20230707.tar.gz --markdown 20230707/r/rapid-pe/0.1.1.dev20230706-0.1.1.dev20230707/diff.md --exclude *.pyd
+[2023-07-07 07:07:07] INFO root fetch - processPackages [odoo14-addons-oca-server-brand]: executing diffoscope
+[2023-07-07 07:07:07] INFO root fetch - processPackages [odoo14-addons-oca-server-brand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_server_brand-14.0.20220209.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_server_brand-14.0.20230706.0-py3-none-any.whl.zip --markdown 20230707/o/odoo14-addons-oca-server-brand/14.0.20220209.0-14.0.20230706.0/diff.md --exclude *.pyd
+[2023-07-07 07:07:07] INFO root fetch - processPackages [gpyt]: executing diffoscope
+[2023-07-07 07:07:07] INFO root fetch - processPackages [gpyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpyt-0.2.8.tar.gz tmp/gpyt-0.2.9.tar.gz --markdown 20230707/g/gpyt/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-07 07:07:08] INFO root fetch - processPackages [openai-function-calling]: Remove: archive file [/home/abi/fetcher/tmp/openai_function_calling-1.0.1.tar.gz]
+[2023-07-07 07:07:08] INFO root fetch - processPackages [openai-function-calling]: Remove: archive file [/home/abi/fetcher/tmp/openai_function_calling-1.1.0.tar.gz]
+[2023-07-07 07:07:08] INFO root fetch - main [MainThread]: End processing [openai-function-calling]: success
+[2023-07-07 07:07:08] INFO root fetch - processPackages [django-sql-explorer-squad]: Remove: archive file [/home/abi/fetcher/tmp/django_sql_explorer_squad-0.9.8-py3-none-any.whl.zip]
+[2023-07-07 07:07:08] INFO root fetch - processPackages [django-sql-explorer-squad]: Remove: archive file [/home/abi/fetcher/tmp/django_sql_explorer_squad-0.9.9-py3-none-any.whl.zip]
+[2023-07-07 07:07:08] INFO root fetch - main [MainThread]: End processing [django-sql-explorer-squad]: success
+[2023-07-07 07:07:08] INFO root fetch - processPackages [odoo14-addons-oca-server-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_server_brand-14.0.20220209.0-py3-none-any.whl.zip]
+[2023-07-07 07:07:08] INFO root fetch - processPackages [odoo14-addons-oca-server-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_server_brand-14.0.20230706.0-py3-none-any.whl.zip]
+[2023-07-07 07:07:08] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-server-brand]: success
+[2023-07-07 07:07:08] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230706.tar.gz]
+[2023-07-07 07:07:08] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230707.tar.gz]
+[2023-07-07 07:07:08] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-07-07 07:07:08] INFO root fetch - processPackages [gpyt]: Remove: archive file [/home/abi/fetcher/tmp/gpyt-0.2.8.tar.gz]
+[2023-07-07 07:07:08] INFO root fetch - processPackages [gpyt]: Remove: archive file [/home/abi/fetcher/tmp/gpyt-0.2.9.tar.gz]
+[2023-07-07 07:07:08] INFO root fetch - main [MainThread]: End processing [gpyt]: success
+[2023-07-07 07:07:08] INFO root fetch - main [MainThread]: Store serial: [18795981]
