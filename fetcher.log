@@ -16888,3 +16888,127 @@ EOFError: EOF read where object expected
 [2023-07-07 11:14:35] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5484773776.tar.gz]
 [2023-07-07 11:14:35] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
 [2023-07-07 11:14:35] INFO root fetch - main [MainThread]: Store serial: [18798059]
+[2023-07-07 11:19:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18798059]
+[2023-07-07 11:19:44] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-07 11:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-analytics-reference-architecture
+[2023-07-07 11:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fyers-sdk
+[2023-07-07 11:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tbp-nightly
+[2023-07-07 11:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly
+[2023-07-07 11:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: packg
+[2023-07-07 11:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: p-template-crawler
+[2023-07-07 11:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: types-contextvars
+[2023-07-07 11:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: WordsToPdfs
+[2023-07-07 11:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xoscar
+[2023-07-07 11:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flask-marshmallow-openapi
+[2023-07-07 11:19:44] INFO root fetch - processPackages [p-template-crawler]: New version: [0.0.9] Old Version: [0.0.84]
+[2023-07-07 11:19:44] INFO root fetch - processPackages [fyers-sdk]: New version: [0.2] Old Version: [0.1]
+[2023-07-07 11:19:44] INFO root fetch - processPackages [packg]: New version: [0.2.19] Old Version: [0.2.18]
+[2023-07-07 11:19:44] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-07-07 11:19:44] INFO root fetch - processPackages [flask-marshmallow-openapi]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-07 11:19:44] INFO root fetch - processPackages [types-contextvars]: New version: [2.4.7.3] Old Version: [2.4.7.2]
+[2023-07-07 11:19:44] INFO root fetch - processPackages [p-template-crawler]: Downloading https://files.pythonhosted.org/packages/61/19/a7451f25e09283de9d319cbd86ac37af4e297cbed0a3bf35db602bc30409/p-template-crawler-0.0.84.tar.gz
+[2023-07-07 11:19:44] INFO root fetch - processPackages [WordsToPdfs]: New version: [0.3.2.1] Old Version: [0.3.2]
+[2023-07-07 11:19:44] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230707] Old Version: [2.14.0.dev20230706]
+[2023-07-07 11:19:44] INFO root fetch - processPackages [xoscar]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-07 11:19:44] INFO root fetch - processPackages [aws-analytics-reference-architecture]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-07-07 11:19:44] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/60/08/8873f4abbf2803d24597ef26094735b89a976593685fff16a9aa1d76af45/packg-0.2.18.tar.gz
+[2023-07-07 11:19:44] INFO root fetch - processPackages [flask-marshmallow-openapi]: Downloading https://files.pythonhosted.org/packages/49/ef/17e6ee434a349b415ef8a04c2977e3ae52082aa8cc8e98157b73bd6a0edd/flask-marshmallow-openapi-0.4.1.tar.gz
+[2023-07-07 11:19:44] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-07-07 11:19:44] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/04/7d/d130c2cc668cceb9f3ecc104bd1995f801c904ba95883a72168bfde5f96e/fyers_sdk-0.1.tar.gz
+[2023-07-07 11:19:45] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/be/63/49691e3969813294d5882265b329b6d73a5f22a78c840a5b040a177a0826/tf_nightly-2.14.0.dev20230706-cp39-cp39-win_amd64.whl
+[2023-07-07 11:19:45] INFO root fetch - processPackages [types-contextvars]: Downloading https://files.pythonhosted.org/packages/07/d9/b6393e103223bb3c4faa2e5449bc5e6ce4c73b5ac329a7d5d4761e74fb6c/types-contextvars-2.4.7.2.tar.gz
+[2023-07-07 11:19:45] INFO root fetch - processPackages [WordsToPdfs]: Downloading https://files.pythonhosted.org/packages/82/da/179eb0650d85b82ecd2d4d7ebe788253bfe3e0b9218ee144b800e70b435b/WordsToPdfs-0.3.2.tar.gz
+[2023-07-07 11:19:45] INFO root fetch - processPackages [xoscar]: Downloading https://files.pythonhosted.org/packages/74/10/ce779f72c1b5755415c8569bc8a88970fbf624112221818499e775f080b7/xoscar-0.0.7.tar.gz
+[2023-07-07 11:19:45] INFO root fetch - processPackages [p-template-crawler]: Downloading https://files.pythonhosted.org/packages/2e/93/1eb2e14124aacd5278934cdff24ad9d4860e50f82e5881d3d69c66eb4bee/p-template-crawler-0.0.9.tar.gz
+[2023-07-07 11:19:45] INFO root fetch - processPackages [aws-analytics-reference-architecture]: Downloading https://files.pythonhosted.org/packages/ae/2b/5f638a1ef1f2c98e5cabf7d36e8ec3c32166be2db0c031a731483adef20f/aws_analytics_reference_architecture-2.9.8.tar.gz
+[2023-07-07 11:19:45] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/d4/cd/30e96fc343356f8369d40856dd3e749dc5504649f034c4e8f162ae498151/packg-0.2.19.tar.gz
+[2023-07-07 11:19:45] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/92/17/7f1316c287787fae6e5036deeed12822ba1e18de8ece66554406bb4462a4/fyers_sdk-0.2.tar.gz
+[2023-07-07 11:19:45] WARNING root fetch - processPackages [aws-analytics-reference-architecture]: Skipping package: exceeds size limit 118649369>=10485760
+[2023-07-07 11:19:45] INFO root fetch - processPackages [aws-analytics-reference-architecture]: Start processing: spu
+[2023-07-07 11:19:45] INFO root fetch - main [MainThread]: End processing [aws-analytics-reference-architecture] error
+[2023-07-07 11:19:45] INFO root fetch - processPackages [p-template-crawler]: executing diffoscope
+[2023-07-07 11:19:45] INFO root fetch - processPackages [p-template-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-template-crawler-0.0.84.tar.gz tmp/p-template-crawler-0.0.9.tar.gz --markdown 20230707/p/p-template-crawler/0.0.84-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 11:19:45] INFO root fetch - processPackages [flask-marshmallow-openapi]: Downloading https://files.pythonhosted.org/packages/c3/bf/7dca8dca34e3c57b159c327f80874c51b5071d0089967ec2a9d65a05b8fa/flask-marshmallow-openapi-0.4.2.tar.gz
+[2023-07-07 11:19:45] INFO root fetch - processPackages [types-contextvars]: Downloading https://files.pythonhosted.org/packages/6c/20/6a0271fe78050f15eaad21f94a4efebbddcfd0cadac0d35b056e8d32b40f/types-contextvars-2.4.7.3.tar.gz
+[2023-07-07 11:19:45] INFO root fetch - processPackages [packg]: executing diffoscope
+[2023-07-07 11:19:45] INFO root fetch - processPackages [packg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packg-0.2.18.tar.gz tmp/packg-0.2.19.tar.gz --markdown 20230707/p/packg/0.2.18-0.2.19/diff.md --exclude *.pyd
+[2023-07-07 11:19:45] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/d2/a8/6182e587fca67bf606cb5a614e2fc2e040a942859fadbb9fcd4bdf29cc83/tf_nightly-2.14.0.dev20230707-cp39-cp39-win_amd64.whl
+[2023-07-07 11:19:45] INFO root fetch - processPackages [spu]: New version: [0.4.1b1] Old Version: [0.4.1b0]
+[2023-07-07 11:19:45] INFO root fetch - processPackages [fyers-sdk]: executing diffoscope
+[2023-07-07 11:19:45] INFO root fetch - processPackages [fyers-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyers_sdk-0.1.tar.gz tmp/fyers_sdk-0.2.tar.gz --markdown 20230707/f/fyers-sdk/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-07 11:19:45] INFO root fetch - processPackages [types-contextvars]: executing diffoscope
+[2023-07-07 11:19:45] INFO root fetch - processPackages [types-contextvars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-contextvars-2.4.7.2.tar.gz tmp/types-contextvars-2.4.7.3.tar.gz --markdown 20230707/t/types-contextvars/2.4.7.2-2.4.7.3/diff.md --exclude *.pyd
+[2023-07-07 11:19:45] INFO root fetch - processPackages [WordsToPdfs]: Downloading https://files.pythonhosted.org/packages/5c/ee/fa50f097e759096b63b5164b93dcbe9ea4a39266ff9f2d0b1c5c684bf593/WordsToPdfs-0.3.2.1.tar.gz
+[2023-07-07 11:19:45] INFO root fetch - processPackages [xoscar]: Downloading https://files.pythonhosted.org/packages/1d/0a/7f6ba807bdbd479515f96dfb5f3b47b0ea6e38f0d0643ae14d538d56b7d6/xoscar-0.0.8.tar.gz
+[2023-07-07 11:19:45] INFO root fetch - processPackages [flask-marshmallow-openapi]: executing diffoscope
+[2023-07-07 11:19:45] INFO root fetch - processPackages [flask-marshmallow-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-marshmallow-openapi-0.4.1.tar.gz tmp/flask-marshmallow-openapi-0.4.2.tar.gz --markdown 20230707/f/flask-marshmallow-openapi/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-07 11:19:45] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2023-07-07 11:19:45] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.14.0.dev20230706-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.14.0.dev20230707-cp39-cp39-win_amd64.whl.zip --markdown 20230707/t/tf-nightly/2.14.0.dev20230706-2.14.0.dev20230707/diff.md --exclude *.pyd
+[2023-07-07 11:19:45] INFO root fetch - processPackages [spu]: Downloading https://files.pythonhosted.org/packages/1b/47/fa27532559627a6266f7669ca7d340bab8fd08ce92feb32b149509d46dc3/spu-0.4.1b0-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-07 11:19:45] INFO root fetch - processPackages [WordsToPdfs]: executing diffoscope
+[2023-07-07 11:19:45] INFO root fetch - processPackages [WordsToPdfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WordsToPdfs-0.3.2.tar.gz tmp/WordsToPdfs-0.3.2.1.tar.gz --markdown 20230707/W/WordsToPdfs/0.3.2-0.3.2.1/diff.md --exclude *.pyd
+[2023-07-07 11:19:45] WARNING root fetch - processPackages [spu]: Skipping package: exceeds size limit 15650424>=10485760
+[2023-07-07 11:19:45] INFO root fetch - processPackages [spu]: Start processing: PieRakNet
+[2023-07-07 11:19:45] INFO root fetch - main [MainThread]: End processing [spu] error
+[2023-07-07 11:19:46] INFO root fetch - processPackages [PieRakNet]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-07 11:19:46] INFO root fetch - processPackages [xoscar]: executing diffoscope
+[2023-07-07 11:19:46] INFO root fetch - processPackages [xoscar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xoscar-0.0.7.tar.gz tmp/xoscar-0.0.8.tar.gz --markdown 20230707/x/xoscar/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-07 11:19:46] INFO root fetch - processPackages [PieRakNet]: Downloading https://files.pythonhosted.org/packages/68/03/b9efdcfb18da442e09c604ac30df114589dea97175db138f9977b7d62325/PieRakNet-1.0.1.tar.gz
+[2023-07-07 11:19:46] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-07-07 11:19:46] INFO root fetch - processPackages [PieRakNet]: Downloading https://files.pythonhosted.org/packages/40/2b/765f81d5f28d90b24053302ae0baaf91fd767de51f4568654c9fbf2c1414/PieRakNet-1.0.2.tar.gz
+[2023-07-07 11:19:46] INFO root fetch - processPackages [p-template-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-template-crawler-0.0.84.tar.gz]
+[2023-07-07 11:19:46] INFO root fetch - processPackages [p-template-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-template-crawler-0.0.9.tar.gz]
+[2023-07-07 11:19:46] INFO root fetch - processPackages [p-template-crawler]: Start processing: xinference
+[2023-07-07 11:19:46] INFO root fetch - main [MainThread]: End processing [p-template-crawler]: success
+[2023-07-07 11:19:46] INFO root fetch - processPackages [PieRakNet]: executing diffoscope
+[2023-07-07 11:19:46] INFO root fetch - processPackages [PieRakNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PieRakNet-1.0.1.tar.gz tmp/PieRakNet-1.0.2.tar.gz --markdown 20230707/P/PieRakNet/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-07 11:19:46] WARNING root fetch - processPackages [xinference]: Skipping, unable to determine old version
+[2023-07-07 11:19:46] INFO root fetch - processPackages [xinference]: Start processing: svix-ksuid
+[2023-07-07 11:19:46] INFO root fetch - main [MainThread]: End processing [xinference] error
+[2023-07-07 11:19:46] INFO root fetch - processPackages [svix-ksuid]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-07 11:19:46] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.2.18.tar.gz]
+[2023-07-07 11:19:46] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.2.19.tar.gz]
+[2023-07-07 11:19:46] INFO root fetch - processPackages [packg]: Start processing: aioairzone-cloud
+[2023-07-07 11:19:46] INFO root fetch - main [MainThread]: End processing [packg]: success
+[2023-07-07 11:19:47] INFO root fetch - processPackages [aioairzone-cloud]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-07 11:19:47] INFO root fetch - processPackages [types-contextvars]: Remove: archive file [/home/abi/fetcher/tmp/types-contextvars-2.4.7.2.tar.gz]
+[2023-07-07 11:19:47] INFO root fetch - processPackages [types-contextvars]: Remove: archive file [/home/abi/fetcher/tmp/types-contextvars-2.4.7.3.tar.gz]
+[2023-07-07 11:19:47] INFO root fetch - main [MainThread]: End processing [types-contextvars]: success
+[2023-07-07 11:19:47] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.14.0.dev20230706-cp39-cp39-win_amd64.whl.zip]
+[2023-07-07 11:19:47] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.14.0.dev20230707-cp39-cp39-win_amd64.whl.zip]
+[2023-07-07 11:19:47] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2023-07-07 11:19:47] INFO root fetch - processPackages [WordsToPdfs]: Remove: archive file [/home/abi/fetcher/tmp/WordsToPdfs-0.3.2.tar.gz]
+[2023-07-07 11:19:47] INFO root fetch - processPackages [WordsToPdfs]: Remove: archive file [/home/abi/fetcher/tmp/WordsToPdfs-0.3.2.1.tar.gz]
+[2023-07-07 11:19:47] INFO root fetch - main [MainThread]: End processing [WordsToPdfs]: success
+[2023-07-07 11:19:47] INFO root fetch - processPackages [fyers-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fyers_sdk-0.1.tar.gz]
+[2023-07-07 11:19:47] INFO root fetch - processPackages [fyers-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fyers_sdk-0.2.tar.gz]
+[2023-07-07 11:19:47] INFO root fetch - main [MainThread]: End processing [fyers-sdk]: success
+[2023-07-07 11:19:47] INFO root fetch - processPackages [svix-ksuid]: Downloading https://files.pythonhosted.org/packages/e7/7b/9f3db39a461ed0444df568d5aa4d45751d578f59eb5f2ea33d84809da53d/svix-ksuid-0.6.1.tar.gz
+[2023-07-07 11:19:47] INFO root fetch - processPackages [aioairzone-cloud]: Downloading https://files.pythonhosted.org/packages/4d/4b/a77a4a7d6b997f9db48bec8cb62ea0967e1afd4832d17fcceb887e514689/aioairzone-cloud-0.2.0.tar.gz
+[2023-07-07 11:19:47] INFO root fetch - processPackages [flask-marshmallow-openapi]: Remove: archive file [/home/abi/fetcher/tmp/flask-marshmallow-openapi-0.4.1.tar.gz]
+[2023-07-07 11:19:47] INFO root fetch - processPackages [flask-marshmallow-openapi]: Remove: archive file [/home/abi/fetcher/tmp/flask-marshmallow-openapi-0.4.2.tar.gz]
+[2023-07-07 11:19:47] INFO root fetch - main [MainThread]: End processing [flask-marshmallow-openapi]: success
+[2023-07-07 11:19:47] INFO root fetch - processPackages [svix-ksuid]: Downloading https://files.pythonhosted.org/packages/a1/7a/0c98b77ca01d64f13143607b88273a13110d659780b93cb1333abebf8039/svix-ksuid-0.6.2.tar.gz
+[2023-07-07 11:19:47] INFO root fetch - processPackages [PieRakNet]: Remove: archive file [/home/abi/fetcher/tmp/PieRakNet-1.0.1.tar.gz]
+[2023-07-07 11:19:47] INFO root fetch - processPackages [PieRakNet]: Remove: archive file [/home/abi/fetcher/tmp/PieRakNet-1.0.2.tar.gz]
+[2023-07-07 11:19:47] INFO root fetch - main [MainThread]: End processing [PieRakNet]: success
+[2023-07-07 11:19:47] INFO root fetch - processPackages [svix-ksuid]: executing diffoscope
+[2023-07-07 11:19:47] INFO root fetch - processPackages [svix-ksuid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svix-ksuid-0.6.1.tar.gz tmp/svix-ksuid-0.6.2.tar.gz --markdown 20230707/s/svix-ksuid/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-07 11:19:47] INFO root fetch - processPackages [xoscar]: Remove: archive file [/home/abi/fetcher/tmp/xoscar-0.0.7.tar.gz]
+[2023-07-07 11:19:47] INFO root fetch - processPackages [xoscar]: Remove: archive file [/home/abi/fetcher/tmp/xoscar-0.0.8.tar.gz]
+[2023-07-07 11:19:47] INFO root fetch - main [MainThread]: End processing [xoscar]: success
+[2023-07-07 11:19:47] INFO root fetch - processPackages [aioairzone-cloud]: Downloading https://files.pythonhosted.org/packages/13/88/ed5cac451e9f3414132a90b0ab1e6ae9260b402e7c41edffdcfeb6a49bed/aioairzone-cloud-0.2.1.tar.gz
+[2023-07-07 11:19:47] INFO root fetch - processPackages [aioairzone-cloud]: executing diffoscope
+[2023-07-07 11:19:47] INFO root fetch - processPackages [aioairzone-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioairzone-cloud-0.2.0.tar.gz tmp/aioairzone-cloud-0.2.1.tar.gz --markdown 20230707/a/aioairzone-cloud/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-07 11:19:48] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-07-07 11:19:48] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230707/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-07-07 11:19:48] INFO root fetch - processPackages [svix-ksuid]: Remove: archive file [/home/abi/fetcher/tmp/svix-ksuid-0.6.1.tar.gz]
+[2023-07-07 11:19:48] INFO root fetch - processPackages [svix-ksuid]: Remove: archive file [/home/abi/fetcher/tmp/svix-ksuid-0.6.2.tar.gz]
+[2023-07-07 11:19:48] INFO root fetch - main [MainThread]: End processing [svix-ksuid]: success
+[2023-07-07 11:19:48] INFO root fetch - processPackages [aioairzone-cloud]: Remove: archive file [/home/abi/fetcher/tmp/aioairzone-cloud-0.2.0.tar.gz]
+[2023-07-07 11:19:48] INFO root fetch - processPackages [aioairzone-cloud]: Remove: archive file [/home/abi/fetcher/tmp/aioairzone-cloud-0.2.1.tar.gz]
+[2023-07-07 11:19:48] INFO root fetch - main [MainThread]: End processing [aioairzone-cloud]: success
+[2023-07-07 11:19:50] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-07-07 11:19:50] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-07-07 11:19:50] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-07-07 11:19:50] INFO root fetch - main [MainThread]: Store serial: [18798139]
