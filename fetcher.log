@@ -10056,3 +10056,88 @@ EOFError: EOF read where object expected
 [2023-07-07 04:45:53] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.7.tar.gz]
 [2023-07-07 04:45:53] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2023-07-07 04:45:53] INFO root fetch - main [MainThread]: Store serial: [18795299]
+[2023-07-07 04:51:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18795299]
+[2023-07-07 04:51:07] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-07 04:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sentecon
+[2023-07-07 04:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: landingai
+[2023-07-07 04:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-material-admin-plus
+[2023-07-07 04:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lasfile
+[2023-07-07 04:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xeofs
+[2023-07-07 04:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-material-admin-plus
+[2023-07-07 04:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: task2a
+[2023-07-07 04:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hubotlibs
+[2023-07-07 04:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: geemap
+[2023-07-07 04:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: emailalert
+[2023-07-07 04:51:08] INFO root fetch - processPackages [xeofs]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-07 04:51:08] INFO root fetch - processPackages [emailalert]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-07-07 04:51:08] INFO root fetch - processPackages [landingai]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-07 04:51:08] INFO root fetch - processPackages [django-material-admin-plus]: New version: [1.8.9] Old Version: [1.8.7]
+[2023-07-07 04:51:08] INFO root fetch - processPackages [lasfile]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-07 04:51:08] INFO root fetch - processPackages [django-material-admin-plus]: New version: [1.8.9] Old Version: [1.8.7]
+[2023-07-07 04:51:08] WARNING root fetch - processPackages [sentecon]: Skipping, unable to determine old version
+[2023-07-07 04:51:08] INFO root fetch - main [MainThread]: End processing [sentecon] error
+[2023-07-07 04:51:08] INFO root fetch - processPackages [task2a]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-07 04:51:08] INFO root fetch - processPackages [hubotlibs]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-07 04:51:08] INFO root fetch - processPackages [geemap]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-07 04:51:08] INFO root fetch - processPackages [lasfile]: Downloading https://files.pythonhosted.org/packages/d5/64/ec9a7cc9d411e7c7da40b3dad36030498cc079c8f4f65beae1c5d32d33fc/lasfile-0.1.8.tar.gz
+[2023-07-07 04:51:08] INFO root fetch - processPackages [xeofs]: Downloading https://files.pythonhosted.org/packages/dc/84/b56aa193eacfc0b2b8e6f1fed268d42c7d7ade93cc325f617bc043fdca99/xeofs-1.0.0.tar.gz
+[2023-07-07 04:51:08] INFO root fetch - processPackages [geemap]: Downloading https://files.pythonhosted.org/packages/21/6e/5898075af0a4f152ce0b4ef0db8767cefbddd5b8df12dd72816394caa45d/geemap-0.9.4.tar.gz
+[2023-07-07 04:51:08] INFO root fetch - processPackages [hubotlibs]: Downloading https://files.pythonhosted.org/packages/c5/60/31be703083a7aa4931179e1cd983bcdbb40c940d46407da6e332a3f82ce6/hubotlibs-0.3.1.tar.gz
+[2023-07-07 04:51:08] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/a8/5b/54406fc42cdda05e5e27387525339ee0c5c02396f6a8940dcdcd9ce5f441/emailalert-1.4.5.tar.gz
+[2023-07-07 04:51:08] INFO root fetch - processPackages [django-material-admin-plus]: Downloading https://files.pythonhosted.org/packages/e1/a4/87c96f7bf1eb48bf073a38bd7d23f7c358bf3708d365fb59cbc7aad99bc6/django_material_admin_plus-1.8.7-py3-none-any.whl
+[2023-07-07 04:51:08] INFO root fetch - processPackages [django-material-admin-plus]: Downloading https://files.pythonhosted.org/packages/e1/a4/87c96f7bf1eb48bf073a38bd7d23f7c358bf3708d365fb59cbc7aad99bc6/django_material_admin_plus-1.8.7-py3-none-any.whl
+[2023-07-07 04:51:08] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/87/29/c9f24b6981df736ca48e458afb2e94c989e806dd899737ba50612d2fe9f6/landingai-0.1.1.tar.gz
+[2023-07-07 04:51:08] INFO root fetch - processPackages [task2a]: Downloading https://files.pythonhosted.org/packages/d7/b8/86f0fc1b7250d1ae3fda5bd6e38914ddb39c0f58ea2e88a2e26401ff0d7b/task2a-1.0.1.tar.gz
+[2023-07-07 04:51:08] INFO root fetch - processPackages [lasfile]: Downloading https://files.pythonhosted.org/packages/81/46/99cbc4f9407daa16b3fe90802004647de4ec0eb60dfa6c1a4e06fbe5d312/lasfile-0.1.9.tar.gz
+[2023-07-07 04:51:08] INFO root fetch - processPackages [xeofs]: Downloading https://files.pythonhosted.org/packages/64/2a/18e59706672c9799fec0bcdba0ea1a378878b5cf1a8acc0ae5104663836e/xeofs-1.0.1.tar.gz
+[2023-07-07 04:51:08] INFO root fetch - processPackages [geemap]: Downloading https://files.pythonhosted.org/packages/f3/0f/46be1c7fd40f4c083db73c113c1fe2026351af6892514fbe4303a371b938/geemap-0.9.5.tar.gz
+[2023-07-07 04:51:08] INFO root fetch - processPackages [lasfile]: executing diffoscope
+[2023-07-07 04:51:08] INFO root fetch - processPackages [lasfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lasfile-0.1.8.tar.gz tmp/lasfile-0.1.9.tar.gz --markdown 20230707/l/lasfile/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-07 04:51:08] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/1f/30/bb7fbdb552a5cfd15148f380cc34091c4743aec0d232972a265b5e8acb42/emailalert-1.4.6.tar.gz
+[2023-07-07 04:51:08] INFO root fetch - processPackages [django-material-admin-plus]: Downloading https://files.pythonhosted.org/packages/f3/53/bb2a77afd6119cbecbba3733846525f99ec7df82e2bbc13ec1208d6e92a0/django-material-admin-plus-1.8.9.tar.gz
+[2023-07-07 04:51:08] INFO root fetch - processPackages [hubotlibs]: Downloading https://files.pythonhosted.org/packages/d9/dd/c2b943c6df583895b5cca51521eaba324ad381ef31f6347e73c2cc0c2ef9/hubotlibs-0.3.2.tar.gz
+[2023-07-07 04:51:09] INFO root fetch - processPackages [xeofs]: executing diffoscope
+[2023-07-07 04:51:09] INFO root fetch - processPackages [xeofs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xeofs-1.0.0.tar.gz tmp/xeofs-1.0.1.tar.gz --markdown 20230707/x/xeofs/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-07 04:51:09] INFO root fetch - processPackages [django-material-admin-plus]: Downloading https://files.pythonhosted.org/packages/f3/53/bb2a77afd6119cbecbba3733846525f99ec7df82e2bbc13ec1208d6e92a0/django-material-admin-plus-1.8.9.tar.gz
+[2023-07-07 04:51:09] INFO root fetch - processPackages [task2a]: Downloading https://files.pythonhosted.org/packages/e0/ab/b3f645ef621815c01377987bdde214ad85eac5e0ad6c82c0f76074464e0b/task2a-1.0.2.tar.gz
+[2023-07-07 04:51:09] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/e1/3e/5bb88a9beda06386da6b83caf5d90dba0cac65fbbc493c0a584299a73009/landingai-0.1.2.tar.gz
+[2023-07-07 04:51:09] INFO root fetch - processPackages [emailalert]: executing diffoscope
+[2023-07-07 04:51:09] INFO root fetch - processPackages [emailalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailalert-1.4.5.tar.gz tmp/emailalert-1.4.6.tar.gz --markdown 20230707/e/emailalert/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-07-07 04:51:09] INFO root fetch - processPackages [geemap]: executing diffoscope
+[2023-07-07 04:51:09] INFO root fetch - processPackages [geemap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geemap-0.9.4.tar.gz tmp/geemap-0.9.5.tar.gz --markdown 20230707/g/geemap/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-07 04:51:09] INFO root fetch - processPackages [task2a]: executing diffoscope
+[2023-07-07 04:51:09] INFO root fetch - processPackages [task2a]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/task2a-1.0.1.tar.gz tmp/task2a-1.0.2.tar.gz --markdown 20230707/t/task2a/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-07 04:51:09] INFO root fetch - processPackages [hubotlibs]: executing diffoscope
+[2023-07-07 04:51:09] INFO root fetch - processPackages [django-material-admin-plus]: executing diffoscope
+[2023-07-07 04:51:09] INFO root fetch - processPackages [hubotlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubotlibs-0.3.1.tar.gz tmp/hubotlibs-0.3.2.tar.gz --markdown 20230707/h/hubotlibs/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-07 04:51:09] INFO root fetch - processPackages [django-material-admin-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_material_admin_plus-1.8.7-py3-none-any.whl.zip tmp/django-material-admin-plus-1.8.9.tar.gz --markdown 20230707/d/django-material-admin-plus/1.8.7-1.8.9/diff.md --exclude *.pyd
+[2023-07-07 04:51:09] INFO root fetch - processPackages [django-material-admin-plus]: executing diffoscope
+[2023-07-07 04:51:09] INFO root fetch - processPackages [django-material-admin-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_material_admin_plus-1.8.7-py3-none-any.whl.zip tmp/django-material-admin-plus-1.8.9.tar.gz --markdown 20230707/d/django-material-admin-plus/1.8.7-1.8.9/diff.md --exclude *.pyd
+[2023-07-07 04:51:09] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-07-07 04:51:09] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.1.1.tar.gz tmp/landingai-0.1.2.tar.gz --markdown 20230707/l/landingai/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-07 04:51:10] INFO root fetch - processPackages [lasfile]: Remove: archive file [/home/abi/fetcher/tmp/lasfile-0.1.8.tar.gz]
+[2023-07-07 04:51:10] INFO root fetch - processPackages [lasfile]: Remove: archive file [/home/abi/fetcher/tmp/lasfile-0.1.9.tar.gz]
+[2023-07-07 04:51:10] INFO root fetch - main [MainThread]: End processing [lasfile]: success
+[2023-07-07 04:51:10] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.4.5.tar.gz]
+[2023-07-07 04:51:10] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.4.6.tar.gz]
+[2023-07-07 04:51:10] INFO root fetch - main [MainThread]: End processing [emailalert]: success
+[2023-07-07 04:51:10] INFO root fetch - processPackages [xeofs]: Remove: archive file [/home/abi/fetcher/tmp/xeofs-1.0.0.tar.gz]
+[2023-07-07 04:51:10] INFO root fetch - processPackages [xeofs]: Remove: archive file [/home/abi/fetcher/tmp/xeofs-1.0.1.tar.gz]
+[2023-07-07 04:51:10] INFO root fetch - main [MainThread]: End processing [xeofs]: success
+[2023-07-07 04:51:10] INFO root fetch - processPackages [task2a]: Remove: archive file [/home/abi/fetcher/tmp/task2a-1.0.1.tar.gz]
+[2023-07-07 04:51:10] INFO root fetch - processPackages [task2a]: Remove: archive file [/home/abi/fetcher/tmp/task2a-1.0.2.tar.gz]
+[2023-07-07 04:51:10] INFO root fetch - main [MainThread]: End processing [task2a]: success
+[2023-07-07 04:51:10] INFO root fetch - processPackages [hubotlibs]: Remove: archive file [/home/abi/fetcher/tmp/hubotlibs-0.3.1.tar.gz]
+[2023-07-07 04:51:10] INFO root fetch - processPackages [hubotlibs]: Remove: archive file [/home/abi/fetcher/tmp/hubotlibs-0.3.2.tar.gz]
+[2023-07-07 04:51:10] INFO root fetch - main [MainThread]: End processing [hubotlibs]: success
+[2023-07-07 04:51:10] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.1.1.tar.gz]
+[2023-07-07 04:51:10] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.1.2.tar.gz]
+[2023-07-07 04:51:10] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-07-07 04:51:11] INFO root fetch - processPackages [django-material-admin-plus]: Remove: archive file [/home/abi/fetcher/tmp/django_material_admin_plus-1.8.7-py3-none-any.whl.zip]
+[2023-07-07 04:51:11] INFO root fetch - processPackages [django-material-admin-plus]: Remove: archive file [/home/abi/fetcher/tmp/django-material-admin-plus-1.8.9.tar.gz]
+[2023-07-07 04:51:11] INFO root fetch - main [MainThread]: End processing [django-material-admin-plus]: success
+[2023-07-07 04:51:11] INFO root fetch - main [MainThread]: End processing [django-material-admin-plus]: success
+[2023-07-07 04:51:11] INFO root fetch - processPackages [geemap]: Remove: archive file [/home/abi/fetcher/tmp/geemap-0.9.4.tar.gz]
+[2023-07-07 04:51:11] INFO root fetch - processPackages [geemap]: Remove: archive file [/home/abi/fetcher/tmp/geemap-0.9.5.tar.gz]
+[2023-07-07 04:51:11] INFO root fetch - main [MainThread]: End processing [geemap]: success
+[2023-07-07 04:51:11] INFO root fetch - main [MainThread]: Store serial: [18795333]
