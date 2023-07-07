@@ -5621,3 +5621,53 @@ EOFError: EOF read where object expected
 [2023-07-07 03:23:12] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2023-07-07 03:23:12] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2023-07-07 03:23:12] INFO root fetch - main [MainThread]: Store serial: [18793776]
+[2023-07-07 03:28:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18793776]
+[2023-07-07 03:28:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-07 03:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: m-abac-test
+[2023-07-07 03:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gen3-util-plugin-nvidia
+[2023-07-07 03:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zheizhei
+[2023-07-07 03:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-hugo-deploy
+[2023-07-07 03:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deeponto
+[2023-07-07 03:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zhei
+[2023-07-07 03:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fusionlab
+[2023-07-07 03:28:21] INFO root fetch - processPackages [deeponto]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-07 03:28:21] WARNING root fetch - processPackages [gen3-util-plugin-nvidia]: Skipping, unable to determine old version
+[2023-07-07 03:28:21] INFO root fetch - main [MainThread]: End processing [gen3-util-plugin-nvidia] error
+[2023-07-07 03:28:21] INFO root fetch - processPackages [zhei]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 03:28:21] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-07 03:28:21] INFO root fetch - processPackages [deeponto]: Downloading https://files.pythonhosted.org/packages/21/29/2ad4ed2e09041d79cdd5c6a4c6a503d56f64ee14f3f279190a1bbbf6269f/deeponto-0.8.0.tar.gz
+[2023-07-07 03:28:21] WARNING root fetch - processPackages [zheizhei]: Skipping, unable to determine old version
+[2023-07-07 03:28:21] INFO root fetch - main [MainThread]: End processing [zheizhei] error
+[2023-07-07 03:28:21] INFO root fetch - processPackages [m-abac-test]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-07 03:28:21] INFO root fetch - processPackages [zhei]: Downloading https://files.pythonhosted.org/packages/fe/e6/d6e9a8571394bc0f3c5f41cc8657e57af493d8f610996864a47c36f29e74/zhei-0.0.8.tar.gz
+[2023-07-07 03:28:21] INFO root fetch - processPackages [fusionlab]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-07 03:28:21] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-07-07 03:28:21] WARNING root fetch - processPackages [deeponto]: Skipping package: exceeds size limit 92129381>=10485760
+[2023-07-07 03:28:21] INFO root fetch - main [MainThread]: End processing [deeponto] error
+[2023-07-07 03:28:21] INFO root fetch - processPackages [zhei]: Downloading https://files.pythonhosted.org/packages/d9/f8/741be51eea312a636974b7efa45fc6ce78e84d511b8b44f353639d955c27/zhei-0.0.9.tar.gz
+[2023-07-07 03:28:21] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/09/9a/5bf7c99a4b14d4ee9166517fc845f8ac1538097fb087c74e2055722d9a66/m-abac-test-1.0.8.tar.gz
+[2023-07-07 03:28:21] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-07-07 03:28:21] INFO root fetch - processPackages [fusionlab]: Downloading https://files.pythonhosted.org/packages/5e/32/29ecfdd4d0dabc785a49a86376ccd754fb74684639b5c1a8627d7d9647e1/fusionlab-0.1.2.tar.gz
+[2023-07-07 03:28:21] INFO root fetch - processPackages [zhei]: executing diffoscope
+[2023-07-07 03:28:21] INFO root fetch - processPackages [zhei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhei-0.0.8.tar.gz tmp/zhei-0.0.9.tar.gz --markdown 20230707/z/zhei/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 03:28:21] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-07-07 03:28:21] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230707/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-07 03:28:21] INFO root fetch - processPackages [fusionlab]: Downloading https://files.pythonhosted.org/packages/36/89/3e4fa2031cc0e8aae49583366ac4c2bdae468ca438a59afe3dacbaff615b/fusionlab-0.1.3.tar.gz
+[2023-07-07 03:28:22] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/a9/d3/8329e6fc7756f703d2c923a04aa565e40a644e0fc7782f2737812aa123a6/m-abac-test-1.0.9.tar.gz
+[2023-07-07 03:28:22] INFO root fetch - processPackages [fusionlab]: executing diffoscope
+[2023-07-07 03:28:22] INFO root fetch - processPackages [fusionlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fusionlab-0.1.2.tar.gz tmp/fusionlab-0.1.3.tar.gz --markdown 20230707/f/fusionlab/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-07 03:28:22] INFO root fetch - processPackages [m-abac-test]: executing diffoscope
+[2023-07-07 03:28:22] INFO root fetch - processPackages [m-abac-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-abac-test-1.0.8.tar.gz tmp/m-abac-test-1.0.9.tar.gz --markdown 20230707/m/m-abac-test/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-07 03:28:22] INFO root fetch - processPackages [zhei]: Remove: archive file [/home/abi/fetcher/tmp/zhei-0.0.8.tar.gz]
+[2023-07-07 03:28:22] INFO root fetch - processPackages [zhei]: Remove: archive file [/home/abi/fetcher/tmp/zhei-0.0.9.tar.gz]
+[2023-07-07 03:28:22] INFO root fetch - main [MainThread]: End processing [zhei]: success
+[2023-07-07 03:28:22] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-07-07 03:28:22] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-07-07 03:28:22] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-07-07 03:28:23] INFO root fetch - processPackages [fusionlab]: Remove: archive file [/home/abi/fetcher/tmp/fusionlab-0.1.2.tar.gz]
+[2023-07-07 03:28:23] INFO root fetch - processPackages [fusionlab]: Remove: archive file [/home/abi/fetcher/tmp/fusionlab-0.1.3.tar.gz]
+[2023-07-07 03:28:23] INFO root fetch - main [MainThread]: End processing [fusionlab]: success
+[2023-07-07 03:28:23] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.8.tar.gz]
+[2023-07-07 03:28:23] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.9.tar.gz]
+[2023-07-07 03:28:23] INFO root fetch - main [MainThread]: End processing [m-abac-test]: success
+[2023-07-07 03:28:23] INFO root fetch - main [MainThread]: Store serial: [18793800]
