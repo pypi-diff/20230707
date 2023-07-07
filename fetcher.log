@@ -21887,3 +21887,108 @@ AssertionError: tmp/polyanalyst6api-0.9.1.tar.gz does not exist
 [2023-07-07 14:25:08] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-5.1.0b2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-07 14:25:08] INFO root fetch - main [MainThread]: End processing [ert]: success
 [2023-07-07 14:25:08] INFO root fetch - main [MainThread]: Store serial: [18800312]
+[2023-07-07 14:30:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18800312]
+[2023-07-07 14:30:18] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-07 14:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lusid-notifications-sdk-preview
+[2023-07-07 14:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Janex
+[2023-07-07 14:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kuro2sudachi
+[2023-07-07 14:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyams-security
+[2023-07-07 14:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ogc-na
+[2023-07-07 14:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opcua-tools
+[2023-07-07 14:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pysdot
+[2023-07-07 14:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zavod
+[2023-07-07 14:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kalman-labs
+[2023-07-07 14:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pymodaq-plugins-mock
+[2023-07-07 14:30:18] INFO root fetch - processPackages [pymodaq-plugins-mock]: New version: [4.1.0] Old Version: [4.0.2]
+[2023-07-07 14:30:18] INFO root fetch - processPackages [pysdot]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-07 14:30:18] WARNING root fetch - processPackages [Janex]: Skipping, unable to determine old version
+[2023-07-07 14:30:18] INFO root fetch - processPackages [Janex]: Start processing: fossbill
+[2023-07-07 14:30:18] INFO root fetch - main [MainThread]: End processing [Janex] error
+[2023-07-07 14:30:18] INFO root fetch - processPackages [opcua-tools]: New version: [0.0.82] Old Version: [0.0.81]
+[2023-07-07 14:30:18] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.776] Old Version: [0.1.775]
+[2023-07-07 14:30:18] INFO root fetch - processPackages [fossbill]: New version: [0.9.2] Old Version: [0.9.0]
+[2023-07-07 14:30:18] INFO root fetch - processPackages [pymodaq-plugins-mock]: Downloading https://files.pythonhosted.org/packages/9b/4b/1df8aead5966dc2a0e1143598b4cc42c131d00d6df32cdf9999c2a958f19/pymodaq_plugins_mock-4.0.2.tar.gz
+[2023-07-07 14:30:18] INFO root fetch - processPackages [zavod]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-07-07 14:30:18] INFO root fetch - processPackages [kalman-labs]: New version: [1.0.31] Old Version: [1.0.3]
+[2023-07-07 14:30:18] INFO root fetch - processPackages [kuro2sudachi]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-07-07 14:30:18] INFO root fetch - processPackages [pyams-security]: New version: [1.9.0] Old Version: [1.8.4]
+[2023-07-07 14:30:18] INFO root fetch - processPackages [ogc-na]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-07 14:30:18] INFO root fetch - processPackages [fossbill]: Downloading https://files.pythonhosted.org/packages/06/57/01c7f211973b328bba6e445bfa190a9031e0d2fc1a9e2c409ba8fcd2bb0c/fossbill-0.9.0-py3-none-any.whl
+[2023-07-07 14:30:18] INFO root fetch - processPackages [pysdot]: Downloading https://files.pythonhosted.org/packages/58/c8/07a56a466b82e7f91faaaed1e412c855bbb21a4da376ec56718ee02e2df7/pysdot-0.2.7.tar.gz
+[2023-07-07 14:30:18] INFO root fetch - processPackages [opcua-tools]: Downloading https://files.pythonhosted.org/packages/70/ee/704c1ddae6884d0259661c89b59d5fd0629740253d76402eb7143685462a/opcua-tools-0.0.81.tar.gz
+[2023-07-07 14:30:18] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/3e/50/c84855a9b586ff6d23d5a4adf726d33626d501736ae50aa1540dc269492f/lusid-notifications-sdk-preview-0.1.775.tar.gz
+[2023-07-07 14:30:18] INFO root fetch - processPackages [kalman-labs]: Downloading https://files.pythonhosted.org/packages/e2/64/7dd6159669ff9ea8f0ee0184305b39a65c329412ba7a64019297a188831c/kalman-labs-1.0.3.tar.gz
+[2023-07-07 14:30:18] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/6f/1b/a35ac17c9749cc1cf599391bfd4eab6ac44746f5fbff779a67e85b5af2bb/ogc_na-0.2.8.tar.gz
+[2023-07-07 14:30:18] INFO root fetch - processPackages [kuro2sudachi]: Downloading https://files.pythonhosted.org/packages/d8/7c/c2bd0bc055f4b22dff32040519c4f7f1727b2c053db0c23f160dad2df0e5/kuro2sudachi-0.3.6.tar.gz
+[2023-07-07 14:30:18] INFO root fetch - processPackages [pyams-security]: Downloading https://files.pythonhosted.org/packages/0a/d0/c75433e36b7698349ba3834cf804a5ab76c5f7d217fc609c7361434782da/pyams_security-1.8.4.tar.gz
+[2023-07-07 14:30:18] INFO root fetch - processPackages [zavod]: Downloading https://files.pythonhosted.org/packages/14/2f/8b72f7aaefdacd55cd3943459bfd8c8ec06e5d569519a95163c1554a0e97/zavod-0.7.2.tar.gz
+[2023-07-07 14:30:18] INFO root fetch - processPackages [pymodaq-plugins-mock]: Downloading https://files.pythonhosted.org/packages/96/ef/529abb531faef63e3e6066afefebc3ffe849697ddf911cfdc2917baa7fe4/pymodaq_plugins_mock-4.1.0.tar.gz
+[2023-07-07 14:30:19] INFO root fetch - processPackages [fossbill]: Downloading https://files.pythonhosted.org/packages/96/50/309395c101f67be40bd3ddb807746656afcefdb780178753138d6a2afce3/fossbill-0.9.2-py3-none-any.whl
+[2023-07-07 14:30:19] INFO root fetch - processPackages [opcua-tools]: Downloading https://files.pythonhosted.org/packages/4f/5d/a610a58eb93c65d6bc38e082eddf1d19286c0c696ef9ff778305413f9c01/opcua-tools-0.0.82.tar.gz
+[2023-07-07 14:30:19] INFO root fetch - processPackages [pymodaq-plugins-mock]: executing diffoscope
+[2023-07-07 14:30:19] INFO root fetch - processPackages [pymodaq-plugins-mock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodaq_plugins_mock-4.0.2.tar.gz tmp/pymodaq_plugins_mock-4.1.0.tar.gz --markdown 20230707/p/pymodaq-plugins-mock/4.0.2-4.1.0/diff.md --exclude *.pyd
+[2023-07-07 14:30:19] INFO root fetch - processPackages [pysdot]: Downloading https://files.pythonhosted.org/packages/13/97/8fcde2da6b06276a9ef7c3fea9e816e5e0cd9025cfe13a8053a4435c66ae/pysdot-0.2.8.tar.gz
+[2023-07-07 14:30:19] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/c2/b1/a395b7f5f950bf03af77c4b917ac23fed88049b97159deb80fa8feaa247e/lusid-notifications-sdk-preview-0.1.776.tar.gz
+[2023-07-07 14:30:19] INFO root fetch - processPackages [kalman-labs]: Downloading https://files.pythonhosted.org/packages/29/53/96afb773035a3f05c22eb461b92bf662ad8478de30934e4e4c909f2fa19e/kalman-labs-1.0.31.tar.gz
+[2023-07-07 14:30:19] INFO root fetch - processPackages [fossbill]: executing diffoscope
+[2023-07-07 14:30:19] INFO root fetch - processPackages [fossbill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fossbill-0.9.0-py3-none-any.whl.zip tmp/fossbill-0.9.2-py3-none-any.whl.zip --markdown 20230707/f/fossbill/0.9.0-0.9.2/diff.md --exclude *.pyd
+[2023-07-07 14:30:19] INFO root fetch - processPackages [kuro2sudachi]: Downloading https://files.pythonhosted.org/packages/50/9b/fefd6ab3e1f39639b5da3615dbda4ae0c8fb99ca010359d107f8d6aff605/kuro2sudachi-0.3.7.tar.gz
+[2023-07-07 14:30:19] INFO root fetch - processPackages [opcua-tools]: executing diffoscope
+[2023-07-07 14:30:19] INFO root fetch - processPackages [opcua-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opcua-tools-0.0.81.tar.gz tmp/opcua-tools-0.0.82.tar.gz --markdown 20230707/o/opcua-tools/0.0.81-0.0.82/diff.md --exclude *.pyd
+[2023-07-07 14:30:19] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/08/7b/d1a326265898c9d52f3a526697d9f0f458664b7dd04889cf4b95fcae2b5a/ogc_na-0.2.9.tar.gz
+[2023-07-07 14:30:19] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-07-07 14:30:19] INFO root fetch - processPackages [pyams-security]: Downloading https://files.pythonhosted.org/packages/e2/d7/5e24ac87e5f5a6a4fa77083ff953f2a6617df7b09fd4dd257ccefe995e26/pyams_security-1.9.0.tar.gz
+[2023-07-07 14:30:19] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.775.tar.gz tmp/lusid-notifications-sdk-preview-0.1.776.tar.gz --markdown 20230707/l/lusid-notifications-sdk-preview/0.1.775-0.1.776/diff.md --exclude *.pyd
+[2023-07-07 14:30:19] INFO root fetch - processPackages [pysdot]: executing diffoscope
+[2023-07-07 14:30:19] INFO root fetch - processPackages [pysdot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysdot-0.2.7.tar.gz tmp/pysdot-0.2.8.tar.gz --markdown 20230707/p/pysdot/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-07 14:30:19] INFO root fetch - processPackages [zavod]: Downloading https://files.pythonhosted.org/packages/ac/55/27fca8e2136b4abc75f6745be7cbfed35ab6cf3b216cd9f07c1a727ecbc9/zavod-0.7.3.tar.gz
+[2023-07-07 14:30:19] INFO root fetch - processPackages [kalman-labs]: executing diffoscope
+[2023-07-07 14:30:19] INFO root fetch - processPackages [kalman-labs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalman-labs-1.0.3.tar.gz tmp/kalman-labs-1.0.31.tar.gz --markdown 20230707/k/kalman-labs/1.0.3-1.0.31/diff.md --exclude *.pyd
+[2023-07-07 14:30:19] INFO root fetch - processPackages [kuro2sudachi]: executing diffoscope
+[2023-07-07 14:30:19] INFO root fetch - processPackages [kuro2sudachi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuro2sudachi-0.3.6.tar.gz tmp/kuro2sudachi-0.3.7.tar.gz --markdown 20230707/k/kuro2sudachi/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-07-07 14:30:19] INFO root fetch - processPackages [ogc-na]: executing diffoscope
+[2023-07-07 14:30:19] INFO root fetch - processPackages [ogc-na]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogc_na-0.2.8.tar.gz tmp/ogc_na-0.2.9.tar.gz --markdown 20230707/o/ogc-na/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-07 14:30:19] INFO root fetch - processPackages [pyams-security]: executing diffoscope
+[2023-07-07 14:30:19] INFO root fetch - processPackages [pyams-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyams_security-1.8.4.tar.gz tmp/pyams_security-1.9.0.tar.gz --markdown 20230707/p/pyams-security/1.8.4-1.9.0/diff.md --exclude *.pyd
+[2023-07-07 14:30:19] INFO root fetch - processPackages [zavod]: executing diffoscope
+[2023-07-07 14:30:19] INFO root fetch - processPackages [zavod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zavod-0.7.2.tar.gz tmp/zavod-0.7.3.tar.gz --markdown 20230707/z/zavod/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-07-07 14:30:20] INFO root fetch - processPackages [pymodaq-plugins-mock]: Remove: archive file [/home/abi/fetcher/tmp/pymodaq_plugins_mock-4.0.2.tar.gz]
+[2023-07-07 14:30:20] INFO root fetch - processPackages [pymodaq-plugins-mock]: Remove: archive file [/home/abi/fetcher/tmp/pymodaq_plugins_mock-4.1.0.tar.gz]
+[2023-07-07 14:30:20] INFO root fetch - processPackages [pymodaq-plugins-mock]: Start processing: ai-core-sdk
+[2023-07-07 14:30:20] INFO root fetch - main [MainThread]: End processing [pymodaq-plugins-mock]: success
+[2023-07-07 14:30:20] INFO root fetch - processPackages [kalman-labs]: Remove: archive file [/home/abi/fetcher/tmp/kalman-labs-1.0.3.tar.gz]
+[2023-07-07 14:30:20] INFO root fetch - processPackages [kalman-labs]: Remove: archive file [/home/abi/fetcher/tmp/kalman-labs-1.0.31.tar.gz]
+[2023-07-07 14:30:20] INFO root fetch - main [MainThread]: End processing [kalman-labs]: success
+[2023-07-07 14:30:21] INFO root fetch - processPackages [ai-core-sdk]: New version: [1.9.0] Old Version: [1.7.1]
+[2023-07-07 14:30:21] INFO root fetch - processPackages [fossbill]: Remove: archive file [/home/abi/fetcher/tmp/fossbill-0.9.0-py3-none-any.whl.zip]
+[2023-07-07 14:30:21] INFO root fetch - processPackages [fossbill]: Remove: archive file [/home/abi/fetcher/tmp/fossbill-0.9.2-py3-none-any.whl.zip]
+[2023-07-07 14:30:21] INFO root fetch - main [MainThread]: End processing [fossbill]: success
+[2023-07-07 14:30:21] INFO root fetch - processPackages [kuro2sudachi]: Remove: archive file [/home/abi/fetcher/tmp/kuro2sudachi-0.3.6.tar.gz]
+[2023-07-07 14:30:21] INFO root fetch - processPackages [kuro2sudachi]: Remove: archive file [/home/abi/fetcher/tmp/kuro2sudachi-0.3.7.tar.gz]
+[2023-07-07 14:30:21] INFO root fetch - main [MainThread]: End processing [kuro2sudachi]: success
+[2023-07-07 14:30:21] INFO root fetch - processPackages [pysdot]: Remove: archive file [/home/abi/fetcher/tmp/pysdot-0.2.7.tar.gz]
+[2023-07-07 14:30:21] INFO root fetch - processPackages [pysdot]: Remove: archive file [/home/abi/fetcher/tmp/pysdot-0.2.8.tar.gz]
+[2023-07-07 14:30:21] INFO root fetch - main [MainThread]: End processing [pysdot]: success
+[2023-07-07 14:30:21] INFO root fetch - processPackages [ai-core-sdk]: Downloading https://files.pythonhosted.org/packages/a9/cb/060bfe9fbb2f81c911a9a8eace15f785945e65167802c85efd5c35b8df56/ai_core_sdk-1.7.1-py3-none-any.whl
+[2023-07-07 14:30:21] INFO root fetch - processPackages [ogc-na]: Remove: archive file [/home/abi/fetcher/tmp/ogc_na-0.2.8.tar.gz]
+[2023-07-07 14:30:21] INFO root fetch - processPackages [ogc-na]: Remove: archive file [/home/abi/fetcher/tmp/ogc_na-0.2.9.tar.gz]
+[2023-07-07 14:30:21] INFO root fetch - main [MainThread]: End processing [ogc-na]: success
+[2023-07-07 14:30:21] INFO root fetch - processPackages [zavod]: Remove: archive file [/home/abi/fetcher/tmp/zavod-0.7.2.tar.gz]
+[2023-07-07 14:30:21] INFO root fetch - processPackages [zavod]: Remove: archive file [/home/abi/fetcher/tmp/zavod-0.7.3.tar.gz]
+[2023-07-07 14:30:21] INFO root fetch - main [MainThread]: End processing [zavod]: success
+[2023-07-07 14:30:21] INFO root fetch - processPackages [pyams-security]: Remove: archive file [/home/abi/fetcher/tmp/pyams_security-1.8.4.tar.gz]
+[2023-07-07 14:30:21] INFO root fetch - processPackages [pyams-security]: Remove: archive file [/home/abi/fetcher/tmp/pyams_security-1.9.0.tar.gz]
+[2023-07-07 14:30:21] INFO root fetch - main [MainThread]: End processing [pyams-security]: success
+[2023-07-07 14:30:21] INFO root fetch - processPackages [ai-core-sdk]: Downloading https://files.pythonhosted.org/packages/6b/a8/7b8474d8104e70c126ccbbf8f70dd59da08ff2e9fc8ae474da03cebddba0/ai_core_sdk-1.9.0-py3-none-any.whl
+[2023-07-07 14:30:21] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.775.tar.gz]
+[2023-07-07 14:30:21] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.776.tar.gz]
+[2023-07-07 14:30:21] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-07-07 14:30:21] INFO root fetch - processPackages [ai-core-sdk]: executing diffoscope
+[2023-07-07 14:30:21] INFO root fetch - processPackages [ai-core-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_core_sdk-1.7.1-py3-none-any.whl.zip tmp/ai_core_sdk-1.9.0-py3-none-any.whl.zip --markdown 20230707/a/ai-core-sdk/1.7.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-07 14:30:22] INFO root fetch - processPackages [opcua-tools]: Remove: archive file [/home/abi/fetcher/tmp/opcua-tools-0.0.81.tar.gz]
+[2023-07-07 14:30:22] INFO root fetch - processPackages [opcua-tools]: Remove: archive file [/home/abi/fetcher/tmp/opcua-tools-0.0.82.tar.gz]
+[2023-07-07 14:30:22] INFO root fetch - main [MainThread]: End processing [opcua-tools]: success
+[2023-07-07 14:30:23] INFO root fetch - processPackages [ai-core-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ai_core_sdk-1.7.1-py3-none-any.whl.zip]
+[2023-07-07 14:30:23] INFO root fetch - processPackages [ai-core-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ai_core_sdk-1.9.0-py3-none-any.whl.zip]
+[2023-07-07 14:30:23] INFO root fetch - main [MainThread]: End processing [ai-core-sdk]: success
+[2023-07-07 14:30:23] INFO root fetch - main [MainThread]: Store serial: [18800349]
