@@ -20696,3 +20696,92 @@ AssertionError: tmp/tester-package-sdk-2.0.9.tar.gz does not exist
 [2023-07-07 13:37:37] INFO root fetch - processPackages [netqasm]: Remove: archive file [/home/abi/fetcher/tmp/netqasm-0.9.1.tar.gz]
 [2023-07-07 13:37:37] INFO root fetch - main [MainThread]: End processing [netqasm]: success
 [2023-07-07 13:37:37] INFO root fetch - main [MainThread]: Store serial: [18799669]
+[2023-07-07 13:42:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18799669]
+[2023-07-07 13:42:46] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-07 13:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cybrid-api-organization-python
+[2023-07-07 13:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cybrid-api-id-python
+[2023-07-07 13:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: upstox-python
+[2023-07-07 13:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybrid-api-bank-python
+[2023-07-07 13:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-dynamic-file
+[2023-07-07 13:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SELDOMpy
+[2023-07-07 13:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: uplogic
+[2023-07-07 13:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odyssey-momentum
+[2023-07-07 13:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: thaixtransformers
+[2023-07-07 13:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: NumbaML
+[2023-07-07 13:42:47] WARNING root fetch - processPackages [NumbaML]: Skipping, unable to determine old version
+[2023-07-07 13:42:47] INFO root fetch - processPackages [NumbaML]: Start processing: vdk-smarter
+[2023-07-07 13:42:47] INFO root fetch - main [MainThread]: End processing [NumbaML] error
+[2023-07-07 13:42:47] WARNING root fetch - processPackages [upstox-python]: Skipping, unable to determine old version
+[2023-07-07 13:42:47] INFO root fetch - processPackages [upstox-python]: Start processing: pycompall
+[2023-07-07 13:42:47] INFO root fetch - main [MainThread]: End processing [upstox-python] error
+[2023-07-07 13:42:47] INFO root fetch - processPackages [django-dynamic-file]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-07 13:42:47] WARNING root fetch - processPackages [SELDOMpy]: Skipping, unable to determine old version
+[2023-07-07 13:42:47] INFO root fetch - processPackages [SELDOMpy]: Start processing: sequana-variant-calling
+[2023-07-07 13:42:47] INFO root fetch - main [MainThread]: End processing [SELDOMpy] error
+[2023-07-07 13:42:47] WARNING root fetch - processPackages [odyssey-momentum]: Skipping, unable to determine old version
+[2023-07-07 13:42:47] INFO root fetch - processPackages [odyssey-momentum]: Start processing: pyre-check-nightly
+[2023-07-07 13:42:47] INFO root fetch - main [MainThread]: End processing [odyssey-momentum] error
+[2023-07-07 13:42:47] INFO root fetch - processPackages [uplogic]: New version: [1.9.3] Old Version: [1.9.1.2]
+[2023-07-07 13:42:47] WARNING root fetch - processPackages [thaixtransformers]: Skipping, unable to determine old version
+[2023-07-07 13:42:47] INFO root fetch - main [MainThread]: End processing [thaixtransformers] error
+[2023-07-07 13:42:47] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-07 13:42:47] WARNING root fetch - processPackages [vdk-smarter]: Skipping, unable to determine old version
+[2023-07-07 13:42:47] INFO root fetch - main [MainThread]: End processing [vdk-smarter] error
+[2023-07-07 13:42:47] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-07 13:42:47] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-07 13:42:47] INFO root fetch - processPackages [pycompall]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-07 13:42:47] INFO root fetch - processPackages [sequana-variant-calling]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-07 13:42:47] INFO root fetch - processPackages [django-dynamic-file]: Downloading https://files.pythonhosted.org/packages/46/41/5d3b6c902205643e5cd0cd3801dc97ffa29151f4378834c15c13ec8f6ecb/django-dynamic-file-0.5.0.tar.gz
+[2023-07-07 13:42:47] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101688728340] Old Version: [0.0.101688641944]
+[2023-07-07 13:42:47] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-07-07 13:42:47] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-07-07 13:42:47] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-07-07 13:42:47] INFO root fetch - processPackages [pycompall]: Downloading https://files.pythonhosted.org/packages/54/ed/03cd04e39d8544c2316500a98a5e0243d524d10a61a1a04562f83aab0950/pycompall-0.1.8.tar.gz
+[2023-07-07 13:42:47] INFO root fetch - processPackages [uplogic]: Downloading https://files.pythonhosted.org/packages/ec/14/946ae8fcb703cd7037927021233bc7730da91e82e7f9e5011c325c989ba0/uplogic-1.9.1.2.tar.gz
+[2023-07-07 13:42:47] INFO root fetch - processPackages [sequana-variant-calling]: Downloading https://files.pythonhosted.org/packages/6d/c5/bac62ec61c33ed403f28d0d32e860d981c2e16c31e3ac4ef4b6eb009f1c0/sequana_variant_calling-1.0.0.tar.gz
+[2023-07-07 13:42:47] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/11/d3/c0f8c1c255f7bee5fddd764cadf1513243f0254f9eb34aa6d5f8a0956de6/pyre-check-nightly-0.0.101688641944.tar.gz
+[2023-07-07 13:42:47] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-07-07 13:42:47] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23763770>=10485760
+[2023-07-07 13:42:47] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-07-07 13:42:47] INFO root fetch - processPackages [pycompall]: Downloading https://files.pythonhosted.org/packages/50/40/92c1a0ecab4ac6e924b7073264247bf95385f88b923b563a9483bf2f7e0c/pycompall-0.1.9.tar.gz
+[2023-07-07 13:42:47] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-07-07 13:42:47] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-07-07 13:42:47] INFO root fetch - processPackages [django-dynamic-file]: Downloading https://files.pythonhosted.org/packages/fc/77/40c126400809ef0c2769f9b9ba38da8688585de4ade5ecd2b3ed140cc56e/django-dynamic-file-0.5.1.tar.gz
+[2023-07-07 13:42:47] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-07-07 13:42:47] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230707/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-07 13:42:47] INFO root fetch - processPackages [pycompall]: executing diffoscope
+[2023-07-07 13:42:47] INFO root fetch - processPackages [pycompall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycompall-0.1.8.tar.gz tmp/pycompall-0.1.9.tar.gz --markdown 20230707/p/pycompall/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-07 13:42:47] INFO root fetch - processPackages [uplogic]: Downloading https://files.pythonhosted.org/packages/2e/41/730c4ffa9f0546aa4814af6d9bbbf49e4f3200dde68f4261fbc4f968bcd2/uplogic-1.9.3.tar.gz
+[2023-07-07 13:42:47] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-07-07 13:42:47] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230707/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-07 13:42:48] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-07-07 13:42:48] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230707/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-07 13:42:48] INFO root fetch - processPackages [sequana-variant-calling]: Downloading https://files.pythonhosted.org/packages/31/ef/6beb7c569e50e63a69eecce80dfb0cb5124728421e52505c9e376614c443/sequana_variant_calling-1.0.1.tar.gz
+[2023-07-07 13:42:48] INFO root fetch - processPackages [django-dynamic-file]: executing diffoscope
+[2023-07-07 13:42:48] INFO root fetch - processPackages [django-dynamic-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-dynamic-file-0.5.0.tar.gz tmp/django-dynamic-file-0.5.1.tar.gz --markdown 20230707/d/django-dynamic-file/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-07 13:42:48] INFO root fetch - processPackages [uplogic]: executing diffoscope
+[2023-07-07 13:42:48] INFO root fetch - processPackages [uplogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uplogic-1.9.1.2.tar.gz tmp/uplogic-1.9.3.tar.gz --markdown 20230707/u/uplogic/1.9.1.2-1.9.3/diff.md --exclude *.pyd
+[2023-07-07 13:42:48] INFO root fetch - processPackages [sequana-variant-calling]: executing diffoscope
+[2023-07-07 13:42:48] INFO root fetch - processPackages [sequana-variant-calling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sequana_variant_calling-1.0.0.tar.gz tmp/sequana_variant_calling-1.0.1.tar.gz --markdown 20230707/s/sequana-variant-calling/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-07 13:42:49] INFO root fetch - processPackages [pycompall]: Remove: archive file [/home/abi/fetcher/tmp/pycompall-0.1.8.tar.gz]
+[2023-07-07 13:42:49] INFO root fetch - processPackages [pycompall]: Remove: archive file [/home/abi/fetcher/tmp/pycompall-0.1.9.tar.gz]
+[2023-07-07 13:42:49] INFO root fetch - main [MainThread]: End processing [pycompall]: success
+[2023-07-07 13:42:49] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.8.tar.gz]
+[2023-07-07 13:42:49] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.9.tar.gz]
+[2023-07-07 13:42:49] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-07-07 13:42:49] INFO root fetch - processPackages [django-dynamic-file]: Remove: archive file [/home/abi/fetcher/tmp/django-dynamic-file-0.5.0.tar.gz]
+[2023-07-07 13:42:49] INFO root fetch - processPackages [django-dynamic-file]: Remove: archive file [/home/abi/fetcher/tmp/django-dynamic-file-0.5.1.tar.gz]
+[2023-07-07 13:42:49] INFO root fetch - main [MainThread]: End processing [django-dynamic-file]: success
+[2023-07-07 13:42:49] INFO root fetch - processPackages [sequana-variant-calling]: Remove: archive file [/home/abi/fetcher/tmp/sequana_variant_calling-1.0.0.tar.gz]
+[2023-07-07 13:42:49] INFO root fetch - processPackages [sequana-variant-calling]: Remove: archive file [/home/abi/fetcher/tmp/sequana_variant_calling-1.0.1.tar.gz]
+[2023-07-07 13:42:49] INFO root fetch - main [MainThread]: End processing [sequana-variant-calling]: success
+[2023-07-07 13:42:49] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.8.tar.gz]
+[2023-07-07 13:42:49] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.9.tar.gz]
+[2023-07-07 13:42:49] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-07-07 13:42:50] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.8.tar.gz]
+[2023-07-07 13:42:50] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
+[2023-07-07 13:42:50] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-07-07 13:42:50] INFO root fetch - processPackages [uplogic]: Remove: archive file [/home/abi/fetcher/tmp/uplogic-1.9.1.2.tar.gz]
+[2023-07-07 13:42:50] INFO root fetch - processPackages [uplogic]: Remove: archive file [/home/abi/fetcher/tmp/uplogic-1.9.3.tar.gz]
+[2023-07-07 13:42:50] INFO root fetch - main [MainThread]: End processing [uplogic]: success
+[2023-07-07 13:42:50] INFO root fetch - main [MainThread]: Store serial: [18799720]
