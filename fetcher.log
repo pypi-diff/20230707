@@ -9815,3 +9815,42 @@ EOFError: EOF read where object expected
 [2023-07-07 04:30:14] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.9.tar.gz]
 [2023-07-07 04:30:14] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
 [2023-07-07 04:30:14] INFO root fetch - main [MainThread]: Store serial: [18795220]
+[2023-07-07 04:35:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18795220]
+[2023-07-07 04:35:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-07 04:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coiled
+[2023-07-07 04:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hubotlibs
+[2023-07-07 04:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: megfile
+[2023-07-07 04:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edustudio
+[2023-07-07 04:35:23] INFO root fetch - processPackages [edustudio]: New version: [1.0.0a5] Old Version: [1.0.0a4]
+[2023-07-07 04:35:23] INFO root fetch - processPackages [megfile]: New version: [2.1.1.post2] Old Version: [2.1.1.post1]
+[2023-07-07 04:35:23] INFO root fetch - processPackages [hubotlibs]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-07 04:35:24] INFO root fetch - processPackages [coiled]: New version: [0.8.4.dev9] Old Version: [0.8.4.dev8]
+[2023-07-07 04:35:24] INFO root fetch - processPackages [hubotlibs]: Downloading https://files.pythonhosted.org/packages/15/94/146deff27b83b069f51719ce20597312a2b283295b708d6bbfcbb1e72a49/hubotlibs-0.2.8.tar.gz
+[2023-07-07 04:35:24] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/46/26/adc3f351fad1abdcb7b4aa5122f7da68b3d36b94a1b685e707a24f878122/coiled-0.8.4.dev8.tar.gz
+[2023-07-07 04:35:24] INFO root fetch - processPackages [edustudio]: Downloading https://files.pythonhosted.org/packages/61/f3/fde560c3381e91b242922ebc8c9cf1980ee2b4f30aa9975c7a4c0eca7a89/edustudio-1.0.0a4-py3-none-any.whl
+[2023-07-07 04:35:24] INFO root fetch - processPackages [megfile]: Downloading https://files.pythonhosted.org/packages/62/47/2b1f8e5a33803e2999b13e4f7e93abd3131898e48652b3471cab43d09fc4/megfile-2.1.1.post1-py3-none-any.whl
+[2023-07-07 04:35:24] INFO root fetch - processPackages [hubotlibs]: Downloading https://files.pythonhosted.org/packages/66/15/bb956b4c46c8f34db1fa9b8bf2686603092b02b32debc0e5b3bca894d2de/hubotlibs-0.2.9.tar.gz
+[2023-07-07 04:35:24] INFO root fetch - processPackages [hubotlibs]: executing diffoscope
+[2023-07-07 04:35:24] INFO root fetch - processPackages [hubotlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubotlibs-0.2.8.tar.gz tmp/hubotlibs-0.2.9.tar.gz --markdown 20230707/h/hubotlibs/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-07 04:35:24] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/99/84/f2855248206a9632d93d62ed58f41135c838745dd27d38f5ce5bdee25987/coiled-0.8.4.dev9.tar.gz
+[2023-07-07 04:35:24] INFO root fetch - processPackages [edustudio]: Downloading https://files.pythonhosted.org/packages/d7/15/75e776506b4dd06987b6b6c87ceca69b715148de28e508518033c93a7af2/edustudio-1.0.0a5-py3-none-any.whl
+[2023-07-07 04:35:24] INFO root fetch - processPackages [megfile]: Downloading https://files.pythonhosted.org/packages/22/08/3cddb9a5edf63903eee8a646e01f373bb640561ff5293c5b7307b1bb87aa/megfile-2.1.1.post2-py3-none-any.whl
+[2023-07-07 04:35:24] INFO root fetch - processPackages [edustudio]: executing diffoscope
+[2023-07-07 04:35:24] INFO root fetch - processPackages [edustudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edustudio-1.0.0a4-py3-none-any.whl.zip tmp/edustudio-1.0.0a5-py3-none-any.whl.zip --markdown 20230707/e/edustudio/1.0.0a4-1.0.0a5/diff.md --exclude *.pyd
+[2023-07-07 04:35:24] INFO root fetch - processPackages [megfile]: executing diffoscope
+[2023-07-07 04:35:24] INFO root fetch - processPackages [megfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megfile-2.1.1.post1-py3-none-any.whl.zip tmp/megfile-2.1.1.post2-py3-none-any.whl.zip --markdown 20230707/m/megfile/2.1.1.post1-2.1.1.post2/diff.md --exclude *.pyd
+[2023-07-07 04:35:24] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-07 04:35:24] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.4.dev8.tar.gz tmp/coiled-0.8.4.dev9.tar.gz --markdown 20230707/c/coiled/0.8.4.dev8-0.8.4.dev9/diff.md --exclude *.pyd
+[2023-07-07 04:35:25] INFO root fetch - processPackages [hubotlibs]: Remove: archive file [/home/abi/fetcher/tmp/hubotlibs-0.2.8.tar.gz]
+[2023-07-07 04:35:25] INFO root fetch - processPackages [hubotlibs]: Remove: archive file [/home/abi/fetcher/tmp/hubotlibs-0.2.9.tar.gz]
+[2023-07-07 04:35:25] INFO root fetch - main [MainThread]: End processing [hubotlibs]: success
+[2023-07-07 04:35:25] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.4.dev8.tar.gz]
+[2023-07-07 04:35:25] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.4.dev9.tar.gz]
+[2023-07-07 04:35:25] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-07 04:35:26] INFO root fetch - processPackages [megfile]: Remove: archive file [/home/abi/fetcher/tmp/megfile-2.1.1.post1-py3-none-any.whl.zip]
+[2023-07-07 04:35:26] INFO root fetch - processPackages [megfile]: Remove: archive file [/home/abi/fetcher/tmp/megfile-2.1.1.post2-py3-none-any.whl.zip]
+[2023-07-07 04:35:26] INFO root fetch - main [MainThread]: End processing [megfile]: success
+[2023-07-07 04:35:26] INFO root fetch - processPackages [edustudio]: Remove: archive file [/home/abi/fetcher/tmp/edustudio-1.0.0a4-py3-none-any.whl.zip]
+[2023-07-07 04:35:26] INFO root fetch - processPackages [edustudio]: Remove: archive file [/home/abi/fetcher/tmp/edustudio-1.0.0a5-py3-none-any.whl.zip]
+[2023-07-07 04:35:26] INFO root fetch - main [MainThread]: End processing [edustudio]: success
+[2023-07-07 04:35:26] INFO root fetch - main [MainThread]: Store serial: [18795230]
