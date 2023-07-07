@@ -9618,3 +9618,87 @@ EOFError: EOF read where object expected
 [2023-07-07 04:14:37] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.7.1.tar.gz]
 [2023-07-07 04:14:37] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
 [2023-07-07 04:14:37] INFO root fetch - main [MainThread]: Store serial: [18795159]
+[2023-07-07 04:19:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18795159]
+[2023-07-07 04:19:46] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-07 04:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: st-stripe
+[2023-07-07 04:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: venture
+[2023-07-07 04:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: express-py
+[2023-07-07 04:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qsm-forward
+[2023-07-07 04:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hubotlibs
+[2023-07-07 04:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: azureml-automl-core
+[2023-07-07 04:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: azureml-automl-dnn-vision
+[2023-07-07 04:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: azureml-automl-runtime
+[2023-07-07 04:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: automation_rest_server
+[2023-07-07 04:19:46] INFO root fetch - processPackages [azureml-automl-dnn-vision]: New version: [1.52.0.post1] Old Version: [1.52.0]
+[2023-07-07 04:19:46] INFO root fetch - processPackages [azureml-automl-runtime]: New version: [1.9.0.post3] Old Version: [1.9.0.post2]
+[2023-07-07 04:19:46] INFO root fetch - processPackages [venture]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-07-07 04:19:46] INFO root fetch - processPackages [qsm-forward]: New version: [0.9] Old Version: [0.8]
+[2023-07-07 04:19:46] INFO root fetch - processPackages [hubotlibs]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-07 04:19:46] INFO root fetch - processPackages [azureml-automl-core]: New version: [1.9.0.post1] Old Version: [1.9.0]
+[2023-07-07 04:19:46] INFO root fetch - processPackages [express-py]: New version: [2023.7.7.post0] Old Version: [2023.6.20.post1]
+[2023-07-07 04:19:46] INFO root fetch - processPackages [st-stripe]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-07 04:19:46] INFO root fetch - processPackages [automation_rest_server]: New version: [3.8.6] Old Version: [3.8.5]
+[2023-07-07 04:19:47] INFO root fetch - processPackages [hubotlibs]: Downloading https://files.pythonhosted.org/packages/4b/0c/9974330cd0f3659b64ef765ac4873df4458dde7110a4aa121acf1d6b0885/hubotlibs-0.2.6.tar.gz
+[2023-07-07 04:19:47] INFO root fetch - processPackages [azureml-automl-dnn-vision]: Downloading https://files.pythonhosted.org/packages/a3/ef/bd14c8b29179d9e6227985254af31a651e2bd971634f3f86be42f29928c4/azureml_automl_dnn_vision-1.52.0-py3-none-any.whl
+[2023-07-07 04:19:47] INFO root fetch - processPackages [azureml-automl-runtime]: Downloading https://files.pythonhosted.org/packages/ef/d8/7b1f03072a292857230a7fdf9a68f7ce4a0ba5a4818b573ffef7fd14d665/azureml_automl_runtime-1.9.0.post2-py3-none-any.whl
+[2023-07-07 04:19:47] INFO root fetch - processPackages [express-py]: Downloading https://files.pythonhosted.org/packages/47/ff/126b2c0787c220830689df2c778a9ad9611274aa14c5686e670241070482/express-py-2023.6.20.post1.tar.gz
+[2023-07-07 04:19:47] INFO root fetch - processPackages [venture]: Downloading https://files.pythonhosted.org/packages/bb/0e/1fd36b72f4aa9e5d2b32fd6b2ebb218816fc500299f6707476c8c0e17f13/venture-3.0.0.tar.gz
+[2023-07-07 04:19:47] INFO root fetch - processPackages [qsm-forward]: Downloading https://files.pythonhosted.org/packages/65/46/45de4bd58406ad4eba67dd561e259f33a0fcc6af97702924894b9e75b9fb/qsm-forward-0.8.tar.gz
+[2023-07-07 04:19:47] INFO root fetch - processPackages [st-stripe]: Downloading https://files.pythonhosted.org/packages/11/1a/47298ec7cfe387abc4ee42de7412cba945e4a2dc8306456fccb4b2de26a5/st-stripe-0.1.0.tar.gz
+[2023-07-07 04:19:47] INFO root fetch - processPackages [azureml-automl-core]: Downloading https://files.pythonhosted.org/packages/6f/fd/3c0ab52cf32c55e9513e407fe3badb5d5bd1e2199b16124c1c8dfb1f6b05/azureml_automl_core-1.9.0-py3-none-any.whl
+[2023-07-07 04:19:47] INFO root fetch - processPackages [automation_rest_server]: Downloading https://files.pythonhosted.org/packages/0b/7f/3886d7963b300a8a59a43c5c95b126a8f19d4ea9ef22afb13ec2665059bf/automation_rest_server-3.8.5.tar.gz
+[2023-07-07 04:19:47] INFO root fetch - processPackages [hubotlibs]: Downloading https://files.pythonhosted.org/packages/8c/ad/678b7c9c45474abaad61415d3b482483526c4d78ac75a06a3ea569d135dd/hubotlibs-0.2.7.tar.gz
+[2023-07-07 04:19:47] INFO root fetch - processPackages [venture]: Downloading https://files.pythonhosted.org/packages/2a/1a/8fcbd8712af19599031cbe012a05b23ccb1b135be12417f97b3f390562c3/venture-3.1.0.tar.gz
+[2023-07-07 04:19:47] INFO root fetch - processPackages [st-stripe]: Downloading https://files.pythonhosted.org/packages/30/ab/2c6707658fd835017299ef164a82e2b3a60bc75b72bbb646e91f1105b169/st-stripe-0.1.1.tar.gz
+[2023-07-07 04:19:47] INFO root fetch - processPackages [qsm-forward]: Downloading https://files.pythonhosted.org/packages/96/7b/310a7a2cedda42fe3d293c41def115dce8f20fe7d50a71936aa9052822cd/qsm-forward-0.9.tar.gz
+[2023-07-07 04:19:47] INFO root fetch - processPackages [azureml-automl-dnn-vision]: Downloading https://files.pythonhosted.org/packages/e5/80/10633cf54adf1b8adf88ce4511875b3905de2951cca5ce537290b8a06d94/azureml_automl_dnn_vision-1.52.0.post1-py3-none-any.whl
+[2023-07-07 04:19:47] INFO root fetch - processPackages [hubotlibs]: executing diffoscope
+[2023-07-07 04:19:47] INFO root fetch - processPackages [hubotlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubotlibs-0.2.6.tar.gz tmp/hubotlibs-0.2.7.tar.gz --markdown 20230707/h/hubotlibs/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-07 04:19:47] INFO root fetch - processPackages [azureml-automl-core]: Downloading https://files.pythonhosted.org/packages/7b/ad/c23e1acc5b34c427e8d0b350c1ee52091003558b37ca9cec8d346a8ce993/azureml_automl_core-1.9.0.post1-py3-none-any.whl
+[2023-07-07 04:19:47] INFO root fetch - processPackages [venture]: executing diffoscope
+[2023-07-07 04:19:47] INFO root fetch - processPackages [venture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/venture-3.0.0.tar.gz tmp/venture-3.1.0.tar.gz --markdown 20230707/v/venture/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-07-07 04:19:47] INFO root fetch - processPackages [qsm-forward]: executing diffoscope
+[2023-07-07 04:19:47] INFO root fetch - processPackages [qsm-forward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsm-forward-0.8.tar.gz tmp/qsm-forward-0.9.tar.gz --markdown 20230707/q/qsm-forward/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-07 04:19:47] INFO root fetch - processPackages [azureml-automl-runtime]: Downloading https://files.pythonhosted.org/packages/05/95/54abee729a1d3723cdad1bcbf2e36d9d5e0bd014a1f49ffc84699e5a6074/azureml_automl_runtime-1.9.0.post3-py3-none-any.whl
+[2023-07-07 04:19:47] INFO root fetch - processPackages [automation_rest_server]: Downloading https://files.pythonhosted.org/packages/d2/aa/325f7bc75ec340778383ea46331fe5f6f0218eecaf6d2b3813fcc43c92fc/automation_rest_server-3.8.6.tar.gz
+[2023-07-07 04:19:47] INFO root fetch - processPackages [azureml-automl-core]: executing diffoscope
+[2023-07-07 04:19:47] INFO root fetch - processPackages [azureml-automl-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_automl_core-1.9.0-py3-none-any.whl.zip tmp/azureml_automl_core-1.9.0.post1-py3-none-any.whl.zip --markdown 20230707/a/azureml-automl-core/1.9.0-1.9.0.post1/diff.md --exclude *.pyd
+[2023-07-07 04:19:48] INFO root fetch - processPackages [azureml-automl-dnn-vision]: executing diffoscope
+[2023-07-07 04:19:48] INFO root fetch - processPackages [azureml-automl-dnn-vision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_automl_dnn_vision-1.52.0-py3-none-any.whl.zip tmp/azureml_automl_dnn_vision-1.52.0.post1-py3-none-any.whl.zip --markdown 20230707/a/azureml-automl-dnn-vision/1.52.0-1.52.0.post1/diff.md --exclude *.pyd
+[2023-07-07 04:19:48] INFO root fetch - processPackages [express-py]: Downloading https://files.pythonhosted.org/packages/5e/7a/976c7f0a9e1e7ce0aed9f96b90caf0d97d455f02a80928171193bf974673/express-py-2023.7.7.post0.tar.gz
+[2023-07-07 04:19:48] INFO root fetch - processPackages [st-stripe]: executing diffoscope
+[2023-07-07 04:19:48] INFO root fetch - processPackages [st-stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st-stripe-0.1.0.tar.gz tmp/st-stripe-0.1.1.tar.gz --markdown 20230707/s/st-stripe/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-07 04:19:48] INFO root fetch - processPackages [automation_rest_server]: executing diffoscope
+[2023-07-07 04:19:48] INFO root fetch - processPackages [automation_rest_server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_rest_server-3.8.5.tar.gz tmp/automation_rest_server-3.8.6.tar.gz --markdown 20230707/a/automation_rest_server/3.8.5-3.8.6/diff.md --exclude *.pyd
+[2023-07-07 04:19:48] INFO root fetch - processPackages [azureml-automl-runtime]: executing diffoscope
+[2023-07-07 04:19:48] INFO root fetch - processPackages [azureml-automl-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_automl_runtime-1.9.0.post2-py3-none-any.whl.zip tmp/azureml_automl_runtime-1.9.0.post3-py3-none-any.whl.zip --markdown 20230707/a/azureml-automl-runtime/1.9.0.post2-1.9.0.post3/diff.md --exclude *.pyd
+[2023-07-07 04:19:48] INFO root fetch - processPackages [express-py]: executing diffoscope
+[2023-07-07 04:19:48] INFO root fetch - processPackages [express-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/express-py-2023.6.20.post1.tar.gz tmp/express-py-2023.7.7.post0.tar.gz --markdown 20230707/e/express-py/2023.6.20.post1-2023.7.7.post0/diff.md --exclude *.pyd
+[2023-07-07 04:19:49] INFO root fetch - processPackages [venture]: Remove: archive file [/home/abi/fetcher/tmp/venture-3.0.0.tar.gz]
+[2023-07-07 04:19:49] INFO root fetch - processPackages [venture]: Remove: archive file [/home/abi/fetcher/tmp/venture-3.1.0.tar.gz]
+[2023-07-07 04:19:49] INFO root fetch - main [MainThread]: End processing [venture]: success
+[2023-07-07 04:19:49] INFO root fetch - processPackages [qsm-forward]: Remove: archive file [/home/abi/fetcher/tmp/qsm-forward-0.8.tar.gz]
+[2023-07-07 04:19:49] INFO root fetch - processPackages [qsm-forward]: Remove: archive file [/home/abi/fetcher/tmp/qsm-forward-0.9.tar.gz]
+[2023-07-07 04:19:49] INFO root fetch - main [MainThread]: End processing [qsm-forward]: success
+[2023-07-07 04:19:49] INFO root fetch - processPackages [hubotlibs]: Remove: archive file [/home/abi/fetcher/tmp/hubotlibs-0.2.6.tar.gz]
+[2023-07-07 04:19:49] INFO root fetch - processPackages [hubotlibs]: Remove: archive file [/home/abi/fetcher/tmp/hubotlibs-0.2.7.tar.gz]
+[2023-07-07 04:19:49] INFO root fetch - main [MainThread]: End processing [hubotlibs]: success
+[2023-07-07 04:19:49] INFO root fetch - processPackages [st-stripe]: Remove: archive file [/home/abi/fetcher/tmp/st-stripe-0.1.0.tar.gz]
+[2023-07-07 04:19:49] INFO root fetch - processPackages [st-stripe]: Remove: archive file [/home/abi/fetcher/tmp/st-stripe-0.1.1.tar.gz]
+[2023-07-07 04:19:49] INFO root fetch - main [MainThread]: End processing [st-stripe]: success
+[2023-07-07 04:19:49] INFO root fetch - processPackages [azureml-automl-core]: Remove: archive file [/home/abi/fetcher/tmp/azureml_automl_core-1.9.0-py3-none-any.whl.zip]
+[2023-07-07 04:19:49] INFO root fetch - processPackages [azureml-automl-core]: Remove: archive file [/home/abi/fetcher/tmp/azureml_automl_core-1.9.0.post1-py3-none-any.whl.zip]
+[2023-07-07 04:19:49] INFO root fetch - main [MainThread]: End processing [azureml-automl-core]: success
+[2023-07-07 04:19:50] INFO root fetch - processPackages [automation_rest_server]: Remove: archive file [/home/abi/fetcher/tmp/automation_rest_server-3.8.5.tar.gz]
+[2023-07-07 04:19:50] INFO root fetch - processPackages [automation_rest_server]: Remove: archive file [/home/abi/fetcher/tmp/automation_rest_server-3.8.6.tar.gz]
+[2023-07-07 04:19:50] INFO root fetch - main [MainThread]: End processing [automation_rest_server]: success
+[2023-07-07 04:19:50] INFO root fetch - processPackages [azureml-automl-dnn-vision]: Remove: archive file [/home/abi/fetcher/tmp/azureml_automl_dnn_vision-1.52.0-py3-none-any.whl.zip]
+[2023-07-07 04:19:50] INFO root fetch - processPackages [azureml-automl-dnn-vision]: Remove: archive file [/home/abi/fetcher/tmp/azureml_automl_dnn_vision-1.52.0.post1-py3-none-any.whl.zip]
+[2023-07-07 04:19:50] INFO root fetch - main [MainThread]: End processing [azureml-automl-dnn-vision]: success
+[2023-07-07 04:19:50] INFO root fetch - processPackages [azureml-automl-runtime]: Remove: archive file [/home/abi/fetcher/tmp/azureml_automl_runtime-1.9.0.post2-py3-none-any.whl.zip]
+[2023-07-07 04:19:50] INFO root fetch - processPackages [azureml-automl-runtime]: Remove: archive file [/home/abi/fetcher/tmp/azureml_automl_runtime-1.9.0.post3-py3-none-any.whl.zip]
+[2023-07-07 04:19:50] INFO root fetch - main [MainThread]: End processing [azureml-automl-runtime]: success
+[2023-07-07 04:19:51] INFO root fetch - processPackages [express-py]: Remove: archive file [/home/abi/fetcher/tmp/express-py-2023.6.20.post1.tar.gz]
+[2023-07-07 04:19:51] INFO root fetch - processPackages [express-py]: Remove: archive file [/home/abi/fetcher/tmp/express-py-2023.7.7.post0.tar.gz]
+[2023-07-07 04:19:51] INFO root fetch - main [MainThread]: End processing [express-py]: success
+[2023-07-07 04:19:51] INFO root fetch - main [MainThread]: Store serial: [18795181]
