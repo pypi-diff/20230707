@@ -22209,3 +22209,198 @@ AssertionError: tmp/polyanalyst6api-0.9.1.tar.gz does not exist
 [2023-07-07 14:40:52] INFO root fetch - processPackages [bimdata-api-client]: Remove: archive file [/home/abi/fetcher/tmp/bimdata-api-client-9.9.0.tar.gz]
 [2023-07-07 14:40:52] INFO root fetch - main [MainThread]: End processing [bimdata-api-client]: success
 [2023-07-07 14:40:52] INFO root fetch - main [MainThread]: Store serial: [18800455]
+[2023-07-07 14:45:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18800455]
+[2023-07-07 14:46:02] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-07-07 14:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-dllib-spark2
+[2023-07-07 14:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bluecast
+[2023-07-07 14:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ai-api-client-sdk
+[2023-07-07 14:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-orca-spark2
+[2023-07-07 14:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-friesian-spark2
+[2023-07-07 14:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-chronos-spark2
+[2023-07-07 14:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-spark2
+[2023-07-07 14:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: keras-cv
+[2023-07-07 14:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: molgraph
+[2023-07-07 14:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-route53-health-check
+[2023-07-07 14:46:02] INFO root fetch - processPackages [ai-api-client-sdk]: New version: [1.28.0] Old Version: [1.27.0]
+[2023-07-07 14:46:02] INFO root fetch - processPackages [bigdl-spark2]: New version: [2.4.0b20230707] Old Version: [2.4.0b20230706]
+[2023-07-07 14:46:02] INFO root fetch - processPackages [bluecast]: New version: [0.9] Old Version: [0.8]
+[2023-07-07 14:46:02] INFO root fetch - processPackages [molgraph]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-07-07 14:46:02] INFO root fetch - processPackages [keras-cv]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-07 14:46:02] INFO root fetch - processPackages [bigdl-dllib-spark2]: New version: [2.4.0b20230707] Old Version: [2.4.0b20230706]
+[2023-07-07 14:46:02] INFO root fetch - processPackages [bigdl-chronos-spark2]: New version: [2.4.0b20230707] Old Version: [2.4.0b20230706]
+[2023-07-07 14:46:02] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230707] Old Version: [2.4.0b20230706]
+[2023-07-07 14:46:02] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230707] Old Version: [2.4.0b20230706]
+[2023-07-07 14:46:02] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-07 14:46:03] INFO root fetch - processPackages [bluecast]: Downloading https://files.pythonhosted.org/packages/ec/3d/50055360ed61d23dcf174f7fce737def086bcd8b7ce250ec97745eb8d831/bluecast-0.8.tar.gz
+[2023-07-07 14:46:03] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/45/39/3979886a6b686ebf59955e2a26d1f38090aea3f04bb894bfa4dfe5a8eb23/bigdl_spark2-2.4.0b20230706-py3-none-manylinux1_x86_64.whl
+[2023-07-07 14:46:03] INFO root fetch - processPackages [ai-api-client-sdk]: Downloading https://files.pythonhosted.org/packages/0b/ba/5e27070429ccf25c7738dc1d827338964d8f76bf09a558149f4759ebe5f9/ai_api_client_sdk-1.27.0-py3-none-any.whl
+[2023-07-07 14:46:03] INFO root fetch - processPackages [keras-cv]: Downloading https://files.pythonhosted.org/packages/c1/9d/b77403fb70f92700f92e050b6ed4c324677d8ce21417642150b9d687aed4/keras_cv-0.5.0-py3-none-any.whl
+[2023-07-07 14:46:03] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/07/10/180648181e866ba1a58e9a5c12f7537f2e8eec8ec23838d1eb1e58d94597/bigdl_orca_spark2-2.4.0b20230706-py3-none-manylinux1_x86_64.whl
+[2023-07-07 14:46:03] INFO root fetch - processPackages [molgraph]: Downloading https://files.pythonhosted.org/packages/4a/06/4747764c076eca58d91362250c7d751139b430316d597348b991ecb090cc/molgraph-0.3.9.tar.gz
+[2023-07-07 14:46:03] INFO root fetch - processPackages [bigdl-dllib-spark2]: Downloading https://files.pythonhosted.org/packages/6c/55/299407ff425164e42ac04921cd65901ae50808064540534549f3ab0248d2/bigdl-dllib-spark2-2.4.0b20230706.tar.gz
+[2023-07-07 14:46:03] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/a9/a8/f33f1094b0088bf2e9a5198e1e3265610db57c53b0d04b171712089d019d/bigdl_chronos_spark2-2.4.0b20230706-py3-none-manylinux1_x86_64.whl
+[2023-07-07 14:46:03] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/a8/f1/c96971e2cc56adcde998c2d7a12c5cfd4591bb08ceefc50e3f6627a7fbab/pepperize.cdk-route53-health-check-0.0.98.tar.gz
+[2023-07-07 14:46:03] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20369880>=10485760
+[2023-07-07 14:46:03] INFO root fetch - processPackages [bigdl-orca-spark2]: Start processing: linex2
+[2023-07-07 14:46:03] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-07-07 14:46:03] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/27/16/7acf74af9086c17399044000dd7398a56d77fb1a05bb3ce13f913aa6e721/bigdl_friesian_spark2-2.4.0b20230706-py3-none-manylinux1_x86_64.whl
+[2023-07-07 14:46:03] WARNING root fetch - processPackages [bigdl-dllib-spark2]: Skipping package: exceeds size limit 53638723>=10485760
+[2023-07-07 14:46:03] INFO root fetch - processPackages [bigdl-dllib-spark2]: Start processing: tensorcircuit-nightly
+[2023-07-07 14:46:03] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark2] error
+[2023-07-07 14:46:03] INFO root fetch - processPackages [linex2]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-07 14:46:03] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2023-07-07 14:46:03] INFO root fetch - processPackages [bluecast]: Downloading https://files.pythonhosted.org/packages/4c/dd/ff7880db0e7fc26a888065b8f429a2bddace77a3ea05a72224e8a4f90fb4/bluecast-0.9.tar.gz
+[2023-07-07 14:46:03] INFO root fetch - processPackages [linex2]: Downloading https://files.pythonhosted.org/packages/7a/b6/99abad3968fe7ceebc7148bab4c16e519ec9bcbaf6493bc28a911176351d/linex2-1.1.8.tar.gz
+[2023-07-07 14:46:03] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/72/88/5c21eecc376271ed1557ed9610a352b3213655cd2371806cb3e55984519a/bigdl_spark2-2.4.0b20230707-py3-none-manylinux1_x86_64.whl
+[2023-07-07 14:46:03] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2023-07-07 14:46:03] ERROR root fetch - processPackages [molgraph]: Unable to fetch info: No such project/version 'molgraph' 0.4.0
+[2023-07-07 14:46:03] INFO root fetch - processPackages [molgraph]: Start processing: ragger
+[2023-07-07 14:46:03] INFO root fetch - main [MainThread]: End processing [molgraph] error
+[2023-07-07 14:46:03] INFO root fetch - processPackages [ai-api-client-sdk]: Downloading https://files.pythonhosted.org/packages/77/f7/97247d2c923a8d5f0940fdcb2add60160822abd3d406384d02173ebeca20/ai_api_client_sdk-1.28.0-py3-none-any.whl
+[2023-07-07 14:46:03] INFO root fetch - processPackages [bluecast]: executing diffoscope
+[2023-07-07 14:46:03] INFO root fetch - processPackages [bluecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluecast-0.8.tar.gz tmp/bluecast-0.9.tar.gz --markdown 20230707/b/bluecast/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-07 14:46:03] INFO root fetch - processPackages [keras-cv]: Downloading https://files.pythonhosted.org/packages/b6/0f/21fc0c7eaf9a9f81912e4b72a6f2fe59c8199c58f901370d24adcb469c45/keras_cv-0.5.1-py3-none-any.whl
+[2023-07-07 14:46:03] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/27/59/8ee6fab716a1570f2a1a2331f2e41aabcbca43e1758fce1845335c2b3ae4/bigdl_friesian_spark2-2.4.0b20230707-py3-none-manylinux1_x86_64.whl
+[2023-07-07 14:46:03] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/e1/13/d1b9ba372348867fbfac522010819b442a082d34bab92b13693bfa83018d/bigdl_chronos_spark2-2.4.0b20230707-py3-none-manylinux1_x86_64.whl
+[2023-07-07 14:46:03] INFO root fetch - processPackages [bigdl-spark2]: executing diffoscope
+[2023-07-07 14:46:03] INFO root fetch - processPackages [bigdl-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark2-2.4.0b20230706-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark2-2.4.0b20230707-py3-none-manylinux1_x86_64.whl.zip --markdown 20230707/b/bigdl-spark2/2.4.0b20230706-2.4.0b20230707/diff.md --exclude *.pyd
+[2023-07-07 14:46:03] INFO root fetch - processPackages [ragger]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-07 14:46:03] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/9f/92/909a62b351141186c782d8bdc77ece2c0787b84204291ce16a1ddb09b89e/pepperize.cdk-route53-health-check-0.0.99.tar.gz
+[2023-07-07 14:46:03] INFO root fetch - processPackages [ai-api-client-sdk]: executing diffoscope
+[2023-07-07 14:46:03] INFO root fetch - processPackages [ai-api-client-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_api_client_sdk-1.27.0-py3-none-any.whl.zip tmp/ai_api_client_sdk-1.28.0-py3-none-any.whl.zip --markdown 20230707/a/ai-api-client-sdk/1.27.0-1.28.0/diff.md --exclude *.pyd
+[2023-07-07 14:46:04] INFO root fetch - processPackages [keras-cv]: executing diffoscope
+[2023-07-07 14:46:04] INFO root fetch - processPackages [keras-cv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_cv-0.5.0-py3-none-any.whl.zip tmp/keras_cv-0.5.1-py3-none-any.whl.zip --markdown 20230707/k/keras-cv/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-07 14:46:04] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-07-07 14:46:04] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.4.0b20230706-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230707-py3-none-manylinux1_x86_64.whl.zip --markdown 20230707/b/bigdl-friesian-spark2/2.4.0b20230706-2.4.0b20230707/diff.md --exclude *.pyd
+[2023-07-07 14:46:04] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2023-07-07 14:46:04] INFO root fetch - processPackages [bigdl-chronos-spark2]: executing diffoscope
+[2023-07-07 14:46:04] INFO root fetch - processPackages [bigdl-chronos-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark2-2.4.0b20230706-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark2-2.4.0b20230707-py3-none-manylinux1_x86_64.whl.zip --markdown 20230707/b/bigdl-chronos-spark2/2.4.0b20230706-2.4.0b20230707/diff.md --exclude *.pyd
+[2023-07-07 14:46:04] INFO root fetch - processPackages [linex2]: Downloading https://files.pythonhosted.org/packages/24/bb/620c9f4418ad78779619fd63de21128309ee077647cd821d27f149ca2b1d/linex2-1.1.9.tar.gz
+[2023-07-07 14:46:04] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-07-07 14:46:04] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230707/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-07 14:46:04] INFO root fetch - processPackages [ragger]: Downloading https://files.pythonhosted.org/packages/82/04/82bc3bf0c47a6f88a45e1b5604b67e6f9d9d9068f3a4713025a7590f00e8/ragger-1.9.1.tar.gz
+[2023-07-07 14:46:04] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-07-07 14:46:04] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20230707/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/diff.md --exclude *.pyd
+[2023-07-07 14:46:04] INFO root fetch - processPackages [linex2]: executing diffoscope
+[2023-07-07 14:46:04] INFO root fetch - processPackages [linex2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linex2-1.1.8.tar.gz tmp/linex2-1.1.9.tar.gz --markdown 20230707/l/linex2/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-07 14:46:04] INFO root fetch - processPackages [ragger]: Downloading https://files.pythonhosted.org/packages/55/ac/75fc7e94a713ed26019e36497774d89d7eaa377fab2ac4183dd45fc028b5/ragger-1.9.2.tar.gz
+[2023-07-07 14:46:04] INFO root fetch - processPackages [ragger]: executing diffoscope
+[2023-07-07 14:46:04] INFO root fetch - processPackages [ragger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragger-1.9.1.tar.gz tmp/ragger-1.9.2.tar.gz --markdown 20230707/r/ragger/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-07 14:46:05] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230706-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-07 14:46:05] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230707-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-07 14:46:05] INFO root fetch - processPackages [bigdl-spark2]: Start processing: mlpype
+[2023-07-07 14:46:05] INFO root fetch - main [MainThread]: End processing [bigdl-spark2]: success
+[2023-07-07 14:46:05] INFO root fetch - processPackages [mlpype]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-07-07 14:46:05] INFO root fetch - processPackages [mlpype]: Downloading https://files.pythonhosted.org/packages/e0/c2/f0538352de7c45b701f568155e1831d63ad0142274dd887c0ceef3c723b1/mlpype-0.4.6.tar.gz
+[2023-07-07 14:46:05] INFO root fetch - processPackages [bluecast]: Remove: archive file [/home/abi/fetcher/tmp/bluecast-0.8.tar.gz]
+[2023-07-07 14:46:05] INFO root fetch - processPackages [bluecast]: Remove: archive file [/home/abi/fetcher/tmp/bluecast-0.9.tar.gz]
+[2023-07-07 14:46:05] INFO root fetch - processPackages [bluecast]: Start processing: mlpype-base
+[2023-07-07 14:46:05] INFO root fetch - main [MainThread]: End processing [bluecast]: success
+[2023-07-07 14:46:06] INFO root fetch - processPackages [mlpype]: Downloading https://files.pythonhosted.org/packages/86/78/0bf8b248d97a99b387d83f06da649d3114d9156bf0d0fdd62ec2912d8604/mlpype-0.4.7.tar.gz
+[2023-07-07 14:46:06] INFO root fetch - processPackages [mlpype-base]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-07-07 14:46:06] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230706-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-07 14:46:06] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230707-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-07 14:46:06] INFO root fetch - processPackages [bigdl-friesian-spark2]: Start processing: mlpype-fastapi
+[2023-07-07 14:46:06] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-07-07 14:46:06] INFO root fetch - processPackages [mlpype]: executing diffoscope
+[2023-07-07 14:46:06] INFO root fetch - processPackages [mlpype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpype-0.4.6.tar.gz tmp/mlpype-0.4.7.tar.gz --markdown 20230707/m/mlpype/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-07-07 14:46:06] INFO root fetch - processPackages [mlpype-fastapi]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-07-07 14:46:06] INFO root fetch - processPackages [mlpype-base]: Downloading https://files.pythonhosted.org/packages/30/84/a3b3f72d69aea3dab5b687af3b175a8d95dbb7422c2c6504111dc8e61278/mlpype-base-0.4.6.tar.gz
+[2023-07-07 14:46:06] INFO root fetch - processPackages [mlpype-fastapi]: Downloading https://files.pythonhosted.org/packages/42/4d/f7211ad272e4eba8677bffb832138fcce7051f9a11f1828e80e3e104e393/mlpype-fastapi-0.4.6.tar.gz
+[2023-07-07 14:46:06] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2023-07-07 14:46:06] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2023-07-07 14:46:06] INFO root fetch - processPackages [tensorcircuit-nightly]: Start processing: mlpype-hyperopt
+[2023-07-07 14:46:06] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-07-07 14:46:06] INFO root fetch - processPackages [ai-api-client-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ai_api_client_sdk-1.27.0-py3-none-any.whl.zip]
+[2023-07-07 14:46:06] INFO root fetch - processPackages [ai-api-client-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ai_api_client_sdk-1.28.0-py3-none-any.whl.zip]
+[2023-07-07 14:46:06] INFO root fetch - processPackages [ai-api-client-sdk]: Start processing: mlpype-mlflow
+[2023-07-07 14:46:06] INFO root fetch - main [MainThread]: End processing [ai-api-client-sdk]: success
+[2023-07-07 14:46:06] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230706-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-07 14:46:06] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230707-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-07 14:46:06] INFO root fetch - processPackages [bigdl-chronos-spark2]: Start processing: mlpype-sklearn
+[2023-07-07 14:46:06] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
+[2023-07-07 14:46:06] INFO root fetch - processPackages [mlpype-base]: Downloading https://files.pythonhosted.org/packages/21/cd/92aec3e3e9368c397107e8a744f6a4e7f2ace57cbe4170c9c9248d46afae/mlpype-base-0.4.7.tar.gz
+[2023-07-07 14:46:06] INFO root fetch - processPackages [mlpype-hyperopt]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-07-07 14:46:06] INFO root fetch - processPackages [linex2]: Remove: archive file [/home/abi/fetcher/tmp/linex2-1.1.8.tar.gz]
+[2023-07-07 14:46:06] INFO root fetch - processPackages [linex2]: Remove: archive file [/home/abi/fetcher/tmp/linex2-1.1.9.tar.gz]
+[2023-07-07 14:46:06] INFO root fetch - processPackages [linex2]: Start processing: LIB-ADTECH
+[2023-07-07 14:46:06] INFO root fetch - main [MainThread]: End processing [linex2]: success
+[2023-07-07 14:46:06] INFO root fetch - processPackages [mlpype-mlflow]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-07-07 14:46:06] INFO root fetch - processPackages [mlpype-sklearn]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-07-07 14:46:06] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz]
+[2023-07-07 14:46:06] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz]
+[2023-07-07 14:46:06] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Start processing: mlpype-spark
+[2023-07-07 14:46:06] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-07-07 14:46:06] WARNING root fetch - processPackages [LIB-ADTECH]: Skipping, unable to determine old version
+[2023-07-07 14:46:06] INFO root fetch - processPackages [LIB-ADTECH]: Start processing: mlpype-tensorflow
+[2023-07-07 14:46:06] INFO root fetch - main [MainThread]: End processing [LIB-ADTECH] error
+[2023-07-07 14:46:06] INFO root fetch - processPackages [mlpype-fastapi]: Downloading https://files.pythonhosted.org/packages/e2/4d/52948401f5d744b7e7d0d822ec003028d97e1f4b13d1b378a41dde6e7e9b/mlpype-fastapi-0.4.7.tar.gz
+[2023-07-07 14:46:06] INFO root fetch - processPackages [mlpype-base]: executing diffoscope
+[2023-07-07 14:46:06] INFO root fetch - processPackages [mlpype-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpype-base-0.4.6.tar.gz tmp/mlpype-base-0.4.7.tar.gz --markdown 20230707/m/mlpype-base/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-07-07 14:46:07] INFO root fetch - processPackages [ragger]: Remove: archive file [/home/abi/fetcher/tmp/ragger-1.9.1.tar.gz]
+[2023-07-07 14:46:07] INFO root fetch - processPackages [ragger]: Remove: archive file [/home/abi/fetcher/tmp/ragger-1.9.2.tar.gz]
+[2023-07-07 14:46:07] INFO root fetch - processPackages [ragger]: Start processing: mlpype-xgboost
+[2023-07-07 14:46:07] INFO root fetch - main [MainThread]: End processing [ragger]: success
+[2023-07-07 14:46:07] INFO root fetch - processPackages [mlpype-hyperopt]: Downloading https://files.pythonhosted.org/packages/35/3d/9b75e106f1146af43de67efa598767e83c71510b1d92bea1c3e478e1c266/mlpype-hyperopt-0.4.6.tar.gz
+[2023-07-07 14:46:07] INFO root fetch - processPackages [mlpype-spark]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-07-07 14:46:07] INFO root fetch - processPackages [mlpype-mlflow]: Downloading https://files.pythonhosted.org/packages/35/ad/acc1138721e8e76542c8d13f862a46823d92c5f4554536a8df9114f41428/mlpype-mlflow-0.4.6.tar.gz
+[2023-07-07 14:46:07] INFO root fetch - processPackages [mlpype-tensorflow]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-07-07 14:46:07] INFO root fetch - processPackages [mlpype-sklearn]: Downloading https://files.pythonhosted.org/packages/44/a9/2fbc4db06a30cce8b9b86ce4d7fe9fbb41ec375794d515d4b27bf502939b/mlpype-sklearn-0.4.6.tar.gz
+[2023-07-07 14:46:07] INFO root fetch - processPackages [mlpype-xgboost]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-07-07 14:46:07] INFO root fetch - processPackages [mlpype-fastapi]: executing diffoscope
+[2023-07-07 14:46:07] INFO root fetch - processPackages [mlpype-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpype-fastapi-0.4.6.tar.gz tmp/mlpype-fastapi-0.4.7.tar.gz --markdown 20230707/m/mlpype-fastapi/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-07-07 14:46:07] INFO root fetch - processPackages [mlpype-spark]: Downloading https://files.pythonhosted.org/packages/1f/4f/f3efe2e26cb2451c848f5f7ba7669cfef57e756eb94818a614f79ce456df/mlpype-spark-0.4.6.tar.gz
+[2023-07-07 14:46:07] INFO root fetch - processPackages [mlpype-tensorflow]: Downloading https://files.pythonhosted.org/packages/80/30/c0922fe3d3fd4af53d4c9566045e54c040c16c04ee14a1d9ffc080315254/mlpype-tensorflow-0.4.6.tar.gz
+[2023-07-07 14:46:07] INFO root fetch - processPackages [mlpype-xgboost]: Downloading https://files.pythonhosted.org/packages/5b/66/79b6ffd059b10f63ce57da8809f82d5867768ee4cc68c280fff118f80ed4/mlpype-xgboost-0.4.6.tar.gz
+[2023-07-07 14:46:07] INFO root fetch - processPackages [mlpype-hyperopt]: Downloading https://files.pythonhosted.org/packages/c8/1f/dfbca64e362605ba2f143a84023a4026492b8d766e500ccb50ebdfb31e9b/mlpype-hyperopt-0.4.7.tar.gz
+[2023-07-07 14:46:07] INFO root fetch - processPackages [mlpype-mlflow]: Downloading https://files.pythonhosted.org/packages/99/7a/f1fcde112d476b653eb1bce8f002d10651a78dce0c9a0369693ced4bc59a/mlpype-mlflow-0.4.7.tar.gz
+[2023-07-07 14:46:07] INFO root fetch - processPackages [mlpype-sklearn]: Downloading https://files.pythonhosted.org/packages/c4/cc/ef1702026f291b4bbe23309593826531fd9a1800e7553937879a9bcd0ff9/mlpype-sklearn-0.4.7.tar.gz
+[2023-07-07 14:46:07] INFO root fetch - processPackages [mlpype]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-0.4.6.tar.gz]
+[2023-07-07 14:46:07] INFO root fetch - processPackages [mlpype]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-0.4.7.tar.gz]
+[2023-07-07 14:46:07] INFO root fetch - processPackages [mlpype]: Start processing: assesment-creator
+[2023-07-07 14:46:07] INFO root fetch - main [MainThread]: End processing [mlpype]: success
+[2023-07-07 14:46:07] INFO root fetch - processPackages [mlpype-hyperopt]: executing diffoscope
+[2023-07-07 14:46:07] INFO root fetch - processPackages [mlpype-hyperopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpype-hyperopt-0.4.6.tar.gz tmp/mlpype-hyperopt-0.4.7.tar.gz --markdown 20230707/m/mlpype-hyperopt/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-07-07 14:46:07] INFO root fetch - processPackages [mlpype-spark]: Downloading https://files.pythonhosted.org/packages/8a/dc/1bbfd2faa9c09327748b4d3b9703a4408167a790a8846db39ff74d3108e6/mlpype-spark-0.4.7.tar.gz
+[2023-07-07 14:46:07] INFO root fetch - processPackages [mlpype-mlflow]: executing diffoscope
+[2023-07-07 14:46:07] INFO root fetch - processPackages [mlpype-mlflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpype-mlflow-0.4.6.tar.gz tmp/mlpype-mlflow-0.4.7.tar.gz --markdown 20230707/m/mlpype-mlflow/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-07-07 14:46:07] WARNING root fetch - processPackages [assesment-creator]: Skipping, unable to determine old version
+[2023-07-07 14:46:07] INFO root fetch - main [MainThread]: End processing [assesment-creator] error
+[2023-07-07 14:46:07] INFO root fetch - processPackages [mlpype-tensorflow]: Downloading https://files.pythonhosted.org/packages/f1/e8/aca6c3ab9ee2ac4212b73af1f5072ebca1691d5d4183188d9088d534f483/mlpype-tensorflow-0.4.7.tar.gz
+[2023-07-07 14:46:07] INFO root fetch - processPackages [mlpype-sklearn]: executing diffoscope
+[2023-07-07 14:46:07] INFO root fetch - processPackages [mlpype-sklearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpype-sklearn-0.4.6.tar.gz tmp/mlpype-sklearn-0.4.7.tar.gz --markdown 20230707/m/mlpype-sklearn/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-07-07 14:46:07] INFO root fetch - processPackages [mlpype-xgboost]: Downloading https://files.pythonhosted.org/packages/43/0d/2385081306603f285197e069ffdacf29122191bed466e77ba8024e13b725/mlpype-xgboost-0.4.7.tar.gz
+[2023-07-07 14:46:08] INFO root fetch - processPackages [mlpype-spark]: executing diffoscope
+[2023-07-07 14:46:08] INFO root fetch - processPackages [mlpype-spark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpype-spark-0.4.6.tar.gz tmp/mlpype-spark-0.4.7.tar.gz --markdown 20230707/m/mlpype-spark/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-07-07 14:46:08] INFO root fetch - processPackages [mlpype-base]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-base-0.4.6.tar.gz]
+[2023-07-07 14:46:08] INFO root fetch - processPackages [mlpype-base]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-base-0.4.7.tar.gz]
+[2023-07-07 14:46:08] INFO root fetch - main [MainThread]: End processing [mlpype-base]: success
+[2023-07-07 14:46:08] INFO root fetch - processPackages [mlpype-tensorflow]: executing diffoscope
+[2023-07-07 14:46:08] INFO root fetch - processPackages [mlpype-tensorflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpype-tensorflow-0.4.6.tar.gz tmp/mlpype-tensorflow-0.4.7.tar.gz --markdown 20230707/m/mlpype-tensorflow/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-07-07 14:46:08] INFO root fetch - processPackages [mlpype-xgboost]: executing diffoscope
+[2023-07-07 14:46:08] INFO root fetch - processPackages [mlpype-xgboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpype-xgboost-0.4.6.tar.gz tmp/mlpype-xgboost-0.4.7.tar.gz --markdown 20230707/m/mlpype-xgboost/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-07-07 14:46:08] INFO root fetch - processPackages [mlpype-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-fastapi-0.4.6.tar.gz]
+[2023-07-07 14:46:08] INFO root fetch - processPackages [mlpype-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-fastapi-0.4.7.tar.gz]
+[2023-07-07 14:46:08] INFO root fetch - main [MainThread]: End processing [mlpype-fastapi]: success
+[2023-07-07 14:46:08] INFO root fetch - processPackages [mlpype-hyperopt]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-hyperopt-0.4.6.tar.gz]
+[2023-07-07 14:46:08] INFO root fetch - processPackages [mlpype-hyperopt]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-hyperopt-0.4.7.tar.gz]
+[2023-07-07 14:46:08] INFO root fetch - main [MainThread]: End processing [mlpype-hyperopt]: success
+[2023-07-07 14:46:08] INFO root fetch - processPackages [mlpype-sklearn]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-sklearn-0.4.6.tar.gz]
+[2023-07-07 14:46:08] INFO root fetch - processPackages [mlpype-sklearn]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-sklearn-0.4.7.tar.gz]
+[2023-07-07 14:46:08] INFO root fetch - main [MainThread]: End processing [mlpype-sklearn]: success
+[2023-07-07 14:46:08] INFO root fetch - processPackages [mlpype-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-mlflow-0.4.6.tar.gz]
+[2023-07-07 14:46:08] INFO root fetch - processPackages [mlpype-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-mlflow-0.4.7.tar.gz]
+[2023-07-07 14:46:08] INFO root fetch - main [MainThread]: End processing [mlpype-mlflow]: success
+[2023-07-07 14:46:09] INFO root fetch - processPackages [keras-cv]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv-0.5.0-py3-none-any.whl.zip]
+[2023-07-07 14:46:09] INFO root fetch - processPackages [keras-cv]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv-0.5.1-py3-none-any.whl.zip]
+[2023-07-07 14:46:09] INFO root fetch - main [MainThread]: End processing [keras-cv]: success
+[2023-07-07 14:46:09] INFO root fetch - processPackages [mlpype-tensorflow]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-tensorflow-0.4.6.tar.gz]
+[2023-07-07 14:46:09] INFO root fetch - processPackages [mlpype-tensorflow]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-tensorflow-0.4.7.tar.gz]
+[2023-07-07 14:46:09] INFO root fetch - main [MainThread]: End processing [mlpype-tensorflow]: success
+[2023-07-07 14:46:09] INFO root fetch - processPackages [mlpype-xgboost]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-xgboost-0.4.6.tar.gz]
+[2023-07-07 14:46:09] INFO root fetch - processPackages [mlpype-xgboost]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-xgboost-0.4.7.tar.gz]
+[2023-07-07 14:46:09] INFO root fetch - main [MainThread]: End processing [mlpype-xgboost]: success
+[2023-07-07 14:46:09] INFO root fetch - processPackages [mlpype-spark]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-spark-0.4.6.tar.gz]
+[2023-07-07 14:46:09] INFO root fetch - processPackages [mlpype-spark]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-spark-0.4.7.tar.gz]
+[2023-07-07 14:46:09] INFO root fetch - main [MainThread]: End processing [mlpype-spark]: success
+[2023-07-07 14:46:09] INFO root fetch - main [MainThread]: Store serial: [18800534]
