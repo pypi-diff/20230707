@@ -9854,3 +9854,87 @@ EOFError: EOF read where object expected
 [2023-07-07 04:35:26] INFO root fetch - processPackages [edustudio]: Remove: archive file [/home/abi/fetcher/tmp/edustudio-1.0.0a5-py3-none-any.whl.zip]
 [2023-07-07 04:35:26] INFO root fetch - main [MainThread]: End processing [edustudio]: success
 [2023-07-07 04:35:26] INFO root fetch - main [MainThread]: Store serial: [18795230]
+[2023-07-07 04:40:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18795230]
+[2023-07-07 04:40:35] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-07 04:40:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oganesson
+[2023-07-07 04:40:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pure-ocean-breeze
+[2023-07-07 04:40:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: beastiary
+[2023-07-07 04:40:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: android-sdk-supporter
+[2023-07-07 04:40:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: creativecontrol-circuitpython-ltc166x
+[2023-07-07 04:40:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iformat
+[2023-07-07 04:40:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: voicemeeter-compact
+[2023-07-07 04:40:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hubotlibs
+[2023-07-07 04:40:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: emailalert
+[2023-07-07 04:40:35] INFO root fetch - processPackages [iformat]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-07 04:40:35] INFO root fetch - processPackages [voicemeeter-compact]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-07-07 04:40:35] INFO root fetch - processPackages [creativecontrol-circuitpython-ltc166x]: New version: [1.2.1] Old Version: [1.1]
+[2023-07-07 04:40:35] INFO root fetch - processPackages [oganesson]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-07 04:40:35] INFO root fetch - processPackages [emailalert]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-07-07 04:40:35] INFO root fetch - processPackages [android-sdk-supporter]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-07 04:40:35] INFO root fetch - processPackages [hubotlibs]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-07-07 04:40:35] INFO root fetch - processPackages [beastiary]: New version: [1.7.0] Old Version: [1.6.1]
+[2023-07-07 04:40:35] INFO root fetch - processPackages [pure-ocean-breeze]: New version: [4.0.5] Old Version: [4.0.4]
+[2023-07-07 04:40:35] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/b9/2e/b3512141e74e0df7e6713de36e0002e7cd873b051d7f587e68a2d99c0b5c/emailalert-1.4.3.tar.gz
+[2023-07-07 04:40:35] INFO root fetch - processPackages [hubotlibs]: Downloading https://files.pythonhosted.org/packages/66/15/bb956b4c46c8f34db1fa9b8bf2686603092b02b32debc0e5b3bca894d2de/hubotlibs-0.2.9.tar.gz
+[2023-07-07 04:40:35] INFO root fetch - processPackages [android-sdk-supporter]: Downloading https://files.pythonhosted.org/packages/6e/e7/1de1810573b2e52fe3624369d6e0b5986df009434eb97713cb17fe09426e/android-sdk-supporter-0.0.1.tar.gz
+[2023-07-07 04:40:35] INFO root fetch - processPackages [pure-ocean-breeze]: Downloading https://files.pythonhosted.org/packages/8b/ab/d5874957ffabd2c88912324572d10d1c1a0674284513632d4d8cf78aea98/pure_ocean_breeze-4.0.4.tar.gz
+[2023-07-07 04:40:35] INFO root fetch - processPackages [voicemeeter-compact]: Downloading https://files.pythonhosted.org/packages/3b/94/5e15043d2a39dfdd9d729021561c9b73285600f738a17a256bfef4712021/voicemeeter_compact-1.8.2.tar.gz
+[2023-07-07 04:40:35] INFO root fetch - processPackages [oganesson]: Downloading https://files.pythonhosted.org/packages/f9/e7/aa252d5ddaadcb3e9082066d847e908eca0104af2d11ea5a00e7c1dc42f7/oganesson-0.1.7.tar.gz
+[2023-07-07 04:40:35] INFO root fetch - processPackages [iformat]: Downloading https://files.pythonhosted.org/packages/7a/7c/ac841d4d1c0f253e989e3c0e59fb2c96742781292fc55f4df3e846453871/iformat-0.3.2.tar.gz
+[2023-07-07 04:40:35] INFO root fetch - processPackages [creativecontrol-circuitpython-ltc166x]: Downloading https://files.pythonhosted.org/packages/0a/4b/342ec1eab7c3321d0a744e625e270abe7d5f7c85f5a63c7d7452cd7d033f/creativecontrol-circuitpython-ltc166x-1.1.tar.gz
+[2023-07-07 04:40:35] INFO root fetch - processPackages [beastiary]: Downloading https://files.pythonhosted.org/packages/f5/1d/6731c9947b933d4ed556cbbe119e02e77060895265eebc1fee0a208d1328/beastiary-1.6.1.tar.gz
+[2023-07-07 04:40:36] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/65/04/4c773aef0a678afeaa0cd65d7829423a2c1f321a5d3bca3b824eafe58fb6/emailalert-1.4.4.tar.gz
+[2023-07-07 04:40:36] INFO root fetch - processPackages [emailalert]: executing diffoscope
+[2023-07-07 04:40:36] INFO root fetch - processPackages [emailalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailalert-1.4.3.tar.gz tmp/emailalert-1.4.4.tar.gz --markdown 20230707/e/emailalert/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-07-07 04:40:36] INFO root fetch - processPackages [android-sdk-supporter]: Downloading https://files.pythonhosted.org/packages/06/34/46b8e9fea618a3487db744ba4368c1f79468c79faca03d4a7a4ae3dc0094/android-sdk-supporter-0.0.2.tar.gz
+[2023-07-07 04:40:36] INFO root fetch - processPackages [hubotlibs]: Downloading https://files.pythonhosted.org/packages/87/7d/aeb2b0006b016c10fe27d85cd06e248b4ad1073ef0c94fe07166c468ec40/hubotlibs-0.3.0.tar.gz
+[2023-07-07 04:40:36] INFO root fetch - processPackages [voicemeeter-compact]: Downloading https://files.pythonhosted.org/packages/b9/35/efcee1a6574f536e5392b6e5b41c156339231131ab5f5add1d96cc79fae5/voicemeeter_compact-1.8.3.tar.gz
+[2023-07-07 04:40:36] INFO root fetch - processPackages [iformat]: Downloading https://files.pythonhosted.org/packages/34/28/934f44894ee095fe8a3dbe89b2c4a4b7f05b51bbd2acc5dd25390dcd2720/iformat-0.3.3.tar.gz
+[2023-07-07 04:40:36] INFO root fetch - processPackages [oganesson]: Downloading https://files.pythonhosted.org/packages/5a/16/eb08948b07191480b03a8bfac4c5f9a14865543131abac8c609c459a3005/oganesson-0.1.8.tar.gz
+[2023-07-07 04:40:36] INFO root fetch - processPackages [creativecontrol-circuitpython-ltc166x]: Downloading https://files.pythonhosted.org/packages/f0/30/70fa7b6a698f05aa72eead2a36aec8b276ee72153d81f241fd09edd759c4/creativecontrol-circuitpython-ltc166x-1.2.1.tar.gz
+[2023-07-07 04:40:36] INFO root fetch - processPackages [pure-ocean-breeze]: Downloading https://files.pythonhosted.org/packages/62/b1/d30c9e8060c0ea33bda12c9ec47eadec78bdb7a53950a45337b87ed8977c/pure_ocean_breeze-4.0.5.tar.gz
+[2023-07-07 04:40:36] INFO root fetch - processPackages [hubotlibs]: executing diffoscope
+[2023-07-07 04:40:36] INFO root fetch - processPackages [hubotlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubotlibs-0.2.9.tar.gz tmp/hubotlibs-0.3.0.tar.gz --markdown 20230707/h/hubotlibs/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-07-07 04:40:36] INFO root fetch - processPackages [android-sdk-supporter]: executing diffoscope
+[2023-07-07 04:40:36] INFO root fetch - processPackages [android-sdk-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/android-sdk-supporter-0.0.1.tar.gz tmp/android-sdk-supporter-0.0.2.tar.gz --markdown 20230707/a/android-sdk-supporter/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-07 04:40:36] INFO root fetch - processPackages [voicemeeter-compact]: executing diffoscope
+[2023-07-07 04:40:36] INFO root fetch - processPackages [voicemeeter-compact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicemeeter_compact-1.8.2.tar.gz tmp/voicemeeter_compact-1.8.3.tar.gz --markdown 20230707/v/voicemeeter-compact/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-07-07 04:40:36] INFO root fetch - processPackages [iformat]: executing diffoscope
+[2023-07-07 04:40:36] INFO root fetch - processPackages [iformat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iformat-0.3.2.tar.gz tmp/iformat-0.3.3.tar.gz --markdown 20230707/i/iformat/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-07 04:40:36] INFO root fetch - processPackages [oganesson]: executing diffoscope
+[2023-07-07 04:40:36] INFO root fetch - processPackages [oganesson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oganesson-0.1.7.tar.gz tmp/oganesson-0.1.8.tar.gz --markdown 20230707/o/oganesson/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-07 04:40:36] INFO root fetch - processPackages [pure-ocean-breeze]: executing diffoscope
+[2023-07-07 04:40:36] INFO root fetch - processPackages [pure-ocean-breeze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pure_ocean_breeze-4.0.4.tar.gz tmp/pure_ocean_breeze-4.0.5.tar.gz --markdown 20230707/p/pure-ocean-breeze/4.0.4-4.0.5/diff.md --exclude *.pyd
+[2023-07-07 04:40:36] INFO root fetch - processPackages [creativecontrol-circuitpython-ltc166x]: executing diffoscope
+[2023-07-07 04:40:36] INFO root fetch - processPackages [creativecontrol-circuitpython-ltc166x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/creativecontrol-circuitpython-ltc166x-1.1.tar.gz tmp/creativecontrol-circuitpython-ltc166x-1.2.1.tar.gz --markdown 20230707/c/creativecontrol-circuitpython-ltc166x/1.1-1.2.1/diff.md --exclude *.pyd
+[2023-07-07 04:40:36] INFO root fetch - processPackages [beastiary]: Downloading https://files.pythonhosted.org/packages/9f/2e/b22ecc7573b2862dc613e613b03b0d8e3903a83ba9363203d3d5018023de/beastiary-1.7.0.tar.gz
+[2023-07-07 04:40:37] INFO root fetch - processPackages [beastiary]: executing diffoscope
+[2023-07-07 04:40:37] INFO root fetch - processPackages [beastiary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beastiary-1.6.1.tar.gz tmp/beastiary-1.7.0.tar.gz --markdown 20230707/b/beastiary/1.6.1-1.7.0/diff.md --exclude *.pyd
+[2023-07-07 04:40:37] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.4.3.tar.gz]
+[2023-07-07 04:40:37] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.4.4.tar.gz]
+[2023-07-07 04:40:37] INFO root fetch - main [MainThread]: End processing [emailalert]: success
+[2023-07-07 04:40:38] INFO root fetch - processPackages [iformat]: Remove: archive file [/home/abi/fetcher/tmp/iformat-0.3.2.tar.gz]
+[2023-07-07 04:40:38] INFO root fetch - processPackages [iformat]: Remove: archive file [/home/abi/fetcher/tmp/iformat-0.3.3.tar.gz]
+[2023-07-07 04:40:38] INFO root fetch - main [MainThread]: End processing [iformat]: success
+[2023-07-07 04:40:38] INFO root fetch - processPackages [android-sdk-supporter]: Remove: archive file [/home/abi/fetcher/tmp/android-sdk-supporter-0.0.1.tar.gz]
+[2023-07-07 04:40:38] INFO root fetch - processPackages [android-sdk-supporter]: Remove: archive file [/home/abi/fetcher/tmp/android-sdk-supporter-0.0.2.tar.gz]
+[2023-07-07 04:40:38] INFO root fetch - main [MainThread]: End processing [android-sdk-supporter]: success
+[2023-07-07 04:40:38] INFO root fetch - processPackages [oganesson]: Remove: archive file [/home/abi/fetcher/tmp/oganesson-0.1.7.tar.gz]
+[2023-07-07 04:40:38] INFO root fetch - processPackages [oganesson]: Remove: archive file [/home/abi/fetcher/tmp/oganesson-0.1.8.tar.gz]
+[2023-07-07 04:40:38] INFO root fetch - main [MainThread]: End processing [oganesson]: success
+[2023-07-07 04:40:38] INFO root fetch - processPackages [creativecontrol-circuitpython-ltc166x]: Remove: archive file [/home/abi/fetcher/tmp/creativecontrol-circuitpython-ltc166x-1.1.tar.gz]
+[2023-07-07 04:40:38] INFO root fetch - processPackages [creativecontrol-circuitpython-ltc166x]: Remove: archive file [/home/abi/fetcher/tmp/creativecontrol-circuitpython-ltc166x-1.2.1.tar.gz]
+[2023-07-07 04:40:38] INFO root fetch - main [MainThread]: End processing [creativecontrol-circuitpython-ltc166x]: success
+[2023-07-07 04:40:38] INFO root fetch - processPackages [voicemeeter-compact]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter_compact-1.8.2.tar.gz]
+[2023-07-07 04:40:38] INFO root fetch - processPackages [voicemeeter-compact]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter_compact-1.8.3.tar.gz]
+[2023-07-07 04:40:38] INFO root fetch - main [MainThread]: End processing [voicemeeter-compact]: success
+[2023-07-07 04:40:38] INFO root fetch - processPackages [hubotlibs]: Remove: archive file [/home/abi/fetcher/tmp/hubotlibs-0.2.9.tar.gz]
+[2023-07-07 04:40:38] INFO root fetch - processPackages [hubotlibs]: Remove: archive file [/home/abi/fetcher/tmp/hubotlibs-0.3.0.tar.gz]
+[2023-07-07 04:40:38] INFO root fetch - main [MainThread]: End processing [hubotlibs]: success
+[2023-07-07 04:40:38] INFO root fetch - processPackages [pure-ocean-breeze]: Remove: archive file [/home/abi/fetcher/tmp/pure_ocean_breeze-4.0.4.tar.gz]
+[2023-07-07 04:40:38] INFO root fetch - processPackages [pure-ocean-breeze]: Remove: archive file [/home/abi/fetcher/tmp/pure_ocean_breeze-4.0.5.tar.gz]
+[2023-07-07 04:40:38] INFO root fetch - main [MainThread]: End processing [pure-ocean-breeze]: success
+[2023-07-07 04:40:39] INFO root fetch - processPackages [beastiary]: Remove: archive file [/home/abi/fetcher/tmp/beastiary-1.6.1.tar.gz]
+[2023-07-07 04:40:39] INFO root fetch - processPackages [beastiary]: Remove: archive file [/home/abi/fetcher/tmp/beastiary-1.7.0.tar.gz]
+[2023-07-07 04:40:39] INFO root fetch - main [MainThread]: End processing [beastiary]: success
+[2023-07-07 04:40:39] INFO root fetch - main [MainThread]: Store serial: [18795259]
