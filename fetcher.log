@@ -16528,3 +16528,215 @@ EOFError: EOF read where object expected
 [2023-07-07 11:04:02] INFO root fetch - processPackages [tungstenkit]: Remove: archive file [/home/abi/fetcher/tmp/tungstenkit-0.1.2.tar.gz]
 [2023-07-07 11:04:02] INFO root fetch - main [MainThread]: End processing [tungstenkit]: success
 [2023-07-07 11:04:02] INFO root fetch - main [MainThread]: Store serial: [18797916]
+[2023-07-07 11:09:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18797916]
+[2023-07-07 11:09:11] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-07-07 11:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autogluon.common
+[2023-07-07 11:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: compare-dfs
+[2023-07-07 11:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autogluon.core
+[2023-07-07 11:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flet-core
+[2023-07-07 11:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flet-runtime
+[2023-07-07 11:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autogluon.features
+[2023-07-07 11:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flet-embed
+[2023-07-07 11:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flet
+[2023-07-07 11:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autogluon.tabular
+[2023-07-07 11:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autogluon.multimodal
+[2023-07-07 11:09:11] INFO root fetch - processPackages [flet-core]: New version: [0.9.0.dev1606] Old Version: [0.9.0.dev1605]
+[2023-07-07 11:09:11] INFO root fetch - processPackages [flet-embed]: New version: [0.9.0.dev1606] Old Version: [0.9.0.dev1605]
+[2023-07-07 11:09:11] INFO root fetch - processPackages [compare-dfs]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-07 11:09:11] INFO root fetch - processPackages [flet-runtime]: New version: [0.9.0.dev1606] Old Version: [0.9.0.dev1605]
+[2023-07-07 11:09:11] INFO root fetch - processPackages [autogluon.common]: New version: [0.8.3b20230707] Old Version: [0.8.2b20230706]
+[2023-07-07 11:09:11] INFO root fetch - processPackages [flet]: New version: [0.9.0.dev1606] Old Version: [0.9.0.dev1605]
+[2023-07-07 11:09:11] INFO root fetch - processPackages [autogluon.multimodal]: New version: [0.8.2b20230706] Old Version: [0.8.2b20230705]
+[2023-07-07 11:09:11] INFO root fetch - processPackages [autogluon.features]: New version: [0.8.3b20230707] Old Version: [0.8.2b20230706]
+[2023-07-07 11:09:11] INFO root fetch - processPackages [autogluon.tabular]: New version: [0.8.3b20230707] Old Version: [0.8.2b20230706]
+[2023-07-07 11:09:11] INFO root fetch - processPackages [autogluon.core]: New version: [0.8.3b20230707] Old Version: [0.8.2b20230706]
+[2023-07-07 11:09:11] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/b9/b3/b85b8ce1a80f80c0940dfcc05a0bbe95cf953319e08e00073f8bf76ea47f/autogluon.multimodal-0.8.2b20230705.tar.gz
+[2023-07-07 11:09:11] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/a1/18/e9f4108c46425a090844f75fa197c1c63a1c6cd43e8d1e8ec528f76eb2d9/flet_embed-0.9.0.dev1605.tar.gz
+[2023-07-07 11:09:11] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/ae/f8/0b1c3a43f3a2740d8a1c5323321cb4491a2460e5683bd657fab3d7239a8b/flet_core-0.9.0.dev1605.tar.gz
+[2023-07-07 11:09:11] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/98/8a/89b8de96a2e2376cc120c9f7b950667270853df9bfbb4eafbe3abe7b2141/flet_runtime-0.9.0.dev1605.tar.gz
+[2023-07-07 11:09:11] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/13/2a/91bfcbfbd767308963c08c4421585113724b89e77633dad9a9e63b979115/flet-0.9.0.dev1605.tar.gz
+[2023-07-07 11:09:11] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/0b/65/54a3be0d926e14c72d9c1befcee949aaa2ecebd1fe62af08597b64b82886/autogluon.common-0.8.2b20230706.tar.gz
+[2023-07-07 11:09:11] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/0a/c5/89846d818f470e557cca2bd52d7aba9b0eff28f75c006d6d7145a259eefc/autogluon.features-0.8.2b20230706.tar.gz
+[2023-07-07 11:09:11] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/3c/ff/fd36fe219aba03108af6ffb4147dc3007256f1de7bd5ed7243c281110a71/autogluon.core-0.8.2b20230706.tar.gz
+[2023-07-07 11:09:11] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/08/2f/ccc8c822e00f68f5646007127df63334ffe948c1ef313c2983d243bb8e1a/autogluon.tabular-0.8.2b20230706.tar.gz
+[2023-07-07 11:09:12] INFO root fetch - processPackages [compare-dfs]: Downloading https://files.pythonhosted.org/packages/a4/d5/b508738bbc7b94caa188af6c611dd840dfad1abd6a4537602fcf4d1b12f2/compare_dfs-0.0.3.tar.gz
+[2023-07-07 11:09:12] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/ef/c7/5e8ee98c47f795118b5f4ac043f83dc2686e7dc8775e0c83764b02e4766f/flet_embed-0.9.0.dev1606.tar.gz
+[2023-07-07 11:09:12] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/15/fe/20a282e228dc22a3a7d9e40896f4d3b9fe189f8712fed4a5d55a21b9b19d/flet_runtime-0.9.0.dev1606.tar.gz
+[2023-07-07 11:09:12] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/5b/10/adb843bd1084b36e67af55453bee45c55293a83310993a448c9e18abdaae/autogluon.multimodal-0.8.2b20230706.tar.gz
+[2023-07-07 11:09:12] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/96/c2/65618798b8d89baa5d467ace7407c5b48784584494c2696075c59d6bd3fd/flet_core-0.9.0.dev1606.tar.gz
+[2023-07-07 11:09:12] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/0c/41/8e53f30d342304d4a60e0141d721a09b717830ac6ade1374dced4627a5c1/autogluon.common-0.8.3b20230707.tar.gz
+[2023-07-07 11:09:12] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/e1/f8/8fefbe96f34aedbedc77518308bb4db34cee664c733d2b22166687f4c0e3/autogluon.features-0.8.3b20230707.tar.gz
+[2023-07-07 11:09:12] INFO root fetch - processPackages [compare-dfs]: executing diffoscope
+[2023-07-07 11:09:12] INFO root fetch - processPackages [compare-dfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compare_dfs-0.0.2.tar.gz tmp/compare_dfs-0.0.3.tar.gz --markdown 20230707/c/compare-dfs/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-07 11:09:12] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/49/ba/4d5cc46b6479dcae9f23fc48e936649a35303fb0df07de7f260429349824/autogluon.core-0.8.3b20230707.tar.gz
+[2023-07-07 11:09:12] INFO root fetch - processPackages [flet-embed]: executing diffoscope
+[2023-07-07 11:09:12] INFO root fetch - processPackages [flet-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_embed-0.9.0.dev1605.tar.gz tmp/flet_embed-0.9.0.dev1606.tar.gz --markdown 20230707/f/flet-embed/0.9.0.dev1605-0.9.0.dev1606/diff.md --exclude *.pyd
+[2023-07-07 11:09:12] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/28/fb/6a83434a4a10f2182247f52e45c306ec2b895386a2adcf68bf45b9a9d205/autogluon.tabular-0.8.3b20230707.tar.gz
+[2023-07-07 11:09:12] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/54/2d/f0971ac6fae91d2965e7df5c1156cf8300ff8bda609bebe3d609d88149dc/flet-0.9.0.dev1606.tar.gz
+[2023-07-07 11:09:12] INFO root fetch - processPackages [flet-runtime]: executing diffoscope
+[2023-07-07 11:09:12] INFO root fetch - processPackages [flet-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_runtime-0.9.0.dev1605.tar.gz tmp/flet_runtime-0.9.0.dev1606.tar.gz --markdown 20230707/f/flet-runtime/0.9.0.dev1605-0.9.0.dev1606/diff.md --exclude *.pyd
+[2023-07-07 11:09:12] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2023-07-07 11:09:12] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-0.8.2b20230705.tar.gz tmp/autogluon.multimodal-0.8.2b20230706.tar.gz --markdown 20230707/a/autogluon.multimodal/0.8.2b20230705-0.8.2b20230706/diff.md --exclude *.pyd
+[2023-07-07 11:09:12] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2023-07-07 11:09:12] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-0.8.2b20230706.tar.gz tmp/autogluon.common-0.8.3b20230707.tar.gz --markdown 20230707/a/autogluon.common/0.8.2b20230706-0.8.3b20230707/diff.md --exclude *.pyd
+[2023-07-07 11:09:12] INFO root fetch - processPackages [flet-core]: executing diffoscope
+[2023-07-07 11:09:12] INFO root fetch - processPackages [flet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_core-0.9.0.dev1605.tar.gz tmp/flet_core-0.9.0.dev1606.tar.gz --markdown 20230707/f/flet-core/0.9.0.dev1605-0.9.0.dev1606/diff.md --exclude *.pyd
+[2023-07-07 11:09:12] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2023-07-07 11:09:12] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-0.8.2b20230706.tar.gz tmp/autogluon.features-0.8.3b20230707.tar.gz --markdown 20230707/a/autogluon.features/0.8.2b20230706-0.8.3b20230707/diff.md --exclude *.pyd
+[2023-07-07 11:09:12] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2023-07-07 11:09:12] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-0.8.2b20230706.tar.gz tmp/autogluon.core-0.8.3b20230707.tar.gz --markdown 20230707/a/autogluon.core/0.8.2b20230706-0.8.3b20230707/diff.md --exclude *.pyd
+[2023-07-07 11:09:12] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2023-07-07 11:09:12] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-0.8.2b20230706.tar.gz tmp/autogluon.tabular-0.8.3b20230707.tar.gz --markdown 20230707/a/autogluon.tabular/0.8.2b20230706-0.8.3b20230707/diff.md --exclude *.pyd
+[2023-07-07 11:09:13] INFO root fetch - processPackages [flet]: executing diffoscope
+[2023-07-07 11:09:13] INFO root fetch - processPackages [flet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-0.9.0.dev1605.tar.gz tmp/flet-0.9.0.dev1606.tar.gz --markdown 20230707/f/flet/0.9.0.dev1605-0.9.0.dev1606/diff.md --exclude *.pyd
+[2023-07-07 11:09:13] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.9.0.dev1605.tar.gz]
+[2023-07-07 11:09:13] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.9.0.dev1606.tar.gz]
+[2023-07-07 11:09:13] INFO root fetch - processPackages [flet-embed]: Start processing: autogluon.timeseries
+[2023-07-07 11:09:13] INFO root fetch - main [MainThread]: End processing [flet-embed]: success
+[2023-07-07 11:09:13] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.9.0.dev1605.tar.gz]
+[2023-07-07 11:09:13] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.9.0.dev1606.tar.gz]
+[2023-07-07 11:09:13] INFO root fetch - processPackages [flet-runtime]: Start processing: multiPrime
+[2023-07-07 11:09:13] INFO root fetch - main [MainThread]: End processing [flet-runtime]: success
+[2023-07-07 11:09:13] INFO root fetch - processPackages [compare-dfs]: Remove: archive file [/home/abi/fetcher/tmp/compare_dfs-0.0.2.tar.gz]
+[2023-07-07 11:09:13] INFO root fetch - processPackages [compare-dfs]: Remove: archive file [/home/abi/fetcher/tmp/compare_dfs-0.0.3.tar.gz]
+[2023-07-07 11:09:13] INFO root fetch - processPackages [compare-dfs]: Start processing: autogluon.cloud
+[2023-07-07 11:09:14] INFO root fetch - main [MainThread]: End processing [compare-dfs]: success
+[2023-07-07 11:09:14] INFO root fetch - processPackages [autogluon.timeseries]: New version: [0.8.2b20230706] Old Version: [0.8.2b20230705]
+[2023-07-07 11:09:14] INFO root fetch - processPackages [autogluon.cloud]: New version: [0.2.1b20230706] Old Version: [0.2.1b20230705]
+[2023-07-07 11:09:14] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/f1/6a/a6e00162963e22563e24849f27a16096dc12b6efe9a979a9f5eb23a505a2/autogluon.timeseries-0.8.2b20230705.tar.gz
+[2023-07-07 11:09:14] INFO root fetch - processPackages [multiPrime]: New version: [2.4.6] Old Version: [2.4.5]
+[2023-07-07 11:09:14] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/20/30/b8cd9b34e702be72a594264731aa29e39ca75fe57ff316282771d402eafb/autogluon.cloud-0.2.1b20230705.tar.gz
+[2023-07-07 11:09:14] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-0.8.2b20230706.tar.gz]
+[2023-07-07 11:09:14] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-0.8.3b20230707.tar.gz]
+[2023-07-07 11:09:14] INFO root fetch - processPackages [autogluon.features]: Start processing: autogluon
+[2023-07-07 11:09:14] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2023-07-07 11:09:14] INFO root fetch - processPackages [multiPrime]: Downloading https://files.pythonhosted.org/packages/75/fa/08582d0f713c232473199365b8db6940b0ffb8ccc8742915795cdaffa5bb/multiPrime-2.4.5.tar.gz
+[2023-07-07 11:09:14] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-0.8.2b20230706.tar.gz]
+[2023-07-07 11:09:14] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-0.8.3b20230707.tar.gz]
+[2023-07-07 11:09:14] INFO root fetch - processPackages [autogluon.common]: Start processing: sc-cc-ng-models-python
+[2023-07-07 11:09:14] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2023-07-07 11:09:14] INFO root fetch - processPackages [autogluon]: New version: [0.8.2b20230706] Old Version: [0.8.2b20230705]
+[2023-07-07 11:09:14] INFO root fetch - processPackages [sc-cc-ng-models-python]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-07 11:09:14] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/7e/8c/114a71d750910acf0e64b0e84dfde290cf4241f07e3612bffee79a258afa/autogluon.timeseries-0.8.2b20230706.tar.gz
+[2023-07-07 11:09:14] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/e1/64/686cae6118f54a13e40c778952997b166c73cf708ebfec52cb2c26ae472b/autogluon-0.8.2b20230705.tar.gz
+[2023-07-07 11:09:14] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-0.8.2b20230706.tar.gz]
+[2023-07-07 11:09:14] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-0.8.3b20230707.tar.gz]
+[2023-07-07 11:09:14] INFO root fetch - processPackages [autogluon.core]: Start processing: flet-pyodide
+[2023-07-07 11:09:14] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2023-07-07 11:09:14] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/ec/9e/03e46260c2a97c35c3497fb1dcc5db06431a20c7452b1dfe70b2c583111e/autogluon.cloud-0.2.1b20230706.tar.gz
+[2023-07-07 11:09:14] INFO root fetch - processPackages [flet-pyodide]: New version: [0.9.0.dev1605] Old Version: [0.9.0.dev1604]
+[2023-07-07 11:09:14] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2023-07-07 11:09:14] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-0.8.2b20230705.tar.gz tmp/autogluon.timeseries-0.8.2b20230706.tar.gz --markdown 20230707/a/autogluon.timeseries/0.8.2b20230705-0.8.2b20230706/diff.md --exclude *.pyd
+[2023-07-07 11:09:14] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-0.8.2b20230705.tar.gz]
+[2023-07-07 11:09:14] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-0.8.2b20230706.tar.gz]
+[2023-07-07 11:09:14] INFO root fetch - processPackages [autogluon.multimodal]: Start processing: autogluon.eda
+[2023-07-07 11:09:14] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2023-07-07 11:09:14] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/f9/9b/31c43853b6fd0efeb7cdf2fba063e22becf3654cbfeb5ce4925d40abf2c4/flet_pyodide-0.9.0.dev1604.tar.gz
+[2023-07-07 11:09:14] INFO root fetch - processPackages [sc-cc-ng-models-python]: Downloading https://files.pythonhosted.org/packages/83/8c/8a645d9d0f05c4f90c8f1abe9e8a2ed2e7d7f0b5d7cc777ca54e62969c8b/sc_cc_ng_models_python-0.1.5.tar.gz
+[2023-07-07 11:09:14] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.9.0.dev1605.tar.gz]
+[2023-07-07 11:09:14] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.9.0.dev1606.tar.gz]
+[2023-07-07 11:09:14] INFO root fetch - processPackages [flet-core]: Start processing: lusid-workflow-sdk-preview
+[2023-07-07 11:09:14] INFO root fetch - main [MainThread]: End processing [flet-core]: success
+[2023-07-07 11:09:14] INFO root fetch - processPackages [multiPrime]: Downloading https://files.pythonhosted.org/packages/d1/d1/0be71af81c27ff26584c35fd8f51f5b02850c515ef2eda7cb88abae65a6f/multiPrime-2.4.6.tar.gz
+[2023-07-07 11:09:14] INFO root fetch - processPackages [autogluon.cloud]: executing diffoscope
+[2023-07-07 11:09:14] INFO root fetch - processPackages [autogluon.cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.cloud-0.2.1b20230705.tar.gz tmp/autogluon.cloud-0.2.1b20230706.tar.gz --markdown 20230707/a/autogluon.cloud/0.2.1b20230705-0.2.1b20230706/diff.md --exclude *.pyd
+[2023-07-07 11:09:14] INFO root fetch - processPackages [autogluon.eda]: New version: [0.8.2b20230706] Old Version: [0.8.2b20230705]
+[2023-07-07 11:09:14] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-0.8.2b20230706.tar.gz]
+[2023-07-07 11:09:14] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-0.8.3b20230707.tar.gz]
+[2023-07-07 11:09:14] INFO root fetch - processPackages [autogluon.tabular]: Start processing: fyers-sdk
+[2023-07-07 11:09:14] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2023-07-07 11:09:14] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: New version: [0.1.342] Old Version: [0.1.333]
+[2023-07-07 11:09:14] WARNING root fetch - processPackages [fyers-sdk]: Skipping, unable to determine old version
+[2023-07-07 11:09:14] INFO root fetch - processPackages [fyers-sdk]: Start processing: sc-cc-ng-sdk-python
+[2023-07-07 11:09:14] INFO root fetch - main [MainThread]: End processing [fyers-sdk] error
+[2023-07-07 11:09:15] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/56/84/b7bde908d28cfb29a706671f7c44a41e03d0ea126c4373a1eb162a1c67e5/autogluon-0.8.2b20230706.tar.gz
+[2023-07-07 11:09:15] INFO root fetch - processPackages [multiPrime]: executing diffoscope
+[2023-07-07 11:09:15] INFO root fetch - processPackages [multiPrime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiPrime-2.4.5.tar.gz tmp/multiPrime-2.4.6.tar.gz --markdown 20230707/m/multiPrime/2.4.5-2.4.6/diff.md --exclude *.pyd
+[2023-07-07 11:09:15] INFO root fetch - processPackages [autogluon.eda]: Downloading https://files.pythonhosted.org/packages/fa/66/7d4314f7850faa3165baa9c044e9669c59fb737bd3420d5a57b9fbd091f5/autogluon.eda-0.8.2b20230705.tar.gz
+[2023-07-07 11:09:15] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-07 11:09:15] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2023-07-07 11:09:15] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-0.8.2b20230705.tar.gz tmp/autogluon-0.8.2b20230706.tar.gz --markdown 20230707/a/autogluon/0.8.2b20230705-0.8.2b20230706/diff.md --exclude *.pyd
+[2023-07-07 11:09:15] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/c5/9c/0322d3872cdd9fd8b4e9d66fd511809d1582f7cd577d3b051a3b378f1c10/flet_pyodide-0.9.0.dev1605.tar.gz
+[2023-07-07 11:09:15] INFO root fetch - processPackages [sc-cc-ng-models-python]: Downloading https://files.pythonhosted.org/packages/2a/60/50cb32470c6db3cdab1bc3fdf91b5324f393b20744015fa73656038a12b1/sc_cc_ng_models_python-0.1.6.tar.gz
+[2023-07-07 11:09:15] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b3/a1/6f80cda693c7f448f2c35ad544f2f563c5584e585d4020a03fdb6dd35ef1/lusid-workflow-sdk-preview-0.1.333.tar.gz
+[2023-07-07 11:09:15] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.9.0.dev1605.tar.gz]
+[2023-07-07 11:09:15] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.9.0.dev1606.tar.gz]
+[2023-07-07 11:09:15] INFO root fetch - processPackages [flet]: Start processing: maltiverse
+[2023-07-07 11:09:15] INFO root fetch - main [MainThread]: End processing [flet]: success
+[2023-07-07 11:09:15] INFO root fetch - processPackages [sc-cc-ng-models-python]: executing diffoscope
+[2023-07-07 11:09:15] INFO root fetch - processPackages [sc-cc-ng-models-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc_cc_ng_models_python-0.1.5.tar.gz tmp/sc_cc_ng_models_python-0.1.6.tar.gz --markdown 20230707/s/sc-cc-ng-models-python/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-07 11:09:15] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: Downloading https://files.pythonhosted.org/packages/0a/1e/d26921a2b91a35ab5044ab1743064aff5ababbd8c8c335c767fd2a657b9b/sc_cc_ng_sdk_python-0.1.7.tar.gz
+[2023-07-07 11:09:15] INFO root fetch - processPackages [flet-pyodide]: executing diffoscope
+[2023-07-07 11:09:15] INFO root fetch - processPackages [flet-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_pyodide-0.9.0.dev1604.tar.gz tmp/flet_pyodide-0.9.0.dev1605.tar.gz --markdown 20230707/f/flet-pyodide/0.9.0.dev1604-0.9.0.dev1605/diff.md --exclude *.pyd
+[2023-07-07 11:09:15] INFO root fetch - processPackages [autogluon.eda]: Downloading https://files.pythonhosted.org/packages/87/81/d8c4a03ebc2e969bce7adbc6d369bb5ab6a50cd55930b907ef5b5e501a08/autogluon.eda-0.8.2b20230706.tar.gz
+[2023-07-07 11:09:15] INFO root fetch - processPackages [maltiverse]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-07-07 11:09:15] INFO root fetch - processPackages [autogluon.eda]: executing diffoscope
+[2023-07-07 11:09:15] INFO root fetch - processPackages [autogluon.eda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.eda-0.8.2b20230705.tar.gz tmp/autogluon.eda-0.8.2b20230706.tar.gz --markdown 20230707/a/autogluon.eda/0.8.2b20230705-0.8.2b20230706/diff.md --exclude *.pyd
+[2023-07-07 11:09:15] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/a0/82/0e79d387e681a9f5524679d36b8b3845ec56eab9b77068d0ddf41919e876/lusid-workflow-sdk-preview-0.1.342.tar.gz
+[2023-07-07 11:09:15] INFO root fetch - processPackages [maltiverse]: Downloading https://files.pythonhosted.org/packages/a5/e2/943526c6801c734eddbdb49913f62d40a3ba634cc7354ce94e2504bc177f/maltiverse-1.1.9.tar.gz
+[2023-07-07 11:09:15] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: executing diffoscope
+[2023-07-07 11:09:15] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-workflow-sdk-preview-0.1.333.tar.gz tmp/lusid-workflow-sdk-preview-0.1.342.tar.gz --markdown 20230707/l/lusid-workflow-sdk-preview/0.1.333-0.1.342/diff.md --exclude *.pyd
+[2023-07-07 11:09:15] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: Downloading https://files.pythonhosted.org/packages/36/0e/3691dc1540a1bfb6afb9a48cf1e7c9cf8f5f542c627b8aebfcb30eda0d95/sc_cc_ng_sdk_python-0.1.8.tar.gz
+[2023-07-07 11:09:16] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: executing diffoscope
+[2023-07-07 11:09:16] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc_cc_ng_sdk_python-0.1.7.tar.gz tmp/sc_cc_ng_sdk_python-0.1.8.tar.gz --markdown 20230707/s/sc-cc-ng-sdk-python/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-07 11:09:16] INFO root fetch - processPackages [maltiverse]: Downloading https://files.pythonhosted.org/packages/95/16/1b71ccd61a4ec4df6ad4670ff8e2981b75ab817e690ffd3f298e976f2cad/maltiverse-1.2.0.tar.gz
+[2023-07-07 11:09:16] INFO root fetch - processPackages [maltiverse]: executing diffoscope
+[2023-07-07 11:09:16] INFO root fetch - processPackages [maltiverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maltiverse-1.1.9.tar.gz tmp/maltiverse-1.2.0.tar.gz --markdown 20230707/m/maltiverse/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-07-07 11:09:16] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.2.1b20230705.tar.gz]
+[2023-07-07 11:09:16] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.2.1b20230706.tar.gz]
+[2023-07-07 11:09:16] INFO root fetch - processPackages [autogluon.cloud]: Start processing: readfcs
+[2023-07-07 11:09:16] INFO root fetch - main [MainThread]: End processing [autogluon.cloud]: success
+[2023-07-07 11:09:16] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-0.8.2b20230705.tar.gz]
+[2023-07-07 11:09:16] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-0.8.2b20230706.tar.gz]
+[2023-07-07 11:09:16] INFO root fetch - processPackages [autogluon.timeseries]: Start processing: localstack-core
+[2023-07-07 11:09:16] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2023-07-07 11:09:16] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-0.8.2b20230705.tar.gz]
+[2023-07-07 11:09:16] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-0.8.2b20230706.tar.gz]
+[2023-07-07 11:09:16] INFO root fetch - processPackages [autogluon]: Start processing: aitomatic
+[2023-07-07 11:09:16] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2023-07-07 11:09:16] INFO root fetch - processPackages [multiPrime]: Remove: archive file [/home/abi/fetcher/tmp/multiPrime-2.4.5.tar.gz]
+[2023-07-07 11:09:16] INFO root fetch - processPackages [multiPrime]: Remove: archive file [/home/abi/fetcher/tmp/multiPrime-2.4.6.tar.gz]
+[2023-07-07 11:09:16] INFO root fetch - main [MainThread]: End processing [multiPrime]: success
+[2023-07-07 11:09:16] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230707082723] Old Version: [2.1.1.dev20230707074511]
+[2023-07-07 11:09:16] INFO root fetch - processPackages [readfcs]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-07 11:09:16] INFO root fetch - processPackages [sc-cc-ng-models-python]: Remove: archive file [/home/abi/fetcher/tmp/sc_cc_ng_models_python-0.1.5.tar.gz]
+[2023-07-07 11:09:16] INFO root fetch - processPackages [sc-cc-ng-models-python]: Remove: archive file [/home/abi/fetcher/tmp/sc_cc_ng_models_python-0.1.6.tar.gz]
+[2023-07-07 11:09:16] INFO root fetch - main [MainThread]: End processing [sc-cc-ng-models-python]: success
+[2023-07-07 11:09:16] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/38/92/f5bdc8b2657cd35f88b3e5fef0e3fa9036a28384745827845aee67fb8e72/localstack-core-2.1.1.dev20230707074511.tar.gz
+[2023-07-07 11:09:16] INFO root fetch - processPackages [aitomatic]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-07 11:09:16] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.9.0.dev1604.tar.gz]
+[2023-07-07 11:09:16] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.9.0.dev1605.tar.gz]
+[2023-07-07 11:09:16] INFO root fetch - main [MainThread]: End processing [flet-pyodide]: success
+[2023-07-07 11:09:16] INFO root fetch - processPackages [readfcs]: Downloading https://files.pythonhosted.org/packages/61/05/fe637602709c55d3e8b7bad4bbff62231d2c4b926eb18fe5b4037c31816b/readfcs-1.1.3.tar.gz
+[2023-07-07 11:09:16] INFO root fetch - processPackages [aitomatic]: Downloading https://files.pythonhosted.org/packages/50/64/07f490b899ae72ddb2eedf9af8d742eb8b336fe56d1dfa9b45355acb6da7/aitomatic-1.2.8.tar.gz
+[2023-07-07 11:09:17] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/sc_cc_ng_sdk_python-0.1.7.tar.gz]
+[2023-07-07 11:09:17] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/sc_cc_ng_sdk_python-0.1.8.tar.gz]
+[2023-07-07 11:09:17] INFO root fetch - main [MainThread]: End processing [sc-cc-ng-sdk-python]: success
+[2023-07-07 11:09:17] INFO root fetch - processPackages [autogluon.eda]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.eda-0.8.2b20230705.tar.gz]
+[2023-07-07 11:09:17] INFO root fetch - processPackages [autogluon.eda]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.eda-0.8.2b20230706.tar.gz]
+[2023-07-07 11:09:17] INFO root fetch - main [MainThread]: End processing [autogluon.eda]: success
+[2023-07-07 11:09:17] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/72/54/ad13eaaefd267d45dae67ee7f1656acacd3219de4fc6a148216c7d10e154/localstack-core-2.1.1.dev20230707082723.tar.gz
+[2023-07-07 11:09:17] INFO root fetch - processPackages [readfcs]: Downloading https://files.pythonhosted.org/packages/2d/b2/b4292d853412c8e8455c6a039973941021e222ce592c56f28ff7440403b8/readfcs-1.1.4.tar.gz
+[2023-07-07 11:09:17] INFO root fetch - processPackages [aitomatic]: Downloading https://files.pythonhosted.org/packages/8a/cc/390008ced44be18f3de07fcfcb2e70f9e8c1458042419c843d7ce09a4040/aitomatic-1.2.9.tar.gz
+[2023-07-07 11:09:17] INFO root fetch - processPackages [readfcs]: executing diffoscope
+[2023-07-07 11:09:17] INFO root fetch - processPackages [readfcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readfcs-1.1.3.tar.gz tmp/readfcs-1.1.4.tar.gz --markdown 20230707/r/readfcs/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-07 11:09:17] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-07 11:09:17] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230707074511.tar.gz tmp/localstack-core-2.1.1.dev20230707082723.tar.gz --markdown 20230707/l/localstack-core/2.1.1.dev20230707074511-2.1.1.dev20230707082723/diff.md --exclude *.pyd
+[2023-07-07 11:09:17] INFO root fetch - processPackages [maltiverse]: Remove: archive file [/home/abi/fetcher/tmp/maltiverse-1.1.9.tar.gz]
+[2023-07-07 11:09:17] INFO root fetch - processPackages [maltiverse]: Remove: archive file [/home/abi/fetcher/tmp/maltiverse-1.2.0.tar.gz]
+[2023-07-07 11:09:17] INFO root fetch - main [MainThread]: End processing [maltiverse]: success
+[2023-07-07 11:09:17] INFO root fetch - processPackages [aitomatic]: executing diffoscope
+[2023-07-07 11:09:17] INFO root fetch - processPackages [aitomatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aitomatic-1.2.8.tar.gz tmp/aitomatic-1.2.9.tar.gz --markdown 20230707/a/aitomatic/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-07 11:09:17] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.333.tar.gz]
+[2023-07-07 11:09:17] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.342.tar.gz]
+[2023-07-07 11:09:17] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk-preview]: success
+[2023-07-07 11:09:18] INFO root fetch - processPackages [readfcs]: Remove: archive file [/home/abi/fetcher/tmp/readfcs-1.1.3.tar.gz]
+[2023-07-07 11:09:18] INFO root fetch - processPackages [readfcs]: Remove: archive file [/home/abi/fetcher/tmp/readfcs-1.1.4.tar.gz]
+[2023-07-07 11:09:18] INFO root fetch - main [MainThread]: End processing [readfcs]: success
+[2023-07-07 11:09:18] INFO root fetch - processPackages [aitomatic]: Remove: archive file [/home/abi/fetcher/tmp/aitomatic-1.2.8.tar.gz]
+[2023-07-07 11:09:18] INFO root fetch - processPackages [aitomatic]: Remove: archive file [/home/abi/fetcher/tmp/aitomatic-1.2.9.tar.gz]
+[2023-07-07 11:09:18] INFO root fetch - main [MainThread]: End processing [aitomatic]: success
+[2023-07-07 11:09:21] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230707074511.tar.gz]
+[2023-07-07 11:09:21] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230707082723.tar.gz]
+[2023-07-07 11:09:21] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-07 11:09:21] INFO root fetch - main [MainThread]: Store serial: [18798005]
