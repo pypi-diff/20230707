@@ -13987,3 +13987,60 @@ EOFError: EOF read where object expected
 [2023-07-07 09:22:00] INFO root fetch - processPackages [scitacean]: Remove: archive file [/home/abi/fetcher/tmp/scitacean-23.7.7.tar.gz]
 [2023-07-07 09:22:00] INFO root fetch - main [MainThread]: End processing [scitacean]: success
 [2023-07-07 09:22:00] INFO root fetch - main [MainThread]: Store serial: [18796846]
+[2023-07-07 09:27:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18796846]
+[2023-07-07 09:27:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-07 09:27:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ignos-api-client
+[2023-07-07 09:27:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: muffin-admin
+[2023-07-07 09:27:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-stdimage2
+[2023-07-07 09:27:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: railguns
+[2023-07-07 09:27:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wrainfo
+[2023-07-07 09:27:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bgstools
+[2023-07-07 09:27:09] INFO root fetch - processPackages [wrainfo]: New version: [0.9.5] Old Version: [0.9.3]
+[2023-07-07 09:27:09] INFO root fetch - processPackages [ignos-api-client]: New version: [2023.7.7.5556] Old Version: [2023.6.14.5376]
+[2023-07-07 09:27:09] INFO root fetch - processPackages [django-stdimage2]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-07 09:27:09] INFO root fetch - processPackages [railguns]: New version: [0.69] Old Version: [0.68]
+[2023-07-07 09:27:09] INFO root fetch - processPackages [bgstools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-07 09:27:09] INFO root fetch - processPackages [muffin-admin]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-07 09:27:09] INFO root fetch - processPackages [django-stdimage2]: Downloading https://files.pythonhosted.org/packages/fb/2c/e2513402612f2f0c49c0d3e6a10662865e4c7538069f6016881e4378ee12/django-stdimage2-0.1.5.tar.gz
+[2023-07-07 09:27:09] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/a3/d9/0f2b579fbbb29225abec7da824c3d2177fa751c84913339da89e8d0b4f89/bgstools-0.1.8.tar.gz
+[2023-07-07 09:27:09] INFO root fetch - processPackages [wrainfo]: Downloading https://files.pythonhosted.org/packages/2a/4b/5cf14ed4d9902462a062fd3b5423d2e67315389ff1317110b61bd130f98b/wrainfo-0.9.3.tar.gz
+[2023-07-07 09:27:09] INFO root fetch - processPackages [ignos-api-client]: Downloading https://files.pythonhosted.org/packages/c1/44/3c61f765df3e072a38821dd3a54067e2e1b8e3146c94a6439df19afe3832/ignos-api-client-2023.6.14.5376.tar.gz
+[2023-07-07 09:27:09] INFO root fetch - processPackages [muffin-admin]: Downloading https://files.pythonhosted.org/packages/63/e9/6b034c32bbf3742c8219ee3a69ba44c2b94b9758f99cfa0ec0aa10c3d352/muffin-admin-1.8.1.tar.gz
+[2023-07-07 09:27:09] INFO root fetch - processPackages [django-stdimage2]: Downloading https://files.pythonhosted.org/packages/fe/52/a80df77ed47f9e8dd5455b69dbdfca4ce5c21decfa7bc5f4c0dde99e69e3/django-stdimage2-0.1.6.tar.gz
+[2023-07-07 09:27:09] INFO root fetch - processPackages [railguns]: Downloading https://files.pythonhosted.org/packages/91/af/472e196b22324e4131c0c7303fc1dcadd37009ecf48a44a70b84df61d31a/railguns-0.68.tar.gz
+[2023-07-07 09:27:09] INFO root fetch - processPackages [django-stdimage2]: executing diffoscope
+[2023-07-07 09:27:09] INFO root fetch - processPackages [django-stdimage2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-stdimage2-0.1.5.tar.gz tmp/django-stdimage2-0.1.6.tar.gz --markdown 20230707/d/django-stdimage2/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-07 09:27:09] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/0a/3c/638191cc7a3a6135dbf58e2857b29d83bacba72ac3e579510aae9606e202/bgstools-0.1.9.tar.gz
+[2023-07-07 09:27:10] INFO root fetch - processPackages [bgstools]: executing diffoscope
+[2023-07-07 09:27:10] INFO root fetch - processPackages [bgstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgstools-0.1.8.tar.gz tmp/bgstools-0.1.9.tar.gz --markdown 20230707/b/bgstools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-07 09:27:10] INFO root fetch - processPackages [wrainfo]: Downloading https://files.pythonhosted.org/packages/61/73/ebf55d937fa4531e85ae96fde1e158a56a5fb5b3b96f551a47dc91ee28ab/wrainfo-0.9.5.tar.gz
+[2023-07-07 09:27:10] INFO root fetch - processPackages [ignos-api-client]: Downloading https://files.pythonhosted.org/packages/3a/5c/7acc31cb972d78a097cb19bbfd4b10842ef32e1b3b060ccd4a84436a380f/ignos-api-client-2023.7.7.5556.tar.gz
+[2023-07-07 09:27:10] INFO root fetch - processPackages [railguns]: Downloading https://files.pythonhosted.org/packages/c1/4b/b41de8676cb69e10b2fad30cc3e90ef7e69ef3f207199cb4f517de4f67e4/railguns-0.69.tar.gz
+[2023-07-07 09:27:10] INFO root fetch - processPackages [muffin-admin]: Downloading https://files.pythonhosted.org/packages/9e/5b/3cda6b53f22847d402f99962337e921c6478b940e51a6d1e692ea3b0538f/muffin-admin-1.9.0.tar.gz
+[2023-07-07 09:27:10] INFO root fetch - processPackages [ignos-api-client]: executing diffoscope
+[2023-07-07 09:27:10] INFO root fetch - processPackages [ignos-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ignos-api-client-2023.6.14.5376.tar.gz tmp/ignos-api-client-2023.7.7.5556.tar.gz --markdown 20230707/i/ignos-api-client/2023.6.14.5376-2023.7.7.5556/diff.md --exclude *.pyd
+[2023-07-07 09:27:10] INFO root fetch - processPackages [railguns]: executing diffoscope
+[2023-07-07 09:27:10] INFO root fetch - processPackages [railguns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/railguns-0.68.tar.gz tmp/railguns-0.69.tar.gz --markdown 20230707/r/railguns/0.68-0.69/diff.md --exclude *.pyd
+[2023-07-07 09:27:10] INFO root fetch - processPackages [muffin-admin]: executing diffoscope
+[2023-07-07 09:27:10] INFO root fetch - processPackages [muffin-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin-admin-1.8.1.tar.gz tmp/muffin-admin-1.9.0.tar.gz --markdown 20230707/m/muffin-admin/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-07 09:27:10] INFO root fetch - processPackages [django-stdimage2]: Remove: archive file [/home/abi/fetcher/tmp/django-stdimage2-0.1.5.tar.gz]
+[2023-07-07 09:27:10] INFO root fetch - processPackages [django-stdimage2]: Remove: archive file [/home/abi/fetcher/tmp/django-stdimage2-0.1.6.tar.gz]
+[2023-07-07 09:27:10] INFO root fetch - main [MainThread]: End processing [django-stdimage2]: success
+[2023-07-07 09:27:10] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.8.tar.gz]
+[2023-07-07 09:27:10] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.9.tar.gz]
+[2023-07-07 09:27:10] INFO root fetch - main [MainThread]: End processing [bgstools]: success
+[2023-07-07 09:27:11] INFO root fetch - processPackages [railguns]: Remove: archive file [/home/abi/fetcher/tmp/railguns-0.68.tar.gz]
+[2023-07-07 09:27:11] INFO root fetch - processPackages [railguns]: Remove: archive file [/home/abi/fetcher/tmp/railguns-0.69.tar.gz]
+[2023-07-07 09:27:11] INFO root fetch - main [MainThread]: End processing [railguns]: success
+[2023-07-07 09:27:11] INFO root fetch - processPackages [wrainfo]: executing diffoscope
+[2023-07-07 09:27:11] INFO root fetch - processPackages [wrainfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wrainfo-0.9.3.tar.gz tmp/wrainfo-0.9.5.tar.gz --markdown 20230707/w/wrainfo/0.9.3-0.9.5/diff.md --exclude *.pyd
+[2023-07-07 09:27:11] INFO root fetch - processPackages [ignos-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ignos-api-client-2023.6.14.5376.tar.gz]
+[2023-07-07 09:27:11] INFO root fetch - processPackages [ignos-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ignos-api-client-2023.7.7.5556.tar.gz]
+[2023-07-07 09:27:11] INFO root fetch - main [MainThread]: End processing [ignos-api-client]: success
+[2023-07-07 09:27:13] INFO root fetch - processPackages [wrainfo]: Remove: archive file [/home/abi/fetcher/tmp/wrainfo-0.9.3.tar.gz]
+[2023-07-07 09:27:13] INFO root fetch - processPackages [wrainfo]: Remove: archive file [/home/abi/fetcher/tmp/wrainfo-0.9.5.tar.gz]
+[2023-07-07 09:27:13] INFO root fetch - main [MainThread]: End processing [wrainfo]: success
+[2023-07-07 09:27:25] INFO root fetch - processPackages [muffin-admin]: Remove: archive file [/home/abi/fetcher/tmp/muffin-admin-1.8.1.tar.gz]
+[2023-07-07 09:27:25] INFO root fetch - processPackages [muffin-admin]: Remove: archive file [/home/abi/fetcher/tmp/muffin-admin-1.9.0.tar.gz]
+[2023-07-07 09:27:25] INFO root fetch - main [MainThread]: End processing [muffin-admin]: success
+[2023-07-07 09:27:25] INFO root fetch - main [MainThread]: Store serial: [18796869]
