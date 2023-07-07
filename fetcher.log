@@ -9516,3 +9516,48 @@ EOFError: EOF read where object expected
 [2023-07-07 04:04:00] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
 [2023-07-07 04:04:00] INFO root fetch - main [MainThread]: End processing [hak]: success
 [2023-07-07 04:04:00] INFO root fetch - main [MainThread]: Store serial: [18795112]
+[2023-07-07 04:09:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18795112]
+[2023-07-07 04:09:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-07 04:09:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hmtools
+[2023-07-07 04:09:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: android-sdk-supporter
+[2023-07-07 04:09:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: loreme
+[2023-07-07 04:09:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reytool
+[2023-07-07 04:09:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xeofs
+[2023-07-07 04:09:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hak
+[2023-07-07 04:09:09] WARNING root fetch - processPackages [android-sdk-supporter]: Skipping, unable to determine old version
+[2023-07-07 04:09:09] INFO root fetch - main [MainThread]: End processing [android-sdk-supporter] error
+[2023-07-07 04:09:09] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-07-07 04:09:09] INFO root fetch - processPackages [xeofs]: New version: [1.0.0] Old Version: [0.7.2]
+[2023-07-07 04:09:09] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 04:09:09] WARNING root fetch - processPackages [hmtools]: Skipping, unable to determine old version
+[2023-07-07 04:09:09] INFO root fetch - main [MainThread]: End processing [hmtools] error
+[2023-07-07 04:09:09] INFO root fetch - processPackages [loreme]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-07 04:09:09] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-07-07 04:09:09] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-07-07 04:09:10] INFO root fetch - processPackages [loreme]: Downloading https://files.pythonhosted.org/packages/9f/73/651c79ec222a6e93b6de967abf7ac11fb5c0873f2cfff26d9b145efc62a9/loreme-0.1.7.tar.gz
+[2023-07-07 04:09:10] INFO root fetch - processPackages [xeofs]: Downloading https://files.pythonhosted.org/packages/ee/57/93d257d3f4e880bab2325ed38aaf9691f51e1ac92fd386982c5f6ca8f0c4/xeofs-0.7.2.tar.gz
+[2023-07-07 04:09:10] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-07-07 04:09:10] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-07 04:09:10] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-07-07 04:09:10] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230707/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-07-07 04:09:10] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-07 04:09:10] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230707/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 04:09:10] INFO root fetch - processPackages [loreme]: Downloading https://files.pythonhosted.org/packages/68/8c/3244a23df431d2324b287d4c535fdffa880a3eafa4083a265c9f0ef021f3/loreme-0.1.8.tar.gz
+[2023-07-07 04:09:10] INFO root fetch - processPackages [loreme]: executing diffoscope
+[2023-07-07 04:09:10] INFO root fetch - processPackages [loreme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loreme-0.1.7.tar.gz tmp/loreme-0.1.8.tar.gz --markdown 20230707/l/loreme/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-07 04:09:10] INFO root fetch - processPackages [xeofs]: Downloading https://files.pythonhosted.org/packages/dc/84/b56aa193eacfc0b2b8e6f1fed268d42c7d7ade93cc325f617bc043fdca99/xeofs-1.0.0.tar.gz
+[2023-07-07 04:09:10] INFO root fetch - processPackages [xeofs]: executing diffoscope
+[2023-07-07 04:09:10] INFO root fetch - processPackages [xeofs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xeofs-0.7.2.tar.gz tmp/xeofs-1.0.0.tar.gz --markdown 20230707/x/xeofs/0.7.2-1.0.0/diff.md --exclude *.pyd
+[2023-07-07 04:09:11] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-07-07 04:09:11] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-07-07 04:09:11] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-07-07 04:09:11] INFO root fetch - processPackages [loreme]: Remove: archive file [/home/abi/fetcher/tmp/loreme-0.1.7.tar.gz]
+[2023-07-07 04:09:11] INFO root fetch - processPackages [loreme]: Remove: archive file [/home/abi/fetcher/tmp/loreme-0.1.8.tar.gz]
+[2023-07-07 04:09:11] INFO root fetch - main [MainThread]: End processing [loreme]: success
+[2023-07-07 04:09:11] INFO root fetch - processPackages [xeofs]: Remove: archive file [/home/abi/fetcher/tmp/xeofs-0.7.2.tar.gz]
+[2023-07-07 04:09:11] INFO root fetch - processPackages [xeofs]: Remove: archive file [/home/abi/fetcher/tmp/xeofs-1.0.0.tar.gz]
+[2023-07-07 04:09:11] INFO root fetch - main [MainThread]: End processing [xeofs]: success
+[2023-07-07 04:09:11] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-07-07 04:09:11] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-07 04:09:11] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-07 04:09:11] INFO root fetch - main [MainThread]: Store serial: [18795131]
