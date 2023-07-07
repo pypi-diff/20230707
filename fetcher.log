@@ -5671,3 +5671,102 @@ EOFError: EOF read where object expected
 [2023-07-07 03:28:23] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.9.tar.gz]
 [2023-07-07 03:28:23] INFO root fetch - main [MainThread]: End processing [m-abac-test]: success
 [2023-07-07 03:28:23] INFO root fetch - main [MainThread]: Store serial: [18793800]
+[2023-07-07 03:33:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18793800]
+[2023-07-07 03:33:31] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-07 03:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiven-client
+[2023-07-07 03:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydflow
+[2023-07-07 03:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: austrakka
+[2023-07-07 03:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zhei
+[2023-07-07 03:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-sops-secrets
+[2023-07-07 03:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zhei
+[2023-07-07 03:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: loreme
+[2023-07-07 03:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: highcharts-gantt
+[2023-07-07 03:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lasfile
+[2023-07-07 03:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autonomi-nos
+[2023-07-07 03:33:32] INFO root fetch - processPackages [zhei]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 03:33:32] INFO root fetch - processPackages [austrakka]: New version: [0.30.2] Old Version: [0.30.1]
+[2023-07-07 03:33:32] INFO root fetch - processPackages [aiven-client]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-07-07 03:33:32] INFO root fetch - processPackages [loreme]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-07 03:33:32] INFO root fetch - processPackages [lasfile]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-07 03:33:32] INFO root fetch - processPackages [highcharts-gantt]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-07 03:33:32] INFO root fetch - processPackages [zhei]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 03:33:32] INFO root fetch - processPackages [autonomi-nos]: New version: [0.0.6a1] Old Version: [0.0.6]
+[2023-07-07 03:33:32] INFO root fetch - processPackages [pydflow]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-07 03:33:32] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-07 03:33:32] INFO root fetch - processPackages [zhei]: Downloading https://files.pythonhosted.org/packages/fe/e6/d6e9a8571394bc0f3c5f41cc8657e57af493d8f610996864a47c36f29e74/zhei-0.0.8.tar.gz
+[2023-07-07 03:33:32] INFO root fetch - processPackages [zhei]: Downloading https://files.pythonhosted.org/packages/fe/e6/d6e9a8571394bc0f3c5f41cc8657e57af493d8f610996864a47c36f29e74/zhei-0.0.8.tar.gz
+[2023-07-07 03:33:32] INFO root fetch - processPackages [lasfile]: Downloading https://files.pythonhosted.org/packages/d5/64/ec9a7cc9d411e7c7da40b3dad36030498cc079c8f4f65beae1c5d32d33fc/lasfile-0.1.8.tar.gz
+[2023-07-07 03:33:32] INFO root fetch - processPackages [aiven-client]: Downloading https://files.pythonhosted.org/packages/74/21/61edc8dcc85b35296280f19d54a902613e226c31e01d2693efacb2dafd8a/aiven-client-2.8.0.tar.gz
+[2023-07-07 03:33:32] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/33/96/a989d9cfcdb5dcb43d60a72640c59e2efb7fd053182742205b332006f813/pydflow-1.7.8.tar.gz
+[2023-07-07 03:33:32] INFO root fetch - processPackages [austrakka]: Downloading https://files.pythonhosted.org/packages/8f/6f/8770d889b85a8c7685d4a6022246f927dc6fa2b8dfd96d793c4db1e41909/austrakka-0.30.1-py3-none-any.whl
+[2023-07-07 03:33:32] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-07-07 03:33:32] INFO root fetch - processPackages [loreme]: Downloading https://files.pythonhosted.org/packages/4b/35/03f22706f79b3ba6df2fe1aeda40a5cedcc7cd08c812bfbaa5bd7ca54be1/loreme-0.1.6.tar.gz
+[2023-07-07 03:33:32] INFO root fetch - processPackages [autonomi-nos]: Downloading https://files.pythonhosted.org/packages/94/2a/09e2fa597ca440d5369d50d15a62e1efede52464b6493ae53aaaee005852/autonomi_nos-0.0.6-py3-none-any.whl
+[2023-07-07 03:33:32] INFO root fetch - processPackages [highcharts-gantt]: Downloading https://files.pythonhosted.org/packages/36/57/73d59892796c1a36b413b9ec97c849c57abda79e569a6f642acb91bac023/highcharts_gantt-1.2.1.tar.gz
+[2023-07-07 03:33:32] WARNING root fetch - processPackages [highcharts-gantt]: Skipping package: exceeds size limit 11105087>=10485760
+[2023-07-07 03:33:32] INFO root fetch - processPackages [highcharts-gantt]: Start processing: hrequests
+[2023-07-07 03:33:32] INFO root fetch - main [MainThread]: End processing [highcharts-gantt] error
+[2023-07-07 03:33:32] INFO root fetch - processPackages [zhei]: Downloading https://files.pythonhosted.org/packages/d9/f8/741be51eea312a636974b7efa45fc6ce78e84d511b8b44f353639d955c27/zhei-0.0.9.tar.gz
+[2023-07-07 03:33:32] INFO root fetch - processPackages [zhei]: Downloading https://files.pythonhosted.org/packages/d9/f8/741be51eea312a636974b7efa45fc6ce78e84d511b8b44f353639d955c27/zhei-0.0.9.tar.gz
+[2023-07-07 03:33:32] WARNING root fetch - processPackages [hrequests]: Skipping, unable to determine old version
+[2023-07-07 03:33:32] INFO root fetch - processPackages [hrequests]: Start processing: emailalert
+[2023-07-07 03:33:32] INFO root fetch - main [MainThread]: End processing [hrequests] error
+[2023-07-07 03:33:32] INFO root fetch - processPackages [lasfile]: Downloading https://files.pythonhosted.org/packages/81/46/99cbc4f9407daa16b3fe90802004647de4ec0eb60dfa6c1a4e06fbe5d312/lasfile-0.1.9.tar.gz
+[2023-07-07 03:33:32] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/9c/41/6c9bc72fde943869899725f55fade9f850f62ecbc6fa31e53b8fa79ae5a3/pydflow-1.7.9.tar.gz
+[2023-07-07 03:33:33] INFO root fetch - processPackages [emailalert]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-07-07 03:33:33] INFO root fetch - processPackages [zhei]: executing diffoscope
+[2023-07-07 03:33:33] INFO root fetch - processPackages [zhei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhei-0.0.8.tar.gz tmp/zhei-0.0.9.tar.gz --markdown 20230707/z/zhei/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 03:33:33] INFO root fetch - processPackages [zhei]: executing diffoscope
+[2023-07-07 03:33:33] INFO root fetch - processPackages [loreme]: Downloading https://files.pythonhosted.org/packages/9f/73/651c79ec222a6e93b6de967abf7ac11fb5c0873f2cfff26d9b145efc62a9/loreme-0.1.7.tar.gz
+[2023-07-07 03:33:33] INFO root fetch - processPackages [zhei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhei-0.0.8.tar.gz tmp/zhei-0.0.9.tar.gz --markdown 20230707/z/zhei/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 03:33:33] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-07-07 03:33:33] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.8.tar.gz tmp/pydflow-1.7.9.tar.gz --markdown 20230707/p/pydflow/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-07 03:33:33] INFO root fetch - processPackages [autonomi-nos]: Downloading https://files.pythonhosted.org/packages/67/33/53521db574d28623145135313acda4aababe50579e2f8441cbb035942bb8/autonomi_nos-0.0.6a1-py3-none-any.whl
+[2023-07-07 03:33:33] INFO root fetch - processPackages [aiven-client]: Downloading https://files.pythonhosted.org/packages/b0/22/3ed2692d0b55f5a16dccaa615a6ca36816028fe3862261bb43a20331f4c0/aiven-client-2.9.0.tar.gz
+[2023-07-07 03:33:33] INFO root fetch - processPackages [lasfile]: executing diffoscope
+[2023-07-07 03:33:33] INFO root fetch - processPackages [lasfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lasfile-0.1.8.tar.gz tmp/lasfile-0.1.9.tar.gz --markdown 20230707/l/lasfile/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-07 03:33:33] INFO root fetch - processPackages [loreme]: executing diffoscope
+[2023-07-07 03:33:33] INFO root fetch - processPackages [loreme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loreme-0.1.6.tar.gz tmp/loreme-0.1.7.tar.gz --markdown 20230707/l/loreme/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-07 03:33:33] INFO root fetch - processPackages [autonomi-nos]: executing diffoscope
+[2023-07-07 03:33:33] INFO root fetch - processPackages [autonomi-nos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autonomi_nos-0.0.6-py3-none-any.whl.zip tmp/autonomi_nos-0.0.6a1-py3-none-any.whl.zip --markdown 20230707/a/autonomi-nos/0.0.6-0.0.6a1/diff.md --exclude *.pyd
+[2023-07-07 03:33:33] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-07-07 03:33:33] INFO root fetch - processPackages [aiven-client]: executing diffoscope
+[2023-07-07 03:33:33] INFO root fetch - processPackages [aiven-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiven-client-2.8.0.tar.gz tmp/aiven-client-2.9.0.tar.gz --markdown 20230707/a/aiven-client/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-07-07 03:33:33] INFO root fetch - processPackages [austrakka]: Downloading https://files.pythonhosted.org/packages/e4/6a/2849606210dfe2c613093c003f5acde8587fc0e56e40e1ce8c3d5973f014/austrakka-0.30.2-py3-none-any.whl
+[2023-07-07 03:33:33] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/81/fd/9500cdd83ba743be3c3c29b9b429f8d9747feaf72d172fb3802095a428a6/emailalert-1.4.2.tar.gz
+[2023-07-07 03:33:33] INFO root fetch - processPackages [austrakka]: executing diffoscope
+[2023-07-07 03:33:33] INFO root fetch - processPackages [austrakka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/austrakka-0.30.1-py3-none-any.whl.zip tmp/austrakka-0.30.2-py3-none-any.whl.zip --markdown 20230707/a/austrakka/0.30.1-0.30.2/diff.md --exclude *.pyd
+[2023-07-07 03:33:33] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/b9/2e/b3512141e74e0df7e6713de36e0002e7cd873b051d7f587e68a2d99c0b5c/emailalert-1.4.3.tar.gz
+[2023-07-07 03:33:33] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-07-07 03:33:33] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230707/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-07 03:33:33] INFO root fetch - processPackages [emailalert]: executing diffoscope
+[2023-07-07 03:33:33] INFO root fetch - processPackages [emailalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailalert-1.4.2.tar.gz tmp/emailalert-1.4.3.tar.gz --markdown 20230707/e/emailalert/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-07-07 03:33:34] INFO root fetch - processPackages [zhei]: Remove: archive file [/home/abi/fetcher/tmp/zhei-0.0.8.tar.gz]
+[2023-07-07 03:33:34] INFO root fetch - processPackages [zhei]: Remove: archive file [/home/abi/fetcher/tmp/zhei-0.0.9.tar.gz]
+[2023-07-07 03:33:34] INFO root fetch - main [MainThread]: End processing [zhei]: success
+[2023-07-07 03:33:34] INFO root fetch - main [MainThread]: End processing [zhei]: success
+[2023-07-07 03:33:34] INFO root fetch - processPackages [lasfile]: Remove: archive file [/home/abi/fetcher/tmp/lasfile-0.1.8.tar.gz]
+[2023-07-07 03:33:34] INFO root fetch - processPackages [lasfile]: Remove: archive file [/home/abi/fetcher/tmp/lasfile-0.1.9.tar.gz]
+[2023-07-07 03:33:34] INFO root fetch - main [MainThread]: End processing [lasfile]: success
+[2023-07-07 03:33:34] INFO root fetch - processPackages [loreme]: Remove: archive file [/home/abi/fetcher/tmp/loreme-0.1.6.tar.gz]
+[2023-07-07 03:33:34] INFO root fetch - processPackages [loreme]: Remove: archive file [/home/abi/fetcher/tmp/loreme-0.1.7.tar.gz]
+[2023-07-07 03:33:34] INFO root fetch - main [MainThread]: End processing [loreme]: success
+[2023-07-07 03:33:34] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.8.tar.gz]
+[2023-07-07 03:33:34] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.9.tar.gz]
+[2023-07-07 03:33:34] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-07-07 03:33:34] INFO root fetch - processPackages [aiven-client]: Remove: archive file [/home/abi/fetcher/tmp/aiven-client-2.8.0.tar.gz]
+[2023-07-07 03:33:34] INFO root fetch - processPackages [aiven-client]: Remove: archive file [/home/abi/fetcher/tmp/aiven-client-2.9.0.tar.gz]
+[2023-07-07 03:33:34] INFO root fetch - main [MainThread]: End processing [aiven-client]: success
+[2023-07-07 03:33:35] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.4.2.tar.gz]
+[2023-07-07 03:33:35] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.4.3.tar.gz]
+[2023-07-07 03:33:35] INFO root fetch - main [MainThread]: End processing [emailalert]: success
+[2023-07-07 03:33:35] INFO root fetch - processPackages [autonomi-nos]: Remove: archive file [/home/abi/fetcher/tmp/autonomi_nos-0.0.6-py3-none-any.whl.zip]
+[2023-07-07 03:33:35] INFO root fetch - processPackages [autonomi-nos]: Remove: archive file [/home/abi/fetcher/tmp/autonomi_nos-0.0.6a1-py3-none-any.whl.zip]
+[2023-07-07 03:33:35] INFO root fetch - main [MainThread]: End processing [autonomi-nos]: success
+[2023-07-07 03:33:35] INFO root fetch - processPackages [austrakka]: Remove: archive file [/home/abi/fetcher/tmp/austrakka-0.30.1-py3-none-any.whl.zip]
+[2023-07-07 03:33:35] INFO root fetch - processPackages [austrakka]: Remove: archive file [/home/abi/fetcher/tmp/austrakka-0.30.2-py3-none-any.whl.zip]
+[2023-07-07 03:33:35] INFO root fetch - main [MainThread]: End processing [austrakka]: success
+[2023-07-07 03:33:35] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-07-07 03:33:35] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-07-07 03:33:35] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-07-07 03:33:35] INFO root fetch - main [MainThread]: Store serial: [18793835]
