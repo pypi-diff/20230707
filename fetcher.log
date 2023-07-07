@@ -12396,3 +12396,88 @@ EOFError: EOF read where object expected
 [2023-07-07 07:48:49] INFO root fetch - main [MainThread]: End processing [reactivated]: success
 [2023-07-07 07:48:49] INFO root fetch - main [MainThread]: End processing [ez0th]: success
 [2023-07-07 07:48:49] INFO root fetch - main [MainThread]: Store serial: [18796203]
+[2023-07-07 07:53:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18796203]
+[2023-07-07 07:53:58] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-07 07:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyciactions
+[2023-07-07 07:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azdev
+[2023-07-07 07:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mezcla
+[2023-07-07 07:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crewmate
+[2023-07-07 07:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyciactions
+[2023-07-07 07:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: BioSAK
+[2023-07-07 07:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pycompall
+[2023-07-07 07:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hotpot-zzy
+[2023-07-07 07:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyciactions
+[2023-07-07 07:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sketchpy
+[2023-07-07 07:53:58] INFO root fetch - processPackages [pyciactions]: New version: [1.0.9] Old Version: [1.0.8a8]
+[2023-07-07 07:53:58] INFO root fetch - processPackages [mezcla]: New version: [1.3.9.1] Old Version: [1.3.9]
+[2023-07-07 07:53:58] INFO root fetch - processPackages [pyciactions]: New version: [1.0.9] Old Version: [1.0.8a8]
+[2023-07-07 07:53:58] INFO root fetch - processPackages [crewmate]: New version: [0.0.0.6] Old Version: [0.0.0.5]
+[2023-07-07 07:53:58] INFO root fetch - processPackages [azdev]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-07 07:53:58] INFO root fetch - processPackages [pycompall]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-07 07:53:58] INFO root fetch - processPackages [sketchpy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-07 07:53:58] INFO root fetch - processPackages [hotpot-zzy]: New version: [0.3.0.9] Old Version: [0.3.0.8]
+[2023-07-07 07:53:58] INFO root fetch - processPackages [pyciactions]: New version: [1.0.9] Old Version: [1.0.8a8]
+[2023-07-07 07:53:58] INFO root fetch - processPackages [BioSAK]: New version: [1.69.7] Old Version: [1.69.6]
+[2023-07-07 07:53:58] INFO root fetch - processPackages [crewmate]: Downloading https://files.pythonhosted.org/packages/ba/f1/d423d5175405bce53527b9360076aeecabd8623985f2cfd0018138af1db3/crewmate-0.0.0.5.tar.gz
+[2023-07-07 07:53:58] INFO root fetch - processPackages [sketchpy]: Downloading https://files.pythonhosted.org/packages/3a/64/e88ae96b6c77425fd77d6df8dd7619b3c8d01739859071f496bbbc9a8995/sketchpy-0.1.0.tar.gz
+[2023-07-07 07:53:58] INFO root fetch - processPackages [pycompall]: Downloading https://files.pythonhosted.org/packages/54/ed/03cd04e39d8544c2316500a98a5e0243d524d10a61a1a04562f83aab0950/pycompall-0.1.8.tar.gz
+[2023-07-07 07:53:58] INFO root fetch - processPackages [azdev]: Downloading https://files.pythonhosted.org/packages/26/b3/e90a3d82517d0e67d66c68d4948f50df5460083d749b90620911ec3dcb94/azdev-0.1.8.tar.gz
+[2023-07-07 07:53:58] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/4f/f3/3f4bce0f1e4c09bf27f8534421b31f53514ec81a4b706ba66930ae207c9f/pyciactions-1.0.8a8.tar.gz
+[2023-07-07 07:53:58] INFO root fetch - processPackages [mezcla]: Downloading https://files.pythonhosted.org/packages/13/8f/1484aabfad7155b5317632037e7fd46b684223173c127ca098242343a3be/mezcla-1.3.9.tar.gz
+[2023-07-07 07:53:58] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/4f/f3/3f4bce0f1e4c09bf27f8534421b31f53514ec81a4b706ba66930ae207c9f/pyciactions-1.0.8a8.tar.gz
+[2023-07-07 07:53:58] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/4f/f3/3f4bce0f1e4c09bf27f8534421b31f53514ec81a4b706ba66930ae207c9f/pyciactions-1.0.8a8.tar.gz
+[2023-07-07 07:53:58] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/72/34/954cebbd23d440d9b274019ffbd879f68ca649dd226f1cb37e9bd201c794/BioSAK-1.69.6.tar.gz
+[2023-07-07 07:53:58] INFO root fetch - processPackages [hotpot-zzy]: Downloading https://files.pythonhosted.org/packages/30/a0/e65cf7198b70495f1ec7dcaa9dca574427bd173170aace4462a769f3b8e3/hotpot-zzy-0.3.0.8.tar.gz
+[2023-07-07 07:53:59] INFO root fetch - processPackages [sketchpy]: Downloading https://files.pythonhosted.org/packages/14/5f/d1c1be06124df98fb11a12493bffebf0ed6ab75f666464207cacbf899c4e/sketchpy-0.1.1.tar.gz
+[2023-07-07 07:53:59] WARNING root fetch - processPackages [BioSAK]: Skipping package: exceeds size limit 21177446>=10485760
+[2023-07-07 07:53:59] INFO root fetch - main [MainThread]: End processing [BioSAK] error
+[2023-07-07 07:53:59] INFO root fetch - processPackages [crewmate]: Downloading https://files.pythonhosted.org/packages/18/d0/b6e0d7f423d1f222f8285b9acfda350445994b4cb7d3d88c3b28ac837df3/crewmate-0.0.0.6.tar.gz
+[2023-07-07 07:53:59] INFO root fetch - processPackages [pycompall]: Downloading https://files.pythonhosted.org/packages/50/40/92c1a0ecab4ac6e924b7073264247bf95385f88b923b563a9483bf2f7e0c/pycompall-0.1.9.tar.gz
+[2023-07-07 07:53:59] INFO root fetch - processPackages [azdev]: Downloading https://files.pythonhosted.org/packages/a8/bf/9cd7c2c31e25d929e85358027632a0d46d8e5d7f85c855a131905cb53218/azdev-0.1.9.tar.gz
+[2023-07-07 07:53:59] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/31/76/449e2f9925c75cb9cae72fcc6ebcb769640e519cf941ad29cee965d3ac35/pyciactions-1.0.9.tar.gz
+[2023-07-07 07:53:59] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/31/76/449e2f9925c75cb9cae72fcc6ebcb769640e519cf941ad29cee965d3ac35/pyciactions-1.0.9.tar.gz
+[2023-07-07 07:53:59] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/31/76/449e2f9925c75cb9cae72fcc6ebcb769640e519cf941ad29cee965d3ac35/pyciactions-1.0.9.tar.gz
+[2023-07-07 07:53:59] INFO root fetch - processPackages [sketchpy]: executing diffoscope
+[2023-07-07 07:53:59] INFO root fetch - processPackages [sketchpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sketchpy-0.1.0.tar.gz tmp/sketchpy-0.1.1.tar.gz --markdown 20230707/s/sketchpy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-07 07:53:59] INFO root fetch - processPackages [mezcla]: Downloading https://files.pythonhosted.org/packages/f4/f7/a116e79169a2bd209d3e933782ae7af4b9d918db04cd45e75d951b680fa9/mezcla-1.3.9.1.tar.gz
+[2023-07-07 07:53:59] INFO root fetch - processPackages [hotpot-zzy]: Downloading https://files.pythonhosted.org/packages/28/a5/509ae2ad6f35cc7532d7b2e918155cd5a36d397e21f052053a3b3eb4bc3d/hotpot-zzy-0.3.0.9.tar.gz
+[2023-07-07 07:53:59] INFO root fetch - processPackages [crewmate]: executing diffoscope
+[2023-07-07 07:53:59] INFO root fetch - processPackages [crewmate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crewmate-0.0.0.5.tar.gz tmp/crewmate-0.0.0.6.tar.gz --markdown 20230707/c/crewmate/0.0.0.5-0.0.0.6/diff.md --exclude *.pyd
+[2023-07-07 07:53:59] INFO root fetch - processPackages [pycompall]: executing diffoscope
+[2023-07-07 07:53:59] INFO root fetch - processPackages [pycompall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycompall-0.1.8.tar.gz tmp/pycompall-0.1.9.tar.gz --markdown 20230707/p/pycompall/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-07 07:53:59] INFO root fetch - processPackages [mezcla]: executing diffoscope
+[2023-07-07 07:53:59] INFO root fetch - processPackages [mezcla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mezcla-1.3.9.tar.gz tmp/mezcla-1.3.9.1.tar.gz --markdown 20230707/m/mezcla/1.3.9-1.3.9.1/diff.md --exclude *.pyd
+[2023-07-07 07:53:59] INFO root fetch - processPackages [pyciactions]: executing diffoscope
+[2023-07-07 07:53:59] INFO root fetch - processPackages [pyciactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyciactions-1.0.8a8.tar.gz tmp/pyciactions-1.0.9.tar.gz --markdown 20230707/p/pyciactions/1.0.8a8-1.0.9/diff.md --exclude *.pyd
+[2023-07-07 07:53:59] INFO root fetch - processPackages [pyciactions]: executing diffoscope
+[2023-07-07 07:53:59] INFO root fetch - processPackages [hotpot-zzy]: executing diffoscope
+[2023-07-07 07:53:59] INFO root fetch - processPackages [hotpot-zzy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotpot-zzy-0.3.0.8.tar.gz tmp/hotpot-zzy-0.3.0.9.tar.gz --markdown 20230707/h/hotpot-zzy/0.3.0.8-0.3.0.9/diff.md --exclude *.pyd
+[2023-07-07 07:53:59] INFO root fetch - processPackages [pyciactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyciactions-1.0.8a8.tar.gz tmp/pyciactions-1.0.9.tar.gz --markdown 20230707/p/pyciactions/1.0.8a8-1.0.9/diff.md --exclude *.pyd
+[2023-07-07 07:53:59] INFO root fetch - processPackages [pyciactions]: executing diffoscope
+[2023-07-07 07:53:59] INFO root fetch - processPackages [pyciactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyciactions-1.0.8a8.tar.gz tmp/pyciactions-1.0.9.tar.gz --markdown 20230707/p/pyciactions/1.0.8a8-1.0.9/diff.md --exclude *.pyd
+[2023-07-07 07:53:59] INFO root fetch - processPackages [azdev]: executing diffoscope
+[2023-07-07 07:53:59] INFO root fetch - processPackages [azdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azdev-0.1.8.tar.gz tmp/azdev-0.1.9.tar.gz --markdown 20230707/a/azdev/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-07 07:54:00] INFO root fetch - processPackages [crewmate]: Remove: archive file [/home/abi/fetcher/tmp/crewmate-0.0.0.5.tar.gz]
+[2023-07-07 07:54:00] INFO root fetch - processPackages [crewmate]: Remove: archive file [/home/abi/fetcher/tmp/crewmate-0.0.0.6.tar.gz]
+[2023-07-07 07:54:00] INFO root fetch - main [MainThread]: End processing [crewmate]: success
+[2023-07-07 07:54:00] INFO root fetch - processPackages [sketchpy]: Remove: archive file [/home/abi/fetcher/tmp/sketchpy-0.1.0.tar.gz]
+[2023-07-07 07:54:00] INFO root fetch - processPackages [sketchpy]: Remove: archive file [/home/abi/fetcher/tmp/sketchpy-0.1.1.tar.gz]
+[2023-07-07 07:54:00] INFO root fetch - main [MainThread]: End processing [sketchpy]: success
+[2023-07-07 07:54:00] INFO root fetch - processPackages [pycompall]: Remove: archive file [/home/abi/fetcher/tmp/pycompall-0.1.8.tar.gz]
+[2023-07-07 07:54:00] INFO root fetch - processPackages [pycompall]: Remove: archive file [/home/abi/fetcher/tmp/pycompall-0.1.9.tar.gz]
+[2023-07-07 07:54:00] INFO root fetch - main [MainThread]: End processing [pycompall]: success
+[2023-07-07 07:54:01] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.8a8.tar.gz]
+[2023-07-07 07:54:01] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.9.tar.gz]
+[2023-07-07 07:54:01] INFO root fetch - main [MainThread]: End processing [pyciactions]: success
+[2023-07-07 07:54:01] INFO root fetch - main [MainThread]: End processing [pyciactions]: success
+[2023-07-07 07:54:01] INFO root fetch - main [MainThread]: End processing [pyciactions]: success
+[2023-07-07 07:54:01] INFO root fetch - processPackages [azdev]: Remove: archive file [/home/abi/fetcher/tmp/azdev-0.1.8.tar.gz]
+[2023-07-07 07:54:01] INFO root fetch - processPackages [azdev]: Remove: archive file [/home/abi/fetcher/tmp/azdev-0.1.9.tar.gz]
+[2023-07-07 07:54:01] INFO root fetch - main [MainThread]: End processing [azdev]: success
+[2023-07-07 07:54:01] INFO root fetch - processPackages [hotpot-zzy]: Remove: archive file [/home/abi/fetcher/tmp/hotpot-zzy-0.3.0.8.tar.gz]
+[2023-07-07 07:54:01] INFO root fetch - processPackages [hotpot-zzy]: Remove: archive file [/home/abi/fetcher/tmp/hotpot-zzy-0.3.0.9.tar.gz]
+[2023-07-07 07:54:01] INFO root fetch - main [MainThread]: End processing [hotpot-zzy]: success
+[2023-07-07 07:54:01] INFO root fetch - processPackages [mezcla]: Remove: archive file [/home/abi/fetcher/tmp/mezcla-1.3.9.tar.gz]
+[2023-07-07 07:54:01] INFO root fetch - processPackages [mezcla]: Remove: archive file [/home/abi/fetcher/tmp/mezcla-1.3.9.1.tar.gz]
+[2023-07-07 07:54:01] INFO root fetch - main [MainThread]: End processing [mezcla]: success
+[2023-07-07 07:54:01] INFO root fetch - main [MainThread]: Store serial: [18796240]
