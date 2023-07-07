@@ -1,4 +1,4 @@
-# Comparing `tmp/botocore-a-la-carte-qldb-session-1.30.1.tar.gz` & `tmp/botocore_a_la_carte_qldb_session-1.31.0-py3-none-any.whl.zip`
+# Comparing `tmp/botocore-a-la-carte-qldb-session-1.30.1.tar.gz` & `tmp/botocore-a-la-carte-qldb-session-1.31.0.tar.gz`
 
 ## filetype from file(1)
 
