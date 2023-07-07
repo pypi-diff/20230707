@@ -11769,3 +11769,40 @@ EOFError: EOF read where object expected
 [2023-07-07 06:46:24] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.7.2.dev4.tar.gz]
 [2023-07-07 06:46:24] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2023-07-07 06:46:24] INFO root fetch - main [MainThread]: Store serial: [18795940]
+[2023-07-07 06:51:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18795940]
+[2023-07-07 06:51:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-07 06:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt-clickzetta
+[2023-07-07 06:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbt-clickzetta
+[2023-07-07 06:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CodeToCAD
+[2023-07-07 06:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nxs-analysis-tools
+[2023-07-07 06:51:33] INFO root fetch - processPackages [dbt-clickzetta]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-07 06:51:33] INFO root fetch - processPackages [nxs-analysis-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 06:51:33] INFO root fetch - processPackages [dbt-clickzetta]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-07 06:51:33] INFO root fetch - processPackages [CodeToCAD]: New version: [0.2.6] Old Version: [0.2.1688705312]
+[2023-07-07 06:51:33] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/09/f0/5a413293e92b4ca0d7431450a7218700efac779c0ce2a94f2b8d575440f2/dbt-clickzetta-0.2.8.tar.gz
+[2023-07-07 06:51:33] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/09/f0/5a413293e92b4ca0d7431450a7218700efac779c0ce2a94f2b8d575440f2/dbt-clickzetta-0.2.8.tar.gz
+[2023-07-07 06:51:33] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/3a/af/d45dede3fc5a82ef0ab33c0e2268b6d6260f5ad881643852664f201f97e5/CodeToCAD-0.2.1688705312.tar.gz
+[2023-07-07 06:51:34] INFO root fetch - processPackages [nxs-analysis-tools]: Downloading https://files.pythonhosted.org/packages/e4/e4/6646caf25fd374fbe3110e9453d2b343238505837996f9e00e024a805dcf/nxs_analysis_tools-0.0.8.tar.gz
+[2023-07-07 06:51:34] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/c1/14/85271f2139ff454c5ff9bcefec81d708e59f4ed0230702dafe1a5b557869/dbt-clickzetta-0.2.9.tar.gz
+[2023-07-07 06:51:34] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/c1/14/85271f2139ff454c5ff9bcefec81d708e59f4ed0230702dafe1a5b557869/dbt-clickzetta-0.2.9.tar.gz
+[2023-07-07 06:51:34] INFO root fetch - processPackages [dbt-clickzetta]: executing diffoscope
+[2023-07-07 06:51:34] INFO root fetch - processPackages [dbt-clickzetta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-clickzetta-0.2.8.tar.gz tmp/dbt-clickzetta-0.2.9.tar.gz --markdown 20230707/d/dbt-clickzetta/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-07 06:51:34] INFO root fetch - processPackages [dbt-clickzetta]: executing diffoscope
+[2023-07-07 06:51:34] INFO root fetch - processPackages [dbt-clickzetta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-clickzetta-0.2.8.tar.gz tmp/dbt-clickzetta-0.2.9.tar.gz --markdown 20230707/d/dbt-clickzetta/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-07 06:51:34] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/97/88/713e1635de92466694eecb2ee4b779a7f2819fdb270f5979c857272b4a92/CodeToCAD-0.2.6.tar.gz
+[2023-07-07 06:51:34] INFO root fetch - processPackages [CodeToCAD]: executing diffoscope
+[2023-07-07 06:51:34] INFO root fetch - processPackages [CodeToCAD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodeToCAD-0.2.1688705312.tar.gz tmp/CodeToCAD-0.2.6.tar.gz --markdown 20230707/C/CodeToCAD/0.2.1688705312-0.2.6/diff.md --exclude *.pyd
+[2023-07-07 06:51:34] INFO root fetch - processPackages [nxs-analysis-tools]: Downloading https://files.pythonhosted.org/packages/00/4b/5d3ac0f07cb8ee10cad96b62338468321913b17aecf974dba9c42f66df54/nxs_analysis_tools-0.0.9.tar.gz
+[2023-07-07 06:51:35] INFO root fetch - processPackages [nxs-analysis-tools]: executing diffoscope
+[2023-07-07 06:51:35] INFO root fetch - processPackages [nxs-analysis-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nxs_analysis_tools-0.0.8.tar.gz tmp/nxs_analysis_tools-0.0.9.tar.gz --markdown 20230707/n/nxs-analysis-tools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 06:51:35] INFO root fetch - processPackages [dbt-clickzetta]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickzetta-0.2.8.tar.gz]
+[2023-07-07 06:51:35] INFO root fetch - processPackages [dbt-clickzetta]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickzetta-0.2.9.tar.gz]
+[2023-07-07 06:51:35] INFO root fetch - main [MainThread]: End processing [dbt-clickzetta]: success
+[2023-07-07 06:51:35] INFO root fetch - main [MainThread]: End processing [dbt-clickzetta]: success
+[2023-07-07 06:51:35] INFO root fetch - processPackages [CodeToCAD]: Remove: archive file [/home/abi/fetcher/tmp/CodeToCAD-0.2.1688705312.tar.gz]
+[2023-07-07 06:51:35] INFO root fetch - processPackages [CodeToCAD]: Remove: archive file [/home/abi/fetcher/tmp/CodeToCAD-0.2.6.tar.gz]
+[2023-07-07 06:51:35] INFO root fetch - main [MainThread]: End processing [CodeToCAD]: success
+[2023-07-07 06:51:35] INFO root fetch - processPackages [nxs-analysis-tools]: Remove: archive file [/home/abi/fetcher/tmp/nxs_analysis_tools-0.0.8.tar.gz]
+[2023-07-07 06:51:35] INFO root fetch - processPackages [nxs-analysis-tools]: Remove: archive file [/home/abi/fetcher/tmp/nxs_analysis_tools-0.0.9.tar.gz]
+[2023-07-07 06:51:35] INFO root fetch - main [MainThread]: End processing [nxs-analysis-tools]: success
+[2023-07-07 06:51:35] INFO root fetch - main [MainThread]: Store serial: [18795949]
