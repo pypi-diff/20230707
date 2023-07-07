@@ -19513,3 +19513,110 @@ AssertionError: tmp/tester-package-sdk-2.0.9.tar.gz does not exist
 [2023-07-07 12:50:07] INFO root fetch - processPackages [cikuu]: Remove: archive file [/home/abi/fetcher/tmp/cikuu-2022.8.9.tar.gz]
 [2023-07-07 12:50:07] INFO root fetch - main [MainThread]: End processing [cikuu]: success
 [2023-07-07 12:50:07] INFO root fetch - main [MainThread]: Store serial: [18799199]
+[2023-07-07 12:55:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18799199]
+[2023-07-07 12:55:16] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-07 12:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: idoctorai
+[2023-07-07 12:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SELDOMpy
+[2023-07-07 12:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ngsolve
+[2023-07-07 12:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DupliPy
+[2023-07-07 12:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: async-mvg-api
+[2023-07-07 12:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: md2site
+[2023-07-07 12:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: clear-skies
+[2023-07-07 12:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyscal
+[2023-07-07 12:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qwak-sdk
+[2023-07-07 12:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pait
+[2023-07-07 12:55:17] INFO root fetch - processPackages [idoctorai]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-07 12:55:17] INFO root fetch - processPackages [DupliPy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-07 12:55:17] INFO root fetch - processPackages [SELDOMpy]: New version: [0.9] Old Version: [0.8.4.9]
+[2023-07-07 12:55:17] INFO root fetch - processPackages [async-mvg-api]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-07-07 12:55:17] INFO root fetch - processPackages [md2site]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-07 12:55:17] INFO root fetch - processPackages [qwak-sdk]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-07 12:55:17] INFO root fetch - processPackages [ngsolve]: New version: [6.2.2303.post8.dev0] Old Version: [6.2.2303.post24.dev0]
+[2023-07-07 12:55:17] INFO root fetch - processPackages [clear-skies]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-07 12:55:17] INFO root fetch - processPackages [pyscal]: New version: [0.9.2] Old Version: [0.9.0]
+[2023-07-07 12:55:17] INFO root fetch - processPackages [pait]: New version: [1.0.0a7] Old Version: [1.0.0a6]
+[2023-07-07 12:55:17] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/82/ae/6923d0caac63e2864360d44c90adbb6e93afca41f5ebd30c767f452284fe/idoctorai-0.7.0.tar.gz
+[2023-07-07 12:55:17] INFO root fetch - processPackages [qwak-sdk]: Downloading https://files.pythonhosted.org/packages/54/73/b232213196f61ccf5d744e25bd0300ead695e86f48708d735193d80f05ff/qwak_sdk-0.5.8.tar.gz
+[2023-07-07 12:55:17] INFO root fetch - processPackages [clear-skies]: Downloading https://files.pythonhosted.org/packages/86/c6/5fc7f98d0b986c1fc7be0ee2f9821c93bff9852a85fc1b812fd0d36b5902/clear-skies-1.8.0.tar.gz
+[2023-07-07 12:55:17] INFO root fetch - processPackages [DupliPy]: Downloading https://files.pythonhosted.org/packages/06/c6/c4817b97a34a1bd10e9d07119b7b551c3d7a82a68e3b6fde476862081974/DupliPy-0.1.0.tar.gz
+[2023-07-07 12:55:17] INFO root fetch - processPackages [ngsolve]: Downloading https://files.pythonhosted.org/packages/94/90/0c1cd5ef613d86c52b7b8acc3f7b2040bab474f696c68d4a68aa452e1d09/ngsolve-6.2.2303.post24.dev0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-07 12:55:17] INFO root fetch - processPackages [async-mvg-api]: Downloading https://files.pythonhosted.org/packages/17/94/847cd5fe29c98e55a6ad91dffa895767c801e50819735e7a04e154231292/async_mvg_api-0.1.5.tar.gz
+[2023-07-07 12:55:17] INFO root fetch - processPackages [md2site]: Downloading https://files.pythonhosted.org/packages/c8/2c/d74556aa91217d777725514ddc7ac85d054b3ba1e1d7b3d091ff49cf3d57/md2site-0.0.5.tar.gz
+[2023-07-07 12:55:17] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/21/66/04c99dbb1178f4aa054baa8d131b3ed30fe1fdcb73aa6ee7d4f12c7c7b13/SELDOMpy-0.8.4.9.tar.gz
+[2023-07-07 12:55:17] INFO root fetch - processPackages [pyscal]: Downloading https://files.pythonhosted.org/packages/8c/b0/f5f42a432fba55edb9b8962ad2a534ccfa718a8ae74e89bf5ba09886c68e/pyscal-0.9.0.tar.gz
+[2023-07-07 12:55:17] INFO root fetch - processPackages [pait]: Downloading https://files.pythonhosted.org/packages/d2/dc/3773e602dcebd105a15a653b76b0e8e353e8bdd7855805bcac61ec224592/pait-1.0.0a6.tar.gz
+[2023-07-07 12:55:17] WARNING root fetch - processPackages [ngsolve]: Skipping package: exceeds size limit 23194228>=10485760
+[2023-07-07 12:55:17] INFO root fetch - processPackages [ngsolve]: Start processing: biobb-pmx
+[2023-07-07 12:55:17] INFO root fetch - main [MainThread]: End processing [ngsolve] error
+[2023-07-07 12:55:17] INFO root fetch - processPackages [qwak-sdk]: Downloading https://files.pythonhosted.org/packages/d4/93/8fee5951ae6175bb756e71b252346e876a32a52652955f82fb606c69fb2c/qwak_sdk-0.5.9.tar.gz
+[2023-07-07 12:55:17] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/db/a5/77cfa7ec78e065f04a05d8f1885b42952bc0fbd4aab026b2c5ea6e16a7fa/idoctorai-0.7.1.tar.gz
+[2023-07-07 12:55:17] INFO root fetch - processPackages [clear-skies]: Downloading https://files.pythonhosted.org/packages/46/ff/38dd0872e0df49c2ac34c7256f311d26a829dd84c6f09be6ed0215107767/clear-skies-1.9.0.tar.gz
+[2023-07-07 12:55:17] INFO root fetch - processPackages [DupliPy]: Downloading https://files.pythonhosted.org/packages/56/df/66471320e1227e0c262332fe2eb2f4308cbc5963234c2ddb145e8aac0f1a/DupliPy-0.1.1.tar.gz
+[2023-07-07 12:55:17] INFO root fetch - processPackages [biobb-pmx]: New version: [4.0.0] Old Version: [3.8.1]
+[2023-07-07 12:55:17] INFO root fetch - processPackages [async-mvg-api]: Downloading https://files.pythonhosted.org/packages/d2/a1/5012c9eed0b4fac2122fc944d0affd6a98b2711a67de68f0573cd8f4e10e/async_mvg_api-0.2.0.tar.gz
+[2023-07-07 12:55:17] INFO root fetch - processPackages [qwak-sdk]: executing diffoscope
+[2023-07-07 12:55:17] INFO root fetch - processPackages [qwak-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_sdk-0.5.8.tar.gz tmp/qwak_sdk-0.5.9.tar.gz --markdown 20230707/q/qwak-sdk/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-07 12:55:17] INFO root fetch - processPackages [clear-skies]: executing diffoscope
+[2023-07-07 12:55:17] INFO root fetch - processPackages [clear-skies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear-skies-1.8.0.tar.gz tmp/clear-skies-1.9.0.tar.gz --markdown 20230707/c/clear-skies/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-07 12:55:18] INFO root fetch - processPackages [md2site]: Downloading https://files.pythonhosted.org/packages/91/5d/21e5f725a44bfda7fc904f3ef062d3a2eb217c5b1be07f2d582edb1c40be/md2site-0.0.6.tar.gz
+[2023-07-07 12:55:18] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/3d/63/2fab6dd9c2e8f2d42717a8bb02c3d388887cd3ab783a82bd92bd08632a96/SELDOMpy-0.9.tar.gz
+[2023-07-07 12:55:18] INFO root fetch - processPackages [pait]: Downloading https://files.pythonhosted.org/packages/05/aa/4c4db75c7d68db11ec6efc444409ebc0f38090a881087d1c400d369b71d4/pait-1.0.0a7.tar.gz
+[2023-07-07 12:55:18] INFO root fetch - processPackages [idoctorai]: executing diffoscope
+[2023-07-07 12:55:18] INFO root fetch - processPackages [idoctorai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idoctorai-0.7.0.tar.gz tmp/idoctorai-0.7.1.tar.gz --markdown 20230707/i/idoctorai/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-07 12:55:18] INFO root fetch - processPackages [DupliPy]: executing diffoscope
+[2023-07-07 12:55:18] INFO root fetch - processPackages [DupliPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DupliPy-0.1.0.tar.gz tmp/DupliPy-0.1.1.tar.gz --markdown 20230707/D/DupliPy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-07 12:55:18] INFO root fetch - processPackages [biobb-pmx]: Downloading https://files.pythonhosted.org/packages/4c/bf/0cd5c2f2adf3995be6e0df092e2db4a06fae039756be1c076d734d249409/biobb_pmx-3.8.1.tar.gz
+[2023-07-07 12:55:18] INFO root fetch - processPackages [async-mvg-api]: executing diffoscope
+[2023-07-07 12:55:18] INFO root fetch - processPackages [async-mvg-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_mvg_api-0.1.5.tar.gz tmp/async_mvg_api-0.2.0.tar.gz --markdown 20230707/a/async-mvg-api/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-07-07 12:55:18] INFO root fetch - processPackages [md2site]: executing diffoscope
+[2023-07-07 12:55:18] INFO root fetch - processPackages [md2site]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/md2site-0.0.5.tar.gz tmp/md2site-0.0.6.tar.gz --markdown 20230707/m/md2site/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-07 12:55:18] INFO root fetch - processPackages [pait]: executing diffoscope
+[2023-07-07 12:55:18] INFO root fetch - processPackages [pait]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pait-1.0.0a6.tar.gz tmp/pait-1.0.0a7.tar.gz --markdown 20230707/p/pait/1.0.0a6-1.0.0a7/diff.md --exclude *.pyd
+[2023-07-07 12:55:18] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-07-07 12:55:18] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.8.4.9.tar.gz tmp/SELDOMpy-0.9.tar.gz --markdown 20230707/S/SELDOMpy/0.8.4.9-0.9/diff.md --exclude *.pyd
+[2023-07-07 12:55:18] INFO root fetch - processPackages [biobb-pmx]: Downloading https://files.pythonhosted.org/packages/cd/23/317d6f05e0d7696ad78c1e66a827a2b7a3802775de428f1bf8af1141474b/biobb_pmx-4.0.0.tar.gz
+[2023-07-07 12:55:18] INFO root fetch - processPackages [biobb-pmx]: executing diffoscope
+[2023-07-07 12:55:18] INFO root fetch - processPackages [biobb-pmx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biobb_pmx-3.8.1.tar.gz tmp/biobb_pmx-4.0.0.tar.gz --markdown 20230707/b/biobb-pmx/3.8.1-4.0.0/diff.md --exclude *.pyd
+[2023-07-07 12:55:19] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.7.0.tar.gz]
+[2023-07-07 12:55:19] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.7.1.tar.gz]
+[2023-07-07 12:55:19] INFO root fetch - processPackages [idoctorai]: Start processing: md2site
+[2023-07-07 12:55:19] INFO root fetch - main [MainThread]: End processing [idoctorai]: success
+[2023-07-07 12:55:19] INFO root fetch - processPackages [DupliPy]: Remove: archive file [/home/abi/fetcher/tmp/DupliPy-0.1.0.tar.gz]
+[2023-07-07 12:55:19] INFO root fetch - processPackages [DupliPy]: Remove: archive file [/home/abi/fetcher/tmp/DupliPy-0.1.1.tar.gz]
+[2023-07-07 12:55:19] INFO root fetch - main [MainThread]: End processing [DupliPy]: success
+[2023-07-07 12:55:19] INFO root fetch - processPackages [md2site]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-07 12:55:19] INFO root fetch - processPackages [pyscal]: Downloading https://files.pythonhosted.org/packages/f7/d9/59baac2e79df0ccf38fe130360e44c9e1cf1587c9fe94ec12006691c21ce/pyscal-0.9.2.tar.gz
+[2023-07-07 12:55:19] INFO root fetch - processPackages [async-mvg-api]: Remove: archive file [/home/abi/fetcher/tmp/async_mvg_api-0.1.5.tar.gz]
+[2023-07-07 12:55:19] INFO root fetch - processPackages [async-mvg-api]: Remove: archive file [/home/abi/fetcher/tmp/async_mvg_api-0.2.0.tar.gz]
+[2023-07-07 12:55:19] INFO root fetch - main [MainThread]: End processing [async-mvg-api]: success
+[2023-07-07 12:55:19] INFO root fetch - processPackages [md2site]: Remove: archive file [/home/abi/fetcher/tmp/md2site-0.0.5.tar.gz]
+[2023-07-07 12:55:19] INFO root fetch - processPackages [md2site]: Remove: archive file [/home/abi/fetcher/tmp/md2site-0.0.6.tar.gz]
+[2023-07-07 12:55:19] INFO root fetch - main [MainThread]: End processing [md2site]: success
+[2023-07-07 12:55:19] INFO root fetch - processPackages [md2site]: Downloading https://files.pythonhosted.org/packages/8d/b4/85e8b0c5fc9e87ed764354a2044d9b859bc8da29636165ddf00fc93bd919/md2site-0.0.7.tar.gz
+[2023-07-07 12:55:20] INFO root fetch - processPackages [biobb-pmx]: Remove: archive file [/home/abi/fetcher/tmp/biobb_pmx-3.8.1.tar.gz]
+[2023-07-07 12:55:20] INFO root fetch - processPackages [biobb-pmx]: Remove: archive file [/home/abi/fetcher/tmp/biobb_pmx-4.0.0.tar.gz]
+[2023-07-07 12:55:20] INFO root fetch - main [MainThread]: End processing [biobb-pmx]: success
+[2023-07-07 12:55:20] INFO root fetch - processPackages [clear-skies]: Remove: archive file [/home/abi/fetcher/tmp/clear-skies-1.8.0.tar.gz]
+[2023-07-07 12:55:20] INFO root fetch - processPackages [clear-skies]: Remove: archive file [/home/abi/fetcher/tmp/clear-skies-1.9.0.tar.gz]
+[2023-07-07 12:55:20] INFO root fetch - main [MainThread]: End processing [clear-skies]: success
+[2023-07-07 12:55:20] INFO root fetch - processPackages [md2site]: executing diffoscope
+[2023-07-07 12:55:20] INFO root fetch - processPackages [md2site]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/md2site-0.0.6.tar.gz tmp/md2site-0.0.7.tar.gz --markdown 20230707/m/md2site/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-07 12:55:20] INFO root fetch - processPackages [pait]: Remove: archive file [/home/abi/fetcher/tmp/pait-1.0.0a6.tar.gz]
+[2023-07-07 12:55:20] INFO root fetch - processPackages [pait]: Remove: archive file [/home/abi/fetcher/tmp/pait-1.0.0a7.tar.gz]
+[2023-07-07 12:55:20] INFO root fetch - main [MainThread]: End processing [pait]: success
+[2023-07-07 12:55:20] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.8.4.9.tar.gz]
+[2023-07-07 12:55:20] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.9.tar.gz]
+[2023-07-07 12:55:20] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-07-07 12:55:20] INFO root fetch - processPackages [qwak-sdk]: Remove: archive file [/home/abi/fetcher/tmp/qwak_sdk-0.5.8.tar.gz]
+[2023-07-07 12:55:20] INFO root fetch - processPackages [qwak-sdk]: Remove: archive file [/home/abi/fetcher/tmp/qwak_sdk-0.5.9.tar.gz]
+[2023-07-07 12:55:20] INFO root fetch - main [MainThread]: End processing [qwak-sdk]: success
+[2023-07-07 12:55:20] ERROR root fetch - processPackages [md2site]: Diffoscope failed: time="2023-07-07T12:55:20+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/md2site-0.0.6.tar.gz: No such file or directory
+
+[2023-07-07 12:55:20] INFO root fetch - main [MainThread]: End processing [md2site] error
+[2023-07-07 12:55:21] INFO root fetch - processPackages [pyscal]: executing diffoscope
+[2023-07-07 12:55:21] INFO root fetch - processPackages [pyscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscal-0.9.0.tar.gz tmp/pyscal-0.9.2.tar.gz --markdown 20230707/p/pyscal/0.9.0-0.9.2/diff.md --exclude *.pyd
+[2023-07-07 12:55:27] INFO root fetch - processPackages [pyscal]: Remove: archive file [/home/abi/fetcher/tmp/pyscal-0.9.0.tar.gz]
+[2023-07-07 12:55:27] INFO root fetch - processPackages [pyscal]: Remove: archive file [/home/abi/fetcher/tmp/pyscal-0.9.2.tar.gz]
+[2023-07-07 12:55:27] INFO root fetch - main [MainThread]: End processing [pyscal]: success
+[2023-07-07 12:55:27] INFO root fetch - main [MainThread]: Store serial: [18799239]
