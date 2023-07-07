@@ -17109,3 +17109,213 @@ EOFError: EOF read where object expected
 [2023-07-07 11:25:06] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
 [2023-07-07 11:25:06] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-07-07 11:25:06] INFO root fetch - main [MainThread]: Store serial: [18798180]
+[2023-07-07 11:30:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18798180]
+[2023-07-07 11:30:16] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-07-07 11:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygmtools
+[2023-07-07 11:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysui
+[2023-07-07 11:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: p-template-crawler
+[2023-07-07 11:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyamihtml
+[2023-07-07 11:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: foxes
+[2023-07-07 11:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zit
+[2023-07-07 11:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cmem-plugin-kafka
+[2023-07-07 11:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyautocorpus
+[2023-07-07 11:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-docx-ng
+[2023-07-07 11:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fyers-sdk
+[2023-07-07 11:30:16] INFO root fetch - processPackages [zit]: New version: [0.0.2a9] Old Version: [0.0.2a8]
+[2023-07-07 11:30:16] INFO root fetch - processPackages [python-docx-ng]: New version: [0.9.5] Old Version: [0.9.4.dev0]
+[2023-07-07 11:30:16] INFO root fetch - processPackages [fyers-sdk]: New version: [0.3] Old Version: [0.2]
+[2023-07-07 11:30:16] INFO root fetch - processPackages [p-template-crawler]: New version: [0.0.9] Old Version: [0.0.85]
+[2023-07-07 11:30:16] INFO root fetch - processPackages [pyautocorpus]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-07 11:30:16] INFO root fetch - processPackages [pysui]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-07 11:30:16] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/f7/a4/03a25a7ac61b59027ec719ada0b3039bd56b6d1585db6047ed6699f2d774/zit-0.0.2a8.tar.gz
+[2023-07-07 11:30:16] INFO root fetch - processPackages [pyamihtml]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-07 11:30:16] INFO root fetch - processPackages [cmem-plugin-kafka]: New version: [1.4.0rc1] Old Version: [1.3.1rc1]
+[2023-07-07 11:30:16] INFO root fetch - processPackages [foxes]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-07 11:30:16] INFO root fetch - processPackages [pygmtools]: New version: [0.3.8a0] Old Version: [0.3.8]
+[2023-07-07 11:30:16] INFO root fetch - processPackages [python-docx-ng]: Downloading https://files.pythonhosted.org/packages/70/d6/d4ab21e632fd6dade8cc21edfdf37e2e4d4599c59a79ed86528340408fbc/python_docx_ng-0.9.4.dev0.tar.gz
+[2023-07-07 11:30:17] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/92/17/7f1316c287787fae6e5036deeed12822ba1e18de8ece66554406bb4462a4/fyers_sdk-0.2.tar.gz
+[2023-07-07 11:30:17] INFO root fetch - processPackages [p-template-crawler]: Downloading https://files.pythonhosted.org/packages/68/2d/e56a88a60c23fbf1c875a16a272bd7168147f7b184985198598bd20c456a/p-template-crawler-0.0.85.tar.gz
+[2023-07-07 11:30:17] INFO root fetch - processPackages [pyautocorpus]: Downloading https://files.pythonhosted.org/packages/84/9b/28868d232047acfb415e33eea8baaa0634b595f99851fa87eaff3e140892/pyautocorpus-0.1.8.tar.gz
+[2023-07-07 11:30:17] INFO root fetch - processPackages [pysui]: Downloading https://files.pythonhosted.org/packages/df/fd/8060c20cdf32607400911d43fc627a8bf48fe7571dc1992ab190b3274d7b/pysui-0.8.0-py3-none-any.whl
+[2023-07-07 11:30:17] INFO root fetch - processPackages [pyamihtml]: Downloading https://files.pythonhosted.org/packages/92/29/d686b8374feae9966c6fe5601151d3dbfce8d414e3638e51683676f8f9cb/pyamihtml-0.0.5.tar.gz
+[2023-07-07 11:30:17] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/a4/82/8acbbc7fb714d5fa1967462dcfd7ed8517c4d85f00ac7d63188980ac02a3/zit-0.0.2a9.tar.gz
+[2023-07-07 11:30:17] INFO root fetch - processPackages [cmem-plugin-kafka]: Downloading https://files.pythonhosted.org/packages/87/c0/ae04c98ee852ae251d2a7668a52292fc1f1f8c60ddd01ee034ebbd532057/cmem_plugin_kafka-1.3.1rc1.tar.gz
+[2023-07-07 11:30:17] INFO root fetch - processPackages [foxes]: Downloading https://files.pythonhosted.org/packages/ee/4d/04455d6350d53c77693a3f7dc3967a5f550a984b93ff007fb5ff1a7384f6/foxes-0.4.0.tar.gz
+[2023-07-07 11:30:17] INFO root fetch - processPackages [pygmtools]: Downloading https://files.pythonhosted.org/packages/3f/50/1afc01420fa4262d42c1d89ebaa283673a4992b9c1a6ddd0134b41376c7a/pygmtools-0.3.8.tar.gz
+[2023-07-07 11:30:17] INFO root fetch - processPackages [python-docx-ng]: Downloading https://files.pythonhosted.org/packages/ce/a6/449840160e546308d36ca4774831c73d66540e2c20c2e6940774de29f497/python_docx_ng-0.9.5.tar.gz
+[2023-07-07 11:30:17] INFO root fetch - processPackages [zit]: executing diffoscope
+[2023-07-07 11:30:17] INFO root fetch - processPackages [zit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zit-0.0.2a8.tar.gz tmp/zit-0.0.2a9.tar.gz --markdown 20230707/z/zit/0.0.2a8-0.0.2a9/diff.md --exclude *.pyd
+[2023-07-07 11:30:17] INFO root fetch - processPackages [p-template-crawler]: Downloading https://files.pythonhosted.org/packages/2e/93/1eb2e14124aacd5278934cdff24ad9d4860e50f82e5881d3d69c66eb4bee/p-template-crawler-0.0.9.tar.gz
+[2023-07-07 11:30:17] INFO root fetch - processPackages [python-docx-ng]: executing diffoscope
+[2023-07-07 11:30:17] INFO root fetch - processPackages [python-docx-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_docx_ng-0.9.4.dev0.tar.gz tmp/python_docx_ng-0.9.5.tar.gz --markdown 20230707/p/python-docx-ng/0.9.4.dev0-0.9.5/diff.md --exclude *.pyd
+[2023-07-07 11:30:17] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/e4/06/9898e1da3d663ada9922ef0106b53ad8717b8b90bfa28b935d270e708a66/fyers_sdk-0.3.tar.gz
+[2023-07-07 11:30:17] INFO root fetch - processPackages [p-template-crawler]: executing diffoscope
+[2023-07-07 11:30:17] INFO root fetch - processPackages [p-template-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-template-crawler-0.0.85.tar.gz tmp/p-template-crawler-0.0.9.tar.gz --markdown 20230707/p/p-template-crawler/0.0.85-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 11:30:17] INFO root fetch - processPackages [pyautocorpus]: Downloading https://files.pythonhosted.org/packages/e9/b2/88efd388e99a1051d728431ce4bb3e45960b984afbaebb3b22a76ce992ab/pyautocorpus-0.1.9.tar.gz
+[2023-07-07 11:30:17] INFO root fetch - processPackages [pyamihtml]: Downloading https://files.pythonhosted.org/packages/70/20/287ce0d16fb45c09c846adad353121cd91489c3bac5155ae374ffbcd73b2/pyamihtml-0.0.6.tar.gz
+[2023-07-07 11:30:17] INFO root fetch - processPackages [cmem-plugin-kafka]: Downloading https://files.pythonhosted.org/packages/5d/03/8be4f8a4eebbf23e484d3dee5935c4fad81cec7488caa7db786bc4e986de/cmem_plugin_kafka-1.4.0rc1.tar.gz
+[2023-07-07 11:30:17] INFO root fetch - processPackages [pysui]: Downloading https://files.pythonhosted.org/packages/d0/d5/e2108ab88d1f544ccab9554dcf4127133263950ae9c3e3912ab5bb6db12a/pysui-0.9.0-py3-none-any.whl
+[2023-07-07 11:30:17] INFO root fetch - processPackages [fyers-sdk]: executing diffoscope
+[2023-07-07 11:30:17] INFO root fetch - processPackages [fyers-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyers_sdk-0.2.tar.gz tmp/fyers_sdk-0.3.tar.gz --markdown 20230707/f/fyers-sdk/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-07 11:30:17] INFO root fetch - processPackages [foxes]: Downloading https://files.pythonhosted.org/packages/78/72/be722d04f1f4bc038ddead6e01860c1f528068374bf4c619ddfb44d82d58/foxes-0.4.1.tar.gz
+[2023-07-07 11:30:17] INFO root fetch - processPackages [pygmtools]: Downloading https://files.pythonhosted.org/packages/c2/6f/1a78b0378268302007883803f0e669e85b0b82e03cc09a2672cf732395da/pygmtools-0.3.8a0.tar.gz
+[2023-07-07 11:30:17] INFO root fetch - processPackages [pyautocorpus]: executing diffoscope
+[2023-07-07 11:30:17] INFO root fetch - processPackages [pyautocorpus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyautocorpus-0.1.8.tar.gz tmp/pyautocorpus-0.1.9.tar.gz --markdown 20230707/p/pyautocorpus/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-07 11:30:17] INFO root fetch - processPackages [pyamihtml]: executing diffoscope
+[2023-07-07 11:30:17] INFO root fetch - processPackages [pyamihtml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyamihtml-0.0.5.tar.gz tmp/pyamihtml-0.0.6.tar.gz --markdown 20230707/p/pyamihtml/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-07 11:30:18] INFO root fetch - processPackages [cmem-plugin-kafka]: executing diffoscope
+[2023-07-07 11:30:18] INFO root fetch - processPackages [cmem-plugin-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmem_plugin_kafka-1.3.1rc1.tar.gz tmp/cmem_plugin_kafka-1.4.0rc1.tar.gz --markdown 20230707/c/cmem-plugin-kafka/1.3.1rc1-1.4.0rc1/diff.md --exclude *.pyd
+[2023-07-07 11:30:18] INFO root fetch - processPackages [pysui]: executing diffoscope
+[2023-07-07 11:30:18] INFO root fetch - processPackages [pysui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysui-0.8.0-py3-none-any.whl.zip tmp/pysui-0.9.0-py3-none-any.whl.zip --markdown 20230707/p/pysui/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-07 11:30:18] INFO root fetch - processPackages [foxes]: executing diffoscope
+[2023-07-07 11:30:18] INFO root fetch - processPackages [foxes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foxes-0.4.0.tar.gz tmp/foxes-0.4.1.tar.gz --markdown 20230707/f/foxes/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-07 11:30:18] INFO root fetch - processPackages [pygmtools]: executing diffoscope
+[2023-07-07 11:30:18] INFO root fetch - processPackages [pygmtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygmtools-0.3.8.tar.gz tmp/pygmtools-0.3.8a0.tar.gz --markdown 20230707/p/pygmtools/0.3.8-0.3.8a0/diff.md --exclude *.pyd
+[2023-07-07 11:30:18] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.2a8.tar.gz]
+[2023-07-07 11:30:18] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.2a9.tar.gz]
+[2023-07-07 11:30:18] INFO root fetch - processPackages [zit]: Start processing: codat-common
+[2023-07-07 11:30:18] INFO root fetch - main [MainThread]: End processing [zit]: success
+[2023-07-07 11:30:18] INFO root fetch - processPackages [codat-common]: New version: [0.8.1] Old Version: [0.6.5]
+[2023-07-07 11:30:18] INFO root fetch - processPackages [p-template-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-template-crawler-0.0.85.tar.gz]
+[2023-07-07 11:30:18] INFO root fetch - processPackages [p-template-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-template-crawler-0.0.9.tar.gz]
+[2023-07-07 11:30:19] INFO root fetch - processPackages [p-template-crawler]: Start processing: codat-assess
+[2023-07-07 11:30:19] INFO root fetch - main [MainThread]: End processing [p-template-crawler]: success
+[2023-07-07 11:30:19] INFO root fetch - processPackages [codat-assess]: New version: [0.9.6] Old Version: [0.5.1]
+[2023-07-07 11:30:19] INFO root fetch - processPackages [codat-common]: Downloading https://files.pythonhosted.org/packages/ce/e4/56d482565ff5a242c0614bcacccf0e233c98a5ebbe3ba3c8fb0e613ef4a7/codat-common-0.6.5.tar.gz
+[2023-07-07 11:30:19] INFO root fetch - processPackages [fyers-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fyers_sdk-0.2.tar.gz]
+[2023-07-07 11:30:19] INFO root fetch - processPackages [fyers-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fyers_sdk-0.3.tar.gz]
+[2023-07-07 11:30:19] INFO root fetch - processPackages [fyers-sdk]: Start processing: iceberg-dsl
+[2023-07-07 11:30:19] INFO root fetch - main [MainThread]: End processing [fyers-sdk]: success
+[2023-07-07 11:30:19] INFO root fetch - processPackages [iceberg-dsl]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-07 11:30:19] INFO root fetch - processPackages [codat-assess]: Downloading https://files.pythonhosted.org/packages/5d/5d/ccb02812cf4612cbc83dfcef4407d3a273c4dd18c62d3a4ea911297d49b2/codat-assess-0.5.1.tar.gz
+[2023-07-07 11:30:19] INFO root fetch - processPackages [pyautocorpus]: Remove: archive file [/home/abi/fetcher/tmp/pyautocorpus-0.1.8.tar.gz]
+[2023-07-07 11:30:19] INFO root fetch - processPackages [pyautocorpus]: Remove: archive file [/home/abi/fetcher/tmp/pyautocorpus-0.1.9.tar.gz]
+[2023-07-07 11:30:19] INFO root fetch - processPackages [pyautocorpus]: Start processing: codat-commerce
+[2023-07-07 11:30:19] INFO root fetch - main [MainThread]: End processing [pyautocorpus]: success
+[2023-07-07 11:30:19] INFO root fetch - processPackages [cmem-plugin-kafka]: Remove: archive file [/home/abi/fetcher/tmp/cmem_plugin_kafka-1.3.1rc1.tar.gz]
+[2023-07-07 11:30:19] INFO root fetch - processPackages [cmem-plugin-kafka]: Remove: archive file [/home/abi/fetcher/tmp/cmem_plugin_kafka-1.4.0rc1.tar.gz]
+[2023-07-07 11:30:19] INFO root fetch - processPackages [cmem-plugin-kafka]: Start processing: codat-bankfeeds
+[2023-07-07 11:30:19] INFO root fetch - main [MainThread]: End processing [cmem-plugin-kafka]: success
+[2023-07-07 11:30:19] INFO root fetch - processPackages [codat-common]: Downloading https://files.pythonhosted.org/packages/f7/31/effc45061ad6b0aaedae73860803c39dc10db206cbd327e78a25ef4a8e64/codat-common-0.8.1.tar.gz
+[2023-07-07 11:30:19] INFO root fetch - processPackages [iceberg-dsl]: Downloading https://files.pythonhosted.org/packages/46/3c/459fd1920df79d989c4b2387be87b85426202e8ea4ba09cbc23076c35a2e/iceberg-dsl-0.0.5.tar.gz
+[2023-07-07 11:30:19] INFO root fetch - processPackages [codat-commerce]: New version: [0.9.6] Old Version: [0.7.0]
+[2023-07-07 11:30:19] INFO root fetch - processPackages [codat-bankfeeds]: New version: [0.8.5] Old Version: [0.6.4]
+[2023-07-07 11:30:19] INFO root fetch - processPackages [pyamihtml]: Remove: archive file [/home/abi/fetcher/tmp/pyamihtml-0.0.5.tar.gz]
+[2023-07-07 11:30:19] INFO root fetch - processPackages [pyamihtml]: Remove: archive file [/home/abi/fetcher/tmp/pyamihtml-0.0.6.tar.gz]
+[2023-07-07 11:30:19] INFO root fetch - processPackages [pyamihtml]: Start processing: codat-sync-for-expenses
+[2023-07-07 11:30:19] INFO root fetch - main [MainThread]: End processing [pyamihtml]: success
+[2023-07-07 11:30:19] INFO root fetch - processPackages [pysui]: Remove: archive file [/home/abi/fetcher/tmp/pysui-0.8.0-py3-none-any.whl.zip]
+[2023-07-07 11:30:19] INFO root fetch - processPackages [pysui]: Remove: archive file [/home/abi/fetcher/tmp/pysui-0.9.0-py3-none-any.whl.zip]
+[2023-07-07 11:30:19] INFO root fetch - processPackages [pysui]: Start processing: resomapper
+[2023-07-07 11:30:19] INFO root fetch - main [MainThread]: End processing [pysui]: success
+[2023-07-07 11:30:19] INFO root fetch - processPackages [codat-sync-for-expenses]: New version: [0.33.1] Old Version: [0.27.1]
+[2023-07-07 11:30:19] INFO root fetch - processPackages [codat-bankfeeds]: Downloading https://files.pythonhosted.org/packages/3b/b3/b325da43bc3be0b5b312d96832957604d3a6e30b3022fb041cd0d5f65e63/codat-bankfeeds-0.6.4.tar.gz
+[2023-07-07 11:30:19] INFO root fetch - processPackages [pygmtools]: Remove: archive file [/home/abi/fetcher/tmp/pygmtools-0.3.8.tar.gz]
+[2023-07-07 11:30:19] INFO root fetch - processPackages [pygmtools]: Remove: archive file [/home/abi/fetcher/tmp/pygmtools-0.3.8a0.tar.gz]
+[2023-07-07 11:30:19] INFO root fetch - processPackages [pygmtools]: Start processing: codat-accounting
+[2023-07-07 11:30:19] INFO root fetch - main [MainThread]: End processing [pygmtools]: success
+[2023-07-07 11:30:19] INFO root fetch - processPackages [codat-commerce]: Downloading https://files.pythonhosted.org/packages/5e/0b/158bc3bfc7f7601b8daa3c8949d75e8a2e5dea3221f16b6ecaafe43dbca3/codat-commerce-0.7.0.tar.gz
+[2023-07-07 11:30:19] INFO root fetch - processPackages [resomapper]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-07 11:30:19] INFO root fetch - processPackages [codat-assess]: Downloading https://files.pythonhosted.org/packages/f6/02/f5dc6ed7ee14f66ceee9aaed1c91a300250841109670580c9d80a62fdd94/codat-assess-0.9.6.tar.gz
+[2023-07-07 11:30:20] INFO root fetch - processPackages [iceberg-dsl]: Downloading https://files.pythonhosted.org/packages/91/80/53bacbca62e003d3e2555a32159775dcc240ad5d8e23719b1c3f5c2f2362/iceberg_dsl-0.0.6-py3-none-any.whl
+[2023-07-07 11:30:20] INFO root fetch - processPackages [codat-accounting]: New version: [0.9.6] Old Version: [0.5.1]
+[2023-07-07 11:30:20] INFO root fetch - processPackages [python-docx-ng]: Remove: archive file [/home/abi/fetcher/tmp/python_docx_ng-0.9.4.dev0.tar.gz]
+[2023-07-07 11:30:20] INFO root fetch - processPackages [python-docx-ng]: Remove: archive file [/home/abi/fetcher/tmp/python_docx_ng-0.9.5.tar.gz]
+[2023-07-07 11:30:20] INFO root fetch - processPackages [python-docx-ng]: Start processing: android-sdk-supporter
+[2023-07-07 11:30:20] INFO root fetch - main [MainThread]: End processing [python-docx-ng]: success
+[2023-07-07 11:30:20] INFO root fetch - processPackages [codat-sync-for-expenses]: Downloading https://files.pythonhosted.org/packages/b8/ac/cea9436027ef361e5f31ab4ac5a64cfc7a682beed2f115ffe7ac1cc56900/codat-sync-for-expenses-0.27.1.tar.gz
+[2023-07-07 11:30:20] INFO root fetch - processPackages [android-sdk-supporter]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-07 11:30:20] INFO root fetch - processPackages [iceberg-dsl]: executing diffoscope
+[2023-07-07 11:30:20] INFO root fetch - processPackages [iceberg-dsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iceberg-dsl-0.0.5.tar.gz tmp/iceberg_dsl-0.0.6-py3-none-any.whl.zip --markdown 20230707/i/iceberg-dsl/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-07 11:30:20] INFO root fetch - processPackages [codat-assess]: executing diffoscope
+[2023-07-07 11:30:20] INFO root fetch - processPackages [codat-assess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-assess-0.5.1.tar.gz tmp/codat-assess-0.9.6.tar.gz --markdown 20230707/c/codat-assess/0.5.1-0.9.6/diff.md --exclude *.pyd
+[2023-07-07 11:30:20] INFO root fetch - processPackages [resomapper]: Downloading https://files.pythonhosted.org/packages/ff/4f/fc0e8e0d8e400e5a70ab04c5c363ec10716332856d7d65204f7c11da7ad9/resomapper-0.2.1.tar.gz
+[2023-07-07 11:30:20] INFO root fetch - processPackages [codat-common]: executing diffoscope
+[2023-07-07 11:30:20] INFO root fetch - processPackages [codat-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-common-0.6.5.tar.gz tmp/codat-common-0.8.1.tar.gz --markdown 20230707/c/codat-common/0.6.5-0.8.1/diff.md --exclude *.pyd
+[2023-07-07 11:30:20] INFO root fetch - processPackages [codat-accounting]: Downloading https://files.pythonhosted.org/packages/bf/47/f4cdb75c867c024099ef9160e409fd058e88bdab11b26ab1203dca2ef1f2/codat-accounting-0.5.1.tar.gz
+[2023-07-07 11:30:20] INFO root fetch - processPackages [codat-bankfeeds]: Downloading https://files.pythonhosted.org/packages/7f/1b/912a0d77891dbd5050af859f0e367b0c052b2ba8196dffd37004bc420bb4/codat-bankfeeds-0.8.5.tar.gz
+[2023-07-07 11:30:20] INFO root fetch - processPackages [codat-commerce]: Downloading https://files.pythonhosted.org/packages/71/8e/245363a88da4d674a28d917f5ea7d96ac815727f03b88dc4ed8e0ae9416b/codat-commerce-0.9.6.tar.gz
+[2023-07-07 11:30:20] INFO root fetch - processPackages [android-sdk-supporter]: Downloading https://files.pythonhosted.org/packages/ba/72/eeebb8154801b62ab7c66e15742a13b4a32647704204854617d95e837a68/android-sdk-supporter-0.0.3.tar.gz
+[2023-07-07 11:30:20] INFO root fetch - processPackages [codat-sync-for-expenses]: Downloading https://files.pythonhosted.org/packages/73/c6/7d2f87b9a85a78f2806b73b28e47ee9356bc7d2657d7232b8bfe2f7e4209/codat-sync-for-expenses-0.33.1.tar.gz
+[2023-07-07 11:30:20] INFO root fetch - processPackages [codat-bankfeeds]: executing diffoscope
+[2023-07-07 11:30:20] INFO root fetch - processPackages [codat-bankfeeds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-bankfeeds-0.6.4.tar.gz tmp/codat-bankfeeds-0.8.5.tar.gz --markdown 20230707/c/codat-bankfeeds/0.6.4-0.8.5/diff.md --exclude *.pyd
+[2023-07-07 11:30:20] INFO root fetch - processPackages [resomapper]: Downloading https://files.pythonhosted.org/packages/41/ea/8fcefc3abf03509a1e9a1c4b535f4eb2ce1424d0758d7f37c3b3ab16b04e/resomapper-0.3.0.tar.gz
+[2023-07-07 11:30:20] INFO root fetch - processPackages [codat-sync-for-expenses]: executing diffoscope
+[2023-07-07 11:30:20] INFO root fetch - processPackages [codat-sync-for-expenses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-sync-for-expenses-0.27.1.tar.gz tmp/codat-sync-for-expenses-0.33.1.tar.gz --markdown 20230707/c/codat-sync-for-expenses/0.27.1-0.33.1/diff.md --exclude *.pyd
+[2023-07-07 11:30:20] INFO root fetch - processPackages [codat-accounting]: Downloading https://files.pythonhosted.org/packages/5b/d6/7816e15411df42a3927b96e719b12df2b452f71167af865f1128d44bf77b/codat-accounting-0.9.6.tar.gz
+[2023-07-07 11:30:20] INFO root fetch - processPackages [resomapper]: executing diffoscope
+[2023-07-07 11:30:20] INFO root fetch - processPackages [resomapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resomapper-0.2.1.tar.gz tmp/resomapper-0.3.0.tar.gz --markdown 20230707/r/resomapper/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-07 11:30:21] INFO root fetch - processPackages [android-sdk-supporter]: Downloading https://files.pythonhosted.org/packages/d4/ab/793ddbf12d224185e3a0bbe899864cd45bad952f97be72a52f850c47ae66/android-sdk-supporter-0.0.4.tar.gz
+[2023-07-07 11:30:21] INFO root fetch - processPackages [android-sdk-supporter]: executing diffoscope
+[2023-07-07 11:30:21] INFO root fetch - processPackages [android-sdk-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/android-sdk-supporter-0.0.3.tar.gz tmp/android-sdk-supporter-0.0.4.tar.gz --markdown 20230707/a/android-sdk-supporter/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-07 11:30:21] INFO root fetch - processPackages [codat-commerce]: executing diffoscope
+[2023-07-07 11:30:21] INFO root fetch - processPackages [codat-commerce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-commerce-0.7.0.tar.gz tmp/codat-commerce-0.9.6.tar.gz --markdown 20230707/c/codat-commerce/0.7.0-0.9.6/diff.md --exclude *.pyd
+[2023-07-07 11:30:21] INFO root fetch - processPackages [iceberg-dsl]: Remove: archive file [/home/abi/fetcher/tmp/iceberg-dsl-0.0.5.tar.gz]
+[2023-07-07 11:30:21] INFO root fetch - processPackages [iceberg-dsl]: Remove: archive file [/home/abi/fetcher/tmp/iceberg_dsl-0.0.6-py3-none-any.whl.zip]
+[2023-07-07 11:30:21] INFO root fetch - processPackages [iceberg-dsl]: Start processing: codat-sync-for-commerce
+[2023-07-07 11:30:21] INFO root fetch - main [MainThread]: End processing [iceberg-dsl]: success
+[2023-07-07 11:30:21] INFO root fetch - processPackages [codat-sync-for-commerce]: New version: [0.9.0] Old Version: [0.30.1]
+[2023-07-07 11:30:21] INFO root fetch - processPackages [codat-accounting]: executing diffoscope
+[2023-07-07 11:30:21] INFO root fetch - processPackages [codat-accounting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-accounting-0.5.1.tar.gz tmp/codat-accounting-0.9.6.tar.gz --markdown 20230707/c/codat-accounting/0.5.1-0.9.6/diff.md --exclude *.pyd
+[2023-07-07 11:30:21] INFO root fetch - processPackages [foxes]: Remove: archive file [/home/abi/fetcher/tmp/foxes-0.4.0.tar.gz]
+[2023-07-07 11:30:21] INFO root fetch - processPackages [foxes]: Remove: archive file [/home/abi/fetcher/tmp/foxes-0.4.1.tar.gz]
+[2023-07-07 11:30:21] INFO root fetch - processPackages [foxes]: Start processing: ms-salesforce-api
+[2023-07-07 11:30:21] INFO root fetch - main [MainThread]: End processing [foxes]: success
+[2023-07-07 11:30:21] INFO root fetch - processPackages [codat-sync-for-commerce]: Downloading https://files.pythonhosted.org/packages/0d/f4/c8689a73b4f52d869f345c675abff809ae943b43eb5f1110b63155b61c23/codat-sync-for-commerce-0.30.1.tar.gz
+[2023-07-07 11:30:21] INFO root fetch - processPackages [ms-salesforce-api]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-07-07 11:30:21] INFO root fetch - processPackages [codat-assess]: Remove: archive file [/home/abi/fetcher/tmp/codat-assess-0.5.1.tar.gz]
+[2023-07-07 11:30:21] INFO root fetch - processPackages [codat-assess]: Remove: archive file [/home/abi/fetcher/tmp/codat-assess-0.9.6.tar.gz]
+[2023-07-07 11:30:21] INFO root fetch - processPackages [codat-assess]: Start processing: codat-banking
+[2023-07-07 11:30:21] INFO root fetch - main [MainThread]: End processing [codat-assess]: success
+[2023-07-07 11:30:21] INFO root fetch - processPackages [codat-banking]: New version: [0.8.4] Old Version: [0.5.1]
+[2023-07-07 11:30:22] INFO root fetch - processPackages [codat-bankfeeds]: Remove: archive file [/home/abi/fetcher/tmp/codat-bankfeeds-0.6.4.tar.gz]
+[2023-07-07 11:30:22] INFO root fetch - processPackages [codat-bankfeeds]: Remove: archive file [/home/abi/fetcher/tmp/codat-bankfeeds-0.8.5.tar.gz]
+[2023-07-07 11:30:22] INFO root fetch - processPackages [codat-bankfeeds]: Start processing: docarray
+[2023-07-07 11:30:22] INFO root fetch - main [MainThread]: End processing [codat-bankfeeds]: success
+[2023-07-07 11:30:22] INFO root fetch - processPackages [codat-sync-for-commerce]: Downloading https://files.pythonhosted.org/packages/00/d0/4f4225a3f91360f9b631b97ec3846d9d0497b91bf7c038bfa8fce2db75ac/codat-sync-for-commerce-0.9.0.tar.gz
+[2023-07-07 11:30:22] INFO root fetch - processPackages [ms-salesforce-api]: Downloading https://files.pythonhosted.org/packages/78/43/99306808cb4c60be9ec7c586ffaae3d8a423f5ba496ab0117e7c1547d3a3/ms_salesforce_api-1.1.2.tar.gz
+[2023-07-07 11:30:22] INFO root fetch - processPackages [codat-banking]: Downloading https://files.pythonhosted.org/packages/b2/67/b084d283648809692d3c8041847804abd7f84339ae948ce7f6da7a32b680/codat-banking-0.5.1.tar.gz
+[2023-07-07 11:30:22] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-07-07 11:30:22] INFO root fetch - processPackages [resomapper]: Remove: archive file [/home/abi/fetcher/tmp/resomapper-0.2.1.tar.gz]
+[2023-07-07 11:30:22] INFO root fetch - processPackages [resomapper]: Remove: archive file [/home/abi/fetcher/tmp/resomapper-0.3.0.tar.gz]
+[2023-07-07 11:30:22] INFO root fetch - main [MainThread]: End processing [resomapper]: success
+[2023-07-07 11:30:22] INFO root fetch - processPackages [codat-sync-for-commerce]: executing diffoscope
+[2023-07-07 11:30:22] INFO root fetch - processPackages [codat-sync-for-commerce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-sync-for-commerce-0.30.1.tar.gz tmp/codat-sync-for-commerce-0.9.0.tar.gz --markdown 20230707/c/codat-sync-for-commerce/0.30.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-07 11:30:22] INFO root fetch - processPackages [codat-sync-for-expenses]: Remove: archive file [/home/abi/fetcher/tmp/codat-sync-for-expenses-0.27.1.tar.gz]
+[2023-07-07 11:30:22] INFO root fetch - processPackages [codat-sync-for-expenses]: Remove: archive file [/home/abi/fetcher/tmp/codat-sync-for-expenses-0.33.1.tar.gz]
+[2023-07-07 11:30:22] INFO root fetch - main [MainThread]: End processing [codat-sync-for-expenses]: success
+[2023-07-07 11:30:22] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/da/d0/4e039d9e7c4e19f30fbd831f0bd4670ae9aa6b5c8b29e21ed55f7886c9fe/docarray-0.9.9.dev4.tar.gz
+[2023-07-07 11:30:22] INFO root fetch - processPackages [ms-salesforce-api]: Downloading https://files.pythonhosted.org/packages/55/15/048247b1046f3b8592b375ea90b60741539a2c25bfd8336829598f7f59c7/ms_salesforce_api-1.2.0.tar.gz
+[2023-07-07 11:30:22] INFO root fetch - processPackages [codat-commerce]: Remove: archive file [/home/abi/fetcher/tmp/codat-commerce-0.7.0.tar.gz]
+[2023-07-07 11:30:22] INFO root fetch - processPackages [codat-commerce]: Remove: archive file [/home/abi/fetcher/tmp/codat-commerce-0.9.6.tar.gz]
+[2023-07-07 11:30:22] INFO root fetch - main [MainThread]: End processing [codat-commerce]: success
+[2023-07-07 11:30:22] INFO root fetch - processPackages [android-sdk-supporter]: Remove: archive file [/home/abi/fetcher/tmp/android-sdk-supporter-0.0.3.tar.gz]
+[2023-07-07 11:30:22] INFO root fetch - processPackages [android-sdk-supporter]: Remove: archive file [/home/abi/fetcher/tmp/android-sdk-supporter-0.0.4.tar.gz]
+[2023-07-07 11:30:22] INFO root fetch - main [MainThread]: End processing [android-sdk-supporter]: success
+[2023-07-07 11:30:22] INFO root fetch - processPackages [codat-banking]: Downloading https://files.pythonhosted.org/packages/03/e8/014083e796ec06673a05a666a7990cbb928cd2ff12ff970fbd141ed4b9e3/codat-banking-0.8.4.tar.gz
+[2023-07-07 11:30:22] INFO root fetch - processPackages [codat-common]: Remove: archive file [/home/abi/fetcher/tmp/codat-common-0.6.5.tar.gz]
+[2023-07-07 11:30:22] INFO root fetch - processPackages [codat-common]: Remove: archive file [/home/abi/fetcher/tmp/codat-common-0.8.1.tar.gz]
+[2023-07-07 11:30:22] INFO root fetch - main [MainThread]: End processing [codat-common]: success
+[2023-07-07 11:30:22] INFO root fetch - processPackages [ms-salesforce-api]: executing diffoscope
+[2023-07-07 11:30:22] INFO root fetch - processPackages [ms-salesforce-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_salesforce_api-1.1.2.tar.gz tmp/ms_salesforce_api-1.2.0.tar.gz --markdown 20230707/m/ms-salesforce-api/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-07-07 11:30:22] INFO root fetch - processPackages [codat-banking]: executing diffoscope
+[2023-07-07 11:30:22] INFO root fetch - processPackages [codat-banking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-banking-0.5.1.tar.gz tmp/codat-banking-0.8.4.tar.gz --markdown 20230707/c/codat-banking/0.5.1-0.8.4/diff.md --exclude *.pyd
+[2023-07-07 11:30:22] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/2b/4f/53a641fcaefc8774128d5f48cb2a7b2e692c8adfce1e2afaf8d9260d8b2a/docarray-0.9.9.dev5.tar.gz
+[2023-07-07 11:30:23] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-07-07 11:30:23] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230707/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-07-07 11:30:23] INFO root fetch - processPackages [codat-accounting]: Remove: archive file [/home/abi/fetcher/tmp/codat-accounting-0.5.1.tar.gz]
+[2023-07-07 11:30:23] INFO root fetch - processPackages [codat-accounting]: Remove: archive file [/home/abi/fetcher/tmp/codat-accounting-0.9.6.tar.gz]
+[2023-07-07 11:30:23] INFO root fetch - main [MainThread]: End processing [codat-accounting]: success
+[2023-07-07 11:30:23] INFO root fetch - processPackages [codat-sync-for-commerce]: Remove: archive file [/home/abi/fetcher/tmp/codat-sync-for-commerce-0.30.1.tar.gz]
+[2023-07-07 11:30:23] INFO root fetch - processPackages [codat-sync-for-commerce]: Remove: archive file [/home/abi/fetcher/tmp/codat-sync-for-commerce-0.9.0.tar.gz]
+[2023-07-07 11:30:23] INFO root fetch - main [MainThread]: End processing [codat-sync-for-commerce]: success
+[2023-07-07 11:30:23] INFO root fetch - processPackages [ms-salesforce-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_salesforce_api-1.1.2.tar.gz]
+[2023-07-07 11:30:23] INFO root fetch - processPackages [ms-salesforce-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_salesforce_api-1.2.0.tar.gz]
+[2023-07-07 11:30:23] INFO root fetch - main [MainThread]: End processing [ms-salesforce-api]: success
+[2023-07-07 11:30:23] INFO root fetch - processPackages [codat-banking]: Remove: archive file [/home/abi/fetcher/tmp/codat-banking-0.5.1.tar.gz]
+[2023-07-07 11:30:23] INFO root fetch - processPackages [codat-banking]: Remove: archive file [/home/abi/fetcher/tmp/codat-banking-0.8.4.tar.gz]
+[2023-07-07 11:30:23] INFO root fetch - main [MainThread]: End processing [codat-banking]: success
+[2023-07-07 11:30:24] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev4.tar.gz]
+[2023-07-07 11:30:24] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
+[2023-07-07 11:30:24] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-07-07 11:30:24] INFO root fetch - main [MainThread]: Store serial: [18798261]
