@@ -15085,3 +15085,144 @@ EOFError: EOF read where object expected
 [2023-07-07 10:05:16] INFO root fetch - processPackages [tungstenkit]: Remove: archive file [/home/abi/fetcher/tmp/tungstenkit-0.1.1a2.tar.gz]
 [2023-07-07 10:05:16] INFO root fetch - main [MainThread]: End processing [tungstenkit]: success
 [2023-07-07 10:05:16] INFO root fetch - main [MainThread]: Store serial: [18797245]
+[2023-07-07 10:10:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18797245]
+[2023-07-07 10:10:27] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-07 10:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tungstenkit
+[2023-07-07 10:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gsheet-pandas
+[2023-07-07 10:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cellmap
+[2023-07-07 10:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyxbe
+[2023-07-07 10:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: letsgo
+[2023-07-07 10:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robotpipe
+[2023-07-07 10:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openi-test
+[2023-07-07 10:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyjd
+[2023-07-07 10:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyglove
+[2023-07-07 10:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: irene-pro
+[2023-07-07 10:10:27] INFO root fetch - processPackages [tungstenkit]: New version: [0.1.1a2] Old Version: [0.1.1a1]
+[2023-07-07 10:10:27] INFO root fetch - processPackages [pyjd]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-07 10:10:27] INFO root fetch - processPackages [cellmap]: New version: [1.0.1.dev202307070741] Old Version: [1.0.1.dev202306050811]
+[2023-07-07 10:10:27] INFO root fetch - processPackages [gsheet-pandas]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-07 10:10:27] INFO root fetch - processPackages [openi-test]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-07 10:10:27] INFO root fetch - processPackages [irene-pro]: New version: [0.0.87] Old Version: [0.0.86]
+[2023-07-07 10:10:27] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230706] Old Version: [0.3.1.dev20230705]
+[2023-07-07 10:10:27] WARNING root fetch - processPackages [robotpipe]: Skipping, unable to determine old version
+[2023-07-07 10:10:27] INFO root fetch - processPackages [robotpipe]: Start processing: BlitzChain
+[2023-07-07 10:10:27] INFO root fetch - main [MainThread]: End processing [robotpipe] error
+[2023-07-07 10:10:27] WARNING root fetch - processPackages [letsgo]: Skipping, unable to determine old version
+[2023-07-07 10:10:27] INFO root fetch - processPackages [letsgo]: Start processing: kikyo-sz
+[2023-07-07 10:10:27] INFO root fetch - main [MainThread]: End processing [letsgo] error
+[2023-07-07 10:10:27] INFO root fetch - processPackages [pyxbe]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-07 10:10:27] INFO root fetch - processPackages [tungstenkit]: Downloading https://files.pythonhosted.org/packages/76/50/2eda4b2f957c53f7b1a2e9a2ae9ebd994f1c2cf5bb265978f7351e9a2f95/tungstenkit-0.1.1a1.tar.gz
+[2023-07-07 10:10:27] INFO root fetch - processPackages [pyjd]: Downloading https://files.pythonhosted.org/packages/02/cb/fed913430448c2449e14cb014f8cf67263657f0c064026504bb77f463c3e/pyjd-1.0.4.tar.gz
+[2023-07-07 10:10:27] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/c5/02/a93d1da7ced17cd64393cd66a5b86e8da0fbabece548648c10a02a837b21/cellmap-1.0.1.dev202306050811-py3-none-any.whl
+[2023-07-07 10:10:27] INFO root fetch - processPackages [openi-test]: Downloading https://files.pythonhosted.org/packages/5c/69/bf652e363f4f30f2d27d40f41b43c519256f7f433f9752fa057f15fd5aec/openi_test-0.2.4.tar.gz
+[2023-07-07 10:10:27] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/00/ce/aac8cfd4b12ba716c8c279bcfe4885151a8a68180868d3dc035a56a33915/irene_pro-0.0.86.tar.gz
+[2023-07-07 10:10:27] INFO root fetch - processPackages [BlitzChain]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-07 10:10:27] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/83/33/c01c76f76ee274899e3689d4b8e6a7c39ec3f4c575987ad0fa9b0c08fa9a/pyglove-0.3.1.dev20230705.tar.gz
+[2023-07-07 10:10:27] INFO root fetch - processPackages [kikyo-sz]: New version: [0.2] Old Version: [0.1.4]
+[2023-07-07 10:10:27] INFO root fetch - processPackages [gsheet-pandas]: Downloading https://files.pythonhosted.org/packages/42/c7/fc5db8de702ee27cede422c3fea7e24b1e2f61ef4e3292277b6893a6712d/gsheet-pandas-0.1.6.tar.gz
+[2023-07-07 10:10:27] INFO root fetch - processPackages [pyxbe]: Downloading https://files.pythonhosted.org/packages/81/44/49541b1bebe875ffda3e4d6fe31308300de3af5f45bac26ff873fc0f4076/pyxbe-1.0.1.tar.gz
+[2023-07-07 10:10:27] INFO root fetch - processPackages [kikyo-sz]: Downloading https://files.pythonhosted.org/packages/1f/1b/69f00f6b822eb6816e260e82d1774f74199bf30a2e7ea582882c2da218b8/kikyo-sz-0.1.4.tar.gz
+[2023-07-07 10:10:28] INFO root fetch - processPackages [BlitzChain]: Downloading https://files.pythonhosted.org/packages/3c/7b/c714bf560bce512e273c6c747f440892b738996e0c7c107818d3aa363de6/BlitzChain-0.3.0.tar.gz
+[2023-07-07 10:10:28] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/d3/fd/a7d2b4f24394bfdab654a111c7d4db841943ec4cd1cb0ed83c3bd4eb601b/irene_pro-0.0.87.tar.gz
+[2023-07-07 10:10:28] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/a4/28/1a8f6f86653bc256a6f41d473b167787c7e3ce33b999d54bae2d6290dead/cellmap-1.0.1.dev202307070741-py3-none-any.whl
+[2023-07-07 10:10:28] INFO root fetch - processPackages [pyjd]: Downloading https://files.pythonhosted.org/packages/b5/09/e3e4f848347fdd1170a0010337c18416da16f0694086c8da681c2f171fe9/pyjd-1.0.5.tar.gz
+[2023-07-07 10:10:28] INFO root fetch - processPackages [openi-test]: Downloading https://files.pythonhosted.org/packages/1f/8d/65131ebfe70ca05590b1b2b93a682f18ea1e6bef3ac0ff262920ff0f6567/openi_test-0.2.5.tar.gz
+[2023-07-07 10:10:28] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/8f/22/c7943ec842defdf749c3d96018c354320f86bf12fe2b76e44d3d16dfdec7/pyglove-0.3.1.dev20230706.tar.gz
+[2023-07-07 10:10:28] INFO root fetch - processPackages [tungstenkit]: Downloading https://files.pythonhosted.org/packages/68/fd/5d548bdf4f36183af2b2ea30d4142c55b2a6575f43ea1d65d686619d6447/tungstenkit-0.1.1a2.tar.gz
+[2023-07-07 10:10:28] INFO root fetch - processPackages [pyxbe]: Downloading https://files.pythonhosted.org/packages/8d/95/cb962bf8c5b9ca54f874aa9da5b47a813a130f0dee4b1490a93450938577/pyxbe-1.0.2.tar.gz
+[2023-07-07 10:10:28] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-07-07 10:10:28] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.86.tar.gz tmp/irene_pro-0.0.87.tar.gz --markdown 20230707/i/irene-pro/0.0.86-0.0.87/diff.md --exclude *.pyd
+[2023-07-07 10:10:28] INFO root fetch - processPackages [cellmap]: executing diffoscope
+[2023-07-07 10:10:28] INFO root fetch - processPackages [cellmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmap-1.0.1.dev202306050811-py3-none-any.whl.zip tmp/cellmap-1.0.1.dev202307070741-py3-none-any.whl.zip --markdown 20230707/c/cellmap/1.0.1.dev202306050811-1.0.1.dev202307070741/diff.md --exclude *.pyd
+[2023-07-07 10:10:28] INFO root fetch - processPackages [pyjd]: executing diffoscope
+[2023-07-07 10:10:28] INFO root fetch - processPackages [pyjd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjd-1.0.4.tar.gz tmp/pyjd-1.0.5.tar.gz --markdown 20230707/p/pyjd/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-07 10:10:28] INFO root fetch - processPackages [openi-test]: executing diffoscope
+[2023-07-07 10:10:28] INFO root fetch - processPackages [openi-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi_test-0.2.4.tar.gz tmp/openi_test-0.2.5.tar.gz --markdown 20230707/o/openi-test/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-07 10:10:28] INFO root fetch - processPackages [gsheet-pandas]: Downloading https://files.pythonhosted.org/packages/e5/da/d4df0c5b094b476e910352291eac8577832a24ac712e72bcd7489737e64a/gsheet-pandas-0.1.7.tar.gz
+[2023-07-07 10:10:28] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-07-07 10:10:28] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230705.tar.gz tmp/pyglove-0.3.1.dev20230706.tar.gz --markdown 20230707/p/pyglove/0.3.1.dev20230705-0.3.1.dev20230706/diff.md --exclude *.pyd
+[2023-07-07 10:10:28] INFO root fetch - processPackages [kikyo-sz]: Downloading https://files.pythonhosted.org/packages/77/70/3786ec54cc28f90fb43713b76b8c671f53e07fa5a9735669d17fa1c2324a/kikyo-sz-0.2.tar.gz
+[2023-07-07 10:10:28] INFO root fetch - processPackages [BlitzChain]: Downloading https://files.pythonhosted.org/packages/09/d6/61fb6e55199bdf016f545a01eaf1510a0d5d6da2027cf6d121376a84dfb8/BlitzChain-0.4.0.tar.gz
+[2023-07-07 10:10:28] INFO root fetch - processPackages [tungstenkit]: executing diffoscope
+[2023-07-07 10:10:28] INFO root fetch - processPackages [tungstenkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tungstenkit-0.1.1a1.tar.gz tmp/tungstenkit-0.1.1a2.tar.gz --markdown 20230707/t/tungstenkit/0.1.1a1-0.1.1a2/diff.md --exclude *.pyd
+[2023-07-07 10:10:28] INFO root fetch - processPackages [pyxbe]: executing diffoscope
+[2023-07-07 10:10:28] INFO root fetch - processPackages [pyxbe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxbe-1.0.1.tar.gz tmp/pyxbe-1.0.2.tar.gz --markdown 20230707/p/pyxbe/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-07 10:10:28] INFO root fetch - processPackages [kikyo-sz]: executing diffoscope
+[2023-07-07 10:10:28] INFO root fetch - processPackages [kikyo-sz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kikyo-sz-0.1.4.tar.gz tmp/kikyo-sz-0.2.tar.gz --markdown 20230707/k/kikyo-sz/0.1.4-0.2/diff.md --exclude *.pyd
+[2023-07-07 10:10:28] INFO root fetch - processPackages [BlitzChain]: executing diffoscope
+[2023-07-07 10:10:28] INFO root fetch - processPackages [BlitzChain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BlitzChain-0.3.0.tar.gz tmp/BlitzChain-0.4.0.tar.gz --markdown 20230707/B/BlitzChain/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-07 10:10:28] INFO root fetch - processPackages [gsheet-pandas]: executing diffoscope
+[2023-07-07 10:10:28] INFO root fetch - processPackages [gsheet-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gsheet-pandas-0.1.6.tar.gz tmp/gsheet-pandas-0.1.7.tar.gz --markdown 20230707/g/gsheet-pandas/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-07 10:10:29] INFO root fetch - processPackages [cellmap]: Remove: archive file [/home/abi/fetcher/tmp/cellmap-1.0.1.dev202306050811-py3-none-any.whl.zip]
+[2023-07-07 10:10:29] INFO root fetch - processPackages [cellmap]: Remove: archive file [/home/abi/fetcher/tmp/cellmap-1.0.1.dev202307070741-py3-none-any.whl.zip]
+[2023-07-07 10:10:29] INFO root fetch - processPackages [cellmap]: Start processing: gsheet-pandas
+[2023-07-07 10:10:29] INFO root fetch - main [MainThread]: End processing [cellmap]: success
+[2023-07-07 10:10:29] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.86.tar.gz]
+[2023-07-07 10:10:29] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.87.tar.gz]
+[2023-07-07 10:10:29] INFO root fetch - processPackages [irene-pro]: Start processing: oarepo-vocabularies
+[2023-07-07 10:10:29] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-07-07 10:10:30] INFO root fetch - processPackages [gsheet-pandas]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-07 10:10:30] INFO root fetch - processPackages [pyjd]: Remove: archive file [/home/abi/fetcher/tmp/pyjd-1.0.4.tar.gz]
+[2023-07-07 10:10:30] INFO root fetch - processPackages [pyjd]: Remove: archive file [/home/abi/fetcher/tmp/pyjd-1.0.5.tar.gz]
+[2023-07-07 10:10:30] INFO root fetch - processPackages [pyjd]: Start processing: pyciactions
+[2023-07-07 10:10:30] INFO root fetch - main [MainThread]: End processing [pyjd]: success
+[2023-07-07 10:10:30] INFO root fetch - processPackages [oarepo-vocabularies]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-07-07 10:10:30] INFO root fetch - processPackages [pyciactions]: New version: [1.0.9] Old Version: [1.0.8a8]
+[2023-07-07 10:10:30] INFO root fetch - processPackages [pyxbe]: Remove: archive file [/home/abi/fetcher/tmp/pyxbe-1.0.1.tar.gz]
+[2023-07-07 10:10:30] INFO root fetch - processPackages [pyxbe]: Remove: archive file [/home/abi/fetcher/tmp/pyxbe-1.0.2.tar.gz]
+[2023-07-07 10:10:30] INFO root fetch - processPackages [pyxbe]: Start processing: exchange-calendars-extensions
+[2023-07-07 10:10:30] INFO root fetch - main [MainThread]: End processing [pyxbe]: success
+[2023-07-07 10:10:30] INFO root fetch - processPackages [openi-test]: Remove: archive file [/home/abi/fetcher/tmp/openi_test-0.2.4.tar.gz]
+[2023-07-07 10:10:30] INFO root fetch - processPackages [openi-test]: Remove: archive file [/home/abi/fetcher/tmp/openi_test-0.2.5.tar.gz]
+[2023-07-07 10:10:30] INFO root fetch - processPackages [openi-test]: Start processing: pyciactions
+[2023-07-07 10:10:30] INFO root fetch - main [MainThread]: End processing [openi-test]: success
+[2023-07-07 10:10:30] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/4f/f3/3f4bce0f1e4c09bf27f8534421b31f53514ec81a4b706ba66930ae207c9f/pyciactions-1.0.8a8.tar.gz
+[2023-07-07 10:10:30] INFO root fetch - processPackages [pyciactions]: New version: [1.0.9] Old Version: [1.0.8a8]
+[2023-07-07 10:10:30] INFO root fetch - processPackages [exchange-calendars-extensions]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-07 10:10:30] INFO root fetch - processPackages [gsheet-pandas]: Downloading https://files.pythonhosted.org/packages/f9/a8/175e64027d215a9ff29d837e14e55f8ced37dda9035d874eb28aca3a0d2e/gsheet-pandas-0.1.8.tar.gz
+[2023-07-07 10:10:30] INFO root fetch - processPackages [kikyo-sz]: Remove: archive file [/home/abi/fetcher/tmp/kikyo-sz-0.1.4.tar.gz]
+[2023-07-07 10:10:30] INFO root fetch - processPackages [kikyo-sz]: Remove: archive file [/home/abi/fetcher/tmp/kikyo-sz-0.2.tar.gz]
+[2023-07-07 10:10:30] INFO root fetch - main [MainThread]: End processing [kikyo-sz]: success
+[2023-07-07 10:10:30] INFO root fetch - processPackages [BlitzChain]: Remove: archive file [/home/abi/fetcher/tmp/BlitzChain-0.3.0.tar.gz]
+[2023-07-07 10:10:30] INFO root fetch - processPackages [BlitzChain]: Remove: archive file [/home/abi/fetcher/tmp/BlitzChain-0.4.0.tar.gz]
+[2023-07-07 10:10:30] INFO root fetch - main [MainThread]: End processing [BlitzChain]: success
+[2023-07-07 10:10:30] INFO root fetch - processPackages [oarepo-vocabularies]: Downloading https://files.pythonhosted.org/packages/c8/85/d226a87c13bac2b8adbbc3209ced5c7c91f172401dce35ad52a4026cc59a/oarepo-vocabularies-2.0.7.tar.gz
+[2023-07-07 10:10:30] INFO root fetch - processPackages [gsheet-pandas]: Remove: archive file [/home/abi/fetcher/tmp/gsheet-pandas-0.1.6.tar.gz]
+[2023-07-07 10:10:30] INFO root fetch - processPackages [gsheet-pandas]: Remove: archive file [/home/abi/fetcher/tmp/gsheet-pandas-0.1.7.tar.gz]
+[2023-07-07 10:10:30] INFO root fetch - main [MainThread]: End processing [gsheet-pandas]: success
+[2023-07-07 10:10:30] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/31/76/449e2f9925c75cb9cae72fcc6ebcb769640e519cf941ad29cee965d3ac35/pyciactions-1.0.9.tar.gz
+[2023-07-07 10:10:30] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/31/76/449e2f9925c75cb9cae72fcc6ebcb769640e519cf941ad29cee965d3ac35/pyciactions-1.0.9.tar.gz
+[2023-07-07 10:10:30] INFO root fetch - processPackages [gsheet-pandas]: executing diffoscope
+[2023-07-07 10:10:30] INFO root fetch - processPackages [gsheet-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gsheet-pandas-0.1.7.tar.gz tmp/gsheet-pandas-0.1.8.tar.gz --markdown 20230707/g/gsheet-pandas/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-07 10:10:30] INFO root fetch - processPackages [exchange-calendars-extensions]: Downloading https://files.pythonhosted.org/packages/be/a7/3ffa7daf71ec08687fa437a9f26bd9cf6ba52aea1ed0ae9c1335f00ae7de/exchange_calendars_extensions-0.2.1.tar.gz
+[2023-07-07 10:10:30] INFO root fetch - processPackages [pyciactions]: executing diffoscope
+[2023-07-07 10:10:30] INFO root fetch - processPackages [pyciactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyciactions-1.0.8a8.tar.gz tmp/pyciactions-1.0.9.tar.gz --markdown 20230707/p/pyciactions/1.0.8a8-1.0.9/diff.md --exclude *.pyd
+[2023-07-07 10:10:30] INFO root fetch - processPackages [pyciactions]: executing diffoscope
+[2023-07-07 10:10:30] INFO root fetch - processPackages [pyciactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyciactions-1.0.8a8.tar.gz tmp/pyciactions-1.0.9.tar.gz --markdown 20230707/p/pyciactions/1.0.8a8-1.0.9/diff.md --exclude *.pyd
+[2023-07-07 10:10:30] INFO root fetch - processPackages [oarepo-vocabularies]: Downloading https://files.pythonhosted.org/packages/fb/2d/b70fc2116fca8ab4e5bde924c172a421f6f3c158320375063e55d04b39bd/oarepo-vocabularies-2.0.8.tar.gz
+[2023-07-07 10:10:30] INFO root fetch - processPackages [oarepo-vocabularies]: executing diffoscope
+[2023-07-07 10:10:30] INFO root fetch - processPackages [oarepo-vocabularies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-vocabularies-2.0.7.tar.gz tmp/oarepo-vocabularies-2.0.8.tar.gz --markdown 20230707/o/oarepo-vocabularies/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-07-07 10:10:31] INFO root fetch - processPackages [exchange-calendars-extensions]: Downloading https://files.pythonhosted.org/packages/95/2a/713ab9fb3ba563a5690b67aa2eb2613bd038a505d6d7aa095ff394fc2156/exchange_calendars_extensions-0.3.0.tar.gz
+[2023-07-07 10:10:31] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230705.tar.gz]
+[2023-07-07 10:10:31] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230706.tar.gz]
+[2023-07-07 10:10:31] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-07-07 10:10:31] ERROR root fetch - processPackages [gsheet-pandas]: Diffoscope failed: time="2023-07-07T10:10:30+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/gsheet-pandas-0.1.7.tar.gz: No such file or directory
+
+[2023-07-07 10:10:31] INFO root fetch - main [MainThread]: End processing [gsheet-pandas] error
+[2023-07-07 10:10:31] INFO root fetch - processPackages [exchange-calendars-extensions]: executing diffoscope
+[2023-07-07 10:10:31] INFO root fetch - processPackages [exchange-calendars-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exchange_calendars_extensions-0.2.1.tar.gz tmp/exchange_calendars_extensions-0.3.0.tar.gz --markdown 20230707/e/exchange-calendars-extensions/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-07 10:10:31] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.8a8.tar.gz]
+[2023-07-07 10:10:31] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.9.tar.gz]
+[2023-07-07 10:10:31] INFO root fetch - main [MainThread]: End processing [pyciactions]: success
+[2023-07-07 10:10:31] INFO root fetch - main [MainThread]: End processing [pyciactions]: success
+[2023-07-07 10:10:32] INFO root fetch - processPackages [oarepo-vocabularies]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-vocabularies-2.0.7.tar.gz]
+[2023-07-07 10:10:32] INFO root fetch - processPackages [oarepo-vocabularies]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-vocabularies-2.0.8.tar.gz]
+[2023-07-07 10:10:32] INFO root fetch - main [MainThread]: End processing [oarepo-vocabularies]: success
+[2023-07-07 10:10:32] INFO root fetch - processPackages [exchange-calendars-extensions]: Remove: archive file [/home/abi/fetcher/tmp/exchange_calendars_extensions-0.2.1.tar.gz]
+[2023-07-07 10:10:32] INFO root fetch - processPackages [exchange-calendars-extensions]: Remove: archive file [/home/abi/fetcher/tmp/exchange_calendars_extensions-0.3.0.tar.gz]
+[2023-07-07 10:10:32] INFO root fetch - main [MainThread]: End processing [exchange-calendars-extensions]: success
+[2023-07-07 10:10:38] INFO root fetch - processPackages [tungstenkit]: Remove: archive file [/home/abi/fetcher/tmp/tungstenkit-0.1.1a1.tar.gz]
+[2023-07-07 10:10:38] INFO root fetch - processPackages [tungstenkit]: Remove: archive file [/home/abi/fetcher/tmp/tungstenkit-0.1.1a2.tar.gz]
+[2023-07-07 10:10:38] INFO root fetch - main [MainThread]: End processing [tungstenkit]: success
+[2023-07-07 10:10:38] INFO root fetch - main [MainThread]: Store serial: [18797307]
