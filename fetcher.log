@@ -10790,3 +10790,78 @@ EOFError: EOF read where object expected
 [2023-07-07 05:32:54] INFO root fetch - processPackages [odoo14-addon-hr-attendance-overtime]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_attendance_overtime-14.0.1.0.1.dev8-py3-none-any.whl.zip]
 [2023-07-07 05:32:54] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-attendance-overtime]: success
 [2023-07-07 05:32:54] INFO root fetch - main [MainThread]: Store serial: [18795583]
+[2023-07-07 05:37:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18795583]
+[2023-07-07 05:38:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-07 05:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ml-starter
+[2023-07-07 05:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nextpcg
+[2023-07-07 05:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: the-compiler
+[2023-07-07 05:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: key-switcheroo
+[2023-07-07 05:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FeishuBitableAPI
+[2023-07-07 05:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ovos-workshop
+[2023-07-07 05:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xbootstrap
+[2023-07-07 05:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: konfuzio-sdk
+[2023-07-07 05:38:03] INFO root fetch - processPackages [key-switcheroo]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-07 05:38:03] INFO root fetch - processPackages [the-compiler]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-07 05:38:03] INFO root fetch - processPackages [FeishuBitableAPI]: New version: [3.2.9] Old Version: [3.2.6]
+[2023-07-07 05:38:03] INFO root fetch - processPackages [ovos-workshop]: New version: [0.0.9a1] Old Version: [0.0.9]
+[2023-07-07 05:38:03] INFO root fetch - processPackages [nextpcg]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-07-07 05:38:03] INFO root fetch - processPackages [ml-starter]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-07 05:38:03] INFO root fetch - processPackages [xbootstrap]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-07 05:38:03] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-07-07 05:38:03] INFO root fetch - processPackages [FeishuBitableAPI]: Downloading https://files.pythonhosted.org/packages/71/06/5f7cd6ceb6324b7993daf1f29a28b7c1b9167af4c39f461f416d23c4766c/FeishuBitableAPI-3.2.6.tar.gz
+[2023-07-07 05:38:03] INFO root fetch - processPackages [nextpcg]: Downloading https://files.pythonhosted.org/packages/70/0b/259c48669b3a28713b1088a3fe693b5659afdef4f74f73c065188523e3ae/nextpcg-0.6.6.tar.gz
+[2023-07-07 05:38:03] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/f1/6e/ab5edbd173735efb035421e439282ab35dea267430a8049f476e1d08ff16/ml-starter-0.1.8.tar.gz
+[2023-07-07 05:38:03] INFO root fetch - processPackages [key-switcheroo]: Downloading https://files.pythonhosted.org/packages/77/b1/ad3b7173ef57306d3a2d9c43f5c5d21268a199228a599812f62558ac3d60/key_switcheroo-0.0.3.tar.gz
+[2023-07-07 05:38:03] INFO root fetch - processPackages [the-compiler]: Downloading https://files.pythonhosted.org/packages/24/14/541aee917cc4fc35bbe1d64c4af9cec41023680c80ee7428953469131283/the-compiler-0.1.6.tar.gz
+[2023-07-07 05:38:03] INFO root fetch - processPackages [ovos-workshop]: Downloading https://files.pythonhosted.org/packages/b6/ab/62ae7616b83875d5219bb580c1e6a2ff0fdbdc91c8a9b55495dd60066611/ovos_workshop-0.0.9-py3-none-any.whl
+[2023-07-07 05:38:03] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ac/dc/9465335e6231c486f3c6bdbe6b292085b01976718bb1af6f33d8d890281a/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz
+[2023-07-07 05:38:03] INFO root fetch - processPackages [xbootstrap]: Downloading https://files.pythonhosted.org/packages/c3/b2/c5ac2d35adad3d734e344033ab540705f43b367c6f2cebcfd145dba6e738/xbootstrap-0.0.4.tar.gz
+[2023-07-07 05:38:04] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/44/9f/ffb6ae287f30a52a4bcc5aae269e948d3ffcd9bd7ab6aafda6ce73f567c8/ml-starter-0.1.9.tar.gz
+[2023-07-07 05:38:04] INFO root fetch - processPackages [FeishuBitableAPI]: Downloading https://files.pythonhosted.org/packages/e9/a7/cc698439deebca99d67405dd93fa67dd7acb4da9cf93b18de73e76082494/FeishuBitableAPI-3.2.9.tar.gz
+[2023-07-07 05:38:04] INFO root fetch - processPackages [nextpcg]: Downloading https://files.pythonhosted.org/packages/e3/a4/72f6b6e33244f8ac308bf7b33079ea41d76e71637d959932d3a7cd4427c9/nextpcg-0.6.7.tar.gz
+[2023-07-07 05:38:04] INFO root fetch - processPackages [key-switcheroo]: Downloading https://files.pythonhosted.org/packages/8d/ae/7edd770f0eb8b4f1a6d7bddbe1deca8f6f37017a679277645b7bdf39c6d0/key_switcheroo-0.0.4.tar.gz
+[2023-07-07 05:38:04] INFO root fetch - processPackages [ovos-workshop]: Downloading https://files.pythonhosted.org/packages/78/03/4b813a66c30f57b7c996eda91cf259cb974ad9186f3ae1762c9384e34fc7/ovos_workshop-0.0.9a1-py3-none-any.whl
+[2023-07-07 05:38:04] INFO root fetch - processPackages [the-compiler]: Downloading https://files.pythonhosted.org/packages/9b/47/2eca2e55cfde597a82985333c3e99ce083051ddeb1e368d575e8edb2bfa6/the-compiler-0.1.7.tar.gz
+[2023-07-07 05:38:04] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-07-07 05:38:04] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.1.8.tar.gz tmp/ml-starter-0.1.9.tar.gz --markdown 20230707/m/ml-starter/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-07 05:38:04] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3b/875a5d1cf74ec597eceaf7095d68ea13e58abb9f095fff321dc0709029f0/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz
+[2023-07-07 05:38:04] INFO root fetch - processPackages [key-switcheroo]: executing diffoscope
+[2023-07-07 05:38:04] INFO root fetch - processPackages [key-switcheroo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/key_switcheroo-0.0.3.tar.gz tmp/key_switcheroo-0.0.4.tar.gz --markdown 20230707/k/key-switcheroo/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-07 05:38:04] INFO root fetch - processPackages [xbootstrap]: Downloading https://files.pythonhosted.org/packages/89/19/75998a2b69c17efa64c132d9241f0f36d392e173ac3788fbc7b2f11aea6d/xbootstrap-0.0.5.tar.gz
+[2023-07-07 05:38:04] INFO root fetch - processPackages [FeishuBitableAPI]: executing diffoscope
+[2023-07-07 05:38:04] INFO root fetch - processPackages [FeishuBitableAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FeishuBitableAPI-3.2.6.tar.gz tmp/FeishuBitableAPI-3.2.9.tar.gz --markdown 20230707/F/FeishuBitableAPI/3.2.6-3.2.9/diff.md --exclude *.pyd
+[2023-07-07 05:38:04] INFO root fetch - processPackages [the-compiler]: executing diffoscope
+[2023-07-07 05:38:04] INFO root fetch - processPackages [the-compiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/the-compiler-0.1.6.tar.gz tmp/the-compiler-0.1.7.tar.gz --markdown 20230707/t/the-compiler/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-07 05:38:04] INFO root fetch - processPackages [ovos-workshop]: executing diffoscope
+[2023-07-07 05:38:04] INFO root fetch - processPackages [ovos-workshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_workshop-0.0.9-py3-none-any.whl.zip tmp/ovos_workshop-0.0.9a1-py3-none-any.whl.zip --markdown 20230707/o/ovos-workshop/0.0.9-0.0.9a1/diff.md --exclude *.pyd
+[2023-07-07 05:38:04] INFO root fetch - processPackages [nextpcg]: executing diffoscope
+[2023-07-07 05:38:04] INFO root fetch - processPackages [nextpcg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextpcg-0.6.6.tar.gz tmp/nextpcg-0.6.7.tar.gz --markdown 20230707/n/nextpcg/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-07-07 05:38:04] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-07-07 05:38:04] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230707/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-07-07 05:38:04] INFO root fetch - processPackages [xbootstrap]: executing diffoscope
+[2023-07-07 05:38:04] INFO root fetch - processPackages [xbootstrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xbootstrap-0.0.4.tar.gz tmp/xbootstrap-0.0.5.tar.gz --markdown 20230707/x/xbootstrap/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-07 05:38:05] INFO root fetch - processPackages [key-switcheroo]: Remove: archive file [/home/abi/fetcher/tmp/key_switcheroo-0.0.3.tar.gz]
+[2023-07-07 05:38:05] INFO root fetch - processPackages [key-switcheroo]: Remove: archive file [/home/abi/fetcher/tmp/key_switcheroo-0.0.4.tar.gz]
+[2023-07-07 05:38:05] INFO root fetch - main [MainThread]: End processing [key-switcheroo]: success
+[2023-07-07 05:38:05] INFO root fetch - processPackages [nextpcg]: Remove: archive file [/home/abi/fetcher/tmp/nextpcg-0.6.6.tar.gz]
+[2023-07-07 05:38:05] INFO root fetch - processPackages [nextpcg]: Remove: archive file [/home/abi/fetcher/tmp/nextpcg-0.6.7.tar.gz]
+[2023-07-07 05:38:05] INFO root fetch - main [MainThread]: End processing [nextpcg]: success
+[2023-07-07 05:38:05] INFO root fetch - processPackages [xbootstrap]: Remove: archive file [/home/abi/fetcher/tmp/xbootstrap-0.0.4.tar.gz]
+[2023-07-07 05:38:05] INFO root fetch - processPackages [xbootstrap]: Remove: archive file [/home/abi/fetcher/tmp/xbootstrap-0.0.5.tar.gz]
+[2023-07-07 05:38:05] INFO root fetch - main [MainThread]: End processing [xbootstrap]: success
+[2023-07-07 05:38:05] INFO root fetch - processPackages [FeishuBitableAPI]: Remove: archive file [/home/abi/fetcher/tmp/FeishuBitableAPI-3.2.6.tar.gz]
+[2023-07-07 05:38:05] INFO root fetch - processPackages [FeishuBitableAPI]: Remove: archive file [/home/abi/fetcher/tmp/FeishuBitableAPI-3.2.9.tar.gz]
+[2023-07-07 05:38:05] INFO root fetch - main [MainThread]: End processing [FeishuBitableAPI]: success
+[2023-07-07 05:38:05] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz]
+[2023-07-07 05:38:05] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
+[2023-07-07 05:38:05] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-07-07 05:38:05] INFO root fetch - processPackages [the-compiler]: Remove: archive file [/home/abi/fetcher/tmp/the-compiler-0.1.6.tar.gz]
+[2023-07-07 05:38:05] INFO root fetch - processPackages [the-compiler]: Remove: archive file [/home/abi/fetcher/tmp/the-compiler-0.1.7.tar.gz]
+[2023-07-07 05:38:05] INFO root fetch - main [MainThread]: End processing [the-compiler]: success
+[2023-07-07 05:38:05] INFO root fetch - processPackages [ovos-workshop]: Remove: archive file [/home/abi/fetcher/tmp/ovos_workshop-0.0.9-py3-none-any.whl.zip]
+[2023-07-07 05:38:05] INFO root fetch - processPackages [ovos-workshop]: Remove: archive file [/home/abi/fetcher/tmp/ovos_workshop-0.0.9a1-py3-none-any.whl.zip]
+[2023-07-07 05:38:05] INFO root fetch - main [MainThread]: End processing [ovos-workshop]: success
+[2023-07-07 05:38:06] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.8.tar.gz]
+[2023-07-07 05:38:06] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.9.tar.gz]
+[2023-07-07 05:38:06] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-07-07 05:38:06] INFO root fetch - main [MainThread]: Store serial: [18795611]
