@@ -13211,3 +13211,102 @@ EOFError: EOF read where object expected
 [2023-07-07 08:42:14] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Remove: archive file [/home/abi/fetcher/tmp/PureCloudPlatformClientV2-99.0.0.tar.gz]
 [2023-07-07 08:42:14] INFO root fetch - main [MainThread]: End processing [PureCloudPlatformClientV2]: success
 [2023-07-07 08:42:14] INFO root fetch - main [MainThread]: Store serial: [18796551]
+[2023-07-07 08:47:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18796551]
+[2023-07-07 08:47:24] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-07 08:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sh-dynamodb
+[2023-07-07 08:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gcp-cis
+[2023-07-07 08:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gval
+[2023-07-07 08:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-07-07 08:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libcnmc
+[2023-07-07 08:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kk
+[2023-07-07 08:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sh-dynamodb
+[2023-07-07 08:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wavebreaking
+[2023-07-07 08:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: prda
+[2023-07-07 08:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: upgini
+[2023-07-07 08:47:24] INFO root fetch - processPackages [sh-dynamodb]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-07 08:47:24] INFO root fetch - processPackages [kk]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-07 08:47:24] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-07-07 08:47:24] INFO root fetch - processPackages [prda]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-07-07 08:47:24] INFO root fetch - processPackages [sh-dynamodb]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-07 08:47:24] WARNING root fetch - processPackages [gcp-cis]: Skipping, unable to determine old version
+[2023-07-07 08:47:24] INFO root fetch - processPackages [gcp-cis]: Start processing: frontengine
+[2023-07-07 08:47:24] INFO root fetch - main [MainThread]: End processing [gcp-cis] error
+[2023-07-07 08:47:24] INFO root fetch - processPackages [gval]: New version: [0.1.1a0] Old Version: [0.1.0]
+[2023-07-07 08:47:24] INFO root fetch - processPackages [wavebreaking]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-07-07 08:47:24] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-07-07 08:47:24] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-07 08:47:24] INFO root fetch - processPackages [frontengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 08:47:24] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/50/d9/1a67f177da9aa7f66232600251fad3245c68cf6bea49e24860862472a123/sh-dynamodb-1.1.8.tar.gz
+[2023-07-07 08:47:24] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/50/d9/1a67f177da9aa7f66232600251fad3245c68cf6bea49e24860862472a123/sh-dynamodb-1.1.8.tar.gz
+[2023-07-07 08:47:24] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/91/88/c28ff84568ef323398498b71d609a92ca287ddcdf8a851536ab656221bc4/libcnmc-23.9.0.tar.gz
+[2023-07-07 08:47:24] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2023-07-07 08:47:24] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/62/88/6d99d7b463365da48db6f37c9bde41e7f7f20eeb1a13653a273586e81d3a/frontengine-0.0.8.tar.gz
+[2023-07-07 08:47:24] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-07-07 08:47:24] INFO root fetch - processPackages [gval]: Downloading https://files.pythonhosted.org/packages/c4/f6/6487a5684943294872e34664981a24c5b446351b295275949a7978c9467e/gval-0.1.0-3-py3-none-any.whl
+[2023-07-07 08:47:24] INFO root fetch - processPackages [kk]: Downloading https://files.pythonhosted.org/packages/be/01/f4366db4e553d90963fb337061e35aa58f8d59fad4ce893d159c9744ffe7/kk-0.9.4.tar.gz
+[2023-07-07 08:47:24] INFO root fetch - processPackages [prda]: Downloading https://files.pythonhosted.org/packages/1f/b2/2d10053f8a5e0ae196f27691500150dd2199edf55946c376a9c751022b98/prda-1.0.2.tar.gz
+[2023-07-07 08:47:24] INFO root fetch - processPackages [wavebreaking]: Downloading https://files.pythonhosted.org/packages/fa/2c/e9e42b7df8e83c340b5ba30479dc301f53b391461ef4dbdb7dd7b0567a7d/wavebreaking-0.3.6.tar.gz
+[2023-07-07 08:47:25] WARNING root fetch - processPackages [wavebreaking]: Skipping package: exceeds size limit 11287795>=10485760
+[2023-07-07 08:47:25] INFO root fetch - processPackages [wavebreaking]: Start processing: frontengine-dev
+[2023-07-07 08:47:25] INFO root fetch - main [MainThread]: End processing [wavebreaking] error
+[2023-07-07 08:47:25] INFO root fetch - processPackages [frontengine-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 08:47:25] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/fc/9f/639d42b63484a91cf9f1c60f9bb709f1ed853240f45c2e02047054beffa6/libcnmc-23.9.1.tar.gz
+[2023-07-07 08:47:25] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/a5/8e/4bb92b2db27649b96b46469f263e2fdd091c8283ff06a24534624c34be9d/frontengine-0.0.9.tar.gz
+[2023-07-07 08:47:25] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2023-07-07 08:47:25] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/23/e2/01e0fe02ca6b73e163f3f0d080231bc0c783a63e766e5524eb246350518d/frontengine_dev-0.0.8.tar.gz
+[2023-07-07 08:47:25] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-07-07 08:47:25] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230707/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-07-07 08:47:25] INFO root fetch - processPackages [frontengine]: executing diffoscope
+[2023-07-07 08:47:25] INFO root fetch - processPackages [frontengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine-0.0.8.tar.gz tmp/frontengine-0.0.9.tar.gz --markdown 20230707/f/frontengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 08:47:25] INFO root fetch - processPackages [gval]: Downloading https://files.pythonhosted.org/packages/cf/ad/0bf6b1a2ae9d412a76b71ed715f40dce6d9bb42d5366e29686e69000e17a/gval-0.1.1a0.tar.gz
+[2023-07-07 08:47:25] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/c7/50/39d30181775809633ade2c47a6aeff68b1fe5edb907ebf73823c9efe5c59/sh-dynamodb-1.1.9.tar.gz
+[2023-07-07 08:47:25] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/c7/50/39d30181775809633ade2c47a6aeff68b1fe5edb907ebf73823c9efe5c59/sh-dynamodb-1.1.9.tar.gz
+[2023-07-07 08:47:25] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-07-07 08:47:25] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230707/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-07 08:47:25] INFO root fetch - processPackages [prda]: Downloading https://files.pythonhosted.org/packages/67/1f/7d97fce3916ec05b6acbe41797964cfc060e0d05248abbd50bebf1f75b25/prda-1.1.0.tar.gz
+[2023-07-07 08:47:25] INFO root fetch - processPackages [kk]: Downloading https://files.pythonhosted.org/packages/f4/ec/87027399728ec58612da1ada0f89d627db480dfcb218f072cfc1fe267fe0/kk-0.9.5.tar.gz
+[2023-07-07 08:47:25] INFO root fetch - processPackages [prda]: executing diffoscope
+[2023-07-07 08:47:25] INFO root fetch - processPackages [prda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prda-1.0.2.tar.gz tmp/prda-1.1.0.tar.gz --markdown 20230707/p/prda/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-07-07 08:47:25] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/bd/40/ac58f5e1633b3b2ea3574839a03ddc6a124459f3e721986a4208fbe06488/frontengine_dev-0.0.9.tar.gz
+[2023-07-07 08:47:25] INFO root fetch - processPackages [sh-dynamodb]: executing diffoscope
+[2023-07-07 08:47:25] INFO root fetch - processPackages [sh-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sh-dynamodb-1.1.8.tar.gz tmp/sh-dynamodb-1.1.9.tar.gz --markdown 20230707/s/sh-dynamodb/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-07 08:47:25] INFO root fetch - processPackages [sh-dynamodb]: executing diffoscope
+[2023-07-07 08:47:25] INFO root fetch - processPackages [sh-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sh-dynamodb-1.1.8.tar.gz tmp/sh-dynamodb-1.1.9.tar.gz --markdown 20230707/s/sh-dynamodb/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-07 08:47:25] INFO root fetch - processPackages [gval]: executing diffoscope
+[2023-07-07 08:47:25] INFO root fetch - processPackages [gval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gval-0.1.0-3-py3-none-any.whl.zip tmp/gval-0.1.1a0.tar.gz --markdown 20230707/g/gval/0.1.0-0.1.1a0/diff.md --exclude *.pyd
+[2023-07-07 08:47:25] INFO root fetch - processPackages [frontengine-dev]: executing diffoscope
+[2023-07-07 08:47:25] INFO root fetch - processPackages [frontengine-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine_dev-0.0.8.tar.gz tmp/frontengine_dev-0.0.9.tar.gz --markdown 20230707/f/frontengine-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 08:47:25] INFO root fetch - processPackages [kk]: executing diffoscope
+[2023-07-07 08:47:25] INFO root fetch - processPackages [kk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kk-0.9.4.tar.gz tmp/kk-0.9.5.tar.gz --markdown 20230707/k/kk/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-07 08:47:26] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.8.tar.gz]
+[2023-07-07 08:47:26] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.9.tar.gz]
+[2023-07-07 08:47:26] INFO root fetch - main [MainThread]: End processing [frontengine]: success
+[2023-07-07 08:47:27] INFO root fetch - processPackages [sh-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/sh-dynamodb-1.1.8.tar.gz]
+[2023-07-07 08:47:27] INFO root fetch - processPackages [sh-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/sh-dynamodb-1.1.9.tar.gz]
+[2023-07-07 08:47:27] INFO root fetch - main [MainThread]: End processing [sh-dynamodb]: success
+[2023-07-07 08:47:27] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-07-07 08:47:27] INFO root fetch - processPackages [gval]: Remove: archive file [/home/abi/fetcher/tmp/gval-0.1.0-3-py3-none-any.whl.zip]
+[2023-07-07 08:47:27] INFO root fetch - processPackages [gval]: Remove: archive file [/home/abi/fetcher/tmp/gval-0.1.1a0.tar.gz]
+[2023-07-07 08:47:27] INFO root fetch - main [MainThread]: End processing [gval]: success
+[2023-07-07 08:47:27] INFO root fetch - main [MainThread]: End processing [sh-dynamodb]: success
+[2023-07-07 08:47:27] INFO root fetch - processPackages [prda]: Remove: archive file [/home/abi/fetcher/tmp/prda-1.0.2.tar.gz]
+[2023-07-07 08:47:27] INFO root fetch - processPackages [prda]: Remove: archive file [/home/abi/fetcher/tmp/prda-1.1.0.tar.gz]
+[2023-07-07 08:47:27] INFO root fetch - main [MainThread]: End processing [prda]: success
+[2023-07-07 08:47:27] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2023-07-07 08:47:27] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2023-07-07 08:47:27] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-07-07 08:47:27] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.8.tar.gz]
+[2023-07-07 08:47:27] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.9.tar.gz]
+[2023-07-07 08:47:27] INFO root fetch - main [MainThread]: End processing [frontengine-dev]: success
+[2023-07-07 08:47:27] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.0.tar.gz]
+[2023-07-07 08:47:27] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.1.tar.gz]
+[2023-07-07 08:47:27] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-07-07 08:47:28] INFO root fetch - processPackages [kk]: Remove: archive file [/home/abi/fetcher/tmp/kk-0.9.4.tar.gz]
+[2023-07-07 08:47:28] INFO root fetch - processPackages [kk]: Remove: archive file [/home/abi/fetcher/tmp/kk-0.9.5.tar.gz]
+[2023-07-07 08:47:28] INFO root fetch - main [MainThread]: End processing [kk]: success
+[2023-07-07 08:47:28] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-07-07 08:47:28] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230707/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-07-07 08:47:29] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-07-07 08:47:29] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-07-07 08:47:29] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-07-07 08:47:29] INFO root fetch - main [MainThread]: Store serial: [18796591]
