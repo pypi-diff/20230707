@@ -10171,3 +10171,66 @@ EOFError: EOF read where object expected
 [2023-07-07 04:56:25] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230707.tar.gz]
 [2023-07-07 04:56:25] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-07-07 04:56:25] INFO root fetch - main [MainThread]: Store serial: [18795342]
+[2023-07-07 05:01:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18795342]
+[2023-07-07 05:01:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-07 05:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ovos-plugin-manager
+[2023-07-07 05:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-connector
+[2023-07-07 05:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-component-event
+[2023-07-07 05:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-test-component
+[2023-07-07 05:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-test-connector
+[2023-07-07 05:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tclab-sdk
+[2023-07-07 05:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aew
+[2023-07-07 05:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hspylib-clitt
+[2023-07-07 05:01:34] WARNING root fetch - processPackages [tclab-sdk]: Skipping, unable to determine old version
+[2023-07-07 05:01:34] INFO root fetch - main [MainThread]: End processing [tclab-sdk] error
+[2023-07-07 05:01:34] WARNING root fetch - processPackages [aew]: Skipping, unable to determine old version
+[2023-07-07 05:01:34] INFO root fetch - main [MainThread]: End processing [aew] error
+[2023-07-07 05:01:34] INFO root fetch - processPackages [odoo-addon-connector]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.4.1]
+[2023-07-07 05:01:34] INFO root fetch - processPackages [hspylib-clitt]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-07 05:01:34] INFO root fetch - processPackages [odoo-addon-test-connector]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-07-07 05:01:34] INFO root fetch - processPackages [odoo-addon-component-event]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.3]
+[2023-07-07 05:01:34] INFO root fetch - processPackages [odoo-addon-test-component]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-07-07 05:01:34] INFO root fetch - processPackages [ovos-plugin-manager]: New version: [0.0.9] Old Version: [0.0.8a3]
+[2023-07-07 05:01:34] INFO root fetch - processPackages [hspylib-clitt]: Downloading https://files.pythonhosted.org/packages/a0/0f/42b890c8f02902edfff9f8ea73ea79d8acfea76c705b6966ff73e809437a/hspylib-clitt-0.9.8.tar.gz
+[2023-07-07 05:01:34] INFO root fetch - processPackages [odoo-addon-connector]: Downloading https://files.pythonhosted.org/packages/7e/50/afcf74565329fc5b7681917743b2a2c1e0925dec2b21a5fa87286326a477/odoo_addon_connector-15.0.1.0.4.1-py3-none-any.whl
+[2023-07-07 05:01:34] INFO root fetch - processPackages [odoo-addon-component-event]: Downloading https://files.pythonhosted.org/packages/2d/47/faea1c22863a96fd52f1206b4a33deae41910cbc578a3484eec0fa3a25b5/odoo_addon_component_event-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-07 05:01:34] INFO root fetch - processPackages [odoo-addon-test-connector]: Downloading https://files.pythonhosted.org/packages/fc/28/9f8ff2cff659908f5709ffeca6565966d9fa92f930cb7bec1036c986e4c9/odoo_addon_test_connector-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-07 05:01:34] INFO root fetch - processPackages [ovos-plugin-manager]: Downloading https://files.pythonhosted.org/packages/b2/37/1a222e9f15849fb1ebcafce5a7ba00f48fc94ba80438f3c9e243ce6b66c3/ovos_plugin_manager-0.0.8a3-py3-none-any.whl
+[2023-07-07 05:01:34] INFO root fetch - processPackages [odoo-addon-test-component]: Downloading https://files.pythonhosted.org/packages/55/b1/f585fce454a2a73b9b57e2a49dfc5495e2d152b827393fcc51dd461efa4e/odoo_addon_test_component-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-07 05:01:34] INFO root fetch - processPackages [hspylib-clitt]: Downloading https://files.pythonhosted.org/packages/47/f9/72c8e44dc280a8f3542b8890670b05e5c03581d2712648f572e4b0717836/hspylib-clitt-0.9.9.tar.gz
+[2023-07-07 05:01:34] INFO root fetch - processPackages [hspylib-clitt]: executing diffoscope
+[2023-07-07 05:01:34] INFO root fetch - processPackages [hspylib-clitt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-clitt-0.9.8.tar.gz tmp/hspylib-clitt-0.9.9.tar.gz --markdown 20230707/h/hspylib-clitt/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-07 05:01:35] INFO root fetch - processPackages [odoo-addon-test-connector]: Downloading https://files.pythonhosted.org/packages/2a/a2/2a0fe45c9eecbab0b94715c9ca4c69fe857dd8f0a63727366df03607ab08/odoo_addon_test_connector-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-07 05:01:35] INFO root fetch - processPackages [odoo-addon-test-component]: Downloading https://files.pythonhosted.org/packages/a9/04/be3bc5d9c16a47420f9078c0932989744f7f017b6e1fe4ed79d61abba676/odoo_addon_test_component-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-07 05:01:35] INFO root fetch - processPackages [ovos-plugin-manager]: Downloading https://files.pythonhosted.org/packages/52/e2/f57129caaddb3c7ec480ea84cd54a36c5f47dec4dff4add3d7d3eea6e6a8/ovos_plugin_manager-0.0.9-py3-none-any.whl
+[2023-07-07 05:01:35] INFO root fetch - processPackages [odoo-addon-component-event]: Downloading https://files.pythonhosted.org/packages/0b/76/a6927fa86c717cff2388b73a2b889de63820301c642e3ad7347c950c3fcb/odoo_addon_component_event-16.0.1.0.1-py3-none-any.whl
+[2023-07-07 05:01:35] INFO root fetch - processPackages [odoo-addon-connector]: Downloading https://files.pythonhosted.org/packages/ff/72/e56732ae401b3fa1d037280b89d0d6973ce6f2d75d440dd4ab68ba2291e2/odoo_addon_connector-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-07 05:01:35] INFO root fetch - processPackages [odoo-addon-test-connector]: executing diffoscope
+[2023-07-07 05:01:35] INFO root fetch - processPackages [odoo-addon-test-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_test_connector-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_test_connector-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230707/o/odoo-addon-test-connector/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-07 05:01:35] INFO root fetch - processPackages [ovos-plugin-manager]: executing diffoscope
+[2023-07-07 05:01:35] INFO root fetch - processPackages [ovos-plugin-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_plugin_manager-0.0.8a3-py3-none-any.whl.zip tmp/ovos_plugin_manager-0.0.9-py3-none-any.whl.zip --markdown 20230707/o/ovos-plugin-manager/0.0.8a3-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 05:01:35] INFO root fetch - processPackages [odoo-addon-component-event]: executing diffoscope
+[2023-07-07 05:01:35] INFO root fetch - processPackages [odoo-addon-component-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_component_event-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_component_event-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230707/o/odoo-addon-component-event/16.0.1.0.0.3-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-07-07 05:01:35] INFO root fetch - processPackages [odoo-addon-test-component]: executing diffoscope
+[2023-07-07 05:01:35] INFO root fetch - processPackages [odoo-addon-test-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_test_component-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_test_component-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230707/o/odoo-addon-test-component/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-07 05:01:35] INFO root fetch - processPackages [odoo-addon-connector]: executing diffoscope
+[2023-07-07 05:01:35] INFO root fetch - processPackages [odoo-addon-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_connector-15.0.1.0.4.1-py3-none-any.whl.zip tmp/odoo_addon_connector-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230707/o/odoo-addon-connector/15.0.1.0.4.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-07-07 05:01:36] INFO root fetch - processPackages [hspylib-clitt]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-clitt-0.9.8.tar.gz]
+[2023-07-07 05:01:36] INFO root fetch - processPackages [hspylib-clitt]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-clitt-0.9.9.tar.gz]
+[2023-07-07 05:01:36] INFO root fetch - main [MainThread]: End processing [hspylib-clitt]: success
+[2023-07-07 05:01:36] INFO root fetch - processPackages [ovos-plugin-manager]: Remove: archive file [/home/abi/fetcher/tmp/ovos_plugin_manager-0.0.8a3-py3-none-any.whl.zip]
+[2023-07-07 05:01:36] INFO root fetch - processPackages [ovos-plugin-manager]: Remove: archive file [/home/abi/fetcher/tmp/ovos_plugin_manager-0.0.9-py3-none-any.whl.zip]
+[2023-07-07 05:01:36] INFO root fetch - main [MainThread]: End processing [ovos-plugin-manager]: success
+[2023-07-07 05:01:36] INFO root fetch - processPackages [odoo-addon-test-connector]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_test_connector-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-07 05:01:36] INFO root fetch - processPackages [odoo-addon-test-connector]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_test_connector-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-07 05:01:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-test-connector]: success
+[2023-07-07 05:01:36] INFO root fetch - processPackages [odoo-addon-component-event]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_component_event-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-07 05:01:36] INFO root fetch - processPackages [odoo-addon-component-event]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_component_event-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-07 05:01:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-component-event]: success
+[2023-07-07 05:01:36] INFO root fetch - processPackages [odoo-addon-test-component]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_test_component-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-07 05:01:36] INFO root fetch - processPackages [odoo-addon-test-component]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_test_component-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-07 05:01:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-test-component]: success
+[2023-07-07 05:01:36] INFO root fetch - processPackages [odoo-addon-connector]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_connector-15.0.1.0.4.1-py3-none-any.whl.zip]
+[2023-07-07 05:01:36] INFO root fetch - processPackages [odoo-addon-connector]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_connector-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-07 05:01:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-connector]: success
+[2023-07-07 05:01:36] INFO root fetch - main [MainThread]: Store serial: [18795366]
