@@ -12550,3 +12550,86 @@ EOFError: EOF read where object expected
 [2023-07-07 07:59:13] INFO root fetch - processPackages [rqpattr]: Remove: archive file [/home/abi/fetcher/tmp/rqpattr-0.0.17-cp39-cp39-win_amd64.whl.zip]
 [2023-07-07 07:59:13] INFO root fetch - main [MainThread]: End processing [rqpattr]: success
 [2023-07-07 07:59:13] INFO root fetch - main [MainThread]: Store serial: [18796277]
+[2023-07-07 08:04:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18796277]
+[2023-07-07 08:04:22] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-07 08:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: allure-custom
+[2023-07-07 08:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: KeSi
+[2023-07-07 08:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: getfrompexels
+[2023-07-07 08:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: emailalert
+[2023-07-07 08:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zit
+[2023-07-07 08:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cvxportfolio
+[2023-07-07 08:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: x-dgcnn
+[2023-07-07 08:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kade-drive
+[2023-07-07 08:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mercury-sync
+[2023-07-07 08:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eodc-faas-sen2like
+[2023-07-07 08:04:22] INFO root fetch - processPackages [zit]: New version: [0.0.2a8] Old Version: [0.0.2a7]
+[2023-07-07 08:04:22] INFO root fetch - processPackages [allure-custom]: New version: [2023.7.7] Old Version: [2023.7.6]
+[2023-07-07 08:04:22] INFO root fetch - processPackages [KeSi]: New version: [1.5.0] Old Version: [1.4.3]
+[2023-07-07 08:04:22] WARNING root fetch - processPackages [getfrompexels]: Skipping, unable to determine old version
+[2023-07-07 08:04:22] INFO root fetch - main [MainThread]: End processing [getfrompexels] error
+[2023-07-07 08:04:22] INFO root fetch - processPackages [cvxportfolio]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-07 08:04:22] INFO root fetch - processPackages [x-dgcnn]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-07 08:04:22] INFO root fetch - processPackages [kade-drive]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-07 08:04:22] INFO root fetch - processPackages [emailalert]: New version: [1.4.7] Old Version: [1.4.6]
+[2023-07-07 08:04:22] INFO root fetch - processPackages [mercury-sync]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-07 08:04:22] INFO root fetch - processPackages [eodc-faas-sen2like]: New version: [2023.6.3rc9] Old Version: [2023.6.3rc8]
+[2023-07-07 08:04:22] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/46/e4/83ccbd4b046d0b6d3bb32fbb922e1c5589a7053e79b57e8af1b29cf92014/mercury-sync-0.3.8.tar.gz
+[2023-07-07 08:04:22] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/1f/30/bb7fbdb552a5cfd15148f380cc34091c4743aec0d232972a265b5e8acb42/emailalert-1.4.6.tar.gz
+[2023-07-07 08:04:22] INFO root fetch - processPackages [KeSi]: Downloading https://files.pythonhosted.org/packages/d7/e7/6b7b620a2e16222c6912949de6209b0bb5ecb6572ac08883863ff4c48d47/KeSi-1.4.3.tar.gz
+[2023-07-07 08:04:22] INFO root fetch - processPackages [allure-custom]: Downloading https://files.pythonhosted.org/packages/a7/12/6abdcc6d352803e59ee672e8f9116f3a69510034d4d3ec736b8514313731/allure_custom-2023.7.6.tar.gz
+[2023-07-07 08:04:22] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/6d/ea/f125fda8bdfc03aad9c3e4aaffeeb9da8652d9dff4f71fa3c20c38ec7af8/zit-0.0.2a7.tar.gz
+[2023-07-07 08:04:22] INFO root fetch - processPackages [x-dgcnn]: Downloading https://files.pythonhosted.org/packages/73/a9/b59b64a03460b45c0b9c42a707a2e169e34fa04d87c1ccc6f2971c2a7c6b/x-dgcnn-0.1.2.tar.gz
+[2023-07-07 08:04:22] INFO root fetch - processPackages [cvxportfolio]: Downloading https://files.pythonhosted.org/packages/0e/5a/57a41827507c6ed77ae26a258b7ef9e30dc6f232ce84e159e70c4e69b13a/cvxportfolio-0.4.3.tar.gz
+[2023-07-07 08:04:22] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/11/f4/b2727d96c33d209798f49f8fe737c479349b68736158f7e1424f37f2e354/eodc_faas_sen2like-2023.6.3rc8.tar.gz
+[2023-07-07 08:04:22] INFO root fetch - processPackages [kade-drive]: Downloading https://files.pythonhosted.org/packages/b5/7f/2781247647bc3c5f34d3b114656dd33aa6f191cf68baf27c30806f9e63ac/kade_drive-0.5.0.tar.gz
+[2023-07-07 08:04:22] WARNING root fetch - processPackages [allure-custom]: Skipping package: exceeds size limit 20742511>=10485760
+[2023-07-07 08:04:22] INFO root fetch - main [MainThread]: End processing [allure-custom] error
+[2023-07-07 08:04:22] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/52/5b/22b9f5a98c3db5cd9c110f77b7d9a30fd31021331f22b9c2b6c755ca5017/mercury-sync-0.3.9.tar.gz
+[2023-07-07 08:04:22] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/e2/66/5c44dc0517f229a1109f13a4307407ff15cb3bed80f48728da252051502f/emailalert-1.4.7.tar.gz
+[2023-07-07 08:04:22] INFO root fetch - processPackages [mercury-sync]: executing diffoscope
+[2023-07-07 08:04:22] INFO root fetch - processPackages [mercury-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-sync-0.3.8.tar.gz tmp/mercury-sync-0.3.9.tar.gz --markdown 20230707/m/mercury-sync/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-07 08:04:23] INFO root fetch - processPackages [emailalert]: executing diffoscope
+[2023-07-07 08:04:23] INFO root fetch - processPackages [emailalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailalert-1.4.6.tar.gz tmp/emailalert-1.4.7.tar.gz --markdown 20230707/e/emailalert/1.4.6-1.4.7/diff.md --exclude *.pyd
+[2023-07-07 08:04:23] INFO root fetch - processPackages [kade-drive]: Downloading https://files.pythonhosted.org/packages/98/38/04558ab2739972190dc3dd7a38d5ae4f7cf4555d27be3ac4d6737ad9fa7b/kade_drive-0.5.1.tar.gz
+[2023-07-07 08:04:23] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/d1/18/1ecffbdd44ed7c22ca7ec29600a01ed80bfc79a601bb05e80e0ca1177eba/eodc_faas_sen2like-2023.6.3rc9.tar.gz
+[2023-07-07 08:04:23] INFO root fetch - processPackages [KeSi]: Downloading https://files.pythonhosted.org/packages/96/2e/273206663e28c4ca675dfe991b2597e8a9e9aef0afe0d8d065930dbc6ece/KeSi-1.5.0.tar.gz
+[2023-07-07 08:04:23] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/f7/a4/03a25a7ac61b59027ec719ada0b3039bd56b6d1585db6047ed6699f2d774/zit-0.0.2a8.tar.gz
+[2023-07-07 08:04:23] INFO root fetch - processPackages [cvxportfolio]: Downloading https://files.pythonhosted.org/packages/45/a0/708d59d98fb5afa36be552fa8061a2f1d072b78ee123a8b1067e5e843fab/cvxportfolio-0.4.4.tar.gz
+[2023-07-07 08:04:23] INFO root fetch - processPackages [x-dgcnn]: Downloading https://files.pythonhosted.org/packages/96/43/6d709e3f6f216dd7108199ddeca9950c3398b07bf1fafdc11b5714a2577b/x-dgcnn-0.2.0.tar.gz
+[2023-07-07 08:04:23] INFO root fetch - processPackages [eodc-faas-sen2like]: executing diffoscope
+[2023-07-07 08:04:23] INFO root fetch - processPackages [eodc-faas-sen2like]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_sen2like-2023.6.3rc8.tar.gz tmp/eodc_faas_sen2like-2023.6.3rc9.tar.gz --markdown 20230707/e/eodc-faas-sen2like/2023.6.3rc8-2023.6.3rc9/diff.md --exclude *.pyd
+[2023-07-07 08:04:23] INFO root fetch - processPackages [kade-drive]: executing diffoscope
+[2023-07-07 08:04:23] INFO root fetch - processPackages [kade-drive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kade_drive-0.5.0.tar.gz tmp/kade_drive-0.5.1.tar.gz --markdown 20230707/k/kade-drive/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-07 08:04:23] INFO root fetch - processPackages [cvxportfolio]: executing diffoscope
+[2023-07-07 08:04:23] INFO root fetch - processPackages [cvxportfolio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxportfolio-0.4.3.tar.gz tmp/cvxportfolio-0.4.4.tar.gz --markdown 20230707/c/cvxportfolio/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-07 08:04:23] INFO root fetch - processPackages [KeSi]: executing diffoscope
+[2023-07-07 08:04:23] INFO root fetch - processPackages [KeSi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KeSi-1.4.3.tar.gz tmp/KeSi-1.5.0.tar.gz --markdown 20230707/K/KeSi/1.4.3-1.5.0/diff.md --exclude *.pyd
+[2023-07-07 08:04:23] INFO root fetch - processPackages [x-dgcnn]: executing diffoscope
+[2023-07-07 08:04:23] INFO root fetch - processPackages [x-dgcnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x-dgcnn-0.1.2.tar.gz tmp/x-dgcnn-0.2.0.tar.gz --markdown 20230707/x/x-dgcnn/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-07 08:04:23] INFO root fetch - processPackages [zit]: executing diffoscope
+[2023-07-07 08:04:23] INFO root fetch - processPackages [zit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zit-0.0.2a7.tar.gz tmp/zit-0.0.2a8.tar.gz --markdown 20230707/z/zit/0.0.2a7-0.0.2a8/diff.md --exclude *.pyd
+[2023-07-07 08:04:24] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.8.tar.gz]
+[2023-07-07 08:04:24] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.9.tar.gz]
+[2023-07-07 08:04:24] INFO root fetch - main [MainThread]: End processing [mercury-sync]: success
+[2023-07-07 08:04:24] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.4.6.tar.gz]
+[2023-07-07 08:04:24] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.4.7.tar.gz]
+[2023-07-07 08:04:24] INFO root fetch - main [MainThread]: End processing [emailalert]: success
+[2023-07-07 08:04:24] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2023.6.3rc8.tar.gz]
+[2023-07-07 08:04:24] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2023.6.3rc9.tar.gz]
+[2023-07-07 08:04:24] INFO root fetch - main [MainThread]: End processing [eodc-faas-sen2like]: success
+[2023-07-07 08:04:24] INFO root fetch - processPackages [x-dgcnn]: Remove: archive file [/home/abi/fetcher/tmp/x-dgcnn-0.1.2.tar.gz]
+[2023-07-07 08:04:24] INFO root fetch - processPackages [x-dgcnn]: Remove: archive file [/home/abi/fetcher/tmp/x-dgcnn-0.2.0.tar.gz]
+[2023-07-07 08:04:24] INFO root fetch - main [MainThread]: End processing [x-dgcnn]: success
+[2023-07-07 08:04:24] INFO root fetch - processPackages [kade-drive]: Remove: archive file [/home/abi/fetcher/tmp/kade_drive-0.5.0.tar.gz]
+[2023-07-07 08:04:24] INFO root fetch - processPackages [kade-drive]: Remove: archive file [/home/abi/fetcher/tmp/kade_drive-0.5.1.tar.gz]
+[2023-07-07 08:04:24] INFO root fetch - main [MainThread]: End processing [kade-drive]: success
+[2023-07-07 08:04:24] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.2a7.tar.gz]
+[2023-07-07 08:04:24] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.2a8.tar.gz]
+[2023-07-07 08:04:24] INFO root fetch - main [MainThread]: End processing [zit]: success
+[2023-07-07 08:04:24] INFO root fetch - processPackages [KeSi]: Remove: archive file [/home/abi/fetcher/tmp/KeSi-1.4.3.tar.gz]
+[2023-07-07 08:04:24] INFO root fetch - processPackages [KeSi]: Remove: archive file [/home/abi/fetcher/tmp/KeSi-1.5.0.tar.gz]
+[2023-07-07 08:04:24] INFO root fetch - main [MainThread]: End processing [KeSi]: success
+[2023-07-07 08:04:24] INFO root fetch - processPackages [cvxportfolio]: Remove: archive file [/home/abi/fetcher/tmp/cvxportfolio-0.4.3.tar.gz]
+[2023-07-07 08:04:24] INFO root fetch - processPackages [cvxportfolio]: Remove: archive file [/home/abi/fetcher/tmp/cvxportfolio-0.4.4.tar.gz]
+[2023-07-07 08:04:24] INFO root fetch - main [MainThread]: End processing [cvxportfolio]: success
+[2023-07-07 08:04:24] INFO root fetch - main [MainThread]: Store serial: [18796311]
