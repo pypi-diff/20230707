@@ -11854,3 +11854,20 @@ EOFError: EOF read where object expected
 [2023-07-07 06:56:46] INFO root fetch - processPackages [bastila-search]: Remove: archive file [/home/abi/fetcher/tmp/bastila_search-0.3.2.tar.gz]
 [2023-07-07 06:56:46] INFO root fetch - main [MainThread]: End processing [bastila-search]: success
 [2023-07-07 06:56:46] INFO root fetch - main [MainThread]: Store serial: [18795961]
+[2023-07-07 07:01:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18795961]
+[2023-07-07 07:01:55] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-07 07:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bgstools
+[2023-07-07 07:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qsi-tk
+[2023-07-07 07:01:55] INFO root fetch - processPackages [bgstools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-07 07:01:55] INFO root fetch - processPackages [qsi-tk]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-07 07:01:56] INFO root fetch - processPackages [qsi-tk]: Downloading https://files.pythonhosted.org/packages/62/bf/6b1cbf1f9b205f70adaca4a812a4c2bd08b08257e3e9d024035c9dfb37de/qsi-tk-1.0.1.tar.gz
+[2023-07-07 07:01:56] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/a3/d9/0f2b579fbbb29225abec7da824c3d2177fa751c84913339da89e8d0b4f89/bgstools-0.1.8.tar.gz
+[2023-07-07 07:01:56] WARNING root fetch - processPackages [qsi-tk]: Skipping package: exceeds size limit 58248365>=10485760
+[2023-07-07 07:01:56] INFO root fetch - main [MainThread]: End processing [qsi-tk] error
+[2023-07-07 07:01:56] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/0a/3c/638191cc7a3a6135dbf58e2857b29d83bacba72ac3e579510aae9606e202/bgstools-0.1.9.tar.gz
+[2023-07-07 07:01:56] INFO root fetch - processPackages [bgstools]: executing diffoscope
+[2023-07-07 07:01:56] INFO root fetch - processPackages [bgstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgstools-0.1.8.tar.gz tmp/bgstools-0.1.9.tar.gz --markdown 20230707/b/bgstools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-07 07:01:57] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.8.tar.gz]
+[2023-07-07 07:01:57] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.9.tar.gz]
+[2023-07-07 07:01:57] INFO root fetch - main [MainThread]: End processing [bgstools]: success
+[2023-07-07 07:01:57] INFO root fetch - main [MainThread]: Store serial: [18795966]
