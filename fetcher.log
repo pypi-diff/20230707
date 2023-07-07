@@ -21336,3 +21336,138 @@ AssertionError: tmp/tester-package-sdk-2.0.9.tar.gz does not exist
 [2023-07-07 14:04:06] INFO root fetch - processPackages [pyams-utils]: Remove: archive file [/home/abi/fetcher/tmp/pyams_utils-1.9.2.tar.gz]
 [2023-07-07 14:04:06] INFO root fetch - main [MainThread]: End processing [pyams-utils]: success
 [2023-07-07 14:04:06] INFO root fetch - main [MainThread]: Store serial: [18800052]
+[2023-07-07 14:09:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18800052]
+[2023-07-07 14:09:15] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-07 14:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unknown-cli
+[2023-07-07 14:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kr8s
+[2023-07-07 14:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-serving
+[2023-07-07 14:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: philbot-voice
+[2023-07-07 14:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pygssearch
+[2023-07-07 14:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agentmemory
+[2023-07-07 14:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gurobi-machinelearning
+[2023-07-07 14:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spaceone-identity
+[2023-07-07 14:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Random-Persian-Poem
+[2023-07-07 14:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wslshot
+[2023-07-07 14:09:16] INFO root fetch - processPackages [agentmemory]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-07 14:09:16] INFO root fetch - processPackages [philbot-voice]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-07 14:09:16] INFO root fetch - processPackages [spaceone-identity]: New version: [1.9.7rc2] Old Version: [1.9.7rc1]
+[2023-07-07 14:09:16] WARNING root fetch - processPackages [pygssearch]: Skipping, unable to determine old version
+[2023-07-07 14:09:16] INFO root fetch - processPackages [pygssearch]: Start processing: n2t-hardware-tester-test1
+[2023-07-07 14:09:16] INFO root fetch - main [MainThread]: End processing [pygssearch] error
+[2023-07-07 14:09:16] INFO root fetch - processPackages [unknown-cli]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-07-07 14:09:16] WARNING root fetch - processPackages [wslshot]: Skipping, unable to determine old version
+[2023-07-07 14:09:16] INFO root fetch - processPackages [wslshot]: Start processing: onoffmonitorserver
+[2023-07-07 14:09:16] INFO root fetch - main [MainThread]: End processing [wslshot] error
+[2023-07-07 14:09:16] WARNING root fetch - processPackages [Random-Persian-Poem]: Skipping, unable to determine old version
+[2023-07-07 14:09:16] INFO root fetch - processPackages [Random-Persian-Poem]: Start processing: pymodaq-plugins-mock
+[2023-07-07 14:09:16] INFO root fetch - main [MainThread]: End processing [Random-Persian-Poem] error
+[2023-07-07 14:09:16] INFO root fetch - processPackages [kr8s]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-07-07 14:09:16] INFO root fetch - processPackages [gurobi-machinelearning]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-07 14:09:16] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230707] Old Version: [2.4.0b20230706]
+[2023-07-07 14:09:16] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/91/09/93be5d2afec6244b8930855e75d52f612ca77d738f3b3b7f669fd9ecb2eb/agentmemory-0.1.6.tar.gz
+[2023-07-07 14:09:16] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/05/bb/01605bb60fce0733760899cdc771b31c44c401248bd2c28398c5ce9e9df5/philbot_voice-1.9.8.tar.gz
+[2023-07-07 14:09:16] INFO root fetch - processPackages [n2t-hardware-tester-test1]: New version: [1.0.4] Old Version: [1.0.2]
+[2023-07-07 14:09:16] WARNING root fetch - processPackages [onoffmonitorserver]: Skipping, unable to determine old version
+[2023-07-07 14:09:16] INFO root fetch - processPackages [onoffmonitorserver]: Start processing: tf-agents-nightly
+[2023-07-07 14:09:16] INFO root fetch - main [MainThread]: End processing [onoffmonitorserver] error
+[2023-07-07 14:09:16] INFO root fetch - processPackages [pymodaq-plugins-mock]: New version: [4.1.0] Old Version: [4.0.2]
+[2023-07-07 14:09:16] INFO root fetch - processPackages [gurobi-machinelearning]: Downloading https://files.pythonhosted.org/packages/bf/03/3f152574fcf2672e368be62b2f28dd7371fa076cb2a6fa17ee044ecf1717/gurobi-machinelearning-1.3.1.tar.gz
+[2023-07-07 14:09:16] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/60/aa/ad6f2d637740b2091883707db26053c4633dec76ccabc1af7b0ea0753106/spaceone_identity-1.9.7rc1-py3-none-any.whl
+[2023-07-07 14:09:16] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-07-07 14:09:16] INFO root fetch - processPackages [unknown-cli]: Downloading https://files.pythonhosted.org/packages/fa/59/2facdfe3e33a92cbf0b473f2012100f31aeff67eb4f19be23ca310b4521f/unknown-cli-0.6.7.tar.gz
+[2023-07-07 14:09:16] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/a8/86/1010a747284e9e907797448e4ae97632fa9e75d26c4f2d6744690ebf144d/bigdl_serving-2.4.0b20230706-py2.py3-none-any.whl
+[2023-07-07 14:09:16] INFO root fetch - processPackages [kr8s]: Downloading https://files.pythonhosted.org/packages/96/b8/4b0819ca3e4a6fe6693b30ab6285f35823ae3b654e9f535e29d0a05e7bb5/kr8s-0.8.2.tar.gz
+[2023-07-07 14:09:16] INFO root fetch - processPackages [n2t-hardware-tester-test1]: Downloading https://files.pythonhosted.org/packages/61/88/ab5dd0ae94127f7bc5e8896a16de71a7c0046d12e43c08b8e465f06c51e1/n2t-hardware-tester-test1-1.0.2.tar.gz
+[2023-07-07 14:09:16] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/2f/8e/5b1259fdcefcc564c90842a0c1206b58d6abfbb7914bcbd38710ba780d40/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl
+[2023-07-07 14:09:16] INFO root fetch - processPackages [pymodaq-plugins-mock]: Downloading https://files.pythonhosted.org/packages/9b/4b/1df8aead5966dc2a0e1143598b4cc42c131d00d6df32cdf9999c2a958f19/pymodaq_plugins_mock-4.0.2.tar.gz
+[2023-07-07 14:09:16] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/b0/15/b4347fddc6bc2e157aec897dc3fc3155200aaf0e26aa6f932cbf9d88f462/agentmemory-0.1.7.tar.gz
+[2023-07-07 14:09:16] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/3b/a7/1895e6c9d15fef6a2e8afcf48baeacca3915011fbe849f600b6b3dac7afb/philbot_voice-1.9.9.tar.gz
+[2023-07-07 14:09:17] INFO root fetch - processPackages [gurobi-machinelearning]: Downloading https://files.pythonhosted.org/packages/99/61/21e96b9c89d65d604047badb94db1206e0e437edfb1aa6009d9dbb3918d9/gurobi-machinelearning-1.3.2.tar.gz
+[2023-07-07 14:09:17] INFO root fetch - processPackages [agentmemory]: executing diffoscope
+[2023-07-07 14:09:17] INFO root fetch - processPackages [agentmemory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentmemory-0.1.6.tar.gz tmp/agentmemory-0.1.7.tar.gz --markdown 20230707/a/agentmemory/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-07 14:09:17] INFO root fetch - processPackages [philbot-voice]: executing diffoscope
+[2023-07-07 14:09:17] INFO root fetch - processPackages [philbot-voice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/philbot_voice-1.9.8.tar.gz tmp/philbot_voice-1.9.9.tar.gz --markdown 20230707/p/philbot-voice/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-07 14:09:17] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/50/45/8e8840de775e39139fb06889be9ab1840dd86ff941971f3ceaa2e62488c0/spaceone_identity-1.9.7rc2-py3-none-any.whl
+[2023-07-07 14:09:17] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/81/b7/37b19551666b1e56c5a92755af430024721b7e5e68b0b9fcd9c83b4f91c1/bigdl_serving-2.4.0b20230707-py2.py3-none-any.whl
+[2023-07-07 14:09:17] INFO root fetch - processPackages [kr8s]: Downloading https://files.pythonhosted.org/packages/c1/74/e02bd87187863be61dada5f3a13e6ba6e5b0586025326e33b128af05769b/kr8s-0.8.3.tar.gz
+[2023-07-07 14:09:17] INFO root fetch - processPackages [n2t-hardware-tester-test1]: Downloading https://files.pythonhosted.org/packages/2c/18/836461d75567ab6885ad0d2a5138a1080346aefe2099b25a1998afc12f65/n2t-hardware-tester-test1-1.0.4.tar.gz
+[2023-07-07 14:09:17] INFO root fetch - processPackages [gurobi-machinelearning]: executing diffoscope
+[2023-07-07 14:09:17] INFO root fetch - processPackages [gurobi-machinelearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gurobi-machinelearning-1.3.1.tar.gz tmp/gurobi-machinelearning-1.3.2.tar.gz --markdown 20230707/g/gurobi-machinelearning/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-07 14:09:17] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/ae/8c/d1e1b7b8f7b6ceee69bbf569ab3bd6f79ffd9963ff66079303942550d03d/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl
+[2023-07-07 14:09:17] INFO root fetch - processPackages [unknown-cli]: Downloading https://files.pythonhosted.org/packages/5f/e3/17ee58c4f8f3c4d254f24fc1aca6e5e360a9a5b05fb13b1731bdb3890f91/unknown-cli-0.6.8.tar.gz
+[2023-07-07 14:09:17] INFO root fetch - processPackages [kr8s]: executing diffoscope
+[2023-07-07 14:09:17] INFO root fetch - processPackages [kr8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kr8s-0.8.2.tar.gz tmp/kr8s-0.8.3.tar.gz --markdown 20230707/k/kr8s/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-07-07 14:09:17] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-07-07 14:09:17] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230706-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230707-py2.py3-none-any.whl.zip --markdown 20230707/b/bigdl-serving/2.4.0b20230706-2.4.0b20230707/diff.md --exclude *.pyd
+[2023-07-07 14:09:17] INFO root fetch - processPackages [n2t-hardware-tester-test1]: executing diffoscope
+[2023-07-07 14:09:17] INFO root fetch - processPackages [n2t-hardware-tester-test1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/n2t-hardware-tester-test1-1.0.2.tar.gz tmp/n2t-hardware-tester-test1-1.0.4.tar.gz --markdown 20230707/n/n2t-hardware-tester-test1/1.0.2-1.0.4/diff.md --exclude *.pyd
+[2023-07-07 14:09:17] INFO root fetch - processPackages [pymodaq-plugins-mock]: Downloading https://files.pythonhosted.org/packages/96/ef/529abb531faef63e3e6066afefebc3ffe849697ddf911cfdc2917baa7fe4/pymodaq_plugins_mock-4.1.0.tar.gz
+[2023-07-07 14:09:17] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-07-07 14:09:17] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230707/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-07-07 14:09:17] INFO root fetch - processPackages [unknown-cli]: executing diffoscope
+[2023-07-07 14:09:17] INFO root fetch - processPackages [unknown-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unknown-cli-0.6.7.tar.gz tmp/unknown-cli-0.6.8.tar.gz --markdown 20230707/u/unknown-cli/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-07-07 14:09:17] INFO root fetch - processPackages [pymodaq-plugins-mock]: executing diffoscope
+[2023-07-07 14:09:17] INFO root fetch - processPackages [pymodaq-plugins-mock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodaq_plugins_mock-4.0.2.tar.gz tmp/pymodaq_plugins_mock-4.1.0.tar.gz --markdown 20230707/p/pymodaq-plugins-mock/4.0.2-4.1.0/diff.md --exclude *.pyd
+[2023-07-07 14:09:17] INFO root fetch - processPackages [spaceone-identity]: executing diffoscope
+[2023-07-07 14:09:17] INFO root fetch - processPackages [spaceone-identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_identity-1.9.7rc1-py3-none-any.whl.zip tmp/spaceone_identity-1.9.7rc2-py3-none-any.whl.zip --markdown 20230707/s/spaceone-identity/1.9.7rc1-1.9.7rc2/diff.md --exclude *.pyd
+[2023-07-07 14:09:18] INFO root fetch - processPackages [agentmemory]: Remove: archive file [/home/abi/fetcher/tmp/agentmemory-0.1.6.tar.gz]
+[2023-07-07 14:09:18] INFO root fetch - processPackages [agentmemory]: Remove: archive file [/home/abi/fetcher/tmp/agentmemory-0.1.7.tar.gz]
+[2023-07-07 14:09:18] INFO root fetch - processPackages [agentmemory]: Start processing: pytbai
+[2023-07-07 14:09:18] INFO root fetch - main [MainThread]: End processing [agentmemory]: success
+[2023-07-07 14:09:18] INFO root fetch - processPackages [pytbai]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-07-07 14:09:18] INFO root fetch - processPackages [pytbai]: Downloading https://files.pythonhosted.org/packages/80/01/f75367270d90a89204482225fbfff6ba6d6339f13fbd7ded69f56f51af85/pytbai-1.3.4.tar.gz
+[2023-07-07 14:09:18] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.8.tar.gz]
+[2023-07-07 14:09:18] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.9.tar.gz]
+[2023-07-07 14:09:18] INFO root fetch - processPackages [philbot-voice]: Start processing: mlmd-utils
+[2023-07-07 14:09:18] INFO root fetch - main [MainThread]: End processing [philbot-voice]: success
+[2023-07-07 14:09:18] WARNING root fetch - processPackages [mlmd-utils]: Skipping, unable to determine old version
+[2023-07-07 14:09:18] INFO root fetch - processPackages [mlmd-utils]: Start processing: wodoo
+[2023-07-07 14:09:18] INFO root fetch - main [MainThread]: End processing [mlmd-utils] error
+[2023-07-07 14:09:18] INFO root fetch - processPackages [pytbai]: Downloading https://files.pythonhosted.org/packages/92/e4/82904eb70975d5b1dc007ce2cdde3b7ca7abe710b2e3c330737075629d91/pytbai-1.3.5.tar.gz
+[2023-07-07 14:09:18] INFO root fetch - processPackages [wodoo]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-07 14:09:18] INFO root fetch - processPackages [n2t-hardware-tester-test1]: Remove: archive file [/home/abi/fetcher/tmp/n2t-hardware-tester-test1-1.0.2.tar.gz]
+[2023-07-07 14:09:18] INFO root fetch - processPackages [n2t-hardware-tester-test1]: Remove: archive file [/home/abi/fetcher/tmp/n2t-hardware-tester-test1-1.0.4.tar.gz]
+[2023-07-07 14:09:18] INFO root fetch - processPackages [n2t-hardware-tester-test1]: Start processing: quickstart-vdk
+[2023-07-07 14:09:18] INFO root fetch - main [MainThread]: End processing [n2t-hardware-tester-test1]: success
+[2023-07-07 14:09:18] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230706-py2.py3-none-any.whl.zip]
+[2023-07-07 14:09:18] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230707-py2.py3-none-any.whl.zip]
+[2023-07-07 14:09:18] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-07-07 14:09:18] INFO root fetch - processPackages [pytbai]: executing diffoscope
+[2023-07-07 14:09:18] INFO root fetch - processPackages [pytbai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytbai-1.3.4.tar.gz tmp/pytbai-1.3.5.tar.gz --markdown 20230707/p/pytbai/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-07-07 14:09:19] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.924349638.dev12134] Old Version: [0.2.923117946.dev12114]
+[2023-07-07 14:09:19] INFO root fetch - processPackages [gurobi-machinelearning]: Remove: archive file [/home/abi/fetcher/tmp/gurobi-machinelearning-1.3.1.tar.gz]
+[2023-07-07 14:09:19] INFO root fetch - processPackages [gurobi-machinelearning]: Remove: archive file [/home/abi/fetcher/tmp/gurobi-machinelearning-1.3.2.tar.gz]
+[2023-07-07 14:09:19] INFO root fetch - main [MainThread]: End processing [gurobi-machinelearning]: success
+[2023-07-07 14:09:19] INFO root fetch - processPackages [kr8s]: Remove: archive file [/home/abi/fetcher/tmp/kr8s-0.8.2.tar.gz]
+[2023-07-07 14:09:19] INFO root fetch - processPackages [kr8s]: Remove: archive file [/home/abi/fetcher/tmp/kr8s-0.8.3.tar.gz]
+[2023-07-07 14:09:19] INFO root fetch - main [MainThread]: End processing [kr8s]: success
+[2023-07-07 14:09:19] INFO root fetch - processPackages [unknown-cli]: Remove: archive file [/home/abi/fetcher/tmp/unknown-cli-0.6.7.tar.gz]
+[2023-07-07 14:09:19] INFO root fetch - processPackages [unknown-cli]: Remove: archive file [/home/abi/fetcher/tmp/unknown-cli-0.6.8.tar.gz]
+[2023-07-07 14:09:19] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/f1/e5/4eaf4bac81e606caa8deb3d95f64c8de95dc532f6bd16aef12de595f56cc/wodoo-0.4.8.tar.gz
+[2023-07-07 14:09:19] INFO root fetch - main [MainThread]: End processing [unknown-cli]: success
+[2023-07-07 14:09:19] INFO root fetch - processPackages [pymodaq-plugins-mock]: Remove: archive file [/home/abi/fetcher/tmp/pymodaq_plugins_mock-4.0.2.tar.gz]
+[2023-07-07 14:09:19] INFO root fetch - processPackages [pymodaq-plugins-mock]: Remove: archive file [/home/abi/fetcher/tmp/pymodaq_plugins_mock-4.1.0.tar.gz]
+[2023-07-07 14:09:19] INFO root fetch - main [MainThread]: End processing [pymodaq-plugins-mock]: success
+[2023-07-07 14:09:19] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/58/71/9bc0ca3342b0a2c5d79ad72ff09667b469ae4b1061d73b06cfbfda98257f/quickstart-vdk-0.2.923117946.dev12114.tar.gz
+[2023-07-07 14:09:19] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_identity-1.9.7rc1-py3-none-any.whl.zip]
+[2023-07-07 14:09:19] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_identity-1.9.7rc2-py3-none-any.whl.zip]
+[2023-07-07 14:09:19] INFO root fetch - main [MainThread]: End processing [spaceone-identity]: success
+[2023-07-07 14:09:19] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/34/e8/81686b3a77a0edae554159a95e4782f911bd4ea59a2990954162a6b1e97e/wodoo-0.4.9.tar.gz
+[2023-07-07 14:09:19] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/78/ab/c84a6ec20628b204803f065aa5b6998c5a9d303fb9a50316e286881e75a2/quickstart-vdk-0.2.924349638.dev12134.tar.gz
+[2023-07-07 14:09:19] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-07-07 14:09:19] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.4.8.tar.gz tmp/wodoo-0.4.9.tar.gz --markdown 20230707/w/wodoo/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-07 14:09:19] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-07-07 14:09:19] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.923117946.dev12114.tar.gz tmp/quickstart-vdk-0.2.924349638.dev12134.tar.gz --markdown 20230707/q/quickstart-vdk/0.2.923117946.dev12114-0.2.924349638.dev12134/diff.md --exclude *.pyd
+[2023-07-07 14:09:19] INFO root fetch - processPackages [pytbai]: Remove: archive file [/home/abi/fetcher/tmp/pytbai-1.3.4.tar.gz]
+[2023-07-07 14:09:19] INFO root fetch - processPackages [pytbai]: Remove: archive file [/home/abi/fetcher/tmp/pytbai-1.3.5.tar.gz]
+[2023-07-07 14:09:19] INFO root fetch - main [MainThread]: End processing [pytbai]: success
+[2023-07-07 14:09:20] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.923117946.dev12114.tar.gz]
+[2023-07-07 14:09:20] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.924349638.dev12134.tar.gz]
+[2023-07-07 14:09:20] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-07-07 14:09:20] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.8.tar.gz]
+[2023-07-07 14:09:20] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.9.tar.gz]
+[2023-07-07 14:09:20] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-07-07 14:09:21] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip]
+[2023-07-07 14:09:21] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip]
+[2023-07-07 14:09:21] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-07-07 14:09:21] INFO root fetch - main [MainThread]: Store serial: [18800115]
