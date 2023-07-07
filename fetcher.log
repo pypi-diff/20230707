@@ -16095,3 +16095,132 @@ EOFError: EOF read where object expected
 [2023-07-07 10:47:39] INFO root fetch - processPackages [pulumi-awsx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_awsx-1.0.2.tar.gz]
 [2023-07-07 10:47:39] INFO root fetch - main [MainThread]: End processing [pulumi-awsx]: success
 [2023-07-07 10:47:39] INFO root fetch - main [MainThread]: Store serial: [18797684]
+[2023-07-07 10:52:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18797684]
+[2023-07-07 10:52:50] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-07 10:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyobs-core
+[2023-07-07 10:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-nlb20220430
+[2023-07-07 10:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reliably-cli
+[2023-07-07 10:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gm
+[2023-07-07 10:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-l10n-it-fatturapa-in
+[2023-07-07 10:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: paasta-tools
+[2023-07-07 10:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: libfmos-python
+[2023-07-07 10:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mxmake
+[2023-07-07 10:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: documentdataextraction
+[2023-07-07 10:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: packg
+[2023-07-07 10:52:51] INFO root fetch - processPackages [libfmos-python]: New version: [20230707] Old Version: [20220811]
+[2023-07-07 10:52:51] INFO root fetch - processPackages [packg]: New version: [0.2.19] Old Version: [0.2.18]
+[2023-07-07 10:52:51] INFO root fetch - processPackages [alibabacloud-nlb20220430]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-07 10:52:51] INFO root fetch - processPackages [pyobs-core]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-07 10:52:51] INFO root fetch - processPackages [gm]: New version: [3.0.156] Old Version: [3.0.155]
+[2023-07-07 10:52:51] INFO root fetch - processPackages [reliably-cli]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-07-07 10:52:51] INFO root fetch - processPackages [documentdataextraction]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 10:52:51] INFO root fetch - processPackages [mxmake]: New version: [1.0a2] Old Version: [1.0a1]
+[2023-07-07 10:52:51] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-in]: New version: [14.0.2.1.1.dev3] Old Version: [14.0.2.1.1.dev2]
+[2023-07-07 10:52:51] INFO root fetch - processPackages [paasta-tools]: New version: [0.92.1] Old Version: [0.92.0]
+[2023-07-07 10:52:51] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/60/08/8873f4abbf2803d24597ef26094735b89a976593685fff16a9aa1d76af45/packg-0.2.18.tar.gz
+[2023-07-07 10:52:51] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/1a/e4/1e85519ce247c6ed7c20e6c47ef38f5c09cf919ff231bf453cc23a1f0ba0/documentdataextraction-0.0.8-py3-none-any.whl
+[2023-07-07 10:52:51] INFO root fetch - processPackages [mxmake]: Downloading https://files.pythonhosted.org/packages/d0/dd/ada5004e87215082d81e746bf6f84daf7e1d20cddc5ac5776db1d21fcfec/mxmake-1.0a1.tar.gz
+[2023-07-07 10:52:51] INFO root fetch - processPackages [paasta-tools]: Downloading https://files.pythonhosted.org/packages/4a/0d/4404f538f73fd9262e827faffa3ec48b8413a24ff7a44cb416e30e89634c/paasta-tools-0.92.0.tar.gz
+[2023-07-07 10:52:51] INFO root fetch - processPackages [libfmos-python]: Downloading https://files.pythonhosted.org/packages/ac/16/88e283bbbea1e2d50084a963fc97393805fe8930753739299fdcc33bcb5a/libfmos-python-20220811.tar.gz
+[2023-07-07 10:52:51] INFO root fetch - processPackages [alibabacloud-nlb20220430]: Downloading https://files.pythonhosted.org/packages/b1/d1/aed3adfc010e8a32e4b68c6e5ea3450d740d148599e7583d97cd32c3b458/alibabacloud_nlb20220430-1.0.8.tar.gz
+[2023-07-07 10:52:51] INFO root fetch - processPackages [pyobs-core]: Downloading https://files.pythonhosted.org/packages/2a/44/b979f277591c5c518c71850329ef03b8bbf39c4539017a2252ab1a1d69e5/pyobs_core-1.4.1.tar.gz
+[2023-07-07 10:52:51] INFO root fetch - processPackages [gm]: Downloading https://files.pythonhosted.org/packages/71/bd/7debd4cf3e1f5fbf1216b39b76e51cac3b369a83fbb0ed0e7f0b31373b65/gm-3.0.155-cp39-cp39-win_amd64.whl
+[2023-07-07 10:52:51] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-in]: Downloading https://files.pythonhosted.org/packages/b9/0d/a543bbc8e6e63fae4afa68ebc1cadc8eb5b723b1a2e94226968bfc195210/odoo14_addon_l10n_it_fatturapa_in-14.0.2.1.1.dev2-py3-none-any.whl
+[2023-07-07 10:52:51] INFO root fetch - processPackages [reliably-cli]: Downloading https://files.pythonhosted.org/packages/5b/89/a792881e1c859234ec67b714c574e5e86580d4da722d4471a26a63b2a6bf/reliably_cli-0.8.5-py3-none-any.whl
+[2023-07-07 10:52:51] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/d4/cd/30e96fc343356f8369d40856dd3e749dc5504649f034c4e8f162ae498151/packg-0.2.19.tar.gz
+[2023-07-07 10:52:51] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/b3/ec/eb9901e48d02bee04847cd1afe0c6b8ca7231d1a8b133261a63ae052f777/documentdataextraction-0.0.9-py3-none-any.whl
+[2023-07-07 10:52:51] INFO root fetch - processPackages [paasta-tools]: Downloading https://files.pythonhosted.org/packages/d8/f5/9a4c0134f4d0862da0cbcc57381d5c9f52e37ea937fa628e123433ccb7a4/paasta-tools-0.92.1.tar.gz
+[2023-07-07 10:52:51] INFO root fetch - processPackages [mxmake]: Downloading https://files.pythonhosted.org/packages/20/a4/b7902d5b2ecf3af2ca18696f297b40dc59a7469194ce2ea1d22f0ac505ac/mxmake-1.0a2.tar.gz
+[2023-07-07 10:52:52] INFO root fetch - processPackages [libfmos-python]: Downloading https://files.pythonhosted.org/packages/ea/08/4d8c605a9100e96804d643476cd2b2b4fefd4b9cd4364f0f8ea827f3510d/libfmos_python-20230707-cp311-cp311-win_amd64.whl
+[2023-07-07 10:52:52] INFO root fetch - processPackages [alibabacloud-nlb20220430]: Downloading https://files.pythonhosted.org/packages/e7/e7/20453d9a15c8ac3cd339ec22598703263c778029f2a7de6aded58695aa8c/alibabacloud_nlb20220430-1.0.9.tar.gz
+[2023-07-07 10:52:52] INFO root fetch - processPackages [packg]: executing diffoscope
+[2023-07-07 10:52:52] INFO root fetch - processPackages [packg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packg-0.2.18.tar.gz tmp/packg-0.2.19.tar.gz --markdown 20230707/p/packg/0.2.18-0.2.19/diff.md --exclude *.pyd
+[2023-07-07 10:52:52] INFO root fetch - processPackages [documentdataextraction]: executing diffoscope
+[2023-07-07 10:52:52] INFO root fetch - processPackages [documentdataextraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip --markdown 20230707/d/documentdataextraction/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 10:52:52] INFO root fetch - processPackages [pyobs-core]: Downloading https://files.pythonhosted.org/packages/47/c0/3b88cb87e1dc4632825bd9a13f3a57711c5ab8a04cdca9a366ef627539d2/pyobs_core-1.4.2.tar.gz
+[2023-07-07 10:52:52] INFO root fetch - processPackages [paasta-tools]: executing diffoscope
+[2023-07-07 10:52:52] INFO root fetch - processPackages [paasta-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paasta-tools-0.92.0.tar.gz tmp/paasta-tools-0.92.1.tar.gz --markdown 20230707/p/paasta-tools/0.92.0-0.92.1/diff.md --exclude *.pyd
+[2023-07-07 10:52:52] INFO root fetch - processPackages [libfmos-python]: executing diffoscope
+[2023-07-07 10:52:52] INFO root fetch - processPackages [libfmos-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libfmos-python-20220811.tar.gz tmp/libfmos_python-20230707-cp311-cp311-win_amd64.whl.zip --markdown 20230707/l/libfmos-python/20220811-20230707/diff.md --exclude *.pyd
+[2023-07-07 10:52:52] INFO root fetch - processPackages [reliably-cli]: Downloading https://files.pythonhosted.org/packages/c5/25/682a147a84964a6573eaf70387868fa3e042facc7e5ee775013ec3415c93/reliably_cli-0.8.6-py3-none-any.whl
+[2023-07-07 10:52:52] INFO root fetch - processPackages [alibabacloud-nlb20220430]: executing diffoscope
+[2023-07-07 10:52:52] INFO root fetch - processPackages [alibabacloud-nlb20220430]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_nlb20220430-1.0.8.tar.gz tmp/alibabacloud_nlb20220430-1.0.9.tar.gz --markdown 20230707/a/alibabacloud-nlb20220430/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-07 10:52:52] INFO root fetch - processPackages [mxmake]: executing diffoscope
+[2023-07-07 10:52:52] INFO root fetch - processPackages [mxmake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxmake-1.0a1.tar.gz tmp/mxmake-1.0a2.tar.gz --markdown 20230707/m/mxmake/1.0a1-1.0a2/diff.md --exclude *.pyd
+[2023-07-07 10:52:52] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-in]: Downloading https://files.pythonhosted.org/packages/71/21/36aae62ebc3a3fe76e6d4efd4ad1bb1b5d84b98e5f3b30a2625546b6091b/odoo14_addon_l10n_it_fatturapa_in-14.0.2.1.1.dev3-py3-none-any.whl
+[2023-07-07 10:52:52] INFO root fetch - processPackages [pyobs-core]: executing diffoscope
+[2023-07-07 10:52:52] INFO root fetch - processPackages [pyobs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobs_core-1.4.1.tar.gz tmp/pyobs_core-1.4.2.tar.gz --markdown 20230707/p/pyobs-core/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-07-07 10:52:52] INFO root fetch - processPackages [reliably-cli]: executing diffoscope
+[2023-07-07 10:52:52] INFO root fetch - processPackages [reliably-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliably_cli-0.8.5-py3-none-any.whl.zip tmp/reliably_cli-0.8.6-py3-none-any.whl.zip --markdown 20230707/r/reliably-cli/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-07-07 10:52:52] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-in]: executing diffoscope
+[2023-07-07 10:52:52] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-in]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_fatturapa_in-14.0.2.1.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_fatturapa_in-14.0.2.1.1.dev3-py3-none-any.whl.zip --markdown 20230707/o/odoo14-addon-l10n-it-fatturapa-in/14.0.2.1.1.dev2-14.0.2.1.1.dev3/diff.md --exclude *.pyd
+[2023-07-07 10:52:52] INFO root fetch - processPackages [gm]: Downloading https://files.pythonhosted.org/packages/b4/69/8c672504aa1b381e34c6c54d610387c370c439f9f789846d5b1590d07c0c/gm-3.0.156-cp39-cp39-win_amd64.whl
+[2023-07-07 10:52:52] INFO root fetch - processPackages [gm]: executing diffoscope
+[2023-07-07 10:52:52] INFO root fetch - processPackages [gm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gm-3.0.155-cp39-cp39-win_amd64.whl.zip tmp/gm-3.0.156-cp39-cp39-win_amd64.whl.zip --markdown 20230707/g/gm/3.0.155-3.0.156/diff.md --exclude *.pyd
+[2023-07-07 10:52:53] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip]
+[2023-07-07 10:52:53] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip]
+[2023-07-07 10:52:53] INFO root fetch - processPackages [documentdataextraction]: Start processing: neuromorphic-drivers
+[2023-07-07 10:52:53] INFO root fetch - main [MainThread]: End processing [documentdataextraction]: success
+[2023-07-07 10:52:53] INFO root fetch - processPackages [libfmos-python]: Remove: archive file [/home/abi/fetcher/tmp/libfmos-python-20220811.tar.gz]
+[2023-07-07 10:52:53] INFO root fetch - processPackages [neuromorphic-drivers]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-07-07 10:52:53] INFO root fetch - processPackages [libfmos-python]: Remove: archive file [/home/abi/fetcher/tmp/libfmos_python-20230707-cp311-cp311-win_amd64.whl.zip]
+[2023-07-07 10:52:53] INFO root fetch - processPackages [libfmos-python]: Start processing: tfp-nightly
+[2023-07-07 10:52:53] INFO root fetch - main [MainThread]: End processing [libfmos-python]: success
+[2023-07-07 10:52:53] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-07-07 10:52:53] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.2.18.tar.gz]
+[2023-07-07 10:52:53] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.2.19.tar.gz]
+[2023-07-07 10:52:53] INFO root fetch - processPackages [packg]: Start processing: mastsel
+[2023-07-07 10:52:53] INFO root fetch - main [MainThread]: End processing [packg]: success
+[2023-07-07 10:52:53] INFO root fetch - processPackages [mastsel]: New version: [1.1] Old Version: [0.1]
+[2023-07-07 10:52:53] INFO root fetch - processPackages [neuromorphic-drivers]: Downloading https://files.pythonhosted.org/packages/1a/db/63ff23fd2b2bc9187ff9db152383cabe79e12cd129d0a03b5a0e87c8d67c/neuromorphic_drivers-0.2.2.tar.gz
+[2023-07-07 10:52:53] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-07-07 10:52:53] INFO root fetch - processPackages [reliably-cli]: Remove: archive file [/home/abi/fetcher/tmp/reliably_cli-0.8.5-py3-none-any.whl.zip]
+[2023-07-07 10:52:53] INFO root fetch - processPackages [reliably-cli]: Remove: archive file [/home/abi/fetcher/tmp/reliably_cli-0.8.6-py3-none-any.whl.zip]
+[2023-07-07 10:52:53] INFO root fetch - processPackages [reliably-cli]: Start processing: openrl
+[2023-07-07 10:52:53] INFO root fetch - main [MainThread]: End processing [reliably-cli]: success
+[2023-07-07 10:52:54] INFO root fetch - processPackages [openrl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 10:52:54] INFO root fetch - processPackages [alibabacloud-nlb20220430]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_nlb20220430-1.0.8.tar.gz]
+[2023-07-07 10:52:54] INFO root fetch - processPackages [alibabacloud-nlb20220430]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_nlb20220430-1.0.9.tar.gz]
+[2023-07-07 10:52:54] INFO root fetch - main [MainThread]: End processing [alibabacloud-nlb20220430]: success
+[2023-07-07 10:52:54] INFO root fetch - processPackages [mastsel]: Downloading https://files.pythonhosted.org/packages/ab/7d/4a42c0a4563fb33465974aac786b274bc73bc290bdb949e3458aa8da07aa/mastsel-0.1.tar.gz
+[2023-07-07 10:52:54] INFO root fetch - processPackages [neuromorphic-drivers]: Downloading https://files.pythonhosted.org/packages/b8/ee/b9596dd32c3d282cacd25d34be0e0dbd223c080272fc2c6448c169fb3963/neuromorphic_drivers-0.3.0.tar.gz
+[2023-07-07 10:52:54] INFO root fetch - processPackages [mxmake]: Remove: archive file [/home/abi/fetcher/tmp/mxmake-1.0a1.tar.gz]
+[2023-07-07 10:52:54] INFO root fetch - processPackages [mxmake]: Remove: archive file [/home/abi/fetcher/tmp/mxmake-1.0a2.tar.gz]
+[2023-07-07 10:52:54] INFO root fetch - main [MainThread]: End processing [mxmake]: success
+[2023-07-07 10:52:54] INFO root fetch - processPackages [openrl]: Downloading https://files.pythonhosted.org/packages/ce/41/02cf8dd6473e10b6e3fb4fe087173355c6b0f0b66deef5ff7dd170203972/openrl-0.0.8.tar.gz
+[2023-07-07 10:52:54] INFO root fetch - processPackages [neuromorphic-drivers]: executing diffoscope
+[2023-07-07 10:52:54] INFO root fetch - processPackages [neuromorphic-drivers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuromorphic_drivers-0.2.2.tar.gz tmp/neuromorphic_drivers-0.3.0.tar.gz --markdown 20230707/n/neuromorphic-drivers/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-07-07 10:52:54] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-in]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_fatturapa_in-14.0.2.1.1.dev2-py3-none-any.whl.zip]
+[2023-07-07 10:52:54] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-in]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_fatturapa_in-14.0.2.1.1.dev3-py3-none-any.whl.zip]
+[2023-07-07 10:52:54] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-fatturapa-in]: success
+[2023-07-07 10:52:54] INFO root fetch - processPackages [mastsel]: Downloading https://files.pythonhosted.org/packages/a9/53/b6200963f69f4a11eaf7d547de69cf8edca52312a12a0db346d866c2f909/mastsel-1.1.tar.gz
+[2023-07-07 10:52:54] INFO root fetch - processPackages [mastsel]: executing diffoscope
+[2023-07-07 10:52:54] INFO root fetch - processPackages [mastsel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mastsel-0.1.tar.gz tmp/mastsel-1.1.tar.gz --markdown 20230707/m/mastsel/0.1-1.1/diff.md --exclude *.pyd
+[2023-07-07 10:52:54] INFO root fetch - processPackages [openrl]: Downloading https://files.pythonhosted.org/packages/c5/72/7a0be3fe2ba8c6d5af55ae8bfea781ee309952310492824825f9649a52ad/openrl-0.0.9.tar.gz
+[2023-07-07 10:52:54] INFO root fetch - processPackages [paasta-tools]: Remove: archive file [/home/abi/fetcher/tmp/paasta-tools-0.92.0.tar.gz]
+[2023-07-07 10:52:54] INFO root fetch - processPackages [paasta-tools]: Remove: archive file [/home/abi/fetcher/tmp/paasta-tools-0.92.1.tar.gz]
+[2023-07-07 10:52:54] INFO root fetch - main [MainThread]: End processing [paasta-tools]: success
+[2023-07-07 10:52:54] INFO root fetch - processPackages [pyobs-core]: Remove: archive file [/home/abi/fetcher/tmp/pyobs_core-1.4.1.tar.gz]
+[2023-07-07 10:52:54] INFO root fetch - processPackages [pyobs-core]: Remove: archive file [/home/abi/fetcher/tmp/pyobs_core-1.4.2.tar.gz]
+[2023-07-07 10:52:54] INFO root fetch - main [MainThread]: End processing [pyobs-core]: success
+[2023-07-07 10:52:54] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-07-07 10:52:54] INFO root fetch - processPackages [openrl]: executing diffoscope
+[2023-07-07 10:52:54] INFO root fetch - processPackages [openrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openrl-0.0.8.tar.gz tmp/openrl-0.0.9.tar.gz --markdown 20230707/o/openrl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 10:52:55] INFO root fetch - processPackages [neuromorphic-drivers]: Remove: archive file [/home/abi/fetcher/tmp/neuromorphic_drivers-0.2.2.tar.gz]
+[2023-07-07 10:52:55] INFO root fetch - processPackages [neuromorphic-drivers]: Remove: archive file [/home/abi/fetcher/tmp/neuromorphic_drivers-0.3.0.tar.gz]
+[2023-07-07 10:52:55] INFO root fetch - main [MainThread]: End processing [neuromorphic-drivers]: success
+[2023-07-07 10:52:55] INFO root fetch - processPackages [mastsel]: Remove: archive file [/home/abi/fetcher/tmp/mastsel-0.1.tar.gz]
+[2023-07-07 10:52:55] INFO root fetch - processPackages [mastsel]: Remove: archive file [/home/abi/fetcher/tmp/mastsel-1.1.tar.gz]
+[2023-07-07 10:52:55] INFO root fetch - main [MainThread]: End processing [mastsel]: success
+[2023-07-07 10:52:56] INFO root fetch - processPackages [openrl]: Remove: archive file [/home/abi/fetcher/tmp/openrl-0.0.8.tar.gz]
+[2023-07-07 10:52:56] INFO root fetch - processPackages [openrl]: Remove: archive file [/home/abi/fetcher/tmp/openrl-0.0.9.tar.gz]
+[2023-07-07 10:52:56] INFO root fetch - main [MainThread]: End processing [openrl]: success
+[2023-07-07 10:52:56] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-07-07 10:52:56] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230707/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-07-07 10:53:00] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-07-07 10:53:00] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-07-07 10:53:00] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-07-07 10:53:13] INFO root fetch - processPackages [gm]: Remove: archive file [/home/abi/fetcher/tmp/gm-3.0.155-cp39-cp39-win_amd64.whl.zip]
+[2023-07-07 10:53:13] INFO root fetch - processPackages [gm]: Remove: archive file [/home/abi/fetcher/tmp/gm-3.0.156-cp39-cp39-win_amd64.whl.zip]
+[2023-07-07 10:53:13] INFO root fetch - main [MainThread]: End processing [gm]: success
+[2023-07-07 10:53:13] INFO root fetch - main [MainThread]: Store serial: [18797773]
