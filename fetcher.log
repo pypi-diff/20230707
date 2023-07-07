@@ -19223,3 +19223,182 @@ AssertionError: tmp/tester-package-sdk-2.0.9.tar.gz does not exist
 [2023-07-07 12:39:35] INFO root fetch - processPackages [data-engineering-pulumi-components]: Remove: archive file [/home/abi/fetcher/tmp/data-engineering-pulumi-components-0.4.1.dev7.tar.gz]
 [2023-07-07 12:39:35] INFO root fetch - main [MainThread]: End processing [data-engineering-pulumi-components]: success
 [2023-07-07 12:39:35] INFO root fetch - main [MainThread]: Store serial: [18799087]
+[2023-07-07 12:44:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18799087]
+[2023-07-07 12:44:44] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-07 12:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: extruct
+[2023-07-07 12:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: extruct
+[2023-07-07 12:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: embykeeper
+[2023-07-07 12:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sj-tool
+[2023-07-07 12:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testadd
+[2023-07-07 12:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lokrez
+[2023-07-07 12:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sequencelib
+[2023-07-07 12:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: seqconverter
+[2023-07-07 12:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: resc-backend
+[2023-07-07 12:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyomorfi
+[2023-07-07 12:44:45] INFO root fetch - processPackages [seqconverter]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-07-07 12:44:45] INFO root fetch - processPackages [testadd]: New version: [0.3.0] Old Version: [0.1.0]
+[2023-07-07 12:44:45] INFO root fetch - processPackages [sequencelib]: New version: [2.9.0] Old Version: [2.8.3]
+[2023-07-07 12:44:45] INFO root fetch - processPackages [resc-backend]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-07-07 12:44:45] INFO root fetch - processPackages [lokrez]: New version: [4.3.0] Old Version: [4.2.0]
+[2023-07-07 12:44:45] INFO root fetch - processPackages [pyomorfi]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-07 12:44:45] INFO root fetch - processPackages [extruct]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-07 12:44:45] INFO root fetch - processPackages [extruct]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-07 12:44:45] INFO root fetch - processPackages [embykeeper]: New version: [2.2.9] Old Version: [2.2.7]
+[2023-07-07 12:44:45] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-07 12:44:45] INFO root fetch - processPackages [seqconverter]: Downloading https://files.pythonhosted.org/packages/74/b0/ff8a59e6781b5d3e5919026085be5d753078b0b477769779c67e9e213e9a/seqconverter-2.9.1.tar.gz
+[2023-07-07 12:44:45] INFO root fetch - processPackages [extruct]: Downloading https://files.pythonhosted.org/packages/0a/00/626eb7b1c121fe2dab32f65176b456014fd7096ea7dbae474c31159ddecd/extruct-0.8.0.tar.gz
+[2023-07-07 12:44:45] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-07-07 12:44:45] INFO root fetch - processPackages [extruct]: Downloading https://files.pythonhosted.org/packages/0a/00/626eb7b1c121fe2dab32f65176b456014fd7096ea7dbae474c31159ddecd/extruct-0.8.0.tar.gz
+[2023-07-07 12:44:45] INFO root fetch - processPackages [testadd]: Downloading https://files.pythonhosted.org/packages/d0/8d/f32d53672a9868ae50b12d2d4f7230a3c1c8ebb3b2d1dc0938876fcaa0a4/testadd-0.1.0.tar.gz
+[2023-07-07 12:44:45] INFO root fetch - processPackages [resc-backend]: Downloading https://files.pythonhosted.org/packages/42/2f/ef037a131df931274b28341d9a3ba8ab89c70d193a2a58e271ef6acafdfb/resc_backend-1.3.0.tar.gz
+[2023-07-07 12:44:45] INFO root fetch - processPackages [lokrez]: Downloading https://files.pythonhosted.org/packages/6c/b7/1aa04221025c4998ccf9e61444d02f47dfc4013770e01acb9f7276738abe/lokrez-4.2.0.tar.gz
+[2023-07-07 12:44:45] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/2f/e7/1d74c5658f775a0e79afbd26e241200c244778cb6ee0142cf27b0a03940d/embykeeper-2.2.7.tar.gz
+[2023-07-07 12:44:45] INFO root fetch - processPackages [pyomorfi]: Downloading https://files.pythonhosted.org/packages/06/6f/745d0c2336edee76b2dd911045ac0d2d4494746af7ebf751840610a141f9/pyomorfi-1.0.0.tar.gz
+[2023-07-07 12:44:45] INFO root fetch - processPackages [sequencelib]: Downloading https://files.pythonhosted.org/packages/df/af/aeffb658f34a9d10c424ea196dc62836c82233f84182f628019517b023b0/sequencelib-2.8.3.tar.gz
+[2023-07-07 12:44:45] WARNING root fetch - processPackages [lokrez]: Skipping package: exceeds size limit 11576646>=10485760
+[2023-07-07 12:44:45] INFO root fetch - processPackages [lokrez]: Start processing: tungstenkit
+[2023-07-07 12:44:45] INFO root fetch - main [MainThread]: End processing [lokrez] error
+[2023-07-07 12:44:45] INFO root fetch - processPackages [seqconverter]: Downloading https://files.pythonhosted.org/packages/dc/1f/7033f6e42158f5dbd9ab26654c50b76445642a61b5257e6888ffd585c1e5/seqconverter-2.9.2.tar.gz
+[2023-07-07 12:44:45] INFO root fetch - processPackages [extruct]: Downloading https://files.pythonhosted.org/packages/ed/13/620454e44500ad1f75a36c8904e62c4ada5bbf8e7e6ff8dcdaa05a9059cf/extruct-0.9.0.tar.gz
+[2023-07-07 12:44:45] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-07-07 12:44:45] INFO root fetch - processPackages [tungstenkit]: New version: [0.1.2.post1] Old Version: [0.1.2]
+[2023-07-07 12:44:46] INFO root fetch - processPackages [extruct]: Downloading https://files.pythonhosted.org/packages/ed/13/620454e44500ad1f75a36c8904e62c4ada5bbf8e7e6ff8dcdaa05a9059cf/extruct-0.9.0.tar.gz
+[2023-07-07 12:44:46] INFO root fetch - processPackages [testadd]: Downloading https://files.pythonhosted.org/packages/ff/50/eba573a9d467695b6a910d4f7ce5d13d14d4d6f233137ee9c9fba1fc273d/testadd-0.3.0.tar.gz
+[2023-07-07 12:44:46] INFO root fetch - processPackages [seqconverter]: executing diffoscope
+[2023-07-07 12:44:46] INFO root fetch - processPackages [seqconverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqconverter-2.9.1.tar.gz tmp/seqconverter-2.9.2.tar.gz --markdown 20230707/s/seqconverter/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-07-07 12:44:46] INFO root fetch - processPackages [tungstenkit]: Downloading https://files.pythonhosted.org/packages/3d/c0/b98a93b250a6d69c11f5018d61417e211b652f19121d1c3e28fa4ffc3b2b/tungstenkit-0.1.2.tar.gz
+[2023-07-07 12:44:46] INFO root fetch - processPackages [extruct]: executing diffoscope
+[2023-07-07 12:44:46] INFO root fetch - processPackages [extruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extruct-0.8.0.tar.gz tmp/extruct-0.9.0.tar.gz --markdown 20230707/e/extruct/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-07 12:44:46] INFO root fetch - processPackages [resc-backend]: Downloading https://files.pythonhosted.org/packages/dd/bb/4eb263ac8ae5417abb076170a0d5ac073d43e32fa6c45d421acd910b3141/resc_backend-1.4.0.tar.gz
+[2023-07-07 12:44:46] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-07-07 12:44:46] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230707/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-07 12:44:46] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/aa/16/2179b87888646548433ff20e89b82e6c44f64a1f4a29ccfc82b499fa01ad/embykeeper-2.2.9.tar.gz
+[2023-07-07 12:44:46] INFO root fetch - processPackages [testadd]: executing diffoscope
+[2023-07-07 12:44:46] INFO root fetch - processPackages [testadd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testadd-0.1.0.tar.gz tmp/testadd-0.3.0.tar.gz --markdown 20230707/t/testadd/0.1.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-07 12:44:46] INFO root fetch - processPackages [extruct]: executing diffoscope
+[2023-07-07 12:44:46] INFO root fetch - processPackages [extruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extruct-0.8.0.tar.gz tmp/extruct-0.9.0.tar.gz --markdown 20230707/e/extruct/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-07 12:44:46] INFO root fetch - processPackages [resc-backend]: executing diffoscope
+[2023-07-07 12:44:46] INFO root fetch - processPackages [resc-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resc_backend-1.3.0.tar.gz tmp/resc_backend-1.4.0.tar.gz --markdown 20230707/r/resc-backend/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-07-07 12:44:46] INFO root fetch - processPackages [sequencelib]: Downloading https://files.pythonhosted.org/packages/75/be/3444e09a307974313d38cd27f3f6ac864823eaa25067f32496ef0a8f44f3/sequencelib-2.9.0.tar.gz
+[2023-07-07 12:44:46] INFO root fetch - processPackages [embykeeper]: executing diffoscope
+[2023-07-07 12:44:46] INFO root fetch - processPackages [embykeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embykeeper-2.2.7.tar.gz tmp/embykeeper-2.2.9.tar.gz --markdown 20230707/e/embykeeper/2.2.7-2.2.9/diff.md --exclude *.pyd
+[2023-07-07 12:44:46] INFO root fetch - processPackages [pyomorfi]: Downloading https://files.pythonhosted.org/packages/57/8b/edac9d24de850ac6bb16d69feb963994fbd3c56117d5601b5c54b6f21923/pyomorfi-1.0.1.tar.gz
+[2023-07-07 12:44:46] INFO root fetch - processPackages [sequencelib]: executing diffoscope
+[2023-07-07 12:44:46] INFO root fetch - processPackages [sequencelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sequencelib-2.8.3.tar.gz tmp/sequencelib-2.9.0.tar.gz --markdown 20230707/s/sequencelib/2.8.3-2.9.0/diff.md --exclude *.pyd
+[2023-07-07 12:44:46] INFO root fetch - processPackages [tungstenkit]: Downloading https://files.pythonhosted.org/packages/29/50/b2426037c39b2cdd89927e2ad91da30999b879cce90f9b03ce3db7ee15db/tungstenkit-0.1.2.post1.tar.gz
+[2023-07-07 12:44:46] INFO root fetch - processPackages [tungstenkit]: executing diffoscope
+[2023-07-07 12:44:46] INFO root fetch - processPackages [tungstenkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tungstenkit-0.1.2.tar.gz tmp/tungstenkit-0.1.2.post1.tar.gz --markdown 20230707/t/tungstenkit/0.1.2-0.1.2.post1/diff.md --exclude *.pyd
+[2023-07-07 12:44:47] INFO root fetch - processPackages [extruct]: Remove: archive file [/home/abi/fetcher/tmp/extruct-0.8.0.tar.gz]
+[2023-07-07 12:44:47] INFO root fetch - processPackages [extruct]: Remove: archive file [/home/abi/fetcher/tmp/extruct-0.9.0.tar.gz]
+[2023-07-07 12:44:47] INFO root fetch - processPackages [extruct]: Start processing: mengontol
+[2023-07-07 12:44:47] INFO root fetch - main [MainThread]: End processing [extruct]: success
+[2023-07-07 12:44:47] INFO root fetch - processPackages [testadd]: Remove: archive file [/home/abi/fetcher/tmp/testadd-0.1.0.tar.gz]
+[2023-07-07 12:44:47] INFO root fetch - processPackages [testadd]: Remove: archive file [/home/abi/fetcher/tmp/testadd-0.3.0.tar.gz]
+[2023-07-07 12:44:47] INFO root fetch - processPackages [testadd]: Start processing: nowcasting-datamodel
+[2023-07-07 12:44:47] INFO root fetch - main [MainThread]: End processing [testadd]: success
+[2023-07-07 12:44:47] WARNING root fetch - processPackages [mengontol]: Skipping, unable to determine old version
+[2023-07-07 12:44:47] INFO root fetch - processPackages [mengontol]: Start processing: bombaysoftwares-pysupp
+[2023-07-07 12:44:47] INFO root fetch - main [MainThread]: End processing [mengontol] error
+[2023-07-07 12:44:47] INFO root fetch - processPackages [pyomorfi]: executing diffoscope
+[2023-07-07 12:44:47] INFO root fetch - processPackages [pyomorfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyomorfi-1.0.0.tar.gz tmp/pyomorfi-1.0.1.tar.gz --markdown 20230707/p/pyomorfi/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-07 12:44:47] INFO root fetch - processPackages [nowcasting-datamodel]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-07 12:44:47] INFO root fetch - processPackages [seqconverter]: Remove: archive file [/home/abi/fetcher/tmp/seqconverter-2.9.1.tar.gz]
+[2023-07-07 12:44:47] INFO root fetch - processPackages [seqconverter]: Remove: archive file [/home/abi/fetcher/tmp/seqconverter-2.9.2.tar.gz]
+[2023-07-07 12:44:47] INFO root fetch - processPackages [seqconverter]: Start processing: segment-lidar
+[2023-07-07 12:44:47] INFO root fetch - main [MainThread]: End processing [seqconverter]: success
+[2023-07-07 12:44:47] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-07-07 12:44:47] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-07-07 12:44:47] INFO root fetch - processPackages [sj-tool]: Start processing: OpenGeode-core
+[2023-07-07 12:44:47] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-07-07 12:44:47] INFO root fetch - processPackages [bombaysoftwares-pysupp]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-07 12:44:47] INFO root fetch - processPackages [segment-lidar]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-07 12:44:47] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.4.1rc3]
+[2023-07-07 12:44:47] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/01/ff/fb83ea8f39027c88f49407fb7ff4b1ac29409e608e02c6385c1de05f1bb9/nowcasting_datamodel-1.4.8.tar.gz
+[2023-07-07 12:44:47] INFO root fetch - processPackages [sequencelib]: Remove: archive file [/home/abi/fetcher/tmp/sequencelib-2.8.3.tar.gz]
+[2023-07-07 12:44:47] INFO root fetch - processPackages [sequencelib]: Remove: archive file [/home/abi/fetcher/tmp/sequencelib-2.9.0.tar.gz]
+[2023-07-07 12:44:47] INFO root fetch - processPackages [sequencelib]: Start processing: RIFT
+[2023-07-07 12:44:47] INFO root fetch - main [MainThread]: End processing [sequencelib]: success
+[2023-07-07 12:44:47] INFO root fetch - processPackages [extruct]: Start processing: search-wikt
+[2023-07-07 12:44:47] INFO root fetch - main [MainThread]: End processing [extruct]: success
+[2023-07-07 12:44:47] INFO root fetch - processPackages [bombaysoftwares-pysupp]: Downloading https://files.pythonhosted.org/packages/1b/7a/e66f64406543fecd3a379fb917b37370dfe4a969cb9f2cdfbdc763365ecf/bombaysoftwares-pysupp-1.0.2.tar.gz
+[2023-07-07 12:44:47] INFO root fetch - processPackages [RIFT]: New version: [0.0.15.9rc6] Old Version: [0.0.15.9rc5]
+[2023-07-07 12:44:47] INFO root fetch - processPackages [segment-lidar]: Downloading https://files.pythonhosted.org/packages/36/7d/29a23595162e9a5642119121c6102545e8a425869ba0f5e805dfd541a82c/segment-lidar-0.1.6.tar.gz
+[2023-07-07 12:44:47] INFO root fetch - processPackages [search-wikt]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-07 12:44:47] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/c6/a2/8e712e96f1a2ad4652e7c46d239c84e7e448452766c5a36527ff0077f696/OpenGeode_core-14.4.1rc3-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-07 12:44:48] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/54/88/f05a4b9ec0d6199779a67651f044b38cbfca8f5dd46185ffff5321580aa2/nowcasting_datamodel-1.4.9.tar.gz
+[2023-07-07 12:44:48] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 14120604>=10485760
+[2023-07-07 12:44:48] INFO root fetch - processPackages [OpenGeode-core]: Start processing: enebootools
+[2023-07-07 12:44:48] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2023-07-07 12:44:48] INFO root fetch - processPackages [RIFT]: Downloading https://files.pythonhosted.org/packages/64/5f/54e3165d7cf94cbe066522e685bdec335d41afde3c8a22ee2d6631508df5/RIFT-0.0.15.9rc5.tar.gz
+[2023-07-07 12:44:48] INFO root fetch - processPackages [search-wikt]: Downloading https://files.pythonhosted.org/packages/e6/57/b1c95e9daf7eaa074ce178bf27b78a6a2f19c4d05cd1f5a17187d37a79c9/search_wikt-0.0.3.tar.gz
+[2023-07-07 12:44:48] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-2.2.7.tar.gz]
+[2023-07-07 12:44:48] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-2.2.9.tar.gz]
+[2023-07-07 12:44:48] INFO root fetch - processPackages [embykeeper]: Start processing: creditas
+[2023-07-07 12:44:48] INFO root fetch - main [MainThread]: End processing [embykeeper]: success
+[2023-07-07 12:44:48] INFO root fetch - processPackages [resc-backend]: Remove: archive file [/home/abi/fetcher/tmp/resc_backend-1.3.0.tar.gz]
+[2023-07-07 12:44:48] INFO root fetch - processPackages [enebootools]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-07 12:44:48] INFO root fetch - processPackages [resc-backend]: Remove: archive file [/home/abi/fetcher/tmp/resc_backend-1.4.0.tar.gz]
+[2023-07-07 12:44:48] INFO root fetch - processPackages [resc-backend]: Start processing: blob-datalake-client
+[2023-07-07 12:44:48] INFO root fetch - main [MainThread]: End processing [resc-backend]: success
+[2023-07-07 12:44:48] INFO root fetch - processPackages [creditas]: New version: [1.0.0.1] Old Version: [1.0.0.0]
+[2023-07-07 12:44:48] WARNING root fetch - processPackages [blob-datalake-client]: Skipping, unable to determine old version
+[2023-07-07 12:44:48] INFO root fetch - processPackages [blob-datalake-client]: Start processing: lusid-notification-sdk-preview
+[2023-07-07 12:44:48] INFO root fetch - main [MainThread]: End processing [blob-datalake-client] error
+[2023-07-07 12:44:48] INFO root fetch - processPackages [bombaysoftwares-pysupp]: Downloading https://files.pythonhosted.org/packages/b4/51/d402bf3458b81319c232970f3485b584660b8d61ec892e0893435ff9abfc/bombaysoftwares-pysupp-1.0.3.tar.gz
+[2023-07-07 12:44:48] INFO root fetch - processPackages [nowcasting-datamodel]: executing diffoscope
+[2023-07-07 12:44:48] INFO root fetch - processPackages [nowcasting-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_datamodel-1.4.8.tar.gz tmp/nowcasting_datamodel-1.4.9.tar.gz --markdown 20230707/n/nowcasting-datamodel/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-07 12:44:48] INFO root fetch - processPackages [lusid-notification-sdk-preview]: New version: [0.1.774.2] Old Version: [0.1.772.7]
+[2023-07-07 12:44:48] INFO root fetch - processPackages [enebootools]: Downloading https://files.pythonhosted.org/packages/96/a6/f5dbde2a17640259ee0c244a670ffca24661530f548753a68de5b812a140/enebootools-2.0.8.tar.gz
+[2023-07-07 12:44:48] INFO root fetch - processPackages [segment-lidar]: Downloading https://files.pythonhosted.org/packages/94/23/11b0d1c2bc0d9dc7122a7b0246183e2675be0c214eeab66019c829a3823d/segment-lidar-0.1.7.tar.gz
+[2023-07-07 12:44:48] INFO root fetch - processPackages [creditas]: Downloading https://files.pythonhosted.org/packages/45/cf/631a8b31a315047c6102b3c46c73fa1c6eec9af30f148c0e612512c9547e/creditas-1.0.0.0.tar.gz
+[2023-07-07 12:44:48] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/bc/6065310f4731d5625295bc236399bec2047f3d0273f7cdd641f68b2dc1de/lusid-notification-sdk-preview-0.1.772.7.tar.gz
+[2023-07-07 12:44:48] INFO root fetch - processPackages [search-wikt]: Downloading https://files.pythonhosted.org/packages/c3/9c/17f4ff3c21e76c028e086fd2a3391e20a70f969cd1dca514b36640d0a6fe/search_wikt-0.0.4.tar.gz
+[2023-07-07 12:44:48] INFO root fetch - processPackages [RIFT]: Downloading https://files.pythonhosted.org/packages/b8/9a/5ea4a985fb4efae9947380d048d7eaf4949978f103c4bd20110fc959154c/RIFT-0.0.15.9rc6.tar.gz
+[2023-07-07 12:44:48] INFO root fetch - processPackages [bombaysoftwares-pysupp]: executing diffoscope
+[2023-07-07 12:44:48] INFO root fetch - processPackages [bombaysoftwares-pysupp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bombaysoftwares-pysupp-1.0.2.tar.gz tmp/bombaysoftwares-pysupp-1.0.3.tar.gz --markdown 20230707/b/bombaysoftwares-pysupp/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-07 12:44:48] INFO root fetch - processPackages [segment-lidar]: executing diffoscope
+[2023-07-07 12:44:48] INFO root fetch - processPackages [segment-lidar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segment-lidar-0.1.6.tar.gz tmp/segment-lidar-0.1.7.tar.gz --markdown 20230707/s/segment-lidar/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-07 12:44:48] INFO root fetch - processPackages [enebootools]: Downloading https://files.pythonhosted.org/packages/0b/50/a98ff2d478f2b96df200e7e6a5c0ff28fe92712c685482f5ce0bd910c066/enebootools-2.0.9.tar.gz
+[2023-07-07 12:44:48] INFO root fetch - processPackages [RIFT]: executing diffoscope
+[2023-07-07 12:44:48] INFO root fetch - processPackages [RIFT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RIFT-0.0.15.9rc5.tar.gz tmp/RIFT-0.0.15.9rc6.tar.gz --markdown 20230707/R/RIFT/0.0.15.9rc5-0.0.15.9rc6/diff.md --exclude *.pyd
+[2023-07-07 12:44:48] INFO root fetch - processPackages [search-wikt]: executing diffoscope
+[2023-07-07 12:44:48] INFO root fetch - processPackages [search-wikt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/search_wikt-0.0.3.tar.gz tmp/search_wikt-0.0.4.tar.gz --markdown 20230707/s/search-wikt/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-07 12:44:48] INFO root fetch - processPackages [creditas]: Downloading https://files.pythonhosted.org/packages/6c/dc/0c5d92a202ff3ea8987c718f709d28919bf56326585609e786e47a2ad370/creditas-1.0.0.1.tar.gz
+[2023-07-07 12:44:48] INFO root fetch - processPackages [enebootools]: executing diffoscope
+[2023-07-07 12:44:48] INFO root fetch - processPackages [enebootools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enebootools-2.0.8.tar.gz tmp/enebootools-2.0.9.tar.gz --markdown 20230707/e/enebootools/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-07 12:44:48] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/97/3f/945ed3201b65d2f71026d118ffe3392beb568c58ae55c212b2fa05660d40/lusid-notification-sdk-preview-0.1.774.2.tar.gz
+[2023-07-07 12:44:48] INFO root fetch - processPackages [tungstenkit]: Remove: archive file [/home/abi/fetcher/tmp/tungstenkit-0.1.2.tar.gz]
+[2023-07-07 12:44:48] INFO root fetch - processPackages [tungstenkit]: Remove: archive file [/home/abi/fetcher/tmp/tungstenkit-0.1.2.post1.tar.gz]
+[2023-07-07 12:44:48] INFO root fetch - main [MainThread]: End processing [tungstenkit]: success
+[2023-07-07 12:44:49] INFO root fetch - processPackages [creditas]: executing diffoscope
+[2023-07-07 12:44:49] INFO root fetch - processPackages [creditas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/creditas-1.0.0.0.tar.gz tmp/creditas-1.0.0.1.tar.gz --markdown 20230707/c/creditas/1.0.0.0-1.0.0.1/diff.md --exclude *.pyd
+[2023-07-07 12:44:49] INFO root fetch - processPackages [lusid-notification-sdk-preview]: executing diffoscope
+[2023-07-07 12:44:49] INFO root fetch - processPackages [lusid-notification-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notification-sdk-preview-0.1.772.7.tar.gz tmp/lusid-notification-sdk-preview-0.1.774.2.tar.gz --markdown 20230707/l/lusid-notification-sdk-preview/0.1.772.7-0.1.774.2/diff.md --exclude *.pyd
+[2023-07-07 12:44:49] INFO root fetch - processPackages [pyomorfi]: Remove: archive file [/home/abi/fetcher/tmp/pyomorfi-1.0.0.tar.gz]
+[2023-07-07 12:44:49] INFO root fetch - processPackages [pyomorfi]: Remove: archive file [/home/abi/fetcher/tmp/pyomorfi-1.0.1.tar.gz]
+[2023-07-07 12:44:49] INFO root fetch - main [MainThread]: End processing [pyomorfi]: success
+[2023-07-07 12:44:49] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.4.8.tar.gz]
+[2023-07-07 12:44:49] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.4.9.tar.gz]
+[2023-07-07 12:44:49] INFO root fetch - main [MainThread]: End processing [nowcasting-datamodel]: success
+[2023-07-07 12:44:50] INFO root fetch - processPackages [bombaysoftwares-pysupp]: Remove: archive file [/home/abi/fetcher/tmp/bombaysoftwares-pysupp-1.0.2.tar.gz]
+[2023-07-07 12:44:50] INFO root fetch - processPackages [bombaysoftwares-pysupp]: Remove: archive file [/home/abi/fetcher/tmp/bombaysoftwares-pysupp-1.0.3.tar.gz]
+[2023-07-07 12:44:50] INFO root fetch - main [MainThread]: End processing [bombaysoftwares-pysupp]: success
+[2023-07-07 12:44:50] INFO root fetch - processPackages [segment-lidar]: Remove: archive file [/home/abi/fetcher/tmp/segment-lidar-0.1.6.tar.gz]
+[2023-07-07 12:44:50] INFO root fetch - processPackages [segment-lidar]: Remove: archive file [/home/abi/fetcher/tmp/segment-lidar-0.1.7.tar.gz]
+[2023-07-07 12:44:50] INFO root fetch - main [MainThread]: End processing [segment-lidar]: success
+[2023-07-07 12:44:50] INFO root fetch - processPackages [search-wikt]: Remove: archive file [/home/abi/fetcher/tmp/search_wikt-0.0.3.tar.gz]
+[2023-07-07 12:44:50] INFO root fetch - processPackages [search-wikt]: Remove: archive file [/home/abi/fetcher/tmp/search_wikt-0.0.4.tar.gz]
+[2023-07-07 12:44:50] INFO root fetch - main [MainThread]: End processing [search-wikt]: success
+[2023-07-07 12:44:50] INFO root fetch - processPackages [enebootools]: Remove: archive file [/home/abi/fetcher/tmp/enebootools-2.0.8.tar.gz]
+[2023-07-07 12:44:50] INFO root fetch - processPackages [enebootools]: Remove: archive file [/home/abi/fetcher/tmp/enebootools-2.0.9.tar.gz]
+[2023-07-07 12:44:50] INFO root fetch - main [MainThread]: End processing [enebootools]: success
+[2023-07-07 12:44:50] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.772.7.tar.gz]
+[2023-07-07 12:44:50] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.774.2.tar.gz]
+[2023-07-07 12:44:50] INFO root fetch - main [MainThread]: End processing [lusid-notification-sdk-preview]: success
+[2023-07-07 12:44:51] INFO root fetch - processPackages [RIFT]: Remove: archive file [/home/abi/fetcher/tmp/RIFT-0.0.15.9rc5.tar.gz]
+[2023-07-07 12:44:51] INFO root fetch - processPackages [RIFT]: Remove: archive file [/home/abi/fetcher/tmp/RIFT-0.0.15.9rc6.tar.gz]
+[2023-07-07 12:44:51] INFO root fetch - main [MainThread]: End processing [RIFT]: success
+[2023-07-07 12:44:51] INFO root fetch - processPackages [creditas]: Remove: archive file [/home/abi/fetcher/tmp/creditas-1.0.0.0.tar.gz]
+[2023-07-07 12:44:51] INFO root fetch - processPackages [creditas]: Remove: archive file [/home/abi/fetcher/tmp/creditas-1.0.0.1.tar.gz]
+[2023-07-07 12:44:51] INFO root fetch - main [MainThread]: End processing [creditas]: success
+[2023-07-07 12:44:51] INFO root fetch - main [MainThread]: Store serial: [18799158]
