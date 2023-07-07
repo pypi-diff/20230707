@@ -21992,3 +21992,103 @@ AssertionError: tmp/polyanalyst6api-0.9.1.tar.gz does not exist
 [2023-07-07 14:30:23] INFO root fetch - processPackages [ai-core-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ai_core_sdk-1.9.0-py3-none-any.whl.zip]
 [2023-07-07 14:30:23] INFO root fetch - main [MainThread]: End processing [ai-core-sdk]: success
 [2023-07-07 14:30:23] INFO root fetch - main [MainThread]: Store serial: [18800349]
+[2023-07-07 14:35:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18800349]
+[2023-07-07 14:35:31] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-07 14:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qvsed
+[2023-07-07 14:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: perun.proxygui
+[2023-07-07 14:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: credentialdigger
+[2023-07-07 14:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-l10n-it-fatturapa-out
+[2023-07-07 14:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zit
+[2023-07-07 14:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ms-python-client
+[2023-07-07 14:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ngstents
+[2023-07-07 14:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: murfey
+[2023-07-07 14:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: linex2
+[2023-07-07 14:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tgwrap
+[2023-07-07 14:35:32] INFO root fetch - processPackages [zit]: New version: [0.0.2a9] Old Version: [0.0.2a8]
+[2023-07-07 14:35:32] INFO root fetch - processPackages [qvsed]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-07-07 14:35:32] INFO root fetch - processPackages [murfey]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-07 14:35:32] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-out]: New version: [14.0.3.4.3.dev3] Old Version: [14.0.3.4.3.dev2]
+[2023-07-07 14:35:32] INFO root fetch - processPackages [credentialdigger]: New version: [4.9.5] Old Version: [4.9.4]
+[2023-07-07 14:35:32] WARNING root fetch - processPackages [ngstents]: Skipping, unable to determine old version
+[2023-07-07 14:35:32] INFO root fetch - processPackages [ngstents]: Start processing: tgwrap
+[2023-07-07 14:35:32] INFO root fetch - main [MainThread]: End processing [ngstents] error
+[2023-07-07 14:35:32] INFO root fetch - processPackages [linex2]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-07 14:35:32] INFO root fetch - processPackages [perun.proxygui]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-07 14:35:32] INFO root fetch - processPackages [tgwrap]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-07-07 14:35:32] WARNING root fetch - processPackages [ms-python-client]: Skipping, unable to determine old version
+[2023-07-07 14:35:32] INFO root fetch - processPackages [ms-python-client]: Start processing: nndescent
+[2023-07-07 14:35:32] INFO root fetch - main [MainThread]: End processing [ms-python-client] error
+[2023-07-07 14:35:32] INFO root fetch - processPackages [tgwrap]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-07-07 14:35:32] WARNING root fetch - processPackages [nndescent]: Skipping, unable to determine old version
+[2023-07-07 14:35:32] INFO root fetch - processPackages [nndescent]: Start processing: odoo14-addon-l10n-br-fiscal
+[2023-07-07 14:35:32] INFO root fetch - main [MainThread]: End processing [nndescent] error
+[2023-07-07 14:35:32] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/f7/a4/03a25a7ac61b59027ec719ada0b3039bd56b6d1585db6047ed6699f2d774/zit-0.0.2a8.tar.gz
+[2023-07-07 14:35:32] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: New version: [14.0.9.2.1.dev3] Old Version: [14.0.9.2.1.dev2]
+[2023-07-07 14:35:32] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-out]: Downloading https://files.pythonhosted.org/packages/29/d5/e8d65586eaef5677281d97d59a3a47d1b59239ad487071763c8ce93174b0/odoo14_addon_l10n_it_fatturapa_out-14.0.3.4.3.dev2-py3-none-any.whl
+[2023-07-07 14:35:32] INFO root fetch - processPackages [murfey]: Downloading https://files.pythonhosted.org/packages/06/4f/a37cd48a24edf35edbbeafaa3f929ada933d8ace6f309321972545424ec5/murfey-0.7.8.tar.gz
+[2023-07-07 14:35:32] INFO root fetch - processPackages [credentialdigger]: Downloading https://files.pythonhosted.org/packages/8d/9d/9043c3fa963a5beeadd30f40bcdf11f057a83edde2b408a39bfe9e4296c9/credentialdigger-4.9.4-py3-none-any.whl
+[2023-07-07 14:35:32] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/d9/76/afd6af33fbfce7d3fc9d442c00b5c50032af57999d616f17314f2dc5037a/qvsed-1.1.2.tar.gz
+[2023-07-07 14:35:32] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/ad/7e/f249a268c0997af6c25c08d9fee10e2d69a18572b408a4644b51b8a62a21/perun.proxygui-1.9.0.tar.gz
+[2023-07-07 14:35:32] INFO root fetch - processPackages [tgwrap]: Downloading https://files.pythonhosted.org/packages/77/85/76fd9c17ffcc1887d5d9513db6d0a22f687301700fbb67d4215c6768a3d2/tgwrap-0.7.6.tar.gz
+[2023-07-07 14:35:32] INFO root fetch - processPackages [tgwrap]: Downloading https://files.pythonhosted.org/packages/77/85/76fd9c17ffcc1887d5d9513db6d0a22f687301700fbb67d4215c6768a3d2/tgwrap-0.7.6.tar.gz
+[2023-07-07 14:35:32] INFO root fetch - processPackages [linex2]: Downloading https://files.pythonhosted.org/packages/7a/b6/99abad3968fe7ceebc7148bab4c16e519ec9bcbaf6493bc28a911176351d/linex2-1.1.8.tar.gz
+[2023-07-07 14:35:32] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/a4/82/8acbbc7fb714d5fa1967462dcfd7ed8517c4d85f00ac7d63188980ac02a3/zit-0.0.2a9.tar.gz
+[2023-07-07 14:35:33] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/b6/ae/9800d777e4d7166c8a0ee02cd7c2602421433738397b582d529f48db7c5b/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl
+[2023-07-07 14:35:33] INFO root fetch - processPackages [zit]: executing diffoscope
+[2023-07-07 14:35:33] INFO root fetch - processPackages [zit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zit-0.0.2a8.tar.gz tmp/zit-0.0.2a9.tar.gz --markdown 20230707/z/zit/0.0.2a8-0.0.2a9/diff.md --exclude *.pyd
+[2023-07-07 14:35:33] INFO root fetch - processPackages [murfey]: Downloading https://files.pythonhosted.org/packages/0a/c9/6898f393e289d698facbadbebab5245125a8d1d0295976e78f4151f50e4c/murfey-0.7.9.tar.gz
+[2023-07-07 14:35:33] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/0b/e6/39fcbde6a3c0162d99e87d08b56d81cb40a9ce3e39df5fc41b58a3030a0e/qvsed-1.2.0.tar.gz
+[2023-07-07 14:35:33] INFO root fetch - processPackages [tgwrap]: Downloading https://files.pythonhosted.org/packages/12/50/b388baf19e060ee2005ec0e7f49aac68dda1def1f852b77303f578c6b462/tgwrap-0.7.7.tar.gz
+[2023-07-07 14:35:33] INFO root fetch - processPackages [tgwrap]: Downloading https://files.pythonhosted.org/packages/12/50/b388baf19e060ee2005ec0e7f49aac68dda1def1f852b77303f578c6b462/tgwrap-0.7.7.tar.gz
+[2023-07-07 14:35:33] INFO root fetch - processPackages [credentialdigger]: Downloading https://files.pythonhosted.org/packages/ab/85/2e1c8d484b898c52c4e71b1c389c5760e1405a56d1529861c12f9bd8ce64/credentialdigger-4.9.5-py3-none-any.whl
+[2023-07-07 14:35:33] INFO root fetch - processPackages [qvsed]: executing diffoscope
+[2023-07-07 14:35:33] INFO root fetch - processPackages [qvsed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qvsed-1.1.2.tar.gz tmp/qvsed-1.2.0.tar.gz --markdown 20230707/q/qvsed/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-07-07 14:35:33] INFO root fetch - processPackages [murfey]: executing diffoscope
+[2023-07-07 14:35:33] INFO root fetch - processPackages [murfey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/murfey-0.7.8.tar.gz tmp/murfey-0.7.9.tar.gz --markdown 20230707/m/murfey/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-07 14:35:33] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-out]: Downloading https://files.pythonhosted.org/packages/59/54/d7162228b4e913fe6fa2c5662415be227b3b788a348f4b71a3f3092912bb/odoo14_addon_l10n_it_fatturapa_out-14.0.3.4.3.dev3-py3-none-any.whl
+[2023-07-07 14:35:33] INFO root fetch - processPackages [credentialdigger]: executing diffoscope
+[2023-07-07 14:35:33] INFO root fetch - processPackages [credentialdigger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/credentialdigger-4.9.4-py3-none-any.whl.zip tmp/credentialdigger-4.9.5-py3-none-any.whl.zip --markdown 20230707/c/credentialdigger/4.9.4-4.9.5/diff.md --exclude *.pyd
+[2023-07-07 14:35:33] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/98/6c/8cb32ba4f907292aee868c5e0dd3904fe28398d96d5bcfaec295164d9dd3/perun.proxygui-1.9.1.tar.gz
+[2023-07-07 14:35:33] INFO root fetch - processPackages [linex2]: Downloading https://files.pythonhosted.org/packages/24/bb/620c9f4418ad78779619fd63de21128309ee077647cd821d27f149ca2b1d/linex2-1.1.9.tar.gz
+[2023-07-07 14:35:33] INFO root fetch - processPackages [tgwrap]: executing diffoscope
+[2023-07-07 14:35:33] INFO root fetch - processPackages [tgwrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgwrap-0.7.6.tar.gz tmp/tgwrap-0.7.7.tar.gz --markdown 20230707/t/tgwrap/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-07-07 14:35:33] INFO root fetch - processPackages [tgwrap]: executing diffoscope
+[2023-07-07 14:35:33] INFO root fetch - processPackages [tgwrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgwrap-0.7.6.tar.gz tmp/tgwrap-0.7.7.tar.gz --markdown 20230707/t/tgwrap/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-07-07 14:35:33] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-out]: executing diffoscope
+[2023-07-07 14:35:33] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-out]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_fatturapa_out-14.0.3.4.3.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_fatturapa_out-14.0.3.4.3.dev3-py3-none-any.whl.zip --markdown 20230707/o/odoo14-addon-l10n-it-fatturapa-out/14.0.3.4.3.dev2-14.0.3.4.3.dev3/diff.md --exclude *.pyd
+[2023-07-07 14:35:33] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/3e/9d/f06739d0fc5ac83076dbdce19b1fc1ffc33e068724d0f81d8a08b9fed2ef/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl
+[2023-07-07 14:35:33] INFO root fetch - processPackages [linex2]: executing diffoscope
+[2023-07-07 14:35:33] INFO root fetch - processPackages [linex2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linex2-1.1.8.tar.gz tmp/linex2-1.1.9.tar.gz --markdown 20230707/l/linex2/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-07 14:35:33] INFO root fetch - processPackages [perun.proxygui]: executing diffoscope
+[2023-07-07 14:35:34] INFO root fetch - processPackages [perun.proxygui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun.proxygui-1.9.0.tar.gz tmp/perun.proxygui-1.9.1.tar.gz --markdown 20230707/p/perun.proxygui/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-07 14:35:34] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: executing diffoscope
+[2023-07-07 14:35:34] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip --markdown 20230707/o/odoo14-addon-l10n-br-fiscal/14.0.9.2.1.dev2-14.0.9.2.1.dev3/diff.md --exclude *.pyd
+[2023-07-07 14:35:34] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.2a8.tar.gz]
+[2023-07-07 14:35:34] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.2a9.tar.gz]
+[2023-07-07 14:35:34] INFO root fetch - main [MainThread]: End processing [zit]: success
+[2023-07-07 14:35:34] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/qvsed-1.1.2.tar.gz]
+[2023-07-07 14:35:34] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/qvsed-1.2.0.tar.gz]
+[2023-07-07 14:35:34] INFO root fetch - main [MainThread]: End processing [qvsed]: success
+[2023-07-07 14:35:34] INFO root fetch - processPackages [tgwrap]: Remove: archive file [/home/abi/fetcher/tmp/tgwrap-0.7.6.tar.gz]
+[2023-07-07 14:35:34] INFO root fetch - processPackages [tgwrap]: Remove: archive file [/home/abi/fetcher/tmp/tgwrap-0.7.7.tar.gz]
+[2023-07-07 14:35:34] INFO root fetch - main [MainThread]: End processing [tgwrap]: success
+[2023-07-07 14:35:35] INFO root fetch - main [MainThread]: End processing [tgwrap]: success
+[2023-07-07 14:35:35] INFO root fetch - processPackages [credentialdigger]: Remove: archive file [/home/abi/fetcher/tmp/credentialdigger-4.9.4-py3-none-any.whl.zip]
+[2023-07-07 14:35:35] INFO root fetch - processPackages [credentialdigger]: Remove: archive file [/home/abi/fetcher/tmp/credentialdigger-4.9.5-py3-none-any.whl.zip]
+[2023-07-07 14:35:35] INFO root fetch - main [MainThread]: End processing [credentialdigger]: success
+[2023-07-07 14:35:35] INFO root fetch - processPackages [murfey]: Remove: archive file [/home/abi/fetcher/tmp/murfey-0.7.8.tar.gz]
+[2023-07-07 14:35:35] INFO root fetch - processPackages [murfey]: Remove: archive file [/home/abi/fetcher/tmp/murfey-0.7.9.tar.gz]
+[2023-07-07 14:35:35] INFO root fetch - main [MainThread]: End processing [murfey]: success
+[2023-07-07 14:35:35] INFO root fetch - processPackages [linex2]: Remove: archive file [/home/abi/fetcher/tmp/linex2-1.1.8.tar.gz]
+[2023-07-07 14:35:35] INFO root fetch - processPackages [linex2]: Remove: archive file [/home/abi/fetcher/tmp/linex2-1.1.9.tar.gz]
+[2023-07-07 14:35:35] INFO root fetch - main [MainThread]: End processing [linex2]: success
+[2023-07-07 14:35:35] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-out]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_fatturapa_out-14.0.3.4.3.dev2-py3-none-any.whl.zip]
+[2023-07-07 14:35:35] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-out]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_fatturapa_out-14.0.3.4.3.dev3-py3-none-any.whl.zip]
+[2023-07-07 14:35:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-fatturapa-out]: success
+[2023-07-07 14:35:36] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl.zip]
+[2023-07-07 14:35:36] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip]
+[2023-07-07 14:35:36] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-fiscal]: success
+[2023-07-07 14:35:37] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-1.9.0.tar.gz]
+[2023-07-07 14:35:37] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-1.9.1.tar.gz]
+[2023-07-07 14:35:37] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
+[2023-07-07 14:35:37] INFO root fetch - main [MainThread]: Store serial: [18800403]
