@@ -11985,3 +11985,51 @@ EOFError: EOF read where object expected
 [2023-07-07 07:12:21] INFO root fetch - processPackages [django-filer]: Remove: archive file [/home/abi/fetcher/tmp/django-filer-3.0.0rc3.tar.gz]
 [2023-07-07 07:12:21] INFO root fetch - main [MainThread]: End processing [django-filer]: success
 [2023-07-07 07:12:21] INFO root fetch - main [MainThread]: Store serial: [18796013]
+[2023-07-07 07:17:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18796013]
+[2023-07-07 07:17:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-07 07:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-homeassistant-custom-component
+[2023-07-07 07:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anyon
+[2023-07-07 07:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grast
+[2023-07-07 07:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-stdimage2
+[2023-07-07 07:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-cp-broadcast
+[2023-07-07 07:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nncase-kpu
+[2023-07-07 07:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bulk-directory-tree
+[2023-07-07 07:17:30] INFO root fetch - processPackages [grast]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-07 07:17:30] WARNING root fetch - processPackages [django-stdimage2]: Skipping, unable to determine old version
+[2023-07-07 07:17:30] INFO root fetch - main [MainThread]: End processing [django-stdimage2] error
+[2023-07-07 07:17:30] WARNING root fetch - processPackages [nonebot-plugin-cp-broadcast]: Skipping, unable to determine old version
+[2023-07-07 07:17:30] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-cp-broadcast] error
+[2023-07-07 07:17:30] INFO root fetch - processPackages [anyon]: New version: [3.6.2] Old Version: [3.6.1]
+[2023-07-07 07:17:31] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-07 07:17:31] WARNING root fetch - processPackages [nncase-kpu]: Skipping, unable to determine old version
+[2023-07-07 07:17:31] INFO root fetch - main [MainThread]: End processing [nncase-kpu] error
+[2023-07-07 07:17:31] INFO root fetch - processPackages [bulk-directory-tree]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-07 07:17:31] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/8a/3b/b76075872ac35edad46a4fd3401c3faebda7af874b306526a1d7e1a4336a/pytest-homeassistant-custom-component-0.9.8.tar.gz
+[2023-07-07 07:17:31] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/20/4c/b94cc38c10b13f5f391efedaecc9462d4717c4a8453f1ac7b41ed6fc8724/anyon-3.6.1-cp311-none-win_amd64.whl
+[2023-07-07 07:17:31] INFO root fetch - processPackages [grast]: Downloading https://files.pythonhosted.org/packages/e8/51/855da87275bdaaa944aaf61c09c2231c34f327d0f3980f06b45ed1f7c201/grast-0.1.1.tar.gz
+[2023-07-07 07:17:31] INFO root fetch - processPackages [bulk-directory-tree]: Downloading https://files.pythonhosted.org/packages/f7/ed/dfcaee56d6ad7f8d74f19aa71eb3a42268db17d1b86dd6a3017ebdb3658e/bulk_directory_tree-1.0.4.tar.gz
+[2023-07-07 07:17:31] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/60/4e/ba1174db4b883610c2a5afba7a30857178ada41a2368936b2e3d764bfe6a/pytest-homeassistant-custom-component-0.9.9.tar.gz
+[2023-07-07 07:17:31] INFO root fetch - processPackages [grast]: Downloading https://files.pythonhosted.org/packages/5a/a2/f5ce78117a4a1c3c264dcb8057fa03d69f954bed52f477c028e1d4c9e047/grast-0.1.2.tar.gz
+[2023-07-07 07:17:31] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: executing diffoscope
+[2023-07-07 07:17:31] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz --markdown 20230707/p/pytest-homeassistant-custom-component/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-07 07:17:31] INFO root fetch - processPackages [grast]: executing diffoscope
+[2023-07-07 07:17:31] INFO root fetch - processPackages [grast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grast-0.1.1.tar.gz tmp/grast-0.1.2.tar.gz --markdown 20230707/g/grast/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-07 07:17:31] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/fe/11/a10ffc0e4e1b31316ea482b40ab9151aca23bb76547f8833829d40f16b50/anyon-3.6.2-cp311-none-win_amd64.whl
+[2023-07-07 07:17:31] INFO root fetch - processPackages [bulk-directory-tree]: Downloading https://files.pythonhosted.org/packages/be/6a/52c7884675fabd37beead4bf02f73982f19692c2c25511ce61de37ec8ca5/bulk_directory_tree-1.0.5.tar.gz
+[2023-07-07 07:17:31] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2023-07-07 07:17:31] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-3.6.1-cp311-none-win_amd64.whl.zip tmp/anyon-3.6.2-cp311-none-win_amd64.whl.zip --markdown 20230707/a/anyon/3.6.1-3.6.2/diff.md --exclude *.pyd
+[2023-07-07 07:17:31] INFO root fetch - processPackages [bulk-directory-tree]: executing diffoscope
+[2023-07-07 07:17:31] INFO root fetch - processPackages [bulk-directory-tree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bulk_directory_tree-1.0.4.tar.gz tmp/bulk_directory_tree-1.0.5.tar.gz --markdown 20230707/b/bulk-directory-tree/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-07 07:17:32] INFO root fetch - processPackages [grast]: Remove: archive file [/home/abi/fetcher/tmp/grast-0.1.1.tar.gz]
+[2023-07-07 07:17:32] INFO root fetch - processPackages [grast]: Remove: archive file [/home/abi/fetcher/tmp/grast-0.1.2.tar.gz]
+[2023-07-07 07:17:32] INFO root fetch - main [MainThread]: End processing [grast]: success
+[2023-07-07 07:17:32] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz]
+[2023-07-07 07:17:32] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz]
+[2023-07-07 07:17:32] INFO root fetch - main [MainThread]: End processing [pytest-homeassistant-custom-component]: success
+[2023-07-07 07:17:32] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.6.1-cp311-none-win_amd64.whl.zip]
+[2023-07-07 07:17:32] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.6.2-cp311-none-win_amd64.whl.zip]
+[2023-07-07 07:17:32] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2023-07-07 07:17:32] INFO root fetch - processPackages [bulk-directory-tree]: Remove: archive file [/home/abi/fetcher/tmp/bulk_directory_tree-1.0.4.tar.gz]
+[2023-07-07 07:17:32] INFO root fetch - processPackages [bulk-directory-tree]: Remove: archive file [/home/abi/fetcher/tmp/bulk_directory_tree-1.0.5.tar.gz]
+[2023-07-07 07:17:32] INFO root fetch - main [MainThread]: End processing [bulk-directory-tree]: success
+[2023-07-07 07:17:32] INFO root fetch - main [MainThread]: Store serial: [18796059]
