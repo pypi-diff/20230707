@@ -1,0 +1,345 @@
+# Comparing `tmp/pytbai-1.3.4.tar.gz` & `tmp/pytbai-1.3.5.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "pytbai-1.3.4.tar", last modified: Fri Jul  7 10:30:28 2023, max compression
++gzip compressed data, was "pytbai-1.3.5.tar", last modified: Fri Jul  7 11:09:19 2023, max compression
+```
+
+## Comparing `pytbai-1.3.4.tar` & `pytbai-1.3.5.tar`
+
+### file list
+
+```diff
+@@ -1,48 +1,48 @@
+-drwxrwxr-x   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 10:30:28.599691 pytbai-1.3.4/
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)     1412 2023-07-07 10:30:27.000000 pytbai-1.3.4/CHANGELOG.txt
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)      111 2023-07-07 10:30:27.000000 pytbai-1.3.4/CODE_OF_CONDUCT.md
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)     1058 2023-07-07 10:30:27.000000 pytbai-1.3.4/LICENSE
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)      322 2023-07-07 10:30:27.000000 pytbai-1.3.4/MANIFEST.in
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)       63 2023-07-07 10:30:27.000000 pytbai-1.3.4/Makefile
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)     3642 2023-07-07 10:30:28.599691 pytbai-1.3.4/PKG-INFO
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)     1786 2023-07-07 10:30:27.000000 pytbai-1.3.4/README.md
+-drwxrwxr-x   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 10:30:28.595691 pytbai-1.3.4/pytbai/
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)       23 2023-07-07 10:30:27.000000 pytbai-1.3.4/pytbai/__init__.py
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)    10498 2023-07-07 10:30:27.000000 pytbai-1.3.4/pytbai/core.py
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)     2992 2023-07-07 10:30:27.000000 pytbai-1.3.4/pytbai/definitions.py
+-drwxrwxr-x   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 10:30:28.595691 pytbai-1.3.4/pytbai/templates/
+-drwxrwxr-x   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 10:30:28.599691 pytbai-1.3.4/pytbai/templates/PDF/
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 10:30:27.000000 pytbai-1.3.4/pytbai/templates/PDF/__init__.py
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)      121 2023-07-07 10:30:27.000000 pytbai-1.3.4/pytbai/templates/PDF/ticketbai.css
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)     1221 2023-07-07 10:30:27.000000 pytbai-1.3.4/pytbai/templates/PDF/ticketbai.html
+-drwxrwxr-x   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 10:30:28.599691 pytbai-1.3.4/pytbai/templates/XML/
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 10:30:27.000000 pytbai-1.3.4/pytbai/templates/XML/__init__.py
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)     2085 2023-07-07 10:30:27.000000 pytbai-1.3.4/pytbai/templates/XML/tbai_structure.xml
+-drwxrwxr-x   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 10:30:28.599691 pytbai-1.3.4/pytbai/templates/XSD/
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)    12637 2023-07-07 10:30:27.000000 pytbai-1.3.4/pytbai/templates/XSD/Anula_ticketBaiV1-2-1.xsd
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 10:30:27.000000 pytbai-1.3.4/pytbai/templates/XSD/__init__.py
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)    35760 2023-07-07 10:30:27.000000 pytbai-1.3.4/pytbai/templates/XSD/ticketBaiV1-2-1.xsd
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 10:30:27.000000 pytbai-1.3.4/pytbai/templates/__init__.py
+-drwxrwxr-x   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 10:30:28.599691 pytbai-1.3.4/pytbai/utils/
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 10:30:27.000000 pytbai-1.3.4/pytbai/utils/__init__.py
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)      444 2023-07-07 10:30:27.000000 pytbai-1.3.4/pytbai/utils/crypto.py
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)     2091 2023-07-07 10:30:27.000000 pytbai-1.3.4/pytbai/utils/pdf.py
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)     4524 2023-07-07 10:30:27.000000 pytbai-1.3.4/pytbai/utils/xml.py
+-drwxrwxr-x   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 10:30:28.595691 pytbai-1.3.4/pytbai.egg-info/
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)     3642 2023-07-07 10:30:28.000000 pytbai-1.3.4/pytbai.egg-info/PKG-INFO
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)      839 2023-07-07 10:30:28.000000 pytbai-1.3.4/pytbai.egg-info/SOURCES.txt
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)        1 2023-07-07 10:30:28.000000 pytbai-1.3.4/pytbai.egg-info/dependency_links.txt
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)        7 2023-07-07 10:30:28.000000 pytbai-1.3.4/pytbai.egg-info/top_level.txt
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)       63 2023-07-07 10:30:27.000000 pytbai-1.3.4/requirements.txt
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)       38 2023-07-07 10:30:28.599691 pytbai-1.3.4/setup.cfg
+--rwxrwxr-x   0 urtzi     (1000) urtzi     (1000)     1037 2023-07-07 10:30:27.000000 pytbai-1.3.4/setup.py
+-drwxrwxr-x   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 10:30:28.599691 pytbai-1.3.4/tests/
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 10:30:27.000000 pytbai-1.3.4/tests/__init__.py
+-drwxrwxr-x   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 10:30:28.599691 pytbai-1.3.4/tests/certs/
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)     1939 2023-07-07 10:30:27.000000 pytbai-1.3.4/tests/certs/cert.pem
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)     4384 2023-07-07 10:30:27.000000 pytbai-1.3.4/tests/certs/cert_for_tests.p12
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)     3272 2023-07-07 10:30:27.000000 pytbai-1.3.4/tests/certs/key.pem
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)      151 2023-07-07 10:30:27.000000 pytbai-1.3.4/tests/context.py
+-drwxrwxr-x   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 10:30:28.599691 pytbai-1.3.4/tests/data/
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)     2938 2023-07-07 10:30:27.000000 pytbai-1.3.4/tests/data/tbai_json.py
+--rw-rw-r--   0 urtzi     (1000) urtzi     (1000)     4553 2023-07-07 10:30:27.000000 pytbai-1.3.4/tests/test_basic.py
++drwxrwxr-x   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 11:09:19.060987 pytbai-1.3.5/
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)     1543 2023-07-07 11:09:17.000000 pytbai-1.3.5/CHANGELOG.txt
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)      111 2023-07-07 11:09:17.000000 pytbai-1.3.5/CODE_OF_CONDUCT.md
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)     1058 2023-07-07 11:09:17.000000 pytbai-1.3.5/LICENSE
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)      322 2023-07-07 11:09:17.000000 pytbai-1.3.5/MANIFEST.in
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)       63 2023-07-07 11:09:17.000000 pytbai-1.3.5/Makefile
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)     3642 2023-07-07 11:09:19.056987 pytbai-1.3.5/PKG-INFO
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)     1786 2023-07-07 11:09:17.000000 pytbai-1.3.5/README.md
++drwxrwxr-x   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 11:09:19.056987 pytbai-1.3.5/pytbai/
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)       23 2023-07-07 11:09:17.000000 pytbai-1.3.5/pytbai/__init__.py
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)    10763 2023-07-07 11:09:17.000000 pytbai-1.3.5/pytbai/core.py
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)     2992 2023-07-07 11:09:17.000000 pytbai-1.3.5/pytbai/definitions.py
++drwxrwxr-x   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 11:09:19.056987 pytbai-1.3.5/pytbai/templates/
++drwxrwxr-x   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 11:09:19.056987 pytbai-1.3.5/pytbai/templates/PDF/
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 11:09:17.000000 pytbai-1.3.5/pytbai/templates/PDF/__init__.py
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)      121 2023-07-07 11:09:17.000000 pytbai-1.3.5/pytbai/templates/PDF/ticketbai.css
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)     1221 2023-07-07 11:09:17.000000 pytbai-1.3.5/pytbai/templates/PDF/ticketbai.html
++drwxrwxr-x   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 11:09:19.056987 pytbai-1.3.5/pytbai/templates/XML/
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 11:09:17.000000 pytbai-1.3.5/pytbai/templates/XML/__init__.py
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)     2085 2023-07-07 11:09:17.000000 pytbai-1.3.5/pytbai/templates/XML/tbai_structure.xml
++drwxrwxr-x   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 11:09:19.056987 pytbai-1.3.5/pytbai/templates/XSD/
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)    12637 2023-07-07 11:09:17.000000 pytbai-1.3.5/pytbai/templates/XSD/Anula_ticketBaiV1-2-1.xsd
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 11:09:17.000000 pytbai-1.3.5/pytbai/templates/XSD/__init__.py
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)    35760 2023-07-07 11:09:17.000000 pytbai-1.3.5/pytbai/templates/XSD/ticketBaiV1-2-1.xsd
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 11:09:17.000000 pytbai-1.3.5/pytbai/templates/__init__.py
++drwxrwxr-x   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 11:09:19.056987 pytbai-1.3.5/pytbai/utils/
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 11:09:17.000000 pytbai-1.3.5/pytbai/utils/__init__.py
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)      444 2023-07-07 11:09:17.000000 pytbai-1.3.5/pytbai/utils/crypto.py
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)     2091 2023-07-07 11:09:17.000000 pytbai-1.3.5/pytbai/utils/pdf.py
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)     4524 2023-07-07 11:09:17.000000 pytbai-1.3.5/pytbai/utils/xml.py
++drwxrwxr-x   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 11:09:19.056987 pytbai-1.3.5/pytbai.egg-info/
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)     3642 2023-07-07 11:09:19.000000 pytbai-1.3.5/pytbai.egg-info/PKG-INFO
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)      839 2023-07-07 11:09:19.000000 pytbai-1.3.5/pytbai.egg-info/SOURCES.txt
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)        1 2023-07-07 11:09:19.000000 pytbai-1.3.5/pytbai.egg-info/dependency_links.txt
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)        7 2023-07-07 11:09:19.000000 pytbai-1.3.5/pytbai.egg-info/top_level.txt
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)       63 2023-07-07 11:09:17.000000 pytbai-1.3.5/requirements.txt
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)       38 2023-07-07 11:09:19.060987 pytbai-1.3.5/setup.cfg
++-rwxrwxr-x   0 urtzi     (1000) urtzi     (1000)     1037 2023-07-07 11:09:17.000000 pytbai-1.3.5/setup.py
++drwxrwxr-x   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 11:09:19.056987 pytbai-1.3.5/tests/
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 11:09:17.000000 pytbai-1.3.5/tests/__init__.py
++drwxrwxr-x   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 11:09:19.056987 pytbai-1.3.5/tests/certs/
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)     1939 2023-07-07 11:09:17.000000 pytbai-1.3.5/tests/certs/cert.pem
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)     4384 2023-07-07 11:09:17.000000 pytbai-1.3.5/tests/certs/cert_for_tests.p12
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)     3272 2023-07-07 11:09:17.000000 pytbai-1.3.5/tests/certs/key.pem
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)      151 2023-07-07 11:09:17.000000 pytbai-1.3.5/tests/context.py
++drwxrwxr-x   0 urtzi     (1000) urtzi     (1000)        0 2023-07-07 11:09:19.056987 pytbai-1.3.5/tests/data/
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)     2938 2023-07-07 11:09:17.000000 pytbai-1.3.5/tests/data/tbai_json.py
++-rw-rw-r--   0 urtzi     (1000) urtzi     (1000)     4553 2023-07-07 11:09:17.000000 pytbai-1.3.5/tests/test_basic.py
+```
+
+### Comparing `pytbai-1.3.4/CHANGELOG.txt` & `pytbai-1.3.5/CHANGELOG.txt`
+
+ * *Files 9% similar despite different names*
+
+```diff
+@@ -1,7 +1,14 @@
++1.3.5 (2023-07-07)
++------------------
++
++- fix invoice get_json by dict object copy [Urtzi Odriozola <uodriozola@codesyntax.com>]
++
++
++
+ 1.3.4 (2023-07-07)
+ ------------------
+ 
+ - fix invoice get_dict [Urtzi Odriozola <uodriozola@codesyntax.com>]
+```
+
+### Comparing `pytbai-1.3.4/LICENSE` & `pytbai-1.3.5/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `pytbai-1.3.4/PKG-INFO` & `pytbai-1.3.5/PKG-INFO`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: pytbai
+-Version: 1.3.4
++Version: 1.3.5
+ Summary: pytbai allows to create, manage and send TicketBai invoices to the Basque tax authorities
+ Home-page: https://github.com/codesyntax/pytbai
+ Author: Urtzi Odriozola
+ Author-email: uodriozola@codesyntax.com
+ License: Copyright 2023 CodeSyntax
+         
+         Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+```
+
+### Comparing `pytbai-1.3.4/README.md` & `pytbai-1.3.5/README.md`
+
+ * *Files identical despite different names*
+
+### Comparing `pytbai-1.3.4/pytbai/core.py` & `pytbai-1.3.5/pytbai/core.py`
+
+ * *Files 4% similar despite different names*
+
+```diff
+@@ -1,8 +1,9 @@
+ from datetime import datetime
++import copy
+ import tempfile
+ import json
+ import requests
+ import logging
+ from decimal import Decimal
+ from lxml import etree
+ from json import JSONEncoder
+@@ -63,15 +64,15 @@
+         else:
+             raise ValueError(
+                 "Value not found in L4 options, see documentation: %s"
+                 % DOCUMENTATION_URL
+             )
+ 
+     def get_dict(self):
+-        return self.__dict__
++        return copy.deepcopy(self.__dict__)
+ 
+ 
+ class InvoiceLine:
+     def __init__(
+         self,
+         description,
+         quantity=0,
+@@ -119,15 +120,15 @@
+         vat_fee = self.vat_base * (self.vat_rate / 100)
+         self.vat_fee = vat_fee.quantize(Decimal("0.00"))
+ 
+     def set_total(self):
+         self.total = self.vat_base + self.vat_fee
+ 
+     def get_dict(self):
+-        return self.__dict__
++        return copy.deepcopy(self.__dict__)
+ 
+ 
+ class Invoice:
+     def __init__(
+         self,
+         serial_code,
+         num,
+@@ -243,15 +244,20 @@
+     def delete_lines(self, lines):
+         curr_lines = self.lines
+         for line in lines:
+             curr_lines.remove(line)
+         self.lines = curr_lines
+ 
+     def get_dict(self):
+-        return self.__dict__
++        invoice_json = copy.deepcopy(self.__dict__)
++        lines_json = []
++        for line in invoice_json["lines"]:
++            lines_json.append(line.get_dict())
++        invoice_json["lines"] = lines_json
++        return invoice_json
+ 
+ 
+ class Software:
+     def __init__(
+         self,
+         license,
+         dev_entity,
+@@ -260,15 +266,15 @@
+     ):
+         self.license = license
+         self.dev_entity = dev_entity
+         self.soft_name = soft_name
+         self.soft_version = soft_version
+ 
+     def get_dict(self):
+-        return self.__dict__
++        return copy.deepcopy(self.__dict__)
+ 
+ 
+ class TBaiEncoder(JSONEncoder):
+     def default(self, o):
+         if isinstance(o, Decimal):
+             return float(o)
+         return super().default(o)
+```
+
+### Comparing `pytbai-1.3.4/pytbai/definitions.py` & `pytbai-1.3.5/pytbai/definitions.py`
+
+ * *Files identical despite different names*
+
+### Comparing `pytbai-1.3.4/pytbai/templates/PDF/ticketbai.html` & `pytbai-1.3.5/pytbai/templates/PDF/ticketbai.html`
+
+ * *Files identical despite different names*
+
+### Comparing `pytbai-1.3.4/pytbai/templates/XML/tbai_structure.xml` & `pytbai-1.3.5/pytbai/templates/XML/tbai_structure.xml`
+
+ * *Files identical despite different names*
+
+### Comparing `pytbai-1.3.4/pytbai/templates/XSD/Anula_ticketBaiV1-2-1.xsd` & `pytbai-1.3.5/pytbai/templates/XSD/Anula_ticketBaiV1-2-1.xsd`
+
+ * *Files identical despite different names*
+
+### Comparing `pytbai-1.3.4/pytbai/templates/XSD/ticketBaiV1-2-1.xsd` & `pytbai-1.3.5/pytbai/templates/XSD/ticketBaiV1-2-1.xsd`
+
+ * *Files identical despite different names*
+
+### Comparing `pytbai-1.3.4/pytbai/utils/pdf.py` & `pytbai-1.3.5/pytbai/utils/pdf.py`
+
+ * *Files identical despite different names*
+
+### Comparing `pytbai-1.3.4/pytbai/utils/xml.py` & `pytbai-1.3.5/pytbai/utils/xml.py`
+
+ * *Files identical despite different names*
+
+### Comparing `pytbai-1.3.4/pytbai.egg-info/PKG-INFO` & `pytbai-1.3.5/pytbai.egg-info/PKG-INFO`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: pytbai
+-Version: 1.3.4
++Version: 1.3.5
+ Summary: pytbai allows to create, manage and send TicketBai invoices to the Basque tax authorities
+ Home-page: https://github.com/codesyntax/pytbai
+ Author: Urtzi Odriozola
+ Author-email: uodriozola@codesyntax.com
+ License: Copyright 2023 CodeSyntax
+         
+         Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+```
+
+### Comparing `pytbai-1.3.4/pytbai.egg-info/SOURCES.txt` & `pytbai-1.3.5/pytbai.egg-info/SOURCES.txt`
+
+ * *Files identical despite different names*
+
+### Comparing `pytbai-1.3.4/setup.py` & `pytbai-1.3.5/setup.py`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -7,15 +7,15 @@
+     readme = f.read()
+ 
+ with open("LICENSE") as f:
+     license = f.read()
+ 
+ setup(
+     name="pytbai",
+-    version="1.3.4",
++    version="1.3.5",
+     description=(
+         "pytbai allows to create, manage and send TicketBai invoices to the"
+         " Basque tax authorities"
+     ),
+     long_description=readme,
+     long_description_content_type="text/markdown",
+     author="Urtzi Odriozola",
+```
+
+### Comparing `pytbai-1.3.4/tests/certs/cert.pem` & `pytbai-1.3.5/tests/certs/cert.pem`
+
+ * *Files identical despite different names*
+
+### Comparing `pytbai-1.3.4/tests/certs/cert_for_tests.p12` & `pytbai-1.3.5/tests/certs/cert_for_tests.p12`
+
+ * *Files identical despite different names*
+
+### Comparing `pytbai-1.3.4/tests/certs/key.pem` & `pytbai-1.3.5/tests/certs/key.pem`
+
+ * *Files identical despite different names*
+
+### Comparing `pytbai-1.3.4/tests/data/tbai_json.py` & `pytbai-1.3.5/tests/data/tbai_json.py`
+
+ * *Files identical despite different names*
+
+### Comparing `pytbai-1.3.4/tests/test_basic.py` & `pytbai-1.3.5/tests/test_basic.py`
+
+ * *Files identical despite different names*
+
