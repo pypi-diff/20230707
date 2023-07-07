@@ -18352,3 +18352,144 @@ EOFError: EOF read where object expected
 [2023-07-07 12:07:30] INFO root fetch - processPackages [plonetheme.imioapps]: Remove: archive file [/home/abi/fetcher/tmp/plonetheme.imioapps-2.42.tar.gz]
 [2023-07-07 12:07:30] INFO root fetch - main [MainThread]: End processing [plonetheme.imioapps]: success
 [2023-07-07 12:07:30] INFO root fetch - main [MainThread]: Store serial: [18798749]
+[2023-07-07 12:12:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18798749]
+[2023-07-07 12:12:40] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-07 12:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: synonym-cli
+[2023-07-07 12:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: doc-template-cloner
+[2023-07-07 12:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: LundPDFMaster
+[2023-07-07 12:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tester-package-sdk
+[2023-07-07 12:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: calcipy
+[2023-07-07 12:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mkdocs-zip-folders
+[2023-07-07 12:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: h2o-helium
+[2023-07-07 12:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dm-reverb-nightly
+[2023-07-07 12:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyxel-sim
+[2023-07-07 12:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytbai
+[2023-07-07 12:12:40] INFO root fetch - processPackages [doc-template-cloner]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-07 12:12:40] INFO root fetch - processPackages [mkdocs-zip-folders]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-07 12:12:40] INFO root fetch - processPackages [pytbai]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-07 12:12:40] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-07-07 12:12:40] INFO root fetch - processPackages [pyxel-sim]: New version: [1.9.1] Old Version: [1.9]
+[2023-07-07 12:12:40] INFO root fetch - processPackages [h2o-helium]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-07 12:12:40] ERROR root fetch - processPackages [LundPDFMaster]: Unable to get metadata: No such project 'LundPDFMaster'
+[2023-07-07 12:12:40] INFO root fetch - processPackages [LundPDFMaster]: Start processing: plone.app.imagecropping
+[2023-07-07 12:12:40] INFO root fetch - main [MainThread]: End processing [LundPDFMaster] error
+[2023-07-07 12:12:40] INFO root fetch - processPackages [synonym-cli]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-07 12:12:40] INFO root fetch - processPackages [tester-package-sdk]: New version: [2.0.9] Old Version: [1.0.8]
+[2023-07-07 12:12:40] INFO root fetch - processPackages [calcipy]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-07 12:12:40] INFO root fetch - processPackages [doc-template-cloner]: Downloading https://files.pythonhosted.org/packages/e3/63/b22e573d0429cfa630b157e2aa18764a5e300e585cf20668ba56e59c080c/doc_template_cloner-0.0.1.tar.gz
+[2023-07-07 12:12:40] INFO root fetch - processPackages [pytbai]: Downloading https://files.pythonhosted.org/packages/d3/f8/e465bc52892af1b473e372d05f22f2bfac5e16582552dbb98f22c24d89b6/pytbai-1.3.1.tar.gz
+[2023-07-07 12:12:40] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-07 12:12:40] INFO root fetch - processPackages [mkdocs-zip-folders]: Downloading https://files.pythonhosted.org/packages/3c/b1/18618d6a1d709443b25fcdba74fae6733790535feb352ac3745123558120/mkdocs-zip-folders-1.0.0.tar.gz
+[2023-07-07 12:12:40] INFO root fetch - processPackages [plone.app.imagecropping]: New version: [3.0.1] Old Version: [3.0.0a1]
+[2023-07-07 12:12:40] INFO root fetch - processPackages [h2o-helium]: Downloading https://files.pythonhosted.org/packages/b4/c7/571eb764b72ab9739b23364b359291628cfd4162ae83f8d3b4fb2bffd776/h2o_helium-0.4.0-py3-none-any.whl
+[2023-07-07 12:12:40] INFO root fetch - processPackages [pyxel-sim]: Downloading https://files.pythonhosted.org/packages/dc/cb/2bce01a2abeffa622977d7983e9db4ca6696ba09353b27adbdbe1976d8b3/pyxel_sim-1.9.tar.gz
+[2023-07-07 12:12:40] INFO root fetch - processPackages [synonym-cli]: Downloading https://files.pythonhosted.org/packages/10/f9/663e89c0950cb12952ce77296f91fae6a233be7cc715d45ccaf222c4c04c/synonym_cli-0.2.1.tar.gz
+[2023-07-07 12:12:40] INFO root fetch - processPackages [tester-package-sdk]: Downloading https://files.pythonhosted.org/packages/07/85/b0a8eec49be285e16ebf2e199251bba4c81c3ff5e2508f19f0a27b01f510/tester-package-sdk-1.0.8.tar.gz
+[2023-07-07 12:12:40] INFO root fetch - processPackages [doc-template-cloner]: Downloading https://files.pythonhosted.org/packages/a1/f3/38b15a6d68206315d5f871ed4c1a4c435a62fd78b072411a478fd8940818/doc_template_cloner-0.0.2.tar.gz
+[2023-07-07 12:12:40] INFO root fetch - processPackages [calcipy]: Downloading https://files.pythonhosted.org/packages/3e/83/e046de69d57188245db96dc70012848e930d27549cba57e122b148176626/calcipy-1.4.0.tar.gz
+[2023-07-07 12:12:40] INFO root fetch - processPackages [plone.app.imagecropping]: Downloading https://files.pythonhosted.org/packages/c7/33/bbbc835fad472d6fc30e12f663c4aaaf2ff8cd90ed1b9cc372b696291852/plone.app.imagecropping-3.0.0a1.tar.gz
+[2023-07-07 12:12:41] INFO root fetch - processPackages [pytbai]: Downloading https://files.pythonhosted.org/packages/a8/2b/86c1e1f87dd63d78b166f148dda70f95dc6f10a66f499b73926d4b7a1719/pytbai-1.3.2.tar.gz
+[2023-07-07 12:12:41] INFO root fetch - processPackages [doc-template-cloner]: executing diffoscope
+[2023-07-07 12:12:41] INFO root fetch - processPackages [doc-template-cloner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doc_template_cloner-0.0.1.tar.gz tmp/doc_template_cloner-0.0.2.tar.gz --markdown 20230707/d/doc-template-cloner/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-07 12:12:41] INFO root fetch - processPackages [h2o-helium]: Downloading https://files.pythonhosted.org/packages/1a/36/47d6c9a83e61c6d8b4a90b9b39ff4abb91a5b7a1a865e2febbfc5de191c8/h2o_helium-0.5.0-py3-none-any.whl
+[2023-07-07 12:12:41] INFO root fetch - processPackages [pytbai]: executing diffoscope
+[2023-07-07 12:12:41] INFO root fetch - processPackages [mkdocs-zip-folders]: Downloading https://files.pythonhosted.org/packages/ba/8c/c0c1d99e8ea488866e2224338401e3a87fba80b2010ed1f123ae2f986122/mkdocs-zip-folders-1.0.1.tar.gz
+[2023-07-07 12:12:41] INFO root fetch - processPackages [pytbai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytbai-1.3.1.tar.gz tmp/pytbai-1.3.2.tar.gz --markdown 20230707/p/pytbai/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-07 12:12:41] INFO root fetch - processPackages [tester-package-sdk]: Downloading https://files.pythonhosted.org/packages/68/cd/cedeec12b276aab84f428dc156f0da7914ea36dfc8ea2b2b3f9061a393d4/tester-package-sdk-2.0.9.tar.gz
+[2023-07-07 12:12:41] INFO root fetch - processPackages [pyxel-sim]: Downloading https://files.pythonhosted.org/packages/0d/50/c51841d575daff86706dc677ab9db003b1386dcfce9b6004ae57f7efc99b/pyxel_sim-1.9.1.tar.gz
+[2023-07-07 12:12:41] INFO root fetch - processPackages [synonym-cli]: Downloading https://files.pythonhosted.org/packages/57/b1/27ec3dd9360ca20fbe23142c29a98b2f3602f75ebf26ccae0c1d3fd561b9/synonym_cli-0.3.0.tar.gz
+[2023-07-07 12:12:41] INFO root fetch - processPackages [h2o-helium]: executing diffoscope
+[2023-07-07 12:12:41] INFO root fetch - processPackages [h2o-helium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_helium-0.4.0-py3-none-any.whl.zip tmp/h2o_helium-0.5.0-py3-none-any.whl.zip --markdown 20230707/h/h2o-helium/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-07 12:12:41] INFO root fetch - processPackages [mkdocs-zip-folders]: executing diffoscope
+[2023-07-07 12:12:41] INFO root fetch - processPackages [mkdocs-zip-folders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-zip-folders-1.0.0.tar.gz tmp/mkdocs-zip-folders-1.0.1.tar.gz --markdown 20230707/m/mkdocs-zip-folders/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-07 12:12:41] INFO root fetch - processPackages [calcipy]: Downloading https://files.pythonhosted.org/packages/bd/ed/deb7275187493acc86a3e03fae856f006c9c8faeb25c87961b6cc2d6f3c7/calcipy-1.4.1.tar.gz
+[2023-07-07 12:12:41] INFO root fetch - processPackages [tester-package-sdk]: executing diffoscope
+[2023-07-07 12:12:41] INFO root fetch - processPackages [tester-package-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tester-package-sdk-1.0.8.tar.gz tmp/tester-package-sdk-2.0.9.tar.gz --markdown 20230707/t/tester-package-sdk/1.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-07 12:12:41] INFO root fetch - processPackages [plone.app.imagecropping]: Downloading https://files.pythonhosted.org/packages/34/0f/4bdc844e1e67c5132d3070ecff57c7b904e383121858582939d6efcc8472/plone.app.imagecropping-3.0.1.tar.gz
+[2023-07-07 12:12:41] INFO root fetch - processPackages [calcipy]: executing diffoscope
+[2023-07-07 12:12:41] INFO root fetch - processPackages [calcipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calcipy-1.4.0.tar.gz tmp/calcipy-1.4.1.tar.gz --markdown 20230707/c/calcipy/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-07 12:12:41] INFO root fetch - processPackages [synonym-cli]: executing diffoscope
+[2023-07-07 12:12:41] INFO root fetch - processPackages [synonym-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synonym_cli-0.2.1.tar.gz tmp/synonym_cli-0.3.0.tar.gz --markdown 20230707/s/synonym-cli/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-07 12:12:41] INFO root fetch - processPackages [plone.app.imagecropping]: executing diffoscope
+[2023-07-07 12:12:41] INFO root fetch - processPackages [plone.app.imagecropping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.app.imagecropping-3.0.0a1.tar.gz tmp/plone.app.imagecropping-3.0.1.tar.gz --markdown 20230707/p/plone.app.imagecropping/3.0.0a1-3.0.1/diff.md --exclude *.pyd
+[2023-07-07 12:12:41] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-07 12:12:42] INFO root fetch - processPackages [doc-template-cloner]: Remove: archive file [/home/abi/fetcher/tmp/doc_template_cloner-0.0.1.tar.gz]
+[2023-07-07 12:12:42] INFO root fetch - processPackages [doc-template-cloner]: Remove: archive file [/home/abi/fetcher/tmp/doc_template_cloner-0.0.2.tar.gz]
+[2023-07-07 12:12:42] INFO root fetch - processPackages [doc-template-cloner]: Start processing: msci.sdk
+[2023-07-07 12:12:42] INFO root fetch - main [MainThread]: End processing [doc-template-cloner]: success
+[2023-07-07 12:12:42] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-07-07 12:12:42] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230707/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-07-07 12:12:42] INFO root fetch - processPackages [msci.sdk]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-07 12:12:42] INFO root fetch - processPackages [msci.sdk]: Downloading https://files.pythonhosted.org/packages/84/47/7d00a00892dc44b2e61189a79b3e08c42501692c9fe6b171bdc462b8690f/msci.sdk-1.0.0-py3-none-any.whl
+[2023-07-07 12:12:42] INFO root fetch - processPackages [pytbai]: Remove: archive file [/home/abi/fetcher/tmp/pytbai-1.3.1.tar.gz]
+[2023-07-07 12:12:42] INFO root fetch - processPackages [pytbai]: Remove: archive file [/home/abi/fetcher/tmp/pytbai-1.3.2.tar.gz]
+[2023-07-07 12:12:42] INFO root fetch - processPackages [pytbai]: Start processing: tgwrap
+[2023-07-07 12:12:42] INFO root fetch - main [MainThread]: End processing [pytbai]: success
+[2023-07-07 12:12:42] INFO root fetch - processPackages [mkdocs-zip-folders]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-zip-folders-1.0.0.tar.gz]
+[2023-07-07 12:12:42] INFO root fetch - processPackages [mkdocs-zip-folders]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-zip-folders-1.0.1.tar.gz]
+[2023-07-07 12:12:42] INFO root fetch - processPackages [mkdocs-zip-folders]: Start processing: upkie
+[2023-07-07 12:12:42] INFO root fetch - main [MainThread]: End processing [mkdocs-zip-folders]: success
+[2023-07-07 12:12:42] INFO root fetch - processPackages [tgwrap]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-07-07 12:12:42] INFO root fetch - processPackages [h2o-helium]: Remove: archive file [/home/abi/fetcher/tmp/h2o_helium-0.4.0-py3-none-any.whl.zip]
+[2023-07-07 12:12:42] INFO root fetch - processPackages [h2o-helium]: Remove: archive file [/home/abi/fetcher/tmp/h2o_helium-0.5.0-py3-none-any.whl.zip]
+[2023-07-07 12:12:42] INFO root fetch - processPackages [h2o-helium]: Start processing: th2-grpc-lw-data-provider
+[2023-07-07 12:12:42] INFO root fetch - main [MainThread]: End processing [h2o-helium]: success
+[2023-07-07 12:12:42] INFO root fetch - processPackages [tester-package-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tester-package-sdk-1.0.8.tar.gz]
+[2023-07-07 12:12:42] INFO root fetch - processPackages [tester-package-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tester-package-sdk-2.0.9.tar.gz]
+[2023-07-07 12:12:42] INFO root fetch - processPackages [tester-package-sdk]: Start processing: t2iapi
+[2023-07-07 12:12:42] INFO root fetch - main [MainThread]: End processing [tester-package-sdk]: success
+[2023-07-07 12:12:42] INFO root fetch - processPackages [tgwrap]: Downloading https://files.pythonhosted.org/packages/77/c4/1fe68541e9129f4c4455931e90ca958f3e0da723f4a71bf22c9b4cbd5833/tgwrap-0.7.3.tar.gz
+[2023-07-07 12:12:42] INFO root fetch - processPackages [upkie]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-07 12:12:42] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5485266429]
+[2023-07-07 12:12:42] INFO root fetch - processPackages [synonym-cli]: Remove: archive file [/home/abi/fetcher/tmp/synonym_cli-0.2.1.tar.gz]
+[2023-07-07 12:12:42] INFO root fetch - processPackages [synonym-cli]: Remove: archive file [/home/abi/fetcher/tmp/synonym_cli-0.3.0.tar.gz]
+[2023-07-07 12:12:42] INFO root fetch - main [MainThread]: End processing [synonym-cli]: success
+[2023-07-07 12:12:42] INFO root fetch - processPackages [calcipy]: Remove: archive file [/home/abi/fetcher/tmp/calcipy-1.4.0.tar.gz]
+[2023-07-07 12:12:42] INFO root fetch - processPackages [calcipy]: Remove: archive file [/home/abi/fetcher/tmp/calcipy-1.4.1.tar.gz]
+[2023-07-07 12:12:42] INFO root fetch - main [MainThread]: End processing [calcipy]: success
+[2023-07-07 12:12:42] INFO root fetch - processPackages [t2iapi]: New version: [3.0.0.dev216] Old Version: [3.0.0.dev214]
+[2023-07-07 12:12:43] INFO root fetch - processPackages [upkie]: Downloading https://files.pythonhosted.org/packages/15/b5/61640bb6c5e7712f8b33f9f8487f1538969f617647a5095ea5919ec5ccc3/upkie-1.0.0.tar.gz
+[2023-07-07 12:12:43] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/d0/9a/4f99d10267f9c69e748e7dbb92de563c47fc91c9422c8a937168ef8fb884/th2_grpc_lw_data_provider-2.0.0.dev5485266429.tar.gz
+[2023-07-07 12:12:43] INFO root fetch - processPackages [t2iapi]: Downloading https://files.pythonhosted.org/packages/b1/19/c5ef568b089ba18a39b534ca827dac757df1096b66d628d22b826a0a0c83/t2iapi-3.0.0.dev214.tar.gz
+[2023-07-07 12:12:43] INFO root fetch - processPackages [msci.sdk]: Downloading https://files.pythonhosted.org/packages/3c/f7/7f6a7689831d0af0f2c2563ef1dc86a9221e15a519501d4f79a0360cda2b/msci.sdk-1.0.1-py3-none-any.whl
+[2023-07-07 12:12:43] INFO root fetch - processPackages [tgwrap]: Downloading https://files.pythonhosted.org/packages/c7/8e/f2dfcba21d927ed7f668c007ce32cae376d97678a4ac10afe3fbb435456f/tgwrap-0.7.4.tar.gz
+[2023-07-07 12:12:43] INFO root fetch - processPackages [tgwrap]: executing diffoscope
+[2023-07-07 12:12:43] INFO root fetch - processPackages [tgwrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgwrap-0.7.3.tar.gz tmp/tgwrap-0.7.4.tar.gz --markdown 20230707/t/tgwrap/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-07-07 12:12:43] INFO root fetch - processPackages [upkie]: Downloading https://files.pythonhosted.org/packages/12/89/ccaf930ff8ac62e7e081d3ccc88a7be987924ea9ca6fbe63373a81c1c332/upkie-1.1.0.tar.gz
+[2023-07-07 12:12:43] INFO root fetch - processPackages [msci.sdk]: executing diffoscope
+[2023-07-07 12:12:43] INFO root fetch - processPackages [msci.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msci.sdk-1.0.0-py3-none-any.whl.zip tmp/msci.sdk-1.0.1-py3-none-any.whl.zip --markdown 20230707/m/msci.sdk/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-07 12:12:43] INFO root fetch - processPackages [t2iapi]: Downloading https://files.pythonhosted.org/packages/25/fe/786b300be57f3d84e9652d8d160ce0751a53e9c5f074ee4c3ccc2685c51a/t2iapi-3.0.0.dev216.tar.gz
+[2023-07-07 12:12:43] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-07-07 12:12:43] INFO root fetch - processPackages [pyxel-sim]: executing diffoscope
+[2023-07-07 12:12:43] INFO root fetch - processPackages [pyxel-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxel_sim-1.9.tar.gz tmp/pyxel_sim-1.9.1.tar.gz --markdown 20230707/p/pyxel-sim/1.9-1.9.1/diff.md --exclude *.pyd
+[2023-07-07 12:12:43] INFO root fetch - processPackages [upkie]: executing diffoscope
+[2023-07-07 12:12:43] INFO root fetch - processPackages [upkie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upkie-1.0.0.tar.gz tmp/upkie-1.1.0.tar.gz --markdown 20230707/u/upkie/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-07 12:12:43] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-07-07 12:12:43] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5485266429.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230707/t/th2-grpc-lw-data-provider/2.0.0.dev5485266429-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-07-07 12:12:43] INFO root fetch - processPackages [t2iapi]: executing diffoscope
+[2023-07-07 12:12:43] INFO root fetch - processPackages [t2iapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t2iapi-3.0.0.dev214.tar.gz tmp/t2iapi-3.0.0.dev216.tar.gz --markdown 20230707/t/t2iapi/3.0.0.dev214-3.0.0.dev216/diff.md --exclude *.pyd
+[2023-07-07 12:12:44] INFO root fetch - processPackages [tgwrap]: Remove: archive file [/home/abi/fetcher/tmp/tgwrap-0.7.3.tar.gz]
+[2023-07-07 12:12:44] INFO root fetch - processPackages [tgwrap]: Remove: archive file [/home/abi/fetcher/tmp/tgwrap-0.7.4.tar.gz]
+[2023-07-07 12:12:44] INFO root fetch - main [MainThread]: End processing [tgwrap]: success
+[2023-07-07 12:12:44] INFO root fetch - processPackages [msci.sdk]: Remove: archive file [/home/abi/fetcher/tmp/msci.sdk-1.0.0-py3-none-any.whl.zip]
+[2023-07-07 12:12:44] INFO root fetch - processPackages [msci.sdk]: Remove: archive file [/home/abi/fetcher/tmp/msci.sdk-1.0.1-py3-none-any.whl.zip]
+[2023-07-07 12:12:44] INFO root fetch - main [MainThread]: End processing [msci.sdk]: success
+[2023-07-07 12:12:45] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5485266429.tar.gz]
+[2023-07-07 12:12:45] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-07-07 12:12:45] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-07-07 12:12:45] INFO root fetch - processPackages [upkie]: Remove: archive file [/home/abi/fetcher/tmp/upkie-1.0.0.tar.gz]
+[2023-07-07 12:12:45] INFO root fetch - processPackages [upkie]: Remove: archive file [/home/abi/fetcher/tmp/upkie-1.1.0.tar.gz]
+[2023-07-07 12:12:45] INFO root fetch - main [MainThread]: End processing [upkie]: success
+[2023-07-07 12:12:45] INFO root fetch - processPackages [t2iapi]: Remove: archive file [/home/abi/fetcher/tmp/t2iapi-3.0.0.dev214.tar.gz]
+[2023-07-07 12:12:45] INFO root fetch - processPackages [t2iapi]: Remove: archive file [/home/abi/fetcher/tmp/t2iapi-3.0.0.dev216.tar.gz]
+[2023-07-07 12:12:45] INFO root fetch - main [MainThread]: End processing [t2iapi]: success
+[2023-07-07 12:12:46] INFO root fetch - processPackages [pyxel-sim]: Remove: archive file [/home/abi/fetcher/tmp/pyxel_sim-1.9.tar.gz]
+[2023-07-07 12:12:46] INFO root fetch - processPackages [pyxel-sim]: Remove: archive file [/home/abi/fetcher/tmp/pyxel_sim-1.9.1.tar.gz]
+[2023-07-07 12:12:46] INFO root fetch - main [MainThread]: End processing [pyxel-sim]: success
+[2023-07-07 12:12:48] INFO root fetch - processPackages [plone.app.imagecropping]: Remove: archive file [/home/abi/fetcher/tmp/plone.app.imagecropping-3.0.0a1.tar.gz]
+[2023-07-07 12:12:48] INFO root fetch - processPackages [plone.app.imagecropping]: Remove: archive file [/home/abi/fetcher/tmp/plone.app.imagecropping-3.0.1.tar.gz]
+[2023-07-07 12:12:48] INFO root fetch - main [MainThread]: End processing [plone.app.imagecropping]: success
+[2023-07-07 12:13:15] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-07 12:13:15] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-07 12:13:15] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-07-07 12:13:15] INFO root fetch - main [MainThread]: Store serial: [18798799]
