@@ -284,9 +284,9 @@
 
  * *error from `html2text {}`:*
 
- * *File "/tmp/diffoscope_j0s8p9k3_/tmpk9o5_t82_TarContainer/0/30.md", line 912, column 3: CDATA terminal not found*
+ * *File "/tmp/diffoscope_3vjuko37_/tmpa1gh6svn_TarContainer/0/30.md", line 912, column 3: CDATA terminal not found*
 
- * *File "/tmp/diffoscope_j0s8p9k3_/tmpk9o5_t82_TarContainer/0/30.md", line 912, column 3: CDATA terminal not found*
+ * *File "/tmp/diffoscope_3vjuko37_/tmpa1gh6svn_TarContainer/0/30.md", line 912, column 3: CDATA terminal not found*
 
 ```diff
 @@ -1,14 +1,14 @@
@@ -384,9 +384,9 @@
 
  * *error from `html2text {}`:*
 
- * *File "/tmp/diffoscope_j0s8p9k3_/tmpk9o5_t82_TarContainer/0/31", line 948, column 0: CDATA terminal not found*
+ * *File "/tmp/diffoscope_3vjuko37_/tmpa1gh6svn_TarContainer/0/31", line 948, column 0: CDATA terminal not found*
 
- * *File "/tmp/diffoscope_j0s8p9k3_/tmpk9o5_t82_TarContainer/0/31", line 948, column 0: CDATA terminal not found*
+ * *File "/tmp/diffoscope_3vjuko37_/tmpa1gh6svn_TarContainer/0/31", line 948, column 0: CDATA terminal not found*
 
 ```diff
 @@ -1,32 +1,33 @@
