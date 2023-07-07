@@ -20266,3 +20266,165 @@ AssertionError: tmp/tester-package-sdk-2.0.9.tar.gz does not exist
 [2023-07-07 13:21:36] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2023-07-07 13:21:36] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2023-07-07 13:21:36] INFO root fetch - main [MainThread]: Store serial: [18799475]
+[2023-07-07 13:26:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18799475]
+[2023-07-07 13:26:45] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-07 13:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tigerblog
+[2023-07-07 13:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: danbi
+[2023-07-07 13:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tigramite
+[2023-07-07 13:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llm-to-corpus
+[2023-07-07 13:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spreg-satosa-sync
+[2023-07-07 13:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wsuks
+[2023-07-07 13:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cg
+[2023-07-07 13:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qvsed
+[2023-07-07 13:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: helios-rl
+[2023-07-07 13:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: multi-file-converter
+[2023-07-07 13:26:45] INFO root fetch - processPackages [llm-to-corpus]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-07 13:26:45] INFO root fetch - processPackages [spreg-satosa-sync]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-07-07 13:26:45] INFO root fetch - processPackages [multi-file-converter]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-07 13:26:45] INFO root fetch - processPackages [tigerblog]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-07 13:26:45] INFO root fetch - processPackages [qvsed]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-07 13:26:45] INFO root fetch - processPackages [tigramite]: New version: [5.2.1.8] Old Version: [5.2.1.6]
+[2023-07-07 13:26:45] INFO root fetch - processPackages [wsuks]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-07 13:26:45] INFO root fetch - processPackages [helios-rl]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-07 13:26:45] INFO root fetch - processPackages [danbi]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-07 13:26:45] INFO root fetch - processPackages [cg]: New version: [38.1.2] Old Version: [38.1.1]
+[2023-07-07 13:26:46] INFO root fetch - processPackages [multi-file-converter]: Downloading https://files.pythonhosted.org/packages/e0/af/d6c296094aed9a028be71fffa54e7f1551758a5c2bb9dbc6e43b6bf17e2b/multi_file_converter-1.0.1.tar.gz
+[2023-07-07 13:26:46] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/9b/ea/e0127ea073f19abcfebcddc456d50fa11623a589471d9c91bcdd807197cd/QVSED-1.1.1.tar.gz
+[2023-07-07 13:26:46] INFO root fetch - processPackages [llm-to-corpus]: Downloading https://files.pythonhosted.org/packages/9d/60/be647c9fed721e8939df2a6df0d0ba55e3d8fb350bfe0fdbe334038be12a/llm-to-corpus-0.0.2.tar.gz
+[2023-07-07 13:26:46] INFO root fetch - processPackages [spreg-satosa-sync]: Downloading https://files.pythonhosted.org/packages/d4/ab/f807e7a352635857ad74eb4974369ba1664c8a8eb15582a597de4ba374c5/spreg-satosa-sync-2.0.1.tar.gz
+[2023-07-07 13:26:46] INFO root fetch - processPackages [wsuks]: Downloading https://files.pythonhosted.org/packages/9c/80/011cc72e70fd86364e021d171ca146d6ded7225aade1eaa216d2b63da0a0/wsuks-0.2.1.tar.gz
+[2023-07-07 13:26:46] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/e5/38/de23ff1468486da7efd64648a0790badadfdbfdc3efc01027e0e9638c293/cg-38.1.1.tar.gz
+[2023-07-07 13:26:46] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/e5/f7/0f13b386e31c72c39c397769cc699b3d8b1eb0acc85cf3e96bfa353e8697/helios-rl-1.0.5.tar.gz
+[2023-07-07 13:26:46] INFO root fetch - processPackages [tigerblog]: Downloading https://files.pythonhosted.org/packages/b6/1f/99d7e75f9b78c86b5f90c83a64054f3b34b5ed82c7a78bf51fd86095cdba/tigerblog-0.1.8.tar.gz
+[2023-07-07 13:26:46] INFO root fetch - processPackages [tigramite]: Downloading https://files.pythonhosted.org/packages/84/e7/dca8b8899bcdf7530d02d64d5d81bec72c671de05cc9ec250519f80b8ca1/tigramite-5.2.1.6.tar.gz
+[2023-07-07 13:26:46] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/c2/72/22ba0c3509479f69f5ffc3941df78acc0abfcc40698187c42ce4a3ddcc73/danbi-0.2.98.tar.gz
+[2023-07-07 13:26:46] INFO root fetch - processPackages [multi-file-converter]: Downloading https://files.pythonhosted.org/packages/01/c3/3f1f6c12b349c2c6e5a1755a7bce665914a82e1c7b14af872e5c1dfcabf6/multi_file_converter-1.0.2.tar.gz
+[2023-07-07 13:26:46] INFO root fetch - processPackages [llm-to-corpus]: Downloading https://files.pythonhosted.org/packages/fe/76/a18724e39fbbe4a6a2e85d5cf92580061e0a0bc130be66297795474169ee/llm-to-corpus-0.0.3.tar.gz
+[2023-07-07 13:26:46] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/d9/76/afd6af33fbfce7d3fc9d442c00b5c50032af57999d616f17314f2dc5037a/qvsed-1.1.2.tar.gz
+[2023-07-07 13:26:46] INFO root fetch - processPackages [multi-file-converter]: executing diffoscope
+[2023-07-07 13:26:46] INFO root fetch - processPackages [multi-file-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_file_converter-1.0.1.tar.gz tmp/multi_file_converter-1.0.2.tar.gz --markdown 20230707/m/multi-file-converter/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-07 13:26:46] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/4c/4b/d56dfe20c4d131e30c46e8c4d90e820df8ac3a7338e944a522bf16508345/cg-38.1.2.tar.gz
+[2023-07-07 13:26:46] INFO root fetch - processPackages [spreg-satosa-sync]: Downloading https://files.pythonhosted.org/packages/1d/29/0d1cadb7214d159fb8d58904a8ac269a29d724fa42bcb2836f7d2f2548e7/spreg-satosa-sync-2.1.0.tar.gz
+[2023-07-07 13:26:46] INFO root fetch - processPackages [wsuks]: Downloading https://files.pythonhosted.org/packages/e3/94/6aa4642df7fdb43a862499313fb0a939dad8ed947791ff49c3398533931e/wsuks-0.2.2.tar.gz
+[2023-07-07 13:26:46] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/b4/c4/b331f841a29472747861ee6c12ed68680b8f279dae7aaed4c3f755ef90ef/helios-rl-1.0.6.tar.gz
+[2023-07-07 13:26:46] INFO root fetch - processPackages [llm-to-corpus]: executing diffoscope
+[2023-07-07 13:26:46] INFO root fetch - processPackages [llm-to-corpus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-to-corpus-0.0.2.tar.gz tmp/llm-to-corpus-0.0.3.tar.gz --markdown 20230707/l/llm-to-corpus/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-07 13:26:46] INFO root fetch - processPackages [tigerblog]: Downloading https://files.pythonhosted.org/packages/23/0f/6a0fec4b0cafdb4c1a9f42e93a456ba31cc0b1f03240d001db6df1ee282d/tigerblog-0.1.9.tar.gz
+[2023-07-07 13:26:46] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/08/67/6ca29911c73cded25c25e0725cecb295a7ffb7284383910591bbccccb9bf/danbi-0.2.99.tar.gz
+[2023-07-07 13:26:46] INFO root fetch - processPackages [tigramite]: Downloading https://files.pythonhosted.org/packages/8e/7b/0a9485c6601898bb45e18f3c576eb9476ec79b6e6212658aa58a21688366/tigramite-5.2.1.8.tar.gz
+[2023-07-07 13:26:46] INFO root fetch - processPackages [wsuks]: executing diffoscope
+[2023-07-07 13:26:46] INFO root fetch - processPackages [wsuks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wsuks-0.2.1.tar.gz tmp/wsuks-0.2.2.tar.gz --markdown 20230707/w/wsuks/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-07 13:26:46] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-07-07 13:26:46] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-38.1.1.tar.gz tmp/cg-38.1.2.tar.gz --markdown 20230707/c/cg/38.1.1-38.1.2/diff.md --exclude *.pyd
+[2023-07-07 13:26:46] INFO root fetch - processPackages [qvsed]: executing diffoscope
+[2023-07-07 13:26:46] INFO root fetch - processPackages [qvsed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QVSED-1.1.1.tar.gz tmp/qvsed-1.1.2.tar.gz --markdown 20230707/q/qvsed/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-07 13:26:46] INFO root fetch - processPackages [spreg-satosa-sync]: executing diffoscope
+[2023-07-07 13:26:46] INFO root fetch - processPackages [spreg-satosa-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spreg-satosa-sync-2.0.1.tar.gz tmp/spreg-satosa-sync-2.1.0.tar.gz --markdown 20230707/s/spreg-satosa-sync/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-07-07 13:26:46] INFO root fetch - processPackages [helios-rl]: executing diffoscope
+[2023-07-07 13:26:46] INFO root fetch - processPackages [helios-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-rl-1.0.5.tar.gz tmp/helios-rl-1.0.6.tar.gz --markdown 20230707/h/helios-rl/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-07 13:26:47] INFO root fetch - processPackages [danbi]: executing diffoscope
+[2023-07-07 13:26:47] INFO root fetch - processPackages [danbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danbi-0.2.98.tar.gz tmp/danbi-0.2.99.tar.gz --markdown 20230707/d/danbi/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-07 13:26:47] INFO root fetch - processPackages [tigramite]: executing diffoscope
+[2023-07-07 13:26:47] INFO root fetch - processPackages [tigramite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tigramite-5.2.1.6.tar.gz tmp/tigramite-5.2.1.8.tar.gz --markdown 20230707/t/tigramite/5.2.1.6-5.2.1.8/diff.md --exclude *.pyd
+[2023-07-07 13:26:47] INFO root fetch - processPackages [tigerblog]: executing diffoscope
+[2023-07-07 13:26:47] INFO root fetch - processPackages [tigerblog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tigerblog-0.1.8.tar.gz tmp/tigerblog-0.1.9.tar.gz --markdown 20230707/t/tigerblog/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-07 13:26:47] INFO root fetch - processPackages [multi-file-converter]: Remove: archive file [/home/abi/fetcher/tmp/multi_file_converter-1.0.1.tar.gz]
+[2023-07-07 13:26:47] INFO root fetch - processPackages [multi-file-converter]: Remove: archive file [/home/abi/fetcher/tmp/multi_file_converter-1.0.2.tar.gz]
+[2023-07-07 13:26:47] INFO root fetch - processPackages [multi-file-converter]: Start processing: torchtnt-nightly
+[2023-07-07 13:26:47] INFO root fetch - main [MainThread]: End processing [multi-file-converter]: success
+[2023-07-07 13:26:47] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.7.6] Old Version: [2023.7.5]
+[2023-07-07 13:26:48] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/d2/9f/758aa5d200a018605f61f369106dbd8fabac0df216763b205207d9608386/torchtnt-nightly-2023.7.5.tar.gz
+[2023-07-07 13:26:48] INFO root fetch - processPackages [llm-to-corpus]: Remove: archive file [/home/abi/fetcher/tmp/llm-to-corpus-0.0.2.tar.gz]
+[2023-07-07 13:26:48] INFO root fetch - processPackages [llm-to-corpus]: Remove: archive file [/home/abi/fetcher/tmp/llm-to-corpus-0.0.3.tar.gz]
+[2023-07-07 13:26:48] INFO root fetch - processPackages [llm-to-corpus]: Start processing: leadguru-data
+[2023-07-07 13:26:48] INFO root fetch - main [MainThread]: End processing [llm-to-corpus]: success
+[2023-07-07 13:26:48] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/QVSED-1.1.1.tar.gz]
+[2023-07-07 13:26:48] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/qvsed-1.1.2.tar.gz]
+[2023-07-07 13:26:48] INFO root fetch - processPackages [qvsed]: Start processing: leadguru-common
+[2023-07-07 13:26:48] INFO root fetch - main [MainThread]: End processing [qvsed]: success
+[2023-07-07 13:26:48] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/15/d4/acd72e9ef98e091b441c353c5dd6cb14538fd15b0cfbc9dadf59aa58b337/torchtnt-nightly-2023.7.6.tar.gz
+[2023-07-07 13:26:48] INFO root fetch - processPackages [spreg-satosa-sync]: Remove: archive file [/home/abi/fetcher/tmp/spreg-satosa-sync-2.0.1.tar.gz]
+[2023-07-07 13:26:48] INFO root fetch - processPackages [spreg-satosa-sync]: Remove: archive file [/home/abi/fetcher/tmp/spreg-satosa-sync-2.1.0.tar.gz]
+[2023-07-07 13:26:48] INFO root fetch - processPackages [spreg-satosa-sync]: Start processing: gov-uk-dashboards
+[2023-07-07 13:26:48] INFO root fetch - main [MainThread]: End processing [spreg-satosa-sync]: success
+[2023-07-07 13:26:48] INFO root fetch - processPackages [leadguru-data]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-07 13:26:48] INFO root fetch - processPackages [leadguru-common]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-07 13:26:48] INFO root fetch - processPackages [wsuks]: Remove: archive file [/home/abi/fetcher/tmp/wsuks-0.2.1.tar.gz]
+[2023-07-07 13:26:48] INFO root fetch - processPackages [wsuks]: Remove: archive file [/home/abi/fetcher/tmp/wsuks-0.2.2.tar.gz]
+[2023-07-07 13:26:48] INFO root fetch - processPackages [wsuks]: Start processing: onoffmonitordevice
+[2023-07-07 13:26:48] INFO root fetch - main [MainThread]: End processing [wsuks]: success
+[2023-07-07 13:26:48] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.5.tar.gz]
+[2023-07-07 13:26:48] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.6.tar.gz]
+[2023-07-07 13:26:48] INFO root fetch - processPackages [gov-uk-dashboards]: New version: [9.9.0] Old Version: [9.8.0]
+[2023-07-07 13:26:48] INFO root fetch - processPackages [helios-rl]: Start processing: SPLayout
+[2023-07-07 13:26:48] INFO root fetch - main [MainThread]: End processing [helios-rl]: success
+[2023-07-07 13:26:48] INFO root fetch - processPackages [leadguru-data]: Downloading https://files.pythonhosted.org/packages/81/bf/f4c758210f3132ad36cea5286e4857350dc02f38ded759934614da96bd78/leadguru_data-0.98.0.tar.gz
+[2023-07-07 13:26:48] WARNING root fetch - processPackages [onoffmonitordevice]: Skipping, unable to determine old version
+[2023-07-07 13:26:48] INFO root fetch - processPackages [onoffmonitordevice]: Start processing: torchrl-nightly
+[2023-07-07 13:26:48] INFO root fetch - main [MainThread]: End processing [onoffmonitordevice] error
+[2023-07-07 13:26:48] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/fc/35/ca8dc82028975cbcb02faead26153071461e5c78a03fb67e0f27256aee8d/leadguru_common-0.98.0.tar.gz
+[2023-07-07 13:26:48] INFO root fetch - processPackages [tigerblog]: Remove: archive file [/home/abi/fetcher/tmp/tigerblog-0.1.8.tar.gz]
+[2023-07-07 13:26:48] INFO root fetch - processPackages [tigerblog]: Remove: archive file [/home/abi/fetcher/tmp/tigerblog-0.1.9.tar.gz]
+[2023-07-07 13:26:48] INFO root fetch - processPackages [tigerblog]: Start processing: embedchain
+[2023-07-07 13:26:48] INFO root fetch - main [MainThread]: End processing [tigerblog]: success
+[2023-07-07 13:26:48] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-07-07 13:26:48] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.7.5.tar.gz tmp/torchtnt-nightly-2023.7.6.tar.gz --markdown 20230707/t/torchtnt-nightly/2023.7.5-2023.7.6/diff.md --exclude *.pyd
+[2023-07-07 13:26:48] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.98.tar.gz]
+[2023-07-07 13:26:48] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.99.tar.gz]
+[2023-07-07 13:26:48] INFO root fetch - processPackages [danbi]: Start processing: profile-linkedin-graphql-imp-local
+[2023-07-07 13:26:48] INFO root fetch - main [MainThread]: End processing [danbi]: success
+[2023-07-07 13:26:48] INFO root fetch - processPackages [tigramite]: Remove: archive file [/home/abi/fetcher/tmp/tigramite-5.2.1.6.tar.gz]
+[2023-07-07 13:26:48] INFO root fetch - processPackages [tigramite]: Remove: archive file [/home/abi/fetcher/tmp/tigramite-5.2.1.8.tar.gz]
+[2023-07-07 13:26:48] INFO root fetch - main [MainThread]: End processing [tigramite]: success
+[2023-07-07 13:26:48] INFO root fetch - processPackages [SPLayout]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-07-07 13:26:48] INFO root fetch - processPackages [leadguru-data]: Downloading https://files.pythonhosted.org/packages/16/1c/017bcd8f49a9ceed0d36796e84f43cefd77b1a273b4b9807a222b85cb578/leadguru_data-0.99.0.tar.gz
+[2023-07-07 13:26:48] INFO root fetch - processPackages [embedchain]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 13:26:49] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/15/aa038ec0161f510bba1e81208b6b8fb48174839d812f78343601edd00197/gov_uk_dashboards-9.8.0.tar.gz
+[2023-07-07 13:26:49] WARNING root fetch - processPackages [profile-linkedin-graphql-imp-local]: Skipping, unable to determine old version
+[2023-07-07 13:26:49] INFO root fetch - main [MainThread]: End processing [profile-linkedin-graphql-imp-local] error
+[2023-07-07 13:26:49] INFO root fetch - processPackages [leadguru-data]: executing diffoscope
+[2023-07-07 13:26:49] INFO root fetch - processPackages [leadguru-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_data-0.98.0.tar.gz tmp/leadguru_data-0.99.0.tar.gz --markdown 20230707/l/leadguru-data/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-07 13:26:49] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/4e/4f/236c71729e1b70c3c5c202003cf9aa48c1c9b9d202620f8c5e94a7aacdc9/leadguru_common-0.99.0.tar.gz
+[2023-07-07 13:26:49] INFO root fetch - processPackages [leadguru-common]: executing diffoscope
+[2023-07-07 13:26:49] INFO root fetch - processPackages [leadguru-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_common-0.98.0.tar.gz tmp/leadguru_common-0.99.0.tar.gz --markdown 20230707/l/leadguru-common/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-07 13:26:49] INFO root fetch - processPackages [SPLayout]: Downloading https://files.pythonhosted.org/packages/d9/14/2bb77aa896b691f84eddb9536b7387284fc6e55bc469ef4b05e7550074f1/SPLayout-0.4.9.tar.gz
+[2023-07-07 13:26:49] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.7.7] Old Version: [2023.7.6]
+[2023-07-07 13:26:49] INFO root fetch - processPackages [embedchain]: Downloading https://files.pythonhosted.org/packages/fa/9b/8bddb3074933011cc682eee04982b4e3d03a699688eddf581404927a62ff/embedchain-0.0.8.tar.gz
+[2023-07-07 13:26:49] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/3e/cc/98e01fb7ee11ff5808a0e6c35e860719f49cf37baac51ec8ca717f405f95/torchrl_nightly-2023.7.6-cp39-cp39-win_amd64.whl
+[2023-07-07 13:26:49] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/ea/814247833cc4320a4963bc9588f46cb3725c05f6064d14ac066bbc574e6d/gov_uk_dashboards-9.9.0.tar.gz
+[2023-07-07 13:26:49] INFO root fetch - processPackages [SPLayout]: Downloading https://files.pythonhosted.org/packages/1f/db/6e40edf3a9fb45cb93f0bd2b719a3780a671752ae98b316840aee6fc2c59/SPLayout-0.5.0.tar.gz
+[2023-07-07 13:26:49] INFO root fetch - processPackages [embedchain]: Downloading https://files.pythonhosted.org/packages/98/a5/0216839ba1829bc10c9f2f04d82d04da661bb99f228ec27d73c564f77135/embedchain-0.0.9.tar.gz
+[2023-07-07 13:26:49] INFO root fetch - processPackages [gov-uk-dashboards]: executing diffoscope
+[2023-07-07 13:26:49] INFO root fetch - processPackages [gov-uk-dashboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gov_uk_dashboards-9.8.0.tar.gz tmp/gov_uk_dashboards-9.9.0.tar.gz --markdown 20230707/g/gov-uk-dashboards/9.8.0-9.9.0/diff.md --exclude *.pyd
+[2023-07-07 13:26:49] INFO root fetch - processPackages [embedchain]: executing diffoscope
+[2023-07-07 13:26:49] INFO root fetch - processPackages [embedchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedchain-0.0.8.tar.gz tmp/embedchain-0.0.9.tar.gz --markdown 20230707/e/embedchain/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 13:26:49] INFO root fetch - processPackages [SPLayout]: executing diffoscope
+[2023-07-07 13:26:49] INFO root fetch - processPackages [SPLayout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SPLayout-0.4.9.tar.gz tmp/SPLayout-0.5.0.tar.gz --markdown 20230707/S/SPLayout/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-07-07 13:26:50] INFO root fetch - processPackages [leadguru-data]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_data-0.98.0.tar.gz]
+[2023-07-07 13:26:50] INFO root fetch - processPackages [leadguru-data]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_data-0.99.0.tar.gz]
+[2023-07-07 13:26:50] INFO root fetch - main [MainThread]: End processing [leadguru-data]: success
+[2023-07-07 13:26:50] INFO root fetch - processPackages [leadguru-common]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_common-0.98.0.tar.gz]
+[2023-07-07 13:26:50] INFO root fetch - processPackages [leadguru-common]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_common-0.99.0.tar.gz]
+[2023-07-07 13:26:50] INFO root fetch - main [MainThread]: End processing [leadguru-common]: success
+[2023-07-07 13:26:50] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.5.tar.gz]
+[2023-07-07 13:26:50] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.6.tar.gz]
+[2023-07-07 13:26:50] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-07-07 13:26:50] INFO root fetch - processPackages [embedchain]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-0.0.8.tar.gz]
+[2023-07-07 13:26:50] INFO root fetch - processPackages [embedchain]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-0.0.9.tar.gz]
+[2023-07-07 13:26:50] INFO root fetch - main [MainThread]: End processing [embedchain]: success
+[2023-07-07 13:26:50] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/3d/6c/948fcaf88bedda434db3a4f9901f5cb795bc10926a39798d2bfd8aa927fe/torchrl_nightly-2023.7.7-cp39-cp39-macosx_11_0_x86_64.whl
+[2023-07-07 13:26:50] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.8.0.tar.gz]
+[2023-07-07 13:26:50] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.9.0.tar.gz]
+[2023-07-07 13:26:50] INFO root fetch - main [MainThread]: End processing [gov-uk-dashboards]: success
+[2023-07-07 13:26:50] INFO root fetch - processPackages [SPLayout]: Remove: archive file [/home/abi/fetcher/tmp/SPLayout-0.4.9.tar.gz]
+[2023-07-07 13:26:50] INFO root fetch - processPackages [SPLayout]: Remove: archive file [/home/abi/fetcher/tmp/SPLayout-0.5.0.tar.gz]
+[2023-07-07 13:26:50] INFO root fetch - main [MainThread]: End processing [SPLayout]: success
+[2023-07-07 13:26:51] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-07-07 13:26:51] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.7.6-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.7.7-cp39-cp39-macosx_11_0_x86_64.whl.zip --markdown 20230707/t/torchrl-nightly/2023.7.6-2023.7.7/diff.md --exclude *.pyd
+[2023-07-07 13:26:53] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.6-cp39-cp39-win_amd64.whl.zip]
+[2023-07-07 13:26:53] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.7-cp39-cp39-macosx_11_0_x86_64.whl.zip]
+[2023-07-07 13:26:53] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-07-07 13:26:53] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.1.1.tar.gz]
+[2023-07-07 13:26:53] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.1.2.tar.gz]
+[2023-07-07 13:26:53] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-07-07 13:26:53] INFO root fetch - main [MainThread]: Store serial: [18799535]
