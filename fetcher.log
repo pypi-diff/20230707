@@ -20785,3 +20785,130 @@ AssertionError: tmp/tester-package-sdk-2.0.9.tar.gz does not exist
 [2023-07-07 13:42:50] INFO root fetch - processPackages [uplogic]: Remove: archive file [/home/abi/fetcher/tmp/uplogic-1.9.3.tar.gz]
 [2023-07-07 13:42:50] INFO root fetch - main [MainThread]: End processing [uplogic]: success
 [2023-07-07 13:42:50] INFO root fetch - main [MainThread]: Store serial: [18799720]
+[2023-07-07 13:47:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18799720]
+[2023-07-07 13:47:59] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-07 13:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf
+[2023-07-07 13:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finbourne-identity-sdk
+[2023-07-07 13:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbt-workflows-factory
+[2023-07-07 13:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: obiba-opal
+[2023-07-07 13:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RsCMPX-WlanMeas
+[2023-07-07 13:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: up-paraspace
+[2023-07-07 13:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: HemanDistributions
+[2023-07-07 13:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: music-assistant-frontend
+[2023-07-07 13:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: doc-template-cloner
+[2023-07-07 13:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-llm
+[2023-07-07 13:48:00] WARNING root fetch - processPackages [HemanDistributions]: Skipping, unable to determine old version
+[2023-07-07 13:48:00] INFO root fetch - processPackages [HemanDistributions]: Start processing: up-paraspace
+[2023-07-07 13:48:00] INFO root fetch - main [MainThread]: End processing [HemanDistributions] error
+[2023-07-07 13:48:00] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230707] Old Version: [2.4.0b20230706]
+[2023-07-07 13:48:00] INFO root fetch - processPackages [music-assistant-frontend]: New version: [20230707.1] Old Version: [20230707.0]
+[2023-07-07 13:48:00] WARNING root fetch - processPackages [RsCMPX-WlanMeas]: Skipping, unable to determine old version
+[2023-07-07 13:48:00] INFO root fetch - processPackages [RsCMPX-WlanMeas]: Start processing: bigdl-chronos
+[2023-07-07 13:48:00] INFO root fetch - main [MainThread]: End processing [RsCMPX-WlanMeas] error
+[2023-07-07 13:48:00] INFO root fetch - processPackages [obiba-opal]: New version: [5.2.0] Old Version: [5.1.1]
+[2023-07-07 13:48:00] INFO root fetch - processPackages [cdktf]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-07 13:48:00] INFO root fetch - processPackages [dbt-workflows-factory]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-07 13:48:00] INFO root fetch - processPackages [up-paraspace]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-07 13:48:00] INFO root fetch - processPackages [doc-template-cloner]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-07 13:48:00] INFO root fetch - processPackages [up-paraspace]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-07 13:48:00] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [0.0.840] Old Version: [0.0.2487]
+[2023-07-07 13:48:00] INFO root fetch - processPackages [music-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/8a/1d/59d0aec14ecca76a4609710336bf9654c0533c319812e0b21579d51dd8ee/music_assistant_frontend-20230707.0-py3-none-any.whl
+[2023-07-07 13:48:00] INFO root fetch - processPackages [doc-template-cloner]: Downloading https://files.pythonhosted.org/packages/14/57/e530b537db1e64068d03d8547119ebb21b1ef2341c85c7cd1ea117eaf2b4/doc_template_cloner-0.0.6.tar.gz
+[2023-07-07 13:48:00] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/05/c5/28bf732637aa847def3e10e4488d1fa85c1cd00ef60227483ef7eeb5b012/bigdl_llm-2.4.0b20230706-py3-none-win_amd64.whl
+[2023-07-07 13:48:00] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230706] Old Version: [2.4.0b20230705]
+[2023-07-07 13:48:00] INFO root fetch - processPackages [up-paraspace]: Downloading https://files.pythonhosted.org/packages/6e/23/65f63a923a09b4f4ee5a65fa00e9a4ae7be376ec3d43b9782ff3f57fc733/up_paraspace-0.0.4.tar.gz
+[2023-07-07 13:48:00] INFO root fetch - processPackages [dbt-workflows-factory]: Downloading https://files.pythonhosted.org/packages/4b/92/e64497a4564e1da63fd9fa2b35fdaf07027e3697dc0ccb37b43d566c00bd/dbt-workflows-factory-0.0.3.tar.gz
+[2023-07-07 13:48:00] INFO root fetch - processPackages [up-paraspace]: Downloading https://files.pythonhosted.org/packages/6e/23/65f63a923a09b4f4ee5a65fa00e9a4ae7be376ec3d43b9782ff3f57fc733/up_paraspace-0.0.4.tar.gz
+[2023-07-07 13:48:00] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/63/2e/8da9e52f447c0ece5f54b2c8511a9366b3ef7300bb4a3b68e56167d0a388/finbourne-identity-sdk-0.0.2487.tar.gz
+[2023-07-07 13:48:00] INFO root fetch - processPackages [cdktf]: Downloading https://files.pythonhosted.org/packages/87/b3/c146d54086d890741cc9d05c63504e1386b268ef8cbc52d9aa78c1080aa3/cdktf-0.9.3.tar.gz
+[2023-07-07 13:48:00] INFO root fetch - processPackages [obiba-opal]: Downloading https://files.pythonhosted.org/packages/33/a6/119a04ecec0c327f75331d0d55ea00d584fca8671bbabab855c34201da5a/obiba_opal-5.1.1.tar.gz
+[2023-07-07 13:48:00] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/96/2c/29049b3908abe2746206d0c34339d39f10d2aaee7104fe944b41cc99fecb/bigdl_chronos-2.4.0b20230705-py3-none-win_amd64.whl
+[2023-07-07 13:48:00] INFO root fetch - processPackages [doc-template-cloner]: Downloading https://files.pythonhosted.org/packages/e3/a4/cd7ef7923de77c512eb0a20afcca493981ae2915a2519a9325e00bcf55ab/doc_template_cloner-0.0.7.tar.gz
+[2023-07-07 13:48:00] INFO root fetch - processPackages [up-paraspace]: Downloading https://files.pythonhosted.org/packages/26/d2/7e2ed0d35a35b4a45f1f5f4657392751da38001b3a6c6cba8ec427c96fb3/up_paraspace-0.0.5.tar.gz
+[2023-07-07 13:48:00] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/60/02/556fee55b1aaf556ab945658f46e9f25aae842d2790fb15aa1ad81b2ba2a/finbourne-identity-sdk-0.0.840.tar.gz
+[2023-07-07 13:48:00] INFO root fetch - processPackages [doc-template-cloner]: executing diffoscope
+[2023-07-07 13:48:00] INFO root fetch - processPackages [doc-template-cloner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doc_template_cloner-0.0.6.tar.gz tmp/doc_template_cloner-0.0.7.tar.gz --markdown 20230707/d/doc-template-cloner/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-07 13:48:01] INFO root fetch - processPackages [up-paraspace]: Downloading https://files.pythonhosted.org/packages/26/d2/7e2ed0d35a35b4a45f1f5f4657392751da38001b3a6c6cba8ec427c96fb3/up_paraspace-0.0.5.tar.gz
+[2023-07-07 13:48:01] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/78/86/9bfd147f4874d01ee077c2350a689f644812d13aab3b0f81f434ecb432c2/bigdl_llm-2.4.0b20230707-py3-none-win_amd64.whl
+[2023-07-07 13:48:01] INFO root fetch - processPackages [up-paraspace]: executing diffoscope
+[2023-07-07 13:48:01] INFO root fetch - processPackages [up-paraspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_paraspace-0.0.4.tar.gz tmp/up_paraspace-0.0.5.tar.gz --markdown 20230707/u/up-paraspace/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-07 13:48:01] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2023-07-07 13:48:01] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-identity-sdk-0.0.2487.tar.gz tmp/finbourne-identity-sdk-0.0.840.tar.gz --markdown 20230707/f/finbourne-identity-sdk/0.0.2487-0.0.840/diff.md --exclude *.pyd
+[2023-07-07 13:48:01] INFO root fetch - processPackages [dbt-workflows-factory]: Downloading https://files.pythonhosted.org/packages/36/ad/08866fe1249bc1556b9d1466c0aee6ca64dc3574c39220396f23f5182200/dbt-workflows-factory-0.0.4.tar.gz
+[2023-07-07 13:48:01] INFO root fetch - processPackages [up-paraspace]: executing diffoscope
+[2023-07-07 13:48:01] INFO root fetch - processPackages [up-paraspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_paraspace-0.0.4.tar.gz tmp/up_paraspace-0.0.5.tar.gz --markdown 20230707/u/up-paraspace/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-07 13:48:01] INFO root fetch - processPackages [obiba-opal]: Downloading https://files.pythonhosted.org/packages/9e/5f/38293ebd323769a88c06dc3faa6bf3eea198c54fdf8c1ee23a57788c2525/obiba_opal-5.2.0.tar.gz
+[2023-07-07 13:48:01] INFO root fetch - processPackages [cdktf]: Downloading https://files.pythonhosted.org/packages/80/8d/cbc9ef418f046a8c17f614889aba72b6e668540a2966498bef6f1dbb3a10/cdktf-0.9.4.tar.gz
+[2023-07-07 13:48:01] INFO root fetch - processPackages [cdktf]: executing diffoscope
+[2023-07-07 13:48:01] INFO root fetch - processPackages [cdktf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-0.9.3.tar.gz tmp/cdktf-0.9.4.tar.gz --markdown 20230707/c/cdktf/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-07 13:48:01] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/f1/5b/6b01fa81ff1769f5c3b880ea8cb6beb281ecf95690d20367ac36243a870a/bigdl_chronos-2.4.0b20230706-py3-none-win_amd64.whl
+[2023-07-07 13:48:01] INFO root fetch - processPackages [dbt-workflows-factory]: executing diffoscope
+[2023-07-07 13:48:01] INFO root fetch - processPackages [dbt-workflows-factory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-workflows-factory-0.0.3.tar.gz tmp/dbt-workflows-factory-0.0.4.tar.gz --markdown 20230707/d/dbt-workflows-factory/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-07 13:48:01] INFO root fetch - processPackages [obiba-opal]: executing diffoscope
+[2023-07-07 13:48:01] INFO root fetch - processPackages [obiba-opal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obiba_opal-5.1.1.tar.gz tmp/obiba_opal-5.2.0.tar.gz --markdown 20230707/o/obiba-opal/5.1.1-5.2.0/diff.md --exclude *.pyd
+[2023-07-07 13:48:01] INFO root fetch - processPackages [music-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/6c/e4/5db0a43357c489f8787d54206236c638b8ce810e831732dbf33aea89c26c/music_assistant_frontend-20230707.1-py3-none-any.whl
+[2023-07-07 13:48:01] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-07-07 13:48:01] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230706-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230707-py3-none-win_amd64.whl.zip --markdown 20230707/b/bigdl-llm/2.4.0b20230706-2.4.0b20230707/diff.md --exclude *.pyd
+[2023-07-07 13:48:01] INFO root fetch - processPackages [music-assistant-frontend]: executing diffoscope
+[2023-07-07 13:48:01] INFO root fetch - processPackages [music-assistant-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music_assistant_frontend-20230707.0-py3-none-any.whl.zip tmp/music_assistant_frontend-20230707.1-py3-none-any.whl.zip --markdown 20230707/m/music-assistant-frontend/20230707.0-20230707.1/diff.md --exclude *.pyd
+[2023-07-07 13:48:01] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-07-07 13:48:01] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230705-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230706-py3-none-win_amd64.whl.zip --markdown 20230707/b/bigdl-chronos/2.4.0b20230705-2.4.0b20230706/diff.md --exclude *.pyd
+[2023-07-07 13:48:02] INFO root fetch - processPackages [doc-template-cloner]: Remove: archive file [/home/abi/fetcher/tmp/doc_template_cloner-0.0.6.tar.gz]
+[2023-07-07 13:48:02] INFO root fetch - processPackages [doc-template-cloner]: Remove: archive file [/home/abi/fetcher/tmp/doc_template_cloner-0.0.7.tar.gz]
+[2023-07-07 13:48:02] INFO root fetch - processPackages [doc-template-cloner]: Start processing: apifoncier
+[2023-07-07 13:48:02] INFO root fetch - main [MainThread]: End processing [doc-template-cloner]: success
+[2023-07-07 13:48:02] INFO root fetch - processPackages [up-paraspace]: Remove: archive file [/home/abi/fetcher/tmp/up_paraspace-0.0.4.tar.gz]
+[2023-07-07 13:48:02] INFO root fetch - processPackages [up-paraspace]: Remove: archive file [/home/abi/fetcher/tmp/up_paraspace-0.0.5.tar.gz]
+[2023-07-07 13:48:02] INFO root fetch - processPackages [up-paraspace]: Start processing: duplipy
+[2023-07-07 13:48:02] INFO root fetch - main [MainThread]: End processing [up-paraspace]: success
+[2023-07-07 13:48:02] INFO root fetch - processPackages [duplipy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-07 13:48:02] WARNING root fetch - processPackages [apifoncier]: Skipping, unable to determine old version
+[2023-07-07 13:48:02] INFO root fetch - processPackages [apifoncier]: Start processing: wappstoiot
+[2023-07-07 13:48:02] INFO root fetch - main [MainThread]: End processing [apifoncier] error
+[2023-07-07 13:48:02] INFO root fetch - processPackages [up-paraspace]: Start processing: smartapi-python
+[2023-07-07 13:48:02] INFO root fetch - main [MainThread]: End processing [up-paraspace]: success
+[2023-07-07 13:48:02] INFO root fetch - processPackages [duplipy]: Downloading https://files.pythonhosted.org/packages/56/df/66471320e1227e0c262332fe2eb2f4308cbc5963234c2ddb145e8aac0f1a/DupliPy-0.1.1.tar.gz
+[2023-07-07 13:48:02] INFO root fetch - processPackages [wappstoiot]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-07-07 13:48:02] INFO root fetch - processPackages [smartapi-python]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-07-07 13:48:02] INFO root fetch - processPackages [wappstoiot]: Downloading https://files.pythonhosted.org/packages/c9/46/02f26e5c938392542c0a40b03e7a0f7c404d3e0f4442731ff67161b498bc/wappstoiot-0.6.6.tar.gz
+[2023-07-07 13:48:02] INFO root fetch - processPackages [cdktf]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-0.9.3.tar.gz]
+[2023-07-07 13:48:02] INFO root fetch - processPackages [cdktf]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-0.9.4.tar.gz]
+[2023-07-07 13:48:02] INFO root fetch - main [MainThread]: End processing [cdktf]: success
+[2023-07-07 13:48:02] INFO root fetch - processPackages [duplipy]: Downloading https://files.pythonhosted.org/packages/e9/79/396a4e8053556f5fe15719f34a353116681c19c89f34c889af6179764e45/duplipy-0.1.2.tar.gz
+[2023-07-07 13:48:02] INFO root fetch - processPackages [smartapi-python]: Downloading https://files.pythonhosted.org/packages/78/0b/49db167d78e87f320f69919ff0efb3637a8ff0ebe53bef3ad566129eeb5d/smartapi-python-1.3.4.tar.gz
+[2023-07-07 13:48:03] INFO root fetch - processPackages [dbt-workflows-factory]: Remove: archive file [/home/abi/fetcher/tmp/dbt-workflows-factory-0.0.3.tar.gz]
+[2023-07-07 13:48:03] INFO root fetch - processPackages [dbt-workflows-factory]: Remove: archive file [/home/abi/fetcher/tmp/dbt-workflows-factory-0.0.4.tar.gz]
+[2023-07-07 13:48:03] INFO root fetch - main [MainThread]: End processing [dbt-workflows-factory]: success
+[2023-07-07 13:48:03] INFO root fetch - processPackages [duplipy]: executing diffoscope
+[2023-07-07 13:48:03] INFO root fetch - processPackages [duplipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DupliPy-0.1.1.tar.gz tmp/duplipy-0.1.2.tar.gz --markdown 20230707/d/duplipy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-07 13:48:03] INFO root fetch - processPackages [obiba-opal]: Remove: archive file [/home/abi/fetcher/tmp/obiba_opal-5.1.1.tar.gz]
+[2023-07-07 13:48:03] INFO root fetch - processPackages [obiba-opal]: Remove: archive file [/home/abi/fetcher/tmp/obiba_opal-5.2.0.tar.gz]
+[2023-07-07 13:48:03] INFO root fetch - main [MainThread]: End processing [obiba-opal]: success
+[2023-07-07 13:48:03] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-identity-sdk-0.0.2487.tar.gz]
+[2023-07-07 13:48:03] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-identity-sdk-0.0.840.tar.gz]
+[2023-07-07 13:48:03] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2023-07-07 13:48:03] INFO root fetch - processPackages [wappstoiot]: Downloading https://files.pythonhosted.org/packages/27/aa/10c580d3e85453212eb100861752840c9a58bdf2a83b86d9f8581a618b52/wappstoiot-0.6.7.tar.gz
+[2023-07-07 13:48:03] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230706-py3-none-win_amd64.whl.zip]
+[2023-07-07 13:48:03] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230707-py3-none-win_amd64.whl.zip]
+[2023-07-07 13:48:03] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-07-07 13:48:03] INFO root fetch - processPackages [smartapi-python]: Downloading https://files.pythonhosted.org/packages/08/8b/29a55e2fa3d20917029acacdfd08420a53a18e47502ee71d57c6d43d3b5c/smartapi-python-1.3.5.tar.gz
+[2023-07-07 13:48:03] INFO root fetch - processPackages [wappstoiot]: executing diffoscope
+[2023-07-07 13:48:03] INFO root fetch - processPackages [wappstoiot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wappstoiot-0.6.6.tar.gz tmp/wappstoiot-0.6.7.tar.gz --markdown 20230707/w/wappstoiot/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-07-07 13:48:03] INFO root fetch - processPackages [smartapi-python]: executing diffoscope
+[2023-07-07 13:48:03] INFO root fetch - processPackages [smartapi-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartapi-python-1.3.4.tar.gz tmp/smartapi-python-1.3.5.tar.gz --markdown 20230707/s/smartapi-python/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-07-07 13:48:03] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230705-py3-none-win_amd64.whl.zip]
+[2023-07-07 13:48:03] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230706-py3-none-win_amd64.whl.zip]
+[2023-07-07 13:48:03] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-07-07 13:48:04] INFO root fetch - processPackages [duplipy]: Remove: archive file [/home/abi/fetcher/tmp/DupliPy-0.1.1.tar.gz]
+[2023-07-07 13:48:04] INFO root fetch - processPackages [duplipy]: Remove: archive file [/home/abi/fetcher/tmp/duplipy-0.1.2.tar.gz]
+[2023-07-07 13:48:04] INFO root fetch - main [MainThread]: End processing [duplipy]: success
+[2023-07-07 13:48:04] INFO root fetch - processPackages [wappstoiot]: Remove: archive file [/home/abi/fetcher/tmp/wappstoiot-0.6.6.tar.gz]
+[2023-07-07 13:48:04] INFO root fetch - processPackages [wappstoiot]: Remove: archive file [/home/abi/fetcher/tmp/wappstoiot-0.6.7.tar.gz]
+[2023-07-07 13:48:04] INFO root fetch - main [MainThread]: End processing [wappstoiot]: success
+[2023-07-07 13:48:04] INFO root fetch - processPackages [smartapi-python]: Remove: archive file [/home/abi/fetcher/tmp/smartapi-python-1.3.4.tar.gz]
+[2023-07-07 13:48:04] INFO root fetch - processPackages [smartapi-python]: Remove: archive file [/home/abi/fetcher/tmp/smartapi-python-1.3.5.tar.gz]
+[2023-07-07 13:48:04] INFO root fetch - main [MainThread]: End processing [smartapi-python]: success
+[2023-07-07 13:48:16] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music_assistant_frontend-20230707.0-py3-none-any.whl.zip]
+[2023-07-07 13:48:16] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music_assistant_frontend-20230707.1-py3-none-any.whl.zip]
+[2023-07-07 13:48:16] INFO root fetch - main [MainThread]: End processing [music-assistant-frontend]: success
+[2023-07-07 13:48:16] INFO root fetch - main [MainThread]: Store serial: [18799776]
