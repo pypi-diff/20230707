@@ -1945,3 +1945,142 @@
 [2023-07-07 02:02:41] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.6.tar.gz]
 [2023-07-07 02:02:41] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
 [2023-07-07 02:02:41] INFO root fetch - main [MainThread]: Store serial: [18792453]
+[2023-07-07 02:07:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18792453]
+[2023-07-07 02:07:50] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-07 02:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agentmemory
+[2023-07-07 02:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchdatasets-nightly
+[2023-07-07 02:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyechorobotics
+[2023-07-07 02:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mct-nightly
+[2023-07-07 02:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jaxkern-nightly
+[2023-07-07 02:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agentmemory
+[2023-07-07 02:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jaxutils-nightly
+[2023-07-07 02:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: amplitude-experiment
+[2023-07-07 02:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: problem-bank-scripts
+[2023-07-07 02:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: agentmemory
+[2023-07-07 02:07:50] INFO root fetch - processPackages [agentmemory]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-07 02:07:50] INFO root fetch - processPackages [amplitude-experiment]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-07 02:07:50] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-07-07 02:07:50] INFO root fetch - processPackages [agentmemory]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-07 02:07:50] INFO root fetch - processPackages [pyechorobotics]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 02:07:50] INFO root fetch - processPackages [agentmemory]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-07 02:07:50] INFO root fetch - processPackages [problem-bank-scripts]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-07-07 02:07:50] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230706] Old Version: [0.0.8.dev20230705]
+[2023-07-07 02:07:50] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230706.post446] Old Version: [1.9.0.20230705.post427]
+[2023-07-07 02:07:50] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1688601833] Old Version: [1688515458]
+[2023-07-07 02:07:50] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-07-07 02:07:50] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/5b/0c/1e5fb17fa770e0fc556e3aace2a772428689e044aba0b7f888b3a2d20552/jaxutils-nightly-0.0.8.dev20230705.tar.gz
+[2023-07-07 02:07:50] INFO root fetch - processPackages [pyechorobotics]: Downloading https://files.pythonhosted.org/packages/2f/68/ea667a623384f21be53f753032814ae03f312cb4762f767c469ec24e7afb/pyechorobotics-0.0.8.tar.gz
+[2023-07-07 02:07:50] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/23/78/dcacd80927f9036c5c3401cf4ba9e63f9718099101bc57770a2722de4940/mct-nightly-1.9.0.20230705.post427.tar.gz
+[2023-07-07 02:07:51] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/3f/9c/e7f97f290e4a63403ff6c4ef44a11955e5d278edb90999315521396022f9/agentmemory-0.1.5.tar.gz
+[2023-07-07 02:07:51] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/3f/9c/e7f97f290e4a63403ff6c4ef44a11955e5d278edb90999315521396022f9/agentmemory-0.1.5.tar.gz
+[2023-07-07 02:07:51] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/3f/9c/e7f97f290e4a63403ff6c4ef44a11955e5d278edb90999315521396022f9/agentmemory-0.1.5.tar.gz
+[2023-07-07 02:07:51] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/d9/2c/2dbcf2165ddf40019e426d5eed9855c750a90185b4bdd4b13df9b6c6e3fe/torchdatasets-nightly-1688515458.tar.gz
+[2023-07-07 02:07:51] INFO root fetch - processPackages [problem-bank-scripts]: Downloading https://files.pythonhosted.org/packages/26/87/69ec7f1302431e3d0ea2d3dc4ee4176234c6f983e074566a5e23a9ece141/problem_bank_scripts-0.6.2.tar.gz
+[2023-07-07 02:07:51] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-07-07 02:07:51] INFO root fetch - processPackages [amplitude-experiment]: Downloading https://files.pythonhosted.org/packages/49/a5/bc221bed40a95ca121b03204c588103bba366a2a148360bd5f8c47d9a29c/amplitude-experiment-1.1.3.tar.gz
+[2023-07-07 02:07:51] INFO root fetch - processPackages [pyechorobotics]: Downloading https://files.pythonhosted.org/packages/d3/96/7751f4b44f2cb4e1fb843b8f1ee28f65c46edae9b791a938210b09f775b4/pyechorobotics-0.0.9.tar.gz
+[2023-07-07 02:07:51] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-07-07 02:07:51] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230707/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-07-07 02:07:51] INFO root fetch - processPackages [pyechorobotics]: executing diffoscope
+[2023-07-07 02:07:51] INFO root fetch - processPackages [pyechorobotics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyechorobotics-0.0.8.tar.gz tmp/pyechorobotics-0.0.9.tar.gz --markdown 20230707/p/pyechorobotics/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 02:07:51] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/91/09/93be5d2afec6244b8930855e75d52f612ca77d738f3b3b7f669fd9ecb2eb/agentmemory-0.1.6.tar.gz
+[2023-07-07 02:07:51] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/91/09/93be5d2afec6244b8930855e75d52f612ca77d738f3b3b7f669fd9ecb2eb/agentmemory-0.1.6.tar.gz
+[2023-07-07 02:07:51] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/91/09/93be5d2afec6244b8930855e75d52f612ca77d738f3b3b7f669fd9ecb2eb/agentmemory-0.1.6.tar.gz
+[2023-07-07 02:07:51] INFO root fetch - processPackages [amplitude-experiment]: executing diffoscope
+[2023-07-07 02:07:51] INFO root fetch - processPackages [amplitude-experiment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amplitude-experiment-1.1.2.tar.gz tmp/amplitude-experiment-1.1.3.tar.gz --markdown 20230707/a/amplitude-experiment/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-07 02:07:51] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/b9/ea/eb51cf6280160108bbec0f30c3471543c9e28a42cd5f9cc213f734e72a8d/mct-nightly-1.9.0.20230706.post446.tar.gz
+[2023-07-07 02:07:51] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/74/69/6cbd3cd56b012844e0628e197215c40743e5bbc891e7d8d1a750cd1da46f/jaxutils-nightly-0.0.8.dev20230706.tar.gz
+[2023-07-07 02:07:51] INFO root fetch - processPackages [agentmemory]: executing diffoscope
+[2023-07-07 02:07:51] INFO root fetch - processPackages [agentmemory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentmemory-0.1.5.tar.gz tmp/agentmemory-0.1.6.tar.gz --markdown 20230707/a/agentmemory/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-07 02:07:51] INFO root fetch - processPackages [agentmemory]: executing diffoscope
+[2023-07-07 02:07:51] INFO root fetch - processPackages [agentmemory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentmemory-0.1.5.tar.gz tmp/agentmemory-0.1.6.tar.gz --markdown 20230707/a/agentmemory/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-07 02:07:51] INFO root fetch - processPackages [problem-bank-scripts]: Downloading https://files.pythonhosted.org/packages/d6/34/8c3fd54c3a6b8b7cad03c63a253df6620cad6ec02914c1d7add1217720b8/problem_bank_scripts-0.7.0.tar.gz
+[2023-07-07 02:07:51] INFO root fetch - processPackages [agentmemory]: executing diffoscope
+[2023-07-07 02:07:51] INFO root fetch - processPackages [agentmemory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentmemory-0.1.5.tar.gz tmp/agentmemory-0.1.6.tar.gz --markdown 20230707/a/agentmemory/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-07 02:07:51] INFO root fetch - processPackages [problem-bank-scripts]: executing diffoscope
+[2023-07-07 02:07:51] INFO root fetch - processPackages [problem-bank-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/problem_bank_scripts-0.6.2.tar.gz tmp/problem_bank_scripts-0.7.0.tar.gz --markdown 20230707/p/problem-bank-scripts/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-07-07 02:07:51] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-07-07 02:07:51] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230705.post427.tar.gz tmp/mct-nightly-1.9.0.20230706.post446.tar.gz --markdown 20230707/m/mct-nightly/1.9.0.20230705.post427-1.9.0.20230706.post446/diff.md --exclude *.pyd
+[2023-07-07 02:07:51] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-07-07 02:07:51] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230705.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230706.tar.gz --markdown 20230707/j/jaxutils-nightly/0.0.8.dev20230705-0.0.8.dev20230706/diff.md --exclude *.pyd
+[2023-07-07 02:07:51] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/20/10/e02b8eaef260932f9dcf24fbe082220cfc9c57563cd77e055e532783be59/torchdatasets-nightly-1688601833.tar.gz
+[2023-07-07 02:07:52] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-07-07 02:07:52] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1688515458.tar.gz tmp/torchdatasets-nightly-1688601833.tar.gz --markdown 20230707/t/torchdatasets-nightly/1688515458-1688601833/diff.md --exclude *.pyd
+[2023-07-07 02:07:52] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-07-07 02:07:52] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-07-07 02:07:52] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-07-07 02:07:53] INFO root fetch - processPackages [agentmemory]: Remove: archive file [/home/abi/fetcher/tmp/agentmemory-0.1.5.tar.gz]
+[2023-07-07 02:07:53] INFO root fetch - processPackages [agentmemory]: Remove: archive file [/home/abi/fetcher/tmp/agentmemory-0.1.6.tar.gz]
+[2023-07-07 02:07:53] INFO root fetch - main [MainThread]: End processing [agentmemory]: success
+[2023-07-07 02:07:53] INFO root fetch - processPackages [pyechorobotics]: Remove: archive file [/home/abi/fetcher/tmp/pyechorobotics-0.0.8.tar.gz]
+[2023-07-07 02:07:53] INFO root fetch - processPackages [pyechorobotics]: Remove: archive file [/home/abi/fetcher/tmp/pyechorobotics-0.0.9.tar.gz]
+[2023-07-07 02:07:53] INFO root fetch - main [MainThread]: End processing [pyechorobotics]: success
+[2023-07-07 02:07:53] INFO root fetch - main [MainThread]: End processing [agentmemory]: success
+[2023-07-07 02:07:53] INFO root fetch - main [MainThread]: End processing [agentmemory]: success
+[2023-07-07 02:07:53] INFO root fetch - processPackages [problem-bank-scripts]: Remove: archive file [/home/abi/fetcher/tmp/problem_bank_scripts-0.6.2.tar.gz]
+[2023-07-07 02:07:53] INFO root fetch - processPackages [problem-bank-scripts]: Remove: archive file [/home/abi/fetcher/tmp/problem_bank_scripts-0.7.0.tar.gz]
+[2023-07-07 02:07:53] INFO root fetch - main [MainThread]: End processing [problem-bank-scripts]: success
+[2023-07-07 02:07:53] ERROR root fetch - processPackages [amplitude-experiment]: Diffoscope failed: time="2023-07-07T02:07:51+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2023-07-07 02:07:53] INFO root fetch - main [MainThread]: End processing [amplitude-experiment] error
+[2023-07-07 02:07:53] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230705.tar.gz]
+[2023-07-07 02:07:53] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1688515458.tar.gz]
+[2023-07-07 02:07:53] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230706.tar.gz]
+[2023-07-07 02:07:53] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1688601833.tar.gz]
+[2023-07-07 02:07:53] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-07-07 02:07:53] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-07-07 02:07:55] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230705.post427.tar.gz]
+[2023-07-07 02:07:55] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230706.post446.tar.gz]
+[2023-07-07 02:07:55] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-07-07 02:07:55] INFO root fetch - main [MainThread]: Store serial: [18792480]
