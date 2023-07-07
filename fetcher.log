@@ -13310,3 +13310,113 @@ EOFError: EOF read where object expected
 [2023-07-07 08:47:29] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
 [2023-07-07 08:47:29] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
 [2023-07-07 08:47:29] INFO root fetch - main [MainThread]: Store serial: [18796591]
+[2023-07-07 08:52:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18796591]
+[2023-07-07 08:52:38] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-07 08:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-sso-client-manager
+[2023-07-07 08:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cigsegy
+[2023-07-07 08:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sharingiscaring
+[2023-07-07 08:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dbt-fabric
+[2023-07-07 08:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sh-dynamodb
+[2023-07-07 08:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gval
+[2023-07-07 08:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sh-dynamodb
+[2023-07-07 08:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-07-07 08:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ddadevops
+[2023-07-07 08:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xj-flow
+[2023-07-07 08:52:38] WARNING root fetch - processPackages [django-sso-client-manager]: Skipping, unable to determine old version
+[2023-07-07 08:52:38] INFO root fetch - processPackages [django-sso-client-manager]: Start processing: sh-dynamodb
+[2023-07-07 08:52:38] INFO root fetch - main [MainThread]: End processing [django-sso-client-manager] error
+[2023-07-07 08:52:38] INFO root fetch - processPackages [xj-flow]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-07 08:52:38] INFO root fetch - processPackages [gval]: New version: [0.1.2a0] Old Version: [0.1.1a0]
+[2023-07-07 08:52:38] INFO root fetch - processPackages [dbt-fabric]: New version: [1.4.0rc3] Old Version: [1.4.0rc2]
+[2023-07-07 08:52:38] INFO root fetch - processPackages [sh-dynamodb]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-07 08:52:38] INFO root fetch - processPackages [sh-dynamodb]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-07 08:52:38] INFO root fetch - processPackages [cigsegy]: New version: [1.1.4] Old Version: [1.1.2]
+[2023-07-07 08:52:38] INFO root fetch - processPackages [sharingiscaring]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-07 08:52:38] INFO root fetch - processPackages [sh-dynamodb]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-07 08:52:38] INFO root fetch - processPackages [ddadevops]: New version: [4.0.2] Old Version: [4.0.0.dev9]
+[2023-07-07 08:52:38] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-07 08:52:38] INFO root fetch - processPackages [xj-flow]: Downloading https://files.pythonhosted.org/packages/4b/98/1a3f618c2c4858fcf9b224f239f42c312217e8a3deb7f2ac59a023163a9f/xj_flow-1.0.8.tar.gz
+[2023-07-07 08:52:38] INFO root fetch - processPackages [gval]: Downloading https://files.pythonhosted.org/packages/cf/ad/0bf6b1a2ae9d412a76b71ed715f40dce6d9bb42d5366e29686e69000e17a/gval-0.1.1a0.tar.gz
+[2023-07-07 08:52:38] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-07-07 08:52:38] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/1a/08/2cc64f9080402b648c61f955d3eef2148f5a01af49c6ca6905fe47939af0/ddadevops-4.0.0.dev9.tar.gz
+[2023-07-07 08:52:39] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/81/71/7a8456f933bf31ee155a99cf13b5c1b044b7643392cd7ecd97ebe1ebd889/sh-dynamodb-1.2.1.tar.gz
+[2023-07-07 08:52:39] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/81/71/7a8456f933bf31ee155a99cf13b5c1b044b7643392cd7ecd97ebe1ebd889/sh-dynamodb-1.2.1.tar.gz
+[2023-07-07 08:52:39] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/81/71/7a8456f933bf31ee155a99cf13b5c1b044b7643392cd7ecd97ebe1ebd889/sh-dynamodb-1.2.1.tar.gz
+[2023-07-07 08:52:39] INFO root fetch - processPackages [dbt-fabric]: Downloading https://files.pythonhosted.org/packages/90/04/8ca9053eeef49ceac337e2a78f1e3c1023dd55a733811f8bfbad5f2fab44/dbt-fabric-1.4.0rc2.tar.gz
+[2023-07-07 08:52:39] INFO root fetch - processPackages [cigsegy]: Downloading https://files.pythonhosted.org/packages/b5/14/81a28d11307c30f040958cdd4252d0bc3a9ea68700f8556894d4348c5cf0/cigsegy-1.1.2.tar.gz
+[2023-07-07 08:52:39] INFO root fetch - processPackages [sharingiscaring]: Downloading https://files.pythonhosted.org/packages/ec/8c/18f997c3d361aa358776fa84dc75aa9ae090ce8fbc3f7099d41d86437e2e/sharingiscaring-0.2.8.tar.gz
+[2023-07-07 08:52:39] INFO root fetch - processPackages [xj-flow]: Downloading https://files.pythonhosted.org/packages/93/02/013abb0effbefa548538af1945ba2798a7c0ccbda7de2e19a099047da628/xj_flow-1.0.9.tar.gz
+[2023-07-07 08:52:39] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-07-07 08:52:39] INFO root fetch - processPackages [gval]: Downloading https://files.pythonhosted.org/packages/b4/6d/acee8f17ef26bb08bd0744cb49a54fa5773e7e3ae00ff4aa4742eee0704f/gval-0.1.2a0.tar.gz
+[2023-07-07 08:52:39] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/ec/b5/c3e20ef0a4952af00510ccdc980d2dea2fa53490983ecbae271c8da2cb2a/ddadevops-4.0.2.tar.gz
+[2023-07-07 08:52:39] INFO root fetch - processPackages [xj-flow]: executing diffoscope
+[2023-07-07 08:52:39] INFO root fetch - processPackages [xj-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_flow-1.0.8.tar.gz tmp/xj_flow-1.0.9.tar.gz --markdown 20230707/x/xj-flow/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-07 08:52:39] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/c2/85/50b81d6c278775f1cf69c18ade56608d2ed0e4a1c0cc73e405df07ac87a6/sh-dynamodb-1.2.2.tar.gz
+[2023-07-07 08:52:39] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/c2/85/50b81d6c278775f1cf69c18ade56608d2ed0e4a1c0cc73e405df07ac87a6/sh-dynamodb-1.2.2.tar.gz
+[2023-07-07 08:52:39] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/c2/85/50b81d6c278775f1cf69c18ade56608d2ed0e4a1c0cc73e405df07ac87a6/sh-dynamodb-1.2.2.tar.gz
+[2023-07-07 08:52:39] INFO root fetch - processPackages [sharingiscaring]: Downloading https://files.pythonhosted.org/packages/3c/51/994c3bf1116cc8b6234cbdc78a444ab9f875f5c3ce1e11c36bc0b2cdfa0e/sharingiscaring-0.2.9.tar.gz
+[2023-07-07 08:52:39] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-07-07 08:52:39] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230707/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-07 08:52:39] INFO root fetch - processPackages [dbt-fabric]: Downloading https://files.pythonhosted.org/packages/40/f6/f14e6a45cc00f03a36fa403ee9a2d4aaa742950d8aec38547561df522da6/dbt-fabric-1.4.0rc3.tar.gz
+[2023-07-07 08:52:39] INFO root fetch - processPackages [cigsegy]: Downloading https://files.pythonhosted.org/packages/56/f9/b2e91646681d41dc6467797adae3b92a99a649ac5fffa2af91044c922316/cigsegy-1.1.4.tar.gz
+[2023-07-07 08:52:39] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-07-07 08:52:39] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.0.0.dev9.tar.gz tmp/ddadevops-4.0.2.tar.gz --markdown 20230707/d/ddadevops/4.0.0.dev9-4.0.2/diff.md --exclude *.pyd
+[2023-07-07 08:52:39] INFO root fetch - processPackages [gval]: executing diffoscope
+[2023-07-07 08:52:39] INFO root fetch - processPackages [gval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gval-0.1.1a0.tar.gz tmp/gval-0.1.2a0.tar.gz --markdown 20230707/g/gval/0.1.1a0-0.1.2a0/diff.md --exclude *.pyd
+[2023-07-07 08:52:39] INFO root fetch - processPackages [dbt-fabric]: executing diffoscope
+[2023-07-07 08:52:39] INFO root fetch - processPackages [dbt-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-fabric-1.4.0rc2.tar.gz tmp/dbt-fabric-1.4.0rc3.tar.gz --markdown 20230707/d/dbt-fabric/1.4.0rc2-1.4.0rc3/diff.md --exclude *.pyd
+[2023-07-07 08:52:39] INFO root fetch - processPackages [sharingiscaring]: executing diffoscope
+[2023-07-07 08:52:39] INFO root fetch - processPackages [sharingiscaring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharingiscaring-0.2.8.tar.gz tmp/sharingiscaring-0.2.9.tar.gz --markdown 20230707/s/sharingiscaring/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-07 08:52:39] INFO root fetch - processPackages [sh-dynamodb]: executing diffoscope
+[2023-07-07 08:52:39] INFO root fetch - processPackages [sh-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sh-dynamodb-1.2.1.tar.gz tmp/sh-dynamodb-1.2.2.tar.gz --markdown 20230707/s/sh-dynamodb/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-07 08:52:39] INFO root fetch - processPackages [sh-dynamodb]: executing diffoscope
+[2023-07-07 08:52:39] INFO root fetch - processPackages [sh-dynamodb]: executing diffoscope
+[2023-07-07 08:52:39] INFO root fetch - processPackages [sh-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sh-dynamodb-1.2.1.tar.gz tmp/sh-dynamodb-1.2.2.tar.gz --markdown 20230707/s/sh-dynamodb/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-07 08:52:39] INFO root fetch - processPackages [sh-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sh-dynamodb-1.2.1.tar.gz tmp/sh-dynamodb-1.2.2.tar.gz --markdown 20230707/s/sh-dynamodb/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-07 08:52:40] INFO root fetch - processPackages [cigsegy]: executing diffoscope
+[2023-07-07 08:52:40] INFO root fetch - processPackages [cigsegy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cigsegy-1.1.2.tar.gz tmp/cigsegy-1.1.4.tar.gz --markdown 20230707/c/cigsegy/1.1.2-1.1.4/diff.md --exclude *.pyd
+[2023-07-07 08:52:41] INFO root fetch - processPackages [xj-flow]: Remove: archive file [/home/abi/fetcher/tmp/xj_flow-1.0.8.tar.gz]
+[2023-07-07 08:52:41] INFO root fetch - processPackages [xj-flow]: Remove: archive file [/home/abi/fetcher/tmp/xj_flow-1.0.9.tar.gz]
+[2023-07-07 08:52:41] INFO root fetch - processPackages [xj-flow]: Start processing: playsound2
+[2023-07-07 08:52:41] INFO root fetch - main [MainThread]: End processing [xj-flow]: success
+[2023-07-07 08:52:41] INFO root fetch - processPackages [ddadevops]: Remove: archive file [/home/abi/fetcher/tmp/ddadevops-4.0.0.dev9.tar.gz]
+[2023-07-07 08:52:41] INFO root fetch - processPackages [ddadevops]: Remove: archive file [/home/abi/fetcher/tmp/ddadevops-4.0.2.tar.gz]
+[2023-07-07 08:52:41] INFO root fetch - processPackages [ddadevops]: Start processing: rayvision-c4d
+[2023-07-07 08:52:41] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-07-07 08:52:41] WARNING root fetch - processPackages [playsound2]: Skipping, unable to determine old version
+[2023-07-07 08:52:41] INFO root fetch - processPackages [playsound2]: Start processing: kiwi
+[2023-07-07 08:52:41] INFO root fetch - main [MainThread]: End processing [playsound2] error
+[2023-07-07 08:52:41] INFO root fetch - processPackages [sh-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/sh-dynamodb-1.2.1.tar.gz]
+[2023-07-07 08:52:41] INFO root fetch - processPackages [sh-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/sh-dynamodb-1.2.2.tar.gz]
+[2023-07-07 08:52:41] INFO root fetch - main [MainThread]: End processing [sh-dynamodb]: success
+[2023-07-07 08:52:41] INFO root fetch - processPackages [kiwi]: New version: [9.8.0] Old Version: [9.7.4]
+[2023-07-07 08:52:41] INFO root fetch - processPackages [rayvision-c4d]: New version: [1.0.2.1] Old Version: [1.0.1]
+[2023-07-07 08:52:41] INFO root fetch - main [MainThread]: End processing [sh-dynamodb]: success
+[2023-07-07 08:52:41] INFO root fetch - processPackages [dbt-fabric]: Remove: archive file [/home/abi/fetcher/tmp/dbt-fabric-1.4.0rc2.tar.gz]
+[2023-07-07 08:52:41] INFO root fetch - processPackages [dbt-fabric]: Remove: archive file [/home/abi/fetcher/tmp/dbt-fabric-1.4.0rc3.tar.gz]
+[2023-07-07 08:52:41] INFO root fetch - main [MainThread]: End processing [dbt-fabric]: success
+[2023-07-07 08:52:41] INFO root fetch - processPackages [gval]: Remove: archive file [/home/abi/fetcher/tmp/gval-0.1.1a0.tar.gz]
+[2023-07-07 08:52:41] INFO root fetch - processPackages [gval]: Remove: archive file [/home/abi/fetcher/tmp/gval-0.1.2a0.tar.gz]
+[2023-07-07 08:52:41] INFO root fetch - main [MainThread]: End processing [gval]: success
+[2023-07-07 08:52:41] INFO root fetch - processPackages [cigsegy]: Remove: archive file [/home/abi/fetcher/tmp/cigsegy-1.1.2.tar.gz]
+[2023-07-07 08:52:41] INFO root fetch - processPackages [cigsegy]: Remove: archive file [/home/abi/fetcher/tmp/cigsegy-1.1.4.tar.gz]
+[2023-07-07 08:52:41] INFO root fetch - main [MainThread]: End processing [cigsegy]: success
+[2023-07-07 08:52:41] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-07-07 08:52:41] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-07-07 08:52:41] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-07-07 08:52:41] INFO root fetch - main [MainThread]: End processing [sh-dynamodb]: success
+[2023-07-07 08:52:41] INFO root fetch - processPackages [rayvision-c4d]: Downloading https://files.pythonhosted.org/packages/47/0a/4c6b1c1596663d9ce293335a0c82abc62c9bff83c2978d69146a203f662f/rayvision_c4d-1.0.1.tar.gz
+[2023-07-07 08:52:41] INFO root fetch - processPackages [sharingiscaring]: Remove: archive file [/home/abi/fetcher/tmp/sharingiscaring-0.2.8.tar.gz]
+[2023-07-07 08:52:41] INFO root fetch - processPackages [sharingiscaring]: Remove: archive file [/home/abi/fetcher/tmp/sharingiscaring-0.2.9.tar.gz]
+[2023-07-07 08:52:42] INFO root fetch - main [MainThread]: End processing [sharingiscaring]: success
+[2023-07-07 08:52:42] INFO root fetch - processPackages [kiwi]: executing diffoscope
+[2023-07-07 08:52:42] INFO root fetch - processPackages [kiwi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiwi-9.7.4.tar.gz tmp/kiwi-9.8.0.tar.gz --markdown 20230707/k/kiwi/9.7.4-9.8.0/diff.md --exclude *.pyd
+[2023-07-07 08:52:42] INFO root fetch - processPackages [rayvision-c4d]: Downloading https://files.pythonhosted.org/packages/df/6f/e43dd754e3bb4863f04faed33d07686f1d0f8c3032cf4dba040ebe0fda34/rayvision_c4d-1.0.2.1.tar.gz
+[2023-07-07 08:52:42] INFO root fetch - processPackages [rayvision-c4d]: executing diffoscope
+[2023-07-07 08:52:42] INFO root fetch - processPackages [rayvision-c4d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rayvision_c4d-1.0.1.tar.gz tmp/rayvision_c4d-1.0.2.1.tar.gz --markdown 20230707/r/rayvision-c4d/1.0.1-1.0.2.1/diff.md --exclude *.pyd
+[2023-07-07 08:52:43] INFO root fetch - processPackages [rayvision-c4d]: Remove: archive file [/home/abi/fetcher/tmp/rayvision_c4d-1.0.1.tar.gz]
+[2023-07-07 08:52:43] INFO root fetch - processPackages [rayvision-c4d]: Remove: archive file [/home/abi/fetcher/tmp/rayvision_c4d-1.0.2.1.tar.gz]
+[2023-07-07 08:52:43] INFO root fetch - main [MainThread]: End processing [rayvision-c4d]: success
+[2023-07-07 08:55:42] ERROR root fetch - processPackages [kiwi]: Timeout during execution of pkgdiff
+[2023-07-07 08:55:42] INFO root fetch - main [MainThread]: End processing [kiwi] error
+[2023-07-07 08:55:42] INFO root fetch - main [MainThread]: Store serial: [18796643]
