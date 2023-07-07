@@ -22941,3 +22941,101 @@ AssertionError: tmp/polyanalyst6api-0.9.1.tar.gz does not exist
 [2023-07-07 14:57:13] INFO root fetch - processPackages [bibat]: Remove: archive file [/home/abi/fetcher/tmp/bibat-0.1.9.tar.gz]
 [2023-07-07 14:57:13] INFO root fetch - main [MainThread]: End processing [bibat]: success
 [2023-07-07 14:57:13] INFO root fetch - main [MainThread]: Store serial: [18800733]
+[2023-07-07 15:02:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18800733]
+[2023-07-07 15:02:26] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-07 15:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skale.py
+[2023-07-07 15:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lib310-lite
+[2023-07-07 15:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phylotreeclus
+[2023-07-07 15:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: myproj1
+[2023-07-07 15:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pygmtools
+[2023-07-07 15:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coiled
+[2023-07-07 15:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: duplipy
+[2023-07-07 15:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: servantcord
+[2023-07-07 15:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cubicweb-link
+[2023-07-07 15:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: opensesame-core
+[2023-07-07 15:02:26] INFO root fetch - processPackages [lib310-lite]: New version: [0.1.0.dev5] Old Version: [0.1.0.dev4]
+[2023-07-07 15:02:26] INFO root fetch - processPackages [duplipy]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-07 15:02:26] INFO root fetch - processPackages [pygmtools]: New version: [0.3.8a3] Old Version: [0.3.8a2]
+[2023-07-07 15:02:26] INFO root fetch - processPackages [servantcord]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-07 15:02:26] INFO root fetch - processPackages [coiled]: New version: [0.8.4.dev9] Old Version: [0.8.4.dev8]
+[2023-07-07 15:02:26] ERROR root fetch - processPackages [myproj1]: Unable to get metadata: No such project 'myproj1'
+[2023-07-07 15:02:26] INFO root fetch - processPackages [myproj1]: Start processing: nonebot-plugin-splatoon3
+[2023-07-07 15:02:26] INFO root fetch - main [MainThread]: End processing [myproj1] error
+[2023-07-07 15:02:26] INFO root fetch - processPackages [skale.py]: New version: [6.0.dev3] Old Version: [6.0.dev2]
+[2023-07-07 15:02:26] INFO root fetch - processPackages [cubicweb-link]: New version: [2.0.0] Old Version: [1.9.1]
+[2023-07-07 15:02:26] INFO root fetch - processPackages [opensesame-core]: New version: [4.0.0a51] Old Version: [4.0.0a50]
+[2023-07-07 15:02:26] WARNING root fetch - processPackages [phylotreeclus]: Skipping, unable to determine old version
+[2023-07-07 15:02:26] INFO root fetch - processPackages [phylotreeclus]: Start processing: nwebclient
+[2023-07-07 15:02:26] INFO root fetch - main [MainThread]: End processing [phylotreeclus] error
+[2023-07-07 15:02:26] WARNING root fetch - processPackages [nonebot-plugin-splatoon3]: Skipping, unable to determine old version
+[2023-07-07 15:02:26] INFO root fetch - processPackages [nonebot-plugin-splatoon3]: Start processing: bibat
+[2023-07-07 15:02:26] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-splatoon3] error
+[2023-07-07 15:02:26] INFO root fetch - processPackages [pygmtools]: Downloading https://files.pythonhosted.org/packages/b0/7c/9e554e6734419f1265f77b86b6c0e6439ae2abfc04893cda068a01092200/pygmtools-0.3.8a2.tar.gz
+[2023-07-07 15:02:26] INFO root fetch - processPackages [duplipy]: Downloading https://files.pythonhosted.org/packages/5f/40/5df1b35f4594d4813a731e89a561787bcbb4462bad167bf616b44e1c7c1d/duplipy-0.1.3.tar.gz
+[2023-07-07 15:02:26] INFO root fetch - processPackages [servantcord]: Downloading https://files.pythonhosted.org/packages/77/53/0a1fa92db696bbfea4cd0aa91e75c1ce54b7eccd93d5571573b6edd2bcf1/servantcord-1.0.1.tar.gz
+[2023-07-07 15:02:26] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-07 15:02:26] INFO root fetch - processPackages [bibat]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-07 15:02:26] INFO root fetch - processPackages [lib310-lite]: Downloading https://files.pythonhosted.org/packages/18/ed/eae0016f5c4a20a4eb60a94de037f050ebe572cb0425cb173e654fdbc72b/lib310_lite-0.1.0.dev4.tar.gz
+[2023-07-07 15:02:26] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/46/26/adc3f351fad1abdcb7b4aa5122f7da68b3d36b94a1b685e707a24f878122/coiled-0.8.4.dev8.tar.gz
+[2023-07-07 15:02:26] INFO root fetch - processPackages [cubicweb-link]: Downloading https://files.pythonhosted.org/packages/85/e1/60fb9981e6903e300acbc02c193cf7284269ec87c404598f793e8cf12227/cubicweb-link-1.9.1.tar.gz
+[2023-07-07 15:02:26] INFO root fetch - processPackages [skale.py]: Downloading https://files.pythonhosted.org/packages/79/57/4c39b6414f24079c071437d3a8df41d33587e6199edcc0d7c7661edcf002/skale.py-6.0.dev2.tar.gz
+[2023-07-07 15:02:26] INFO root fetch - processPackages [opensesame-core]: Downloading https://files.pythonhosted.org/packages/3b/5d/2374babf32a2170480a67fcf4fece38223a2c30180aa38d05a65da0e8e53/opensesame_core-4.0.0a50.tar.gz
+[2023-07-07 15:02:26] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-07 15:02:26] INFO root fetch - processPackages [bibat]: Downloading https://files.pythonhosted.org/packages/12/88/2eb426fe7d1ba9a1c765a77b3ccf52337d4a4187d98d1b348b0b73125da1/bibat-0.1.8.tar.gz
+[2023-07-07 15:02:27] WARNING root fetch - processPackages [opensesame-core]: Skipping package: exceeds size limit 18926721>=10485760
+[2023-07-07 15:02:27] INFO root fetch - main [MainThread]: End processing [opensesame-core] error
+[2023-07-07 15:02:27] INFO root fetch - processPackages [duplipy]: Downloading https://files.pythonhosted.org/packages/b3/43/d926f24f14e2574c9a673a725b5609b74b920fbd3c5a35d9fb7691f41aca/duplipy-0.1.4.tar.gz
+[2023-07-07 15:02:27] INFO root fetch - processPackages [pygmtools]: Downloading https://files.pythonhosted.org/packages/b9/b9/03462ae67949e9799d4c34cf4130f82517fdf3ea2f843353c971c24558b5/pygmtools-0.3.8a3.tar.gz
+[2023-07-07 15:02:27] INFO root fetch - processPackages [lib310-lite]: Downloading https://files.pythonhosted.org/packages/43/e6/d49c053ab0b7de9983ae03ac7f35ae70bed45bb153fd0e3a047526da5ba2/lib310_lite-0.1.0.dev5.tar.gz
+[2023-07-07 15:02:27] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/99/84/f2855248206a9632d93d62ed58f41135c838745dd27d38f5ce5bdee25987/coiled-0.8.4.dev9.tar.gz
+[2023-07-07 15:02:27] INFO root fetch - processPackages [servantcord]: Downloading https://files.pythonhosted.org/packages/ea/e9/6b4d904e2c4675371ca948ba86b6d4269725269dd03dca490bf7d35a16d9/servantcord-1.0.2.tar.gz
+[2023-07-07 15:02:27] INFO root fetch - processPackages [duplipy]: executing diffoscope
+[2023-07-07 15:02:27] INFO root fetch - processPackages [duplipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duplipy-0.1.3.tar.gz tmp/duplipy-0.1.4.tar.gz --markdown 20230707/d/duplipy/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-07 15:02:27] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-07 15:02:27] INFO root fetch - processPackages [skale.py]: Downloading https://files.pythonhosted.org/packages/34/08/616e1c5523d0eb3d569190476949f6b8e5b0d0547566dd6b3adffd01d6c2/skale.py-6.0.dev3.tar.gz
+[2023-07-07 15:02:27] INFO root fetch - processPackages [cubicweb-link]: Downloading https://files.pythonhosted.org/packages/2e/bc/d12ee2ed2e430431503d8c82f5078fba39f84f4106cd1cba9b9aeed0b454/cubicweb-link-2.0.0.tar.gz
+[2023-07-07 15:02:27] INFO root fetch - processPackages [lib310-lite]: executing diffoscope
+[2023-07-07 15:02:27] INFO root fetch - processPackages [lib310-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib310_lite-0.1.0.dev4.tar.gz tmp/lib310_lite-0.1.0.dev5.tar.gz --markdown 20230707/l/lib310-lite/0.1.0.dev4-0.1.0.dev5/diff.md --exclude *.pyd
+[2023-07-07 15:02:27] INFO root fetch - processPackages [pygmtools]: executing diffoscope
+[2023-07-07 15:02:27] INFO root fetch - processPackages [pygmtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygmtools-0.3.8a2.tar.gz tmp/pygmtools-0.3.8a3.tar.gz --markdown 20230707/p/pygmtools/0.3.8a2-0.3.8a3/diff.md --exclude *.pyd
+[2023-07-07 15:02:27] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-07 15:02:27] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.4.dev8.tar.gz tmp/coiled-0.8.4.dev9.tar.gz --markdown 20230707/c/coiled/0.8.4.dev8-0.8.4.dev9/diff.md --exclude *.pyd
+[2023-07-07 15:02:27] INFO root fetch - processPackages [servantcord]: executing diffoscope
+[2023-07-07 15:02:27] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-07 15:02:27] INFO root fetch - processPackages [servantcord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servantcord-1.0.1.tar.gz tmp/servantcord-1.0.2.tar.gz --markdown 20230707/s/servantcord/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-07 15:02:27] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230707/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-07 15:02:27] INFO root fetch - processPackages [cubicweb-link]: executing diffoscope
+[2023-07-07 15:02:27] INFO root fetch - processPackages [cubicweb-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubicweb-link-1.9.1.tar.gz tmp/cubicweb-link-2.0.0.tar.gz --markdown 20230707/c/cubicweb-link/1.9.1-2.0.0/diff.md --exclude *.pyd
+[2023-07-07 15:02:27] INFO root fetch - processPackages [skale.py]: executing diffoscope
+[2023-07-07 15:02:27] INFO root fetch - processPackages [skale.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skale.py-6.0.dev2.tar.gz tmp/skale.py-6.0.dev3.tar.gz --markdown 20230707/s/skale.py/6.0.dev2-6.0.dev3/diff.md --exclude *.pyd
+[2023-07-07 15:02:27] INFO root fetch - processPackages [bibat]: Downloading https://files.pythonhosted.org/packages/36/72/4e4f46c35f3a8545b3c56850f49ca7ba849097d072b702be32988f0c06db/bibat-0.1.9.tar.gz
+[2023-07-07 15:02:28] INFO root fetch - processPackages [bibat]: executing diffoscope
+[2023-07-07 15:02:28] INFO root fetch - processPackages [bibat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bibat-0.1.8.tar.gz tmp/bibat-0.1.9.tar.gz --markdown 20230707/b/bibat/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-07 15:02:28] INFO root fetch - processPackages [duplipy]: Remove: archive file [/home/abi/fetcher/tmp/duplipy-0.1.3.tar.gz]
+[2023-07-07 15:02:28] INFO root fetch - processPackages [duplipy]: Remove: archive file [/home/abi/fetcher/tmp/duplipy-0.1.4.tar.gz]
+[2023-07-07 15:02:28] INFO root fetch - main [MainThread]: End processing [duplipy]: success
+[2023-07-07 15:02:28] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-07 15:02:28] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-07 15:02:28] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-07 15:02:28] INFO root fetch - processPackages [cubicweb-link]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-link-1.9.1.tar.gz]
+[2023-07-07 15:02:28] INFO root fetch - processPackages [cubicweb-link]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-link-2.0.0.tar.gz]
+[2023-07-07 15:02:28] INFO root fetch - main [MainThread]: End processing [cubicweb-link]: success
+[2023-07-07 15:02:29] INFO root fetch - processPackages [lib310-lite]: Remove: archive file [/home/abi/fetcher/tmp/lib310_lite-0.1.0.dev4.tar.gz]
+[2023-07-07 15:02:29] INFO root fetch - processPackages [lib310-lite]: Remove: archive file [/home/abi/fetcher/tmp/lib310_lite-0.1.0.dev5.tar.gz]
+[2023-07-07 15:02:29] INFO root fetch - main [MainThread]: End processing [lib310-lite]: success
+[2023-07-07 15:02:29] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.4.dev8.tar.gz]
+[2023-07-07 15:02:29] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.4.dev9.tar.gz]
+[2023-07-07 15:02:29] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-07 15:02:29] INFO root fetch - processPackages [servantcord]: Remove: archive file [/home/abi/fetcher/tmp/servantcord-1.0.1.tar.gz]
+[2023-07-07 15:02:29] INFO root fetch - processPackages [servantcord]: Remove: archive file [/home/abi/fetcher/tmp/servantcord-1.0.2.tar.gz]
+[2023-07-07 15:02:29] INFO root fetch - main [MainThread]: End processing [servantcord]: success
+[2023-07-07 15:02:29] INFO root fetch - processPackages [pygmtools]: Remove: archive file [/home/abi/fetcher/tmp/pygmtools-0.3.8a2.tar.gz]
+[2023-07-07 15:02:29] INFO root fetch - processPackages [pygmtools]: Remove: archive file [/home/abi/fetcher/tmp/pygmtools-0.3.8a3.tar.gz]
+[2023-07-07 15:02:29] INFO root fetch - main [MainThread]: End processing [pygmtools]: success
+[2023-07-07 15:02:29] INFO root fetch - processPackages [skale.py]: Remove: archive file [/home/abi/fetcher/tmp/skale.py-6.0.dev2.tar.gz]
+[2023-07-07 15:02:29] INFO root fetch - processPackages [skale.py]: Remove: archive file [/home/abi/fetcher/tmp/skale.py-6.0.dev3.tar.gz]
+[2023-07-07 15:02:29] INFO root fetch - main [MainThread]: End processing [skale.py]: success
+[2023-07-07 15:02:35] INFO root fetch - processPackages [bibat]: Remove: archive file [/home/abi/fetcher/tmp/bibat-0.1.8.tar.gz]
+[2023-07-07 15:02:35] INFO root fetch - processPackages [bibat]: Remove: archive file [/home/abi/fetcher/tmp/bibat-0.1.9.tar.gz]
+[2023-07-07 15:02:35] INFO root fetch - main [MainThread]: End processing [bibat]: success
+[2023-07-07 15:02:35] INFO root fetch - main [MainThread]: Store serial: [18800793]
