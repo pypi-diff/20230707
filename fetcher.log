@@ -12081,3 +12081,54 @@ EOFError: EOF read where object expected
 [2023-07-07 07:22:45] INFO root fetch - processPackages [reliability]: Remove: archive file [/home/abi/fetcher/tmp/reliability-0.8.9.tar.gz]
 [2023-07-07 07:22:45] INFO root fetch - main [MainThread]: End processing [reliability]: success
 [2023-07-07 07:22:45] INFO root fetch - main [MainThread]: Store serial: [18796072]
+[2023-07-07 07:27:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18796072]
+[2023-07-07 07:27:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-07 07:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wikitextparser
+[2023-07-07 07:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain-ray
+[2023-07-07 07:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flgo
+[2023-07-07 07:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hak
+[2023-07-07 07:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ns-asphalt9
+[2023-07-07 07:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-stdimage2
+[2023-07-07 07:27:54] INFO root fetch - processPackages [flgo]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-07 07:27:54] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 07:27:54] INFO root fetch - processPackages [ns-asphalt9]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 07:27:54] WARNING root fetch - processPackages [django-stdimage2]: Skipping, unable to determine old version
+[2023-07-07 07:27:54] INFO root fetch - processPackages [wikitextparser]: New version: [0.9.1] Old Version: [0.9.0.dev1]
+[2023-07-07 07:27:54] INFO root fetch - processPackages [langchain-ray]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-07 07:27:54] INFO root fetch - main [MainThread]: End processing [django-stdimage2] error
+[2023-07-07 07:27:54] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-07-07 07:27:54] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/67/d1/8c2eb363e10c1aceb4a13fe3197ee8c8cb3e6d9958cdefe9446622e9d0b3/ns_asphalt9-0.0.8.tar.gz
+[2023-07-07 07:27:54] INFO root fetch - processPackages [wikitextparser]: Downloading https://files.pythonhosted.org/packages/6f/93/c5b71f691b2995822f12e68410a4c00434f8e5c6a7a1220424e32b2ccd3f/wikitextparser-0.9.0.dev1.tar.gz
+[2023-07-07 07:27:54] INFO root fetch - processPackages [langchain-ray]: Downloading https://files.pythonhosted.org/packages/cb/9a/05932f7f56feeab169b8de3aad10d6a768efb851e3948aebc1be025a3112/langchain_ray-0.0.1.tar.gz
+[2023-07-07 07:27:54] INFO root fetch - processPackages [flgo]: Downloading https://files.pythonhosted.org/packages/d6/a1/2b6e7d316887a6a23703adbf92614de421a5d66bb58c35ad86d731be0bc5/flgo-0.0.3.tar.gz
+[2023-07-07 07:27:54] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-07 07:27:54] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/30/dd/7a463098ffb2ccbcfc6755e44eb8c74ab5f47b2046ce14a8cd3a74dc4c2c/ns_asphalt9-0.0.9.tar.gz
+[2023-07-07 07:27:54] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-07 07:27:54] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230707/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 07:27:54] INFO root fetch - processPackages [wikitextparser]: Downloading https://files.pythonhosted.org/packages/4a/61/3eb816801c68e7fd8b698d04ce74275480d5a3381b157c3813e7f5039b2a/wikitextparser-0.9.1.tar.gz
+[2023-07-07 07:27:54] INFO root fetch - processPackages [ns-asphalt9]: executing diffoscope
+[2023-07-07 07:27:54] INFO root fetch - processPackages [ns-asphalt9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ns_asphalt9-0.0.8.tar.gz tmp/ns_asphalt9-0.0.9.tar.gz --markdown 20230707/n/ns-asphalt9/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 07:27:54] INFO root fetch - processPackages [langchain-ray]: Downloading https://files.pythonhosted.org/packages/2b/8d/ef02da067e42c94e46f8a246cd513d12dd70c5cc65d2e2fd9ff77f23203c/langchain_ray-0.0.2.tar.gz
+[2023-07-07 07:27:54] INFO root fetch - processPackages [flgo]: Downloading https://files.pythonhosted.org/packages/e6/ee/3bf09e02d963e1fe9cbbec878c615000f37e0b0cd663682a067ce316f4bb/flgo-0.0.4.tar.gz
+[2023-07-07 07:27:54] INFO root fetch - processPackages [wikitextparser]: executing diffoscope
+[2023-07-07 07:27:54] INFO root fetch - processPackages [wikitextparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikitextparser-0.9.0.dev1.tar.gz tmp/wikitextparser-0.9.1.tar.gz --markdown 20230707/w/wikitextparser/0.9.0.dev1-0.9.1/diff.md --exclude *.pyd
+[2023-07-07 07:27:55] INFO root fetch - processPackages [langchain-ray]: executing diffoscope
+[2023-07-07 07:27:55] INFO root fetch - processPackages [langchain-ray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_ray-0.0.1.tar.gz tmp/langchain_ray-0.0.2.tar.gz --markdown 20230707/l/langchain-ray/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-07 07:27:55] INFO root fetch - processPackages [flgo]: executing diffoscope
+[2023-07-07 07:27:55] INFO root fetch - processPackages [flgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flgo-0.0.3.tar.gz tmp/flgo-0.0.4.tar.gz --markdown 20230707/f/flgo/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-07 07:27:55] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-0.0.8.tar.gz]
+[2023-07-07 07:27:55] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-0.0.9.tar.gz]
+[2023-07-07 07:27:55] INFO root fetch - main [MainThread]: End processing [ns-asphalt9]: success
+[2023-07-07 07:27:55] INFO root fetch - processPackages [langchain-ray]: Remove: archive file [/home/abi/fetcher/tmp/langchain_ray-0.0.1.tar.gz]
+[2023-07-07 07:27:55] INFO root fetch - processPackages [langchain-ray]: Remove: archive file [/home/abi/fetcher/tmp/langchain_ray-0.0.2.tar.gz]
+[2023-07-07 07:27:55] INFO root fetch - main [MainThread]: End processing [langchain-ray]: success
+[2023-07-07 07:27:56] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-07-07 07:27:56] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-07 07:27:56] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-07 07:27:56] INFO root fetch - processPackages [wikitextparser]: Remove: archive file [/home/abi/fetcher/tmp/wikitextparser-0.9.0.dev1.tar.gz]
+[2023-07-07 07:27:56] INFO root fetch - processPackages [wikitextparser]: Remove: archive file [/home/abi/fetcher/tmp/wikitextparser-0.9.1.tar.gz]
+[2023-07-07 07:27:56] INFO root fetch - main [MainThread]: End processing [wikitextparser]: success
+[2023-07-07 07:27:56] INFO root fetch - processPackages [flgo]: Remove: archive file [/home/abi/fetcher/tmp/flgo-0.0.3.tar.gz]
+[2023-07-07 07:27:56] INFO root fetch - processPackages [flgo]: Remove: archive file [/home/abi/fetcher/tmp/flgo-0.0.4.tar.gz]
+[2023-07-07 07:27:56] INFO root fetch - main [MainThread]: End processing [flgo]: success
+[2023-07-07 07:27:56] INFO root fetch - main [MainThread]: Store serial: [18796092]
