@@ -12286,3 +12286,67 @@ EOFError: EOF read where object expected
 [2023-07-07 07:38:26] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.9.tar.gz]
 [2023-07-07 07:38:26] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
 [2023-07-07 07:38:26] INFO root fetch - main [MainThread]: Store serial: [18796144]
+[2023-07-07 07:43:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18796144]
+[2023-07-07 07:43:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-07 07:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: threemystic-cloud-data-client
+[2023-07-07 07:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ez0th
+[2023-07-07 07:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blocklib
+[2023-07-07 07:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: threemystic-cmdb
+[2023-07-07 07:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyciactions
+[2023-07-07 07:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyciactions
+[2023-07-07 07:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: secretflow-rayfed
+[2023-07-07 07:43:36] INFO root fetch - processPackages [threemystic-cmdb]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-07 07:43:36] INFO root fetch - processPackages [pyciactions]: New version: [1.0.8a5] Old Version: [1.0.8a4]
+[2023-07-07 07:43:36] INFO root fetch - processPackages [pyciactions]: New version: [1.0.8a5] Old Version: [1.0.8a4]
+[2023-07-07 07:43:36] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-07 07:43:36] INFO root fetch - processPackages [ez0th]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-07 07:43:36] INFO root fetch - processPackages [blocklib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-07 07:43:36] INFO root fetch - processPackages [secretflow-rayfed]: New version: [0.1.1a4] Old Version: [0.1.1a3]
+[2023-07-07 07:43:36] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/c6/23/5a311eef77749fcaf162173b0c526b3eb1bf7c924ef028ef64fb6007d3a6/pyciactions-1.0.8a4.tar.gz
+[2023-07-07 07:43:36] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/c6/23/5a311eef77749fcaf162173b0c526b3eb1bf7c924ef028ef64fb6007d3a6/pyciactions-1.0.8a4.tar.gz
+[2023-07-07 07:43:36] INFO root fetch - processPackages [threemystic-cmdb]: Downloading https://files.pythonhosted.org/packages/0c/44/87f12b6b0eb238286a7c408cbea02d4ea77710c916fa66fcbc85e1eab802/threemystic_cmdb-0.1.7.tar.gz
+[2023-07-07 07:43:36] INFO root fetch - processPackages [ez0th]: Downloading https://files.pythonhosted.org/packages/69/8e/e458818838c1bdcdcf159749ec915b2fdd0c41de4631fcb629cda4fc2332/ez0th-0.1.1.tar.gz
+[2023-07-07 07:43:36] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/19/1b/931c60508b8390e1cd98ff522813d3362e94125b223d8d9df08b087fc9b8/threemystic_cloud_data_client-0.1.7.tar.gz
+[2023-07-07 07:43:36] INFO root fetch - processPackages [blocklib]: Downloading https://files.pythonhosted.org/packages/a9/18/0f6c5034ad43d0c7d726916a428f194e5fefc5590036a3f4a962dcc5b016/blocklib-0.1.8.tar.gz
+[2023-07-07 07:43:36] INFO root fetch - processPackages [secretflow-rayfed]: Downloading https://files.pythonhosted.org/packages/55/9d/ccb91fca12d214de106b29a4fc25ef3b0adc1b46a32370ffa97a4f36d94f/secretflow_rayfed-0.1.1a3-py3-none-any.whl
+[2023-07-07 07:43:36] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/08/20/ee92dc14e611b4c09fee3d683647d6464fcbd19b6fbaf4b6dcb04c1631f7/pyciactions-1.0.8a5.tar.gz
+[2023-07-07 07:43:36] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/08/20/ee92dc14e611b4c09fee3d683647d6464fcbd19b6fbaf4b6dcb04c1631f7/pyciactions-1.0.8a5.tar.gz
+[2023-07-07 07:43:36] INFO root fetch - processPackages [threemystic-cmdb]: Downloading https://files.pythonhosted.org/packages/a0/dd/d3552063eca441b6ad4aa0d7a4183347d6cb9783840569d4a78eb9c0675a/threemystic_cmdb-0.1.8.tar.gz
+[2023-07-07 07:43:37] INFO root fetch - processPackages [ez0th]: Downloading https://files.pythonhosted.org/packages/30/24/eb1713a6afca11d76919720605fb09c5731594bb9b5a15b1fb19f5407e3d/ez0th-0.1.2.tar.gz
+[2023-07-07 07:43:37] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/0c/5f/6708f2fd28a7b9f21a7464123eb1d45d233eb8d86f9d5d790d02e8de1988/threemystic_cloud_data_client-0.1.8.tar.gz
+[2023-07-07 07:43:37] INFO root fetch - processPackages [secretflow-rayfed]: Downloading https://files.pythonhosted.org/packages/ba/29/48e6bf2a1d2917fe31fafc72889e5bf07b27a6782af7ca15001e45e48a4f/secretflow_rayfed-0.1.1a4-py3-none-any.whl
+[2023-07-07 07:43:37] INFO root fetch - processPackages [blocklib]: Downloading https://files.pythonhosted.org/packages/0e/b9/9edfbde594498c9d2bd6c885a750e902e8b45e2da49e001e445fc8409721/blocklib-0.1.9.tar.gz
+[2023-07-07 07:43:37] INFO root fetch - processPackages [threemystic-cmdb]: executing diffoscope
+[2023-07-07 07:43:37] INFO root fetch - processPackages [threemystic-cmdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cmdb-0.1.7.tar.gz tmp/threemystic_cmdb-0.1.8.tar.gz --markdown 20230707/t/threemystic-cmdb/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-07 07:43:37] INFO root fetch - processPackages [ez0th]: executing diffoscope
+[2023-07-07 07:43:37] INFO root fetch - processPackages [ez0th]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez0th-0.1.1.tar.gz tmp/ez0th-0.1.2.tar.gz --markdown 20230707/e/ez0th/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-07 07:43:37] INFO root fetch - processPackages [pyciactions]: executing diffoscope
+[2023-07-07 07:43:37] INFO root fetch - processPackages [pyciactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyciactions-1.0.8a4.tar.gz tmp/pyciactions-1.0.8a5.tar.gz --markdown 20230707/p/pyciactions/1.0.8a4-1.0.8a5/diff.md --exclude *.pyd
+[2023-07-07 07:43:37] INFO root fetch - processPackages [pyciactions]: executing diffoscope
+[2023-07-07 07:43:37] INFO root fetch - processPackages [pyciactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyciactions-1.0.8a4.tar.gz tmp/pyciactions-1.0.8a5.tar.gz --markdown 20230707/p/pyciactions/1.0.8a4-1.0.8a5/diff.md --exclude *.pyd
+[2023-07-07 07:43:37] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-07-07 07:43:37] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.7.tar.gz tmp/threemystic_cloud_data_client-0.1.8.tar.gz --markdown 20230707/t/threemystic-cloud-data-client/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-07 07:43:37] INFO root fetch - processPackages [secretflow-rayfed]: executing diffoscope
+[2023-07-07 07:43:37] INFO root fetch - processPackages [secretflow-rayfed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretflow_rayfed-0.1.1a3-py3-none-any.whl.zip tmp/secretflow_rayfed-0.1.1a4-py3-none-any.whl.zip --markdown 20230707/s/secretflow-rayfed/0.1.1a3-0.1.1a4/diff.md --exclude *.pyd
+[2023-07-07 07:43:37] INFO root fetch - processPackages [blocklib]: executing diffoscope
+[2023-07-07 07:43:37] INFO root fetch - processPackages [blocklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blocklib-0.1.8.tar.gz tmp/blocklib-0.1.9.tar.gz --markdown 20230707/b/blocklib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-07 07:43:38] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.8a4.tar.gz]
+[2023-07-07 07:43:38] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.8a5.tar.gz]
+[2023-07-07 07:43:38] INFO root fetch - main [MainThread]: End processing [pyciactions]: success
+[2023-07-07 07:43:38] INFO root fetch - processPackages [ez0th]: Remove: archive file [/home/abi/fetcher/tmp/ez0th-0.1.1.tar.gz]
+[2023-07-07 07:43:38] INFO root fetch - processPackages [ez0th]: Remove: archive file [/home/abi/fetcher/tmp/ez0th-0.1.2.tar.gz]
+[2023-07-07 07:43:38] INFO root fetch - main [MainThread]: End processing [ez0th]: success
+[2023-07-07 07:43:38] INFO root fetch - main [MainThread]: End processing [pyciactions]: success
+[2023-07-07 07:43:38] INFO root fetch - processPackages [blocklib]: Remove: archive file [/home/abi/fetcher/tmp/blocklib-0.1.8.tar.gz]
+[2023-07-07 07:43:38] INFO root fetch - processPackages [blocklib]: Remove: archive file [/home/abi/fetcher/tmp/blocklib-0.1.9.tar.gz]
+[2023-07-07 07:43:38] INFO root fetch - main [MainThread]: End processing [blocklib]: success
+[2023-07-07 07:43:38] INFO root fetch - processPackages [threemystic-cmdb]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cmdb-0.1.7.tar.gz]
+[2023-07-07 07:43:38] INFO root fetch - processPackages [threemystic-cmdb]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cmdb-0.1.8.tar.gz]
+[2023-07-07 07:43:38] INFO root fetch - main [MainThread]: End processing [threemystic-cmdb]: success
+[2023-07-07 07:43:38] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.7.tar.gz]
+[2023-07-07 07:43:38] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.8.tar.gz]
+[2023-07-07 07:43:38] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-07-07 07:43:38] INFO root fetch - processPackages [secretflow-rayfed]: Remove: archive file [/home/abi/fetcher/tmp/secretflow_rayfed-0.1.1a3-py3-none-any.whl.zip]
+[2023-07-07 07:43:38] INFO root fetch - processPackages [secretflow-rayfed]: Remove: archive file [/home/abi/fetcher/tmp/secretflow_rayfed-0.1.1a4-py3-none-any.whl.zip]
+[2023-07-07 07:43:38] INFO root fetch - main [MainThread]: End processing [secretflow-rayfed]: success
+[2023-07-07 07:43:38] INFO root fetch - main [MainThread]: Store serial: [18796165]
