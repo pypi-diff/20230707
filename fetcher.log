@@ -20428,3 +20428,56 @@ AssertionError: tmp/tester-package-sdk-2.0.9.tar.gz does not exist
 [2023-07-07 13:26:53] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.1.2.tar.gz]
 [2023-07-07 13:26:53] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-07-07 13:26:53] INFO root fetch - main [MainThread]: Store serial: [18799535]
+[2023-07-07 13:31:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18799535]
+[2023-07-07 13:32:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-07 13:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: doc-template-cloner
+[2023-07-07 13:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pixano
+[2023-07-07 13:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchserve-nightly
+[2023-07-07 13:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-model-archiver-nightly
+[2023-07-07 13:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torch-workflow-archiver-nightly
+[2023-07-07 13:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-splatoon3
+[2023-07-07 13:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-cfhelper
+[2023-07-07 13:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odyssey-posbus-client
+[2023-07-07 13:32:03] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.7.6] Old Version: [2023.7.5]
+[2023-07-07 13:32:03] INFO root fetch - processPackages [pixano]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-07 13:32:03] INFO root fetch - processPackages [doc-template-cloner]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-07 13:32:03] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.7.6] Old Version: [2023.7.5]
+[2023-07-07 13:32:03] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.7.6] Old Version: [2023.7.5]
+[2023-07-07 13:32:04] ERROR root fetch - processPackages [odyssey-posbus-client]: Unable to get metadata: No such project 'odyssey-posbus-client'
+[2023-07-07 13:32:04] WARNING root fetch - processPackages [nonebot-plugin-splatoon3]: Skipping, unable to determine old version
+[2023-07-07 13:32:04] INFO root fetch - main [MainThread]: End processing [odyssey-posbus-client] error
+[2023-07-07 13:32:04] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-splatoon3] error
+[2023-07-07 13:32:04] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/9e/8b/c6af7eef353107bd2847739f0ec9d3b40d2df3c16d91bb0e06fe1abdee39/torch_workflow_archiver_nightly-2023.7.5-py3-none-any.whl
+[2023-07-07 13:32:04] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/12/4a/79761168c93b3f95976933b8808d0b8865c111b400fac62ce8fd25ecd593/torch_model_archiver_nightly-2023.7.5-py3-none-any.whl
+[2023-07-07 13:32:04] INFO root fetch - processPackages [pixano]: Downloading https://files.pythonhosted.org/packages/bd/53/c66b6b92d094e0f5a749532953c6deaf06728a5c479c4d64f5ee8e3e02b9/pixano-0.2.1.tar.gz
+[2023-07-07 13:32:04] INFO root fetch - processPackages [doc-template-cloner]: Downloading https://files.pythonhosted.org/packages/fc/96/568c09dbaeb3e7a9fac0d9d2fe9bbf1ab6e169188f9235c53773cdca5e27/doc_template_cloner-0.0.5.tar.gz
+[2023-07-07 13:32:04] WARNING root fetch - processPackages [nonebot-plugin-cfhelper]: Skipping, unable to determine old version
+[2023-07-07 13:32:04] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-cfhelper] error
+[2023-07-07 13:32:04] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/7e/da/ec17bed528908b3878d9b471e656ac2ccc83fbb81ccca1ac43b82a2bb0bf/torchserve_nightly-2023.7.5-py3-none-any.whl
+[2023-07-07 13:32:04] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/d4/39/4a23c6e4524b5642769cc732f2355298695be48a89af7c5d244b3c195944/torch_model_archiver_nightly-2023.7.6-py3-none-any.whl
+[2023-07-07 13:32:04] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23750196>=10485760
+[2023-07-07 13:32:04] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-07-07 13:32:04] INFO root fetch - processPackages [doc-template-cloner]: Downloading https://files.pythonhosted.org/packages/14/57/e530b537db1e64068d03d8547119ebb21b1ef2341c85c7cd1ea117eaf2b4/doc_template_cloner-0.0.6.tar.gz
+[2023-07-07 13:32:04] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/54/8d/eb615ff4d1fd0fb70d2bc3aaa68691d6387a46d4848ce962a582ad9f9950/torch_workflow_archiver_nightly-2023.7.6-py3-none-any.whl
+[2023-07-07 13:32:04] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-07-07 13:32:04] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.7.5-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.7.6-py3-none-any.whl.zip --markdown 20230707/t/torch-model-archiver-nightly/2023.7.5-2023.7.6/diff.md --exclude *.pyd
+[2023-07-07 13:32:04] INFO root fetch - processPackages [pixano]: Downloading https://files.pythonhosted.org/packages/39/c7/09eba1160d9669f0d22fd7747b496015771ca500dda376e61ec911b842b6/pixano-0.3.0.tar.gz
+[2023-07-07 13:32:04] INFO root fetch - processPackages [doc-template-cloner]: executing diffoscope
+[2023-07-07 13:32:04] INFO root fetch - processPackages [doc-template-cloner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doc_template_cloner-0.0.5.tar.gz tmp/doc_template_cloner-0.0.6.tar.gz --markdown 20230707/d/doc-template-cloner/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-07 13:32:04] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-07-07 13:32:04] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.7.5-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.7.6-py3-none-any.whl.zip --markdown 20230707/t/torch-workflow-archiver-nightly/2023.7.5-2023.7.6/diff.md --exclude *.pyd
+[2023-07-07 13:32:04] INFO root fetch - processPackages [pixano]: executing diffoscope
+[2023-07-07 13:32:04] INFO root fetch - processPackages [pixano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixano-0.2.1.tar.gz tmp/pixano-0.3.0.tar.gz --markdown 20230707/p/pixano/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-07 13:32:05] INFO root fetch - processPackages [doc-template-cloner]: Remove: archive file [/home/abi/fetcher/tmp/doc_template_cloner-0.0.5.tar.gz]
+[2023-07-07 13:32:05] INFO root fetch - processPackages [doc-template-cloner]: Remove: archive file [/home/abi/fetcher/tmp/doc_template_cloner-0.0.6.tar.gz]
+[2023-07-07 13:32:05] INFO root fetch - main [MainThread]: End processing [doc-template-cloner]: success
+[2023-07-07 13:32:05] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.5-py3-none-any.whl.zip]
+[2023-07-07 13:32:05] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.6-py3-none-any.whl.zip]
+[2023-07-07 13:32:05] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-07-07 13:32:05] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.5-py3-none-any.whl.zip]
+[2023-07-07 13:32:05] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.6-py3-none-any.whl.zip]
+[2023-07-07 13:32:05] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-07-07 13:32:16] INFO root fetch - processPackages [pixano]: Remove: archive file [/home/abi/fetcher/tmp/pixano-0.2.1.tar.gz]
+[2023-07-07 13:32:16] INFO root fetch - processPackages [pixano]: Remove: archive file [/home/abi/fetcher/tmp/pixano-0.3.0.tar.gz]
+[2023-07-07 13:32:16] INFO root fetch - main [MainThread]: End processing [pixano]: success
+[2023-07-07 13:32:16] INFO root fetch - main [MainThread]: Store serial: [18799578]
