@@ -9938,3 +9938,121 @@ EOFError: EOF read where object expected
 [2023-07-07 04:40:39] INFO root fetch - processPackages [beastiary]: Remove: archive file [/home/abi/fetcher/tmp/beastiary-1.7.0.tar.gz]
 [2023-07-07 04:40:39] INFO root fetch - main [MainThread]: End processing [beastiary]: success
 [2023-07-07 04:40:39] INFO root fetch - main [MainThread]: Store serial: [18795259]
+[2023-07-07 04:45:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18795259]
+[2023-07-07 04:45:48] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-07 04:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hrequests
+[2023-07-07 04:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-plus-24
+[2023-07-07 04:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchain-interpreter
+[2023-07-07 04:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openitesthi
+[2023-07-07 04:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-plus-26
+[2023-07-07 04:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openlrc
+[2023-07-07 04:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nextpcg
+[2023-07-07 04:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openitesthi
+[2023-07-07 04:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: frontengine
+[2023-07-07 04:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: naif-eop-high-prec
+[2023-07-07 04:45:48] INFO root fetch - processPackages [openitesthi]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-07 04:45:48] INFO root fetch - processPackages [langchain-interpreter]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-07 04:45:48] INFO root fetch - processPackages [openitesthi]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-07 04:45:48] INFO root fetch - processPackages [frontengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 04:45:48] INFO root fetch - processPackages [nextpcg]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-07 04:45:48] INFO root fetch - processPackages [hrequests]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-07 04:45:48] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-07-07 04:45:48] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.7.7] Old Version: [2023.7.6]
+[2023-07-07 04:45:48] INFO root fetch - processPackages [openlrc]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-07 04:45:48] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-07-07 04:45:49] INFO root fetch - processPackages [openlrc]: Downloading https://files.pythonhosted.org/packages/f4/b9/35ed44fbb62a270855c344cc5c7437ff7595c78a9cc6b33d39f4bae316ca/openlrc-0.1.4.tar.gz
+[2023-07-07 04:45:49] INFO root fetch - processPackages [langchain-interpreter]: Downloading https://files.pythonhosted.org/packages/bb/9c/0017a7c036e235c8ed7fa936c00305b692c3ff6dbb6a59ae72a47ce79d0f/langchain_interpreter-0.0.5.tar.gz
+[2023-07-07 04:45:49] INFO root fetch - processPackages [openitesthi]: Downloading https://files.pythonhosted.org/packages/5c/e6/aa8dad1e0def661ed0751e63fb96abca739fa90c4c41d1d0a544d690fa61/openitesthi-0.1.4.tar.gz
+[2023-07-07 04:45:49] INFO root fetch - processPackages [openitesthi]: Downloading https://files.pythonhosted.org/packages/5c/e6/aa8dad1e0def661ed0751e63fb96abca739fa90c4c41d1d0a544d690fa61/openitesthi-0.1.4.tar.gz
+[2023-07-07 04:45:49] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-07-07 04:45:49] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/73/d5/49a8dc44e72e5db18c0f19520eb82a0010e697d0f43ab159152c33791aa7/cdk8s-plus-24-2.8.8.tar.gz
+[2023-07-07 04:45:49] INFO root fetch - processPackages [nextpcg]: Downloading https://files.pythonhosted.org/packages/89/08/157eb9604365e09910f3a2c1fc1c009a3bfcbb356bf4324ae18a8654826f/nextpcg-0.6.2.tar.gz
+[2023-07-07 04:45:49] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/89/0d/cbf26cebbc98674b9fc8c8b107dc89dc6084ea26986c02fa12b37772008a/naif_eop_high_prec-2023.7.6.tar.gz
+[2023-07-07 04:45:49] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/62/88/6d99d7b463365da48db6f37c9bde41e7f7f20eeb1a13653a273586e81d3a/frontengine-0.0.8.tar.gz
+[2023-07-07 04:45:49] INFO root fetch - processPackages [hrequests]: Downloading https://files.pythonhosted.org/packages/62/c9/0b59c7c6d6d20a39986f998f9a52894f0f149a1d8d59648af77a86cc4c50/hrequests-0.1.0.tar.gz
+[2023-07-07 04:45:49] INFO root fetch - processPackages [openlrc]: Downloading https://files.pythonhosted.org/packages/28/6a/ca580e3b6fbce92c058eaf1ae6c805459de64800ed2562910435720a776b/openlrc-0.1.5.tar.gz
+[2023-07-07 04:45:49] INFO root fetch - processPackages [langchain-interpreter]: Downloading https://files.pythonhosted.org/packages/ff/8d/96c627f6c61322c70e4003da5cd4200be6ff1a007daa7f2b6751acec58ce/langchain_interpreter-0.0.6.tar.gz
+[2023-07-07 04:45:49] INFO root fetch - processPackages [openitesthi]: Downloading https://files.pythonhosted.org/packages/f7/07/391bbcae713cb06718ebf9f44ca6aa434e289502130049eadd0f269ab0fa/openitesthi-0.1.5.tar.gz
+[2023-07-07 04:45:49] INFO root fetch - processPackages [openitesthi]: Downloading https://files.pythonhosted.org/packages/f7/07/391bbcae713cb06718ebf9f44ca6aa434e289502130049eadd0f269ab0fa/openitesthi-0.1.5.tar.gz
+[2023-07-07 04:45:49] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-07-07 04:45:49] INFO root fetch - processPackages [nextpcg]: Downloading https://files.pythonhosted.org/packages/a5/57/95ec978f12dadb25d25eabbb5f8638c596727bc51ffa26e06997fe82e53c/nextpcg-0.6.3.tar.gz
+[2023-07-07 04:45:49] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/a4/eb/7fc3f17d6eb6750041a6b336906ad566e6b538954d0cd6fe7880f54bf206/cdk8s-plus-24-2.8.9.tar.gz
+[2023-07-07 04:45:49] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/a5/8e/4bb92b2db27649b96b46469f263e2fdd091c8283ff06a24534624c34be9d/frontengine-0.0.9.tar.gz
+[2023-07-07 04:45:49] INFO root fetch - processPackages [openlrc]: executing diffoscope
+[2023-07-07 04:45:49] INFO root fetch - processPackages [openlrc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlrc-0.1.4.tar.gz tmp/openlrc-0.1.5.tar.gz --markdown 20230707/o/openlrc/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-07 04:45:49] INFO root fetch - processPackages [langchain-interpreter]: executing diffoscope
+[2023-07-07 04:45:49] INFO root fetch - processPackages [langchain-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_interpreter-0.0.5.tar.gz tmp/langchain_interpreter-0.0.6.tar.gz --markdown 20230707/l/langchain-interpreter/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-07 04:45:49] INFO root fetch - processPackages [openitesthi]: executing diffoscope
+[2023-07-07 04:45:49] INFO root fetch - processPackages [openitesthi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openitesthi-0.1.4.tar.gz tmp/openitesthi-0.1.5.tar.gz --markdown 20230707/o/openitesthi/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-07 04:45:49] INFO root fetch - processPackages [openitesthi]: executing diffoscope
+[2023-07-07 04:45:49] INFO root fetch - processPackages [openitesthi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openitesthi-0.1.4.tar.gz tmp/openitesthi-0.1.5.tar.gz --markdown 20230707/o/openitesthi/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-07 04:45:49] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/4c/57/63778667e2c97939238c69747ff6f14a555573362f43a707c12e3332023a/naif_eop_high_prec-2023.7.7.tar.gz
+[2023-07-07 04:45:49] INFO root fetch - processPackages [nextpcg]: executing diffoscope
+[2023-07-07 04:45:49] INFO root fetch - processPackages [nextpcg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextpcg-0.6.2.tar.gz tmp/nextpcg-0.6.3.tar.gz --markdown 20230707/n/nextpcg/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-07 04:45:49] INFO root fetch - processPackages [frontengine]: executing diffoscope
+[2023-07-07 04:45:49] INFO root fetch - processPackages [frontengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine-0.0.8.tar.gz tmp/frontengine-0.0.9.tar.gz --markdown 20230707/f/frontengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 04:45:50] INFO root fetch - processPackages [hrequests]: Downloading https://files.pythonhosted.org/packages/f5/28/fde2f3fd46623af6dfc8f55a0a82ed74da1e127588d32942d6a9b82ecbca/hrequests-0.1.1.tar.gz
+[2023-07-07 04:45:50] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-07-07 04:45:50] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230707/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-07-07 04:45:50] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-07-07 04:45:50] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.8.tar.gz tmp/cdk8s-plus-24-2.8.9.tar.gz --markdown 20230707/c/cdk8s-plus-24/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-07-07 04:45:50] INFO root fetch - processPackages [hrequests]: executing diffoscope
+[2023-07-07 04:45:50] INFO root fetch - processPackages [hrequests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrequests-0.1.0.tar.gz tmp/hrequests-0.1.1.tar.gz --markdown 20230707/h/hrequests/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-07 04:45:50] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-07-07 04:45:50] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.7.6.tar.gz tmp/naif_eop_high_prec-2023.7.7.tar.gz --markdown 20230707/n/naif-eop-high-prec/2023.7.6-2023.7.7/diff.md --exclude *.pyd
+[2023-07-07 04:45:51] INFO root fetch - processPackages [openitesthi]: Remove: archive file [/home/abi/fetcher/tmp/openitesthi-0.1.4.tar.gz]
+[2023-07-07 04:45:51] INFO root fetch - processPackages [openitesthi]: Remove: archive file [/home/abi/fetcher/tmp/openitesthi-0.1.5.tar.gz]
+[2023-07-07 04:45:51] INFO root fetch - processPackages [openitesthi]: Start processing: hubotlibs
+[2023-07-07 04:45:51] INFO root fetch - main [MainThread]: End processing [openitesthi]: success
+[2023-07-07 04:45:51] INFO root fetch - processPackages [hubotlibs]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-07 04:45:51] INFO root fetch - processPackages [openlrc]: Remove: archive file [/home/abi/fetcher/tmp/openlrc-0.1.4.tar.gz]
+[2023-07-07 04:45:51] INFO root fetch - processPackages [openlrc]: Remove: archive file [/home/abi/fetcher/tmp/openlrc-0.1.5.tar.gz]
+[2023-07-07 04:45:51] INFO root fetch - processPackages [openlrc]: Start processing: frontengine-dev
+[2023-07-07 04:45:51] INFO root fetch - main [MainThread]: End processing [openlrc]: success
+[2023-07-07 04:45:51] INFO root fetch - processPackages [openitesthi]: Start processing: cdk8s-plus-25
+[2023-07-07 04:45:51] INFO root fetch - main [MainThread]: End processing [openitesthi]: success
+[2023-07-07 04:45:51] INFO root fetch - processPackages [frontengine-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 04:45:51] INFO root fetch - processPackages [hubotlibs]: Downloading https://files.pythonhosted.org/packages/87/7d/aeb2b0006b016c10fe27d85cd06e248b4ad1073ef0c94fe07166c468ec40/hubotlibs-0.3.0.tar.gz
+[2023-07-07 04:45:51] INFO root fetch - processPackages [langchain-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/langchain_interpreter-0.0.5.tar.gz]
+[2023-07-07 04:45:51] INFO root fetch - processPackages [langchain-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/langchain_interpreter-0.0.6.tar.gz]
+[2023-07-07 04:45:51] INFO root fetch - main [MainThread]: End processing [langchain-interpreter]: success
+[2023-07-07 04:45:51] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-07-07 04:45:51] INFO root fetch - processPackages [nextpcg]: Remove: archive file [/home/abi/fetcher/tmp/nextpcg-0.6.2.tar.gz]
+[2023-07-07 04:45:51] INFO root fetch - processPackages [nextpcg]: Remove: archive file [/home/abi/fetcher/tmp/nextpcg-0.6.3.tar.gz]
+[2023-07-07 04:45:51] INFO root fetch - main [MainThread]: End processing [nextpcg]: success
+[2023-07-07 04:45:51] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.8.tar.gz]
+[2023-07-07 04:45:51] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.9.tar.gz]
+[2023-07-07 04:45:51] INFO root fetch - main [MainThread]: End processing [frontengine]: success
+[2023-07-07 04:45:51] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/23/e2/01e0fe02ca6b73e163f3f0d080231bc0c783a63e766e5524eb246350518d/frontengine_dev-0.0.8.tar.gz
+[2023-07-07 04:45:51] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/19/05/30d98744c3813d678438d1f164dc4db8972da2ff34d40fc7d3a6492d5cc8/cdk8s-plus-25-2.8.8.tar.gz
+[2023-07-07 04:45:51] INFO root fetch - processPackages [hubotlibs]: Downloading https://files.pythonhosted.org/packages/c5/60/31be703083a7aa4931179e1cd983bcdbb40c940d46407da6e332a3f82ce6/hubotlibs-0.3.1.tar.gz
+[2023-07-07 04:45:51] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.8.tar.gz]
+[2023-07-07 04:45:51] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.9.tar.gz]
+[2023-07-07 04:45:51] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-07-07 04:45:52] INFO root fetch - processPackages [hubotlibs]: executing diffoscope
+[2023-07-07 04:45:52] INFO root fetch - processPackages [hubotlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubotlibs-0.3.0.tar.gz tmp/hubotlibs-0.3.1.tar.gz --markdown 20230707/h/hubotlibs/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-07 04:45:52] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-07-07 04:45:52] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-07-07 04:45:52] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-07-07 04:45:52] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-07-07 04:45:52] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/bd/40/ac58f5e1633b3b2ea3574839a03ddc6a124459f3e721986a4208fbe06488/frontengine_dev-0.0.9.tar.gz
+[2023-07-07 04:45:52] INFO root fetch - processPackages [hrequests]: Remove: archive file [/home/abi/fetcher/tmp/hrequests-0.1.0.tar.gz]
+[2023-07-07 04:45:52] INFO root fetch - processPackages [hrequests]: Remove: archive file [/home/abi/fetcher/tmp/hrequests-0.1.1.tar.gz]
+[2023-07-07 04:45:52] INFO root fetch - main [MainThread]: End processing [hrequests]: success
+[2023-07-07 04:45:52] INFO root fetch - processPackages [frontengine-dev]: executing diffoscope
+[2023-07-07 04:45:52] INFO root fetch - processPackages [frontengine-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine_dev-0.0.8.tar.gz tmp/frontengine_dev-0.0.9.tar.gz --markdown 20230707/f/frontengine-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 04:45:52] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-07-07 04:45:52] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.8.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230707/c/cdk8s-plus-25/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-07-07 04:45:52] INFO root fetch - processPackages [hubotlibs]: Remove: archive file [/home/abi/fetcher/tmp/hubotlibs-0.3.0.tar.gz]
+[2023-07-07 04:45:52] INFO root fetch - processPackages [hubotlibs]: Remove: archive file [/home/abi/fetcher/tmp/hubotlibs-0.3.1.tar.gz]
+[2023-07-07 04:45:52] INFO root fetch - main [MainThread]: End processing [hubotlibs]: success
+[2023-07-07 04:45:53] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.8.tar.gz]
+[2023-07-07 04:45:53] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.9.tar.gz]
+[2023-07-07 04:45:53] INFO root fetch - main [MainThread]: End processing [frontengine-dev]: success
+[2023-07-07 04:45:53] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.8.tar.gz]
+[2023-07-07 04:45:53] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-07-07 04:45:53] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-07-07 04:45:53] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.6.tar.gz]
+[2023-07-07 04:45:53] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.7.tar.gz]
+[2023-07-07 04:45:53] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-07-07 04:45:53] INFO root fetch - main [MainThread]: Store serial: [18795299]
