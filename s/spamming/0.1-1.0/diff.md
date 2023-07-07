@@ -1,4 +1,4 @@
-# Comparing `tmp/spamming-0.1.tar.gz` & `tmp/spamming-1.0.tar.gz`
+# Comparing `tmp/spamming-0.1.0.tar.gz` & `tmp/spamming-1.0.tar.gz`
 
 ## filetype from file(1)
 
@@ -8,7 +8,7 @@
 +gzip compressed data, was "spamming-1.0.tar", last modified: Fri Jul  7 18:01:54 2023, max compression
 ```
 
-## Comparing `spamming-0.1.tar` & `spamming-1.0.tar`
+## Comparing `spamming-0.1.0.tar` & `spamming-1.0.tar`
 
 ### file list
 
