@@ -16224,3 +16224,105 @@ EOFError: EOF read where object expected
 [2023-07-07 10:53:13] INFO root fetch - processPackages [gm]: Remove: archive file [/home/abi/fetcher/tmp/gm-3.0.156-cp39-cp39-win_amd64.whl.zip]
 [2023-07-07 10:53:13] INFO root fetch - main [MainThread]: End processing [gm]: success
 [2023-07-07 10:53:13] INFO root fetch - main [MainThread]: Store serial: [18797773]
+[2023-07-07 10:58:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18797773]
+[2023-07-07 10:58:34] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-07 10:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hadder
+[2023-07-07 10:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bitcoinlib
+[2023-07-07 10:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cg
+[2023-07-07 10:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyautocorpus
+[2023-07-07 10:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: readyocr
+[2023-07-07 10:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-cp-broadcast
+[2023-07-07 10:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scikit-rt
+[2023-07-07 10:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iCount-Mini
+[2023-07-07 10:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyciactions
+[2023-07-07 10:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-sql-explorer-squad
+[2023-07-07 10:58:34] INFO root fetch - processPackages [pyciactions]: New version: [1.0.9] Old Version: [1.0.8a8]
+[2023-07-07 10:58:34] INFO root fetch - processPackages [hadder]: New version: [2.0] Old Version: [1.9]
+[2023-07-07 10:58:34] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-07 10:58:34] INFO root fetch - processPackages [readyocr]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-07 10:58:34] INFO root fetch - processPackages [bitcoinlib]: New version: [0.6.9] Old Version: [0.6.7]
+[2023-07-07 10:58:34] INFO root fetch - processPackages [django-sql-explorer-squad]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-07 10:58:34] INFO root fetch - processPackages [iCount-Mini]: New version: [3.0.0] Old Version: [2.0.3]
+[2023-07-07 10:58:34] INFO root fetch - processPackages [scikit-rt]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-07 10:58:34] INFO root fetch - processPackages [pyautocorpus]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-07 10:58:34] INFO root fetch - processPackages [cg]: New version: [38.1.1] Old Version: [38.1.0]
+[2023-07-07 10:58:34] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/4f/f3/3f4bce0f1e4c09bf27f8534421b31f53514ec81a4b706ba66930ae207c9f/pyciactions-1.0.8a8.tar.gz
+[2023-07-07 10:58:34] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/97/23/a8be90cd2deb7179e40c20580536e809cc84ecbeb16f5884db128ace429c/readyocr-0.0.6.tar.gz
+[2023-07-07 10:58:34] INFO root fetch - processPackages [django-sql-explorer-squad]: Downloading https://files.pythonhosted.org/packages/90/c7/9142ff58231887983b889980e68ebde5a91a43d71727afe94695068ddc43/django_sql_explorer_squad-0.9.8-py3-none-any.whl
+[2023-07-07 10:58:34] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/96/7c/b4a6f9721bee1a26e17acfe1d1844c14c945af5880fddde37364c9b8cd12/cg-38.1.0.tar.gz
+[2023-07-07 10:58:34] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Downloading https://files.pythonhosted.org/packages/fa/51/39e440f71b4dbf1180852b000322339051de4d4c2c1e6503acfe95ded21e/nonebot_plugin_cp_broadcast-0.1.4.tar.gz
+[2023-07-07 10:58:34] INFO root fetch - processPackages [bitcoinlib]: Downloading https://files.pythonhosted.org/packages/84/38/c8e53d86be6ab1a47edd7d70c7393797acfcda42c48551ea3a74808d88df/bitcoinlib-0.6.7.tar.gz
+[2023-07-07 10:58:34] INFO root fetch - processPackages [hadder]: Downloading https://files.pythonhosted.org/packages/36/3b/a24e8b44cb7b3c3778815faf07a74bdec36e22c25495e872589c235fd718/hadder-1.9.tar.gz
+[2023-07-07 10:58:35] INFO root fetch - processPackages [iCount-Mini]: Downloading https://files.pythonhosted.org/packages/00/0c/ad4288239a2fb2b87df80325193e3a26ff702709bd99d5aac387a453be12/iCount-Mini-2.0.3.tar.gz
+[2023-07-07 10:58:35] INFO root fetch - processPackages [scikit-rt]: Downloading https://files.pythonhosted.org/packages/01/55/42f9d246f993ca4ce958673e9bdf0acfa56e7f22b1272815f1978772319f/scikit-rt-0.5.8.tar.gz
+[2023-07-07 10:58:35] INFO root fetch - processPackages [pyautocorpus]: Downloading https://files.pythonhosted.org/packages/84/9b/28868d232047acfb415e33eea8baaa0634b595f99851fa87eaff3e140892/pyautocorpus-0.1.8.tar.gz
+[2023-07-07 10:58:35] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/31/76/449e2f9925c75cb9cae72fcc6ebcb769640e519cf941ad29cee965d3ac35/pyciactions-1.0.9.tar.gz
+[2023-07-07 10:58:35] INFO root fetch - processPackages [django-sql-explorer-squad]: Downloading https://files.pythonhosted.org/packages/b7/2e/491e0b57bd65f72b320cc98089151b4abdf96aba414e327989a386dca1f2/django_sql_explorer_squad-0.9.9-py3-none-any.whl
+[2023-07-07 10:58:35] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/c1/18/94c9465ca32057fe84e4b45aa48180ec2997ab40266f1cdafdb5e2dac998/readyocr-0.0.7.tar.gz
+[2023-07-07 10:58:35] INFO root fetch - processPackages [pyciactions]: executing diffoscope
+[2023-07-07 10:58:35] INFO root fetch - processPackages [pyciactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyciactions-1.0.8a8.tar.gz tmp/pyciactions-1.0.9.tar.gz --markdown 20230707/p/pyciactions/1.0.8a8-1.0.9/diff.md --exclude *.pyd
+[2023-07-07 10:58:35] INFO root fetch - processPackages [django-sql-explorer-squad]: executing diffoscope
+[2023-07-07 10:58:35] INFO root fetch - processPackages [django-sql-explorer-squad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_sql_explorer_squad-0.9.8-py3-none-any.whl.zip tmp/django_sql_explorer_squad-0.9.9-py3-none-any.whl.zip --markdown 20230707/d/django-sql-explorer-squad/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-07 10:58:35] INFO root fetch - processPackages [hadder]: Downloading https://files.pythonhosted.org/packages/70/0d/8a89160807bf5499dfd71bff0f18d8b745708e14a045e951233577b2f0b7/hadder-2.0.tar.gz
+[2023-07-07 10:58:35] INFO root fetch - processPackages [iCount-Mini]: Downloading https://files.pythonhosted.org/packages/66/9f/d6d08dd3fd0d463715c3ed991215c9bc3fa03554f450e035c58e1165e8da/iCount-Mini-3.0.0.tar.gz
+[2023-07-07 10:58:35] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Downloading https://files.pythonhosted.org/packages/b6/b3/6b504e74a51af0b2946cbc9f8b6f47fdbc63f7d927ba7aeda1b98c8210c0/nonebot_plugin_cp_broadcast-0.1.5.tar.gz
+[2023-07-07 10:58:35] INFO root fetch - processPackages [readyocr]: executing diffoscope
+[2023-07-07 10:58:35] INFO root fetch - processPackages [readyocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readyocr-0.0.6.tar.gz tmp/readyocr-0.0.7.tar.gz --markdown 20230707/r/readyocr/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-07 10:58:35] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/e5/38/de23ff1468486da7efd64648a0790badadfdbfdc3efc01027e0e9638c293/cg-38.1.1.tar.gz
+[2023-07-07 10:58:35] INFO root fetch - processPackages [hadder]: executing diffoscope
+[2023-07-07 10:58:35] INFO root fetch - processPackages [hadder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hadder-1.9.tar.gz tmp/hadder-2.0.tar.gz --markdown 20230707/h/hadder/1.9-2.0/diff.md --exclude *.pyd
+[2023-07-07 10:58:35] INFO root fetch - processPackages [scikit-rt]: Downloading https://files.pythonhosted.org/packages/d9/fa/1dc29e607a73b56bcd7fb6c90e72514a7fe4c2f00e44b2321c82fb5715a9/scikit-rt-0.5.9.tar.gz
+[2023-07-07 10:58:35] INFO root fetch - processPackages [pyautocorpus]: Downloading https://files.pythonhosted.org/packages/e9/b2/88efd388e99a1051d728431ce4bb3e45960b984afbaebb3b22a76ce992ab/pyautocorpus-0.1.9.tar.gz
+[2023-07-07 10:58:35] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: executing diffoscope
+[2023-07-07 10:58:35] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_cp_broadcast-0.1.4.tar.gz tmp/nonebot_plugin_cp_broadcast-0.1.5.tar.gz --markdown 20230707/n/nonebot-plugin-cp-broadcast/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-07 10:58:35] INFO root fetch - processPackages [iCount-Mini]: executing diffoscope
+[2023-07-07 10:58:35] INFO root fetch - processPackages [iCount-Mini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iCount-Mini-2.0.3.tar.gz tmp/iCount-Mini-3.0.0.tar.gz --markdown 20230707/i/iCount-Mini/2.0.3-3.0.0/diff.md --exclude *.pyd
+[2023-07-07 10:58:35] INFO root fetch - processPackages [bitcoinlib]: Downloading https://files.pythonhosted.org/packages/bb/dd/ab543eedf5d0c30da5eb7bacb16f4416b33a180d347552fe5cb548914205/bitcoinlib-0.6.9.tar.gz
+[2023-07-07 10:58:35] INFO root fetch - processPackages [pyautocorpus]: executing diffoscope
+[2023-07-07 10:58:35] INFO root fetch - processPackages [pyautocorpus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyautocorpus-0.1.8.tar.gz tmp/pyautocorpus-0.1.9.tar.gz --markdown 20230707/p/pyautocorpus/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-07 10:58:35] INFO root fetch - processPackages [scikit-rt]: executing diffoscope
+[2023-07-07 10:58:35] INFO root fetch - processPackages [scikit-rt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-rt-0.5.8.tar.gz tmp/scikit-rt-0.5.9.tar.gz --markdown 20230707/s/scikit-rt/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-07 10:58:35] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-07-07 10:58:35] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-38.1.0.tar.gz tmp/cg-38.1.1.tar.gz --markdown 20230707/c/cg/38.1.0-38.1.1/diff.md --exclude *.pyd
+[2023-07-07 10:58:36] INFO root fetch - processPackages [bitcoinlib]: executing diffoscope
+[2023-07-07 10:58:36] INFO root fetch - processPackages [bitcoinlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitcoinlib-0.6.7.tar.gz tmp/bitcoinlib-0.6.9.tar.gz --markdown 20230707/b/bitcoinlib/0.6.7-0.6.9/diff.md --exclude *.pyd
+[2023-07-07 10:58:36] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.8a8.tar.gz]
+[2023-07-07 10:58:36] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.9.tar.gz]
+[2023-07-07 10:58:36] INFO root fetch - processPackages [pyciactions]: Start processing: gradio-test-pypi
+[2023-07-07 10:58:36] INFO root fetch - main [MainThread]: End processing [pyciactions]: success
+[2023-07-07 10:58:36] INFO root fetch - processPackages [gradio-test-pypi]: New version: [0.50.0] Old Version: [0.49.1]
+[2023-07-07 10:58:37] INFO root fetch - processPackages [gradio-test-pypi]: Downloading https://files.pythonhosted.org/packages/58/0b/9b1d2b29216d3fa136638273f6441a1f85bed0fd3b270302cbfcf5f7ece5/gradio_test_pypi-0.49.1.tar.gz
+[2023-07-07 10:58:37] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_cp_broadcast-0.1.4.tar.gz]
+[2023-07-07 10:58:37] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_cp_broadcast-0.1.5.tar.gz]
+[2023-07-07 10:58:37] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-cp-broadcast]: success
+[2023-07-07 10:58:37] INFO root fetch - processPackages [django-sql-explorer-squad]: Remove: archive file [/home/abi/fetcher/tmp/django_sql_explorer_squad-0.9.8-py3-none-any.whl.zip]
+[2023-07-07 10:58:37] INFO root fetch - processPackages [django-sql-explorer-squad]: Remove: archive file [/home/abi/fetcher/tmp/django_sql_explorer_squad-0.9.9-py3-none-any.whl.zip]
+[2023-07-07 10:58:37] INFO root fetch - main [MainThread]: End processing [django-sql-explorer-squad]: success
+[2023-07-07 10:58:37] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.6.tar.gz]
+[2023-07-07 10:58:37] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.7.tar.gz]
+[2023-07-07 10:58:37] INFO root fetch - main [MainThread]: End processing [readyocr]: success
+[2023-07-07 10:58:37] INFO root fetch - processPackages [hadder]: Remove: archive file [/home/abi/fetcher/tmp/hadder-1.9.tar.gz]
+[2023-07-07 10:58:37] INFO root fetch - processPackages [hadder]: Remove: archive file [/home/abi/fetcher/tmp/hadder-2.0.tar.gz]
+[2023-07-07 10:58:37] INFO root fetch - main [MainThread]: End processing [hadder]: success
+[2023-07-07 10:58:37] INFO root fetch - processPackages [pyautocorpus]: Remove: archive file [/home/abi/fetcher/tmp/pyautocorpus-0.1.8.tar.gz]
+[2023-07-07 10:58:37] INFO root fetch - processPackages [pyautocorpus]: Remove: archive file [/home/abi/fetcher/tmp/pyautocorpus-0.1.9.tar.gz]
+[2023-07-07 10:58:37] INFO root fetch - main [MainThread]: End processing [pyautocorpus]: success
+[2023-07-07 10:58:37] INFO root fetch - processPackages [gradio-test-pypi]: Downloading https://files.pythonhosted.org/packages/aa/16/5b2a1b537454158e8d0e20eb37e095a02314ae256252f6d6ee0f9aa7c654/gradio_test_pypi-0.50.0.tar.gz
+[2023-07-07 10:58:37] INFO root fetch - processPackages [gradio-test-pypi]: executing diffoscope
+[2023-07-07 10:58:37] INFO root fetch - processPackages [gradio-test-pypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradio_test_pypi-0.49.1.tar.gz tmp/gradio_test_pypi-0.50.0.tar.gz --markdown 20230707/g/gradio-test-pypi/0.49.1-0.50.0/diff.md --exclude *.pyd
+[2023-07-07 10:58:37] INFO root fetch - processPackages [scikit-rt]: Remove: archive file [/home/abi/fetcher/tmp/scikit-rt-0.5.8.tar.gz]
+[2023-07-07 10:58:37] INFO root fetch - processPackages [scikit-rt]: Remove: archive file [/home/abi/fetcher/tmp/scikit-rt-0.5.9.tar.gz]
+[2023-07-07 10:58:37] INFO root fetch - main [MainThread]: End processing [scikit-rt]: success
+[2023-07-07 10:58:37] INFO root fetch - processPackages [iCount-Mini]: Remove: archive file [/home/abi/fetcher/tmp/iCount-Mini-2.0.3.tar.gz]
+[2023-07-07 10:58:37] INFO root fetch - processPackages [iCount-Mini]: Remove: archive file [/home/abi/fetcher/tmp/iCount-Mini-3.0.0.tar.gz]
+[2023-07-07 10:58:37] INFO root fetch - main [MainThread]: End processing [iCount-Mini]: success
+[2023-07-07 10:58:38] INFO root fetch - processPackages [gradio-test-pypi]: Remove: archive file [/home/abi/fetcher/tmp/gradio_test_pypi-0.49.1.tar.gz]
+[2023-07-07 10:58:38] INFO root fetch - processPackages [gradio-test-pypi]: Remove: archive file [/home/abi/fetcher/tmp/gradio_test_pypi-0.50.0.tar.gz]
+[2023-07-07 10:58:38] INFO root fetch - main [MainThread]: End processing [gradio-test-pypi]: success
+[2023-07-07 10:58:38] INFO root fetch - processPackages [bitcoinlib]: Remove: archive file [/home/abi/fetcher/tmp/bitcoinlib-0.6.7.tar.gz]
+[2023-07-07 10:58:38] INFO root fetch - processPackages [bitcoinlib]: Remove: archive file [/home/abi/fetcher/tmp/bitcoinlib-0.6.9.tar.gz]
+[2023-07-07 10:58:38] INFO root fetch - main [MainThread]: End processing [bitcoinlib]: success
+[2023-07-07 10:58:42] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.1.0.tar.gz]
+[2023-07-07 10:58:42] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.1.1.tar.gz]
+[2023-07-07 10:58:42] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-07-07 10:58:42] INFO root fetch - main [MainThread]: Store serial: [18797825]
