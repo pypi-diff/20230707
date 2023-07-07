@@ -12201,3 +12201,88 @@ EOFError: EOF read where object expected
 [2023-07-07 07:33:07] INFO root fetch - processPackages [woebin-python]: Remove: archive file [/home/abi/fetcher/tmp/woebin-python-0.1.2.tar.gz]
 [2023-07-07 07:33:07] INFO root fetch - main [MainThread]: End processing [woebin-python]: success
 [2023-07-07 07:33:07] INFO root fetch - main [MainThread]: Store serial: [18796114]
+[2023-07-07 07:38:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18796114]
+[2023-07-07 07:38:16] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-07 07:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyciactions
+[2023-07-07 07:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SocketUI
+[2023-07-07 07:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: txredisapi
+[2023-07-07 07:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: upgini
+[2023-07-07 07:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: BioSAK
+[2023-07-07 07:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyciactions
+[2023-07-07 07:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: domain-admin
+[2023-07-07 07:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyciactions
+[2023-07-07 07:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyciactions
+[2023-07-07 07:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flux-local
+[2023-07-07 07:38:16] INFO root fetch - processPackages [pyciactions]: New version: [1.0.8a2] Old Version: [1.0.8a1]
+[2023-07-07 07:38:16] INFO root fetch - processPackages [txredisapi]: New version: [1.4.9] Old Version: [1.4.7]
+[2023-07-07 07:38:16] INFO root fetch - processPackages [pyciactions]: New version: [1.0.8a2] Old Version: [1.0.8a1]
+[2023-07-07 07:38:16] INFO root fetch - processPackages [SocketUI]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-07 07:38:16] INFO root fetch - processPackages [pyciactions]: New version: [1.0.8a2] Old Version: [1.0.8a1]
+[2023-07-07 07:38:16] INFO root fetch - processPackages [pyciactions]: New version: [1.0.8a4] Old Version: [1.0.8a3]
+[2023-07-07 07:38:16] INFO root fetch - processPackages [BioSAK]: New version: [1.69.6] Old Version: [1.69.5]
+[2023-07-07 07:38:16] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-07 07:38:16] INFO root fetch - processPackages [flux-local]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-07-07 07:38:16] INFO root fetch - processPackages [domain-admin]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-07 07:38:16] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/3a/f2/23400df41503073b93b342c8dcf715e54b76978a0ee3202a010a8c6a2fe7/domain-admin-1.4.8.tar.gz
+[2023-07-07 07:38:16] INFO root fetch - processPackages [flux-local]: Downloading https://files.pythonhosted.org/packages/11/ff/79fbb1d0ff02d58862af0a1794b0549e102bbe605f7bdcb2996087212a83/flux-local-2.0.1.tar.gz
+[2023-07-07 07:38:16] INFO root fetch - processPackages [SocketUI]: Downloading https://files.pythonhosted.org/packages/e2/e6/917df0c0666b9ce8acc1cea1934dd56167540afa0e20ab325397ce55302a/SocketUI-0.0.1.tar.gz
+[2023-07-07 07:38:17] INFO root fetch - processPackages [txredisapi]: Downloading https://files.pythonhosted.org/packages/f2/f6/73f70a74627f1016bd7753a9c948c85dc986793d4dac55d7872e6d0b939e/txredisapi-1.4.7.tar.gz
+[2023-07-07 07:38:17] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/db/13/999172b3b6633366ee3ec6da6da3ae96a0980c2907987f4d6d6ed098ee7e/pyciactions-1.0.8a1.tar.gz
+[2023-07-07 07:38:17] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/db/13/999172b3b6633366ee3ec6da6da3ae96a0980c2907987f4d6d6ed098ee7e/pyciactions-1.0.8a1.tar.gz
+[2023-07-07 07:38:17] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/3b/60/fbc421a09efeaa37a0b9c267acdc9d65f58d30760a4be7d82ecf1e47d39e/pyciactions-1.0.8a3.tar.gz
+[2023-07-07 07:38:17] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/db/13/999172b3b6633366ee3ec6da6da3ae96a0980c2907987f4d6d6ed098ee7e/pyciactions-1.0.8a1.tar.gz
+[2023-07-07 07:38:17] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/51/8d/442f977076845ea8a3102b59fa0be3af0a9f7c14bbbf7b3afcbacb7dc307/BioSAK-1.69.5.tar.gz
+[2023-07-07 07:38:17] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2023-07-07 07:38:17] WARNING root fetch - processPackages [BioSAK]: Skipping package: exceeds size limit 21176909>=10485760
+[2023-07-07 07:38:17] INFO root fetch - main [MainThread]: End processing [BioSAK] error
+[2023-07-07 07:38:17] INFO root fetch - processPackages [flux-local]: Downloading https://files.pythonhosted.org/packages/08/04/6c58d762b89f3f4332baac3cf97c7f96ec8f0681395516231003bcf610f2/flux-local-2.1.0.tar.gz
+[2023-07-07 07:38:17] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/c8/72/cfb118e14c007a151e3448decdf03d9f857f769cf0e5fce80f46281b8de5/domain-admin-1.4.9.tar.gz
+[2023-07-07 07:38:17] INFO root fetch - processPackages [SocketUI]: Downloading https://files.pythonhosted.org/packages/84/1c/42835d483ea6ef6c54ea63ecaaf7c01c8301b73401175076d82ff8adec2d/SocketUI-0.0.2.tar.gz
+[2023-07-07 07:38:17] INFO root fetch - processPackages [flux-local]: executing diffoscope
+[2023-07-07 07:38:17] INFO root fetch - processPackages [flux-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flux-local-2.0.1.tar.gz tmp/flux-local-2.1.0.tar.gz --markdown 20230707/f/flux-local/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-07-07 07:38:17] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-07-07 07:38:17] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.4.8.tar.gz tmp/domain-admin-1.4.9.tar.gz --markdown 20230707/d/domain-admin/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-07 07:38:17] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/c6/23/5a311eef77749fcaf162173b0c526b3eb1bf7c924ef028ef64fb6007d3a6/pyciactions-1.0.8a4.tar.gz
+[2023-07-07 07:38:17] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/fa/3f/83b10dfe8e0856dade3758b59b0e723c0699170b0c4a94e5cfebd905b9a1/pyciactions-1.0.8a2.tar.gz
+[2023-07-07 07:38:17] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/fa/3f/83b10dfe8e0856dade3758b59b0e723c0699170b0c4a94e5cfebd905b9a1/pyciactions-1.0.8a2.tar.gz
+[2023-07-07 07:38:17] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/fa/3f/83b10dfe8e0856dade3758b59b0e723c0699170b0c4a94e5cfebd905b9a1/pyciactions-1.0.8a2.tar.gz
+[2023-07-07 07:38:17] INFO root fetch - processPackages [txredisapi]: Downloading https://files.pythonhosted.org/packages/62/6f/b7ab3edd861c48266c2981a8dc8fc5b93184c53c2da902cf0b28b67a1a05/txredisapi-1.4.9.tar.gz
+[2023-07-07 07:38:17] INFO root fetch - processPackages [SocketUI]: executing diffoscope
+[2023-07-07 07:38:17] INFO root fetch - processPackages [SocketUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SocketUI-0.0.1.tar.gz tmp/SocketUI-0.0.2.tar.gz --markdown 20230707/S/SocketUI/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-07 07:38:17] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2023-07-07 07:38:17] INFO root fetch - processPackages [pyciactions]: executing diffoscope
+[2023-07-07 07:38:17] INFO root fetch - processPackages [pyciactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyciactions-1.0.8a3.tar.gz tmp/pyciactions-1.0.8a4.tar.gz --markdown 20230707/p/pyciactions/1.0.8a3-1.0.8a4/diff.md --exclude *.pyd
+[2023-07-07 07:38:17] INFO root fetch - processPackages [pyciactions]: executing diffoscope
+[2023-07-07 07:38:17] INFO root fetch - processPackages [pyciactions]: executing diffoscope
+[2023-07-07 07:38:17] INFO root fetch - processPackages [pyciactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyciactions-1.0.8a1.tar.gz tmp/pyciactions-1.0.8a2.tar.gz --markdown 20230707/p/pyciactions/1.0.8a1-1.0.8a2/diff.md --exclude *.pyd
+[2023-07-07 07:38:17] INFO root fetch - processPackages [pyciactions]: executing diffoscope
+[2023-07-07 07:38:17] INFO root fetch - processPackages [pyciactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyciactions-1.0.8a1.tar.gz tmp/pyciactions-1.0.8a2.tar.gz --markdown 20230707/p/pyciactions/1.0.8a1-1.0.8a2/diff.md --exclude *.pyd
+[2023-07-07 07:38:17] INFO root fetch - processPackages [pyciactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyciactions-1.0.8a1.tar.gz tmp/pyciactions-1.0.8a2.tar.gz --markdown 20230707/p/pyciactions/1.0.8a1-1.0.8a2/diff.md --exclude *.pyd
+[2023-07-07 07:38:17] INFO root fetch - processPackages [txredisapi]: executing diffoscope
+[2023-07-07 07:38:17] INFO root fetch - processPackages [txredisapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txredisapi-1.4.7.tar.gz tmp/txredisapi-1.4.9.tar.gz --markdown 20230707/t/txredisapi/1.4.7-1.4.9/diff.md --exclude *.pyd
+[2023-07-07 07:38:17] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-07-07 07:38:17] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230707/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-07 07:38:18] INFO root fetch - processPackages [flux-local]: Remove: archive file [/home/abi/fetcher/tmp/flux-local-2.0.1.tar.gz]
+[2023-07-07 07:38:18] INFO root fetch - processPackages [flux-local]: Remove: archive file [/home/abi/fetcher/tmp/flux-local-2.1.0.tar.gz]
+[2023-07-07 07:38:18] INFO root fetch - main [MainThread]: End processing [flux-local]: success
+[2023-07-07 07:38:19] INFO root fetch - processPackages [SocketUI]: Remove: archive file [/home/abi/fetcher/tmp/SocketUI-0.0.1.tar.gz]
+[2023-07-07 07:38:19] INFO root fetch - processPackages [SocketUI]: Remove: archive file [/home/abi/fetcher/tmp/SocketUI-0.0.2.tar.gz]
+[2023-07-07 07:38:19] INFO root fetch - main [MainThread]: End processing [SocketUI]: success
+[2023-07-07 07:38:19] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.8a3.tar.gz]
+[2023-07-07 07:38:19] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.8a4.tar.gz]
+[2023-07-07 07:38:19] INFO root fetch - main [MainThread]: End processing [pyciactions]: success
+[2023-07-07 07:38:19] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.8a1.tar.gz]
+[2023-07-07 07:38:19] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.8a2.tar.gz]
+[2023-07-07 07:38:19] INFO root fetch - main [MainThread]: End processing [pyciactions]: success
+[2023-07-07 07:38:19] INFO root fetch - main [MainThread]: End processing [pyciactions]: success
+[2023-07-07 07:38:19] INFO root fetch - processPackages [txredisapi]: Remove: archive file [/home/abi/fetcher/tmp/txredisapi-1.4.7.tar.gz]
+[2023-07-07 07:38:19] INFO root fetch - processPackages [txredisapi]: Remove: archive file [/home/abi/fetcher/tmp/txredisapi-1.4.9.tar.gz]
+[2023-07-07 07:38:19] INFO root fetch - main [MainThread]: End processing [txredisapi]: success
+[2023-07-07 07:38:19] INFO root fetch - main [MainThread]: End processing [pyciactions]: success
+[2023-07-07 07:38:19] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2023-07-07 07:38:19] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2023-07-07 07:38:19] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-07-07 07:38:26] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.8.tar.gz]
+[2023-07-07 07:38:26] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.9.tar.gz]
+[2023-07-07 07:38:26] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-07-07 07:38:26] INFO root fetch - main [MainThread]: Store serial: [18796144]
