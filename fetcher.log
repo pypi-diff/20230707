@@ -12962,3 +12962,133 @@ EOFError: EOF read where object expected
 [2023-07-07 08:30:30] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230707.tar.gz]
 [2023-07-07 08:30:30] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-07-07 08:30:30] INFO root fetch - main [MainThread]: Store serial: [18796448]
+[2023-07-07 08:35:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18796448]
+[2023-07-07 08:35:39] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-07 08:35:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rqalpha
+[2023-07-07 08:35:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zc.recipe.cmmi
+[2023-07-07 08:35:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: megfile
+[2023-07-07 08:35:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: composabl-dev
+[2023-07-07 08:35:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: upgini
+[2023-07-07 08:35:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zhousf-lib
+[2023-07-07 08:35:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-cloud-storages
+[2023-07-07 08:35:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-stdimage2
+[2023-07-07 08:35:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zhousf-lib
+[2023-07-07 08:35:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sh-dynamodb
+[2023-07-07 08:35:39] INFO root fetch - processPackages [megfile]: New version: [2.1.2] Old Version: [2.1.1.post2]
+[2023-07-07 08:35:39] INFO root fetch - processPackages [django-stdimage2]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-07 08:35:39] INFO root fetch - processPackages [zhousf-lib]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-07 08:35:39] INFO root fetch - processPackages [django-cloud-storages]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-07-07 08:35:39] INFO root fetch - processPackages [rqalpha]: New version: [5.1.1] Old Version: [5.1.0]
+[2023-07-07 08:35:39] INFO root fetch - processPackages [zhousf-lib]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-07 08:35:39] INFO root fetch - processPackages [sh-dynamodb]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-07 08:35:39] INFO root fetch - processPackages [composabl-dev]: New version: [0.2.3.dev3] Old Version: [0.2.3.dev27]
+[2023-07-07 08:35:39] INFO root fetch - processPackages [zc.recipe.cmmi]: New version: [4.0] Old Version: [3.0.0]
+[2023-07-07 08:35:39] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-07 08:35:39] INFO root fetch - processPackages [django-stdimage2]: Downloading https://files.pythonhosted.org/packages/7a/da/afc93f5d9a601cb98b01c1abe4cb56a165548b2af78fcee1e1b6075ab314/django-stdimage2-0.1.3.tar.gz
+[2023-07-07 08:35:39] INFO root fetch - processPackages [megfile]: Downloading https://files.pythonhosted.org/packages/22/08/3cddb9a5edf63903eee8a646e01f373bb640561ff5293c5b7307b1bb87aa/megfile-2.1.1.post2-py3-none-any.whl
+[2023-07-07 08:35:39] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/05/fc/9995851981eeaf159f3a39ca8582424db250b2302abba8dab659f2b4fb3a/zhousf-lib-0.8.1.tar.gz
+[2023-07-07 08:35:39] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/05/fc/9995851981eeaf159f3a39ca8582424db250b2302abba8dab659f2b4fb3a/zhousf-lib-0.8.1.tar.gz
+[2023-07-07 08:35:39] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/b4/1c/0fe5a348ff3162cc2c91cb2ec2811a1dfb345e4de3f0581f21ebef44f94c/sh-dynamodb-1.1.4.tar.gz
+[2023-07-07 08:35:39] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2023-07-07 08:35:39] INFO root fetch - processPackages [django-cloud-storages]: Downloading https://files.pythonhosted.org/packages/ef/df/1a75cfa39fb33c5376e0865d59a301ffe112eea865923d39de415d13693d/django_cloud_storages-1.1.9.tar.gz
+[2023-07-07 08:35:39] INFO root fetch - processPackages [zc.recipe.cmmi]: Downloading https://files.pythonhosted.org/packages/e4/4f/2c621d34dc79e3dabeafc8f44e183dde53c927880e551e977c9fdbc36b89/zc.recipe.cmmi-3.0.0.tar.gz
+[2023-07-07 08:35:39] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/9b/a4/6ca12c53372bc74af7097f9e820e81a2830afadaff82aa753a2b8498723a/composabl_dev-0.2.3.dev27-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-07-07 08:35:40] INFO root fetch - processPackages [rqalpha]: Downloading https://files.pythonhosted.org/packages/43/77/57311ca4eec9f9459080740764b8d8ea5b7ca2f526dae45efd89a3d54ad4/rqalpha-5.1.0.tar.gz
+[2023-07-07 08:35:40] INFO root fetch - processPackages [megfile]: Downloading https://files.pythonhosted.org/packages/ca/00/b3db1e71c2065f3a55f935b2f7e18071479039f5b16b24e0926f3417eb09/megfile-2.1.2-py3-none-any.whl
+[2023-07-07 08:35:40] INFO root fetch - processPackages [django-stdimage2]: Downloading https://files.pythonhosted.org/packages/26/19/e2879fc459eee39d5a2c7cec139bd1812e8f9a8172a6f61c5ddf52347ea7/django-stdimage2-0.1.4.tar.gz
+[2023-07-07 08:35:40] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2023-07-07 08:35:40] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/01/bd/f6420af1f67e3c057ecba0bc095fd9755e40451fb08773546ab69df71d3b/sh-dynamodb-1.1.5.tar.gz
+[2023-07-07 08:35:40] INFO root fetch - processPackages [django-cloud-storages]: Downloading https://files.pythonhosted.org/packages/5c/61/fd7c5a05548a21c56a50beb95db5c3bbb354b09b7e158234532dca647a38/django_cloud_storages-1.2.0.tar.gz
+[2023-07-07 08:35:40] INFO root fetch - processPackages [zc.recipe.cmmi]: Downloading https://files.pythonhosted.org/packages/75/19/8b70889d8a02d9c9a09102d0f17b771c88cf1733641a6da723187d8721be/zc.recipe.cmmi-4.0.tar.gz
+[2023-07-07 08:35:40] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-07-07 08:35:40] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230707/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-07 08:35:40] INFO root fetch - processPackages [sh-dynamodb]: executing diffoscope
+[2023-07-07 08:35:40] INFO root fetch - processPackages [sh-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sh-dynamodb-1.1.4.tar.gz tmp/sh-dynamodb-1.1.5.tar.gz --markdown 20230707/s/sh-dynamodb/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-07 08:35:40] INFO root fetch - processPackages [django-stdimage2]: executing diffoscope
+[2023-07-07 08:35:40] INFO root fetch - processPackages [django-cloud-storages]: executing diffoscope
+[2023-07-07 08:35:40] INFO root fetch - processPackages [django-stdimage2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-stdimage2-0.1.3.tar.gz tmp/django-stdimage2-0.1.4.tar.gz --markdown 20230707/d/django-stdimage2/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-07 08:35:40] INFO root fetch - processPackages [django-cloud-storages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cloud_storages-1.1.9.tar.gz tmp/django_cloud_storages-1.2.0.tar.gz --markdown 20230707/d/django-cloud-storages/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-07-07 08:35:40] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/31/f6/b4731234d154ad4cb0b11d0435f467d6481dff5534a9eb71d956000f4b0d/zhousf-lib-0.8.2.tar.gz
+[2023-07-07 08:35:40] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/31/f6/b4731234d154ad4cb0b11d0435f467d6481dff5534a9eb71d956000f4b0d/zhousf-lib-0.8.2.tar.gz
+[2023-07-07 08:35:40] INFO root fetch - processPackages [rqalpha]: Downloading https://files.pythonhosted.org/packages/7a/c8/f48319286690e7e3000d403c29b1d2581a87182496fcc0f3b07f3c160b4e/rqalpha-5.1.1.tar.gz
+[2023-07-07 08:35:40] INFO root fetch - processPackages [megfile]: executing diffoscope
+[2023-07-07 08:35:40] INFO root fetch - processPackages [megfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megfile-2.1.1.post2-py3-none-any.whl.zip tmp/megfile-2.1.2-py3-none-any.whl.zip --markdown 20230707/m/megfile/2.1.1.post2-2.1.2/diff.md --exclude *.pyd
+[2023-07-07 08:35:40] INFO root fetch - processPackages [zc.recipe.cmmi]: executing diffoscope
+[2023-07-07 08:35:40] INFO root fetch - processPackages [zc.recipe.cmmi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zc.recipe.cmmi-3.0.0.tar.gz tmp/zc.recipe.cmmi-4.0.tar.gz --markdown 20230707/z/zc.recipe.cmmi/3.0.0-4.0/diff.md --exclude *.pyd
+[2023-07-07 08:35:40] INFO root fetch - processPackages [rqalpha]: executing diffoscope
+[2023-07-07 08:35:40] INFO root fetch - processPackages [rqalpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rqalpha-5.1.0.tar.gz tmp/rqalpha-5.1.1.tar.gz --markdown 20230707/r/rqalpha/5.1.0-5.1.1/diff.md --exclude *.pyd
+[2023-07-07 08:35:41] INFO root fetch - processPackages [zhousf-lib]: executing diffoscope
+[2023-07-07 08:35:41] INFO root fetch - processPackages [zhousf-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhousf-lib-0.8.1.tar.gz tmp/zhousf-lib-0.8.2.tar.gz --markdown 20230707/z/zhousf-lib/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-07 08:35:41] INFO root fetch - processPackages [zhousf-lib]: executing diffoscope
+[2023-07-07 08:35:41] INFO root fetch - processPackages [zhousf-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhousf-lib-0.8.1.tar.gz tmp/zhousf-lib-0.8.2.tar.gz --markdown 20230707/z/zhousf-lib/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-07 08:35:41] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/ff/69/caa4f330f35ba0b6828da0dd2e288bf1192a9fa476089150ad877b95dfb6/composabl_dev-0.2.3.dev3-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-07-07 08:35:41] INFO root fetch - processPackages [django-cloud-storages]: Remove: archive file [/home/abi/fetcher/tmp/django_cloud_storages-1.1.9.tar.gz]
+[2023-07-07 08:35:41] INFO root fetch - processPackages [django-cloud-storages]: Remove: archive file [/home/abi/fetcher/tmp/django_cloud_storages-1.2.0.tar.gz]
+[2023-07-07 08:35:41] INFO root fetch - processPackages [django-cloud-storages]: Start processing: imoc
+[2023-07-07 08:35:41] INFO root fetch - main [MainThread]: End processing [django-cloud-storages]: success
+[2023-07-07 08:35:41] INFO root fetch - processPackages [sh-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/sh-dynamodb-1.1.4.tar.gz]
+[2023-07-07 08:35:41] INFO root fetch - processPackages [sh-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/sh-dynamodb-1.1.5.tar.gz]
+[2023-07-07 08:35:41] INFO root fetch - processPackages [sh-dynamodb]: Start processing: pyjd
+[2023-07-07 08:35:41] INFO root fetch - main [MainThread]: End processing [sh-dynamodb]: success
+[2023-07-07 08:35:41] WARNING root fetch - processPackages [imoc]: Skipping, unable to determine old version
+[2023-07-07 08:35:41] INFO root fetch - processPackages [imoc]: Start processing: pydflow
+[2023-07-07 08:35:41] INFO root fetch - main [MainThread]: End processing [imoc] error
+[2023-07-07 08:35:41] INFO root fetch - processPackages [django-stdimage2]: Remove: archive file [/home/abi/fetcher/tmp/django-stdimage2-0.1.3.tar.gz]
+[2023-07-07 08:35:41] INFO root fetch - processPackages [django-stdimage2]: Remove: archive file [/home/abi/fetcher/tmp/django-stdimage2-0.1.4.tar.gz]
+[2023-07-07 08:35:41] INFO root fetch - processPackages [django-stdimage2]: Start processing: flask-marshmallow-openapi
+[2023-07-07 08:35:41] INFO root fetch - main [MainThread]: End processing [django-stdimage2]: success
+[2023-07-07 08:35:42] INFO root fetch - processPackages [pydflow]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-07 08:35:42] INFO root fetch - processPackages [pyjd]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-07 08:35:42] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2023-07-07 08:35:42] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.2.3.dev27-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_dev-0.2.3.dev3-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230707/c/composabl-dev/0.2.3.dev27-0.2.3.dev3/diff.md --exclude *.pyd
+[2023-07-07 08:35:42] INFO root fetch - processPackages [flask-marshmallow-openapi]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-07 08:35:42] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/33/96/a989d9cfcdb5dcb43d60a72640c59e2efb7fd053182742205b332006f813/pydflow-1.7.8.tar.gz
+[2023-07-07 08:35:42] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2023-07-07 08:35:42] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2023-07-07 08:35:42] INFO root fetch - processPackages [upgini]: Start processing: muffin-rest
+[2023-07-07 08:35:42] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-07-07 08:35:42] INFO root fetch - processPackages [pyjd]: Downloading https://files.pythonhosted.org/packages/ab/72/eb7af2eb05d8ed9dea54c348f35a313b64e18648584bf961813025ee9215/pyjd-1.0.2.tar.gz
+[2023-07-07 08:35:42] INFO root fetch - processPackages [zc.recipe.cmmi]: Remove: archive file [/home/abi/fetcher/tmp/zc.recipe.cmmi-3.0.0.tar.gz]
+[2023-07-07 08:35:42] INFO root fetch - processPackages [zc.recipe.cmmi]: Remove: archive file [/home/abi/fetcher/tmp/zc.recipe.cmmi-4.0.tar.gz]
+[2023-07-07 08:35:42] INFO root fetch - main [MainThread]: End processing [zc.recipe.cmmi]: success
+[2023-07-07 08:35:42] INFO root fetch - processPackages [muffin-rest]: New version: [5.2.0] Old Version: [5.1.9]
+[2023-07-07 08:35:42] INFO root fetch - processPackages [flask-marshmallow-openapi]: Downloading https://files.pythonhosted.org/packages/49/ef/17e6ee434a349b415ef8a04c2977e3ae52082aa8cc8e98157b73bd6a0edd/flask-marshmallow-openapi-0.4.1.tar.gz
+[2023-07-07 08:35:42] INFO root fetch - processPackages [megfile]: Remove: archive file [/home/abi/fetcher/tmp/megfile-2.1.1.post2-py3-none-any.whl.zip]
+[2023-07-07 08:35:42] INFO root fetch - processPackages [megfile]: Remove: archive file [/home/abi/fetcher/tmp/megfile-2.1.2-py3-none-any.whl.zip]
+[2023-07-07 08:35:42] INFO root fetch - main [MainThread]: End processing [megfile]: success
+[2023-07-07 08:35:42] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/9c/41/6c9bc72fde943869899725f55fade9f850f62ecbc6fa31e53b8fa79ae5a3/pydflow-1.7.9.tar.gz
+[2023-07-07 08:35:42] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-07-07 08:35:42] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.8.tar.gz tmp/pydflow-1.7.9.tar.gz --markdown 20230707/p/pydflow/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-07 08:35:42] INFO root fetch - processPackages [muffin-rest]: Downloading https://files.pythonhosted.org/packages/f0/f4/b75947df45c4fe4dbee70c6e9da3408f72fda50e86988fa9f80ed5458d7e/muffin_rest-5.1.9.tar.gz
+[2023-07-07 08:35:42] INFO root fetch - processPackages [pyjd]: Downloading https://files.pythonhosted.org/packages/57/fe/810ca47854ddb09d0b9bd00e2981ca18196f3a63d215c09a20122a6ce2de/pyjd-1.0.3.tar.gz
+[2023-07-07 08:35:42] INFO root fetch - processPackages [pyjd]: executing diffoscope
+[2023-07-07 08:35:42] INFO root fetch - processPackages [pyjd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjd-1.0.2.tar.gz tmp/pyjd-1.0.3.tar.gz --markdown 20230707/p/pyjd/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-07 08:35:42] INFO root fetch - processPackages [flask-marshmallow-openapi]: Downloading https://files.pythonhosted.org/packages/c3/bf/7dca8dca34e3c57b159c327f80874c51b5071d0089967ec2a9d65a05b8fa/flask-marshmallow-openapi-0.4.2.tar.gz
+[2023-07-07 08:35:43] INFO root fetch - processPackages [muffin-rest]: Downloading https://files.pythonhosted.org/packages/c9/1f/7831202640165bf381105e16607839de931d4622c134ae86743252e5fbfc/muffin_rest-5.2.0.tar.gz
+[2023-07-07 08:35:43] INFO root fetch - processPackages [rqalpha]: Remove: archive file [/home/abi/fetcher/tmp/rqalpha-5.1.0.tar.gz]
+[2023-07-07 08:35:43] INFO root fetch - processPackages [rqalpha]: Remove: archive file [/home/abi/fetcher/tmp/rqalpha-5.1.1.tar.gz]
+[2023-07-07 08:35:43] INFO root fetch - main [MainThread]: End processing [rqalpha]: success
+[2023-07-07 08:35:43] INFO root fetch - processPackages [flask-marshmallow-openapi]: executing diffoscope
+[2023-07-07 08:35:43] INFO root fetch - processPackages [flask-marshmallow-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-marshmallow-openapi-0.4.1.tar.gz tmp/flask-marshmallow-openapi-0.4.2.tar.gz --markdown 20230707/f/flask-marshmallow-openapi/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-07 08:35:43] INFO root fetch - processPackages [muffin-rest]: executing diffoscope
+[2023-07-07 08:35:43] INFO root fetch - processPackages [muffin-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin_rest-5.1.9.tar.gz tmp/muffin_rest-5.2.0.tar.gz --markdown 20230707/m/muffin-rest/5.1.9-5.2.0/diff.md --exclude *.pyd
+[2023-07-07 08:35:43] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.8.1.tar.gz]
+[2023-07-07 08:35:43] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.8.2.tar.gz]
+[2023-07-07 08:35:43] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
+[2023-07-07 08:35:43] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
+[2023-07-07 08:35:43] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.8.tar.gz]
+[2023-07-07 08:35:43] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.9.tar.gz]
+[2023-07-07 08:35:43] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-07-07 08:35:43] INFO root fetch - processPackages [pyjd]: Remove: archive file [/home/abi/fetcher/tmp/pyjd-1.0.2.tar.gz]
+[2023-07-07 08:35:43] INFO root fetch - processPackages [pyjd]: Remove: archive file [/home/abi/fetcher/tmp/pyjd-1.0.3.tar.gz]
+[2023-07-07 08:35:43] INFO root fetch - main [MainThread]: End processing [pyjd]: success
+[2023-07-07 08:35:44] INFO root fetch - processPackages [muffin-rest]: Remove: archive file [/home/abi/fetcher/tmp/muffin_rest-5.1.9.tar.gz]
+[2023-07-07 08:35:44] INFO root fetch - processPackages [muffin-rest]: Remove: archive file [/home/abi/fetcher/tmp/muffin_rest-5.2.0.tar.gz]
+[2023-07-07 08:35:44] INFO root fetch - main [MainThread]: End processing [muffin-rest]: success
+[2023-07-07 08:35:44] INFO root fetch - processPackages [flask-marshmallow-openapi]: Remove: archive file [/home/abi/fetcher/tmp/flask-marshmallow-openapi-0.4.1.tar.gz]
+[2023-07-07 08:35:44] INFO root fetch - processPackages [flask-marshmallow-openapi]: Remove: archive file [/home/abi/fetcher/tmp/flask-marshmallow-openapi-0.4.2.tar.gz]
+[2023-07-07 08:35:44] INFO root fetch - main [MainThread]: End processing [flask-marshmallow-openapi]: success
+[2023-07-07 08:36:32] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.2.3.dev27-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-07-07 08:36:32] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.2.3.dev3-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-07-07 08:36:32] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2023-07-07 08:36:32] INFO root fetch - main [MainThread]: Store serial: [18796500]
