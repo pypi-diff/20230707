@@ -18108,3 +18108,129 @@ EOFError: EOF read where object expected
 [2023-07-07 11:57:00] INFO root fetch - processPackages [cloudtik]: Remove: archive file [/home/abi/fetcher/tmp/cloudtik-1.2.0-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-07-07 11:57:00] INFO root fetch - main [MainThread]: End processing [cloudtik]: success
 [2023-07-07 11:57:00] INFO root fetch - main [MainThread]: Store serial: [18798644]
+[2023-07-07 12:02:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18798644]
+[2023-07-07 12:02:10] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-07 12:02:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sequencelib
+[2023-07-07 12:02:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rstream
+[2023-07-07 12:02:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shapes-recognition
+[2023-07-07 12:02:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seqconverter
+[2023-07-07 12:02:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyciactions
+[2023-07-07 12:02:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: akshare
+[2023-07-07 12:02:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: innerverz
+[2023-07-07 12:02:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: up-paraspace
+[2023-07-07 12:02:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: LundPDFMaster
+[2023-07-07 12:02:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oidcish
+[2023-07-07 12:02:10] INFO root fetch - processPackages [pyciactions]: New version: [1.0.9] Old Version: [1.0.8a8]
+[2023-07-07 12:02:10] WARNING root fetch - processPackages [up-paraspace]: Skipping, unable to determine old version
+[2023-07-07 12:02:10] INFO root fetch - processPackages [oidcish]: New version: [1.0.0] Old Version: [0.3.1]
+[2023-07-07 12:02:10] INFO root fetch - processPackages [up-paraspace]: Start processing: langchain
+[2023-07-07 12:02:10] INFO root fetch - main [MainThread]: End processing [up-paraspace] error
+[2023-07-07 12:02:10] INFO root fetch - processPackages [shapes-recognition]: New version: [2.3.1] Old Version: [2.0.0]
+[2023-07-07 12:02:10] INFO root fetch - processPackages [sequencelib]: New version: [2.9.0] Old Version: [2.8.3]
+[2023-07-07 12:02:10] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-07-07 12:02:10] INFO root fetch - processPackages [innerverz]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-07-07 12:02:10] INFO root fetch - processPackages [rstream]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-07 12:02:10] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-07-07 12:02:10] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/4f/f3/3f4bce0f1e4c09bf27f8534421b31f53514ec81a4b706ba66930ae207c9f/pyciactions-1.0.8a8.tar.gz
+[2023-07-07 12:02:10] INFO root fetch - processPackages [seqconverter]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-07-07 12:02:10] INFO root fetch - processPackages [oidcish]: Downloading https://files.pythonhosted.org/packages/d0/6d/63b5b8987aef6ce5fc1cb06ff01a01975aec01c3591c7a128cd7d3157b61/oidcish-0.3.1.tar.gz
+[2023-07-07 12:02:10] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-07-07 12:02:10] WARNING root fetch - processPackages [LundPDFMaster]: Skipping, unable to determine old version
+[2023-07-07 12:02:10] INFO root fetch - processPackages [LundPDFMaster]: Start processing: odoo14-addon-l10n-it-account-stamp
+[2023-07-07 12:02:10] INFO root fetch - main [MainThread]: End processing [LundPDFMaster] error
+[2023-07-07 12:02:10] INFO root fetch - processPackages [shapes-recognition]: Downloading https://files.pythonhosted.org/packages/9a/76/ca2947d160162dbc4f34aef4d82cee26a9d257a9fd0e719430e85956453d/shapes_recognition-2.0.0.tar.gz
+[2023-07-07 12:02:10] INFO root fetch - processPackages [odoo14-addon-l10n-it-account-stamp]: New version: [14.0.1.1.2] Old Version: [14.0.1.1.1.dev2]
+[2023-07-07 12:02:10] INFO root fetch - processPackages [innerverz]: Downloading https://files.pythonhosted.org/packages/96/ef/89d4db4a00a5090807487ff605fa31c10b2cb3ab62ae693e8f68daa8f929/innerverz-0.1.0.tar.gz
+[2023-07-07 12:02:10] INFO root fetch - processPackages [sequencelib]: Downloading https://files.pythonhosted.org/packages/df/af/aeffb658f34a9d10c424ea196dc62836c82233f84182f628019517b023b0/sequencelib-2.8.3.tar.gz
+[2023-07-07 12:02:10] INFO root fetch - processPackages [rstream]: Downloading https://files.pythonhosted.org/packages/b9/02/cda6be5ba5d1adb01bada1d2cfaec91e30f2d6ec2a048f9fa170aa87f94d/rstream-0.8.1.tar.gz
+[2023-07-07 12:02:10] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/31/76/449e2f9925c75cb9cae72fcc6ebcb769640e519cf941ad29cee965d3ac35/pyciactions-1.0.9.tar.gz
+[2023-07-07 12:02:10] INFO root fetch - processPackages [oidcish]: Downloading https://files.pythonhosted.org/packages/ab/ce/6bff99b978704f8d970f79803a059297fa819b553bd3b913156b21978e1e/oidcish-1.0.0.tar.gz
+[2023-07-07 12:02:10] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/24/6a/f6c87d4ef49bae4d166fa3be99402f669acf9aa59b4d1d31342da0c57e32/langchain-0.0.99.tar.gz
+[2023-07-07 12:02:10] INFO root fetch - processPackages [odoo14-addon-l10n-it-account-stamp]: Downloading https://files.pythonhosted.org/packages/81/d4/86069447a066588987a2c830bfcafa133b5442b154eecb071fd8d738a40e/odoo14_addon_l10n_it_account_stamp-14.0.1.1.1.dev2-py3-none-any.whl
+[2023-07-07 12:02:10] INFO root fetch - processPackages [seqconverter]: Downloading https://files.pythonhosted.org/packages/74/b0/ff8a59e6781b5d3e5919026085be5d753078b0b477769779c67e9e213e9a/seqconverter-2.9.1.tar.gz
+[2023-07-07 12:02:11] INFO root fetch - processPackages [pyciactions]: executing diffoscope
+[2023-07-07 12:02:11] INFO root fetch - processPackages [pyciactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyciactions-1.0.8a8.tar.gz tmp/pyciactions-1.0.9.tar.gz --markdown 20230707/p/pyciactions/1.0.8a8-1.0.9/diff.md --exclude *.pyd
+[2023-07-07 12:02:11] INFO root fetch - processPackages [oidcish]: executing diffoscope
+[2023-07-07 12:02:11] INFO root fetch - processPackages [oidcish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oidcish-0.3.1.tar.gz tmp/oidcish-1.0.0.tar.gz --markdown 20230707/o/oidcish/0.3.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-07 12:02:11] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-07-07 12:02:11] INFO root fetch - processPackages [shapes-recognition]: Downloading https://files.pythonhosted.org/packages/64/52/65eb6f5da83e27c124d619ed964bb33a3af190cae1930475983d87c028c4/shapes_recognition-2.3.1.tar.gz
+[2023-07-07 12:02:11] INFO root fetch - processPackages [innerverz]: Downloading https://files.pythonhosted.org/packages/2f/4f/f10d2168bf3f3ae60dc9337f295f4cfd6da257577d425de0fb695a2c7e1f/innerverz-0.1.2.tar.gz
+[2023-07-07 12:02:11] INFO root fetch - processPackages [odoo14-addon-l10n-it-account-stamp]: Downloading https://files.pythonhosted.org/packages/14/29/7e688acd85e3a2d314a4206e77b34bc03d9e9fe48643777f5cd78680063d/odoo14_addon_l10n_it_account_stamp-14.0.1.1.2-py3-none-any.whl
+[2023-07-07 12:02:11] INFO root fetch - processPackages [sequencelib]: Downloading https://files.pythonhosted.org/packages/75/be/3444e09a307974313d38cd27f3f6ac864823eaa25067f32496ef0a8f44f3/sequencelib-2.9.0.tar.gz
+[2023-07-07 12:02:11] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-07-07 12:02:11] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230707/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-07-07 12:02:11] INFO root fetch - processPackages [odoo14-addon-l10n-it-account-stamp]: executing diffoscope
+[2023-07-07 12:02:11] INFO root fetch - processPackages [odoo14-addon-l10n-it-account-stamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_account_stamp-14.0.1.1.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_account_stamp-14.0.1.1.2-py3-none-any.whl.zip --markdown 20230707/o/odoo14-addon-l10n-it-account-stamp/14.0.1.1.1.dev2-14.0.1.1.2/diff.md --exclude *.pyd
+[2023-07-07 12:02:11] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/8e/d3/a01f18d4cda1e4e2cbed8c15693f649fb439aab4b94f0c2a0ed636bbe505/langchain-0.0.99rc0.tar.gz
+[2023-07-07 12:02:11] INFO root fetch - processPackages [seqconverter]: Downloading https://files.pythonhosted.org/packages/dc/1f/7033f6e42158f5dbd9ab26654c50b76445642a61b5257e6888ffd585c1e5/seqconverter-2.9.2.tar.gz
+[2023-07-07 12:02:11] INFO root fetch - processPackages [shapes-recognition]: executing diffoscope
+[2023-07-07 12:02:11] INFO root fetch - processPackages [shapes-recognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapes_recognition-2.0.0.tar.gz tmp/shapes_recognition-2.3.1.tar.gz --markdown 20230707/s/shapes-recognition/2.0.0-2.3.1/diff.md --exclude *.pyd
+[2023-07-07 12:02:11] INFO root fetch - processPackages [seqconverter]: executing diffoscope
+[2023-07-07 12:02:11] INFO root fetch - processPackages [seqconverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqconverter-2.9.1.tar.gz tmp/seqconverter-2.9.2.tar.gz --markdown 20230707/s/seqconverter/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-07-07 12:02:11] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-07-07 12:02:11] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230707/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-07-07 12:02:11] INFO root fetch - processPackages [sequencelib]: executing diffoscope
+[2023-07-07 12:02:11] INFO root fetch - processPackages [sequencelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sequencelib-2.8.3.tar.gz tmp/sequencelib-2.9.0.tar.gz --markdown 20230707/s/sequencelib/2.8.3-2.9.0/diff.md --exclude *.pyd
+[2023-07-07 12:02:11] INFO root fetch - processPackages [innerverz]: executing diffoscope
+[2023-07-07 12:02:11] INFO root fetch - processPackages [innerverz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/innerverz-0.1.0.tar.gz tmp/innerverz-0.1.2.tar.gz --markdown 20230707/i/innerverz/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-07-07 12:02:11] INFO root fetch - processPackages [rstream]: Downloading https://files.pythonhosted.org/packages/92/ef/61a6ea12a0afe157e759df9abbbb973d4d75526af47b4b5bddf4f613b288/rstream-0.9.0.tar.gz
+[2023-07-07 12:02:12] INFO root fetch - processPackages [rstream]: executing diffoscope
+[2023-07-07 12:02:12] INFO root fetch - processPackages [rstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rstream-0.8.1.tar.gz tmp/rstream-0.9.0.tar.gz --markdown 20230707/r/rstream/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-07 12:02:12] INFO root fetch - processPackages [oidcish]: Remove: archive file [/home/abi/fetcher/tmp/oidcish-0.3.1.tar.gz]
+[2023-07-07 12:02:12] INFO root fetch - processPackages [oidcish]: Remove: archive file [/home/abi/fetcher/tmp/oidcish-1.0.0.tar.gz]
+[2023-07-07 12:02:12] INFO root fetch - processPackages [oidcish]: Start processing: drug-named-entity-recognition
+[2023-07-07 12:02:12] INFO root fetch - main [MainThread]: End processing [oidcish]: success
+[2023-07-07 12:02:12] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.8a8.tar.gz]
+[2023-07-07 12:02:12] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.9.tar.gz]
+[2023-07-07 12:02:12] INFO root fetch - processPackages [pyciactions]: Start processing: pytbai
+[2023-07-07 12:02:12] INFO root fetch - main [MainThread]: End processing [pyciactions]: success
+[2023-07-07 12:02:12] INFO root fetch - processPackages [drug-named-entity-recognition]: New version: [1.0.1] Old Version: [0.1]
+[2023-07-07 12:02:12] INFO root fetch - processPackages [pytbai]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-07 12:02:12] INFO root fetch - processPackages [pytbai]: Downloading https://files.pythonhosted.org/packages/a6/15/86c364c66162ba21cf25a1679fc8d1fe40b72a5abb4d1cf09dd156fec28c/pytbai-1.3.0.tar.gz
+[2023-07-07 12:02:12] INFO root fetch - processPackages [drug-named-entity-recognition]: Downloading https://files.pythonhosted.org/packages/1e/82/780f461eef19de32598b01bd54b95dbdbd0cee34064dd2a609c5588f17bd/drug-named-entity-recognition-0.1.tar.gz
+[2023-07-07 12:02:12] INFO root fetch - processPackages [pytbai]: Downloading https://files.pythonhosted.org/packages/d3/f8/e465bc52892af1b473e372d05f22f2bfac5e16582552dbb98f22c24d89b6/pytbai-1.3.1.tar.gz
+[2023-07-07 12:02:12] INFO root fetch - processPackages [drug-named-entity-recognition]: Downloading https://files.pythonhosted.org/packages/7f/b6/ee97913fcabbd5ef0e5753b766aeee025ca4464a92bfe13d88571fbd1a85/drug-named-entity-recognition-1.0.1.tar.gz
+[2023-07-07 12:02:12] INFO root fetch - processPackages [shapes-recognition]: Remove: archive file [/home/abi/fetcher/tmp/shapes_recognition-2.0.0.tar.gz]
+[2023-07-07 12:02:12] INFO root fetch - processPackages [shapes-recognition]: Remove: archive file [/home/abi/fetcher/tmp/shapes_recognition-2.3.1.tar.gz]
+[2023-07-07 12:02:12] INFO root fetch - processPackages [shapes-recognition]: Start processing: twscrape
+[2023-07-07 12:02:12] INFO root fetch - main [MainThread]: End processing [shapes-recognition]: success
+[2023-07-07 12:02:12] INFO root fetch - processPackages [twscrape]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-07 12:02:13] INFO root fetch - processPackages [seqconverter]: Remove: archive file [/home/abi/fetcher/tmp/seqconverter-2.9.1.tar.gz]
+[2023-07-07 12:02:13] INFO root fetch - processPackages [seqconverter]: Remove: archive file [/home/abi/fetcher/tmp/seqconverter-2.9.2.tar.gz]
+[2023-07-07 12:02:13] INFO root fetch - main [MainThread]: End processing [seqconverter]: success
+[2023-07-07 12:02:13] INFO root fetch - processPackages [odoo14-addon-l10n-it-account-stamp]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_account_stamp-14.0.1.1.1.dev2-py3-none-any.whl.zip]
+[2023-07-07 12:02:13] INFO root fetch - processPackages [odoo14-addon-l10n-it-account-stamp]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_account_stamp-14.0.1.1.2-py3-none-any.whl.zip]
+[2023-07-07 12:02:13] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-account-stamp]: success
+[2023-07-07 12:02:13] INFO root fetch - processPackages [pytbai]: executing diffoscope
+[2023-07-07 12:02:13] INFO root fetch - processPackages [pytbai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytbai-1.3.0.tar.gz tmp/pytbai-1.3.1.tar.gz --markdown 20230707/p/pytbai/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-07 12:02:13] INFO root fetch - processPackages [twscrape]: Downloading https://files.pythonhosted.org/packages/03/12/ba359376fd38a3262953ae4921eb58c7c484415bd93eceb3226d55439c77/twscrape-0.4.1.tar.gz
+[2023-07-07 12:02:13] INFO root fetch - processPackages [drug-named-entity-recognition]: executing diffoscope
+[2023-07-07 12:02:13] INFO root fetch - processPackages [drug-named-entity-recognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drug-named-entity-recognition-0.1.tar.gz tmp/drug-named-entity-recognition-1.0.1.tar.gz --markdown 20230707/d/drug-named-entity-recognition/0.1-1.0.1/diff.md --exclude *.pyd
+[2023-07-07 12:02:13] INFO root fetch - processPackages [sequencelib]: Remove: archive file [/home/abi/fetcher/tmp/sequencelib-2.8.3.tar.gz]
+[2023-07-07 12:02:13] INFO root fetch - processPackages [sequencelib]: Remove: archive file [/home/abi/fetcher/tmp/sequencelib-2.9.0.tar.gz]
+[2023-07-07 12:02:13] INFO root fetch - main [MainThread]: End processing [sequencelib]: success
+[2023-07-07 12:02:13] INFO root fetch - processPackages [twscrape]: Downloading https://files.pythonhosted.org/packages/fe/08/494d28759302fea6dd258b0493f4fb045657c703881b120222e70d0a0621/twscrape-0.4.2.tar.gz
+[2023-07-07 12:02:13] INFO root fetch - processPackages [twscrape]: executing diffoscope
+[2023-07-07 12:02:13] INFO root fetch - processPackages [twscrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twscrape-0.4.1.tar.gz tmp/twscrape-0.4.2.tar.gz --markdown 20230707/t/twscrape/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-07 12:02:13] INFO root fetch - processPackages [rstream]: Remove: archive file [/home/abi/fetcher/tmp/rstream-0.8.1.tar.gz]
+[2023-07-07 12:02:13] INFO root fetch - processPackages [rstream]: Remove: archive file [/home/abi/fetcher/tmp/rstream-0.9.0.tar.gz]
+[2023-07-07 12:02:13] INFO root fetch - main [MainThread]: End processing [rstream]: success
+[2023-07-07 12:02:13] INFO root fetch - processPackages [innerverz]: Remove: archive file [/home/abi/fetcher/tmp/innerverz-0.1.0.tar.gz]
+[2023-07-07 12:02:13] INFO root fetch - processPackages [innerverz]: Remove: archive file [/home/abi/fetcher/tmp/innerverz-0.1.2.tar.gz]
+[2023-07-07 12:02:13] INFO root fetch - main [MainThread]: End processing [innerverz]: success
+[2023-07-07 12:02:14] INFO root fetch - processPackages [pytbai]: Remove: archive file [/home/abi/fetcher/tmp/pytbai-1.3.0.tar.gz]
+[2023-07-07 12:02:14] INFO root fetch - processPackages [pytbai]: Remove: archive file [/home/abi/fetcher/tmp/pytbai-1.3.1.tar.gz]
+[2023-07-07 12:02:14] INFO root fetch - main [MainThread]: End processing [pytbai]: success
+[2023-07-07 12:02:14] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99.tar.gz]
+[2023-07-07 12:02:14] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
+[2023-07-07 12:02:14] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-07-07 12:02:14] INFO root fetch - processPackages [drug-named-entity-recognition]: Remove: archive file [/home/abi/fetcher/tmp/drug-named-entity-recognition-0.1.tar.gz]
+[2023-07-07 12:02:14] INFO root fetch - processPackages [drug-named-entity-recognition]: Remove: archive file [/home/abi/fetcher/tmp/drug-named-entity-recognition-1.0.1.tar.gz]
+[2023-07-07 12:02:14] INFO root fetch - main [MainThread]: End processing [drug-named-entity-recognition]: success
+[2023-07-07 12:02:14] INFO root fetch - processPackages [twscrape]: Remove: archive file [/home/abi/fetcher/tmp/twscrape-0.4.1.tar.gz]
+[2023-07-07 12:02:14] INFO root fetch - processPackages [twscrape]: Remove: archive file [/home/abi/fetcher/tmp/twscrape-0.4.2.tar.gz]
+[2023-07-07 12:02:14] INFO root fetch - main [MainThread]: End processing [twscrape]: success
+[2023-07-07 12:02:15] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-07-07 12:02:15] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-07-07 12:02:15] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-07-07 12:02:15] INFO root fetch - main [MainThread]: Store serial: [18798697]
