@@ -18234,3 +18234,121 @@ EOFError: EOF read where object expected
 [2023-07-07 12:02:15] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2023-07-07 12:02:15] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-07-07 12:02:15] INFO root fetch - main [MainThread]: Store serial: [18798697]
+[2023-07-07 12:07:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18798697]
+[2023-07-07 12:07:24] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-07 12:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flake8-mock
+[2023-07-07 12:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bssenv
+[2023-07-07 12:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: taxOrder
+[2023-07-07 12:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: practistyle
+[2023-07-07 12:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ngmapi
+[2023-07-07 12:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imio.dashboard
+[2023-07-07 12:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: taxOrder
+[2023-07-07 12:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: celescope
+[2023-07-07 12:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: firefly-exchange-client
+[2023-07-07 12:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bpmn-tools
+[2023-07-07 12:07:25] INFO root fetch - processPackages [taxOrder]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-07 12:07:25] INFO root fetch - processPackages [practistyle]: New version: [0.0.76] Old Version: [0.0.74]
+[2023-07-07 12:07:25] INFO root fetch - processPackages [flake8-mock]: New version: [0.4] Old Version: [0.3]
+[2023-07-07 12:07:25] INFO root fetch - processPackages [taxOrder]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-07 12:07:25] WARNING root fetch - processPackages [bssenv]: Skipping, unable to determine old version
+[2023-07-07 12:07:25] INFO root fetch - processPackages [bssenv]: Start processing: utopya
+[2023-07-07 12:07:25] INFO root fetch - main [MainThread]: End processing [bssenv] error
+[2023-07-07 12:07:25] INFO root fetch - processPackages [ngmapi]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-07 12:07:25] INFO root fetch - processPackages [imio.dashboard]: New version: [2.9] Old Version: [2.8]
+[2023-07-07 12:07:25] INFO root fetch - processPackages [firefly-exchange-client]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-07 12:07:25] INFO root fetch - processPackages [practistyle]: Downloading https://files.pythonhosted.org/packages/05/a2/ced94fa80180c81249b7b69870664c48690fc36dfd1cf4111eaab670d0c8/practistyle-0.0.74.tar.gz
+[2023-07-07 12:07:25] INFO root fetch - processPackages [bpmn-tools]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-07 12:07:25] INFO root fetch - processPackages [celescope]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-07 12:07:25] INFO root fetch - processPackages [utopya]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-07-07 12:07:25] INFO root fetch - processPackages [taxOrder]: Downloading https://files.pythonhosted.org/packages/bf/52/bc5ce4598d1d277b9e109b6cd47af566615944e7f91d14d8d66a6ab63fc4/taxOrder-0.2.6.tar.gz
+[2023-07-07 12:07:25] INFO root fetch - processPackages [taxOrder]: Downloading https://files.pythonhosted.org/packages/bf/52/bc5ce4598d1d277b9e109b6cd47af566615944e7f91d14d8d66a6ab63fc4/taxOrder-0.2.6.tar.gz
+[2023-07-07 12:07:25] INFO root fetch - processPackages [imio.dashboard]: Downloading https://files.pythonhosted.org/packages/31/25/0bdc5fe791e307f86270b686950c04e86ebaefd6687d3c471d66f35dbab3/imio.dashboard-2.8.zip
+[2023-07-07 12:07:25] INFO root fetch - processPackages [flake8-mock]: Downloading https://files.pythonhosted.org/packages/00/b8/af88a8c6e37858d28700e6e51dc93d10f5deaca317f135b77f6db3bdb6b8/flake8-mock-0.3.tar.gz
+[2023-07-07 12:07:25] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/9b/f6/9e553160b4bb0ebe54debfdad1bb6ce21232b609dfa5cbf8f8fe476851d2/ngmapi-0.0.1.tar.gz
+[2023-07-07 12:07:25] INFO root fetch - processPackages [firefly-exchange-client]: Downloading https://files.pythonhosted.org/packages/ad/a6/1d1e2c6c5a7a4f83c522989cf857c5867599126913ef67bc3bcbf5f63b83/firefly_exchange_client-0.5.0.tar.gz
+[2023-07-07 12:07:25] INFO root fetch - processPackages [bpmn-tools]: Downloading https://files.pythonhosted.org/packages/0b/49/c90f70ea2127689f5c18934730d3592bb5c2ef76ef5747a166767b56ad76/bpmn-tools-0.1.1.tar.gz
+[2023-07-07 12:07:25] INFO root fetch - processPackages [celescope]: Downloading https://files.pythonhosted.org/packages/83/b9/858378ee92e00801a34ac10f4b99aab872ffc2e1e079d875ea872e747caa/celescope-1.8.1.tar.gz
+[2023-07-07 12:07:25] INFO root fetch - processPackages [practistyle]: Downloading https://files.pythonhosted.org/packages/a2/36/be4d8fc64d95c2610d7fc7f228c3bfedfa2cf16fbf291e6cabbd293bf668/practistyle-0.0.76.tar.gz
+[2023-07-07 12:07:25] INFO root fetch - processPackages [utopya]: Downloading https://files.pythonhosted.org/packages/28/93/b356eecf8c9927b79309373bc7da8cb3cd1a994edd779ee2e7ccef0a990f/utopya-1.2.5.tar.gz
+[2023-07-07 12:07:25] INFO root fetch - processPackages [taxOrder]: Downloading https://files.pythonhosted.org/packages/43/37/674bb3dfa8cd0db91e8c436b7ab7669734d3567a27408ec2addad48f20d6/taxOrder-0.2.7.tar.gz
+[2023-07-07 12:07:25] INFO root fetch - processPackages [taxOrder]: Downloading https://files.pythonhosted.org/packages/43/37/674bb3dfa8cd0db91e8c436b7ab7669734d3567a27408ec2addad48f20d6/taxOrder-0.2.7.tar.gz
+[2023-07-07 12:07:26] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/13/86/3d7c18a8f2dd4f2eb32a19966079123b581a8402d540deca93c3d85e8678/ngmapi-0.0.2.tar.gz
+[2023-07-07 12:07:26] INFO root fetch - processPackages [flake8-mock]: Downloading https://files.pythonhosted.org/packages/2a/18/39ccc52955b94cd61c8719292753ef4fd74d79c8d572b97e61de3a56beeb/flake8-mock-0.4.tar.gz
+[2023-07-07 12:07:26] INFO root fetch - processPackages [imio.dashboard]: Downloading https://files.pythonhosted.org/packages/ea/61/7ae6bdd44b19811aa137163f9c59720cc772daadbfa9eaff714478e51be2/imio.dashboard-2.9.tar.gz
+[2023-07-07 12:07:26] INFO root fetch - processPackages [practistyle]: executing diffoscope
+[2023-07-07 12:07:26] INFO root fetch - processPackages [practistyle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/practistyle-0.0.74.tar.gz tmp/practistyle-0.0.76.tar.gz --markdown 20230707/p/practistyle/0.0.74-0.0.76/diff.md --exclude *.pyd
+[2023-07-07 12:07:26] INFO root fetch - processPackages [bpmn-tools]: Downloading https://files.pythonhosted.org/packages/8b/fa/213d5e961482f9de37df3881df026fce5801296cf7eea7e238fce3732197/bpmn-tools-0.1.2.tar.gz
+[2023-07-07 12:07:26] INFO root fetch - processPackages [taxOrder]: executing diffoscope
+[2023-07-07 12:07:26] INFO root fetch - processPackages [taxOrder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taxOrder-0.2.6.tar.gz tmp/taxOrder-0.2.7.tar.gz --markdown 20230707/t/taxOrder/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-07 12:07:26] INFO root fetch - processPackages [taxOrder]: executing diffoscope
+[2023-07-07 12:07:26] INFO root fetch - processPackages [taxOrder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taxOrder-0.2.6.tar.gz tmp/taxOrder-0.2.7.tar.gz --markdown 20230707/t/taxOrder/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-07 12:07:26] INFO root fetch - processPackages [firefly-exchange-client]: Downloading https://files.pythonhosted.org/packages/2f/c4/138f5a3832ddd5cb03c98ea2149cb3f2c847848a8ff847850a43b143d2d6/firefly_exchange_client-0.6.0.tar.gz
+[2023-07-07 12:07:26] INFO root fetch - processPackages [flake8-mock]: executing diffoscope
+[2023-07-07 12:07:26] INFO root fetch - processPackages [flake8-mock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8-mock-0.3.tar.gz tmp/flake8-mock-0.4.tar.gz --markdown 20230707/f/flake8-mock/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-07 12:07:26] INFO root fetch - processPackages [imio.dashboard]: executing diffoscope
+[2023-07-07 12:07:26] INFO root fetch - processPackages [imio.dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.dashboard-2.8.zip tmp/imio.dashboard-2.9.tar.gz --markdown 20230707/i/imio.dashboard/2.8-2.9/diff.md --exclude *.pyd
+[2023-07-07 12:07:26] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-07 12:07:26] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.1.tar.gz tmp/ngmapi-0.0.2.tar.gz --markdown 20230707/n/ngmapi/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-07 12:07:26] INFO root fetch - processPackages [utopya]: Downloading https://files.pythonhosted.org/packages/51/1b/081cdf597281ff3cc3950da6c65c3d89f843a55376b0bc9d98c36ec24bf6/utopya-1.2.6.tar.gz
+[2023-07-07 12:07:26] INFO root fetch - processPackages [bpmn-tools]: executing diffoscope
+[2023-07-07 12:07:26] INFO root fetch - processPackages [bpmn-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpmn-tools-0.1.1.tar.gz tmp/bpmn-tools-0.1.2.tar.gz --markdown 20230707/b/bpmn-tools/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-07 12:07:26] INFO root fetch - processPackages [firefly-exchange-client]: executing diffoscope
+[2023-07-07 12:07:26] INFO root fetch - processPackages [firefly-exchange-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firefly_exchange_client-0.5.0.tar.gz tmp/firefly_exchange_client-0.6.0.tar.gz --markdown 20230707/f/firefly-exchange-client/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-07 12:07:26] INFO root fetch - processPackages [utopya]: executing diffoscope
+[2023-07-07 12:07:26] INFO root fetch - processPackages [utopya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utopya-1.2.5.tar.gz tmp/utopya-1.2.6.tar.gz --markdown 20230707/u/utopya/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-07-07 12:07:26] INFO root fetch - processPackages [celescope]: Downloading https://files.pythonhosted.org/packages/a5/6b/4116fc1b9d114067cd4ea6d81ab5023a9afd88347abbacac404f48300fa9/celescope-1.9.0.tar.gz
+[2023-07-07 12:07:27] INFO root fetch - processPackages [celescope]: executing diffoscope
+[2023-07-07 12:07:27] INFO root fetch - processPackages [celescope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celescope-1.8.1.tar.gz tmp/celescope-1.9.0.tar.gz --markdown 20230707/c/celescope/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-07 12:07:27] INFO root fetch - processPackages [taxOrder]: Remove: archive file [/home/abi/fetcher/tmp/taxOrder-0.2.6.tar.gz]
+[2023-07-07 12:07:27] INFO root fetch - processPackages [taxOrder]: Remove: archive file [/home/abi/fetcher/tmp/taxOrder-0.2.7.tar.gz]
+[2023-07-07 12:07:27] INFO root fetch - processPackages [taxOrder]: Start processing: data-handler
+[2023-07-07 12:07:27] INFO root fetch - main [MainThread]: End processing [taxOrder]: success
+[2023-07-07 12:07:27] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.1.tar.gz]
+[2023-07-07 12:07:27] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.2.tar.gz]
+[2023-07-07 12:07:27] INFO root fetch - processPackages [ngmapi]: Start processing: pycrispr
+[2023-07-07 12:07:27] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-07 12:07:27] INFO root fetch - processPackages [flake8-mock]: Remove: archive file [/home/abi/fetcher/tmp/flake8-mock-0.3.tar.gz]
+[2023-07-07 12:07:27] INFO root fetch - processPackages [flake8-mock]: Remove: archive file [/home/abi/fetcher/tmp/flake8-mock-0.4.tar.gz]
+[2023-07-07 12:07:27] INFO root fetch - processPackages [flake8-mock]: Start processing: texplain
+[2023-07-07 12:07:27] INFO root fetch - main [MainThread]: End processing [flake8-mock]: success
+[2023-07-07 12:07:27] WARNING root fetch - processPackages [data-handler]: Skipping, unable to determine old version
+[2023-07-07 12:07:27] INFO root fetch - processPackages [data-handler]: Start processing: plonetheme.imioapps
+[2023-07-07 12:07:27] INFO root fetch - main [MainThread]: End processing [data-handler] error
+[2023-07-07 12:07:27] INFO root fetch - processPackages [practistyle]: Remove: archive file [/home/abi/fetcher/tmp/practistyle-0.0.74.tar.gz]
+[2023-07-07 12:07:27] INFO root fetch - processPackages [practistyle]: Remove: archive file [/home/abi/fetcher/tmp/practistyle-0.0.76.tar.gz]
+[2023-07-07 12:07:27] INFO root fetch - main [MainThread]: End processing [practistyle]: success
+[2023-07-07 12:07:27] WARNING root fetch - processPackages [pycrispr]: Skipping, unable to determine old version
+[2023-07-07 12:07:27] INFO root fetch - main [MainThread]: End processing [pycrispr] error
+[2023-07-07 12:07:27] INFO root fetch - processPackages [firefly-exchange-client]: Remove: archive file [/home/abi/fetcher/tmp/firefly_exchange_client-0.5.0.tar.gz]
+[2023-07-07 12:07:27] INFO root fetch - processPackages [firefly-exchange-client]: Remove: archive file [/home/abi/fetcher/tmp/firefly_exchange_client-0.6.0.tar.gz]
+[2023-07-07 12:07:27] INFO root fetch - main [MainThread]: End processing [firefly-exchange-client]: success
+[2023-07-07 12:07:27] INFO root fetch - processPackages [texplain]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-07 12:07:28] INFO root fetch - main [MainThread]: End processing [taxOrder]: success
+[2023-07-07 12:07:28] INFO root fetch - processPackages [bpmn-tools]: Remove: archive file [/home/abi/fetcher/tmp/bpmn-tools-0.1.1.tar.gz]
+[2023-07-07 12:07:28] INFO root fetch - processPackages [bpmn-tools]: Remove: archive file [/home/abi/fetcher/tmp/bpmn-tools-0.1.2.tar.gz]
+[2023-07-07 12:07:28] INFO root fetch - processPackages [imio.dashboard]: Remove: archive file [/home/abi/fetcher/tmp/imio.dashboard-2.8.zip]
+[2023-07-07 12:07:28] INFO root fetch - processPackages [imio.dashboard]: Remove: archive file [/home/abi/fetcher/tmp/imio.dashboard-2.9.tar.gz]
+[2023-07-07 12:07:28] INFO root fetch - main [MainThread]: End processing [bpmn-tools]: success
+[2023-07-07 12:07:28] INFO root fetch - main [MainThread]: End processing [imio.dashboard]: success
+[2023-07-07 12:07:28] INFO root fetch - processPackages [plonetheme.imioapps]: New version: [2.42] Old Version: [2.41]
+[2023-07-07 12:07:28] INFO root fetch - processPackages [texplain]: Downloading https://files.pythonhosted.org/packages/b5/ed/a790aa7e5353b3bd536d25116a0262c507517ea96b3db96c2b7ce4a89c53/texplain-0.8.1.tar.gz
+[2023-07-07 12:07:28] INFO root fetch - processPackages [plonetheme.imioapps]: Downloading https://files.pythonhosted.org/packages/bf/ae/758769c39b08aaadb67f052dc07673aa807290bef9acdb084a08f9ed8a86/plonetheme.imioapps-2.41.tar.gz
+[2023-07-07 12:07:28] INFO root fetch - processPackages [utopya]: Remove: archive file [/home/abi/fetcher/tmp/utopya-1.2.5.tar.gz]
+[2023-07-07 12:07:28] INFO root fetch - processPackages [utopya]: Remove: archive file [/home/abi/fetcher/tmp/utopya-1.2.6.tar.gz]
+[2023-07-07 12:07:28] INFO root fetch - main [MainThread]: End processing [utopya]: success
+[2023-07-07 12:07:28] INFO root fetch - processPackages [texplain]: Downloading https://files.pythonhosted.org/packages/2d/f9/d9ae0b0e880beb404c6c3f6725e4609dd865cddb7c8aaec4d74f2cd4750b/texplain-0.8.2.tar.gz
+[2023-07-07 12:07:28] INFO root fetch - processPackages [plonetheme.imioapps]: Downloading https://files.pythonhosted.org/packages/e9/93/7bcfd32074094942c8a69ff28e06bb5163d680e7ebbab3f3f99e7f248cf0/plonetheme.imioapps-2.42.tar.gz
+[2023-07-07 12:07:28] INFO root fetch - processPackages [texplain]: executing diffoscope
+[2023-07-07 12:07:28] INFO root fetch - processPackages [texplain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/texplain-0.8.1.tar.gz tmp/texplain-0.8.2.tar.gz --markdown 20230707/t/texplain/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-07 12:07:28] INFO root fetch - processPackages [plonetheme.imioapps]: executing diffoscope
+[2023-07-07 12:07:28] INFO root fetch - processPackages [plonetheme.imioapps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plonetheme.imioapps-2.41.tar.gz tmp/plonetheme.imioapps-2.42.tar.gz --markdown 20230707/p/plonetheme.imioapps/2.41-2.42/diff.md --exclude *.pyd
+[2023-07-07 12:07:29] INFO root fetch - processPackages [texplain]: Remove: archive file [/home/abi/fetcher/tmp/texplain-0.8.1.tar.gz]
+[2023-07-07 12:07:29] INFO root fetch - processPackages [texplain]: Remove: archive file [/home/abi/fetcher/tmp/texplain-0.8.2.tar.gz]
+[2023-07-07 12:07:29] INFO root fetch - main [MainThread]: End processing [texplain]: success
+[2023-07-07 12:07:30] INFO root fetch - processPackages [celescope]: Remove: archive file [/home/abi/fetcher/tmp/celescope-1.8.1.tar.gz]
+[2023-07-07 12:07:30] INFO root fetch - processPackages [celescope]: Remove: archive file [/home/abi/fetcher/tmp/celescope-1.9.0.tar.gz]
+[2023-07-07 12:07:30] INFO root fetch - main [MainThread]: End processing [celescope]: success
+[2023-07-07 12:07:30] INFO root fetch - processPackages [plonetheme.imioapps]: Remove: archive file [/home/abi/fetcher/tmp/plonetheme.imioapps-2.41.tar.gz]
+[2023-07-07 12:07:30] INFO root fetch - processPackages [plonetheme.imioapps]: Remove: archive file [/home/abi/fetcher/tmp/plonetheme.imioapps-2.42.tar.gz]
+[2023-07-07 12:07:30] INFO root fetch - main [MainThread]: End processing [plonetheme.imioapps]: success
+[2023-07-07 12:07:30] INFO root fetch - main [MainThread]: Store serial: [18798749]
