@@ -21597,3 +21597,159 @@ AssertionError: tmp/tester-package-sdk-2.0.9.tar.gz does not exist
 [2023-07-07 14:14:37] INFO root fetch - processPackages [pyccel]: Remove: archive file [/home/abi/fetcher/tmp/pyccel-1.8.1.tar.gz]
 [2023-07-07 14:14:37] INFO root fetch - main [MainThread]: End processing [pyccel]: success
 [2023-07-07 14:14:37] INFO root fetch - main [MainThread]: Store serial: [18800154]
+[2023-07-07 14:19:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18800154]
+[2023-07-07 14:19:46] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-07 14:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibi-detect
+[2023-07-07 14:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dalpha
+[2023-07-07 14:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vdk-core
+[2023-07-07 14:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acquire
+[2023-07-07 14:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: objtoolbox
+[2023-07-07 14:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: landingai
+[2023-07-07 14:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: LongNet
+[2023-07-07 14:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cy-account
+[2023-07-07 14:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: recval
+[2023-07-07 14:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: drive-ibd
+[2023-07-07 14:19:47] INFO root fetch - processPackages [alibi-detect]: New version: [0.9.1.dev0] Old Version: [0.9.1]
+[2023-07-07 14:19:47] INFO root fetch - processPackages [cy-account]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-07 14:19:47] INFO root fetch - processPackages [dalpha]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-07 14:19:47] INFO root fetch - processPackages [LongNet]: New version: [0.0.6] Old Version: [0.0.4]
+[2023-07-07 14:19:47] INFO root fetch - processPackages [drive-ibd]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-07 14:19:47] INFO root fetch - processPackages [recval]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-07 14:19:47] INFO root fetch - processPackages [objtoolbox]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-07 14:19:47] INFO root fetch - processPackages [landingai]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-07 14:19:47] INFO root fetch - processPackages [vdk-core]: New version: [0.3.924349638] Old Version: [0.3.923117946]
+[2023-07-07 14:19:47] INFO root fetch - processPackages [acquire]: New version: [3.8.dev1] Old Version: [3.7.dev6]
+[2023-07-07 14:19:47] INFO root fetch - processPackages [drive-ibd]: Downloading https://files.pythonhosted.org/packages/04/64/b398fd5eba8feacfe1eac9d4e60516fbc974c27564ce284e24a6175f3c96/drive_ibd-2.0.8.tar.gz
+[2023-07-07 14:19:47] INFO root fetch - processPackages [LongNet]: Downloading https://files.pythonhosted.org/packages/22/3c/1e9d813d78b4b655ece08e73a716e3f0f8d251581be00b3ba25b8c84ff0c/LongNet-0.0.4.tar.gz
+[2023-07-07 14:19:47] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/e1/3e/5bb88a9beda06386da6b83caf5d90dba0cac65fbbc493c0a584299a73009/landingai-0.1.2.tar.gz
+[2023-07-07 14:19:47] INFO root fetch - processPackages [cy-account]: Downloading https://files.pythonhosted.org/packages/9e/06/f1a56e36597bcfaaa056521022156d2552a15a3616e30c6c2ceeef44c3c7/cy_account-0.1.8.tar.gz
+[2023-07-07 14:19:47] INFO root fetch - processPackages [alibi-detect]: Downloading https://files.pythonhosted.org/packages/d2/07/5eaf406a4f7e004c4eaba779a37f9ff1ee34c0e776156e2f1592ce87bbc9/alibi-detect-0.9.1.tar.gz
+[2023-07-07 14:19:47] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/1b/50/1742fcce189bf18abc0df40f147b10b33e57ffc41235a3734e4d4216e1d0/dalpha-0.1.3.tar.gz
+[2023-07-07 14:19:47] INFO root fetch - processPackages [acquire]: Downloading https://files.pythonhosted.org/packages/5d/74/277b289ee6480ac1cd90c6bf694d1112f85f3c4f017d5526178673bcb39d/acquire-3.7.dev6.tar.gz
+[2023-07-07 14:19:47] INFO root fetch - processPackages [objtoolbox]: Downloading https://files.pythonhosted.org/packages/47/4d/36571cacfa509f25a07d2f09c2c1c007958f38dfbc7459d074f06d737bec/objtoolbox-0.0.1.tar.gz
+[2023-07-07 14:19:47] INFO root fetch - processPackages [vdk-core]: Downloading https://files.pythonhosted.org/packages/3b/9c/e5c45d90aae435cc0f57e59f76e8a232c151247fca5d060807dd267600c4/vdk-core-0.3.923117946.tar.gz
+[2023-07-07 14:19:47] INFO root fetch - processPackages [recval]: Downloading https://files.pythonhosted.org/packages/b1/b2/90046790bd4a9a415b72b9a780cc392b71b7ec47064e78e224d16e0d333f/recval-0.1.1.tar.gz
+[2023-07-07 14:19:47] INFO root fetch - processPackages [drive-ibd]: Downloading https://files.pythonhosted.org/packages/75/36/2ad88c1b5cf7b69ac39643d57d7a8d7b8735cb6325b84ec96ced57bdb36e/drive_ibd-2.0.9.tar.gz
+[2023-07-07 14:19:47] INFO root fetch - processPackages [LongNet]: Downloading https://files.pythonhosted.org/packages/20/6a/a5a87d327c1ac89fb575029bc174f634f6a5e7de04d4ab3f1a2f8aec1c8f/LongNet-0.0.6.tar.gz
+[2023-07-07 14:19:47] INFO root fetch - processPackages [drive-ibd]: executing diffoscope
+[2023-07-07 14:19:47] INFO root fetch - processPackages [drive-ibd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drive_ibd-2.0.8.tar.gz tmp/drive_ibd-2.0.9.tar.gz --markdown 20230707/d/drive-ibd/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-07 14:19:47] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/a5/55/5cc037d9837769aa03ff021dedbf8b7d82bc092b7d41151d7d717fabea4e/landingai-0.1.3.tar.gz
+[2023-07-07 14:19:48] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/43/d5/1d060cd658ff78c30a47811a0fcbf278568276bc9c3871fe6cae7694f0ae/dalpha-0.1.4.tar.gz
+[2023-07-07 14:19:48] INFO root fetch - processPackages [cy-account]: Downloading https://files.pythonhosted.org/packages/c0/4a/0a5e3a784173ca5386a6809f99209db2bf3fd4761e2777ffa239558d46f7/cy_account-0.1.9.tar.gz
+[2023-07-07 14:19:48] INFO root fetch - processPackages [objtoolbox]: Downloading https://files.pythonhosted.org/packages/10/cb/202e9bff3ba141654c042d37d8e27b47ad66682b3c195368a8b42ee1d8ab/objtoolbox-0.0.2.tar.gz
+[2023-07-07 14:19:48] INFO root fetch - processPackages [acquire]: Downloading https://files.pythonhosted.org/packages/30/13/2be3e24470e1f2d6843a0fb3d6eab58a5259d34523497d11699304d5e2b6/acquire-3.8.dev1.tar.gz
+[2023-07-07 14:19:48] INFO root fetch - processPackages [vdk-core]: Downloading https://files.pythonhosted.org/packages/e4/6d/27705e9e5dd5c04a6cff7ba163f4309919734f53b971d9f4865fa3a277fe/vdk-core-0.3.924349638.tar.gz
+[2023-07-07 14:19:48] INFO root fetch - processPackages [alibi-detect]: Downloading https://files.pythonhosted.org/packages/0b/9c/a080ed4bf50848923d42061d7fc6db93a6cd6a16c838cf9b8343305930e1/alibi-detect-0.9.1.dev0.tar.gz
+[2023-07-07 14:19:48] INFO root fetch - processPackages [recval]: Downloading https://files.pythonhosted.org/packages/a8/85/0efe5ee80298929e1b24b319cb23843c3fec65d5bd88b52022e2b086a759/recval-0.1.2.tar.gz
+[2023-07-07 14:19:48] INFO root fetch - processPackages [LongNet]: executing diffoscope
+[2023-07-07 14:19:48] INFO root fetch - processPackages [LongNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LongNet-0.0.4.tar.gz tmp/LongNet-0.0.6.tar.gz --markdown 20230707/L/LongNet/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2023-07-07 14:19:48] INFO root fetch - processPackages [objtoolbox]: executing diffoscope
+[2023-07-07 14:19:48] INFO root fetch - processPackages [objtoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objtoolbox-0.0.1.tar.gz tmp/objtoolbox-0.0.2.tar.gz --markdown 20230707/o/objtoolbox/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-07 14:19:48] INFO root fetch - processPackages [dalpha]: executing diffoscope
+[2023-07-07 14:19:48] INFO root fetch - processPackages [dalpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalpha-0.1.3.tar.gz tmp/dalpha-0.1.4.tar.gz --markdown 20230707/d/dalpha/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-07 14:19:48] INFO root fetch - processPackages [cy-account]: executing diffoscope
+[2023-07-07 14:19:48] INFO root fetch - processPackages [cy-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cy_account-0.1.8.tar.gz tmp/cy_account-0.1.9.tar.gz --markdown 20230707/c/cy-account/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-07 14:19:48] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-07-07 14:19:48] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.1.2.tar.gz tmp/landingai-0.1.3.tar.gz --markdown 20230707/l/landingai/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-07 14:19:48] INFO root fetch - processPackages [recval]: executing diffoscope
+[2023-07-07 14:19:48] INFO root fetch - processPackages [recval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recval-0.1.1.tar.gz tmp/recval-0.1.2.tar.gz --markdown 20230707/r/recval/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-07 14:19:48] INFO root fetch - processPackages [acquire]: executing diffoscope
+[2023-07-07 14:19:48] INFO root fetch - processPackages [acquire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acquire-3.7.dev6.tar.gz tmp/acquire-3.8.dev1.tar.gz --markdown 20230707/a/acquire/3.7.dev6-3.8.dev1/diff.md --exclude *.pyd
+[2023-07-07 14:19:48] INFO root fetch - processPackages [vdk-core]: executing diffoscope
+[2023-07-07 14:19:48] INFO root fetch - processPackages [vdk-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-core-0.3.923117946.tar.gz tmp/vdk-core-0.3.924349638.tar.gz --markdown 20230707/v/vdk-core/0.3.923117946-0.3.924349638/diff.md --exclude *.pyd
+[2023-07-07 14:19:48] INFO root fetch - processPackages [alibi-detect]: executing diffoscope
+[2023-07-07 14:19:48] INFO root fetch - processPackages [alibi-detect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibi-detect-0.9.1.tar.gz tmp/alibi-detect-0.9.1.dev0.tar.gz --markdown 20230707/a/alibi-detect/0.9.1-0.9.1.dev0/diff.md --exclude *.pyd
+[2023-07-07 14:19:49] INFO root fetch - processPackages [drive-ibd]: Remove: archive file [/home/abi/fetcher/tmp/drive_ibd-2.0.8.tar.gz]
+[2023-07-07 14:19:49] INFO root fetch - processPackages [drive-ibd]: Remove: archive file [/home/abi/fetcher/tmp/drive_ibd-2.0.9.tar.gz]
+[2023-07-07 14:19:49] INFO root fetch - processPackages [drive-ibd]: Start processing: Janex
+[2023-07-07 14:19:49] INFO root fetch - main [MainThread]: End processing [drive-ibd]: success
+[2023-07-07 14:19:49] WARNING root fetch - processPackages [Janex]: Skipping, unable to determine old version
+[2023-07-07 14:19:49] INFO root fetch - processPackages [Janex]: Start processing: upstox-python-sdk
+[2023-07-07 14:19:49] INFO root fetch - main [MainThread]: End processing [Janex] error
+[2023-07-07 14:19:49] WARNING root fetch - processPackages [upstox-python-sdk]: Skipping, unable to determine old version
+[2023-07-07 14:19:49] INFO root fetch - processPackages [upstox-python-sdk]: Start processing: rocket-python
+[2023-07-07 14:19:49] INFO root fetch - main [MainThread]: End processing [upstox-python-sdk] error
+[2023-07-07 14:19:49] INFO root fetch - processPackages [rocket-python]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-07 14:19:49] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.1.3.tar.gz]
+[2023-07-07 14:19:49] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.1.4.tar.gz]
+[2023-07-07 14:19:49] INFO root fetch - processPackages [dalpha]: Start processing: gptcache
+[2023-07-07 14:19:49] INFO root fetch - main [MainThread]: End processing [dalpha]: success
+[2023-07-07 14:19:49] INFO root fetch - processPackages [gptcache]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-07 14:19:49] INFO root fetch - processPackages [rocket-python]: Downloading https://files.pythonhosted.org/packages/a9/dc/ec058428c12f9aef60a13a2fc7fddd28806b2e06e3c2f2432804a1b4ae16/rocket_python-1.3.3-py2.py3-none-any.whl
+[2023-07-07 14:19:49] INFO root fetch - processPackages [cy-account]: Remove: archive file [/home/abi/fetcher/tmp/cy_account-0.1.8.tar.gz]
+[2023-07-07 14:19:49] INFO root fetch - processPackages [cy-account]: Remove: archive file [/home/abi/fetcher/tmp/cy_account-0.1.9.tar.gz]
+[2023-07-07 14:19:49] INFO root fetch - processPackages [cy-account]: Start processing: longbridge
+[2023-07-07 14:19:49] INFO root fetch - main [MainThread]: End processing [cy-account]: success
+[2023-07-07 14:19:49] INFO root fetch - processPackages [LongNet]: Remove: archive file [/home/abi/fetcher/tmp/LongNet-0.0.4.tar.gz]
+[2023-07-07 14:19:49] INFO root fetch - processPackages [LongNet]: Remove: archive file [/home/abi/fetcher/tmp/LongNet-0.0.6.tar.gz]
+[2023-07-07 14:19:49] INFO root fetch - processPackages [LongNet]: Start processing: chanfig
+[2023-07-07 14:19:49] INFO root fetch - main [MainThread]: End processing [LongNet]: success
+[2023-07-07 14:19:49] INFO root fetch - processPackages [objtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/objtoolbox-0.0.1.tar.gz]
+[2023-07-07 14:19:49] INFO root fetch - processPackages [objtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/objtoolbox-0.0.2.tar.gz]
+[2023-07-07 14:19:49] INFO root fetch - processPackages [objtoolbox]: Start processing: django-tbase-post-product
+[2023-07-07 14:19:49] INFO root fetch - main [MainThread]: End processing [objtoolbox]: success
+[2023-07-07 14:19:49] INFO root fetch - processPackages [longbridge]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-07 14:19:49] INFO root fetch - processPackages [gptcache]: Downloading https://files.pythonhosted.org/packages/48/fa/7951cf776b9e50ff1089bfadde7258031a0a38d79998521a48a3c9a40db5/gptcache-0.1.8.tar.gz
+[2023-07-07 14:19:50] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.1.2.tar.gz]
+[2023-07-07 14:19:50] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.1.3.tar.gz]
+[2023-07-07 14:19:50] INFO root fetch - processPackages [landingai]: Start processing: movingpeople
+[2023-07-07 14:19:50] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-07-07 14:19:50] INFO root fetch - processPackages [acquire]: Remove: archive file [/home/abi/fetcher/tmp/acquire-3.7.dev6.tar.gz]
+[2023-07-07 14:19:50] INFO root fetch - processPackages [acquire]: Remove: archive file [/home/abi/fetcher/tmp/acquire-3.8.dev1.tar.gz]
+[2023-07-07 14:19:50] INFO root fetch - processPackages [acquire]: Start processing: kwenta
+[2023-07-07 14:19:50] INFO root fetch - main [MainThread]: End processing [acquire]: success
+[2023-07-07 14:19:50] INFO root fetch - processPackages [chanfig]: New version: [0.0.9.post7] Old Version: [0.0.9.post5]
+[2023-07-07 14:19:50] INFO root fetch - processPackages [django-tbase-post-product]: New version: [2023.7.716887323] Old Version: [2023.7.316883740]
+[2023-07-07 14:19:50] INFO root fetch - processPackages [recval]: Remove: archive file [/home/abi/fetcher/tmp/recval-0.1.1.tar.gz]
+[2023-07-07 14:19:50] INFO root fetch - processPackages [recval]: Remove: archive file [/home/abi/fetcher/tmp/recval-0.1.2.tar.gz]
+[2023-07-07 14:19:50] INFO root fetch - main [MainThread]: End processing [recval]: success
+[2023-07-07 14:19:50] WARNING root fetch - processPackages [movingpeople]: Skipping, unable to determine old version
+[2023-07-07 14:19:50] INFO root fetch - main [MainThread]: End processing [movingpeople] error
+[2023-07-07 14:19:50] INFO root fetch - processPackages [longbridge]: Downloading https://files.pythonhosted.org/packages/d1/a4/ddaf2c4051c174e664afcac3c6960fe3c243ee5221bbb2b7cf034444d64f/longbridge-0.2.8.tar.gz
+[2023-07-07 14:19:50] INFO root fetch - processPackages [vdk-core]: Remove: archive file [/home/abi/fetcher/tmp/vdk-core-0.3.923117946.tar.gz]
+[2023-07-07 14:19:50] INFO root fetch - processPackages [vdk-core]: Remove: archive file [/home/abi/fetcher/tmp/vdk-core-0.3.924349638.tar.gz]
+[2023-07-07 14:19:50] INFO root fetch - main [MainThread]: End processing [vdk-core]: success
+[2023-07-07 14:19:50] INFO root fetch - processPackages [rocket-python]: Downloading https://files.pythonhosted.org/packages/f1/a8/da6412023ab9ef761f5a6100708746890e9312e89ac6f511c581ad359420/rocket_python-1.3.4-py2.py3-none-any.whl
+[2023-07-07 14:19:50] INFO root fetch - processPackages [kwenta]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-07 14:19:50] INFO root fetch - processPackages [chanfig]: Downloading https://files.pythonhosted.org/packages/9c/95/3464fcb2ce09549672e7ef758061448ee3c098e9227e8fd3d9ff272e3f1c/chanfig-0.0.9.post5.tar.gz
+[2023-07-07 14:19:50] INFO root fetch - processPackages [django-tbase-post-product]: Downloading https://files.pythonhosted.org/packages/a5/ee/d31e8c243100c8a3ac3485e9e5def4398ddf9801fce8f7c05036126c33ad/django_tbase_post_product-2023.7.316883740.tar.gz
+[2023-07-07 14:19:50] INFO root fetch - processPackages [rocket-python]: executing diffoscope
+[2023-07-07 14:19:50] INFO root fetch - processPackages [rocket-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocket_python-1.3.3-py2.py3-none-any.whl.zip tmp/rocket_python-1.3.4-py2.py3-none-any.whl.zip --markdown 20230707/r/rocket-python/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-07 14:19:50] INFO root fetch - processPackages [alibi-detect]: Remove: archive file [/home/abi/fetcher/tmp/alibi-detect-0.9.1.tar.gz]
+[2023-07-07 14:19:50] INFO root fetch - processPackages [alibi-detect]: Remove: archive file [/home/abi/fetcher/tmp/alibi-detect-0.9.1.dev0.tar.gz]
+[2023-07-07 14:19:50] INFO root fetch - main [MainThread]: End processing [alibi-detect]: success
+[2023-07-07 14:19:50] INFO root fetch - processPackages [gptcache]: Downloading https://files.pythonhosted.org/packages/0e/bb/72700c82969c8279118015284301ef2a13caa1a56f2533ba0476c955077f/gptcache-0.1.9.tar.gz
+[2023-07-07 14:19:50] INFO root fetch - processPackages [kwenta]: Downloading https://files.pythonhosted.org/packages/7c/bb/91b00035501ff9607b1522438a20011dd953bc11de73e50aa74bbf7d504a/kwenta-1.0.6.tar.gz
+[2023-07-07 14:19:50] INFO root fetch - processPackages [gptcache]: executing diffoscope
+[2023-07-07 14:19:50] INFO root fetch - processPackages [gptcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptcache-0.1.8.tar.gz tmp/gptcache-0.1.9.tar.gz --markdown 20230707/g/gptcache/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-07 14:19:50] INFO root fetch - processPackages [django-tbase-post-product]: Downloading https://files.pythonhosted.org/packages/2b/ed/2e0bee6d30bdd13147e7da1aa1ab51524099f81dc4785ecfecf27d2427fb/django_tbase_post_product-2023.7.716887323.tar.gz
+[2023-07-07 14:19:50] INFO root fetch - processPackages [longbridge]: Downloading https://files.pythonhosted.org/packages/24/92/5ff3d6963889e844b0de3a7c2b3b92073bb9ecaf124bec5d587b033424e0/longbridge-0.2.9.tar.gz
+[2023-07-07 14:19:50] INFO root fetch - processPackages [chanfig]: Downloading https://files.pythonhosted.org/packages/8c/b9/eed7fd81e144603e27c017fb099cfcb7eb4f36c186f1c76bd2eab7350b7f/chanfig-0.0.9.post7.tar.gz
+[2023-07-07 14:19:50] INFO root fetch - processPackages [kwenta]: Downloading https://files.pythonhosted.org/packages/30/84/b24e01f98ad53223641a60a1b56b23af5945ce2eaa883b6581d9256039b1/kwenta-1.0.7.tar.gz
+[2023-07-07 14:19:50] INFO root fetch - processPackages [django-tbase-post-product]: executing diffoscope
+[2023-07-07 14:19:50] INFO root fetch - processPackages [django-tbase-post-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_tbase_post_product-2023.7.316883740.tar.gz tmp/django_tbase_post_product-2023.7.716887323.tar.gz --markdown 20230707/d/django-tbase-post-product/2023.7.316883740-2023.7.716887323/diff.md --exclude *.pyd
+[2023-07-07 14:19:50] INFO root fetch - processPackages [longbridge]: executing diffoscope
+[2023-07-07 14:19:50] INFO root fetch - processPackages [longbridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/longbridge-0.2.8.tar.gz tmp/longbridge-0.2.9.tar.gz --markdown 20230707/l/longbridge/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-07 14:19:50] INFO root fetch - processPackages [chanfig]: executing diffoscope
+[2023-07-07 14:19:50] INFO root fetch - processPackages [chanfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chanfig-0.0.9.post5.tar.gz tmp/chanfig-0.0.9.post7.tar.gz --markdown 20230707/c/chanfig/0.0.9.post5-0.0.9.post7/diff.md --exclude *.pyd
+[2023-07-07 14:19:50] INFO root fetch - processPackages [kwenta]: executing diffoscope
+[2023-07-07 14:19:50] INFO root fetch - processPackages [kwenta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kwenta-1.0.6.tar.gz tmp/kwenta-1.0.7.tar.gz --markdown 20230707/k/kwenta/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-07 14:19:51] INFO root fetch - processPackages [rocket-python]: Remove: archive file [/home/abi/fetcher/tmp/rocket_python-1.3.3-py2.py3-none-any.whl.zip]
+[2023-07-07 14:19:51] INFO root fetch - processPackages [rocket-python]: Remove: archive file [/home/abi/fetcher/tmp/rocket_python-1.3.4-py2.py3-none-any.whl.zip]
+[2023-07-07 14:19:51] INFO root fetch - main [MainThread]: End processing [rocket-python]: success
+[2023-07-07 14:19:51] INFO root fetch - processPackages [gptcache]: Remove: archive file [/home/abi/fetcher/tmp/gptcache-0.1.8.tar.gz]
+[2023-07-07 14:19:51] INFO root fetch - processPackages [gptcache]: Remove: archive file [/home/abi/fetcher/tmp/gptcache-0.1.9.tar.gz]
+[2023-07-07 14:19:51] INFO root fetch - main [MainThread]: End processing [gptcache]: success
+[2023-07-07 14:19:51] INFO root fetch - processPackages [chanfig]: Remove: archive file [/home/abi/fetcher/tmp/chanfig-0.0.9.post5.tar.gz]
+[2023-07-07 14:19:51] INFO root fetch - processPackages [chanfig]: Remove: archive file [/home/abi/fetcher/tmp/chanfig-0.0.9.post7.tar.gz]
+[2023-07-07 14:19:51] INFO root fetch - main [MainThread]: End processing [chanfig]: success
+[2023-07-07 14:19:51] INFO root fetch - processPackages [django-tbase-post-product]: Remove: archive file [/home/abi/fetcher/tmp/django_tbase_post_product-2023.7.316883740.tar.gz]
+[2023-07-07 14:19:51] INFO root fetch - processPackages [django-tbase-post-product]: Remove: archive file [/home/abi/fetcher/tmp/django_tbase_post_product-2023.7.716887323.tar.gz]
+[2023-07-07 14:19:51] INFO root fetch - main [MainThread]: End processing [django-tbase-post-product]: success
+[2023-07-07 14:19:52] INFO root fetch - processPackages [kwenta]: Remove: archive file [/home/abi/fetcher/tmp/kwenta-1.0.6.tar.gz]
+[2023-07-07 14:19:52] INFO root fetch - processPackages [kwenta]: Remove: archive file [/home/abi/fetcher/tmp/kwenta-1.0.7.tar.gz]
+[2023-07-07 14:19:52] INFO root fetch - main [MainThread]: End processing [kwenta]: success
+[2023-07-07 14:19:52] INFO root fetch - processPackages [longbridge]: Remove: archive file [/home/abi/fetcher/tmp/longbridge-0.2.8.tar.gz]
+[2023-07-07 14:19:52] INFO root fetch - processPackages [longbridge]: Remove: archive file [/home/abi/fetcher/tmp/longbridge-0.2.9.tar.gz]
+[2023-07-07 14:19:52] INFO root fetch - main [MainThread]: End processing [longbridge]: success
+[2023-07-07 14:19:52] INFO root fetch - main [MainThread]: Store serial: [18800251]
