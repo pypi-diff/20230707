@@ -10913,3 +10913,57 @@ EOFError: EOF read where object expected
 [2023-07-07 05:43:18] INFO root fetch - processPackages [jsonargparse]: Remove: archive file [/home/abi/fetcher/tmp/jsonargparse-4.9.0.tar.gz]
 [2023-07-07 05:43:18] INFO root fetch - main [MainThread]: End processing [jsonargparse]: success
 [2023-07-07 05:43:18] INFO root fetch - main [MainThread]: Store serial: [18795626]
+[2023-07-07 05:48:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18795626]
+[2023-07-07 05:48:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-07 05:48:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clarifai
+[2023-07-07 05:48:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bastila-search
+[2023-07-07 05:48:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iquantex_vrp
+[2023-07-07 05:48:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shinherpro
+[2023-07-07 05:48:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lazyops
+[2023-07-07 05:48:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: VMedNLP
+[2023-07-07 05:48:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SMjour
+[2023-07-07 05:48:26] INFO root fetch - processPackages [VMedNLP]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-07 05:48:26] INFO root fetch - processPackages [lazyops]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-07 05:48:26] INFO root fetch - processPackages [shinherpro]: New version: [1.7.1] Old Version: [1.6.9]
+[2023-07-07 05:48:26] WARNING root fetch - processPackages [bastila-search]: Skipping, unable to determine old version
+[2023-07-07 05:48:26] INFO root fetch - main [MainThread]: End processing [bastila-search] error
+[2023-07-07 05:48:26] WARNING root fetch - processPackages [iquantex_vrp]: Skipping, unable to determine old version
+[2023-07-07 05:48:26] INFO root fetch - main [MainThread]: End processing [iquantex_vrp] error
+[2023-07-07 05:48:26] INFO root fetch - processPackages [clarifai]: New version: [9.5.4] Old Version: [9.5.3]
+[2023-07-07 05:48:26] INFO root fetch - processPackages [SMjour]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 05:48:27] INFO root fetch - processPackages [lazyops]: Downloading https://files.pythonhosted.org/packages/a0/4a/f564165d8211d77f7a615d6dccdcb765c37572c99dceb05cb241e2a82bfd/lazyops-0.2.8.tar.gz
+[2023-07-07 05:48:27] INFO root fetch - processPackages [VMedNLP]: Downloading https://files.pythonhosted.org/packages/db/d7/2a579f7f145fb793d62df742eece85fbed914c743517db2072ff56f31685/VMedNLP-1.2.1-py38-none-any.whl
+[2023-07-07 05:48:27] INFO root fetch - processPackages [shinherpro]: Downloading https://files.pythonhosted.org/packages/9f/41/7d048b432530af604c17daa7409720ea64a372f5f38436b9b97af0eb8f5d/shinherpro-1.6.9.tar.gz
+[2023-07-07 05:48:27] INFO root fetch - processPackages [SMjour]: Downloading https://files.pythonhosted.org/packages/e0/27/fc2e79ce11ee8e44c63bd16cd245cafc2402878d1801530e8ae87ec66f26/SMjour-0.0.8.tar.gz
+[2023-07-07 05:48:27] INFO root fetch - processPackages [clarifai]: Downloading https://files.pythonhosted.org/packages/21/05/07000bff8491483766fcbdda84baa1751cdfeab9a3ba51f4d15f0b75275a/clarifai-9.5.3.tar.gz
+[2023-07-07 05:48:27] INFO root fetch - processPackages [lazyops]: Downloading https://files.pythonhosted.org/packages/5c/4b/a0da4a3f0d07056d36ddb331660d472e167596d93e76e6c1c193f20bb4bf/lazyops-0.2.9.tar.gz
+[2023-07-07 05:48:27] INFO root fetch - processPackages [VMedNLP]: Downloading https://files.pythonhosted.org/packages/09/56/a8f9cdd80264310a7b7ddf38b9212d4d9d93ec102c310a8952f6ca7a3182/VMedNLP-1.2.2-py38-none-any.whl
+[2023-07-07 05:48:27] INFO root fetch - processPackages [shinherpro]: Downloading https://files.pythonhosted.org/packages/c4/2d/4d7d057bb5c5f50a4c1d367d4ee0a3160507ac050337ec0b19eba58868af/shinherpro-1.7.1.tar.gz
+[2023-07-07 05:48:27] INFO root fetch - processPackages [clarifai]: Downloading https://files.pythonhosted.org/packages/da/74/8a0e786305967c00ea7f5949693fd516f970159a7c9596d8274dd664e1df/clarifai-9.5.4.tar.gz
+[2023-07-07 05:48:27] INFO root fetch - processPackages [SMjour]: Downloading https://files.pythonhosted.org/packages/ca/4b/92872715ed1335daf063e3ff949622cd4089050841205f9ac65b98bf368e/SMjour-0.0.9.tar.gz
+[2023-07-07 05:48:27] INFO root fetch - processPackages [lazyops]: executing diffoscope
+[2023-07-07 05:48:27] INFO root fetch - processPackages [lazyops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyops-0.2.8.tar.gz tmp/lazyops-0.2.9.tar.gz --markdown 20230707/l/lazyops/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-07 05:48:27] INFO root fetch - processPackages [shinherpro]: executing diffoscope
+[2023-07-07 05:48:27] INFO root fetch - processPackages [shinherpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shinherpro-1.6.9.tar.gz tmp/shinherpro-1.7.1.tar.gz --markdown 20230707/s/shinherpro/1.6.9-1.7.1/diff.md --exclude *.pyd
+[2023-07-07 05:48:27] INFO root fetch - processPackages [clarifai]: executing diffoscope
+[2023-07-07 05:48:27] INFO root fetch - processPackages [clarifai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clarifai-9.5.3.tar.gz tmp/clarifai-9.5.4.tar.gz --markdown 20230707/c/clarifai/9.5.3-9.5.4/diff.md --exclude *.pyd
+[2023-07-07 05:48:27] INFO root fetch - processPackages [VMedNLP]: executing diffoscope
+[2023-07-07 05:48:27] INFO root fetch - processPackages [VMedNLP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VMedNLP-1.2.1-py38-none-any.whl.zip tmp/VMedNLP-1.2.2-py38-none-any.whl.zip --markdown 20230707/V/VMedNLP/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-07 05:48:27] INFO root fetch - processPackages [SMjour]: executing diffoscope
+[2023-07-07 05:48:27] INFO root fetch - processPackages [SMjour]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SMjour-0.0.8.tar.gz tmp/SMjour-0.0.9.tar.gz --markdown 20230707/S/SMjour/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 05:48:28] INFO root fetch - processPackages [VMedNLP]: Remove: archive file [/home/abi/fetcher/tmp/VMedNLP-1.2.1-py38-none-any.whl.zip]
+[2023-07-07 05:48:28] INFO root fetch - processPackages [VMedNLP]: Remove: archive file [/home/abi/fetcher/tmp/VMedNLP-1.2.2-py38-none-any.whl.zip]
+[2023-07-07 05:48:28] INFO root fetch - main [MainThread]: End processing [VMedNLP]: success
+[2023-07-07 05:48:28] INFO root fetch - processPackages [shinherpro]: Remove: archive file [/home/abi/fetcher/tmp/shinherpro-1.6.9.tar.gz]
+[2023-07-07 05:48:28] INFO root fetch - processPackages [shinherpro]: Remove: archive file [/home/abi/fetcher/tmp/shinherpro-1.7.1.tar.gz]
+[2023-07-07 05:48:28] INFO root fetch - main [MainThread]: End processing [shinherpro]: success
+[2023-07-07 05:48:28] INFO root fetch - processPackages [SMjour]: Remove: archive file [/home/abi/fetcher/tmp/SMjour-0.0.8.tar.gz]
+[2023-07-07 05:48:28] INFO root fetch - processPackages [SMjour]: Remove: archive file [/home/abi/fetcher/tmp/SMjour-0.0.9.tar.gz]
+[2023-07-07 05:48:28] INFO root fetch - main [MainThread]: End processing [SMjour]: success
+[2023-07-07 05:48:29] INFO root fetch - processPackages [clarifai]: Remove: archive file [/home/abi/fetcher/tmp/clarifai-9.5.3.tar.gz]
+[2023-07-07 05:48:29] INFO root fetch - processPackages [clarifai]: Remove: archive file [/home/abi/fetcher/tmp/clarifai-9.5.4.tar.gz]
+[2023-07-07 05:48:29] INFO root fetch - main [MainThread]: End processing [clarifai]: success
+[2023-07-07 05:48:29] INFO root fetch - processPackages [lazyops]: Remove: archive file [/home/abi/fetcher/tmp/lazyops-0.2.8.tar.gz]
+[2023-07-07 05:48:29] INFO root fetch - processPackages [lazyops]: Remove: archive file [/home/abi/fetcher/tmp/lazyops-0.2.9.tar.gz]
+[2023-07-07 05:48:29] INFO root fetch - main [MainThread]: End processing [lazyops]: success
+[2023-07-07 05:48:29] INFO root fetch - main [MainThread]: Store serial: [18795652]
