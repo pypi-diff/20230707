@@ -21753,3 +21753,137 @@ AssertionError: tmp/tester-package-sdk-2.0.9.tar.gz does not exist
 [2023-07-07 14:19:52] INFO root fetch - processPackages [longbridge]: Remove: archive file [/home/abi/fetcher/tmp/longbridge-0.2.9.tar.gz]
 [2023-07-07 14:19:52] INFO root fetch - main [MainThread]: End processing [longbridge]: success
 [2023-07-07 14:19:52] INFO root fetch - main [MainThread]: Store serial: [18800251]
+[2023-07-07 14:24:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18800251]
+[2023-07-07 14:25:01] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-07 14:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bx-django-utils
+[2023-07-07 14:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: st-phot
+[2023-07-07 14:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-dllib-spark3
+[2023-07-07 14:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: polyanalyst6api
+[2023-07-07 14:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: btgsolutions-dataservices-python-client
+[2023-07-07 14:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-orca-spark3
+[2023-07-07 14:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-friesian-spark3
+[2023-07-07 14:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-chronos-spark3
+[2023-07-07 14:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: servantcord
+[2023-07-07 14:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ert
+[2023-07-07 14:25:01] INFO root fetch - processPackages [bx-django-utils]: New version: [9] Old Version: [8]
+[2023-07-07 14:25:01] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230706] Old Version: [2.4.0b20230705]
+[2023-07-07 14:25:02] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230706] Old Version: [2.4.0b20230705]
+[2023-07-07 14:25:02] INFO root fetch - processPackages [st-phot]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-07 14:25:02] INFO root fetch - processPackages [polyanalyst6api]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-07 14:25:02] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230706] Old Version: [2.4.0b20230705]
+[2023-07-07 14:25:02] INFO root fetch - processPackages [ert]: New version: [5.1.0b2] Old Version: [5.1.0b1]
+[2023-07-07 14:25:02] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230706] Old Version: [2.4.0b20230705]
+[2023-07-07 14:25:02] WARNING root fetch - processPackages [servantcord]: Skipping, unable to determine old version
+[2023-07-07 14:25:02] INFO root fetch - processPackages [servantcord]: Start processing: apifoncier
+[2023-07-07 14:25:02] INFO root fetch - main [MainThread]: End processing [servantcord] error
+[2023-07-07 14:25:02] WARNING root fetch - processPackages [btgsolutions-dataservices-python-client]: Skipping, unable to determine old version
+[2023-07-07 14:25:02] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: Start processing: bigdl-spark3
+[2023-07-07 14:25:02] INFO root fetch - main [MainThread]: End processing [btgsolutions-dataservices-python-client] error
+[2023-07-07 14:25:02] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/c0/8b/7e99a858cd05588848a800cca8b2ffb8af059ba2ffbc13cc145545d4e6f7/ert-5.1.0b1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-07 14:25:02] INFO root fetch - processPackages [apifoncier]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-07 14:25:02] INFO root fetch - processPackages [polyanalyst6api]: Downloading https://files.pythonhosted.org/packages/c0/dd/d9fd9b67d3672437074bc56caa6873c4fc8a8fee1fe9dbb46ebca207a701/polyanalyst6api-0.9.1.tar.gz
+[2023-07-07 14:25:02] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230706] Old Version: [2.4.0b20230705]
+[2023-07-07 14:25:02] INFO root fetch - processPackages [bx-django-utils]: Downloading https://files.pythonhosted.org/packages/1e/0c/ff3d5a5c26c498b48bf149a2a08540a5812c585c9bfb59f4e303198aa123/bx_django_utils-8.tar.gz
+[2023-07-07 14:25:02] INFO root fetch - processPackages [st-phot]: Downloading https://files.pythonhosted.org/packages/d2/f8/0adc5e6d5c8e980d84b032c0ced3af0914f86c4b84d240aa0dc04cc6f337/st_phot-0.1.0-py3-none-any.whl
+[2023-07-07 14:25:02] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/de/ef/6416dc2d6eff08d34a88174500bcd4d32140d4d26f478898942ee48f05e8/bigdl_friesian_spark3-2.4.0b20230705-py3-none-manylinux1_x86_64.whl
+[2023-07-07 14:25:02] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/7b/5e/0c1585b487784fe1c485633ee57415a1df121ae12e0c2e0de7d95373b385/bigdl-dllib-spark3-2.4.0b20230705.tar.gz
+[2023-07-07 14:25:02] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/9e/ce/207e97eade4df03a7e63bc9ef53cd6dbdff25a92ace7e967b7ee4173e734/bigdl_chronos_spark3-2.4.0b20230705-py3-none-manylinux1_x86_64.whl
+[2023-07-07 14:25:02] INFO root fetch - processPackages [apifoncier]: Downloading https://files.pythonhosted.org/packages/40/80/a46886b70cdb80dc5f62950c282ff91ec416b2f3d2fe5f7fc7c98368d503/apifoncier-0.0.1.tar.gz
+[2023-07-07 14:25:02] WARNING root fetch - processPackages [st-phot]: Skipping package: exceeds size limit 18683616>=10485760
+[2023-07-07 14:25:02] INFO root fetch - processPackages [st-phot]: Start processing: data-pipeline-api
+[2023-07-07 14:25:02] INFO root fetch - main [MainThread]: End processing [st-phot] error
+[2023-07-07 14:25:02] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61328863>=10485760
+[2023-07-07 14:25:02] INFO root fetch - processPackages [bigdl-dllib-spark3]: Start processing: dlmdutils
+[2023-07-07 14:25:02] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-07-07 14:25:02] INFO root fetch - processPackages [polyanalyst6api]: Downloading https://files.pythonhosted.org/packages/30/3e/6a817ee43d40818af50c4e8c49731b99308b3a95e6e5925b01db14a75ad9/polyanalyst6api-0.9.2.tar.gz
+[2023-07-07 14:25:02] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/f5/71/cf95423f57ba05f560f8f07ba4fbb836c0efea3b78326d176a86dd860889/bigdl_spark3-2.4.0b20230705-py3-none-manylinux1_x86_64.whl
+[2023-07-07 14:25:02] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/a3/9b/9727758924f65cca0266652b222c85a4d89d4d77d1d679fafe7a4bb5643c/bigdl_orca_spark3-2.4.0b20230705-py3-none-manylinux1_x86_64.whl
+[2023-07-07 14:25:02] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/2b/26/b7282bd9570f0247b6ca5528718dada34c4fe166df3e85cdb8f21b441fc6/ert-5.1.0b2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-07 14:25:02] INFO root fetch - processPackages [data-pipeline-api]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-07 14:25:02] INFO root fetch - processPackages [apifoncier]: Downloading https://files.pythonhosted.org/packages/c9/d1/334253eba2da6e38cd0e25fe92a9e1c4073c4fded84a326b19752dbad503/apifoncier-0.0.2.tar.gz
+[2023-07-07 14:25:02] WARNING root fetch - processPackages [dlmdutils]: Skipping, unable to determine old version
+[2023-07-07 14:25:02] INFO root fetch - processPackages [dlmdutils]: Start processing: polyanalyst6api
+[2023-07-07 14:25:02] INFO root fetch - main [MainThread]: End processing [dlmdutils] error
+[2023-07-07 14:25:02] INFO root fetch - processPackages [polyanalyst6api]: executing diffoscope
+[2023-07-07 14:25:02] INFO root fetch - processPackages [polyanalyst6api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyanalyst6api-0.9.1.tar.gz tmp/polyanalyst6api-0.9.2.tar.gz --markdown 20230707/p/polyanalyst6api/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-07 14:25:02] INFO root fetch - processPackages [bx-django-utils]: Downloading https://files.pythonhosted.org/packages/2b/63/3e7d67b2f7c3cbfbf0e086e97103b8d3e82088f05b5c20e488922c2fe0f7/bx_django_utils-9.tar.gz
+[2023-07-07 14:25:02] INFO root fetch - processPackages [polyanalyst6api]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-07 14:25:02] INFO root fetch - processPackages [apifoncier]: executing diffoscope
+[2023-07-07 14:25:02] INFO root fetch - processPackages [apifoncier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apifoncier-0.0.1.tar.gz tmp/apifoncier-0.0.2.tar.gz --markdown 20230707/a/apifoncier/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-07 14:25:02] INFO root fetch - processPackages [ert]: executing diffoscope
+[2023-07-07 14:25:02] INFO root fetch - processPackages [ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert-5.1.0b1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ert-5.1.0b2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230707/e/ert/5.1.0b1-5.1.0b2/diff.md --exclude *.pyd
+[2023-07-07 14:25:02] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/a4/17/e057dfe09d88361e9641cefe84ec317c6dfaecb709b704ece8563173b401/bigdl_friesian_spark3-2.4.0b20230706-py3-none-manylinux1_x86_64.whl
+[2023-07-07 14:25:03] INFO root fetch - processPackages [bx-django-utils]: executing diffoscope
+[2023-07-07 14:25:03] INFO root fetch - processPackages [bx-django-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bx_django_utils-8.tar.gz tmp/bx_django_utils-9.tar.gz --markdown 20230707/b/bx-django-utils/8-9/diff.md --exclude *.pyd
+[2023-07-07 14:25:03] INFO root fetch - processPackages [data-pipeline-api]: Downloading https://files.pythonhosted.org/packages/1f/a1/2f28c948021839672ad086227732f4cc1b9b78e6822ceaf6f30b4d3bb47c/data_pipeline_api-0.7.8.tar.gz
+[2023-07-07 14:25:03] INFO root fetch - processPackages [polyanalyst6api]: executing diffoscope
+[2023-07-07 14:25:03] INFO root fetch - processPackages [polyanalyst6api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyanalyst6api-0.9.1.tar.gz tmp/polyanalyst6api-0.9.2.tar.gz --markdown 20230707/p/polyanalyst6api/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-07 14:25:03] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20208040>=10485760
+[2023-07-07 14:25:03] INFO root fetch - processPackages [bigdl-orca-spark3]: Start processing: spreg-satosa-sync
+[2023-07-07 14:25:03] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-07-07 14:25:03] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/f6/35/edd5f89e1bfec9623eefb3adbad733d888f187ca7e7b1a5f11decce50c51/bigdl_spark3-2.4.0b20230706-py3-none-manylinux1_x86_64.whl
+[2023-07-07 14:25:03] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/71/44/ce533fc284b758d2193fbe8d443215c8863b9a46bbfbbeeb82871e45b66c/bigdl_chronos_spark3-2.4.0b20230706-py3-none-manylinux1_x86_64.whl
+[2023-07-07 14:25:03] INFO root fetch - processPackages [spreg-satosa-sync]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-07-07 14:25:03] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-07-07 14:25:03] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230705-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230706-py3-none-manylinux1_x86_64.whl.zip --markdown 20230707/b/bigdl-friesian-spark3/2.4.0b20230705-2.4.0b20230706/diff.md --exclude *.pyd
+[2023-07-07 14:25:03] INFO root fetch - processPackages [spreg-satosa-sync]: Downloading https://files.pythonhosted.org/packages/d4/ab/f807e7a352635857ad74eb4974369ba1664c8a8eb15582a597de4ba374c5/spreg-satosa-sync-2.0.1.tar.gz
+[2023-07-07 14:25:03] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-07-07 14:25:03] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230705-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230706-py3-none-manylinux1_x86_64.whl.zip --markdown 20230707/b/bigdl-spark3/2.4.0b20230705-2.4.0b20230706/diff.md --exclude *.pyd
+[2023-07-07 14:25:03] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-07-07 14:25:03] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230705-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230706-py3-none-manylinux1_x86_64.whl.zip --markdown 20230707/b/bigdl-chronos-spark3/2.4.0b20230705-2.4.0b20230706/diff.md --exclude *.pyd
+[2023-07-07 14:25:03] INFO root fetch - processPackages [data-pipeline-api]: Downloading https://files.pythonhosted.org/packages/21/ce/e5ba48e6f148d2b5d5a90247dc86e963f2899704d99a9cc53d1e89d7e0ee/data_pipeline_api-0.7.9.tar.gz
+[2023-07-07 14:25:03] INFO root fetch - processPackages [spreg-satosa-sync]: Downloading https://files.pythonhosted.org/packages/1d/29/0d1cadb7214d159fb8d58904a8ac269a29d724fa42bcb2836f7d2f2548e7/spreg-satosa-sync-2.1.0.tar.gz
+[2023-07-07 14:25:03] INFO root fetch - processPackages [spreg-satosa-sync]: executing diffoscope
+[2023-07-07 14:25:03] INFO root fetch - processPackages [spreg-satosa-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spreg-satosa-sync-2.0.1.tar.gz tmp/spreg-satosa-sync-2.1.0.tar.gz --markdown 20230707/s/spreg-satosa-sync/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-07-07 14:25:03] INFO root fetch - processPackages [data-pipeline-api]: executing diffoscope
+[2023-07-07 14:25:03] INFO root fetch - processPackages [data-pipeline-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_pipeline_api-0.7.8.tar.gz tmp/data_pipeline_api-0.7.9.tar.gz --markdown 20230707/d/data-pipeline-api/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-07 14:25:03] INFO root fetch - processPackages [polyanalyst6api]: Remove: archive file [/home/abi/fetcher/tmp/polyanalyst6api-0.9.1.tar.gz]
+[2023-07-07 14:25:03] INFO root fetch - processPackages [polyanalyst6api]: Remove: archive file [/home/abi/fetcher/tmp/polyanalyst6api-0.9.2.tar.gz]
+[2023-07-07 14:25:03] INFO root fetch - main [MainThread]: End processing [polyanalyst6api]: success
+[2023-07-07 14:25:04] INFO root fetch - processPackages [apifoncier]: Remove: archive file [/home/abi/fetcher/tmp/apifoncier-0.0.1.tar.gz]
+[2023-07-07 14:25:04] INFO root fetch - processPackages [apifoncier]: Remove: archive file [/home/abi/fetcher/tmp/apifoncier-0.0.2.tar.gz]
+[2023-07-07 14:25:04] INFO root fetch - main [MainThread]: End processing [apifoncier]: success
+[2023-07-07 14:25:04] ERROR root fetch - processPackages [polyanalyst6api]: Diffoscope failed: time="2023-07-07T14:25:03+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/polyanalyst6api-0.9.1.tar.gz does not exist
+
+[2023-07-07 14:25:04] INFO root fetch - main [MainThread]: End processing [polyanalyst6api] error
+[2023-07-07 14:25:04] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230705-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-07 14:25:04] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230706-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-07 14:25:04] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-07-07 14:25:04] INFO root fetch - processPackages [bx-django-utils]: Remove: archive file [/home/abi/fetcher/tmp/bx_django_utils-8.tar.gz]
+[2023-07-07 14:25:04] INFO root fetch - processPackages [bx-django-utils]: Remove: archive file [/home/abi/fetcher/tmp/bx_django_utils-9.tar.gz]
+[2023-07-07 14:25:04] INFO root fetch - main [MainThread]: End processing [bx-django-utils]: success
+[2023-07-07 14:25:04] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230705-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-07 14:25:04] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230706-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-07 14:25:04] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-07-07 14:25:04] INFO root fetch - processPackages [spreg-satosa-sync]: Remove: archive file [/home/abi/fetcher/tmp/spreg-satosa-sync-2.0.1.tar.gz]
+[2023-07-07 14:25:04] INFO root fetch - processPackages [spreg-satosa-sync]: Remove: archive file [/home/abi/fetcher/tmp/spreg-satosa-sync-2.1.0.tar.gz]
+[2023-07-07 14:25:04] INFO root fetch - main [MainThread]: End processing [spreg-satosa-sync]: success
+[2023-07-07 14:25:05] INFO root fetch - processPackages [data-pipeline-api]: Remove: archive file [/home/abi/fetcher/tmp/data_pipeline_api-0.7.8.tar.gz]
+[2023-07-07 14:25:05] INFO root fetch - processPackages [data-pipeline-api]: Remove: archive file [/home/abi/fetcher/tmp/data_pipeline_api-0.7.9.tar.gz]
+[2023-07-07 14:25:05] INFO root fetch - main [MainThread]: End processing [data-pipeline-api]: success
+[2023-07-07 14:25:05] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230705-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-07 14:25:05] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230706-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-07 14:25:05] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-07-07 14:25:08] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-5.1.0b1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-07 14:25:08] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-5.1.0b2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-07 14:25:08] INFO root fetch - main [MainThread]: End processing [ert]: success
+[2023-07-07 14:25:08] INFO root fetch - main [MainThread]: Store serial: [18800312]
