@@ -19620,3 +19620,90 @@ AssertionError: tmp/tester-package-sdk-2.0.9.tar.gz does not exist
 [2023-07-07 12:55:27] INFO root fetch - processPackages [pyscal]: Remove: archive file [/home/abi/fetcher/tmp/pyscal-0.9.2.tar.gz]
 [2023-07-07 12:55:27] INFO root fetch - main [MainThread]: End processing [pyscal]: success
 [2023-07-07 12:55:27] INFO root fetch - main [MainThread]: Store serial: [18799239]
+[2023-07-07 13:00:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18799239]
+[2023-07-07 13:00:36] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-07 13:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DefyDatabase
+[2023-07-07 13:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: otc-sphinx-directives
+[2023-07-07 13:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openhab-pythonrule-engine
+[2023-07-07 13:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf
+[2023-07-07 13:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: resc-helm-wizard
+[2023-07-07 13:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sphinx-readme
+[2023-07-07 13:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: testfilebyustopythoncoolgoat
+[2023-07-07 13:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kube-copilot
+[2023-07-07 13:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: resc-vcs-scraper
+[2023-07-07 13:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: resc-vcs-scanner
+[2023-07-07 13:00:36] INFO root fetch - processPackages [DefyDatabase]: New version: [10.0.0a4.dev202307071900] Old Version: [10.0.0a4.dev202307061815]
+[2023-07-07 13:00:36] INFO root fetch - processPackages [otc-sphinx-directives]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-07 13:00:36] INFO root fetch - processPackages [resc-helm-wizard]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-07 13:00:36] INFO root fetch - processPackages [kube-copilot]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-07 13:00:36] INFO root fetch - processPackages [cdktf]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-07 13:00:36] INFO root fetch - processPackages [openhab-pythonrule-engine]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-07 13:00:36] INFO root fetch - processPackages [sphinx-readme]: New version: [0.0.1b3] Old Version: [0.0.1b0]
+[2023-07-07 13:00:36] WARNING root fetch - processPackages [testfilebyustopythoncoolgoat]: Skipping, unable to determine old version
+[2023-07-07 13:00:36] INFO root fetch - main [MainThread]: End processing [testfilebyustopythoncoolgoat] error
+[2023-07-07 13:00:36] INFO root fetch - processPackages [resc-vcs-scraper]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-07-07 13:00:36] INFO root fetch - processPackages [resc-vcs-scanner]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-07-07 13:00:36] INFO root fetch - processPackages [otc-sphinx-directives]: Downloading https://files.pythonhosted.org/packages/67/8a/07969ca77b941be38927706e13d8d87993c43e7b64662401043153f464c0/otc_sphinx_directives-0.2.6.tar.gz
+[2023-07-07 13:00:36] INFO root fetch - processPackages [cdktf]: Downloading https://files.pythonhosted.org/packages/87/b3/c146d54086d890741cc9d05c63504e1386b268ef8cbc52d9aa78c1080aa3/cdktf-0.9.3.tar.gz
+[2023-07-07 13:00:37] INFO root fetch - processPackages [kube-copilot]: Downloading https://files.pythonhosted.org/packages/92/ed/ae22c3eb11fd91f9bc01dbdcba0f4a7c22cef980bf8f5fef46caec814480/kube_copilot-0.1.8.tar.gz
+[2023-07-07 13:00:37] INFO root fetch - processPackages [openhab-pythonrule-engine]: Downloading https://files.pythonhosted.org/packages/53/b8/8bd822aa58f48f87a165a41c13622aca27f3899dbee42acdab33276b63b3/openhab_pythonrule_engine-1.1.8.tar.gz
+[2023-07-07 13:00:37] INFO root fetch - processPackages [DefyDatabase]: Downloading https://files.pythonhosted.org/packages/aa/30/1213cc19a26030bbe4d50bdb838a3ce74e2c8b79dab737940548fa1627cf/DefyDatabase-10.0.0a4.dev202307061815.tar.gz
+[2023-07-07 13:00:37] INFO root fetch - processPackages [sphinx-readme]: Downloading https://files.pythonhosted.org/packages/31/c7/0d1a34ec1230fed2eade20264aab1ae7e025060e6cf8a6c8c1d46ba99636/sphinx-readme-0.0.1b0.tar.gz
+[2023-07-07 13:00:37] INFO root fetch - processPackages [resc-helm-wizard]: Downloading https://files.pythonhosted.org/packages/81/00/8b9348656d6dbd80a61b81c373038e751302973b6126e903ce32728ebd0e/resc_helm_wizard-1.0.5.tar.gz
+[2023-07-07 13:00:37] INFO root fetch - processPackages [resc-vcs-scraper]: Downloading https://files.pythonhosted.org/packages/e1/0a/afa04a295d697942e9fb91d12eb8531c48d6e38f946126ac9e042edbdc02/resc_vcs_scraper-1.3.0.tar.gz
+[2023-07-07 13:00:37] INFO root fetch - processPackages [resc-vcs-scanner]: Downloading https://files.pythonhosted.org/packages/2c/3a/ce89d01d95a49d93540e607a60ec4bb684e30834bfbbc804345626c7ea9b/resc_vcs_scanner-1.3.0.tar.gz
+[2023-07-07 13:00:37] INFO root fetch - processPackages [openhab-pythonrule-engine]: Downloading https://files.pythonhosted.org/packages/1b/0a/e52241e767752cebdb61146d8c9d4151b7cdd5a1b4c1d8234193fcde1b20/openhab_pythonrule_engine-1.1.9.tar.gz
+[2023-07-07 13:00:37] INFO root fetch - processPackages [kube-copilot]: Downloading https://files.pythonhosted.org/packages/fd/35/3e18869b47a41c295ac800019e28347fde14879ede6506f97393faade562/kube_copilot-0.1.9.tar.gz
+[2023-07-07 13:00:37] INFO root fetch - processPackages [otc-sphinx-directives]: Downloading https://files.pythonhosted.org/packages/4f/fa/be4c0f25b26b9335d1076a93174df6443a99f2b652db4258a8e752a28d6d/otc_sphinx_directives-0.2.7.tar.gz
+[2023-07-07 13:00:37] INFO root fetch - processPackages [cdktf]: Downloading https://files.pythonhosted.org/packages/80/8d/cbc9ef418f046a8c17f614889aba72b6e668540a2966498bef6f1dbb3a10/cdktf-0.9.4.tar.gz
+[2023-07-07 13:00:37] INFO root fetch - processPackages [kube-copilot]: executing diffoscope
+[2023-07-07 13:00:37] INFO root fetch - processPackages [kube-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kube_copilot-0.1.8.tar.gz tmp/kube_copilot-0.1.9.tar.gz --markdown 20230707/k/kube-copilot/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-07 13:00:37] INFO root fetch - processPackages [openhab-pythonrule-engine]: executing diffoscope
+[2023-07-07 13:00:37] INFO root fetch - processPackages [openhab-pythonrule-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhab_pythonrule_engine-1.1.8.tar.gz tmp/openhab_pythonrule_engine-1.1.9.tar.gz --markdown 20230707/o/openhab-pythonrule-engine/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-07 13:00:37] INFO root fetch - processPackages [DefyDatabase]: Downloading https://files.pythonhosted.org/packages/fc/58/b3941850fbe98badba327982683f2a7a8e221ee42b3a48201fb549b0f849/DefyDatabase-10.0.0a4.dev202307071900.tar.gz
+[2023-07-07 13:00:37] INFO root fetch - processPackages [sphinx-readme]: Downloading https://files.pythonhosted.org/packages/30/40/8a7307bf438e6af800dbc870a50a15aca9640989cfa11c64d3f849ca5b27/sphinx-readme-0.0.1b3.tar.gz
+[2023-07-07 13:00:37] INFO root fetch - processPackages [resc-vcs-scraper]: Downloading https://files.pythonhosted.org/packages/8b/d9/bc82d2d4e6cae1dee556d95af7e8c0105e22e1b18e9055d09b6accb9ffe5/resc_vcs_scraper-1.4.0.tar.gz
+[2023-07-07 13:00:37] INFO root fetch - processPackages [cdktf]: executing diffoscope
+[2023-07-07 13:00:37] INFO root fetch - processPackages [cdktf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-0.9.3.tar.gz tmp/cdktf-0.9.4.tar.gz --markdown 20230707/c/cdktf/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-07 13:00:37] INFO root fetch - processPackages [otc-sphinx-directives]: executing diffoscope
+[2023-07-07 13:00:37] INFO root fetch - processPackages [otc-sphinx-directives]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otc_sphinx_directives-0.2.6.tar.gz tmp/otc_sphinx_directives-0.2.7.tar.gz --markdown 20230707/o/otc-sphinx-directives/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-07 13:00:37] INFO root fetch - processPackages [DefyDatabase]: executing diffoscope
+[2023-07-07 13:00:37] INFO root fetch - processPackages [DefyDatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DefyDatabase-10.0.0a4.dev202307061815.tar.gz tmp/DefyDatabase-10.0.0a4.dev202307071900.tar.gz --markdown 20230707/D/DefyDatabase/10.0.0a4.dev202307061815-10.0.0a4.dev202307071900/diff.md --exclude *.pyd
+[2023-07-07 13:00:37] INFO root fetch - processPackages [resc-vcs-scanner]: Downloading https://files.pythonhosted.org/packages/78/e8/9f722b1a4a41a5df1d869920f25af2b9b6c3f8091dd22658fc601d8ee129/resc_vcs_scanner-1.4.0.tar.gz
+[2023-07-07 13:00:37] INFO root fetch - processPackages [resc-helm-wizard]: Downloading https://files.pythonhosted.org/packages/69/20/8d0d838afa100ac0c6b1e81035b22b9a1fc0f23b5957f772eb187b9a44bf/resc_helm_wizard-1.0.6.tar.gz
+[2023-07-07 13:00:37] INFO root fetch - processPackages [resc-vcs-scraper]: executing diffoscope
+[2023-07-07 13:00:37] INFO root fetch - processPackages [resc-vcs-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resc_vcs_scraper-1.3.0.tar.gz tmp/resc_vcs_scraper-1.4.0.tar.gz --markdown 20230707/r/resc-vcs-scraper/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-07-07 13:00:37] INFO root fetch - processPackages [sphinx-readme]: executing diffoscope
+[2023-07-07 13:00:37] INFO root fetch - processPackages [sphinx-readme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-readme-0.0.1b0.tar.gz tmp/sphinx-readme-0.0.1b3.tar.gz --markdown 20230707/s/sphinx-readme/0.0.1b0-0.0.1b3/diff.md --exclude *.pyd
+[2023-07-07 13:00:37] INFO root fetch - processPackages [resc-vcs-scanner]: executing diffoscope
+[2023-07-07 13:00:37] INFO root fetch - processPackages [resc-vcs-scanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resc_vcs_scanner-1.3.0.tar.gz tmp/resc_vcs_scanner-1.4.0.tar.gz --markdown 20230707/r/resc-vcs-scanner/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-07-07 13:00:38] INFO root fetch - processPackages [resc-helm-wizard]: executing diffoscope
+[2023-07-07 13:00:38] INFO root fetch - processPackages [resc-helm-wizard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resc_helm_wizard-1.0.5.tar.gz tmp/resc_helm_wizard-1.0.6.tar.gz --markdown 20230707/r/resc-helm-wizard/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-07 13:00:38] INFO root fetch - processPackages [openhab-pythonrule-engine]: Remove: archive file [/home/abi/fetcher/tmp/openhab_pythonrule_engine-1.1.8.tar.gz]
+[2023-07-07 13:00:38] INFO root fetch - processPackages [openhab-pythonrule-engine]: Remove: archive file [/home/abi/fetcher/tmp/openhab_pythonrule_engine-1.1.9.tar.gz]
+[2023-07-07 13:00:39] INFO root fetch - main [MainThread]: End processing [openhab-pythonrule-engine]: success
+[2023-07-07 13:00:39] INFO root fetch - processPackages [kube-copilot]: Remove: archive file [/home/abi/fetcher/tmp/kube_copilot-0.1.8.tar.gz]
+[2023-07-07 13:00:39] INFO root fetch - processPackages [kube-copilot]: Remove: archive file [/home/abi/fetcher/tmp/kube_copilot-0.1.9.tar.gz]
+[2023-07-07 13:00:39] INFO root fetch - main [MainThread]: End processing [kube-copilot]: success
+[2023-07-07 13:00:39] INFO root fetch - processPackages [DefyDatabase]: Remove: archive file [/home/abi/fetcher/tmp/DefyDatabase-10.0.0a4.dev202307061815.tar.gz]
+[2023-07-07 13:00:39] INFO root fetch - processPackages [DefyDatabase]: Remove: archive file [/home/abi/fetcher/tmp/DefyDatabase-10.0.0a4.dev202307071900.tar.gz]
+[2023-07-07 13:00:39] INFO root fetch - main [MainThread]: End processing [DefyDatabase]: success
+[2023-07-07 13:00:39] INFO root fetch - processPackages [cdktf]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-0.9.3.tar.gz]
+[2023-07-07 13:00:39] INFO root fetch - processPackages [cdktf]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-0.9.4.tar.gz]
+[2023-07-07 13:00:39] INFO root fetch - main [MainThread]: End processing [cdktf]: success
+[2023-07-07 13:00:39] INFO root fetch - processPackages [otc-sphinx-directives]: Remove: archive file [/home/abi/fetcher/tmp/otc_sphinx_directives-0.2.6.tar.gz]
+[2023-07-07 13:00:39] INFO root fetch - processPackages [otc-sphinx-directives]: Remove: archive file [/home/abi/fetcher/tmp/otc_sphinx_directives-0.2.7.tar.gz]
+[2023-07-07 13:00:39] INFO root fetch - main [MainThread]: End processing [otc-sphinx-directives]: success
+[2023-07-07 13:00:39] INFO root fetch - processPackages [sphinx-readme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-readme-0.0.1b0.tar.gz]
+[2023-07-07 13:00:39] INFO root fetch - processPackages [sphinx-readme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-readme-0.0.1b3.tar.gz]
+[2023-07-07 13:00:39] INFO root fetch - main [MainThread]: End processing [sphinx-readme]: success
+[2023-07-07 13:00:39] INFO root fetch - processPackages [resc-helm-wizard]: Remove: archive file [/home/abi/fetcher/tmp/resc_helm_wizard-1.0.5.tar.gz]
+[2023-07-07 13:00:39] INFO root fetch - processPackages [resc-helm-wizard]: Remove: archive file [/home/abi/fetcher/tmp/resc_helm_wizard-1.0.6.tar.gz]
+[2023-07-07 13:00:39] INFO root fetch - main [MainThread]: End processing [resc-helm-wizard]: success
+[2023-07-07 13:00:39] INFO root fetch - processPackages [resc-vcs-scraper]: Remove: archive file [/home/abi/fetcher/tmp/resc_vcs_scraper-1.3.0.tar.gz]
+[2023-07-07 13:00:39] INFO root fetch - processPackages [resc-vcs-scraper]: Remove: archive file [/home/abi/fetcher/tmp/resc_vcs_scraper-1.4.0.tar.gz]
+[2023-07-07 13:00:39] INFO root fetch - main [MainThread]: End processing [resc-vcs-scraper]: success
+[2023-07-07 13:00:39] INFO root fetch - processPackages [resc-vcs-scanner]: Remove: archive file [/home/abi/fetcher/tmp/resc_vcs_scanner-1.3.0.tar.gz]
+[2023-07-07 13:00:39] INFO root fetch - processPackages [resc-vcs-scanner]: Remove: archive file [/home/abi/fetcher/tmp/resc_vcs_scanner-1.4.0.tar.gz]
+[2023-07-07 13:00:39] INFO root fetch - main [MainThread]: End processing [resc-vcs-scanner]: success
+[2023-07-07 13:00:39] INFO root fetch - main [MainThread]: Store serial: [18799277]
