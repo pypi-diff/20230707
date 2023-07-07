@@ -18836,3 +18836,175 @@ AssertionError: tmp/tester-package-sdk-2.0.9.tar.gz does not exist
 [2023-07-07 12:23:47] INFO root fetch - processPackages [lexikos]: Remove: archive file [/home/abi/fetcher/tmp/lexikos-0.0.1rc6.tar.gz]
 [2023-07-07 12:23:47] INFO root fetch - main [MainThread]: End processing [lexikos]: success
 [2023-07-07 12:23:47] INFO root fetch - main [MainThread]: Store serial: [18798921]
+[2023-07-07 12:28:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18798921]
+[2023-07-07 12:28:56] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-07 12:28:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ablaevent
+[2023-07-07 12:28:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: molgenis-py-bbmri-eric
+[2023-07-07 12:28:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crossroads-schematization
+[2023-07-07 12:28:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crossroads-schematization
+[2023-07-07 12:28:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: creditas
+[2023-07-07 12:28:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fyerstest
+[2023-07-07 12:28:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: syft
+[2023-07-07 12:28:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb
+[2023-07-07 12:28:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: TSMasterAPI
+[2023-07-07 12:28:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-client
+[2023-07-07 12:28:57] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-07 12:28:57] INFO root fetch - processPackages [crossroads-schematization]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-07 12:28:57] WARNING root fetch - processPackages [creditas]: Skipping, unable to determine old version
+[2023-07-07 12:28:57] INFO root fetch - processPackages [creditas]: Start processing: nucliadb-dataset
+[2023-07-07 12:28:57] INFO root fetch - main [MainThread]: End processing [creditas] error
+[2023-07-07 12:28:57] WARNING root fetch - processPackages [ablaevent]: Skipping, unable to determine old version
+[2023-07-07 12:28:57] INFO root fetch - processPackages [ablaevent]: Start processing: nucliadb-models
+[2023-07-07 12:28:57] INFO root fetch - main [MainThread]: End processing [ablaevent] error
+[2023-07-07 12:28:57] INFO root fetch - processPackages [TSMasterAPI]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-07-07 12:28:57] INFO root fetch - processPackages [crossroads-schematization]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-07 12:28:57] INFO root fetch - processPackages [fyerstest]: New version: [0.3] Old Version: [0.2]
+[2023-07-07 12:28:57] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-07 12:28:57] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-07 12:28:57] INFO root fetch - processPackages [syft]: New version: [0.8.2b3] Old Version: [0.8.2b2]
+[2023-07-07 12:28:57] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-07 12:28:57] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-07 12:28:57] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/7c/ff/0a879c94d307d6130c47fa95a8a217386c5cbb1838101d660244b068cd95/nucliadb-2.9.0.post266-py3-none-any.whl
+[2023-07-07 12:28:57] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/e9/f9/e883083a5a0915d9eef487a6fa094cee59f24bf25f983e64b02d3dd71a9f/nucliadb_client-2.9.0.post266-py3-none-any.whl
+[2023-07-07 12:28:57] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/3b/2d/e4d68391765b0e9f57ca1023e2aec3cf60968a9418e00f24c1554bb0041e/nucliadb_models-2.9.0.post266-py3-none-any.whl
+[2023-07-07 12:28:57] INFO root fetch - processPackages [crossroads-schematization]: Downloading https://files.pythonhosted.org/packages/33/8b/3caad8d371893a064c33f85cde8016257daf51de91c9435e353d633bd003/crossroads-schematization-0.2.7.tar.gz
+[2023-07-07 12:28:57] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/4b/fc2d9cfebab3c585f1cb9965c827bf2aca2a655f2fec6b1fffcac6eef1c1/nucliadb_dataset-2.9.0.post266-py3-none-any.whl
+[2023-07-07 12:28:57] INFO root fetch - processPackages [crossroads-schematization]: Downloading https://files.pythonhosted.org/packages/33/8b/3caad8d371893a064c33f85cde8016257daf51de91c9435e353d633bd003/crossroads-schematization-0.2.7.tar.gz
+[2023-07-07 12:28:57] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: Downloading https://files.pythonhosted.org/packages/55/e0/24290eb827939ce28ad443ab501a1de5c78477b51893febb32a6076230db/molgenis-py-bbmri-eric-1.8.0.tar.gz
+[2023-07-07 12:28:57] INFO root fetch - processPackages [TSMasterAPI]: Downloading https://files.pythonhosted.org/packages/60/15/f0c1557920dde8ea81fcd189afa7f7e4c78a758727a209d94b90f93112ef/TSMasterAPI-2.1.1.tar.gz
+[2023-07-07 12:28:57] INFO root fetch - processPackages [syft]: Downloading https://files.pythonhosted.org/packages/70/ff/26dcc8981ea022ce24c0c9e8325515744aa95eec5b286d78b43fd2052212/syft-0.8.2b2.tar.gz
+[2023-07-07 12:28:57] INFO root fetch - processPackages [fyerstest]: Downloading https://files.pythonhosted.org/packages/2f/55/5c33edb545ddb23bbfde9951f5119f9fe2584580693b0f4eeaa6c6740b4d/fyerstest-0.2.tar.gz
+[2023-07-07 12:28:57] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/24/40/81827f509054d15496de510289a599e8f6d34f706b2371d86d048fbc0db0/nucliadb_client-2.9.0.post267-py3-none-any.whl
+[2023-07-07 12:28:58] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/33/34/554de7935ae3aecd4129d1f85d83822f97fd284da917d6aced4c09802f1a/nucliadb_models-2.9.0.post267-py3-none-any.whl
+[2023-07-07 12:28:58] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/80/9f/9ffeb0e3d1b4da8f1178595f75fb1c1ffe183913036ae2a60f569c8c7dc7/nucliadb_dataset-2.9.0.post267-py3-none-any.whl
+[2023-07-07 12:28:58] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2023-07-07 12:28:58] INFO root fetch - processPackages [TSMasterAPI]: Downloading https://files.pythonhosted.org/packages/26/6a/fa8fb7d5f0f1f1769d4b51d04cde3621f525f17c68712fff82be828f7c76/TSMasterAPI-2.1.2.tar.gz
+[2023-07-07 12:28:58] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: Downloading https://files.pythonhosted.org/packages/4f/1a/131ad33a5603630c7855f8913a04402a5d52300cfdfad2aa7cae84988fcf/molgenis-py-bbmri-eric-1.9.0.tar.gz
+[2023-07-07 12:28:58] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-07-07 12:28:58] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230707/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-07 12:28:58] INFO root fetch - processPackages [syft]: Downloading https://files.pythonhosted.org/packages/7e/31/1d2ab7cb5b0338dc7c140f5da21bb9961ceee9e8e6277d30f231f74deefc/syft-0.8.2b3.tar.gz
+[2023-07-07 12:28:58] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-07-07 12:28:58] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230707/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-07 12:28:58] INFO root fetch - processPackages [crossroads-schematization]: Downloading https://files.pythonhosted.org/packages/99/08/999484c4b7d1a0fe341b5498037e947d711ce02ca985c343098260fd30eb/crossroads-schematization-0.2.8.tar.gz
+[2023-07-07 12:28:58] INFO root fetch - processPackages [crossroads-schematization]: Downloading https://files.pythonhosted.org/packages/99/08/999484c4b7d1a0fe341b5498037e947d711ce02ca985c343098260fd30eb/crossroads-schematization-0.2.8.tar.gz
+[2023-07-07 12:28:58] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-07-07 12:28:58] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230707/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-07 12:28:58] INFO root fetch - processPackages [fyerstest]: Downloading https://files.pythonhosted.org/packages/63/bd/005ab8645606adc356f9070360cb65d7a75ffd05d618dc032724ba847305/fyerstest-0.3.tar.gz
+[2023-07-07 12:28:58] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-07-07 12:28:58] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230707/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-07 12:28:58] INFO root fetch - processPackages [TSMasterAPI]: executing diffoscope
+[2023-07-07 12:28:58] INFO root fetch - processPackages [TSMasterAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TSMasterAPI-2.1.1.tar.gz tmp/TSMasterAPI-2.1.2.tar.gz --markdown 20230707/T/TSMasterAPI/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-07-07 12:28:58] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: executing diffoscope
+[2023-07-07 12:28:58] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgenis-py-bbmri-eric-1.8.0.tar.gz tmp/molgenis-py-bbmri-eric-1.9.0.tar.gz --markdown 20230707/m/molgenis-py-bbmri-eric/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-07 12:28:58] INFO root fetch - processPackages [syft]: executing diffoscope
+[2023-07-07 12:28:58] INFO root fetch - processPackages [syft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syft-0.8.2b2.tar.gz tmp/syft-0.8.2b3.tar.gz --markdown 20230707/s/syft/0.8.2b2-0.8.2b3/diff.md --exclude *.pyd
+[2023-07-07 12:28:58] INFO root fetch - processPackages [fyerstest]: executing diffoscope
+[2023-07-07 12:28:58] INFO root fetch - processPackages [fyerstest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyerstest-0.2.tar.gz tmp/fyerstest-0.3.tar.gz --markdown 20230707/f/fyerstest/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-07 12:28:58] INFO root fetch - processPackages [crossroads-schematization]: executing diffoscope
+[2023-07-07 12:28:58] INFO root fetch - processPackages [crossroads-schematization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossroads-schematization-0.2.7.tar.gz tmp/crossroads-schematization-0.2.8.tar.gz --markdown 20230707/c/crossroads-schematization/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-07 12:28:58] INFO root fetch - processPackages [crossroads-schematization]: executing diffoscope
+[2023-07-07 12:28:58] INFO root fetch - processPackages [crossroads-schematization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossroads-schematization-0.2.7.tar.gz tmp/crossroads-schematization-0.2.8.tar.gz --markdown 20230707/c/crossroads-schematization/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-07 12:28:59] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-07 12:28:59] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-07 12:28:59] INFO root fetch - processPackages [nucliadb-client]: Start processing: nucliadb-protos
+[2023-07-07 12:28:59] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-07-07 12:28:59] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-07 12:28:59] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-07 12:28:59] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-07 12:28:59] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: ipams
+[2023-07-07 12:28:59] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-07-07 12:28:59] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/16/50/6ab2e4f9cca425d97ef0824c338fea58b8e3a0bfb590231f3196942875c0/nucliadb_protos-2.9.0.post266-py3-none-any.whl
+[2023-07-07 12:28:59] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-07 12:28:59] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-07 12:28:59] INFO root fetch - processPackages [nucliadb-models]: Start processing: nucliadb-sdk
+[2023-07-07 12:28:59] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-07-07 12:28:59] INFO root fetch - processPackages [ipams]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-07 12:28:59] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-07 12:29:00] INFO root fetch - processPackages [TSMasterAPI]: Remove: archive file [/home/abi/fetcher/tmp/TSMasterAPI-2.1.1.tar.gz]
+[2023-07-07 12:29:00] INFO root fetch - processPackages [TSMasterAPI]: Remove: archive file [/home/abi/fetcher/tmp/TSMasterAPI-2.1.2.tar.gz]
+[2023-07-07 12:29:00] INFO root fetch - processPackages [TSMasterAPI]: Start processing: nucliadb-utils
+[2023-07-07 12:29:00] INFO root fetch - main [MainThread]: End processing [TSMasterAPI]: success
+[2023-07-07 12:29:00] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a1/64/be41afa3acf3d90a5d9575ac0e1c151ff6e91fb473f9724dac60fea85414/nucliadb_sdk-2.9.0.post266-py3-none-any.whl
+[2023-07-07 12:29:00] INFO root fetch - processPackages [fyerstest]: Remove: archive file [/home/abi/fetcher/tmp/fyerstest-0.2.tar.gz]
+[2023-07-07 12:29:00] INFO root fetch - processPackages [fyerstest]: Remove: archive file [/home/abi/fetcher/tmp/fyerstest-0.3.tar.gz]
+[2023-07-07 12:29:00] INFO root fetch - processPackages [fyerstest]: Start processing: cval-lib
+[2023-07-07 12:29:00] INFO root fetch - main [MainThread]: End processing [fyerstest]: success
+[2023-07-07 12:29:00] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-07 12:29:00] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/21/bd/4fffaf241f826293c98c1317bdaff65a5d202f9ec94d08322b2fd017f3b0/nucliadb_protos-2.9.0.post267-py3-none-any.whl
+[2023-07-07 12:29:00] INFO root fetch - processPackages [cval-lib]: New version: [0.0.2.7] Old Version: [0.0.2.6]
+[2023-07-07 12:29:00] INFO root fetch - processPackages [crossroads-schematization]: Remove: archive file [/home/abi/fetcher/tmp/crossroads-schematization-0.2.7.tar.gz]
+[2023-07-07 12:29:00] INFO root fetch - processPackages [crossroads-schematization]: Remove: archive file [/home/abi/fetcher/tmp/crossroads-schematization-0.2.8.tar.gz]
+[2023-07-07 12:29:00] INFO root fetch - processPackages [crossroads-schematization]: Start processing: cazomevolve
+[2023-07-07 12:29:00] INFO root fetch - main [MainThread]: End processing [crossroads-schematization]: success
+[2023-07-07 12:29:00] INFO root fetch - processPackages [ipams]: Downloading https://files.pythonhosted.org/packages/56/7e/f974102e598457c1bc207ef64f24e305b69d59b279577b61286f0fcc3960/ipams-1.3.2.tar.gz
+[2023-07-07 12:29:00] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/9c/a6/d6dd21ed1948bdcc0b560698e72d117f3fdad522e2ac0894dd980e184631/nucliadb_utils-2.9.0.post266-py3-none-any.whl
+[2023-07-07 12:29:00] INFO root fetch - processPackages [cazomevolve]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-07-07 12:29:00] INFO root fetch - processPackages [crossroads-schematization]: Start processing: fyerstest
+[2023-07-07 12:29:00] INFO root fetch - main [MainThread]: End processing [crossroads-schematization]: success
+[2023-07-07 12:29:00] INFO root fetch - processPackages [cval-lib]: Downloading https://files.pythonhosted.org/packages/f0/4a/3d74d4512203ba87f6e8bd32adeae6c564b3624b351252aa4a48f117a35a/cval-lib-0.0.2.6.tar.gz
+[2023-07-07 12:29:00] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-07-07 12:29:00] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230707/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-07 12:29:00] INFO root fetch - processPackages [fyerstest]: New version: [0.4] Old Version: [0.3]
+[2023-07-07 12:29:00] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/35/7b/660db604a69a01811bfa1b2ce906d520705e186b4f8a91c3972cb4446303/nucliadb_sdk-2.9.0.post267-py3-none-any.whl
+[2023-07-07 12:29:00] INFO root fetch - processPackages [cazomevolve]: Downloading https://files.pythonhosted.org/packages/bc/ec/6a43a59fcd435492078418af4e9ce7d845d56f0bf391b670889e806d151b/cazomevolve-0.1.0.tar.gz
+[2023-07-07 12:29:00] INFO root fetch - processPackages [fyerstest]: Downloading https://files.pythonhosted.org/packages/63/bd/005ab8645606adc356f9070360cb65d7a75ffd05d618dc032724ba847305/fyerstest-0.3.tar.gz
+[2023-07-07 12:29:00] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: Remove: archive file [/home/abi/fetcher/tmp/molgenis-py-bbmri-eric-1.8.0.tar.gz]
+[2023-07-07 12:29:00] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: Remove: archive file [/home/abi/fetcher/tmp/molgenis-py-bbmri-eric-1.9.0.tar.gz]
+[2023-07-07 12:29:00] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: Start processing: vgis-code
+[2023-07-07 12:29:00] INFO root fetch - main [MainThread]: End processing [molgenis-py-bbmri-eric]: success
+[2023-07-07 12:29:00] INFO root fetch - processPackages [cval-lib]: Downloading https://files.pythonhosted.org/packages/41/61/3480975c603312d7482362edf84227b1178769b667b416e00dca7241e8b1/cval-lib-0.0.2.7.tar.gz
+[2023-07-07 12:29:00] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-07-07 12:29:00] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230707/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-07 12:29:00] INFO root fetch - processPackages [ipams]: Downloading https://files.pythonhosted.org/packages/85/80/87fc981a8f7fbb2d288353e5ccafe1cc083d31f88598b5b136b888a089f7/ipams-1.3.3.tar.gz
+[2023-07-07 12:29:00] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2023-07-07 12:29:00] WARNING root fetch - processPackages [vgis-code]: Skipping, unable to determine old version
+[2023-07-07 12:29:00] INFO root fetch - processPackages [vgis-code]: Start processing: mech-client
+[2023-07-07 12:29:00] INFO root fetch - main [MainThread]: End processing [vgis-code] error
+[2023-07-07 12:29:00] INFO root fetch - processPackages [cval-lib]: executing diffoscope
+[2023-07-07 12:29:00] INFO root fetch - processPackages [cazomevolve]: Downloading https://files.pythonhosted.org/packages/66/21/67d228420d060df643c94370a93bcf17048eb5a4c3ce065721632d751fff/cazomevolve-0.1.2.tar.gz
+[2023-07-07 12:29:00] INFO root fetch - processPackages [cval-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cval-lib-0.0.2.6.tar.gz tmp/cval-lib-0.0.2.7.tar.gz --markdown 20230707/c/cval-lib/0.0.2.6-0.0.2.7/diff.md --exclude *.pyd
+[2023-07-07 12:29:00] INFO root fetch - processPackages [ipams]: executing diffoscope
+[2023-07-07 12:29:00] INFO root fetch - processPackages [ipams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipams-1.3.2.tar.gz tmp/ipams-1.3.3.tar.gz --markdown 20230707/i/ipams/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-07 12:29:00] INFO root fetch - processPackages [mech-client]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-07 12:29:00] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-07-07 12:29:00] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230707/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-07 12:29:00] INFO root fetch - processPackages [fyerstest]: Downloading https://files.pythonhosted.org/packages/91/37/bd3afb716d05873dbbeeb1b840f16a984b1defb03d360304acd1f8538a74/fyerstest-0.4.tar.gz
+[2023-07-07 12:29:00] INFO root fetch - processPackages [cazomevolve]: executing diffoscope
+[2023-07-07 12:29:00] INFO root fetch - processPackages [cazomevolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cazomevolve-0.1.0.tar.gz tmp/cazomevolve-0.1.2.tar.gz --markdown 20230707/c/cazomevolve/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-07-07 12:29:01] INFO root fetch - processPackages [fyerstest]: executing diffoscope
+[2023-07-07 12:29:01] INFO root fetch - processPackages [fyerstest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyerstest-0.3.tar.gz tmp/fyerstest-0.4.tar.gz --markdown 20230707/f/fyerstest/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-07 12:29:01] INFO root fetch - processPackages [mech-client]: Downloading https://files.pythonhosted.org/packages/14/a4/b6e644b888e41ad1bcd5f8ba6843ca651004503598f353dd503df79289ed/mech_client-0.2.1.tar.gz
+[2023-07-07 12:29:01] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.2b2.tar.gz]
+[2023-07-07 12:29:01] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.2b3.tar.gz]
+[2023-07-07 12:29:01] INFO root fetch - main [MainThread]: End processing [syft]: success
+[2023-07-07 12:29:01] INFO root fetch - processPackages [mech-client]: Downloading https://files.pythonhosted.org/packages/ba/83/17860663e0eff061a25db601d209e666549df60c88b0b3f99ed58987ec77/mech_client-0.2.2.tar.gz
+[2023-07-07 12:29:01] INFO root fetch - processPackages [mech-client]: executing diffoscope
+[2023-07-07 12:29:01] INFO root fetch - processPackages [mech-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mech_client-0.2.1.tar.gz tmp/mech_client-0.2.2.tar.gz --markdown 20230707/m/mech-client/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-07 12:29:01] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-07 12:29:01] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-07 12:29:01] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-07-07 12:29:01] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-07 12:29:01] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-07 12:29:01] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-07-07 12:29:01] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-07 12:29:01] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-07 12:29:01] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-07-07 12:29:02] INFO root fetch - processPackages [ipams]: Remove: archive file [/home/abi/fetcher/tmp/ipams-1.3.2.tar.gz]
+[2023-07-07 12:29:02] INFO root fetch - processPackages [ipams]: Remove: archive file [/home/abi/fetcher/tmp/ipams-1.3.3.tar.gz]
+[2023-07-07 12:29:02] INFO root fetch - main [MainThread]: End processing [ipams]: success
+[2023-07-07 12:29:02] INFO root fetch - processPackages [cval-lib]: Remove: archive file [/home/abi/fetcher/tmp/cval-lib-0.0.2.6.tar.gz]
+[2023-07-07 12:29:02] INFO root fetch - processPackages [cval-lib]: Remove: archive file [/home/abi/fetcher/tmp/cval-lib-0.0.2.7.tar.gz]
+[2023-07-07 12:29:02] INFO root fetch - main [MainThread]: End processing [cval-lib]: success
+[2023-07-07 12:29:02] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-07 12:29:02] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-07 12:29:02] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-07-07 12:29:02] INFO root fetch - processPackages [fyerstest]: Remove: archive file [/home/abi/fetcher/tmp/fyerstest-0.3.tar.gz]
+[2023-07-07 12:29:02] INFO root fetch - processPackages [fyerstest]: Remove: archive file [/home/abi/fetcher/tmp/fyerstest-0.4.tar.gz]
+[2023-07-07 12:29:02] INFO root fetch - main [MainThread]: End processing [fyerstest]: success
+[2023-07-07 12:29:02] INFO root fetch - processPackages [cazomevolve]: Remove: archive file [/home/abi/fetcher/tmp/cazomevolve-0.1.0.tar.gz]
+[2023-07-07 12:29:02] INFO root fetch - processPackages [cazomevolve]: Remove: archive file [/home/abi/fetcher/tmp/cazomevolve-0.1.2.tar.gz]
+[2023-07-07 12:29:02] INFO root fetch - main [MainThread]: End processing [cazomevolve]: success
+[2023-07-07 12:29:02] INFO root fetch - processPackages [mech-client]: Remove: archive file [/home/abi/fetcher/tmp/mech_client-0.2.1.tar.gz]
+[2023-07-07 12:29:02] INFO root fetch - processPackages [mech-client]: Remove: archive file [/home/abi/fetcher/tmp/mech_client-0.2.2.tar.gz]
+[2023-07-07 12:29:02] INFO root fetch - main [MainThread]: End processing [mech-client]: success
+[2023-07-07 12:29:02] INFO root fetch - main [MainThread]: Store serial: [18799015]
