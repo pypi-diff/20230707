@@ -14383,3 +14383,188 @@ EOFError: EOF read where object expected
 [2023-07-07 09:37:57] INFO root fetch - processPackages [paasta-tools]: Remove: archive file [/home/abi/fetcher/tmp/paasta-tools-0.92.1.tar.gz]
 [2023-07-07 09:37:57] INFO root fetch - main [MainThread]: End processing [paasta-tools]: success
 [2023-07-07 09:37:57] INFO root fetch - main [MainThread]: Store serial: [18796979]
+[2023-07-07 09:43:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18796979]
+[2023-07-07 09:43:06] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-07 09:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: huhangkai
+[2023-07-07 09:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydflow
+[2023-07-07 09:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-material-admin-plus
+[2023-07-07 09:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: udata
+[2023-07-07 09:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sh-dynamodb
+[2023-07-07 09:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gsheet-pandas
+[2023-07-07 09:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sh-dynamodb
+[2023-07-07 09:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: histcmp
+[2023-07-07 09:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Products.MeetingMons
+[2023-07-07 09:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytest-dogu-report
+[2023-07-07 09:43:06] INFO root fetch - processPackages [gsheet-pandas]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-07 09:43:06] WARNING root fetch - processPackages [django-material-admin-plus]: Skipping, unable to determine old version
+[2023-07-07 09:43:06] INFO root fetch - processPackages [django-material-admin-plus]: Start processing: superagent-py
+[2023-07-07 09:43:06] INFO root fetch - main [MainThread]: End processing [django-material-admin-plus] error
+[2023-07-07 09:43:06] INFO root fetch - processPackages [sh-dynamodb]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-07-07 09:43:06] INFO root fetch - processPackages [huhangkai]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-07-07 09:43:06] INFO root fetch - processPackages [sh-dynamodb]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-07-07 09:43:06] INFO root fetch - processPackages [Products.MeetingMons]: New version: [4.2.0b2] Old Version: [4.2.0b1]
+[2023-07-07 09:43:06] INFO root fetch - processPackages [udata]: New version: [6.1.6.dev25622] Old Version: [6.1.6.dev25573]
+[2023-07-07 09:43:06] INFO root fetch - processPackages [pytest-dogu-report]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-07 09:43:06] INFO root fetch - processPackages [histcmp]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-07 09:43:06] INFO root fetch - processPackages [pydflow]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-07 09:43:06] INFO root fetch - processPackages [superagent-py]: New version: [0.0.31] Old Version: [0.0.30]
+[2023-07-07 09:43:06] INFO root fetch - processPackages [histcmp]: Downloading https://files.pythonhosted.org/packages/dc/f5/1e7d2f8873243c7b827717395a28aaaff16db184195e2a940608ef8aed39/histcmp-0.6.0.tar.gz
+[2023-07-07 09:43:07] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/33/96/a989d9cfcdb5dcb43d60a72640c59e2efb7fd053182742205b332006f813/pydflow-1.7.8.tar.gz
+[2023-07-07 09:43:07] INFO root fetch - processPackages [gsheet-pandas]: Downloading https://files.pythonhosted.org/packages/fc/f4/c34f4b0b916659e66e25016b849b1cdd3b812e6a4d5875908a4ac33748de/gsheet-pandas-0.1.4.tar.gz
+[2023-07-07 09:43:07] INFO root fetch - processPackages [huhangkai]: Downloading https://files.pythonhosted.org/packages/a7/50/f26b7dbd622a4d9d6b958483617247e4e954c8087e1d9a53c443569e5f52/huhangkai-1.5.1.tar.gz
+[2023-07-07 09:43:07] INFO root fetch - processPackages [Products.MeetingMons]: Downloading https://files.pythonhosted.org/packages/86/ae/82ac5cf386d6ba9271dfeb50a242522223c9e676db3ba4759e78d7acfa35/Products.MeetingMons-4.2.0b1.tar.gz
+[2023-07-07 09:43:07] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/74/fe/8d368d886e71e6b6b316e2d9699460f78511f32799b3509f1e7e59910f04/sh-dynamodb-1.2.9.tar.gz
+[2023-07-07 09:43:07] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/74/fe/8d368d886e71e6b6b316e2d9699460f78511f32799b3509f1e7e59910f04/sh-dynamodb-1.2.9.tar.gz
+[2023-07-07 09:43:07] INFO root fetch - processPackages [pytest-dogu-report]: Downloading https://files.pythonhosted.org/packages/e4/02/ffd54787c1a0fc9249123c3cbe8034a74936719b152425b68410101d980c/pytest_dogu_report-1.0.0.tar.gz
+[2023-07-07 09:43:07] INFO root fetch - processPackages [superagent-py]: Downloading https://files.pythonhosted.org/packages/9b/72/0e1ce4023b3fd80607ff56e89cb9b26c08df5646786b0c7d35974e062892/superagent_py-0.0.30.tar.gz
+[2023-07-07 09:43:07] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/6d/5e/fec82d5c99b7823a348c7a39a621dd73ddedab3764d54385ae11c4dff962/udata-6.1.6.dev25573-py2.py3-none-any.whl
+[2023-07-07 09:43:07] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19608957>=10485760
+[2023-07-07 09:43:07] INFO root fetch - processPackages [udata]: Start processing: logger-local
+[2023-07-07 09:43:07] INFO root fetch - main [MainThread]: End processing [udata] error
+[2023-07-07 09:43:07] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/9c/41/6c9bc72fde943869899725f55fade9f850f62ecbc6fa31e53b8fa79ae5a3/pydflow-1.7.9.tar.gz
+[2023-07-07 09:43:07] INFO root fetch - processPackages [logger-local]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-07 09:43:07] INFO root fetch - processPackages [histcmp]: Downloading https://files.pythonhosted.org/packages/d5/bd/1ba84749d2ef4878ed1bb944c92f4198d1c8ef4052525196fc0b539daf9d/histcmp-0.6.1.tar.gz
+[2023-07-07 09:43:07] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/d9/f6/e6cea07a3ea249d5f8660d10e36c168be72ed39ad185f8cbfd5365328260/logger-local-0.0.7.tar.gz
+[2023-07-07 09:43:07] INFO root fetch - processPackages [pytest-dogu-report]: Downloading https://files.pythonhosted.org/packages/2e/de/1547c0587eaf4b587ffc49cd0c26739865fe9b8bcdf1032ef2a20121532f/pytest_dogu_report-1.0.1.tar.gz
+[2023-07-07 09:43:07] INFO root fetch - processPackages [huhangkai]: Downloading https://files.pythonhosted.org/packages/99/b7/19a3ac254431a0a0ef2b1f98905eef6ffcd09b682a2e940a38eedcea9e6e/huhangkai-1.5.2.tar.gz
+[2023-07-07 09:43:07] INFO root fetch - processPackages [gsheet-pandas]: Downloading https://files.pythonhosted.org/packages/e3/15/525aeade06f19627a0170c6d938b4e8415e822a46db3e2fe2b7c70b26378/gsheet-pandas-0.1.5.tar.gz
+[2023-07-07 09:43:07] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-07-07 09:43:07] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.8.tar.gz tmp/pydflow-1.7.9.tar.gz --markdown 20230707/p/pydflow/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-07 09:43:07] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/58/4a/78afb390ff14d82682ae4c7608d0a96c021d397ff8a5ab520b1008f61cc1/sh-dynamodb-1.3.0.tar.gz
+[2023-07-07 09:43:07] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/58/4a/78afb390ff14d82682ae4c7608d0a96c021d397ff8a5ab520b1008f61cc1/sh-dynamodb-1.3.0.tar.gz
+[2023-07-07 09:43:07] INFO root fetch - processPackages [superagent-py]: Downloading https://files.pythonhosted.org/packages/59/40/853d5b538c6e2bb4c36b5313695ddd6cd3b3657c8da5e4e0c0760da65d88/superagent_py-0.0.31.tar.gz
+[2023-07-07 09:43:07] INFO root fetch - processPackages [pytest-dogu-report]: executing diffoscope
+[2023-07-07 09:43:07] INFO root fetch - processPackages [pytest-dogu-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_dogu_report-1.0.0.tar.gz tmp/pytest_dogu_report-1.0.1.tar.gz --markdown 20230707/p/pytest-dogu-report/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-07 09:43:07] INFO root fetch - processPackages [huhangkai]: executing diffoscope
+[2023-07-07 09:43:07] INFO root fetch - processPackages [huhangkai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhangkai-1.5.1.tar.gz tmp/huhangkai-1.5.2.tar.gz --markdown 20230707/h/huhangkai/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-07-07 09:43:07] INFO root fetch - processPackages [histcmp]: executing diffoscope
+[2023-07-07 09:43:07] INFO root fetch - processPackages [histcmp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/histcmp-0.6.0.tar.gz tmp/histcmp-0.6.1.tar.gz --markdown 20230707/h/histcmp/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-07 09:43:07] INFO root fetch - processPackages [gsheet-pandas]: executing diffoscope
+[2023-07-07 09:43:07] INFO root fetch - processPackages [gsheet-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gsheet-pandas-0.1.4.tar.gz tmp/gsheet-pandas-0.1.5.tar.gz --markdown 20230707/g/gsheet-pandas/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-07 09:43:07] INFO root fetch - processPackages [Products.MeetingMons]: Downloading https://files.pythonhosted.org/packages/f0/e7/4bffa6da72645c48b7dcbdfd87fcf1db69225626f9d7cfbb9d3e5db0fb39/Products.MeetingMons-4.2.0b2.tar.gz
+[2023-07-07 09:43:07] INFO root fetch - processPackages [superagent-py]: executing diffoscope
+[2023-07-07 09:43:07] INFO root fetch - processPackages [superagent-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superagent_py-0.0.30.tar.gz tmp/superagent_py-0.0.31.tar.gz --markdown 20230707/s/superagent-py/0.0.30-0.0.31/diff.md --exclude *.pyd
+[2023-07-07 09:43:08] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/21/e1/7a45a748162f16f488c16187a0b07c25201df5531bf12da29ff61c6d7db5/logger-local-0.0.8.tar.gz
+[2023-07-07 09:43:08] INFO root fetch - processPackages [sh-dynamodb]: executing diffoscope
+[2023-07-07 09:43:08] INFO root fetch - processPackages [sh-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sh-dynamodb-1.2.9.tar.gz tmp/sh-dynamodb-1.3.0.tar.gz --markdown 20230707/s/sh-dynamodb/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-07-07 09:43:08] INFO root fetch - processPackages [sh-dynamodb]: executing diffoscope
+[2023-07-07 09:43:08] INFO root fetch - processPackages [sh-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sh-dynamodb-1.2.9.tar.gz tmp/sh-dynamodb-1.3.0.tar.gz --markdown 20230707/s/sh-dynamodb/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-07-07 09:43:08] INFO root fetch - processPackages [Products.MeetingMons]: executing diffoscope
+[2023-07-07 09:43:08] INFO root fetch - processPackages [Products.MeetingMons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.MeetingMons-4.2.0b1.tar.gz tmp/Products.MeetingMons-4.2.0b2.tar.gz --markdown 20230707/P/Products.MeetingMons/4.2.0b1-4.2.0b2/diff.md --exclude *.pyd
+[2023-07-07 09:43:08] INFO root fetch - processPackages [logger-local]: executing diffoscope
+[2023-07-07 09:43:08] INFO root fetch - processPackages [logger-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger-local-0.0.7.tar.gz tmp/logger-local-0.0.8.tar.gz --markdown 20230707/l/logger-local/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-07 09:43:09] INFO root fetch - processPackages [gsheet-pandas]: Remove: archive file [/home/abi/fetcher/tmp/gsheet-pandas-0.1.4.tar.gz]
+[2023-07-07 09:43:09] INFO root fetch - processPackages [gsheet-pandas]: Remove: archive file [/home/abi/fetcher/tmp/gsheet-pandas-0.1.5.tar.gz]
+[2023-07-07 09:43:09] INFO root fetch - processPackages [gsheet-pandas]: Start processing: django-stdimage2
+[2023-07-07 09:43:09] INFO root fetch - main [MainThread]: End processing [gsheet-pandas]: success
+[2023-07-07 09:43:09] INFO root fetch - processPackages [pytest-dogu-report]: Remove: archive file [/home/abi/fetcher/tmp/pytest_dogu_report-1.0.0.tar.gz]
+[2023-07-07 09:43:09] INFO root fetch - processPackages [pytest-dogu-report]: Remove: archive file [/home/abi/fetcher/tmp/pytest_dogu_report-1.0.1.tar.gz]
+[2023-07-07 09:43:09] INFO root fetch - processPackages [pytest-dogu-report]: Start processing: aitemplates
+[2023-07-07 09:43:09] INFO root fetch - main [MainThread]: End processing [pytest-dogu-report]: success
+[2023-07-07 09:43:09] INFO root fetch - processPackages [django-stdimage2]: New version: [0.1.12] Old Version: [0.1.11]
+[2023-07-07 09:43:09] INFO root fetch - processPackages [aitemplates]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-07 09:43:09] INFO root fetch - processPackages [aitemplates]: Downloading https://files.pythonhosted.org/packages/c9/1f/c3b35e203e73c6562287311527c36798cf058f4542a1cc2012699e54c8f2/aitemplates-0.1.8.tar.gz
+[2023-07-07 09:43:09] INFO root fetch - processPackages [superagent-py]: Remove: archive file [/home/abi/fetcher/tmp/superagent_py-0.0.30.tar.gz]
+[2023-07-07 09:43:09] INFO root fetch - processPackages [superagent-py]: Remove: archive file [/home/abi/fetcher/tmp/superagent_py-0.0.31.tar.gz]
+[2023-07-07 09:43:09] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.8.tar.gz]
+[2023-07-07 09:43:09] INFO root fetch - processPackages [superagent-py]: Start processing: pyjd
+[2023-07-07 09:43:09] INFO root fetch - main [MainThread]: End processing [superagent-py]: success
+[2023-07-07 09:43:09] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.9.tar.gz]
+[2023-07-07 09:43:09] INFO root fetch - processPackages [pydflow]: Start processing: cellmap
+[2023-07-07 09:43:09] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-07-07 09:43:09] INFO root fetch - processPackages [django-stdimage2]: Downloading https://files.pythonhosted.org/packages/c6/f0/70dd474b02d7658d88938362e975965943072b878d4d7789556eb78f9f00/django-stdimage2-0.1.11.tar.gz
+[2023-07-07 09:43:09] INFO root fetch - processPackages [pyjd]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-07 09:43:09] INFO root fetch - processPackages [histcmp]: Remove: archive file [/home/abi/fetcher/tmp/histcmp-0.6.0.tar.gz]
+[2023-07-07 09:43:09] INFO root fetch - processPackages [histcmp]: Remove: archive file [/home/abi/fetcher/tmp/histcmp-0.6.1.tar.gz]
+[2023-07-07 09:43:09] INFO root fetch - processPackages [histcmp]: Start processing: weasel
+[2023-07-07 09:43:09] INFO root fetch - main [MainThread]: End processing [histcmp]: success
+[2023-07-07 09:43:09] INFO root fetch - processPackages [cellmap]: New version: [1.0.1.dev202307070741] Old Version: [1.0.1.dev202306050811]
+[2023-07-07 09:43:09] INFO root fetch - processPackages [huhangkai]: Remove: archive file [/home/abi/fetcher/tmp/huhangkai-1.5.1.tar.gz]
+[2023-07-07 09:43:09] INFO root fetch - processPackages [huhangkai]: Remove: archive file [/home/abi/fetcher/tmp/huhangkai-1.5.2.tar.gz]
+[2023-07-07 09:43:09] INFO root fetch - processPackages [huhangkai]: Start processing: django-stdimage2
+[2023-07-07 09:43:09] INFO root fetch - main [MainThread]: End processing [huhangkai]: success
+[2023-07-07 09:43:09] INFO root fetch - processPackages [weasel]: New version: [0.1.1] Old Version: [0.1.0rc1]
+[2023-07-07 09:43:09] INFO root fetch - processPackages [pyjd]: Downloading https://files.pythonhosted.org/packages/57/fe/810ca47854ddb09d0b9bd00e2981ca18196f3a63d215c09a20122a6ce2de/pyjd-1.0.3.tar.gz
+[2023-07-07 09:43:09] INFO root fetch - processPackages [aitemplates]: Downloading https://files.pythonhosted.org/packages/31/8d/fec27aa91f72352e256e81460077515d340f93b087b2d5f555a95e17896a/aitemplates-0.1.9.tar.gz
+[2023-07-07 09:43:09] INFO root fetch - processPackages [sh-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/sh-dynamodb-1.2.9.tar.gz]
+[2023-07-07 09:43:09] INFO root fetch - processPackages [sh-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/sh-dynamodb-1.3.0.tar.gz]
+[2023-07-07 09:43:09] INFO root fetch - processPackages [sh-dynamodb]: Start processing: mynacode
+[2023-07-07 09:43:09] INFO root fetch - main [MainThread]: End processing [sh-dynamodb]: success
+[2023-07-07 09:43:09] INFO root fetch - processPackages [sh-dynamodb]: Start processing: sj-tool
+[2023-07-07 09:43:09] INFO root fetch - main [MainThread]: End processing [sh-dynamodb]: success
+[2023-07-07 09:43:09] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.7.tar.gz]
+[2023-07-07 09:43:09] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.8.tar.gz]
+[2023-07-07 09:43:09] INFO root fetch - processPackages [logger-local]: Start processing: scitacean
+[2023-07-07 09:43:09] INFO root fetch - main [MainThread]: End processing [logger-local]: success
+[2023-07-07 09:43:09] INFO root fetch - processPackages [django-stdimage2]: New version: [0.1.13] Old Version: [0.1.12]
+[2023-07-07 09:43:09] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-07 09:43:09] INFO root fetch - processPackages [scitacean]: New version: [23.5.0] Old Version: [23.4.0]
+[2023-07-07 09:43:10] INFO root fetch - processPackages [aitemplates]: executing diffoscope
+[2023-07-07 09:43:10] INFO root fetch - processPackages [aitemplates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aitemplates-0.1.8.tar.gz tmp/aitemplates-0.1.9.tar.gz --markdown 20230707/a/aitemplates/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-07 09:43:10] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-07 09:43:10] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/c5/02/a93d1da7ced17cd64393cd66a5b86e8da0fbabece548648c10a02a837b21/cellmap-1.0.1.dev202306050811-py3-none-any.whl
+[2023-07-07 09:43:10] INFO root fetch - processPackages [weasel]: Downloading https://files.pythonhosted.org/packages/3e/bf/ab8e8469f2cb8cceabbf08cb0e73b82265d452bc54d1d098073ee6bdaae5/weasel-0.1.0rc1.tar.gz
+[2023-07-07 09:43:10] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-07 09:43:10] INFO root fetch - processPackages [django-stdimage2]: Downloading https://files.pythonhosted.org/packages/82/48/046caee53dc66e2aa3a784fbca048536387e91146eac830b59c6c2461c60/django-stdimage2-0.1.12.tar.gz
+[2023-07-07 09:43:10] INFO root fetch - processPackages [django-stdimage2]: Downloading https://files.pythonhosted.org/packages/82/48/046caee53dc66e2aa3a784fbca048536387e91146eac830b59c6c2461c60/django-stdimage2-0.1.12.tar.gz
+[2023-07-07 09:43:10] INFO root fetch - processPackages [Products.MeetingMons]: Remove: archive file [/home/abi/fetcher/tmp/Products.MeetingMons-4.2.0b1.tar.gz]
+[2023-07-07 09:43:10] INFO root fetch - processPackages [Products.MeetingMons]: Remove: archive file [/home/abi/fetcher/tmp/Products.MeetingMons-4.2.0b2.tar.gz]
+[2023-07-07 09:43:10] INFO root fetch - processPackages [Products.MeetingMons]: Start processing: django-stdimage2
+[2023-07-07 09:43:10] INFO root fetch - main [MainThread]: End processing [Products.MeetingMons]: success
+[2023-07-07 09:43:10] INFO root fetch - processPackages [pyjd]: Downloading https://files.pythonhosted.org/packages/02/cb/fed913430448c2449e14cb014f8cf67263657f0c064026504bb77f463c3e/pyjd-1.0.4.tar.gz
+[2023-07-07 09:43:10] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-07-07 09:43:10] INFO root fetch - processPackages [scitacean]: Downloading https://files.pythonhosted.org/packages/a6/f8/240d1cf3dee9594cba5f74737a5c33d6e285a4ab2c2ce30a8fbbfac665ab/scitacean-23.4.0.tar.gz
+[2023-07-07 09:43:10] INFO root fetch - processPackages [django-stdimage2]: New version: [0.1.13] Old Version: [0.1.12]
+[2023-07-07 09:43:10] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-07 09:43:10] INFO root fetch - processPackages [weasel]: Downloading https://files.pythonhosted.org/packages/04/15/01940433956af5017e666eaee0411c21c63dd906efac35642a0061494dab/weasel-0.1.1.tar.gz
+[2023-07-07 09:43:10] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/a4/28/1a8f6f86653bc256a6f41d473b167787c7e3ce33b999d54bae2d6290dead/cellmap-1.0.1.dev202307070741-py3-none-any.whl
+[2023-07-07 09:43:10] INFO root fetch - processPackages [django-stdimage2]: executing diffoscope
+[2023-07-07 09:43:10] INFO root fetch - processPackages [django-stdimage2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-stdimage2-0.1.11.tar.gz tmp/django-stdimage2-0.1.12.tar.gz --markdown 20230707/d/django-stdimage2/0.1.11-0.1.12/diff.md --exclude *.pyd
+[2023-07-07 09:43:10] INFO root fetch - processPackages [pyjd]: executing diffoscope
+[2023-07-07 09:43:10] INFO root fetch - processPackages [pyjd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjd-1.0.3.tar.gz tmp/pyjd-1.0.4.tar.gz --markdown 20230707/p/pyjd/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-07 09:43:10] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-07 09:43:10] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230707/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-07 09:43:10] INFO root fetch - processPackages [weasel]: executing diffoscope
+[2023-07-07 09:43:10] INFO root fetch - processPackages [weasel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weasel-0.1.0rc1.tar.gz tmp/weasel-0.1.1.tar.gz --markdown 20230707/w/weasel/0.1.0rc1-0.1.1/diff.md --exclude *.pyd
+[2023-07-07 09:43:10] INFO root fetch - processPackages [cellmap]: executing diffoscope
+[2023-07-07 09:43:10] INFO root fetch - processPackages [cellmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmap-1.0.1.dev202306050811-py3-none-any.whl.zip tmp/cellmap-1.0.1.dev202307070741-py3-none-any.whl.zip --markdown 20230707/c/cellmap/1.0.1.dev202306050811-1.0.1.dev202307070741/diff.md --exclude *.pyd
+[2023-07-07 09:43:10] INFO root fetch - processPackages [scitacean]: Downloading https://files.pythonhosted.org/packages/e7/9d/11c4704eabf0d356a3e1360ef9e63bfa8f959f3c61a5d5aafca5950ede04/scitacean-23.5.0.tar.gz
+[2023-07-07 09:43:10] INFO root fetch - processPackages [django-stdimage2]: Downloading https://files.pythonhosted.org/packages/48/02/56eef8642ed71b5358a6ea668ca34401c7b055f268d098ef326c89570c76/django-stdimage2-0.1.13.tar.gz
+[2023-07-07 09:43:10] INFO root fetch - processPackages [django-stdimage2]: Downloading https://files.pythonhosted.org/packages/48/02/56eef8642ed71b5358a6ea668ca34401c7b055f268d098ef326c89570c76/django-stdimage2-0.1.13.tar.gz
+[2023-07-07 09:43:10] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-07-07 09:43:10] INFO root fetch - processPackages [scitacean]: executing diffoscope
+[2023-07-07 09:43:10] INFO root fetch - processPackages [scitacean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scitacean-23.4.0.tar.gz tmp/scitacean-23.5.0.tar.gz --markdown 20230707/s/scitacean/23.4.0-23.5.0/diff.md --exclude *.pyd
+[2023-07-07 09:43:10] INFO root fetch - processPackages [aitemplates]: Remove: archive file [/home/abi/fetcher/tmp/aitemplates-0.1.8.tar.gz]
+[2023-07-07 09:43:10] INFO root fetch - processPackages [aitemplates]: Remove: archive file [/home/abi/fetcher/tmp/aitemplates-0.1.9.tar.gz]
+[2023-07-07 09:43:10] INFO root fetch - main [MainThread]: End processing [aitemplates]: success
+[2023-07-07 09:43:11] INFO root fetch - processPackages [django-stdimage2]: executing diffoscope
+[2023-07-07 09:43:11] INFO root fetch - processPackages [django-stdimage2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-stdimage2-0.1.12.tar.gz tmp/django-stdimage2-0.1.13.tar.gz --markdown 20230707/d/django-stdimage2/0.1.12-0.1.13/diff.md --exclude *.pyd
+[2023-07-07 09:43:11] INFO root fetch - processPackages [django-stdimage2]: executing diffoscope
+[2023-07-07 09:43:11] INFO root fetch - processPackages [django-stdimage2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-stdimage2-0.1.12.tar.gz tmp/django-stdimage2-0.1.13.tar.gz --markdown 20230707/d/django-stdimage2/0.1.12-0.1.13/diff.md --exclude *.pyd
+[2023-07-07 09:43:11] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-07-07 09:43:11] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230707/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-07 09:43:12] INFO root fetch - processPackages [cellmap]: Remove: archive file [/home/abi/fetcher/tmp/cellmap-1.0.1.dev202306050811-py3-none-any.whl.zip]
+[2023-07-07 09:43:12] INFO root fetch - processPackages [cellmap]: Remove: archive file [/home/abi/fetcher/tmp/cellmap-1.0.1.dev202307070741-py3-none-any.whl.zip]
+[2023-07-07 09:43:12] INFO root fetch - main [MainThread]: End processing [cellmap]: success
+[2023-07-07 09:43:12] INFO root fetch - processPackages [django-stdimage2]: Remove: archive file [/home/abi/fetcher/tmp/django-stdimage2-0.1.11.tar.gz]
+[2023-07-07 09:43:12] INFO root fetch - processPackages [django-stdimage2]: Remove: archive file [/home/abi/fetcher/tmp/django-stdimage2-0.1.12.tar.gz]
+[2023-07-07 09:43:12] INFO root fetch - main [MainThread]: End processing [django-stdimage2]: success
+[2023-07-07 09:43:12] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-07-07 09:43:12] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-07-07 09:43:12] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-07 09:43:12] INFO root fetch - processPackages [weasel]: Remove: archive file [/home/abi/fetcher/tmp/weasel-0.1.0rc1.tar.gz]
+[2023-07-07 09:43:12] INFO root fetch - processPackages [weasel]: Remove: archive file [/home/abi/fetcher/tmp/weasel-0.1.1.tar.gz]
+[2023-07-07 09:43:12] INFO root fetch - main [MainThread]: End processing [weasel]: success
+[2023-07-07 09:43:12] INFO root fetch - processPackages [pyjd]: Remove: archive file [/home/abi/fetcher/tmp/pyjd-1.0.3.tar.gz]
+[2023-07-07 09:43:12] INFO root fetch - processPackages [pyjd]: Remove: archive file [/home/abi/fetcher/tmp/pyjd-1.0.4.tar.gz]
+[2023-07-07 09:43:12] INFO root fetch - main [MainThread]: End processing [pyjd]: success
+[2023-07-07 09:43:12] INFO root fetch - processPackages [django-stdimage2]: Remove: archive file [/home/abi/fetcher/tmp/django-stdimage2-0.1.13.tar.gz]
+[2023-07-07 09:43:12] INFO root fetch - main [MainThread]: End processing [django-stdimage2]: success
+[2023-07-07 09:43:12] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-07-07 09:43:12] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-07-07 09:43:12] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-07-07 09:43:12] INFO root fetch - main [MainThread]: End processing [django-stdimage2]: success
+[2023-07-07 09:43:12] INFO root fetch - processPackages [scitacean]: Remove: archive file [/home/abi/fetcher/tmp/scitacean-23.4.0.tar.gz]
+[2023-07-07 09:43:12] INFO root fetch - processPackages [scitacean]: Remove: archive file [/home/abi/fetcher/tmp/scitacean-23.5.0.tar.gz]
+[2023-07-07 09:43:12] INFO root fetch - main [MainThread]: End processing [scitacean]: success
+[2023-07-07 09:43:12] INFO root fetch - main [MainThread]: Store serial: [18797046]
