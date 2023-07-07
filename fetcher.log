@@ -21208,3 +21208,131 @@ AssertionError: tmp/tester-package-sdk-2.0.9.tar.gz does not exist
 [2023-07-07 13:58:51] INFO root fetch - processPackages [tiledb-plot-widget]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_plot_widget-1.1.0a0-py3-none-any.whl.zip]
 [2023-07-07 13:58:51] INFO root fetch - main [MainThread]: End processing [tiledb-plot-widget]: success
 [2023-07-07 13:58:51] INFO root fetch - main [MainThread]: Store serial: [18799981]
+[2023-07-07 14:03:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18799981]
+[2023-07-07 14:04:01] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-07 14:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easycompletion
+[2023-07-07 14:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Janex
+[2023-07-07 14:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nwebclient
+[2023-07-07 14:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-statement-import-camt54
+[2023-07-07 14:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: woofy
+[2023-07-07 14:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: woofy
+[2023-07-07 14:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apifoncier
+[2023-07-07 14:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: libcnmc
+[2023-07-07 14:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: easycompletion
+[2023-07-07 14:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fyerstest
+[2023-07-07 14:04:01] INFO root fetch - processPackages [easycompletion]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-07 14:04:01] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-07 14:04:01] INFO root fetch - processPackages [woofy]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-07-07 14:04:01] INFO root fetch - processPackages [woofy]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-07-07 14:04:01] INFO root fetch - processPackages [odoo-addon-account-statement-import-camt54]: New version: [16.0.1.0.0.3] Old Version: [15.0.1.0.0.1]
+[2023-07-07 14:04:01] INFO root fetch - processPackages [fyerstest]: New version: [0.6] Old Version: [0.5]
+[2023-07-07 14:04:01] INFO root fetch - processPackages [apifoncier]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-07 14:04:01] INFO root fetch - processPackages [easycompletion]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-07 14:04:01] WARNING root fetch - processPackages [Janex]: Skipping, unable to determine old version
+[2023-07-07 14:04:01] INFO root fetch - processPackages [Janex]: Start processing: helios-rl
+[2023-07-07 14:04:01] INFO root fetch - main [MainThread]: End processing [Janex] error
+[2023-07-07 14:04:01] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-07-07 14:04:01] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-07 14:04:01] INFO root fetch - processPackages [apifoncier]: Downloading https://files.pythonhosted.org/packages/40/80/a46886b70cdb80dc5f62950c282ff91ec416b2f3d2fe5f7fc7c98368d503/apifoncier-0.0.1.tar.gz
+[2023-07-07 14:04:01] INFO root fetch - processPackages [helios-rl]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-07 14:04:02] INFO root fetch - processPackages [fyerstest]: Downloading https://files.pythonhosted.org/packages/49/81/5359a4fb3c6044a5f24e90554b052f1dcd51c9e9b8b4725da60e52775725/fyerstest-0.5.tar.gz
+[2023-07-07 14:04:02] INFO root fetch - processPackages [easycompletion]: Downloading https://files.pythonhosted.org/packages/ed/c3/e06fd2c6d1ae68403f37858dcf5383d2b9b6f1ceac6ca47e960533f5daef/easycompletion-0.1.1.tar.gz
+[2023-07-07 14:04:02] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/91/88/c28ff84568ef323398498b71d609a92ca287ddcdf8a851536ab656221bc4/libcnmc-23.9.0.tar.gz
+[2023-07-07 14:04:02] INFO root fetch - processPackages [easycompletion]: Downloading https://files.pythonhosted.org/packages/ed/c3/e06fd2c6d1ae68403f37858dcf5383d2b9b6f1ceac6ca47e960533f5daef/easycompletion-0.1.1.tar.gz
+[2023-07-07 14:04:02] INFO root fetch - processPackages [woofy]: Downloading https://files.pythonhosted.org/packages/17/d3/c550d8afe279b48209ca66dd421c2a28edb8bfc5be8e2591cd6f213ebb35/woofy-0.1.0.tar.gz
+[2023-07-07 14:04:02] INFO root fetch - processPackages [woofy]: Downloading https://files.pythonhosted.org/packages/17/d3/c550d8afe279b48209ca66dd421c2a28edb8bfc5be8e2591cd6f213ebb35/woofy-0.1.0.tar.gz
+[2023-07-07 14:04:02] INFO root fetch - processPackages [odoo-addon-account-statement-import-camt54]: Downloading https://files.pythonhosted.org/packages/76/47/21bb39c122eff30b2641bb04b27b2cda8e02f81432a3700c1bfec0b5f74d/odoo_addon_account_statement_import_camt54-15.0.1.0.0.1-py3-none-any.whl
+[2023-07-07 14:04:02] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/c4/3e/4d458a7b9280503d525907c752cf3dfbb161773b770c939fc8d477d4f58a/helios-rl-1.0.7.tar.gz
+[2023-07-07 14:04:02] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-07 14:04:02] INFO root fetch - processPackages [apifoncier]: Downloading https://files.pythonhosted.org/packages/c9/d1/334253eba2da6e38cd0e25fe92a9e1c4073c4fded84a326b19752dbad503/apifoncier-0.0.2.tar.gz
+[2023-07-07 14:04:02] INFO root fetch - processPackages [woofy]: Downloading https://files.pythonhosted.org/packages/e8/1d/0126431ddd34a7b4e62db2ad24fa36daa79582e89fe3cac13db2e6260f3c/woofy-1.0.0.tar.gz
+[2023-07-07 14:04:02] INFO root fetch - processPackages [fyerstest]: Downloading https://files.pythonhosted.org/packages/a9/0b/a5794fc0ecd46cc554a249f1242752b8aa170916ca7a2fd7fd4452b4445e/fyerstest-0.6.tar.gz
+[2023-07-07 14:04:02] INFO root fetch - processPackages [woofy]: Downloading https://files.pythonhosted.org/packages/e8/1d/0126431ddd34a7b4e62db2ad24fa36daa79582e89fe3cac13db2e6260f3c/woofy-1.0.0.tar.gz
+[2023-07-07 14:04:02] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/fc/9f/639d42b63484a91cf9f1c60f9bb709f1ed853240f45c2e02047054beffa6/libcnmc-23.9.1.tar.gz
+[2023-07-07 14:04:02] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-07 14:04:02] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230707/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-07 14:04:02] INFO root fetch - processPackages [easycompletion]: Downloading https://files.pythonhosted.org/packages/cc/5e/96c55978c92f78ee0a703de12cf54a88f6bad6965418fb04bb3666a35468/easycompletion-0.1.2.tar.gz
+[2023-07-07 14:04:02] INFO root fetch - processPackages [easycompletion]: Downloading https://files.pythonhosted.org/packages/cc/5e/96c55978c92f78ee0a703de12cf54a88f6bad6965418fb04bb3666a35468/easycompletion-0.1.2.tar.gz
+[2023-07-07 14:04:02] INFO root fetch - processPackages [odoo-addon-account-statement-import-camt54]: Downloading https://files.pythonhosted.org/packages/59/d3/a9d89add5cb42086845fecae449432cb78f24b975be1d16b5b3322b4f812/odoo_addon_account_statement_import_camt54-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-07 14:04:02] INFO root fetch - processPackages [apifoncier]: executing diffoscope
+[2023-07-07 14:04:02] INFO root fetch - processPackages [apifoncier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apifoncier-0.0.1.tar.gz tmp/apifoncier-0.0.2.tar.gz --markdown 20230707/a/apifoncier/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-07 14:04:02] INFO root fetch - processPackages [woofy]: executing diffoscope
+[2023-07-07 14:04:02] INFO root fetch - processPackages [woofy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woofy-0.1.0.tar.gz tmp/woofy-1.0.0.tar.gz --markdown 20230707/w/woofy/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-07 14:04:02] INFO root fetch - processPackages [woofy]: executing diffoscope
+[2023-07-07 14:04:02] INFO root fetch - processPackages [woofy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woofy-0.1.0.tar.gz tmp/woofy-1.0.0.tar.gz --markdown 20230707/w/woofy/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-07 14:04:02] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-07-07 14:04:02] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230707/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-07-07 14:04:02] INFO root fetch - processPackages [odoo-addon-account-statement-import-camt54]: executing diffoscope
+[2023-07-07 14:04:02] INFO root fetch - processPackages [odoo-addon-account-statement-import-camt54]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_statement_import_camt54-15.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_statement_import_camt54-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230707/o/odoo-addon-account-statement-import-camt54/15.0.1.0.0.1-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-07 14:04:02] INFO root fetch - processPackages [fyerstest]: executing diffoscope
+[2023-07-07 14:04:02] INFO root fetch - processPackages [fyerstest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyerstest-0.5.tar.gz tmp/fyerstest-0.6.tar.gz --markdown 20230707/f/fyerstest/0.5-0.6/diff.md --exclude *.pyd
+[2023-07-07 14:04:02] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/78/71/112109ad2b1aa685617dd84a150048372fbd6a5546c749679f55b88e8825/helios-rl-1.0.8.tar.gz
+[2023-07-07 14:04:02] INFO root fetch - processPackages [easycompletion]: executing diffoscope
+[2023-07-07 14:04:02] INFO root fetch - processPackages [easycompletion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easycompletion-0.1.1.tar.gz tmp/easycompletion-0.1.2.tar.gz --markdown 20230707/e/easycompletion/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-07 14:04:02] INFO root fetch - processPackages [easycompletion]: executing diffoscope
+[2023-07-07 14:04:02] INFO root fetch - processPackages [easycompletion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easycompletion-0.1.1.tar.gz tmp/easycompletion-0.1.2.tar.gz --markdown 20230707/e/easycompletion/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-07 14:04:03] INFO root fetch - processPackages [helios-rl]: executing diffoscope
+[2023-07-07 14:04:03] INFO root fetch - processPackages [helios-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-rl-1.0.7.tar.gz tmp/helios-rl-1.0.8.tar.gz --markdown 20230707/h/helios-rl/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-07 14:04:04] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-07 14:04:04] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-07 14:04:04] INFO root fetch - processPackages [nwebclient]: Start processing: climy
+[2023-07-07 14:04:04] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-07 14:04:04] INFO root fetch - processPackages [climy]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-07 14:04:04] INFO root fetch - processPackages [apifoncier]: Remove: archive file [/home/abi/fetcher/tmp/apifoncier-0.0.1.tar.gz]
+[2023-07-07 14:04:04] INFO root fetch - processPackages [apifoncier]: Remove: archive file [/home/abi/fetcher/tmp/apifoncier-0.0.2.tar.gz]
+[2023-07-07 14:04:04] INFO root fetch - processPackages [apifoncier]: Start processing: nwebclient
+[2023-07-07 14:04:04] INFO root fetch - main [MainThread]: End processing [apifoncier]: success
+[2023-07-07 14:04:04] INFO root fetch - processPackages [woofy]: Remove: archive file [/home/abi/fetcher/tmp/woofy-0.1.0.tar.gz]
+[2023-07-07 14:04:04] INFO root fetch - processPackages [woofy]: Remove: archive file [/home/abi/fetcher/tmp/woofy-1.0.0.tar.gz]
+[2023-07-07 14:04:04] INFO root fetch - processPackages [woofy]: Start processing: pyams-utils
+[2023-07-07 14:04:04] INFO root fetch - main [MainThread]: End processing [woofy]: success
+[2023-07-07 14:04:04] INFO root fetch - processPackages [woofy]: Start processing: kubectl-ng
+[2023-07-07 14:04:04] INFO root fetch - main [MainThread]: End processing [woofy]: success
+[2023-07-07 14:04:04] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-07 14:04:04] INFO root fetch - processPackages [kubectl-ng]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-07 14:04:04] INFO root fetch - processPackages [pyams-utils]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-07 14:04:04] INFO root fetch - processPackages [easycompletion]: Remove: archive file [/home/abi/fetcher/tmp/easycompletion-0.1.1.tar.gz]
+[2023-07-07 14:04:04] INFO root fetch - processPackages [easycompletion]: Remove: archive file [/home/abi/fetcher/tmp/easycompletion-0.1.2.tar.gz]
+[2023-07-07 14:04:04] INFO root fetch - main [MainThread]: End processing [easycompletion]: success
+[2023-07-07 14:04:04] INFO root fetch - processPackages [climy]: Downloading https://files.pythonhosted.org/packages/4c/93/99d82cb42019ed3d1cf277e3ad2ed14cf19a289fcfb80e0bda068be69bc4/climy-0.1.1.tar.gz
+[2023-07-07 14:04:04] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-07 14:04:04] INFO root fetch - processPackages [kubectl-ng]: Downloading https://files.pythonhosted.org/packages/d8/21/3d4715e3700a6071c37984b05c25ba5d5dad6ea5c6b0241b7d081cc8fe5b/kubectl_ng-0.8.1.tar.gz
+[2023-07-07 14:04:04] INFO root fetch - main [MainThread]: End processing [easycompletion]: success
+[2023-07-07 14:04:04] INFO root fetch - processPackages [odoo-addon-account-statement-import-camt54]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_camt54-15.0.1.0.0.1-py3-none-any.whl.zip]
+[2023-07-07 14:04:04] INFO root fetch - processPackages [odoo-addon-account-statement-import-camt54]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_camt54-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-07 14:04:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-statement-import-camt54]: success
+[2023-07-07 14:04:04] INFO root fetch - processPackages [pyams-utils]: Downloading https://files.pythonhosted.org/packages/2f/b2/204a3414f7e5c3502d99402619add34f2f1702e1ca1784be08e5f7eac880/pyams_utils-1.9.1.tar.gz
+[2023-07-07 14:04:04] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.7.tar.gz]
+[2023-07-07 14:04:04] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.8.tar.gz]
+[2023-07-07 14:04:04] INFO root fetch - main [MainThread]: End processing [helios-rl]: success
+[2023-07-07 14:04:04] INFO root fetch - processPackages [fyerstest]: Remove: archive file [/home/abi/fetcher/tmp/fyerstest-0.5.tar.gz]
+[2023-07-07 14:04:04] INFO root fetch - processPackages [fyerstest]: Remove: archive file [/home/abi/fetcher/tmp/fyerstest-0.6.tar.gz]
+[2023-07-07 14:04:04] INFO root fetch - main [MainThread]: End processing [fyerstest]: success
+[2023-07-07 14:04:04] INFO root fetch - processPackages [kubectl-ng]: Downloading https://files.pythonhosted.org/packages/30/7a/60e0efd55b2f76bc6977a980f51b4426999b2caddf6abe626a9013ed0d01/kubectl_ng-0.8.2.tar.gz
+[2023-07-07 14:04:04] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-07 14:04:04] INFO root fetch - processPackages [climy]: Downloading https://files.pythonhosted.org/packages/66/8c/31b8625e9e7608cc16659bcc835c1d739f2a1e55ebef808ec9e34704127f/climy-0.2.0.tar.gz
+[2023-07-07 14:04:04] INFO root fetch - processPackages [kubectl-ng]: executing diffoscope
+[2023-07-07 14:04:04] INFO root fetch - processPackages [kubectl-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubectl_ng-0.8.1.tar.gz tmp/kubectl_ng-0.8.2.tar.gz --markdown 20230707/k/kubectl-ng/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-07 14:04:04] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-07 14:04:04] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230707/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-07 14:04:05] INFO root fetch - processPackages [climy]: executing diffoscope
+[2023-07-07 14:04:05] INFO root fetch - processPackages [climy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climy-0.1.1.tar.gz tmp/climy-0.2.0.tar.gz --markdown 20230707/c/climy/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-07 14:04:05] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.0.tar.gz]
+[2023-07-07 14:04:05] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.1.tar.gz]
+[2023-07-07 14:04:05] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-07-07 14:04:05] INFO root fetch - processPackages [pyams-utils]: Downloading https://files.pythonhosted.org/packages/27/1d/a45b7970b2367f563f07b8edbde2383760dbdbd104763ae1f91ed363583b/pyams_utils-1.9.2.tar.gz
+[2023-07-07 14:04:05] INFO root fetch - processPackages [pyams-utils]: executing diffoscope
+[2023-07-07 14:04:05] INFO root fetch - processPackages [pyams-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyams_utils-1.9.1.tar.gz tmp/pyams_utils-1.9.2.tar.gz --markdown 20230707/p/pyams-utils/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-07 14:04:05] INFO root fetch - processPackages [kubectl-ng]: Remove: archive file [/home/abi/fetcher/tmp/kubectl_ng-0.8.1.tar.gz]
+[2023-07-07 14:04:05] INFO root fetch - processPackages [kubectl-ng]: Remove: archive file [/home/abi/fetcher/tmp/kubectl_ng-0.8.2.tar.gz]
+[2023-07-07 14:04:05] INFO root fetch - main [MainThread]: End processing [kubectl-ng]: success
+[2023-07-07 14:04:05] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-07 14:04:05] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-07 14:04:05] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-07 14:04:05] INFO root fetch - processPackages [climy]: Remove: archive file [/home/abi/fetcher/tmp/climy-0.1.1.tar.gz]
+[2023-07-07 14:04:05] INFO root fetch - processPackages [climy]: Remove: archive file [/home/abi/fetcher/tmp/climy-0.2.0.tar.gz]
+[2023-07-07 14:04:05] INFO root fetch - main [MainThread]: End processing [climy]: success
+[2023-07-07 14:04:06] INFO root fetch - processPackages [pyams-utils]: Remove: archive file [/home/abi/fetcher/tmp/pyams_utils-1.9.1.tar.gz]
+[2023-07-07 14:04:06] INFO root fetch - processPackages [pyams-utils]: Remove: archive file [/home/abi/fetcher/tmp/pyams_utils-1.9.2.tar.gz]
+[2023-07-07 14:04:06] INFO root fetch - main [MainThread]: End processing [pyams-utils]: success
+[2023-07-07 14:04:06] INFO root fetch - main [MainThread]: Store serial: [18800052]
