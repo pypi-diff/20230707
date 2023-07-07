@@ -15701,3 +15701,117 @@ EOFError: EOF read where object expected
 [2023-07-07 10:31:46] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230707074511.tar.gz]
 [2023-07-07 10:31:46] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-07-07 10:31:46] INFO root fetch - main [MainThread]: Store serial: [18797541]
+[2023-07-07 10:36:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18797541]
+[2023-07-07 10:36:55] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-07 10:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bus-station
+[2023-07-07 10:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydatawork
+[2023-07-07 10:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uagents-whatsapp-utility
+[2023-07-07 10:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mfhpo-benchmark-api
+[2023-07-07 10:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sh-dynamodb
+[2023-07-07 10:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: huhangkai
+[2023-07-07 10:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytorch-ood
+[2023-07-07 10:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: astro-p3
+[2023-07-07 10:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jsmetrics
+[2023-07-07 10:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cosmotech-run-orchestrator
+[2023-07-07 10:36:55] INFO root fetch - processPackages [bus-station]: New version: [6.1.2] Old Version: [6.1.1]
+[2023-07-07 10:36:55] INFO root fetch - processPackages [sh-dynamodb]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-07 10:36:55] INFO root fetch - processPackages [astro-p3]: New version: [1.1] Old Version: [1.0]
+[2023-07-07 10:36:55] INFO root fetch - processPackages [huhangkai]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-07-07 10:36:55] INFO root fetch - processPackages [mfhpo-benchmark-api]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-07 10:36:55] INFO root fetch - processPackages [jsmetrics]: New version: [0.1.3] Old Version: [0.1.2a0]
+[2023-07-07 10:36:55] INFO root fetch - processPackages [cosmotech-run-orchestrator]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-07 10:36:55] WARNING root fetch - processPackages [uagents-whatsapp-utility]: Skipping, unable to determine old version
+[2023-07-07 10:36:55] INFO root fetch - processPackages [uagents-whatsapp-utility]: Start processing: neosca
+[2023-07-07 10:36:55] INFO root fetch - main [MainThread]: End processing [uagents-whatsapp-utility] error
+[2023-07-07 10:36:55] INFO root fetch - processPackages [pydatawork]: New version: [0.17.4.3] Old Version: [0.17.4.2]
+[2023-07-07 10:36:55] INFO root fetch - processPackages [pytorch-ood]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-07 10:36:55] INFO root fetch - processPackages [neosca]: New version: [0.0.43] Old Version: [0.0.42]
+[2023-07-07 10:36:56] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/e4/1c/a0396aed03b8c4b652ce864f95e1e3ae37914187661316631b40bab3c87d/sh-dynamodb-1.3.1.tar.gz
+[2023-07-07 10:36:56] INFO root fetch - processPackages [huhangkai]: Downloading https://files.pythonhosted.org/packages/99/b7/19a3ac254431a0a0ef2b1f98905eef6ffcd09b682a2e940a38eedcea9e6e/huhangkai-1.5.2.tar.gz
+[2023-07-07 10:36:56] INFO root fetch - processPackages [bus-station]: Downloading https://files.pythonhosted.org/packages/d1/67/5cdad8f6032ff9bcb864c361f972805d4592bb2e75309dae77949f9aec5c/bus_station-6.1.1.tar.gz
+[2023-07-07 10:36:56] INFO root fetch - processPackages [astro-p3]: Downloading https://files.pythonhosted.org/packages/d3/7e/602c70166ed022bd69274f593e7ad580f344f745a28eb11172bd4e7d7a3e/astro-p3-1.0.tar.gz
+[2023-07-07 10:36:56] INFO root fetch - processPackages [jsmetrics]: Downloading https://files.pythonhosted.org/packages/62/a3/56aa4f826ff5426f53b69ee16051826809a2e59ed719ca4902efd0865f69/jsmetrics-0.1.2a0.tar.gz
+[2023-07-07 10:36:56] INFO root fetch - processPackages [mfhpo-benchmark-api]: Downloading https://files.pythonhosted.org/packages/a8/e9/dc2be6d6f5ba96f1cc6f2532ea5717e406e79219a7c5f878960865c69114/mfhpo_benchmark_api-2.0.1-py3-none-any.whl
+[2023-07-07 10:36:56] INFO root fetch - processPackages [neosca]: Downloading https://files.pythonhosted.org/packages/44/b7/a9000579351800eb23df6a1a418e04efece50a8e65ec2990047f172aa64a/neosca-0.0.42.tar.gz
+[2023-07-07 10:36:56] INFO root fetch - processPackages [cosmotech-run-orchestrator]: Downloading https://files.pythonhosted.org/packages/1a/47/6c991364ea05beec5be9d1036dfc7a907f37f0c7bd7592a7fa14166f9783/cosmotech-run-orchestrator-1.0.1.tar.gz
+[2023-07-07 10:36:56] INFO root fetch - processPackages [pytorch-ood]: Downloading https://files.pythonhosted.org/packages/37/f3/43b36597be8873078dd0ee9c0483b84f5e164d6ccd98be4ecd8c8aca87b8/pytorch_ood-0.1.2-py3-none-any.whl
+[2023-07-07 10:36:56] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/84/be/be72d69b35ea97047477048fbcc0bcf0b3a167af2c2a97b1f567ab20cb4f/pydatawork-0.17.4.2.tar.gz
+[2023-07-07 10:36:56] INFO root fetch - processPackages [huhangkai]: Downloading https://files.pythonhosted.org/packages/81/a7/ba9a257750ff23f934d771addf37f8004e8d8a8af644c8af936898a1937c/huhangkai-1.5.3.tar.gz
+[2023-07-07 10:36:56] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/d0/41/b15e78adc4a228d03fa0d084ee0cafac63fa3325d5c630448811ab34f92e/sh-dynamodb-1.3.2.tar.gz
+[2023-07-07 10:36:56] INFO root fetch - processPackages [bus-station]: Downloading https://files.pythonhosted.org/packages/59/8e/d2b6d8daf318e661cee5c151668f84b60eb7ff38d45324e8b64219447f99/bus_station-6.1.2.tar.gz
+[2023-07-07 10:36:56] INFO root fetch - processPackages [cosmotech-run-orchestrator]: Downloading https://files.pythonhosted.org/packages/64/f4/f7c5445ede98a7e09e14eae92aa2bd9635eeda9971dce4032b4ad1f18aef/cosmotech-run-orchestrator-1.0.2.tar.gz
+[2023-07-07 10:36:56] INFO root fetch - processPackages [pytorch-ood]: Downloading https://files.pythonhosted.org/packages/46/55/d7aa6e351456dd759f7745c8bc6e70ac08299c7184ca1e465e0ff28e8fbe/pytorch_ood-0.1.3-py3-none-any.whl
+[2023-07-07 10:36:56] INFO root fetch - processPackages [neosca]: Downloading https://files.pythonhosted.org/packages/19/f6/0a71c76fc02a6219875e28c87a278c76d190381c0453d1879e1115902072/neosca-0.0.43.tar.gz
+[2023-07-07 10:36:56] INFO root fetch - processPackages [mfhpo-benchmark-api]: Downloading https://files.pythonhosted.org/packages/99/f6/79773a8dbb8e2e9c156f14a170813332deb88313acdf28e05149a0438dc7/mfhpo_benchmark_api-2.0.2-py3-none-any.whl
+[2023-07-07 10:36:56] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/a4/fc/8f2f41b3e39c969b49c1f41b3046a1f118626282f65c74e6182315ba2688/pydatawork-0.17.4.3.tar.gz
+[2023-07-07 10:36:56] INFO root fetch - processPackages [bus-station]: executing diffoscope
+[2023-07-07 10:36:56] INFO root fetch - processPackages [bus-station]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bus_station-6.1.1.tar.gz tmp/bus_station-6.1.2.tar.gz --markdown 20230707/b/bus-station/6.1.1-6.1.2/diff.md --exclude *.pyd
+[2023-07-07 10:36:57] INFO root fetch - processPackages [cosmotech-run-orchestrator]: executing diffoscope
+[2023-07-07 10:36:57] INFO root fetch - processPackages [cosmotech-run-orchestrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmotech-run-orchestrator-1.0.1.tar.gz tmp/cosmotech-run-orchestrator-1.0.2.tar.gz --markdown 20230707/c/cosmotech-run-orchestrator/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-07 10:36:57] INFO root fetch - processPackages [huhangkai]: executing diffoscope
+[2023-07-07 10:36:57] INFO root fetch - processPackages [huhangkai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhangkai-1.5.2.tar.gz tmp/huhangkai-1.5.3.tar.gz --markdown 20230707/h/huhangkai/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-07-07 10:36:57] INFO root fetch - processPackages [pytorch-ood]: executing diffoscope
+[2023-07-07 10:36:57] INFO root fetch - processPackages [pytorch-ood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_ood-0.1.2-py3-none-any.whl.zip tmp/pytorch_ood-0.1.3-py3-none-any.whl.zip --markdown 20230707/p/pytorch-ood/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-07 10:36:57] INFO root fetch - processPackages [neosca]: executing diffoscope
+[2023-07-07 10:36:57] INFO root fetch - processPackages [neosca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neosca-0.0.42.tar.gz tmp/neosca-0.0.43.tar.gz --markdown 20230707/n/neosca/0.0.42-0.0.43/diff.md --exclude *.pyd
+[2023-07-07 10:36:57] INFO root fetch - processPackages [sh-dynamodb]: executing diffoscope
+[2023-07-07 10:36:57] INFO root fetch - processPackages [sh-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sh-dynamodb-1.3.1.tar.gz tmp/sh-dynamodb-1.3.2.tar.gz --markdown 20230707/s/sh-dynamodb/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-07 10:36:57] INFO root fetch - processPackages [mfhpo-benchmark-api]: executing diffoscope
+[2023-07-07 10:36:57] INFO root fetch - processPackages [mfhpo-benchmark-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mfhpo_benchmark_api-2.0.1-py3-none-any.whl.zip tmp/mfhpo_benchmark_api-2.0.2-py3-none-any.whl.zip --markdown 20230707/m/mfhpo-benchmark-api/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-07 10:36:57] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-07-07 10:36:57] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.17.4.2.tar.gz tmp/pydatawork-0.17.4.3.tar.gz --markdown 20230707/p/pydatawork/0.17.4.2-0.17.4.3/diff.md --exclude *.pyd
+[2023-07-07 10:36:57] INFO root fetch - processPackages [jsmetrics]: Downloading https://files.pythonhosted.org/packages/a8/15/63acab8ca5bd918df759c5ac6375a1af8ff80c4b1ed0bb56d3d6d90c3455/jsmetrics-0.1.3.tar.gz
+[2023-07-07 10:36:57] INFO root fetch - processPackages [astro-p3]: Downloading https://files.pythonhosted.org/packages/7e/4c/10266937b5ffa38ede6ae5afa06cc53bc991b51e4e7361d00b9d40b48c3a/astro-p3-1.1.tar.gz
+[2023-07-07 10:36:58] INFO root fetch - processPackages [jsmetrics]: executing diffoscope
+[2023-07-07 10:36:58] INFO root fetch - processPackages [jsmetrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsmetrics-0.1.2a0.tar.gz tmp/jsmetrics-0.1.3.tar.gz --markdown 20230707/j/jsmetrics/0.1.2a0-0.1.3/diff.md --exclude *.pyd
+[2023-07-07 10:36:58] INFO root fetch - processPackages [cosmotech-run-orchestrator]: Remove: archive file [/home/abi/fetcher/tmp/cosmotech-run-orchestrator-1.0.1.tar.gz]
+[2023-07-07 10:36:58] INFO root fetch - processPackages [cosmotech-run-orchestrator]: Remove: archive file [/home/abi/fetcher/tmp/cosmotech-run-orchestrator-1.0.2.tar.gz]
+[2023-07-07 10:36:58] INFO root fetch - processPackages [cosmotech-run-orchestrator]: Start processing: cellmap
+[2023-07-07 10:36:58] INFO root fetch - main [MainThread]: End processing [cosmotech-run-orchestrator]: success
+[2023-07-07 10:36:58] INFO root fetch - processPackages [astro-p3]: executing diffoscope
+[2023-07-07 10:36:58] INFO root fetch - processPackages [astro-p3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-p3-1.0.tar.gz tmp/astro-p3-1.1.tar.gz --markdown 20230707/a/astro-p3/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-07 10:36:58] INFO root fetch - processPackages [cellmap]: New version: [1.0.1.dev202307070836] Old Version: [1.0.1.dev202307070828]
+[2023-07-07 10:36:58] INFO root fetch - processPackages [huhangkai]: Remove: archive file [/home/abi/fetcher/tmp/huhangkai-1.5.2.tar.gz]
+[2023-07-07 10:36:58] INFO root fetch - processPackages [huhangkai]: Remove: archive file [/home/abi/fetcher/tmp/huhangkai-1.5.3.tar.gz]
+[2023-07-07 10:36:58] INFO root fetch - processPackages [huhangkai]: Start processing: crocoddyl
+[2023-07-07 10:36:58] INFO root fetch - main [MainThread]: End processing [huhangkai]: success
+[2023-07-07 10:36:58] INFO root fetch - processPackages [sh-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/sh-dynamodb-1.3.1.tar.gz]
+[2023-07-07 10:36:58] INFO root fetch - processPackages [sh-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/sh-dynamodb-1.3.2.tar.gz]
+[2023-07-07 10:36:58] INFO root fetch - main [MainThread]: End processing [sh-dynamodb]: success
+[2023-07-07 10:36:58] INFO root fetch - processPackages [crocoddyl]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-07 10:36:58] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.17.4.2.tar.gz]
+[2023-07-07 10:36:58] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.17.4.3.tar.gz]
+[2023-07-07 10:36:58] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-07-07 10:36:58] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/1e/5f/d813ba0cca3fdb4832c7b9015297ab224745be52b83db44fd10154f86509/cellmap-1.0.1.dev202307070828-py3-none-any.whl
+[2023-07-07 10:36:58] INFO root fetch - processPackages [mfhpo-benchmark-api]: Remove: archive file [/home/abi/fetcher/tmp/mfhpo_benchmark_api-2.0.1-py3-none-any.whl.zip]
+[2023-07-07 10:36:58] INFO root fetch - processPackages [mfhpo-benchmark-api]: Remove: archive file [/home/abi/fetcher/tmp/mfhpo_benchmark_api-2.0.2-py3-none-any.whl.zip]
+[2023-07-07 10:36:58] INFO root fetch - main [MainThread]: End processing [mfhpo-benchmark-api]: success
+[2023-07-07 10:36:58] INFO root fetch - processPackages [neosca]: Remove: archive file [/home/abi/fetcher/tmp/neosca-0.0.42.tar.gz]
+[2023-07-07 10:36:58] INFO root fetch - processPackages [neosca]: Remove: archive file [/home/abi/fetcher/tmp/neosca-0.0.43.tar.gz]
+[2023-07-07 10:36:58] INFO root fetch - main [MainThread]: End processing [neosca]: success
+[2023-07-07 10:36:58] INFO root fetch - processPackages [bus-station]: Remove: archive file [/home/abi/fetcher/tmp/bus_station-6.1.1.tar.gz]
+[2023-07-07 10:36:58] INFO root fetch - processPackages [bus-station]: Remove: archive file [/home/abi/fetcher/tmp/bus_station-6.1.2.tar.gz]
+[2023-07-07 10:36:58] INFO root fetch - main [MainThread]: End processing [bus-station]: success
+[2023-07-07 10:36:58] INFO root fetch - processPackages [pytorch-ood]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_ood-0.1.2-py3-none-any.whl.zip]
+[2023-07-07 10:36:58] INFO root fetch - processPackages [pytorch-ood]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_ood-0.1.3-py3-none-any.whl.zip]
+[2023-07-07 10:36:58] INFO root fetch - main [MainThread]: End processing [pytorch-ood]: success
+[2023-07-07 10:36:58] INFO root fetch - processPackages [crocoddyl]: Downloading https://files.pythonhosted.org/packages/c4/cf/3946481028edc36b401cf6b3f824fdac8e34e82fa5f18b6acb4eefdc7478/crocoddyl-2.0.0-7-cp39-cp39-manylinux_2_28_x86_64.whl
+[2023-07-07 10:36:59] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/12/9e/8a2c4acc14691f678e987fbedb86b1b94fdd8bfd7378e0c0449a1044d883/cellmap-1.0.1.dev202307070836-py3-none-any.whl
+[2023-07-07 10:36:59] INFO root fetch - processPackages [cellmap]: executing diffoscope
+[2023-07-07 10:36:59] INFO root fetch - processPackages [cellmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmap-1.0.1.dev202307070828-py3-none-any.whl.zip tmp/cellmap-1.0.1.dev202307070836-py3-none-any.whl.zip --markdown 20230707/c/cellmap/1.0.1.dev202307070828-1.0.1.dev202307070836/diff.md --exclude *.pyd
+[2023-07-07 10:37:00] INFO root fetch - processPackages [jsmetrics]: Remove: archive file [/home/abi/fetcher/tmp/jsmetrics-0.1.2a0.tar.gz]
+[2023-07-07 10:37:00] INFO root fetch - processPackages [jsmetrics]: Remove: archive file [/home/abi/fetcher/tmp/jsmetrics-0.1.3.tar.gz]
+[2023-07-07 10:37:00] INFO root fetch - main [MainThread]: End processing [jsmetrics]: success
+[2023-07-07 10:37:00] INFO root fetch - processPackages [cellmap]: Remove: archive file [/home/abi/fetcher/tmp/cellmap-1.0.1.dev202307070828-py3-none-any.whl.zip]
+[2023-07-07 10:37:00] INFO root fetch - processPackages [cellmap]: Remove: archive file [/home/abi/fetcher/tmp/cellmap-1.0.1.dev202307070836-py3-none-any.whl.zip]
+[2023-07-07 10:37:00] INFO root fetch - main [MainThread]: End processing [cellmap]: success
+[2023-07-07 10:37:00] INFO root fetch - processPackages [crocoddyl]: Downloading https://files.pythonhosted.org/packages/ca/7c/2e43648070e562e2c4a322861944447f2ead4898f475c3f1e529770f057a/crocoddyl-2.0.1-1-cp39-cp39-macosx_11_0_arm64.whl
+[2023-07-07 10:37:01] INFO root fetch - processPackages [crocoddyl]: executing diffoscope
+[2023-07-07 10:37:01] INFO root fetch - processPackages [crocoddyl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crocoddyl-2.0.0-7-cp39-cp39-manylinux_2_28_x86_64.whl.zip tmp/crocoddyl-2.0.1-1-cp39-cp39-macosx_11_0_arm64.whl.zip --markdown 20230707/c/crocoddyl/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-07 10:37:04] INFO root fetch - processPackages [astro-p3]: Remove: archive file [/home/abi/fetcher/tmp/astro-p3-1.0.tar.gz]
+[2023-07-07 10:37:04] INFO root fetch - processPackages [astro-p3]: Remove: archive file [/home/abi/fetcher/tmp/astro-p3-1.1.tar.gz]
+[2023-07-07 10:37:04] INFO root fetch - main [MainThread]: End processing [astro-p3]: success
+[2023-07-07 10:37:09] INFO root fetch - processPackages [crocoddyl]: Remove: archive file [/home/abi/fetcher/tmp/crocoddyl-2.0.0-7-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2023-07-07 10:37:09] INFO root fetch - processPackages [crocoddyl]: Remove: archive file [/home/abi/fetcher/tmp/crocoddyl-2.0.1-1-cp39-cp39-macosx_11_0_arm64.whl.zip]
+[2023-07-07 10:37:09] INFO root fetch - main [MainThread]: End processing [crocoddyl]: success
+[2023-07-07 10:37:09] INFO root fetch - main [MainThread]: Store serial: [18797582]
