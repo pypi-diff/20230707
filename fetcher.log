@@ -13525,3 +13525,99 @@ EOFError: EOF read where object expected
 
 [2023-07-07 09:00:55] INFO root fetch - main [MainThread]: End processing [muffin-rest] error
 [2023-07-07 09:00:55] INFO root fetch - main [MainThread]: Store serial: [18796680]
+[2023-07-07 09:05:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18796680]
+[2023-07-07 09:06:04] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-07 09:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seqio-nightly
+[2023-07-07 09:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apexpro
+[2023-07-07 09:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ectool
+[2023-07-07 09:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MeUtils
+[2023-07-07 09:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flightanalysis
+[2023-07-07 09:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bullhorn
+[2023-07-07 09:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gval
+[2023-07-07 09:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: uidom
+[2023-07-07 09:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: libcnmc
+[2023-07-07 09:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qax
+[2023-07-07 09:06:04] INFO root fetch - processPackages [uidom]: New version: [0.3a1] Old Version: [0.3a0]
+[2023-07-07 09:06:04] INFO root fetch - processPackages [qax]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-07 09:06:04] INFO root fetch - processPackages [apexpro]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-07 09:06:04] WARNING root fetch - processPackages [bullhorn]: Skipping, unable to determine old version
+[2023-07-07 09:06:04] INFO root fetch - processPackages [bullhorn]: Start processing: gaohn-common-utils
+[2023-07-07 09:06:04] INFO root fetch - main [MainThread]: End processing [bullhorn] error
+[2023-07-07 09:06:04] INFO root fetch - processPackages [flightanalysis]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-07 09:06:04] INFO root fetch - processPackages [gval]: New version: [0.1.3a0] Old Version: [0.1.2a0]
+[2023-07-07 09:06:04] INFO root fetch - processPackages [ectool]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-07-07 09:06:04] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-07-07 09:06:04] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-07-07 09:06:04] INFO root fetch - processPackages [MeUtils]: New version: [2023.7.7.15.3.6] Old Version: [2023.7.6.9.18.40]
+[2023-07-07 09:06:04] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.89] Old Version: [0.0.88]
+[2023-07-07 09:06:04] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/91/88/c28ff84568ef323398498b71d609a92ca287ddcdf8a851536ab656221bc4/libcnmc-23.9.0.tar.gz
+[2023-07-07 09:06:04] INFO root fetch - processPackages [flightanalysis]: Downloading https://files.pythonhosted.org/packages/b8/c1/2f6d0d4cabf096e91bf06658bfbea5495fb5f74d3540dd1094476405d7a6/flightanalysis-0.1.8.tar.gz
+[2023-07-07 09:06:04] INFO root fetch - processPackages [gval]: Downloading https://files.pythonhosted.org/packages/b4/6d/acee8f17ef26bb08bd0744cb49a54fa5773e7e3ae00ff4aa4742eee0704f/gval-0.1.2a0.tar.gz
+[2023-07-07 09:06:04] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-07-07 09:06:04] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/52/c6/1d0c2325059802d51cadf10bc933c2e49151f21b8a8b073f8f8a7cf11104/gaohn-common-utils-0.0.88.tar.gz
+[2023-07-07 09:06:04] INFO root fetch - processPackages [uidom]: Downloading https://files.pythonhosted.org/packages/a5/b7/08c005ef4f61c61cb2f2398235b277e628b21e118a0eec7829e60656cefd/uidom-0.3a0.tar.gz
+[2023-07-07 09:06:04] INFO root fetch - processPackages [qax]: Downloading https://files.pythonhosted.org/packages/65/ad/7c22ec5d32d84caafed8c0cc065a5b1ca6c7c1418754ea4d8e3b0451e880/qax-0.1.1.tar.gz
+[2023-07-07 09:06:04] INFO root fetch - processPackages [apexpro]: Downloading https://files.pythonhosted.org/packages/ac/54/989078af3ad95753cc5aa2aeca4cc584ac68c6b58abc6ae9cfcb89f575ee/apexpro-1.1.4.tar.gz
+[2023-07-07 09:06:04] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/03/c2/0074fedd9218c4324bec9cdbb7bc5f7c2c839ea18d1079a715c0d495a660/MeUtils-2023.7.6.9.18.40.tar.gz
+[2023-07-07 09:06:04] INFO root fetch - processPackages [ectool]: Downloading https://files.pythonhosted.org/packages/72/97/ec7eeae4560bf1f752a5f08cdd8ce882f0bc4bfe2100dbf4f454dc5d4933/ectool-1.0.2.tar.gz
+[2023-07-07 09:06:05] INFO root fetch - processPackages [flightanalysis]: Downloading https://files.pythonhosted.org/packages/f5/f3/4ec5d96ce1deb15e8fd0e2495a16f5b16b2e51ab916b334d09f510476f3d/flightanalysis-0.1.9.tar.gz
+[2023-07-07 09:06:05] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/fc/9f/639d42b63484a91cf9f1c60f9bb709f1ed853240f45c2e02047054beffa6/libcnmc-23.9.1.tar.gz
+[2023-07-07 09:06:05] INFO root fetch - processPackages [gval]: Downloading https://files.pythonhosted.org/packages/86/6f/4f3195a4441d416bd9881a259d65edc94b2cf19d3c026aea967399b8e74b/gval-0.1.3a0.tar.gz
+[2023-07-07 09:06:05] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-07-07 09:06:05] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/53/2f/a6d38e98e1864d46913328fce7ae4ae70305bb083e6de2945e6247cbf375/gaohn-common-utils-0.0.89.tar.gz
+[2023-07-07 09:06:05] INFO root fetch - processPackages [qax]: Downloading https://files.pythonhosted.org/packages/65/22/deec179fb663b4548fad9c6ba47d9866a5cd6b6822abf2bdf2a26f11e511/qax-0.2.0.tar.gz
+[2023-07-07 09:06:05] INFO root fetch - processPackages [flightanalysis]: executing diffoscope
+[2023-07-07 09:06:05] INFO root fetch - processPackages [flightanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flightanalysis-0.1.8.tar.gz tmp/flightanalysis-0.1.9.tar.gz --markdown 20230707/f/flightanalysis/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-07 09:06:05] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-07-07 09:06:05] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230707/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-07-07 09:06:05] INFO root fetch - processPackages [apexpro]: Downloading https://files.pythonhosted.org/packages/ec/cf/4f7776343a3c2b4bed42420d3499e8895561105fd804c8418665410c6362/apexpro-1.1.5.tar.gz
+[2023-07-07 09:06:05] INFO root fetch - processPackages [ectool]: Downloading https://files.pythonhosted.org/packages/e0/32/1cd16c7cd84dcddc3b71937a95fea1c666ffcee470ef8a50f72531d63040/ectool-1.1.0.tar.gz
+[2023-07-07 09:06:05] INFO root fetch - processPackages [gval]: executing diffoscope
+[2023-07-07 09:06:05] INFO root fetch - processPackages [gval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gval-0.1.2a0.tar.gz tmp/gval-0.1.3a0.tar.gz --markdown 20230707/g/gval/0.1.2a0-0.1.3a0/diff.md --exclude *.pyd
+[2023-07-07 09:06:05] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-07-07 09:06:05] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230707/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-07-07 09:06:05] INFO root fetch - processPackages [uidom]: Downloading https://files.pythonhosted.org/packages/44/b0/bb93f933b45966828d4ff8fb543f605c7407b58945d7077ddf10473c8c0d/uidom-0.3a1.tar.gz
+[2023-07-07 09:06:05] INFO root fetch - processPackages [qax]: executing diffoscope
+[2023-07-07 09:06:05] INFO root fetch - processPackages [qax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qax-0.1.1.tar.gz tmp/qax-0.2.0.tar.gz --markdown 20230707/q/qax/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-07 09:06:05] INFO root fetch - processPackages [apexpro]: executing diffoscope
+[2023-07-07 09:06:05] INFO root fetch - processPackages [apexpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apexpro-1.1.4.tar.gz tmp/apexpro-1.1.5.tar.gz --markdown 20230707/a/apexpro/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-07 09:06:05] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-07-07 09:06:05] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.88.tar.gz tmp/gaohn-common-utils-0.0.89.tar.gz --markdown 20230707/g/gaohn-common-utils/0.0.88-0.0.89/diff.md --exclude *.pyd
+[2023-07-07 09:06:05] INFO root fetch - processPackages [ectool]: executing diffoscope
+[2023-07-07 09:06:05] INFO root fetch - processPackages [ectool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ectool-1.0.2.tar.gz tmp/ectool-1.1.0.tar.gz --markdown 20230707/e/ectool/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-07-07 09:06:05] INFO root fetch - processPackages [uidom]: executing diffoscope
+[2023-07-07 09:06:05] INFO root fetch - processPackages [uidom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uidom-0.3a0.tar.gz tmp/uidom-0.3a1.tar.gz --markdown 20230707/u/uidom/0.3a0-0.3a1/diff.md --exclude *.pyd
+[2023-07-07 09:06:05] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/1e/99/2f228a790c6fc15f93482f3f0fa7bbad95d15d6e0aa883c7919fe4a66c95/MeUtils-2023.7.7.15.3.6.tar.gz
+[2023-07-07 09:06:06] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-07-07 09:06:06] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.7.6.9.18.40.tar.gz tmp/MeUtils-2023.7.7.15.3.6.tar.gz --markdown 20230707/M/MeUtils/2023.7.6.9.18.40-2023.7.7.15.3.6/diff.md --exclude *.pyd
+[2023-07-07 09:06:07] INFO root fetch - processPackages [qax]: Remove: archive file [/home/abi/fetcher/tmp/qax-0.1.1.tar.gz]
+[2023-07-07 09:06:07] INFO root fetch - processPackages [qax]: Remove: archive file [/home/abi/fetcher/tmp/qax-0.2.0.tar.gz]
+[2023-07-07 09:06:07] INFO root fetch - main [MainThread]: End processing [qax]: success
+[2023-07-07 09:06:07] INFO root fetch - processPackages [gval]: Remove: archive file [/home/abi/fetcher/tmp/gval-0.1.2a0.tar.gz]
+[2023-07-07 09:06:07] INFO root fetch - processPackages [gval]: Remove: archive file [/home/abi/fetcher/tmp/gval-0.1.3a0.tar.gz]
+[2023-07-07 09:06:07] INFO root fetch - main [MainThread]: End processing [gval]: success
+[2023-07-07 09:06:07] INFO root fetch - processPackages [ectool]: Remove: archive file [/home/abi/fetcher/tmp/ectool-1.0.2.tar.gz]
+[2023-07-07 09:06:07] INFO root fetch - processPackages [ectool]: Remove: archive file [/home/abi/fetcher/tmp/ectool-1.1.0.tar.gz]
+[2023-07-07 09:06:07] INFO root fetch - main [MainThread]: End processing [ectool]: success
+[2023-07-07 09:06:07] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.88.tar.gz]
+[2023-07-07 09:06:07] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.89.tar.gz]
+[2023-07-07 09:06:07] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-07-07 09:06:07] INFO root fetch - processPackages [flightanalysis]: Remove: archive file [/home/abi/fetcher/tmp/flightanalysis-0.1.8.tar.gz]
+[2023-07-07 09:06:07] INFO root fetch - processPackages [flightanalysis]: Remove: archive file [/home/abi/fetcher/tmp/flightanalysis-0.1.9.tar.gz]
+[2023-07-07 09:06:07] INFO root fetch - main [MainThread]: End processing [flightanalysis]: success
+[2023-07-07 09:06:07] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-07-07 09:06:07] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-07-07 09:06:07] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-07-07 09:06:07] INFO root fetch - processPackages [apexpro]: Remove: archive file [/home/abi/fetcher/tmp/apexpro-1.1.4.tar.gz]
+[2023-07-07 09:06:07] INFO root fetch - processPackages [apexpro]: Remove: archive file [/home/abi/fetcher/tmp/apexpro-1.1.5.tar.gz]
+[2023-07-07 09:06:07] INFO root fetch - main [MainThread]: End processing [apexpro]: success
+[2023-07-07 09:06:07] INFO root fetch - processPackages [uidom]: Remove: archive file [/home/abi/fetcher/tmp/uidom-0.3a0.tar.gz]
+[2023-07-07 09:06:07] INFO root fetch - processPackages [uidom]: Remove: archive file [/home/abi/fetcher/tmp/uidom-0.3a1.tar.gz]
+[2023-07-07 09:06:07] INFO root fetch - main [MainThread]: End processing [uidom]: success
+[2023-07-07 09:06:07] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.0.tar.gz]
+[2023-07-07 09:06:07] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.1.tar.gz]
+[2023-07-07 09:06:07] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-07-07 09:06:09] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.18.40.tar.gz]
+[2023-07-07 09:06:09] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.7.15.3.6.tar.gz]
+[2023-07-07 09:06:09] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-07-07 09:06:09] INFO root fetch - main [MainThread]: Store serial: [18796716]
