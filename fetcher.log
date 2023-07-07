@@ -13092,3 +13092,122 @@ EOFError: EOF read where object expected
 [2023-07-07 08:36:32] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.2.3.dev3-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
 [2023-07-07 08:36:32] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
 [2023-07-07 08:36:32] INFO root fetch - main [MainThread]: Store serial: [18796500]
+[2023-07-07 08:41:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18796500]
+[2023-07-07 08:41:53] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-07 08:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: casbin
+[2023-07-07 08:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Tashriethon
+[2023-07-07 08:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PureCloudPlatformClientV2
+[2023-07-07 08:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RsCMPX-UwbMeas
+[2023-07-07 08:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xhorizon
+[2023-07-07 08:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sh-dynamodb
+[2023-07-07 08:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytest-thread
+[2023-07-07 08:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: m-abac-test
+[2023-07-07 08:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: avnet-scotty
+[2023-07-07 08:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ml-management
+[2023-07-07 08:41:53] INFO root fetch - processPackages [ml-management]: New version: [0.0.41] Old Version: [0.0.40]
+[2023-07-07 08:41:53] WARNING root fetch - processPackages [pytest-thread]: Skipping, unable to determine old version
+[2023-07-07 08:41:53] INFO root fetch - processPackages [pytest-thread]: Start processing: xj-role
+[2023-07-07 08:41:53] INFO root fetch - main [MainThread]: End processing [pytest-thread] error
+[2023-07-07 08:41:53] INFO root fetch - processPackages [avnet-scotty]: New version: [2023.6] Old Version: [2023.5]
+[2023-07-07 08:41:53] INFO root fetch - processPackages [RsCMPX-UwbMeas]: New version: [4.0.80] Old Version: [4.0.7.5]
+[2023-07-07 08:41:53] INFO root fetch - processPackages [m-abac-test]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-07 08:41:53] INFO root fetch - processPackages [sh-dynamodb]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-07-07 08:41:53] INFO root fetch - processPackages [xhorizon]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-07 08:41:53] INFO root fetch - processPackages [casbin]: New version: [1.9.7] Old Version: [1.9.6]
+[2023-07-07 08:41:53] INFO root fetch - processPackages [Tashriethon]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-07 08:41:53] INFO root fetch - processPackages [PureCloudPlatformClientV2]: New version: [99.0.0] Old Version: [98.0.0]
+[2023-07-07 08:41:53] INFO root fetch - processPackages [xj-role]: New version: [1.0.9] Old Version: [1.0.80]
+[2023-07-07 08:41:54] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/09/9a/5bf7c99a4b14d4ee9166517fc845f8ac1538097fb087c74e2055722d9a66/m-abac-test-1.0.8.tar.gz
+[2023-07-07 08:41:54] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/01/bd/f6420af1f67e3c057ecba0bc095fd9755e40451fb08773546ab69df71d3b/sh-dynamodb-1.1.5.tar.gz
+[2023-07-07 08:41:54] INFO root fetch - processPackages [xhorizon]: Downloading https://files.pythonhosted.org/packages/cc/b2/21fd2dcb7ad62092a8dcd1572d1d6303370afa5b2cd48e0a31a965d11fc9/xhorizon-1.1.1.tar.gz
+[2023-07-07 08:41:54] INFO root fetch - processPackages [ml-management]: Downloading https://files.pythonhosted.org/packages/c9/de/7ff8a80ba60f711d8fef607d6e5276236d4c2b7ae534b18668d04901ed27/ml-management-0.0.40.tar.gz
+[2023-07-07 08:41:54] INFO root fetch - processPackages [avnet-scotty]: Downloading https://files.pythonhosted.org/packages/ef/d6/2caf7f63a2988716affec22dc05e1f186225945f224fd7b23a7dbe20b81b/avnet-scotty-2023.5.tar.gz
+[2023-07-07 08:41:54] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/9b/bb/76d22217df91487a0567393f76d0e0df97f75879b484ad04a1b87aa17b7c/xj_role-1.0.80.tar.gz
+[2023-07-07 08:41:54] INFO root fetch - processPackages [Tashriethon]: Downloading https://files.pythonhosted.org/packages/39/ce/ee90ab7d9e788601f8efb89b360bc2cbb546edb82ea2f82e170bb4da6bc2/Tashriethon-0.0.1.tar.gz
+[2023-07-07 08:41:54] INFO root fetch - processPackages [RsCMPX-UwbMeas]: Downloading https://files.pythonhosted.org/packages/0f/09/4635f2f73ae1867eb76ab10e424c2b9d7dfd076bf740e06cfb7e63798de4/RsCMPX_UwbMeas-4.0.7.5.tar.gz
+[2023-07-07 08:41:54] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Downloading https://files.pythonhosted.org/packages/2c/c0/91800d23710423ae3701d533f2eb887685821d04a61d8ce88b3ef04e973d/PureCloudPlatformClientV2-98.0.0.tar.gz
+[2023-07-07 08:41:54] INFO root fetch - processPackages [casbin]: Downloading https://files.pythonhosted.org/packages/e0/4b/6705f46f38bf244de36891801411a8a9ba15af8bf995b7fa418b4b92c844/casbin-1.9.6.tar.gz
+[2023-07-07 08:41:54] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/a9/d3/8329e6fc7756f703d2c923a04aa565e40a644e0fc7782f2737812aa123a6/m-abac-test-1.0.9.tar.gz
+[2023-07-07 08:41:54] INFO root fetch - processPackages [ml-management]: Downloading https://files.pythonhosted.org/packages/38/3e/3b601a9a485e8cbe6559d9004746a24800ddf8417dfc83c24f9848a7721d/ml-management-0.0.41.tar.gz
+[2023-07-07 08:41:54] INFO root fetch - processPackages [avnet-scotty]: Downloading https://files.pythonhosted.org/packages/1c/62/916aefd387d4cb50a0b226a6b64aec002596ad1375f685b595ff9390b5f9/avnet-scotty-2023.6.tar.gz
+[2023-07-07 08:41:54] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/2c/77/ebb1d3254b61bd786e3aaebbd01dfa15310557c1a927f61995a6b9e0531e/xj_role-1.0.9.tar.gz
+[2023-07-07 08:41:54] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/be/2a/7aea5e3442719417724a5d95e19023736d7c21206ff2e9f3410b16d12297/sh-dynamodb-1.1.6.tar.gz
+[2023-07-07 08:41:54] INFO root fetch - processPackages [Tashriethon]: Downloading https://files.pythonhosted.org/packages/6e/84/f625b901504c294999cb56680a8ebff8d77bdb762b109fb31b2d30b5a0a6/Tashriethon-0.0.2.tar.gz
+[2023-07-07 08:41:54] INFO root fetch - processPackages [m-abac-test]: executing diffoscope
+[2023-07-07 08:41:54] INFO root fetch - processPackages [m-abac-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-abac-test-1.0.8.tar.gz tmp/m-abac-test-1.0.9.tar.gz --markdown 20230707/m/m-abac-test/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-07 08:41:54] INFO root fetch - processPackages [RsCMPX-UwbMeas]: Downloading https://files.pythonhosted.org/packages/72/d5/7c113c34dce0b6c98b65b3a631d44d77732c21e99e1c64e0ce821c3999b7/RsCMPX_UwbMeas-4.0.80.tar.gz
+[2023-07-07 08:41:54] INFO root fetch - processPackages [xhorizon]: Downloading https://files.pythonhosted.org/packages/9a/9c/da1e0aff3853c2ca07ac44ce4928f3b0b0c379461e7a3ab50033a4498a7f/xhorizon-1.1.2.tar.gz
+[2023-07-07 08:41:54] INFO root fetch - processPackages [ml-management]: executing diffoscope
+[2023-07-07 08:41:54] INFO root fetch - processPackages [ml-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-management-0.0.40.tar.gz tmp/ml-management-0.0.41.tar.gz --markdown 20230707/m/ml-management/0.0.40-0.0.41/diff.md --exclude *.pyd
+[2023-07-07 08:41:54] INFO root fetch - processPackages [xj-role]: executing diffoscope
+[2023-07-07 08:41:54] INFO root fetch - processPackages [xj-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_role-1.0.80.tar.gz tmp/xj_role-1.0.9.tar.gz --markdown 20230707/x/xj-role/1.0.80-1.0.9/diff.md --exclude *.pyd
+[2023-07-07 08:41:54] INFO root fetch - processPackages [avnet-scotty]: executing diffoscope
+[2023-07-07 08:41:54] INFO root fetch - processPackages [avnet-scotty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avnet-scotty-2023.5.tar.gz tmp/avnet-scotty-2023.6.tar.gz --markdown 20230707/a/avnet-scotty/2023.5-2023.6/diff.md --exclude *.pyd
+[2023-07-07 08:41:55] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Downloading https://files.pythonhosted.org/packages/27/4a/c79d7db4d3031ed827ca4794d7791097c946dd8a6a0ae49a7fb27c9473d8/PureCloudPlatformClientV2-99.0.0.tar.gz
+[2023-07-07 08:41:55] INFO root fetch - processPackages [sh-dynamodb]: executing diffoscope
+[2023-07-07 08:41:55] INFO root fetch - processPackages [sh-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sh-dynamodb-1.1.5.tar.gz tmp/sh-dynamodb-1.1.6.tar.gz --markdown 20230707/s/sh-dynamodb/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-07-07 08:41:55] INFO root fetch - processPackages [Tashriethon]: executing diffoscope
+[2023-07-07 08:41:55] INFO root fetch - processPackages [Tashriethon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Tashriethon-0.0.1.tar.gz tmp/Tashriethon-0.0.2.tar.gz --markdown 20230707/T/Tashriethon/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-07 08:41:55] INFO root fetch - processPackages [RsCMPX-UwbMeas]: executing diffoscope
+[2023-07-07 08:41:55] INFO root fetch - processPackages [RsCMPX-UwbMeas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RsCMPX_UwbMeas-4.0.7.5.tar.gz tmp/RsCMPX_UwbMeas-4.0.80.tar.gz --markdown 20230707/R/RsCMPX-UwbMeas/4.0.7.5-4.0.80/diff.md --exclude *.pyd
+[2023-07-07 08:41:55] INFO root fetch - processPackages [casbin]: Downloading https://files.pythonhosted.org/packages/26/02/6fc77035e3ebdb3b90d105af40fe549419f2ba4d4fa30025b5d5baa1d172/casbin-1.9.7.tar.gz
+[2023-07-07 08:41:55] INFO root fetch - processPackages [xhorizon]: executing diffoscope
+[2023-07-07 08:41:55] INFO root fetch - processPackages [xhorizon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xhorizon-1.1.1.tar.gz tmp/xhorizon-1.1.2.tar.gz --markdown 20230707/x/xhorizon/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-07 08:41:55] INFO root fetch - processPackages [casbin]: executing diffoscope
+[2023-07-07 08:41:55] INFO root fetch - processPackages [casbin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casbin-1.9.6.tar.gz tmp/casbin-1.9.7.tar.gz --markdown 20230707/c/casbin/1.9.6-1.9.7/diff.md --exclude *.pyd
+[2023-07-07 08:41:55] INFO root fetch - processPackages [PureCloudPlatformClientV2]: executing diffoscope
+[2023-07-07 08:41:55] INFO root fetch - processPackages [PureCloudPlatformClientV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PureCloudPlatformClientV2-98.0.0.tar.gz tmp/PureCloudPlatformClientV2-99.0.0.tar.gz --markdown 20230707/P/PureCloudPlatformClientV2/98.0.0-99.0.0/diff.md --exclude *.pyd
+[2023-07-07 08:41:56] INFO root fetch - processPackages [sh-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/sh-dynamodb-1.1.5.tar.gz]
+[2023-07-07 08:41:56] INFO root fetch - processPackages [sh-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/sh-dynamodb-1.1.6.tar.gz]
+[2023-07-07 08:41:56] INFO root fetch - processPackages [sh-dynamodb]: Start processing: thumbor
+[2023-07-07 08:41:56] INFO root fetch - main [MainThread]: End processing [sh-dynamodb]: success
+[2023-07-07 08:41:56] INFO root fetch - processPackages [xj-role]: Remove: archive file [/home/abi/fetcher/tmp/xj_role-1.0.80.tar.gz]
+[2023-07-07 08:41:56] INFO root fetch - processPackages [xj-role]: Remove: archive file [/home/abi/fetcher/tmp/xj_role-1.0.9.tar.gz]
+[2023-07-07 08:41:56] INFO root fetch - processPackages [xj-role]: Start processing: odxtools
+[2023-07-07 08:41:56] INFO root fetch - main [MainThread]: End processing [xj-role]: success
+[2023-07-07 08:41:56] INFO root fetch - processPackages [odxtools]: New version: [4.0.4] Old Version: [4.0.3]
+[2023-07-07 08:41:56] INFO root fetch - processPackages [thumbor]: New version: [7.5.2] Old Version: [7.5.1]
+[2023-07-07 08:41:56] INFO root fetch - processPackages [Tashriethon]: Remove: archive file [/home/abi/fetcher/tmp/Tashriethon-0.0.1.tar.gz]
+[2023-07-07 08:41:56] INFO root fetch - processPackages [Tashriethon]: Remove: archive file [/home/abi/fetcher/tmp/Tashriethon-0.0.2.tar.gz]
+[2023-07-07 08:41:56] INFO root fetch - processPackages [Tashriethon]: Start processing: sh-dynamodb
+[2023-07-07 08:41:56] INFO root fetch - main [MainThread]: End processing [Tashriethon]: success
+[2023-07-07 08:41:56] INFO root fetch - processPackages [sh-dynamodb]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-07-07 08:41:56] INFO root fetch - processPackages [avnet-scotty]: Remove: archive file [/home/abi/fetcher/tmp/avnet-scotty-2023.5.tar.gz]
+[2023-07-07 08:41:56] INFO root fetch - processPackages [avnet-scotty]: Remove: archive file [/home/abi/fetcher/tmp/avnet-scotty-2023.6.tar.gz]
+[2023-07-07 08:41:56] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.8.tar.gz]
+[2023-07-07 08:41:56] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.9.tar.gz]
+[2023-07-07 08:41:56] INFO root fetch - main [MainThread]: End processing [avnet-scotty]: success
+[2023-07-07 08:41:56] INFO root fetch - main [MainThread]: End processing [m-abac-test]: success
+[2023-07-07 08:41:56] INFO root fetch - processPackages [ml-management]: Remove: archive file [/home/abi/fetcher/tmp/ml-management-0.0.40.tar.gz]
+[2023-07-07 08:41:56] INFO root fetch - processPackages [ml-management]: Remove: archive file [/home/abi/fetcher/tmp/ml-management-0.0.41.tar.gz]
+[2023-07-07 08:41:56] INFO root fetch - main [MainThread]: End processing [ml-management]: success
+[2023-07-07 08:41:56] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/be/2a/7aea5e3442719417724a5d95e19023736d7c21206ff2e9f3410b16d12297/sh-dynamodb-1.1.6.tar.gz
+[2023-07-07 08:41:56] INFO root fetch - processPackages [odxtools]: Downloading https://files.pythonhosted.org/packages/c2/51/328aa34e2876fd6031431c46df5fe3aa423c85fe300a66848851c6a27f50/odxtools-4.0.3.tar.gz
+[2023-07-07 08:41:56] INFO root fetch - processPackages [xhorizon]: Remove: archive file [/home/abi/fetcher/tmp/xhorizon-1.1.1.tar.gz]
+[2023-07-07 08:41:56] INFO root fetch - processPackages [xhorizon]: Remove: archive file [/home/abi/fetcher/tmp/xhorizon-1.1.2.tar.gz]
+[2023-07-07 08:41:56] INFO root fetch - main [MainThread]: End processing [xhorizon]: success
+[2023-07-07 08:41:56] INFO root fetch - processPackages [thumbor]: Downloading https://files.pythonhosted.org/packages/79/00/e299bf1c969d546b4c30fd1fb0767c142a25834fd3852d5d6e32905e05b6/thumbor-7.5.1.tar.gz
+[2023-07-07 08:41:56] WARNING root fetch - processPackages [thumbor]: Skipping package: exceeds size limit 29741245>=10485760
+[2023-07-07 08:41:56] INFO root fetch - main [MainThread]: End processing [thumbor] error
+[2023-07-07 08:41:57] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/0e/da/6c8015e08ff84566867f75a29a66ea40eb2f29b6f422f08391e4b38dfe18/sh-dynamodb-1.1.7.tar.gz
+[2023-07-07 08:41:57] INFO root fetch - processPackages [casbin]: Remove: archive file [/home/abi/fetcher/tmp/casbin-1.9.6.tar.gz]
+[2023-07-07 08:41:57] INFO root fetch - processPackages [casbin]: Remove: archive file [/home/abi/fetcher/tmp/casbin-1.9.7.tar.gz]
+[2023-07-07 08:41:57] INFO root fetch - main [MainThread]: End processing [casbin]: success
+[2023-07-07 08:41:57] INFO root fetch - processPackages [odxtools]: Downloading https://files.pythonhosted.org/packages/c4/29/2c226a8ad39bfb777d9c0ae083beff8402841a12963fd033bc2d15eee826/odxtools-4.0.4.tar.gz
+[2023-07-07 08:41:57] INFO root fetch - processPackages [sh-dynamodb]: executing diffoscope
+[2023-07-07 08:41:57] INFO root fetch - processPackages [sh-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sh-dynamodb-1.1.6.tar.gz tmp/sh-dynamodb-1.1.7.tar.gz --markdown 20230707/s/sh-dynamodb/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-07-07 08:41:57] INFO root fetch - processPackages [odxtools]: executing diffoscope
+[2023-07-07 08:41:57] INFO root fetch - processPackages [odxtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odxtools-4.0.3.tar.gz tmp/odxtools-4.0.4.tar.gz --markdown 20230707/o/odxtools/4.0.3-4.0.4/diff.md --exclude *.pyd
+[2023-07-07 08:41:58] INFO root fetch - processPackages [sh-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/sh-dynamodb-1.1.6.tar.gz]
+[2023-07-07 08:41:58] INFO root fetch - processPackages [sh-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/sh-dynamodb-1.1.7.tar.gz]
+[2023-07-07 08:41:58] INFO root fetch - main [MainThread]: End processing [sh-dynamodb]: success
+[2023-07-07 08:41:58] INFO root fetch - processPackages [RsCMPX-UwbMeas]: Remove: archive file [/home/abi/fetcher/tmp/RsCMPX_UwbMeas-4.0.7.5.tar.gz]
+[2023-07-07 08:41:58] INFO root fetch - processPackages [RsCMPX-UwbMeas]: Remove: archive file [/home/abi/fetcher/tmp/RsCMPX_UwbMeas-4.0.80.tar.gz]
+[2023-07-07 08:41:58] INFO root fetch - main [MainThread]: End processing [RsCMPX-UwbMeas]: success
+[2023-07-07 08:41:58] INFO root fetch - processPackages [odxtools]: Remove: archive file [/home/abi/fetcher/tmp/odxtools-4.0.3.tar.gz]
+[2023-07-07 08:41:58] INFO root fetch - processPackages [odxtools]: Remove: archive file [/home/abi/fetcher/tmp/odxtools-4.0.4.tar.gz]
+[2023-07-07 08:41:58] INFO root fetch - main [MainThread]: End processing [odxtools]: success
+[2023-07-07 08:42:14] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Remove: archive file [/home/abi/fetcher/tmp/PureCloudPlatformClientV2-98.0.0.tar.gz]
+[2023-07-07 08:42:14] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Remove: archive file [/home/abi/fetcher/tmp/PureCloudPlatformClientV2-99.0.0.tar.gz]
+[2023-07-07 08:42:14] INFO root fetch - main [MainThread]: End processing [PureCloudPlatformClientV2]: success
+[2023-07-07 08:42:14] INFO root fetch - main [MainThread]: Store serial: [18796551]
