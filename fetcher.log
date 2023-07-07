@@ -13754,3 +13754,127 @@ EOFError: EOF read where object expected
 [2023-07-07 09:11:31] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-07-07 09:11:31] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-07-07 09:11:31] INFO root fetch - main [MainThread]: Store serial: [18796764]
+[2023-07-07 09:16:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18796764]
+[2023-07-07 09:16:40] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-07 09:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: resource-monitor-scanner
+[2023-07-07 09:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spotPython
+[2023-07-07 09:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oarepo-cli
+[2023-07-07 09:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: enebootools
+[2023-07-07 09:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openi-test
+[2023-07-07 09:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seven-cloudapp-frame
+[2023-07-07 09:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-hub-nightly
+[2023-07-07 09:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zbxtool-cfomp
+[2023-07-07 09:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tfq-nightly
+[2023-07-07 09:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zhei
+[2023-07-07 09:16:40] INFO root fetch - processPackages [openi-test]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-07 09:16:40] INFO root fetch - processPackages [zbxtool-cfomp]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-07 09:16:40] WARNING root fetch - processPackages [resource-monitor-scanner]: Skipping, unable to determine old version
+[2023-07-07 09:16:40] INFO root fetch - processPackages [resource-monitor-scanner]: Start processing: nuclia
+[2023-07-07 09:16:40] INFO root fetch - main [MainThread]: End processing [resource-monitor-scanner] error
+[2023-07-07 09:16:41] INFO root fetch - processPackages [zhei]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 09:16:41] INFO root fetch - processPackages [spotPython]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-07 09:16:41] INFO root fetch - processPackages [oarepo-cli]: New version: [11.1.9] Old Version: [11.1.8]
+[2023-07-07 09:16:41] INFO root fetch - processPackages [enebootools]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-07 09:16:41] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-07-07 09:16:41] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-07-07 09:16:41] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230706] Old Version: [0.7.3.dev20230705]
+[2023-07-07 09:16:41] INFO root fetch - processPackages [nuclia]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-07 09:16:41] INFO root fetch - processPackages [zhei]: Downloading https://files.pythonhosted.org/packages/fe/e6/d6e9a8571394bc0f3c5f41cc8657e57af493d8f610996864a47c36f29e74/zhei-0.0.8.tar.gz
+[2023-07-07 09:16:41] INFO root fetch - processPackages [openi-test]: Downloading https://files.pythonhosted.org/packages/76/99/0235b741f9faf0c569ba098cdccf1a297f879bed1ff8691380d5e0f87cd1/openi_test-0.1.6.tar.gz
+[2023-07-07 09:16:41] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-07-07 09:16:41] INFO root fetch - processPackages [enebootools]: Downloading https://files.pythonhosted.org/packages/96/a6/f5dbde2a17640259ee0c244a670ffca24661530f548753a68de5b812a140/enebootools-2.0.8.tar.gz
+[2023-07-07 09:16:41] INFO root fetch - processPackages [zbxtool-cfomp]: Downloading https://files.pythonhosted.org/packages/a2/af/b197bd86cab21e82f9a9e5f3178e2cd10c9ed0caccddd151f0a722e203dd/zbxtool-cfomp-0.9.8.tar.gz
+[2023-07-07 09:16:41] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/35/2b/05b1b8a3faf3e0417c648bb54a3032af0de6b3d08180acd83e1eea5e3701/seven_cloudapp_frame-1.0.9.8.tar.gz
+[2023-07-07 09:16:41] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/72/c2/676faced151720120fbda37cd110b4e5b9a9aa71eb119cbd47ff37b2986e/spotPython-0.5.1.tar.gz
+[2023-07-07 09:16:41] INFO root fetch - processPackages [nuclia]: Downloading https://files.pythonhosted.org/packages/16/98/0825ef84d946885d95a31b78fdf8165fc7f54e6f4cdd779cd3118f60f36f/nuclia-1.1.0.tar.gz
+[2023-07-07 09:16:41] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/af/a7/2733a476ea08d89fb2f474b4da4c3e1bcd0256c07baebfab128540be8be1/oarepo-cli-11.1.8.tar.gz
+[2023-07-07 09:16:41] WARNING root fetch - processPackages [spotPython]: Skipping package: exceeds size limit 28705326>=10485760
+[2023-07-07 09:16:41] INFO root fetch - processPackages [spotPython]: Start processing: reliably-cli
+[2023-07-07 09:16:41] INFO root fetch - main [MainThread]: End processing [spotPython] error
+[2023-07-07 09:16:41] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/79/c4/e66f25bbefc92e354c0e0733f7b1b0af04aa079bc0b5d5861cbae413a78c/tfq_nightly-0.7.3.dev20230705-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-07 09:16:41] INFO root fetch - processPackages [reliably-cli]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-07-07 09:16:41] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10822718>=10485760
+[2023-07-07 09:16:41] INFO root fetch - processPackages [tfq-nightly]: Start processing: spotRiver
+[2023-07-07 09:16:41] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-07-07 09:16:41] INFO root fetch - processPackages [zhei]: Downloading https://files.pythonhosted.org/packages/d9/f8/741be51eea312a636974b7efa45fc6ce78e84d511b8b44f353639d955c27/zhei-0.0.9.tar.gz
+[2023-07-07 09:16:41] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-07-07 09:16:41] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/74/d6/645286f46e81a7cbd30574c917b65af03679c974a979c0421012bd713cbd/seven_cloudapp_frame-1.0.9.9.tar.gz
+[2023-07-07 09:16:41] INFO root fetch - processPackages [enebootools]: Downloading https://files.pythonhosted.org/packages/0b/50/a98ff2d478f2b96df200e7e6a5c0ff28fe92712c685482f5ce0bd910c066/enebootools-2.0.9.tar.gz
+[2023-07-07 09:16:41] INFO root fetch - processPackages [spotRiver]: New version: [0.0.95] Old Version: [0.0.93]
+[2023-07-07 09:16:41] INFO root fetch - processPackages [openi-test]: Downloading https://files.pythonhosted.org/packages/3f/1d/16ecc6b97d2519ca1d39f6d2f10aa57685848a0380fa40245fec2b3029e1/openi_test-0.1.7.tar.gz
+[2023-07-07 09:16:41] INFO root fetch - processPackages [reliably-cli]: Downloading https://files.pythonhosted.org/packages/08/c8/5ac04ab23f5c777d3cb11d3d8088b3014f96adefbf899448e38e1d3d0276/reliably_cli-0.8.4-py3-none-any.whl
+[2023-07-07 09:16:41] INFO root fetch - processPackages [zbxtool-cfomp]: Downloading https://files.pythonhosted.org/packages/d7/f7/5b055effe9c5650ac3ff3993bd9d1e2077b59cb55512af186bf0ed073c5c/zbxtool-cfomp-0.9.9.tar.gz
+[2023-07-07 09:16:42] INFO root fetch - processPackages [zhei]: executing diffoscope
+[2023-07-07 09:16:42] INFO root fetch - processPackages [zhei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhei-0.0.8.tar.gz tmp/zhei-0.0.9.tar.gz --markdown 20230707/z/zhei/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 09:16:42] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-07-07 09:16:42] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230707/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-07-07 09:16:42] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-07-07 09:16:42] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230707/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-07-07 09:16:42] INFO root fetch - processPackages [nuclia]: Downloading https://files.pythonhosted.org/packages/6c/28/35b40427a69a2cd0a7e258dbe403f6508dd8e122e84b06bcd7d95bf21dd6/nuclia-1.1.1.tar.gz
+[2023-07-07 09:16:42] INFO root fetch - processPackages [openi-test]: executing diffoscope
+[2023-07-07 09:16:42] INFO root fetch - processPackages [openi-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi_test-0.1.6.tar.gz tmp/openi_test-0.1.7.tar.gz --markdown 20230707/o/openi-test/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-07 09:16:42] INFO root fetch - processPackages [spotRiver]: Downloading https://files.pythonhosted.org/packages/ff/40/b883bdb8bbd4701218193d51187228cfe7099f7123bb07a1bd2f32ab1042/spotRiver-0.0.93.tar.gz
+[2023-07-07 09:16:42] INFO root fetch - processPackages [enebootools]: executing diffoscope
+[2023-07-07 09:16:42] INFO root fetch - processPackages [enebootools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enebootools-2.0.8.tar.gz tmp/enebootools-2.0.9.tar.gz --markdown 20230707/e/enebootools/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-07 09:16:42] INFO root fetch - processPackages [nuclia]: executing diffoscope
+[2023-07-07 09:16:42] INFO root fetch - processPackages [nuclia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuclia-1.1.0.tar.gz tmp/nuclia-1.1.1.tar.gz --markdown 20230707/n/nuclia/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-07 09:16:42] INFO root fetch - processPackages [zbxtool-cfomp]: executing diffoscope
+[2023-07-07 09:16:42] INFO root fetch - processPackages [zbxtool-cfomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zbxtool-cfomp-0.9.8.tar.gz tmp/zbxtool-cfomp-0.9.9.tar.gz --markdown 20230707/z/zbxtool-cfomp/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-07 09:16:42] INFO root fetch - processPackages [reliably-cli]: Downloading https://files.pythonhosted.org/packages/5b/89/a792881e1c859234ec67b714c574e5e86580d4da722d4471a26a63b2a6bf/reliably_cli-0.8.5-py3-none-any.whl
+[2023-07-07 09:16:42] INFO root fetch - processPackages [reliably-cli]: executing diffoscope
+[2023-07-07 09:16:42] INFO root fetch - processPackages [reliably-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliably_cli-0.8.4-py3-none-any.whl.zip tmp/reliably_cli-0.8.5-py3-none-any.whl.zip --markdown 20230707/r/reliably-cli/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-07-07 09:16:42] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/c1/07/390f9767ed13e63ef97918ed09945b5501685e21d178f8f10dfc1cd2a54c/oarepo-cli-11.1.9.tar.gz
+[2023-07-07 09:16:42] INFO root fetch - processPackages [spotRiver]: Downloading https://files.pythonhosted.org/packages/38/7d/fce421b2af327293b2489e5e97b84c0397eb7606f7fa0ca76c2cc655c8df/spotRiver-0.0.95.tar.gz
+[2023-07-07 09:16:42] INFO root fetch - processPackages [spotRiver]: executing diffoscope
+[2023-07-07 09:16:42] INFO root fetch - processPackages [spotRiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotRiver-0.0.93.tar.gz tmp/spotRiver-0.0.95.tar.gz --markdown 20230707/s/spotRiver/0.0.93-0.0.95/diff.md --exclude *.pyd
+[2023-07-07 09:16:43] INFO root fetch - processPackages [oarepo-cli]: executing diffoscope
+[2023-07-07 09:16:43] INFO root fetch - processPackages [oarepo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-cli-11.1.8.tar.gz tmp/oarepo-cli-11.1.9.tar.gz --markdown 20230707/o/oarepo-cli/11.1.8-11.1.9/diff.md --exclude *.pyd
+[2023-07-07 09:16:43] INFO root fetch - processPackages [zhei]: Remove: archive file [/home/abi/fetcher/tmp/zhei-0.0.8.tar.gz]
+[2023-07-07 09:16:43] INFO root fetch - processPackages [zhei]: Remove: archive file [/home/abi/fetcher/tmp/zhei-0.0.9.tar.gz]
+[2023-07-07 09:16:43] INFO root fetch - processPackages [zhei]: Start processing: logger-local
+[2023-07-07 09:16:43] INFO root fetch - main [MainThread]: End processing [zhei]: success
+[2023-07-07 09:16:43] INFO root fetch - processPackages [openi-test]: Remove: archive file [/home/abi/fetcher/tmp/openi_test-0.1.6.tar.gz]
+[2023-07-07 09:16:43] INFO root fetch - processPackages [openi-test]: Remove: archive file [/home/abi/fetcher/tmp/openi_test-0.1.7.tar.gz]
+[2023-07-07 09:16:43] INFO root fetch - processPackages [openi-test]: Start processing: zhei
+[2023-07-07 09:16:43] INFO root fetch - main [MainThread]: End processing [openi-test]: success
+[2023-07-07 09:16:43] INFO root fetch - processPackages [logger-local]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-07 09:16:43] INFO root fetch - processPackages [zhei]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 09:16:43] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-07-07 09:16:43] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-07-07 09:16:43] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-07-07 09:16:43] INFO root fetch - processPackages [zhei]: Downloading https://files.pythonhosted.org/packages/fe/e6/d6e9a8571394bc0f3c5f41cc8657e57af493d8f610996864a47c36f29e74/zhei-0.0.8.tar.gz
+[2023-07-07 09:16:43] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/81/a7/0af5488d8022ecdb3af39ce509c87c9e9d41a95c6102865ff3debd2494f0/logger-local-0.0.6.tar.gz
+[2023-07-07 09:16:43] INFO root fetch - processPackages [zbxtool-cfomp]: Remove: archive file [/home/abi/fetcher/tmp/zbxtool-cfomp-0.9.8.tar.gz]
+[2023-07-07 09:16:43] INFO root fetch - processPackages [zbxtool-cfomp]: Remove: archive file [/home/abi/fetcher/tmp/zbxtool-cfomp-0.9.9.tar.gz]
+[2023-07-07 09:16:43] INFO root fetch - main [MainThread]: End processing [zbxtool-cfomp]: success
+[2023-07-07 09:16:43] INFO root fetch - processPackages [nuclia]: Remove: archive file [/home/abi/fetcher/tmp/nuclia-1.1.0.tar.gz]
+[2023-07-07 09:16:43] INFO root fetch - processPackages [nuclia]: Remove: archive file [/home/abi/fetcher/tmp/nuclia-1.1.1.tar.gz]
+[2023-07-07 09:16:43] INFO root fetch - main [MainThread]: End processing [nuclia]: success
+[2023-07-07 09:16:43] INFO root fetch - processPackages [reliably-cli]: Remove: archive file [/home/abi/fetcher/tmp/reliably_cli-0.8.4-py3-none-any.whl.zip]
+[2023-07-07 09:16:43] INFO root fetch - processPackages [reliably-cli]: Remove: archive file [/home/abi/fetcher/tmp/reliably_cli-0.8.5-py3-none-any.whl.zip]
+[2023-07-07 09:16:43] INFO root fetch - main [MainThread]: End processing [reliably-cli]: success
+[2023-07-07 09:16:43] INFO root fetch - processPackages [zhei]: Downloading https://files.pythonhosted.org/packages/d9/f8/741be51eea312a636974b7efa45fc6ce78e84d511b8b44f353639d955c27/zhei-0.0.9.tar.gz
+[2023-07-07 09:16:44] INFO root fetch - processPackages [zhei]: executing diffoscope
+[2023-07-07 09:16:44] INFO root fetch - processPackages [zhei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhei-0.0.8.tar.gz tmp/zhei-0.0.9.tar.gz --markdown 20230707/z/zhei/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 09:16:44] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/d9/f6/e6cea07a3ea249d5f8660d10e36c168be72ed39ad185f8cbfd5365328260/logger-local-0.0.7.tar.gz
+[2023-07-07 09:16:44] INFO root fetch - processPackages [enebootools]: Remove: archive file [/home/abi/fetcher/tmp/enebootools-2.0.8.tar.gz]
+[2023-07-07 09:16:44] INFO root fetch - processPackages [enebootools]: Remove: archive file [/home/abi/fetcher/tmp/enebootools-2.0.9.tar.gz]
+[2023-07-07 09:16:44] INFO root fetch - main [MainThread]: End processing [enebootools]: success
+[2023-07-07 09:16:44] INFO root fetch - processPackages [spotRiver]: Remove: archive file [/home/abi/fetcher/tmp/spotRiver-0.0.93.tar.gz]
+[2023-07-07 09:16:44] INFO root fetch - processPackages [spotRiver]: Remove: archive file [/home/abi/fetcher/tmp/spotRiver-0.0.95.tar.gz]
+[2023-07-07 09:16:44] INFO root fetch - main [MainThread]: End processing [spotRiver]: success
+[2023-07-07 09:16:44] INFO root fetch - processPackages [logger-local]: executing diffoscope
+[2023-07-07 09:16:44] INFO root fetch - processPackages [logger-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger-local-0.0.6.tar.gz tmp/logger-local-0.0.7.tar.gz --markdown 20230707/l/logger-local/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-07 09:16:44] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.8.tar.gz]
+[2023-07-07 09:16:44] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.9.tar.gz]
+[2023-07-07 09:16:44] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-07-07 09:16:44] INFO root fetch - processPackages [zhei]: Remove: archive file [/home/abi/fetcher/tmp/zhei-0.0.8.tar.gz]
+[2023-07-07 09:16:44] INFO root fetch - processPackages [zhei]: Remove: archive file [/home/abi/fetcher/tmp/zhei-0.0.9.tar.gz]
+[2023-07-07 09:16:44] INFO root fetch - main [MainThread]: End processing [zhei]: success
+[2023-07-07 09:16:45] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.6.tar.gz]
+[2023-07-07 09:16:45] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.7.tar.gz]
+[2023-07-07 09:16:45] INFO root fetch - main [MainThread]: End processing [logger-local]: success
+[2023-07-07 09:16:46] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.8.tar.gz]
+[2023-07-07 09:16:46] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.9.tar.gz]
+[2023-07-07 09:16:46] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
+[2023-07-07 09:16:46] INFO root fetch - main [MainThread]: Store serial: [18796808]
