@@ -11315,3 +11315,78 @@ EOFError: EOF read where object expected
 [2023-07-07 06:09:17] INFO root fetch - processPackages [odoo-addon-base-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_maintenance-16.0.1.0.0.3-py3-none-any.whl.zip]
 [2023-07-07 06:09:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-maintenance]: success
 [2023-07-07 06:09:17] INFO root fetch - main [MainThread]: Store serial: [18795765]
+[2023-07-07 06:14:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18795765]
+[2023-07-07 06:14:26] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-07 06:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: supergood
+[2023-07-07 06:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: JoUtil
+[2023-07-07 06:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Hiouk
+[2023-07-07 06:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mindlakesdk
+[2023-07-07 06:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mynacode
+[2023-07-07 06:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bk-crypto-python-sdk
+[2023-07-07 06:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dbt-clickzetta
+[2023-07-07 06:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langchain-ray
+[2023-07-07 06:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sentecon
+[2023-07-07 06:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: reactivated
+[2023-07-07 06:14:27] INFO root fetch - processPackages [bk-crypto-python-sdk]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-07 06:14:27] INFO root fetch - processPackages [reactivated]: New version: [3.0.0a64] Old Version: [0.9.0]
+[2023-07-07 06:14:27] WARNING root fetch - processPackages [Hiouk]: Skipping, unable to determine old version
+[2023-07-07 06:14:27] INFO root fetch - main [MainThread]: End processing [Hiouk] error
+[2023-07-07 06:14:27] INFO root fetch - processPackages [JoUtil]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-07 06:14:27] INFO root fetch - processPackages [mindlakesdk]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-07 06:14:27] WARNING root fetch - processPackages [sentecon]: Skipping, unable to determine old version
+[2023-07-07 06:14:27] INFO root fetch - main [MainThread]: End processing [sentecon] error
+[2023-07-07 06:14:27] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-07 06:14:27] INFO root fetch - processPackages [supergood]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-07 06:14:27] WARNING root fetch - processPackages [langchain-ray]: Skipping, unable to determine old version
+[2023-07-07 06:14:27] INFO root fetch - main [MainThread]: End processing [langchain-ray] error
+[2023-07-07 06:14:27] INFO root fetch - processPackages [dbt-clickzetta]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-07 06:14:27] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-07 06:14:27] INFO root fetch - processPackages [supergood]: Downloading https://files.pythonhosted.org/packages/28/c5/3ab705df57f14777b495ed9b8a66063bb41031ac2e1904bc97a9acd97948/supergood-1.0.8.tar.gz
+[2023-07-07 06:14:27] INFO root fetch - processPackages [reactivated]: Downloading https://files.pythonhosted.org/packages/1a/71/35446a123e19409f94888e6e11acb49110c8ff7c7a45a894cb072e06ec46/reactivated-0.9.0.tar.gz
+[2023-07-07 06:14:27] INFO root fetch - processPackages [bk-crypto-python-sdk]: Downloading https://files.pythonhosted.org/packages/cb/2a/1007e3bfabd3e8f198a6038018ec173c0fd40b6f7d5ff44744ef92c1165d/bk-crypto-python-sdk-1.0.0.tar.gz
+[2023-07-07 06:14:27] INFO root fetch - processPackages [mindlakesdk]: Downloading https://files.pythonhosted.org/packages/dc/2c/9314377a305be2d53cf2f02cbf2826b31ac352d22f114188cae6282066ab/mindlakesdk-1.0.5.tar.gz
+[2023-07-07 06:14:27] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-07 06:14:27] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/09/f0/5a413293e92b4ca0d7431450a7218700efac779c0ce2a94f2b8d575440f2/dbt-clickzetta-0.2.8.tar.gz
+[2023-07-07 06:14:27] INFO root fetch - processPackages [reactivated]: Downloading https://files.pythonhosted.org/packages/bc/d8/5e07e04244e84ca0f743649c1aa5514ec10843e552f82eb830dbb5e7cca7/reactivated-3.0.0a64.tar.gz
+[2023-07-07 06:14:27] INFO root fetch - processPackages [supergood]: Downloading https://files.pythonhosted.org/packages/e0/90/107e6f9e2341cc77260c782fc2d59e333377258cf316bda0948a905e1413/supergood-1.0.9.tar.gz
+[2023-07-07 06:14:27] INFO root fetch - processPackages [JoUtil]: Downloading https://files.pythonhosted.org/packages/ea/4d/aa19ec88e42cc5880e44a28fdec33cc6bbaf9dd095fd6a55104695c3e41a/JoUtil-1.3.2-py3-none-any.whl
+[2023-07-07 06:14:27] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-07 06:14:27] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230707/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-07 06:14:27] INFO root fetch - processPackages [bk-crypto-python-sdk]: Downloading https://files.pythonhosted.org/packages/8f/db/d0d744397ecc61beefdcacfe3531bdb93e4c7d1b94d30de51034f8f49be5/bk-crypto-python-sdk-1.0.1.tar.gz
+[2023-07-07 06:14:27] INFO root fetch - processPackages [supergood]: executing diffoscope
+[2023-07-07 06:14:27] INFO root fetch - processPackages [supergood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supergood-1.0.8.tar.gz tmp/supergood-1.0.9.tar.gz --markdown 20230707/s/supergood/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-07 06:14:27] INFO root fetch - processPackages [reactivated]: executing diffoscope
+[2023-07-07 06:14:27] INFO root fetch - processPackages [reactivated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reactivated-0.9.0.tar.gz tmp/reactivated-3.0.0a64.tar.gz --markdown 20230707/r/reactivated/0.9.0-3.0.0a64/diff.md --exclude *.pyd
+[2023-07-07 06:14:28] INFO root fetch - processPackages [mindlakesdk]: Downloading https://files.pythonhosted.org/packages/a2/26/c7fd43968e9c375671605cf9a686cfaf6f7f5ee886d6a52d77430b45f93f/mindlakesdk-1.0.6.tar.gz
+[2023-07-07 06:14:28] INFO root fetch - processPackages [bk-crypto-python-sdk]: executing diffoscope
+[2023-07-07 06:14:28] INFO root fetch - processPackages [bk-crypto-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bk-crypto-python-sdk-1.0.0.tar.gz tmp/bk-crypto-python-sdk-1.0.1.tar.gz --markdown 20230707/b/bk-crypto-python-sdk/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-07 06:14:28] INFO root fetch - processPackages [mindlakesdk]: executing diffoscope
+[2023-07-07 06:14:28] INFO root fetch - processPackages [mindlakesdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindlakesdk-1.0.5.tar.gz tmp/mindlakesdk-1.0.6.tar.gz --markdown 20230707/m/mindlakesdk/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-07 06:14:28] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/c1/14/85271f2139ff454c5ff9bcefec81d708e59f4ed0230702dafe1a5b557869/dbt-clickzetta-0.2.9.tar.gz
+[2023-07-07 06:14:28] INFO root fetch - processPackages [dbt-clickzetta]: executing diffoscope
+[2023-07-07 06:14:28] INFO root fetch - processPackages [dbt-clickzetta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-clickzetta-0.2.8.tar.gz tmp/dbt-clickzetta-0.2.9.tar.gz --markdown 20230707/d/dbt-clickzetta/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-07 06:14:28] INFO root fetch - processPackages [JoUtil]: Downloading https://files.pythonhosted.org/packages/0f/c0/101228497753c130ccbf962b3885b868de6b9910d83acd98faf4c33b2a36/JoUtil-1.3.3-py3-none-any.whl
+[2023-07-07 06:14:28] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-07-07 06:14:28] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-07-07 06:14:28] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-07 06:14:29] INFO root fetch - processPackages [supergood]: Remove: archive file [/home/abi/fetcher/tmp/supergood-1.0.8.tar.gz]
+[2023-07-07 06:14:29] INFO root fetch - processPackages [supergood]: Remove: archive file [/home/abi/fetcher/tmp/supergood-1.0.9.tar.gz]
+[2023-07-07 06:14:29] INFO root fetch - main [MainThread]: End processing [supergood]: success
+[2023-07-07 06:14:29] INFO root fetch - processPackages [JoUtil]: executing diffoscope
+[2023-07-07 06:14:29] INFO root fetch - processPackages [JoUtil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JoUtil-1.3.2-py3-none-any.whl.zip tmp/JoUtil-1.3.3-py3-none-any.whl.zip --markdown 20230707/J/JoUtil/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-07 06:14:29] INFO root fetch - processPackages [reactivated]: Remove: archive file [/home/abi/fetcher/tmp/reactivated-0.9.0.tar.gz]
+[2023-07-07 06:14:29] INFO root fetch - processPackages [reactivated]: Remove: archive file [/home/abi/fetcher/tmp/reactivated-3.0.0a64.tar.gz]
+[2023-07-07 06:14:29] INFO root fetch - main [MainThread]: End processing [reactivated]: success
+[2023-07-07 06:14:29] INFO root fetch - processPackages [bk-crypto-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bk-crypto-python-sdk-1.0.0.tar.gz]
+[2023-07-07 06:14:29] INFO root fetch - processPackages [bk-crypto-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bk-crypto-python-sdk-1.0.1.tar.gz]
+[2023-07-07 06:14:29] INFO root fetch - main [MainThread]: End processing [bk-crypto-python-sdk]: success
+[2023-07-07 06:14:29] INFO root fetch - processPackages [mindlakesdk]: Remove: archive file [/home/abi/fetcher/tmp/mindlakesdk-1.0.5.tar.gz]
+[2023-07-07 06:14:29] INFO root fetch - processPackages [mindlakesdk]: Remove: archive file [/home/abi/fetcher/tmp/mindlakesdk-1.0.6.tar.gz]
+[2023-07-07 06:14:29] INFO root fetch - main [MainThread]: End processing [mindlakesdk]: success
+[2023-07-07 06:14:29] INFO root fetch - processPackages [dbt-clickzetta]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickzetta-0.2.8.tar.gz]
+[2023-07-07 06:14:29] INFO root fetch - processPackages [dbt-clickzetta]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickzetta-0.2.9.tar.gz]
+[2023-07-07 06:14:29] INFO root fetch - main [MainThread]: End processing [dbt-clickzetta]: success
+[2023-07-07 06:14:30] INFO root fetch - processPackages [JoUtil]: Remove: archive file [/home/abi/fetcher/tmp/JoUtil-1.3.2-py3-none-any.whl.zip]
+[2023-07-07 06:14:30] INFO root fetch - processPackages [JoUtil]: Remove: archive file [/home/abi/fetcher/tmp/JoUtil-1.3.3-py3-none-any.whl.zip]
+[2023-07-07 06:14:30] INFO root fetch - main [MainThread]: End processing [JoUtil]: success
+[2023-07-07 06:14:30] INFO root fetch - main [MainThread]: Store serial: [18795793]
