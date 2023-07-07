@@ -9561,3 +9561,60 @@ EOFError: EOF read where object expected
 [2023-07-07 04:09:11] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
 [2023-07-07 04:09:11] INFO root fetch - main [MainThread]: End processing [hak]: success
 [2023-07-07 04:09:11] INFO root fetch - main [MainThread]: Store serial: [18795131]
+[2023-07-07 04:14:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18795131]
+[2023-07-07 04:14:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-07 04:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hf-deepali
+[2023-07-07 04:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: homeassistant-stubs
+[2023-07-07 04:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: activeconfigprogramoptions
+[2023-07-07 04:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ai2-kit
+[2023-07-07 04:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mds3-kgraph
+[2023-07-07 04:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: VisCPM
+[2023-07-07 04:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: abnosql
+[2023-07-07 04:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sefazetllib
+[2023-07-07 04:14:20] INFO root fetch - processPackages [hf-deepali]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-07 04:14:20] INFO root fetch - processPackages [ai2-kit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-07 04:14:20] WARNING root fetch - processPackages [VisCPM]: Skipping, unable to determine old version
+[2023-07-07 04:14:20] INFO root fetch - main [MainThread]: End processing [VisCPM] error
+[2023-07-07 04:14:20] WARNING root fetch - processPackages [mds3-kgraph]: Skipping, unable to determine old version
+[2023-07-07 04:14:20] INFO root fetch - main [MainThread]: End processing [mds3-kgraph] error
+[2023-07-07 04:14:20] INFO root fetch - processPackages [abnosql]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-07 04:14:20] INFO root fetch - processPackages [sefazetllib]: New version: [0.1.41] Old Version: [0.1.40]
+[2023-07-07 04:14:20] WARNING root fetch - processPackages [activeconfigprogramoptions]: Skipping, unable to determine old version
+[2023-07-07 04:14:20] INFO root fetch - main [MainThread]: End processing [activeconfigprogramoptions] error
+[2023-07-07 04:14:20] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2023.7.1] Old Version: [2023.7.0b6]
+[2023-07-07 04:14:20] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/eb/f4/ea38d8c9f78873edcbb17216f185baee2019ecb183cd80b334c593f2b1bc/ai2_kit-0.3.8.tar.gz
+[2023-07-07 04:14:20] INFO root fetch - processPackages [sefazetllib]: Downloading https://files.pythonhosted.org/packages/71/86/61055a01b91988d90d6f940fc6184bbcb60840b09f82217493a82bb349ba/sefazetllib-0.1.40.tar.gz
+[2023-07-07 04:14:20] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/0d/42/83fc9ef8aab42e8d32ec2a319701fece0a7b1ec413f6cc59c81ff723b383/homeassistant_stubs-2023.7.0b6.tar.gz
+[2023-07-07 04:14:21] INFO root fetch - processPackages [hf-deepali]: Downloading https://files.pythonhosted.org/packages/01/07/702dfc3f6760239ab904f577835e42b5a36a25799cde8007de708d1b31a2/hf-deepali-0.3.1.tar.gz
+[2023-07-07 04:14:21] INFO root fetch - processPackages [abnosql]: Downloading https://files.pythonhosted.org/packages/29/74/751a5f41172bc95e59df089929200c37ab5dc2a202402eeb7f21977b5647/abnosql-0.0.1.tar.gz
+[2023-07-07 04:14:21] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/f8/ec/3044fde579418570279eb9f4c2d60facdbd573ed724ec7fa07e3a4c940aa/ai2_kit-0.3.9.tar.gz
+[2023-07-07 04:14:21] INFO root fetch - processPackages [abnosql]: Downloading https://files.pythonhosted.org/packages/a5/fe/c8d812f3a2480b7cac87ebcab6f44eae59dcb543faec854f170e8a709b29/abnosql-0.0.2.tar.gz
+[2023-07-07 04:14:21] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2023-07-07 04:14:21] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.3.8.tar.gz tmp/ai2_kit-0.3.9.tar.gz --markdown 20230707/a/ai2-kit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-07 04:14:21] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/a7/3d/3994ba07bd75769da1f4af7ef7927f9ab0bfafdc894f4d0062f1f38ca038/homeassistant_stubs-2023.7.1.tar.gz
+[2023-07-07 04:14:21] INFO root fetch - processPackages [sefazetllib]: Downloading https://files.pythonhosted.org/packages/d5/ed/5a0a667a2002c6e3dc17e66f5fd0201dace9ce3ba00d78cef728762d9fcb/sefazetllib-0.1.41.tar.gz
+[2023-07-07 04:14:21] INFO root fetch - processPackages [hf-deepali]: Downloading https://files.pythonhosted.org/packages/4c/c5/dbdbe9798e65eb84402a243c2578ec91defc90c2d6eba5ee346d868c5671/hf-deepali-0.3.2.tar.gz
+[2023-07-07 04:14:21] INFO root fetch - processPackages [abnosql]: executing diffoscope
+[2023-07-07 04:14:21] INFO root fetch - processPackages [abnosql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abnosql-0.0.1.tar.gz tmp/abnosql-0.0.2.tar.gz --markdown 20230707/a/abnosql/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-07 04:14:21] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2023-07-07 04:14:21] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2023.7.0b6.tar.gz tmp/homeassistant_stubs-2023.7.1.tar.gz --markdown 20230707/h/homeassistant-stubs/2023.7.0b6-2023.7.1/diff.md --exclude *.pyd
+[2023-07-07 04:14:21] INFO root fetch - processPackages [hf-deepali]: executing diffoscope
+[2023-07-07 04:14:21] INFO root fetch - processPackages [hf-deepali]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hf-deepali-0.3.1.tar.gz tmp/hf-deepali-0.3.2.tar.gz --markdown 20230707/h/hf-deepali/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-07 04:14:21] INFO root fetch - processPackages [sefazetllib]: executing diffoscope
+[2023-07-07 04:14:21] INFO root fetch - processPackages [sefazetllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sefazetllib-0.1.40.tar.gz tmp/sefazetllib-0.1.41.tar.gz --markdown 20230707/s/sefazetllib/0.1.40-0.1.41/diff.md --exclude *.pyd
+[2023-07-07 04:14:22] INFO root fetch - processPackages [abnosql]: Remove: archive file [/home/abi/fetcher/tmp/abnosql-0.0.1.tar.gz]
+[2023-07-07 04:14:22] INFO root fetch - processPackages [abnosql]: Remove: archive file [/home/abi/fetcher/tmp/abnosql-0.0.2.tar.gz]
+[2023-07-07 04:14:22] INFO root fetch - main [MainThread]: End processing [abnosql]: success
+[2023-07-07 04:14:22] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.8.tar.gz]
+[2023-07-07 04:14:22] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.9.tar.gz]
+[2023-07-07 04:14:22] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2023-07-07 04:14:22] INFO root fetch - processPackages [sefazetllib]: Remove: archive file [/home/abi/fetcher/tmp/sefazetllib-0.1.40.tar.gz]
+[2023-07-07 04:14:22] INFO root fetch - processPackages [sefazetllib]: Remove: archive file [/home/abi/fetcher/tmp/sefazetllib-0.1.41.tar.gz]
+[2023-07-07 04:14:22] INFO root fetch - main [MainThread]: End processing [sefazetllib]: success
+[2023-07-07 04:14:23] INFO root fetch - processPackages [hf-deepali]: Remove: archive file [/home/abi/fetcher/tmp/hf-deepali-0.3.1.tar.gz]
+[2023-07-07 04:14:23] INFO root fetch - processPackages [hf-deepali]: Remove: archive file [/home/abi/fetcher/tmp/hf-deepali-0.3.2.tar.gz]
+[2023-07-07 04:14:23] INFO root fetch - main [MainThread]: End processing [hf-deepali]: success
+[2023-07-07 04:14:37] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.7.0b6.tar.gz]
+[2023-07-07 04:14:37] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.7.1.tar.gz]
+[2023-07-07 04:14:37] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2023-07-07 04:14:37] INFO root fetch - main [MainThread]: Store serial: [18795159]
