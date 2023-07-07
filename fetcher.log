@@ -14688,3 +14688,124 @@ EOFError: EOF read where object expected
 [2023-07-07 09:48:28] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230707074511.tar.gz]
 [2023-07-07 09:48:28] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-07-07 09:48:28] INFO root fetch - main [MainThread]: Store serial: [18797094]
+[2023-07-07 09:53:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18797094]
+[2023-07-07 09:53:38] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-07 09:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyciactions
+[2023-07-07 09:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mkdocs-zip-folders
+[2023-07-07 09:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygenda
+[2023-07-07 09:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: databricks-connect
+[2023-07-07 09:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keras-nightly
+[2023-07-07 09:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: utilsd
+[2023-07-07 09:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xpyutils
+[2023-07-07 09:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openi-test
+[2023-07-07 09:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fipper
+[2023-07-07 09:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dbt-clickzetta
+[2023-07-07 09:53:38] INFO root fetch - processPackages [pyciactions]: New version: [1.0.9] Old Version: [1.0.8a8]
+[2023-07-07 09:53:38] INFO root fetch - processPackages [pygenda]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-07 09:53:38] INFO root fetch - processPackages [dbt-clickzetta]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-07 09:53:38] INFO root fetch - processPackages [fipper]: New version: [0.0.6.dev3] Old Version: [0.0.6.dev2]
+[2023-07-07 09:53:38] INFO root fetch - processPackages [utilsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 09:53:38] WARNING root fetch - processPackages [mkdocs-zip-folders]: Skipping, unable to determine old version
+[2023-07-07 09:53:38] INFO root fetch - processPackages [mkdocs-zip-folders]: Start processing: fyers-sdk
+[2023-07-07 09:53:38] INFO root fetch - processPackages [xpyutils]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-07 09:53:38] INFO root fetch - main [MainThread]: End processing [mkdocs-zip-folders] error
+[2023-07-07 09:53:38] INFO root fetch - processPackages [databricks-connect]: New version: [9.1.42] Old Version: [9.1.41]
+[2023-07-07 09:53:38] INFO root fetch - processPackages [openi-test]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-07 09:53:38] WARNING root fetch - processPackages [fyers-sdk]: Skipping, unable to determine old version
+[2023-07-07 09:53:38] INFO root fetch - processPackages [fyers-sdk]: Start processing: trajMap
+[2023-07-07 09:53:38] INFO root fetch - main [MainThread]: End processing [fyers-sdk] error
+[2023-07-07 09:53:38] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-07-07 09:53:38] INFO root fetch - processPackages [trajMap]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-07 09:53:38] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/4f/f3/3f4bce0f1e4c09bf27f8534421b31f53514ec81a4b706ba66930ae207c9f/pyciactions-1.0.8a8.tar.gz
+[2023-07-07 09:53:38] INFO root fetch - processPackages [fipper]: Downloading https://files.pythonhosted.org/packages/bd/49/800976ceb3f7d1c6502da65d7302b5f4fe20e2bfe2293f5ef1ab0cd3ac34/fipper-0.0.6.dev2.tar.gz
+[2023-07-07 09:53:38] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/09/f0/5a413293e92b4ca0d7431450a7218700efac779c0ce2a94f2b8d575440f2/dbt-clickzetta-0.2.8.tar.gz
+[2023-07-07 09:53:38] INFO root fetch - processPackages [xpyutils]: Downloading https://files.pythonhosted.org/packages/91/b8/f331ed7bf5681a87ffb54582cbfe80d1e8c6d9d14168d7a20bcb9b79bbe5/xpyutils-0.0.2.tar.gz
+[2023-07-07 09:53:38] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-07-07 09:53:38] INFO root fetch - processPackages [pygenda]: Downloading https://files.pythonhosted.org/packages/b4/d5/cc53067270bd0d4e104cc33d6075e24fc9beb22f000a599ec760c15c5999/pygenda-0.2.7.tar.gz
+[2023-07-07 09:53:38] INFO root fetch - processPackages [utilsd]: Downloading https://files.pythonhosted.org/packages/1f/d3/0156c60c211c6f3a5689d1b72d8579bfab24c18956ab0a776db8391765e7/utilsd-0.0.8.tar.gz
+[2023-07-07 09:53:38] INFO root fetch - processPackages [openi-test]: Downloading https://files.pythonhosted.org/packages/72/61/8a91e49d8ff75984d2bf3c15d43844eacd346b7c5af5a494155c4c6e9775/openi_test-0.2.2.tar.gz
+[2023-07-07 09:53:38] INFO root fetch - processPackages [databricks-connect]: Downloading https://files.pythonhosted.org/packages/85/29/eb7a94a161d254578d2db8677fa5e0c7ab9e1aaea6c42013342f1eb50b23/databricks-connect-9.1.41.tar.gz
+[2023-07-07 09:53:38] INFO root fetch - processPackages [trajMap]: Downloading https://files.pythonhosted.org/packages/bb/b7/02d6375ad23ab5fc6c2144a8315b961cc96904ea1461c8bb78666cb9f208/trajMap-0.0.7.tar.gz
+[2023-07-07 09:53:38] WARNING root fetch - processPackages [databricks-connect]: Skipping package: exceeds size limit 257228549>=10485760
+[2023-07-07 09:53:38] INFO root fetch - processPackages [databricks-connect]: Start processing: optimum-habana
+[2023-07-07 09:53:38] INFO root fetch - main [MainThread]: End processing [databricks-connect] error
+[2023-07-07 09:53:39] INFO root fetch - processPackages [optimum-habana]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-07-07 09:53:39] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/31/76/449e2f9925c75cb9cae72fcc6ebcb769640e519cf941ad29cee965d3ac35/pyciactions-1.0.9.tar.gz
+[2023-07-07 09:53:39] WARNING root fetch - processPackages [trajMap]: Skipping package: exceeds size limit 63063578>=10485760
+[2023-07-07 09:53:39] INFO root fetch - processPackages [trajMap]: Start processing: tf-nightly-cpu
+[2023-07-07 09:53:39] INFO root fetch - main [MainThread]: End processing [trajMap] error
+[2023-07-07 09:53:39] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/c1/14/85271f2139ff454c5ff9bcefec81d708e59f4ed0230702dafe1a5b557869/dbt-clickzetta-0.2.9.tar.gz
+[2023-07-07 09:53:39] INFO root fetch - processPackages [xpyutils]: Downloading https://files.pythonhosted.org/packages/0f/f9/104a05c96ae535649f26fd1ede0e2be12f335d2ae6a3d299f140c5af3331/xpyutils-0.0.3.tar.gz
+[2023-07-07 09:53:39] INFO root fetch - processPackages [pyciactions]: executing diffoscope
+[2023-07-07 09:53:39] INFO root fetch - processPackages [pyciactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyciactions-1.0.8a8.tar.gz tmp/pyciactions-1.0.9.tar.gz --markdown 20230707/p/pyciactions/1.0.8a8-1.0.9/diff.md --exclude *.pyd
+[2023-07-07 09:53:39] INFO root fetch - processPackages [fipper]: Downloading https://files.pythonhosted.org/packages/5a/43/9dbdf76585cfd31b4917301fc84cd673ab2b53c0a3966e41d71027b099eb/fipper-0.0.6.dev3.tar.gz
+[2023-07-07 09:53:39] INFO root fetch - processPackages [pygenda]: Downloading https://files.pythonhosted.org/packages/4a/cd/8c9080918c1760e0bc1327ed199dbea562868d5ec4478cb2c25486083312/pygenda-0.2.8.tar.gz
+[2023-07-07 09:53:39] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230707] Old Version: [2.14.0.dev20230706]
+[2023-07-07 09:53:39] INFO root fetch - processPackages [openi-test]: Downloading https://files.pythonhosted.org/packages/e3/04/de8ba806ccfbf4c118492279580e644b62633c4332902ff04585939328a2/openi_test-0.2.3.tar.gz
+[2023-07-07 09:53:39] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-07-07 09:53:39] INFO root fetch - processPackages [dbt-clickzetta]: executing diffoscope
+[2023-07-07 09:53:39] INFO root fetch - processPackages [dbt-clickzetta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-clickzetta-0.2.8.tar.gz tmp/dbt-clickzetta-0.2.9.tar.gz --markdown 20230707/d/dbt-clickzetta/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-07 09:53:39] INFO root fetch - processPackages [optimum-habana]: Downloading https://files.pythonhosted.org/packages/68/25/c9845c2c653da17d6812d61711083cfa3ec28f0edfa600a3e629b9dd11c9/optimum-habana-1.6.0.tar.gz
+[2023-07-07 09:53:39] INFO root fetch - processPackages [utilsd]: Downloading https://files.pythonhosted.org/packages/5a/f8/29e1d1e3500d478588d2858f0f42f1c3ee6a05bd8ac3fd1fb9679026447e/utilsd-0.0.9.tar.gz
+[2023-07-07 09:53:39] INFO root fetch - processPackages [xpyutils]: executing diffoscope
+[2023-07-07 09:53:39] INFO root fetch - processPackages [xpyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpyutils-0.0.2.tar.gz tmp/xpyutils-0.0.3.tar.gz --markdown 20230707/x/xpyutils/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-07 09:53:39] INFO root fetch - processPackages [pygenda]: executing diffoscope
+[2023-07-07 09:53:39] INFO root fetch - processPackages [pygenda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygenda-0.2.7.tar.gz tmp/pygenda-0.2.8.tar.gz --markdown 20230707/p/pygenda/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-07 09:53:39] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-07-07 09:53:39] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230707/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-07-07 09:53:39] INFO root fetch - processPackages [openi-test]: executing diffoscope
+[2023-07-07 09:53:39] INFO root fetch - processPackages [openi-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi_test-0.2.2.tar.gz tmp/openi_test-0.2.3.tar.gz --markdown 20230707/o/openi-test/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-07 09:53:39] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/45/3e/3f77b9eeee94d488853ba641c28415308e224a10cc5e19d10bf85d8ca490/tf_nightly_cpu-2.14.0.dev20230706-cp39-cp39-win_amd64.whl
+[2023-07-07 09:53:39] INFO root fetch - processPackages [utilsd]: executing diffoscope
+[2023-07-07 09:53:39] INFO root fetch - processPackages [utilsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utilsd-0.0.8.tar.gz tmp/utilsd-0.0.9.tar.gz --markdown 20230707/u/utilsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 09:53:39] INFO root fetch - processPackages [fipper]: executing diffoscope
+[2023-07-07 09:53:39] INFO root fetch - processPackages [fipper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fipper-0.0.6.dev2.tar.gz tmp/fipper-0.0.6.dev3.tar.gz --markdown 20230707/f/fipper/0.0.6.dev2-0.0.6.dev3/diff.md --exclude *.pyd
+[2023-07-07 09:53:39] INFO root fetch - processPackages [optimum-habana]: Downloading https://files.pythonhosted.org/packages/c7/a3/5ba563b59d726662d89ce6552c9a7370b6d8969b79dee5a64be6363adf4e/optimum-habana-1.6.1.tar.gz
+[2023-07-07 09:53:40] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/52/c5/0a13d27a1bb86acfcfef66fc3d0878155614436ab68e43027d59812ff1d3/tf_nightly_cpu-2.14.0.dev20230707-cp39-cp39-win_amd64.whl
+[2023-07-07 09:53:40] INFO root fetch - processPackages [optimum-habana]: executing diffoscope
+[2023-07-07 09:53:40] INFO root fetch - processPackages [optimum-habana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimum-habana-1.6.0.tar.gz tmp/optimum-habana-1.6.1.tar.gz --markdown 20230707/o/optimum-habana/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-07-07 09:53:40] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-07-07 09:53:40] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230706-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230707-cp39-cp39-win_amd64.whl.zip --markdown 20230707/t/tf-nightly-cpu/2.14.0.dev20230706-2.14.0.dev20230707/diff.md --exclude *.pyd
+[2023-07-07 09:53:40] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.8a8.tar.gz]
+[2023-07-07 09:53:40] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.9.tar.gz]
+[2023-07-07 09:53:40] INFO root fetch - processPackages [pyciactions]: Start processing: bullhorn
+[2023-07-07 09:53:40] INFO root fetch - main [MainThread]: End processing [pyciactions]: success
+[2023-07-07 09:53:40] WARNING root fetch - processPackages [bullhorn]: Skipping, unable to determine old version
+[2023-07-07 09:53:40] INFO root fetch - processPackages [bullhorn]: Start processing: vfsfusepy
+[2023-07-07 09:53:40] INFO root fetch - main [MainThread]: End processing [bullhorn] error
+[2023-07-07 09:53:40] INFO root fetch - processPackages [vfsfusepy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-07 09:53:40] INFO root fetch - processPackages [vfsfusepy]: Downloading https://files.pythonhosted.org/packages/e0/25/0b4fa405d3574501aaa686eb981365a778baff438b9eaebb8b7816c863cf/vfsfusepy-0.1.0.tar.gz
+[2023-07-07 09:53:40] INFO root fetch - processPackages [dbt-clickzetta]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickzetta-0.2.8.tar.gz]
+[2023-07-07 09:53:40] INFO root fetch - processPackages [dbt-clickzetta]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickzetta-0.2.9.tar.gz]
+[2023-07-07 09:53:40] INFO root fetch - main [MainThread]: End processing [dbt-clickzetta]: success
+[2023-07-07 09:53:40] INFO root fetch - processPackages [xpyutils]: Remove: archive file [/home/abi/fetcher/tmp/xpyutils-0.0.2.tar.gz]
+[2023-07-07 09:53:40] INFO root fetch - processPackages [xpyutils]: Remove: archive file [/home/abi/fetcher/tmp/xpyutils-0.0.3.tar.gz]
+[2023-07-07 09:53:40] INFO root fetch - main [MainThread]: End processing [xpyutils]: success
+[2023-07-07 09:53:41] INFO root fetch - processPackages [vfsfusepy]: Downloading https://files.pythonhosted.org/packages/fd/5b/bb648185c52db9db6ed98974013eeb0783c0b073d152c8eae727ff3934be/vfsfusepy-0.1.1.tar.gz
+[2023-07-07 09:53:41] INFO root fetch - processPackages [openi-test]: Remove: archive file [/home/abi/fetcher/tmp/openi_test-0.2.2.tar.gz]
+[2023-07-07 09:53:41] INFO root fetch - processPackages [openi-test]: Remove: archive file [/home/abi/fetcher/tmp/openi_test-0.2.3.tar.gz]
+[2023-07-07 09:53:41] INFO root fetch - main [MainThread]: End processing [openi-test]: success
+[2023-07-07 09:53:41] INFO root fetch - processPackages [vfsfusepy]: executing diffoscope
+[2023-07-07 09:53:41] INFO root fetch - processPackages [vfsfusepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vfsfusepy-0.1.0.tar.gz tmp/vfsfusepy-0.1.1.tar.gz --markdown 20230707/v/vfsfusepy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-07 09:53:41] INFO root fetch - processPackages [utilsd]: Remove: archive file [/home/abi/fetcher/tmp/utilsd-0.0.8.tar.gz]
+[2023-07-07 09:53:41] INFO root fetch - processPackages [utilsd]: Remove: archive file [/home/abi/fetcher/tmp/utilsd-0.0.9.tar.gz]
+[2023-07-07 09:53:41] INFO root fetch - main [MainThread]: End processing [utilsd]: success
+[2023-07-07 09:53:41] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230706-cp39-cp39-win_amd64.whl.zip]
+[2023-07-07 09:53:41] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230707-cp39-cp39-win_amd64.whl.zip]
+[2023-07-07 09:53:41] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-07-07 09:53:41] INFO root fetch - processPackages [pygenda]: Remove: archive file [/home/abi/fetcher/tmp/pygenda-0.2.7.tar.gz]
+[2023-07-07 09:53:41] INFO root fetch - processPackages [pygenda]: Remove: archive file [/home/abi/fetcher/tmp/pygenda-0.2.8.tar.gz]
+[2023-07-07 09:53:41] INFO root fetch - main [MainThread]: End processing [pygenda]: success
+[2023-07-07 09:53:41] INFO root fetch - processPackages [optimum-habana]: Remove: archive file [/home/abi/fetcher/tmp/optimum-habana-1.6.0.tar.gz]
+[2023-07-07 09:53:41] INFO root fetch - processPackages [optimum-habana]: Remove: archive file [/home/abi/fetcher/tmp/optimum-habana-1.6.1.tar.gz]
+[2023-07-07 09:53:41] INFO root fetch - main [MainThread]: End processing [optimum-habana]: success
+[2023-07-07 09:53:42] INFO root fetch - processPackages [vfsfusepy]: Remove: archive file [/home/abi/fetcher/tmp/vfsfusepy-0.1.0.tar.gz]
+[2023-07-07 09:53:42] INFO root fetch - processPackages [vfsfusepy]: Remove: archive file [/home/abi/fetcher/tmp/vfsfusepy-0.1.1.tar.gz]
+[2023-07-07 09:53:42] INFO root fetch - main [MainThread]: End processing [vfsfusepy]: success
+[2023-07-07 09:53:43] INFO root fetch - processPackages [fipper]: Remove: archive file [/home/abi/fetcher/tmp/fipper-0.0.6.dev2.tar.gz]
+[2023-07-07 09:53:43] INFO root fetch - processPackages [fipper]: Remove: archive file [/home/abi/fetcher/tmp/fipper-0.0.6.dev3.tar.gz]
+[2023-07-07 09:53:43] INFO root fetch - main [MainThread]: End processing [fipper]: success
+[2023-07-07 09:53:43] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-07-07 09:53:43] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-07-07 09:53:43] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-07-07 09:53:43] INFO root fetch - main [MainThread]: Store serial: [18797145]
