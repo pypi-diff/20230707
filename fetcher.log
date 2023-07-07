@@ -5204,3 +5204,99 @@ EOFError: EOF read where object expected
 [2023-07-07 03:01:35] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.2.3.dev3-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
 [2023-07-07 03:01:35] INFO root fetch - main [MainThread]: End processing [composabl-ray-dev]: success
 [2023-07-07 03:01:35] INFO root fetch - main [MainThread]: Store serial: [18793573]
+[2023-07-07 03:06:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18793573]
+[2023-07-07 03:06:52] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-07 03:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cryptographyComplements
+[2023-07-07 03:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asyncpg
+[2023-07-07 03:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: numalogic-prometheus
+[2023-07-07 03:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airbyte
+[2023-07-07 03:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coiled
+[2023-07-07 03:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yplib
+[2023-07-07 03:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-organizations
+[2023-07-07 03:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-databrew-cicd
+[2023-07-07 03:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tccli-intl-en
+[2023-07-07 03:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-material-admin-plus
+[2023-07-07 03:06:52] WARNING root fetch - processPackages [django-material-admin-plus]: Skipping, unable to determine old version
+[2023-07-07 03:06:52] INFO root fetch - processPackages [django-material-admin-plus]: Start processing: hoppr-nexus-bundler
+[2023-07-07 03:06:52] INFO root fetch - main [MainThread]: End processing [django-material-admin-plus] error
+[2023-07-07 03:06:52] INFO root fetch - processPackages [cryptographyComplements]: New version: [0.3.0.1] Old Version: [0.3.0]
+[2023-07-07 03:06:52] INFO root fetch - processPackages [airbyte]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-07-07 03:06:52] INFO root fetch - processPackages [numalogic-prometheus]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-07 03:06:52] INFO root fetch - processPackages [hoppr-nexus-bundler]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-07 03:06:52] INFO root fetch - processPackages [yplib]: New version: [2.3.3] Old Version: [2.3.2]
+[2023-07-07 03:06:52] INFO root fetch - processPackages [asyncpg]: New version: [0.9.0.dev1] Old Version: [0.9.0]
+[2023-07-07 03:06:52] INFO root fetch - processPackages [tccli-intl-en]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-07-07 03:06:52] INFO root fetch - processPackages [coiled]: New version: [0.8.4.dev8] Old Version: [0.8.4.dev7]
+[2023-07-07 03:06:52] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-07 03:06:52] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-07 03:06:52] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/7b/03/99f4d77013ccc911c9323bdf1a1392dfcf1a4dbcd27db798e2a6c667a978/yplib-2.3.2.tar.gz
+[2023-07-07 03:06:52] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/95/09/eea230e893ab55370e867c76f081945c8f60016ebdb0b385d9f077a4fc0c/airbyte-1.9.2.tar.gz
+[2023-07-07 03:06:52] INFO root fetch - processPackages [hoppr-nexus-bundler]: Downloading https://files.pythonhosted.org/packages/39/77/7e6d2a56238f82b552aabcb3ce6b28efae70421ec92aa6999d9bc80d1226/hoppr_nexus_bundler-0.4.8.tar.gz
+[2023-07-07 03:06:52] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/f1/30/41af4d3a9dae71d94a6518cc57186cc8cf5a5b38d29a6a50861712b42078/tccli-intl-en-3.0.98.1.tar.gz
+[2023-07-07 03:06:52] INFO root fetch - processPackages [cryptographyComplements]: Downloading https://files.pythonhosted.org/packages/a9/67/837eed1eeae7606072e18a3ed82afb58d53bc26ccddda928921e11ecbef2/cryptographyComplements-0.3.0.tar.gz
+[2023-07-07 03:06:52] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/b9/fe/9109597e2edebc7f3459d36fef92f8b701d2c14b800cfa9bfee4d3c35155/coiled-0.8.4.dev7.tar.gz
+[2023-07-07 03:06:52] INFO root fetch - processPackages [numalogic-prometheus]: Downloading https://files.pythonhosted.org/packages/9b/95/22e89f5ed7f130e3a35f5f76e6714b1fb36f2e17f324bf5a4a8a6b8eee16/numalogic_prometheus-0.4.8.tar.gz
+[2023-07-07 03:06:52] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-07-07 03:06:52] INFO root fetch - processPackages [asyncpg]: Downloading https://files.pythonhosted.org/packages/4e/d9/942231219d4f576c45a1ad9903b2a8dad70706ab47819a55b25ddc8736a4/asyncpg-0.9.0.tar.gz
+[2023-07-07 03:06:52] INFO root fetch - processPackages [hoppr-nexus-bundler]: Downloading https://files.pythonhosted.org/packages/ee/b9/8881e5dce1a89254fdcee37c3a94ef322a8000030b58c179465d6b91ddd1/hoppr_nexus_bundler-0.4.9.tar.gz
+[2023-07-07 03:06:52] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/c8/0f/877b6add49894978bf75b52f0cac1579d618edd3403e2547fc5a23f4705e/airbyte-1.9.3.tar.gz
+[2023-07-07 03:06:53] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/9d/07/52c91815cdc27e8f06aab9caa5a7fd2942e0d16512ea9cfcf3f84d077393/yplib-2.3.3.tar.gz
+[2023-07-07 03:06:53] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-07-07 03:06:53] INFO root fetch - processPackages [cryptographyComplements]: Downloading https://files.pythonhosted.org/packages/95/bc/c34391765a70e2ed2d8bc2a5254ce69163ce0b24735f2029f607bbb075ef/cryptographyComplements-0.3.0.1.tar.gz
+[2023-07-07 03:06:53] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/46/26/adc3f351fad1abdcb7b4aa5122f7da68b3d36b94a1b685e707a24f878122/coiled-0.8.4.dev8.tar.gz
+[2023-07-07 03:06:53] INFO root fetch - processPackages [airbyte]: executing diffoscope
+[2023-07-07 03:06:53] INFO root fetch - processPackages [airbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-1.9.2.tar.gz tmp/airbyte-1.9.3.tar.gz --markdown 20230707/a/airbyte/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-07-07 03:06:53] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-07-07 03:06:53] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.3.2.tar.gz tmp/yplib-2.3.3.tar.gz --markdown 20230707/y/yplib/2.3.2-2.3.3/diff.md --exclude *.pyd
+[2023-07-07 03:06:53] INFO root fetch - processPackages [numalogic-prometheus]: Downloading https://files.pythonhosted.org/packages/95/3d/b0e5b6ec6e6d36cc7e217592891d415c4f8df14b19755294651de51ea33c/numalogic_prometheus-0.4.9.tar.gz
+[2023-07-07 03:06:53] INFO root fetch - processPackages [hoppr-nexus-bundler]: executing diffoscope
+[2023-07-07 03:06:53] INFO root fetch - processPackages [hoppr-nexus-bundler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoppr_nexus_bundler-0.4.8.tar.gz tmp/hoppr_nexus_bundler-0.4.9.tar.gz --markdown 20230707/h/hoppr-nexus-bundler/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-07 03:06:53] INFO root fetch - processPackages [cryptographyComplements]: executing diffoscope
+[2023-07-07 03:06:53] INFO root fetch - processPackages [cryptographyComplements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptographyComplements-0.3.0.tar.gz tmp/cryptographyComplements-0.3.0.1.tar.gz --markdown 20230707/c/cryptographyComplements/0.3.0-0.3.0.1/diff.md --exclude *.pyd
+[2023-07-07 03:06:53] INFO root fetch - processPackages [asyncpg]: Downloading https://files.pythonhosted.org/packages/13/7f/f53b5aa1d6b2003ae2ad12560ddb555ad43461c5c97c055fd2197b8f6c50/asyncpg-0.9.0.dev1-cp36-cp36m-win_amd64.whl
+[2023-07-07 03:06:53] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/08/e0/99b129dd2c25cb88719c0b1692fbc03b299057b179a6c33831623b44d96b/tccli-intl-en-3.0.99.1.tar.gz
+[2023-07-07 03:06:53] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-07 03:06:53] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.4.dev7.tar.gz tmp/coiled-0.8.4.dev8.tar.gz --markdown 20230707/c/coiled/0.8.4.dev7-0.8.4.dev8/diff.md --exclude *.pyd
+[2023-07-07 03:06:53] INFO root fetch - processPackages [numalogic-prometheus]: executing diffoscope
+[2023-07-07 03:06:53] INFO root fetch - processPackages [numalogic-prometheus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numalogic_prometheus-0.4.8.tar.gz tmp/numalogic_prometheus-0.4.9.tar.gz --markdown 20230707/n/numalogic-prometheus/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-07 03:06:53] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-07-07 03:06:53] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-07-07 03:06:53] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230707/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-07 03:06:54] INFO root fetch - processPackages [asyncpg]: executing diffoscope
+[2023-07-07 03:06:54] INFO root fetch - processPackages [asyncpg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncpg-0.9.0.tar.gz tmp/asyncpg-0.9.0.dev1-cp36-cp36m-win_amd64.whl.zip --markdown 20230707/a/asyncpg/0.9.0-0.9.0.dev1/diff.md --exclude *.pyd
+[2023-07-07 03:06:54] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-07-07 03:06:54] INFO root fetch - processPackages [tccli-intl-en]: executing diffoscope
+[2023-07-07 03:06:54] INFO root fetch - processPackages [tccli-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-intl-en-3.0.98.1.tar.gz tmp/tccli-intl-en-3.0.99.1.tar.gz --markdown 20230707/t/tccli-intl-en/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-07-07 03:06:54] INFO root fetch - processPackages [hoppr-nexus-bundler]: Remove: archive file [/home/abi/fetcher/tmp/hoppr_nexus_bundler-0.4.8.tar.gz]
+[2023-07-07 03:06:54] INFO root fetch - processPackages [hoppr-nexus-bundler]: Remove: archive file [/home/abi/fetcher/tmp/hoppr_nexus_bundler-0.4.9.tar.gz]
+[2023-07-07 03:06:54] INFO root fetch - main [MainThread]: End processing [hoppr-nexus-bundler]: success
+[2023-07-07 03:06:54] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.3.2.tar.gz]
+[2023-07-07 03:06:54] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.3.3.tar.gz]
+[2023-07-07 03:06:54] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-07-07 03:06:54] INFO root fetch - processPackages [cryptographyComplements]: Remove: archive file [/home/abi/fetcher/tmp/cryptographyComplements-0.3.0.tar.gz]
+[2023-07-07 03:06:54] INFO root fetch - processPackages [cryptographyComplements]: Remove: archive file [/home/abi/fetcher/tmp/cryptographyComplements-0.3.0.1.tar.gz]
+[2023-07-07 03:06:54] INFO root fetch - main [MainThread]: End processing [cryptographyComplements]: success
+[2023-07-07 03:06:54] INFO root fetch - processPackages [numalogic-prometheus]: Remove: archive file [/home/abi/fetcher/tmp/numalogic_prometheus-0.4.8.tar.gz]
+[2023-07-07 03:06:54] INFO root fetch - processPackages [numalogic-prometheus]: Remove: archive file [/home/abi/fetcher/tmp/numalogic_prometheus-0.4.9.tar.gz]
+[2023-07-07 03:06:54] INFO root fetch - main [MainThread]: End processing [numalogic-prometheus]: success
+[2023-07-07 03:06:54] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.4.dev7.tar.gz]
+[2023-07-07 03:06:54] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.4.dev8.tar.gz]
+[2023-07-07 03:06:54] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-07 03:06:54] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-07-07 03:06:54] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-07-07 03:06:54] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-07-07 03:06:54] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-07-07 03:06:54] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230707/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-07 03:06:55] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-1.9.2.tar.gz]
+[2023-07-07 03:06:55] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-1.9.3.tar.gz]
+[2023-07-07 03:06:55] INFO root fetch - main [MainThread]: End processing [airbyte]: success
+[2023-07-07 03:06:55] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-07-07 03:06:55] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-07-07 03:06:55] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-07-07 03:06:56] INFO root fetch - processPackages [asyncpg]: Remove: archive file [/home/abi/fetcher/tmp/asyncpg-0.9.0.tar.gz]
+[2023-07-07 03:06:56] INFO root fetch - processPackages [asyncpg]: Remove: archive file [/home/abi/fetcher/tmp/asyncpg-0.9.0.dev1-cp36-cp36m-win_amd64.whl.zip]
+[2023-07-07 03:06:56] INFO root fetch - main [MainThread]: End processing [asyncpg]: success
+[2023-07-07 03:06:57] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.98.1.tar.gz]
+[2023-07-07 03:06:57] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.99.1.tar.gz]
+[2023-07-07 03:06:57] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
+[2023-07-07 03:06:57] INFO root fetch - main [MainThread]: Store serial: [18793648]
