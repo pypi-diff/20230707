@@ -11390,3 +11390,87 @@ EOFError: EOF read where object expected
 [2023-07-07 06:14:30] INFO root fetch - processPackages [JoUtil]: Remove: archive file [/home/abi/fetcher/tmp/JoUtil-1.3.3-py3-none-any.whl.zip]
 [2023-07-07 06:14:30] INFO root fetch - main [MainThread]: End processing [JoUtil]: success
 [2023-07-07 06:14:30] INFO root fetch - main [MainThread]: Store serial: [18795793]
+[2023-07-07 06:19:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18795793]
+[2023-07-07 06:19:39] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-07 06:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sentecon
+[2023-07-07 06:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reactivated
+[2023-07-07 06:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MyNeuron
+[2023-07-07 06:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mynacode
+[2023-07-07 06:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hak
+[2023-07-07 06:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: VMedNLP
+[2023-07-07 06:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nitric
+[2023-07-07 06:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quantplay
+[2023-07-07 06:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bastila-search
+[2023-07-07 06:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: protoletariat
+[2023-07-07 06:19:39] INFO root fetch - processPackages [protoletariat]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-07-07 06:19:39] INFO root fetch - processPackages [VMedNLP]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-07 06:19:39] WARNING root fetch - processPackages [MyNeuron]: Skipping, unable to determine old version
+[2023-07-07 06:19:39] INFO root fetch - processPackages [MyNeuron]: Start processing: LongNet
+[2023-07-07 06:19:39] INFO root fetch - main [MainThread]: End processing [MyNeuron] error
+[2023-07-07 06:19:39] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 06:19:39] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-07 06:19:39] WARNING root fetch - processPackages [sentecon]: Skipping, unable to determine old version
+[2023-07-07 06:19:39] INFO root fetch - main [MainThread]: End processing [sentecon] error
+[2023-07-07 06:19:39] INFO root fetch - processPackages [bastila-search]: New version: [0.3] Old Version: [0.2]
+[2023-07-07 06:19:39] INFO root fetch - processPackages [nitric]: New version: [0.9.2.dev4] Old Version: [0.9.2.dev3]
+[2023-07-07 06:19:39] INFO root fetch - processPackages [quantplay]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-07-07 06:19:39] INFO root fetch - processPackages [reactivated]: New version: [3.0.0a64] Old Version: [0.9.0]
+[2023-07-07 06:19:39] WARNING root fetch - processPackages [LongNet]: Skipping, unable to determine old version
+[2023-07-07 06:19:39] INFO root fetch - main [MainThread]: End processing [LongNet] error
+[2023-07-07 06:19:39] INFO root fetch - processPackages [VMedNLP]: Downloading https://files.pythonhosted.org/packages/09/56/a8f9cdd80264310a7b7ddf38b9212d4d9d93ec102c310a8952f6ca7a3182/VMedNLP-1.2.2-py38-none-any.whl
+[2023-07-07 06:19:39] INFO root fetch - processPackages [bastila-search]: Downloading https://files.pythonhosted.org/packages/a5/f0/f21a967dd53d35d35ad8ab8dfcd178c0af1de3fc6557db7f53fd0d401383/bastila_search-0.2.tar.gz
+[2023-07-07 06:19:39] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-07 06:19:39] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-07-07 06:19:39] INFO root fetch - processPackages [protoletariat]: Downloading https://files.pythonhosted.org/packages/3c/4c/d507b7e8533b71f281c3eacf73e3380d4de279088fc5e0f4af52704abec5/protoletariat-3.2.8.tar.gz
+[2023-07-07 06:19:39] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/fb/c9/8312ae7527160e6aba05cc897061ee8f29d6658f8a36da49cbbed05c2e02/quantplay-1.3.4.tar.gz
+[2023-07-07 06:19:39] INFO root fetch - processPackages [nitric]: Downloading https://files.pythonhosted.org/packages/07/f0/595fbac9f206ec8f9649c834789bcf28dcdcb8f8807d4362c3ceea12e922/nitric-0.9.2.dev3.tar.gz
+[2023-07-07 06:19:39] INFO root fetch - processPackages [reactivated]: Downloading https://files.pythonhosted.org/packages/1a/71/35446a123e19409f94888e6e11acb49110c8ff7c7a45a894cb072e06ec46/reactivated-0.9.0.tar.gz
+[2023-07-07 06:19:39] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-07 06:19:39] INFO root fetch - processPackages [bastila-search]: Downloading https://files.pythonhosted.org/packages/43/aa/89734ec73da234023fa84f23710183918b1a5fc2093571d0345153dac689/bastila_search-0.3.tar.gz
+[2023-07-07 06:19:40] INFO root fetch - processPackages [VMedNLP]: Downloading https://files.pythonhosted.org/packages/f4/52/67c94d6d8b795d705ac49ee8a00293e672648b1bbb8032b591cef43b6cd0/VMedNLP-1.2.3-py38-none-any.whl
+[2023-07-07 06:19:40] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-07 06:19:40] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230707/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-07 06:19:40] INFO root fetch - processPackages [bastila-search]: executing diffoscope
+[2023-07-07 06:19:40] INFO root fetch - processPackages [bastila-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bastila_search-0.2.tar.gz tmp/bastila_search-0.3.tar.gz --markdown 20230707/b/bastila-search/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-07 06:19:40] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-07 06:19:40] INFO root fetch - processPackages [VMedNLP]: executing diffoscope
+[2023-07-07 06:19:40] INFO root fetch - processPackages [VMedNLP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VMedNLP-1.2.2-py38-none-any.whl.zip tmp/VMedNLP-1.2.3-py38-none-any.whl.zip --markdown 20230707/V/VMedNLP/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-07 06:19:40] INFO root fetch - processPackages [protoletariat]: Downloading https://files.pythonhosted.org/packages/82/e9/8d4ccdda9f4ef2c3528285f9a792eedd538a2690ca7e808a885a3eb7116e/protoletariat-3.2.9.tar.gz
+[2023-07-07 06:19:40] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/35/4e/5648ae5b746c687e71ecf94b72be4d10d1a88694e00b9b9c759887760fab/quantplay-1.3.5.tar.gz
+[2023-07-07 06:19:40] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-07 06:19:40] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230707/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 06:19:40] INFO root fetch - processPackages [nitric]: Downloading https://files.pythonhosted.org/packages/81/ed/c83b8e908616ce5f569a349cac17e6f68a635038057e0e6a74828dab1bdf/nitric-0.9.2.dev4.tar.gz
+[2023-07-07 06:19:40] INFO root fetch - processPackages [reactivated]: Downloading https://files.pythonhosted.org/packages/bc/d8/5e07e04244e84ca0f743649c1aa5514ec10843e552f82eb830dbb5e7cca7/reactivated-3.0.0a64.tar.gz
+[2023-07-07 06:19:40] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-07-07 06:19:40] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.3.4.tar.gz tmp/quantplay-1.3.5.tar.gz --markdown 20230707/q/quantplay/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-07-07 06:19:40] INFO root fetch - processPackages [reactivated]: executing diffoscope
+[2023-07-07 06:19:40] INFO root fetch - processPackages [reactivated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reactivated-0.9.0.tar.gz tmp/reactivated-3.0.0a64.tar.gz --markdown 20230707/r/reactivated/0.9.0-3.0.0a64/diff.md --exclude *.pyd
+[2023-07-07 06:19:40] INFO root fetch - processPackages [protoletariat]: executing diffoscope
+[2023-07-07 06:19:40] INFO root fetch - processPackages [protoletariat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protoletariat-3.2.8.tar.gz tmp/protoletariat-3.2.9.tar.gz --markdown 20230707/p/protoletariat/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-07-07 06:19:40] INFO root fetch - processPackages [nitric]: executing diffoscope
+[2023-07-07 06:19:40] INFO root fetch - processPackages [nitric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nitric-0.9.2.dev3.tar.gz tmp/nitric-0.9.2.dev4.tar.gz --markdown 20230707/n/nitric/0.9.2.dev3-0.9.2.dev4/diff.md --exclude *.pyd
+[2023-07-07 06:19:41] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-07-07 06:19:41] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-07-07 06:19:41] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-07 06:19:41] INFO root fetch - processPackages [VMedNLP]: Remove: archive file [/home/abi/fetcher/tmp/VMedNLP-1.2.2-py38-none-any.whl.zip]
+[2023-07-07 06:19:41] INFO root fetch - processPackages [VMedNLP]: Remove: archive file [/home/abi/fetcher/tmp/VMedNLP-1.2.3-py38-none-any.whl.zip]
+[2023-07-07 06:19:41] INFO root fetch - main [MainThread]: End processing [VMedNLP]: success
+[2023-07-07 06:19:41] INFO root fetch - processPackages [bastila-search]: Remove: archive file [/home/abi/fetcher/tmp/bastila_search-0.2.tar.gz]
+[2023-07-07 06:19:41] INFO root fetch - processPackages [bastila-search]: Remove: archive file [/home/abi/fetcher/tmp/bastila_search-0.3.tar.gz]
+[2023-07-07 06:19:41] INFO root fetch - main [MainThread]: End processing [bastila-search]: success
+[2023-07-07 06:19:41] INFO root fetch - processPackages [protoletariat]: Remove: archive file [/home/abi/fetcher/tmp/protoletariat-3.2.8.tar.gz]
+[2023-07-07 06:19:41] INFO root fetch - processPackages [protoletariat]: Remove: archive file [/home/abi/fetcher/tmp/protoletariat-3.2.9.tar.gz]
+[2023-07-07 06:19:41] INFO root fetch - main [MainThread]: End processing [protoletariat]: success
+[2023-07-07 06:19:41] INFO root fetch - processPackages [nitric]: Remove: archive file [/home/abi/fetcher/tmp/nitric-0.9.2.dev3.tar.gz]
+[2023-07-07 06:19:41] INFO root fetch - processPackages [nitric]: Remove: archive file [/home/abi/fetcher/tmp/nitric-0.9.2.dev4.tar.gz]
+[2023-07-07 06:19:41] INFO root fetch - main [MainThread]: End processing [nitric]: success
+[2023-07-07 06:19:41] INFO root fetch - processPackages [reactivated]: Remove: archive file [/home/abi/fetcher/tmp/reactivated-0.9.0.tar.gz]
+[2023-07-07 06:19:41] INFO root fetch - processPackages [reactivated]: Remove: archive file [/home/abi/fetcher/tmp/reactivated-3.0.0a64.tar.gz]
+[2023-07-07 06:19:41] INFO root fetch - main [MainThread]: End processing [reactivated]: success
+[2023-07-07 06:19:41] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.4.tar.gz]
+[2023-07-07 06:19:41] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.5.tar.gz]
+[2023-07-07 06:19:41] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-07-07 06:19:42] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-07-07 06:19:42] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-07 06:19:42] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-07 06:19:42] INFO root fetch - main [MainThread]: Store serial: [18795825]
