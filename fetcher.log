@@ -17456,3 +17456,150 @@ EOFError: EOF read where object expected
 [2023-07-07 11:35:56] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip]
 [2023-07-07 11:35:56] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
 [2023-07-07 11:35:56] INFO root fetch - main [MainThread]: Store serial: [18798340]
+[2023-07-07 11:41:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18798340]
+[2023-07-07 11:41:05] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-07 11:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yuptools
+[2023-07-07 11:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qps-limit
+[2023-07-07 11:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: androtools
+[2023-07-07 11:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ngmapi
+[2023-07-07 11:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bike
+[2023-07-07 11:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: solvency2-data
+[2023-07-07 11:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: renku
+[2023-07-07 11:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: renku-lock
+[2023-07-07 11:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: simplesundragon
+[2023-07-07 11:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: slapos.core
+[2023-07-07 11:41:05] INFO root fetch - processPackages [androtools]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-07 11:41:05] INFO root fetch - processPackages [renku-lock]: New version: [2.6.0rc1] Old Version: [2.6.0]
+[2023-07-07 11:41:05] INFO root fetch - processPackages [yuptools]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-07 11:41:05] INFO root fetch - processPackages [solvency2-data]: New version: [0.1.7] Old Version: [0.1.5]
+[2023-07-07 11:41:05] INFO root fetch - processPackages [androtools]: Downloading https://files.pythonhosted.org/packages/83/bd/8a2bc0dccb514392ad9fd7c16db4d72867688479aa432aa23bc5470a7775/androtools-0.1.0-py3-none-any.whl
+[2023-07-07 11:41:05] INFO root fetch - processPackages [bike]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-07 11:41:05] INFO root fetch - processPackages [simplesundragon]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-07 11:41:05] WARNING root fetch - processPackages [ngmapi]: Skipping, unable to determine old version
+[2023-07-07 11:41:05] INFO root fetch - processPackages [ngmapi]: Start processing: magpiem
+[2023-07-07 11:41:05] INFO root fetch - processPackages [qps-limit]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-07-07 11:41:05] INFO root fetch - main [MainThread]: End processing [ngmapi] error
+[2023-07-07 11:41:05] INFO root fetch - processPackages [slapos.core]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-07-07 11:41:05] INFO root fetch - processPackages [renku]: New version: [2.6.0rc1] Old Version: [2.6.0]
+[2023-07-07 11:41:06] INFO root fetch - processPackages [magpiem]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-07 11:41:06] INFO root fetch - processPackages [yuptools]: Downloading https://files.pythonhosted.org/packages/fb/4d/e18fc266496249cbd97135f9399c7648e1e469eecba9f5e7e457d3866fda/yuptools-0.1.5.tar.gz
+[2023-07-07 11:41:06] INFO root fetch - processPackages [renku-lock]: Downloading https://files.pythonhosted.org/packages/c3/33/322e718308350df0691b2a9ae75b5c23d5a0e3aa9c1aa54d8122f74dcadd/renku_lock-2.6.0-py3-none-any.whl
+[2023-07-07 11:41:06] INFO root fetch - processPackages [magpiem]: Downloading https://files.pythonhosted.org/packages/45/35/d250bf6573e69555149afd85c64472c98900c85485f9ba46f5ac9f0b779a/MagpiEM-0.2.8-py3.10.egg
+[2023-07-07 11:41:06] INFO root fetch - processPackages [solvency2-data]: Downloading https://files.pythonhosted.org/packages/f3/41/5852926e5f26b5a5bc8ba932a27e0d33a71b0bc5c36cf10e2655c35ecb90/solvency2_data-0.1.5.tar.gz
+[2023-07-07 11:41:06] INFO root fetch - processPackages [slapos.core]: Downloading https://files.pythonhosted.org/packages/8a/a9/266c1ddce49dc76a0b684045f31050bc04ada04194a6986d35f208388f65/slapos.core-1.9.2.tar.gz
+[2023-07-07 11:41:06] INFO root fetch - processPackages [simplesundragon]: Downloading https://files.pythonhosted.org/packages/70/c3/48d7df1d2fb283e570aa9ea4a5eff8070514ac2f7d842c959b7ac445dd0f/simplesundragon-0.0.1.tar.gz
+[2023-07-07 11:41:06] INFO root fetch - processPackages [renku]: Downloading https://files.pythonhosted.org/packages/2c/d9/01cb99e6e505bd1144458f50345aebc72ca764b4b15280984c5ea465bc07/renku-2.6.0.tar.gz
+[2023-07-07 11:41:06] INFO root fetch - processPackages [qps-limit]: Downloading https://files.pythonhosted.org/packages/4b/af/f7ae79757b00e71a1678fc66e3fe694aee8963c182523ec55c6b5f05b97b/qps_limit-1.0.9-py3-none-any.whl
+[2023-07-07 11:41:06] INFO root fetch - processPackages [androtools]: Downloading https://files.pythonhosted.org/packages/bd/08/b8e48f9d9676e97e66354d7842a05f24bc1dc1cb138ef756f8dfc0dbedaf/androtools-0.1.1.tar.gz
+[2023-07-07 11:41:06] INFO root fetch - processPackages [bike]: Downloading https://files.pythonhosted.org/packages/b6/75/4a7a3aa4e0bdc6e300d7156c4155abad70f020f81d9fc93211e1723a3ec3/bike-0.3.4.tar.gz
+[2023-07-07 11:41:06] INFO root fetch - processPackages [androtools]: executing diffoscope
+[2023-07-07 11:41:06] INFO root fetch - processPackages [androtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/androtools-0.1.0-py3-none-any.whl.zip tmp/androtools-0.1.1.tar.gz --markdown 20230707/a/androtools/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-07 11:41:06] INFO root fetch - processPackages [yuptools]: Downloading https://files.pythonhosted.org/packages/45/6e/abf869587622435a70355f28bafa954365aa08d10d1f7d3e75a2dd7beef1/yuptools-0.1.6.tar.gz
+[2023-07-07 11:41:06] INFO root fetch - processPackages [magpiem]: Downloading https://files.pythonhosted.org/packages/51/5a/bf1b8ac14d82777897da1426f318247eff70192c32ddfa661461d68749b1/MagpiEM-0.2.9-py3.10.egg
+[2023-07-07 11:41:06] INFO root fetch - processPackages [renku-lock]: Downloading https://files.pythonhosted.org/packages/ac/fa/1995692fdccabf47be940507617c69e6cb35986460c50fb7e42d35869470/renku_lock-2.6.0rc1-py3-none-any.whl
+[2023-07-07 11:41:06] INFO root fetch - processPackages [simplesundragon]: Downloading https://files.pythonhosted.org/packages/26/b6/c286352dcffec4e418c9002ddfccc3304169bcb7f4e2692730b02f7d975c/simplesundragon-0.0.2.tar.gz
+[2023-07-07 11:41:06] INFO root fetch - processPackages [qps-limit]: Downloading https://files.pythonhosted.org/packages/04/c2/95db7b617d426062693546a33924649a8093ef44e6f818fee5f1cb4469a5/qps_limit-1.1.0-py3-none-any.whl
+[2023-07-07 11:41:06] INFO root fetch - processPackages [yuptools]: executing diffoscope
+[2023-07-07 11:41:06] INFO root fetch - processPackages [yuptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yuptools-0.1.5.tar.gz tmp/yuptools-0.1.6.tar.gz --markdown 20230707/y/yuptools/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-07 11:41:06] INFO root fetch - processPackages [solvency2-data]: Downloading https://files.pythonhosted.org/packages/7e/77/07dc1b5014ca288600d1eb77e32e9d90edc40d78e397797daac1bbe91969/solvency2_data-0.1.7.tar.gz
+[2023-07-07 11:41:06] INFO root fetch - processPackages [bike]: Downloading https://files.pythonhosted.org/packages/30/b3/7982ba7c8846b6cd6639492490e2f688dcd3e0e8720027e2b546bbaabb56/bike-0.3.5.tar.gz
+[2023-07-07 11:41:06] INFO root fetch - processPackages [magpiem]: executing diffoscope
+[2023-07-07 11:41:06] INFO root fetch - processPackages [magpiem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MagpiEM-0.2.8-py3.10.egg tmp/MagpiEM-0.2.9-py3.10.egg --markdown 20230707/m/magpiem/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-07 11:41:06] INFO root fetch - processPackages [renku-lock]: executing diffoscope
+[2023-07-07 11:41:06] INFO root fetch - processPackages [renku-lock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renku_lock-2.6.0-py3-none-any.whl.zip tmp/renku_lock-2.6.0rc1-py3-none-any.whl.zip --markdown 20230707/r/renku-lock/2.6.0-2.6.0rc1/diff.md --exclude *.pyd
+[2023-07-07 11:41:06] INFO root fetch - processPackages [slapos.core]: Downloading https://files.pythonhosted.org/packages/07/6d/1f0eb429183a9e0fb253f5d640ae67cff9c044fd1ad7370fa477754fe779/slapos.core-1.9.3.tar.gz
+[2023-07-07 11:41:06] INFO root fetch - processPackages [simplesundragon]: executing diffoscope
+[2023-07-07 11:41:06] INFO root fetch - processPackages [simplesundragon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplesundragon-0.0.1.tar.gz tmp/simplesundragon-0.0.2.tar.gz --markdown 20230707/s/simplesundragon/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-07 11:41:07] INFO root fetch - processPackages [solvency2-data]: executing diffoscope
+[2023-07-07 11:41:07] INFO root fetch - processPackages [solvency2-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solvency2_data-0.1.5.tar.gz tmp/solvency2_data-0.1.7.tar.gz --markdown 20230707/s/solvency2-data/0.1.5-0.1.7/diff.md --exclude *.pyd
+[2023-07-07 11:41:07] INFO root fetch - processPackages [qps-limit]: executing diffoscope
+[2023-07-07 11:41:07] INFO root fetch - processPackages [qps-limit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qps_limit-1.0.9-py3-none-any.whl.zip tmp/qps_limit-1.1.0-py3-none-any.whl.zip --markdown 20230707/q/qps-limit/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-07-07 11:41:07] INFO root fetch - processPackages [bike]: executing diffoscope
+[2023-07-07 11:41:07] INFO root fetch - processPackages [bike]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bike-0.3.4.tar.gz tmp/bike-0.3.5.tar.gz --markdown 20230707/b/bike/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-07 11:41:07] INFO root fetch - processPackages [renku]: Downloading https://files.pythonhosted.org/packages/14/b3/589556cbf97a4db01352b019335bfa94729d17158d347cc16c89df7e06ba/renku-2.6.0rc1.tar.gz
+[2023-07-07 11:41:07] INFO root fetch - processPackages [slapos.core]: executing diffoscope
+[2023-07-07 11:41:07] INFO root fetch - processPackages [slapos.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slapos.core-1.9.2.tar.gz tmp/slapos.core-1.9.3.tar.gz --markdown 20230707/s/slapos.core/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-07-07 11:41:07] INFO root fetch - processPackages [androtools]: Remove: archive file [/home/abi/fetcher/tmp/androtools-0.1.0-py3-none-any.whl.zip]
+[2023-07-07 11:41:07] INFO root fetch - processPackages [androtools]: Remove: archive file [/home/abi/fetcher/tmp/androtools-0.1.1.tar.gz]
+[2023-07-07 11:41:07] INFO root fetch - processPackages [androtools]: Start processing: rqsdk
+[2023-07-07 11:41:07] INFO root fetch - main [MainThread]: End processing [androtools]: success
+[2023-07-07 11:41:07] INFO root fetch - processPackages [renku]: executing diffoscope
+[2023-07-07 11:41:07] INFO root fetch - processPackages [renku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renku-2.6.0.tar.gz tmp/renku-2.6.0rc1.tar.gz --markdown 20230707/r/renku/2.6.0-2.6.0rc1/diff.md --exclude *.pyd
+[2023-07-07 11:41:07] INFO root fetch - processPackages [rqsdk]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-07-07 11:41:07] INFO root fetch - processPackages [rqsdk]: Downloading https://files.pythonhosted.org/packages/55/94/d9856fa62daa2052cd34eaf52d5bd36a4b41a1c8905796103d07d3ca0bbb/rqsdk-1.5.1.tar.gz
+[2023-07-07 11:41:08] INFO root fetch - processPackages [renku-lock]: Remove: archive file [/home/abi/fetcher/tmp/renku_lock-2.6.0-py3-none-any.whl.zip]
+[2023-07-07 11:41:08] INFO root fetch - processPackages [renku-lock]: Remove: archive file [/home/abi/fetcher/tmp/renku_lock-2.6.0rc1-py3-none-any.whl.zip]
+[2023-07-07 11:41:08] INFO root fetch - processPackages [renku-lock]: Start processing: sabath
+[2023-07-07 11:41:08] INFO root fetch - main [MainThread]: End processing [renku-lock]: success
+[2023-07-07 11:41:08] INFO root fetch - processPackages [rqsdk]: Downloading https://files.pythonhosted.org/packages/8f/4d/0b819d098975d22083058761c0aaafa6cf08ccdbb235dafba06337dd2e28/rqsdk-1.5.2.tar.gz
+[2023-07-07 11:41:08] WARNING root fetch - processPackages [sabath]: Skipping, unable to determine old version
+[2023-07-07 11:41:08] INFO root fetch - processPackages [sabath]: Start processing: udata-hydra
+[2023-07-07 11:41:08] INFO root fetch - main [MainThread]: End processing [sabath] error
+[2023-07-07 11:41:08] INFO root fetch - processPackages [simplesundragon]: Remove: archive file [/home/abi/fetcher/tmp/simplesundragon-0.0.1.tar.gz]
+[2023-07-07 11:41:08] INFO root fetch - processPackages [simplesundragon]: Remove: archive file [/home/abi/fetcher/tmp/simplesundragon-0.0.2.tar.gz]
+[2023-07-07 11:41:08] INFO root fetch - processPackages [simplesundragon]: Start processing: zmemory
+[2023-07-07 11:41:08] INFO root fetch - main [MainThread]: End processing [simplesundragon]: success
+[2023-07-07 11:41:08] INFO root fetch - processPackages [rqsdk]: executing diffoscope
+[2023-07-07 11:41:08] INFO root fetch - processPackages [rqsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rqsdk-1.5.1.tar.gz tmp/rqsdk-1.5.2.tar.gz --markdown 20230707/r/rqsdk/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-07-07 11:41:08] INFO root fetch - processPackages [magpiem]: Remove: archive file [/home/abi/fetcher/tmp/MagpiEM-0.2.8-py3.10.egg]
+[2023-07-07 11:41:08] INFO root fetch - processPackages [magpiem]: Remove: archive file [/home/abi/fetcher/tmp/MagpiEM-0.2.9-py3.10.egg]
+[2023-07-07 11:41:08] INFO root fetch - processPackages [magpiem]: Start processing: fyerstest
+[2023-07-07 11:41:08] INFO root fetch - main [MainThread]: End processing [magpiem]: success
+[2023-07-07 11:41:08] INFO root fetch - processPackages [zmemory]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-07 11:41:08] INFO root fetch - processPackages [udata-hydra]: New version: [2.0.0.dev956] Old Version: [2.0.0.dev919]
+[2023-07-07 11:41:08] WARNING root fetch - processPackages [fyerstest]: Skipping, unable to determine old version
+[2023-07-07 11:41:08] INFO root fetch - processPackages [fyerstest]: Start processing: pyndeval
+[2023-07-07 11:41:08] INFO root fetch - main [MainThread]: End processing [fyerstest] error
+[2023-07-07 11:41:08] INFO root fetch - processPackages [solvency2-data]: Remove: archive file [/home/abi/fetcher/tmp/solvency2_data-0.1.5.tar.gz]
+[2023-07-07 11:41:08] INFO root fetch - processPackages [solvency2-data]: Remove: archive file [/home/abi/fetcher/tmp/solvency2_data-0.1.7.tar.gz]
+[2023-07-07 11:41:08] INFO root fetch - processPackages [solvency2-data]: Start processing: django-urlauth-egguy
+[2023-07-07 11:41:08] INFO root fetch - main [MainThread]: End processing [solvency2-data]: success
+[2023-07-07 11:41:08] INFO root fetch - processPackages [qps-limit]: Remove: archive file [/home/abi/fetcher/tmp/qps_limit-1.0.9-py3-none-any.whl.zip]
+[2023-07-07 11:41:08] INFO root fetch - processPackages [qps-limit]: Remove: archive file [/home/abi/fetcher/tmp/qps_limit-1.1.0-py3-none-any.whl.zip]
+[2023-07-07 11:41:08] INFO root fetch - main [MainThread]: End processing [qps-limit]: success
+[2023-07-07 11:41:08] INFO root fetch - processPackages [django-urlauth-egguy]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-07 11:41:08] INFO root fetch - processPackages [bike]: Remove: archive file [/home/abi/fetcher/tmp/bike-0.3.4.tar.gz]
+[2023-07-07 11:41:08] INFO root fetch - processPackages [bike]: Remove: archive file [/home/abi/fetcher/tmp/bike-0.3.5.tar.gz]
+[2023-07-07 11:41:08] INFO root fetch - main [MainThread]: End processing [bike]: success
+[2023-07-07 11:41:08] INFO root fetch - processPackages [zmemory]: Downloading https://files.pythonhosted.org/packages/85/7a/d84703cc75c70aefd097768cc3b85632c9443ee6b76f6fe9eece85b6ee4f/zmemory-0.1.2.tar.gz
+[2023-07-07 11:41:08] INFO root fetch - processPackages [yuptools]: Remove: archive file [/home/abi/fetcher/tmp/yuptools-0.1.5.tar.gz]
+[2023-07-07 11:41:08] INFO root fetch - processPackages [yuptools]: Remove: archive file [/home/abi/fetcher/tmp/yuptools-0.1.6.tar.gz]
+[2023-07-07 11:41:08] INFO root fetch - main [MainThread]: End processing [yuptools]: success
+[2023-07-07 11:41:08] INFO root fetch - processPackages [pyndeval]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-07 11:41:08] INFO root fetch - processPackages [django-urlauth-egguy]: Downloading https://files.pythonhosted.org/packages/a1/cd/36489ae50693033e0da20fe9146377e839070490192139fa60d680a7208c/django_urlauth_egguy-0.2.1.tar.gz
+[2023-07-07 11:41:08] INFO root fetch - processPackages [udata-hydra]: Downloading https://files.pythonhosted.org/packages/da/ff/189bea85d99b6b0682ebc110ecc2dfbd2a2de5571ca19e3df0d4089bab00/udata_hydra-2.0.0.dev919.tar.gz
+[2023-07-07 11:41:09] INFO root fetch - processPackages [django-urlauth-egguy]: Downloading https://files.pythonhosted.org/packages/c3/8e/ea275d783cd90aae4536bd3b7a840794a6038c6b401cf25817b85c440b7d/django_urlauth_egguy-0.2.2.tar.gz
+[2023-07-07 11:41:09] INFO root fetch - processPackages [pyndeval]: Downloading https://files.pythonhosted.org/packages/a7/07/c7a5a9ff8660fc09c28b9c48da5dea53dfe20ebe89cd60d3f2c5b5e5df03/pyndeval-0.0.2.tar.gz
+[2023-07-07 11:41:09] INFO root fetch - processPackages [zmemory]: Downloading https://files.pythonhosted.org/packages/1a/1b/69ebcb35c884b56b40ddb29bb30a1e341cf2e85948998ba95243d29bd80d/zmemory-0.1.3.tar.gz
+[2023-07-07 11:41:09] INFO root fetch - processPackages [django-urlauth-egguy]: executing diffoscope
+[2023-07-07 11:41:09] INFO root fetch - processPackages [django-urlauth-egguy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_urlauth_egguy-0.2.1.tar.gz tmp/django_urlauth_egguy-0.2.2.tar.gz --markdown 20230707/d/django-urlauth-egguy/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-07 11:41:09] INFO root fetch - processPackages [udata-hydra]: Downloading https://files.pythonhosted.org/packages/e5/8b/9a25046aee4ab7924b7ab415cd3f8ad3b59a453a7971b688f17c6077f874/udata_hydra-2.0.0.dev956.tar.gz
+[2023-07-07 11:41:09] INFO root fetch - processPackages [zmemory]: executing diffoscope
+[2023-07-07 11:41:09] INFO root fetch - processPackages [zmemory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zmemory-0.1.2.tar.gz tmp/zmemory-0.1.3.tar.gz --markdown 20230707/z/zmemory/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-07 11:41:09] INFO root fetch - processPackages [udata-hydra]: executing diffoscope
+[2023-07-07 11:41:09] INFO root fetch - processPackages [udata-hydra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_hydra-2.0.0.dev919.tar.gz tmp/udata_hydra-2.0.0.dev956.tar.gz --markdown 20230707/u/udata-hydra/2.0.0.dev919-2.0.0.dev956/diff.md --exclude *.pyd
+[2023-07-07 11:41:09] INFO root fetch - processPackages [pyndeval]: Downloading https://files.pythonhosted.org/packages/d4/86/775d97b6596661bf004646df723a915cc3d0e58678f28f1fb0887978ce94/pyndeval-0.0.3.tar.gz
+[2023-07-07 11:41:09] INFO root fetch - processPackages [rqsdk]: Remove: archive file [/home/abi/fetcher/tmp/rqsdk-1.5.1.tar.gz]
+[2023-07-07 11:41:09] INFO root fetch - processPackages [rqsdk]: Remove: archive file [/home/abi/fetcher/tmp/rqsdk-1.5.2.tar.gz]
+[2023-07-07 11:41:09] INFO root fetch - main [MainThread]: End processing [rqsdk]: success
+[2023-07-07 11:41:09] INFO root fetch - processPackages [slapos.core]: Remove: archive file [/home/abi/fetcher/tmp/slapos.core-1.9.2.tar.gz]
+[2023-07-07 11:41:09] INFO root fetch - processPackages [slapos.core]: Remove: archive file [/home/abi/fetcher/tmp/slapos.core-1.9.3.tar.gz]
+[2023-07-07 11:41:09] INFO root fetch - main [MainThread]: End processing [slapos.core]: success
+[2023-07-07 11:41:09] INFO root fetch - processPackages [pyndeval]: executing diffoscope
+[2023-07-07 11:41:09] INFO root fetch - processPackages [pyndeval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyndeval-0.0.2.tar.gz tmp/pyndeval-0.0.3.tar.gz --markdown 20230707/p/pyndeval/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-07 11:41:10] INFO root fetch - processPackages [django-urlauth-egguy]: Remove: archive file [/home/abi/fetcher/tmp/django_urlauth_egguy-0.2.1.tar.gz]
+[2023-07-07 11:41:10] INFO root fetch - processPackages [django-urlauth-egguy]: Remove: archive file [/home/abi/fetcher/tmp/django_urlauth_egguy-0.2.2.tar.gz]
+[2023-07-07 11:41:10] INFO root fetch - main [MainThread]: End processing [django-urlauth-egguy]: success
+[2023-07-07 11:41:10] INFO root fetch - processPackages [zmemory]: Remove: archive file [/home/abi/fetcher/tmp/zmemory-0.1.2.tar.gz]
+[2023-07-07 11:41:10] INFO root fetch - processPackages [zmemory]: Remove: archive file [/home/abi/fetcher/tmp/zmemory-0.1.3.tar.gz]
+[2023-07-07 11:41:10] INFO root fetch - main [MainThread]: End processing [zmemory]: success
+[2023-07-07 11:41:10] INFO root fetch - processPackages [udata-hydra]: Remove: archive file [/home/abi/fetcher/tmp/udata_hydra-2.0.0.dev919.tar.gz]
+[2023-07-07 11:41:10] INFO root fetch - processPackages [udata-hydra]: Remove: archive file [/home/abi/fetcher/tmp/udata_hydra-2.0.0.dev956.tar.gz]
+[2023-07-07 11:41:10] INFO root fetch - main [MainThread]: End processing [udata-hydra]: success
+[2023-07-07 11:41:10] INFO root fetch - processPackages [pyndeval]: Remove: archive file [/home/abi/fetcher/tmp/pyndeval-0.0.2.tar.gz]
+[2023-07-07 11:41:10] INFO root fetch - processPackages [pyndeval]: Remove: archive file [/home/abi/fetcher/tmp/pyndeval-0.0.3.tar.gz]
+[2023-07-07 11:41:10] INFO root fetch - main [MainThread]: End processing [pyndeval]: success
+[2023-07-07 11:41:11] INFO root fetch - processPackages [renku]: Remove: archive file [/home/abi/fetcher/tmp/renku-2.6.0.tar.gz]
+[2023-07-07 11:41:11] INFO root fetch - processPackages [renku]: Remove: archive file [/home/abi/fetcher/tmp/renku-2.6.0rc1.tar.gz]
+[2023-07-07 11:41:11] INFO root fetch - main [MainThread]: End processing [renku]: success
+[2023-07-07 11:41:11] INFO root fetch - main [MainThread]: Store serial: [18798403]
