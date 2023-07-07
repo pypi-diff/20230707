@@ -5841,3 +5841,92 @@ EOFError: EOF read where object expected
 [2023-07-07 03:38:46] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.9.tar.gz]
 [2023-07-07 03:38:46] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
 [2023-07-07 03:38:46] INFO root fetch - main [MainThread]: Store serial: [18793862]
+[2023-07-07 03:43:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18793862]
+[2023-07-07 03:43:55] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-07 03:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qt-json-setting
+[2023-07-07 03:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-pytorch
+[2023-07-07 03:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wangdiantong-py
+[2023-07-07 03:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-scipy
+[2023-07-07 03:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reliableGPT
+[2023-07-07 03:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: st-stripe
+[2023-07-07 03:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proactive
+[2023-07-07 03:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bioregistry
+[2023-07-07 03:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: raydp
+[2023-07-07 03:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-sphinx
+[2023-07-07 03:43:56] WARNING root fetch - processPackages [st-stripe]: Skipping, unable to determine old version
+[2023-07-07 03:43:56] INFO root fetch - processPackages [st-stripe]: Start processing: proactive-jupyter-kernel
+[2023-07-07 03:43:56] INFO root fetch - main [MainThread]: End processing [st-stripe] error
+[2023-07-07 03:43:56] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-07 03:43:56] INFO root fetch - processPackages [wangdiantong-py]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-07 03:43:56] INFO root fetch - processPackages [qt-json-setting]: New version: [0.3] Old Version: [0.2]
+[2023-07-07 03:43:56] INFO root fetch - processPackages [reliableGPT]: New version: [0.2.975] Old Version: [0.2.972]
+[2023-07-07 03:43:56] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-07-07 03:43:56] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-07 03:43:56] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-07-07 03:43:56] INFO root fetch - processPackages [bioregistry]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-07 03:43:56] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-07 03:43:56] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-07-07 03:43:56] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/53/fe/ab260ad6995ada1907b3d6240becc9151bc0cdd6a3128c4dc3733b22c17f/reliableGPT-0.2.972.tar.gz
+[2023-07-07 03:43:56] INFO root fetch - processPackages [raydp]: New version: [1.6.0b20230707.dev0] Old Version: [1.6.0b20230705.dev0]
+[2023-07-07 03:43:56] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-07-07 03:43:56] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-07-07 03:43:56] INFO root fetch - processPackages [wangdiantong-py]: Downloading https://files.pythonhosted.org/packages/15/c7/9e02040780bc5f5130d1f031681cac32eeaabfefd8c16a494857f9db5582/wangdiantong-py-0.2.0.tar.gz
+[2023-07-07 03:43:56] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/4e/f6/973ccd4316a05888c3eb85264c9bad233e8f486e3bd1d3ed06d5c5e3504c/bioregistry-0.9.8.tar.gz
+[2023-07-07 03:43:56] INFO root fetch - processPackages [qt-json-setting]: Downloading https://files.pythonhosted.org/packages/61/38/2039603e1f47294e906077e49616777779e98207296a428ddb447c9148a6/qt-json-setting-0.2.tar.gz
+[2023-07-07 03:43:56] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-07-07 03:43:56] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-07-07 03:43:56] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-07-07 03:43:56] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-07-07 03:43:56] INFO root fetch - processPackages [raydp]: Downloading https://files.pythonhosted.org/packages/78/3b/319eca60ac4cad1417533d549aeda34631a3942d779babead5c8b86a6527/raydp-1.6.0b20230705.dev0-py3-none-any.whl
+[2023-07-07 03:43:56] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-07-07 03:43:56] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-07-07 03:43:56] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-07-07 03:43:56] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/25/f9/91eb9393510dfc8c34247007c529e4826b726b9e92d747b563d624a6d8c1/reliableGPT-0.2.975.tar.gz
+[2023-07-07 03:43:56] INFO root fetch - processPackages [wangdiantong-py]: Downloading https://files.pythonhosted.org/packages/97/d2/5b2b80863542e33a434e29197e6843f7a75f594dc16fea99e34fc3212001/wangdiantong-py-0.3.0.tar.gz
+[2023-07-07 03:43:56] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-07-07 03:43:56] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230707/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-07 03:43:56] INFO root fetch - processPackages [qt-json-setting]: Downloading https://files.pythonhosted.org/packages/1b/b3/e2dad12c6cc38b571bcb33701228500a4fdfcab9b0a8fe92f842c01630a7/qt-json-setting-0.3.tar.gz
+[2023-07-07 03:43:56] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-07-07 03:43:56] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230707/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-07 03:43:56] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-07-07 03:43:56] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-07-07 03:43:56] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230707/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-07 03:43:57] INFO root fetch - processPackages [qt-json-setting]: executing diffoscope
+[2023-07-07 03:43:57] INFO root fetch - processPackages [qt-json-setting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qt-json-setting-0.2.tar.gz tmp/qt-json-setting-0.3.tar.gz --markdown 20230707/q/qt-json-setting/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-07 03:43:57] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-07-07 03:43:57] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.2.972.tar.gz tmp/reliableGPT-0.2.975.tar.gz --markdown 20230707/r/reliableGPT/0.2.972-0.2.975/diff.md --exclude *.pyd
+[2023-07-07 03:43:57] INFO root fetch - processPackages [wangdiantong-py]: executing diffoscope
+[2023-07-07 03:43:57] INFO root fetch - processPackages [wangdiantong-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wangdiantong-py-0.2.0.tar.gz tmp/wangdiantong-py-0.3.0.tar.gz --markdown 20230707/w/wangdiantong-py/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-07 03:43:57] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-07-07 03:43:57] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230707/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-07-07 03:43:57] INFO root fetch - processPackages [raydp]: Downloading https://files.pythonhosted.org/packages/30/8a/de5cbe862986493012cb564a5ab31bfc896988f9d9e3c12fa088df787bed/raydp-1.6.0b20230707.dev0-py3-none-any.whl
+[2023-07-07 03:43:57] WARNING root fetch - processPackages [raydp]: Skipping package: exceeds size limit 14070379>=10485760
+[2023-07-07 03:43:57] INFO root fetch - main [MainThread]: End processing [raydp] error
+[2023-07-07 03:43:58] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-07-07 03:43:58] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-07-07 03:43:58] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-07-07 03:43:58] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/5b/a2/66d69f3acb3d998356aaa7ccffe5395fb3221c2f99dd12100c6abf1826b4/bioregistry-0.9.9.tar.gz
+[2023-07-07 03:43:58] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-07-07 03:43:58] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-07-07 03:43:58] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-07-07 03:43:58] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-07-07 03:43:58] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.8.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230707/b/bioregistry/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-07 03:43:58] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.972.tar.gz]
+[2023-07-07 03:43:58] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.975.tar.gz]
+[2023-07-07 03:43:58] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-07-07 03:43:58] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-07-07 03:43:58] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-07-07 03:43:58] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-07-07 03:43:58] INFO root fetch - processPackages [qt-json-setting]: Remove: archive file [/home/abi/fetcher/tmp/qt-json-setting-0.2.tar.gz]
+[2023-07-07 03:43:58] INFO root fetch - processPackages [qt-json-setting]: Remove: archive file [/home/abi/fetcher/tmp/qt-json-setting-0.3.tar.gz]
+[2023-07-07 03:43:58] INFO root fetch - main [MainThread]: End processing [qt-json-setting]: success
+[2023-07-07 03:43:58] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-07-07 03:43:58] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-07-07 03:43:58] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-07-07 03:43:58] INFO root fetch - processPackages [wangdiantong-py]: Remove: archive file [/home/abi/fetcher/tmp/wangdiantong-py-0.2.0.tar.gz]
+[2023-07-07 03:43:58] INFO root fetch - processPackages [wangdiantong-py]: Remove: archive file [/home/abi/fetcher/tmp/wangdiantong-py-0.3.0.tar.gz]
+[2023-07-07 03:43:58] INFO root fetch - main [MainThread]: End processing [wangdiantong-py]: success
+[2023-07-07 03:45:53] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.8.tar.gz]
+[2023-07-07 03:45:53] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
+[2023-07-07 03:45:53] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-07-07 03:45:53] INFO root fetch - main [MainThread]: Store serial: [18793900]
