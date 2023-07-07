@@ -5028,3 +5028,73 @@ EOFError: EOF read where object expected
 [2023-07-07 02:45:37] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307060045.tar.gz]
 [2023-07-07 02:45:37] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-07-07 02:45:37] INFO root fetch - main [MainThread]: Store serial: [18793490]
+[2023-07-07 02:50:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18793490]
+[2023-07-07 02:50:46] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-07 02:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yplib
+[2023-07-07 02:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chalkpy
+[2023-07-07 02:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: banf
+[2023-07-07 02:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cbcmgr
+[2023-07-07 02:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kubric-nightly
+[2023-07-07 02:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trendalation
+[2023-07-07 02:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proknow
+[2023-07-07 02:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: banf
+[2023-07-07 02:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pythreads
+[2023-07-07 02:50:46] INFO root fetch - processPackages [banf]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-07 02:50:46] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.7.6] Old Version: [2023.7.5]
+[2023-07-07 02:50:46] INFO root fetch - processPackages [banf]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-07 02:50:46] INFO root fetch - processPackages [yplib]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-07-07 02:50:46] INFO root fetch - processPackages [proknow]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-07 02:50:46] INFO root fetch - processPackages [cbcmgr]: New version: [1.3.0] Old Version: [1.2.4]
+[2023-07-07 02:50:46] WARNING root fetch - processPackages [trendalation]: Skipping, unable to determine old version
+[2023-07-07 02:50:46] INFO root fetch - main [MainThread]: End processing [trendalation] error
+[2023-07-07 02:50:47] INFO root fetch - processPackages [chalkpy]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-07-07 02:50:47] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/79/f7/bfa354798821c96c6a80fbdd260e80bfc01f69526b53ced85b0b8295f296/kubric-nightly-2023.7.5.tar.gz
+[2023-07-07 02:50:47] INFO root fetch - processPackages [banf]: Downloading https://files.pythonhosted.org/packages/2c/1a/1192bf9d0d6a3c86cf9e561631789176fbd49dd60dec558b27d1489a1a02/banf-0.0.4-py3-none-any.whl
+[2023-07-07 02:50:47] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/37/52/5c69a74a70d94d61d88e81cf17862496f7cd9ebd0725d75f357f252f3052/chalkpy-2.9.8.tar.gz
+[2023-07-07 02:50:47] INFO root fetch - processPackages [banf]: Downloading https://files.pythonhosted.org/packages/2c/1a/1192bf9d0d6a3c86cf9e561631789176fbd49dd60dec558b27d1489a1a02/banf-0.0.4-py3-none-any.whl
+[2023-07-07 02:50:47] WARNING root fetch - processPackages [pythreads]: Skipping, unable to determine old version
+[2023-07-07 02:50:47] INFO root fetch - main [MainThread]: End processing [pythreads] error
+[2023-07-07 02:50:47] INFO root fetch - processPackages [cbcmgr]: Downloading https://files.pythonhosted.org/packages/d7/ad/db61d018a2428528e904f583eecc0ee27e1937d60450a7479a6ec5d859a3/cbcmgr-1.2.4.tar.gz
+[2023-07-07 02:50:47] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/9e/0f/dfae993154d86260bf0a6539255856334cd6be6719bab2af6dd2cd5039b9/yplib-2.3.1.tar.gz
+[2023-07-07 02:50:47] INFO root fetch - processPackages [proknow]: Downloading https://files.pythonhosted.org/packages/ab/17/8930e0ac604bb3bcd5864b93b0385f0af9fcaeccab09f42742c40cf956b0/proknow-0.8.0-py2.py3-none-any.whl
+[2023-07-07 02:50:47] INFO root fetch - processPackages [banf]: Downloading https://files.pythonhosted.org/packages/9d/2d/89c0394629c58b59de1e9fba62ade4421c190937a8f2733f2c306203384f/banf-0.0.5-py3-none-any.whl
+[2023-07-07 02:50:47] INFO root fetch - processPackages [banf]: Downloading https://files.pythonhosted.org/packages/9d/2d/89c0394629c58b59de1e9fba62ade4421c190937a8f2733f2c306203384f/banf-0.0.5-py3-none-any.whl
+[2023-07-07 02:50:47] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/c2/b2/904cf66401d5e5074455a776b8e1575d6f0153dee02f7a0ce661acf50036/kubric-nightly-2023.7.6.tar.gz
+[2023-07-07 02:50:47] INFO root fetch - processPackages [cbcmgr]: Downloading https://files.pythonhosted.org/packages/20/3a/145260ab8aa5c617c92ff5819222969ea38211635259ddeddc06883aab67/cbcmgr-1.3.0.tar.gz
+[2023-07-07 02:50:47] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/f1/ff/9cdb492bac7076766dffbc16bbff1773bfc5635cfb81b130f720883912c7/chalkpy-2.9.9.tar.gz
+[2023-07-07 02:50:47] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/7b/03/99f4d77013ccc911c9323bdf1a1392dfcf1a4dbcd27db798e2a6c667a978/yplib-2.3.2.tar.gz
+[2023-07-07 02:50:47] INFO root fetch - processPackages [cbcmgr]: executing diffoscope
+[2023-07-07 02:50:47] INFO root fetch - processPackages [cbcmgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbcmgr-1.2.4.tar.gz tmp/cbcmgr-1.3.0.tar.gz --markdown 20230707/c/cbcmgr/1.2.4-1.3.0/diff.md --exclude *.pyd
+[2023-07-07 02:50:47] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-07-07 02:50:47] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.7.5.tar.gz tmp/kubric-nightly-2023.7.6.tar.gz --markdown 20230707/k/kubric-nightly/2023.7.5-2023.7.6/diff.md --exclude *.pyd
+[2023-07-07 02:50:47] INFO root fetch - processPackages [proknow]: Downloading https://files.pythonhosted.org/packages/b2/c3/1834b38de6da9be9eb094a63d113daa1595a9ff28844b68e249ca0258a0a/proknow-0.9.0-py2.py3-none-any.whl
+[2023-07-07 02:50:47] INFO root fetch - processPackages [banf]: executing diffoscope
+[2023-07-07 02:50:47] INFO root fetch - processPackages [banf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/banf-0.0.4-py3-none-any.whl.zip tmp/banf-0.0.5-py3-none-any.whl.zip --markdown 20230707/b/banf/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-07 02:50:47] INFO root fetch - processPackages [banf]: executing diffoscope
+[2023-07-07 02:50:47] INFO root fetch - processPackages [banf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/banf-0.0.4-py3-none-any.whl.zip tmp/banf-0.0.5-py3-none-any.whl.zip --markdown 20230707/b/banf/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-07 02:50:47] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-07-07 02:50:47] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.3.1.tar.gz tmp/yplib-2.3.2.tar.gz --markdown 20230707/y/yplib/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-07-07 02:50:47] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-07-07 02:50:47] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.9.8.tar.gz tmp/chalkpy-2.9.9.tar.gz --markdown 20230707/c/chalkpy/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-07-07 02:50:48] INFO root fetch - processPackages [proknow]: executing diffoscope
+[2023-07-07 02:50:48] INFO root fetch - processPackages [proknow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proknow-0.8.0-py2.py3-none-any.whl.zip tmp/proknow-0.9.0-py2.py3-none-any.whl.zip --markdown 20230707/p/proknow/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-07 02:50:49] INFO root fetch - processPackages [cbcmgr]: Remove: archive file [/home/abi/fetcher/tmp/cbcmgr-1.2.4.tar.gz]
+[2023-07-07 02:50:49] INFO root fetch - processPackages [cbcmgr]: Remove: archive file [/home/abi/fetcher/tmp/cbcmgr-1.3.0.tar.gz]
+[2023-07-07 02:50:49] INFO root fetch - main [MainThread]: End processing [cbcmgr]: success
+[2023-07-07 02:50:49] INFO root fetch - processPackages [banf]: Remove: archive file [/home/abi/fetcher/tmp/banf-0.0.4-py3-none-any.whl.zip]
+[2023-07-07 02:50:49] INFO root fetch - processPackages [banf]: Remove: archive file [/home/abi/fetcher/tmp/banf-0.0.5-py3-none-any.whl.zip]
+[2023-07-07 02:50:49] INFO root fetch - main [MainThread]: End processing [banf]: success
+[2023-07-07 02:50:49] INFO root fetch - main [MainThread]: End processing [banf]: success
+[2023-07-07 02:50:49] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.5.tar.gz]
+[2023-07-07 02:50:49] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.6.tar.gz]
+[2023-07-07 02:50:49] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-07-07 02:50:49] INFO root fetch - processPackages [proknow]: Remove: archive file [/home/abi/fetcher/tmp/proknow-0.8.0-py2.py3-none-any.whl.zip]
+[2023-07-07 02:50:49] INFO root fetch - processPackages [proknow]: Remove: archive file [/home/abi/fetcher/tmp/proknow-0.9.0-py2.py3-none-any.whl.zip]
+[2023-07-07 02:50:49] INFO root fetch - main [MainThread]: End processing [proknow]: success
+[2023-07-07 02:50:49] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.3.1.tar.gz]
+[2023-07-07 02:50:49] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.3.2.tar.gz]
+[2023-07-07 02:50:49] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-07-07 02:50:51] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.8.tar.gz]
+[2023-07-07 02:50:51] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
+[2023-07-07 02:50:51] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-07-07 02:50:51] INFO root fetch - main [MainThread]: Store serial: [18793512]
