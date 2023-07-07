@@ -15587,3 +15587,117 @@ EOFError: EOF read where object expected
 [2023-07-07 10:26:30] INFO root fetch - processPackages [spacy]: Remove: archive file [/home/abi/fetcher/tmp/spacy-4.0.0.dev1.tar.gz]
 [2023-07-07 10:26:30] INFO root fetch - main [MainThread]: End processing [spacy]: success
 [2023-07-07 10:26:30] INFO root fetch - main [MainThread]: Store serial: [18797487]
+[2023-07-07 10:31:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18797487]
+[2023-07-07 10:31:39] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-07 10:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: veetility
+[2023-07-07 10:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-model-optimization-nightly
+[2023-07-07 10:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xt-st-common
+[2023-07-07 10:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: geostggc
+[2023-07-07 10:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-akamai
+[2023-07-07 10:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: localstack-core
+[2023-07-07 10:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: custom-logger-cloud
+[2023-07-07 10:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lmp23578
+[2023-07-07 10:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: arrowcm
+[2023-07-07 10:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cellmap
+[2023-07-07 10:31:40] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230707074511] Old Version: [2.1.1.dev20230706211014]
+[2023-07-07 10:31:40] INFO root fetch - processPackages [pulumi-akamai]: New version: [5.0.0a1688662273] Old Version: [4.6.0a1688398728]
+[2023-07-07 10:31:40] INFO root fetch - processPackages [cellmap]: New version: [1.0.1.dev202307070810] Old Version: [1.0.1.dev202307070805]
+[2023-07-07 10:31:40] INFO root fetch - processPackages [tf-model-optimization-nightly]: New version: [0.7.5.dev20230706] Old Version: [0.7.5.dev20230705]
+[2023-07-07 10:31:40] INFO root fetch - processPackages [veetility]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-07 10:31:40] WARNING root fetch - processPackages [lmp23578]: Skipping, unable to determine old version
+[2023-07-07 10:31:40] INFO root fetch - processPackages [lmp23578]: Start processing: v-quantum-annealing
+[2023-07-07 10:31:40] INFO root fetch - main [MainThread]: End processing [lmp23578] error
+[2023-07-07 10:31:40] WARNING root fetch - processPackages [arrowcm]: Skipping, unable to determine old version
+[2023-07-07 10:31:40] INFO root fetch - processPackages [arrowcm]: Start processing: tibert
+[2023-07-07 10:31:40] INFO root fetch - main [MainThread]: End processing [arrowcm] error
+[2023-07-07 10:31:40] WARNING root fetch - processPackages [geostggc]: Skipping, unable to determine old version
+[2023-07-07 10:31:40] INFO root fetch - processPackages [geostggc]: Start processing: pydatawork
+[2023-07-07 10:31:40] INFO root fetch - main [MainThread]: End processing [geostggc] error
+[2023-07-07 10:31:40] WARNING root fetch - processPackages [custom-logger-cloud]: Skipping, unable to determine old version
+[2023-07-07 10:31:40] INFO root fetch - processPackages [custom-logger-cloud]: Start processing: sh-dynamodb
+[2023-07-07 10:31:40] INFO root fetch - main [MainThread]: End processing [custom-logger-cloud] error
+[2023-07-07 10:31:40] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/88/76/a61404c6a322b82ebb5e79fa455d00b98c628d68199753a303fddffd6c02/pulumi_akamai-4.6.0a1688398728.tar.gz
+[2023-07-07 10:31:40] INFO root fetch - processPackages [xt-st-common]: New version: [0.9.1] Old Version: [0.8.4]
+[2023-07-07 10:31:40] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/2d/46/68a53f67c0c6ce8f5a76df6ca342304af4c0b093ee46ca0b35af31a06c59/cellmap-1.0.1.dev202307070805-py3-none-any.whl
+[2023-07-07 10:31:40] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/4d/57/0be2c639167f01ec21b67b10740435a1889ef2954b80e091f4eab42b7881/localstack-core-2.1.1.dev20230706211014.tar.gz
+[2023-07-07 10:31:40] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/2d/a5/514fdf30d364b689d5cb68e482814ad7a09f51ddd716933fda62cc39d365/tf_model_optimization_nightly-0.7.5.dev20230705-py2.py3-none-any.whl
+[2023-07-07 10:31:40] INFO root fetch - processPackages [pydatawork]: New version: [0.17.4.1] Old Version: [0.17.4.0]
+[2023-07-07 10:31:40] INFO root fetch - processPackages [v-quantum-annealing]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 10:31:40] INFO root fetch - processPackages [tibert]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-07-07 10:31:40] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/b4/6c/d6775912e1f4b22333ed3a4fee91721e0069b8797ba5c31097f91a3135d6/veetility-0.1.98.tar.gz
+[2023-07-07 10:31:40] INFO root fetch - processPackages [sh-dynamodb]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-07 10:31:40] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/30/8f/56e31df93c2b578e33fcbbf2b386084efe840a10cfdcf283d170e1853cc5/pydatawork-0.17.4.0.tar.gz
+[2023-07-07 10:31:40] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/5a/e5/c4d1ba9d0518670e6a4d9fb2d68e050fb236ae06e73e6d93fb1cab40859c/cellmap-1.0.1.dev202307070810-py3-none-any.whl
+[2023-07-07 10:31:40] INFO root fetch - processPackages [xt-st-common]: Downloading https://files.pythonhosted.org/packages/e7/ef/5ac2e57c98df5426a980cbfc9db93d6554fd46f96a4ddf5f7a9161da2ca3/xt_st_common-0.8.4.tar.gz
+[2023-07-07 10:31:40] INFO root fetch - processPackages [cellmap]: executing diffoscope
+[2023-07-07 10:31:40] INFO root fetch - processPackages [cellmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmap-1.0.1.dev202307070805-py3-none-any.whl.zip tmp/cellmap-1.0.1.dev202307070810-py3-none-any.whl.zip --markdown 20230707/c/cellmap/1.0.1.dev202307070805-1.0.1.dev202307070810/diff.md --exclude *.pyd
+[2023-07-07 10:31:40] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/58/4a/78afb390ff14d82682ae4c7608d0a96c021d397ff8a5ab520b1008f61cc1/sh-dynamodb-1.3.0.tar.gz
+[2023-07-07 10:31:40] INFO root fetch - processPackages [v-quantum-annealing]: Downloading https://files.pythonhosted.org/packages/a3/22/b01e7bb04835215ae01270e487b97dab9b252137f1801d1115400ea8d90a/v_quantum_annealing-0.0.8.tar.gz
+[2023-07-07 10:31:40] INFO root fetch - processPackages [tibert]: Downloading https://files.pythonhosted.org/packages/7d/a7/458fbba14f3701c718acb1889ed124c00a1fc588c044edb0fff73008dcf9/tibert-0.0.3.tar.gz
+[2023-07-07 10:31:40] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/d4/49/9d8390a714b94a2ced6ae2720d61d307190f2b8b427dab996ef149fa1b63/tf_model_optimization_nightly-0.7.5.dev20230706-py2.py3-none-any.whl
+[2023-07-07 10:31:41] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/a0/4f/eb1359196e4e216d1ccfde231e462db3887b8a191ac90d104f3b45fa4169/veetility-0.1.99.tar.gz
+[2023-07-07 10:31:41] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/d5/67/fcf26a8229db06fc83c0e48f3d7ca8c7f5c2d1db29906063486d4124deec/pydatawork-0.17.4.1.tar.gz
+[2023-07-07 10:31:41] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/ff/e2/0b6e6d69f367e1bea5971cf6b615804fdab6c771a4ccbaf07d1619b3ba90/pulumi_akamai-5.0.0a1688662273.tar.gz
+[2023-07-07 10:31:41] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/38/92/f5bdc8b2657cd35f88b3e5fef0e3fa9036a28384745827845aee67fb8e72/localstack-core-2.1.1.dev20230707074511.tar.gz
+[2023-07-07 10:31:41] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-07-07 10:31:41] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.98.tar.gz tmp/veetility-0.1.99.tar.gz --markdown 20230707/v/veetility/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-07 10:31:41] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-07-07 10:31:41] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.17.4.0.tar.gz tmp/pydatawork-0.17.4.1.tar.gz --markdown 20230707/p/pydatawork/0.17.4.0-0.17.4.1/diff.md --exclude *.pyd
+[2023-07-07 10:31:41] INFO root fetch - processPackages [tf-model-optimization-nightly]: executing diffoscope
+[2023-07-07 10:31:41] INFO root fetch - processPackages [tf-model-optimization-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_model_optimization_nightly-0.7.5.dev20230705-py2.py3-none-any.whl.zip tmp/tf_model_optimization_nightly-0.7.5.dev20230706-py2.py3-none-any.whl.zip --markdown 20230707/t/tf-model-optimization-nightly/0.7.5.dev20230705-0.7.5.dev20230706/diff.md --exclude *.pyd
+[2023-07-07 10:31:41] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/e4/1c/a0396aed03b8c4b652ce864f95e1e3ae37914187661316631b40bab3c87d/sh-dynamodb-1.3.1.tar.gz
+[2023-07-07 10:31:41] INFO root fetch - processPackages [tibert]: Downloading https://files.pythonhosted.org/packages/9c/71/53687a28ad355e3c091e497d97532bcaff9ea90694c98f82f3836a348a1e/tibert-0.1.0.tar.gz
+[2023-07-07 10:31:41] INFO root fetch - processPackages [pulumi-akamai]: executing diffoscope
+[2023-07-07 10:31:41] INFO root fetch - processPackages [pulumi-akamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_akamai-4.6.0a1688398728.tar.gz tmp/pulumi_akamai-5.0.0a1688662273.tar.gz --markdown 20230707/p/pulumi-akamai/4.6.0a1688398728-5.0.0a1688662273/diff.md --exclude *.pyd
+[2023-07-07 10:31:41] INFO root fetch - processPackages [sh-dynamodb]: executing diffoscope
+[2023-07-07 10:31:41] INFO root fetch - processPackages [sh-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sh-dynamodb-1.3.0.tar.gz tmp/sh-dynamodb-1.3.1.tar.gz --markdown 20230707/s/sh-dynamodb/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-07 10:31:41] INFO root fetch - processPackages [tibert]: executing diffoscope
+[2023-07-07 10:31:41] INFO root fetch - processPackages [tibert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tibert-0.0.3.tar.gz tmp/tibert-0.1.0.tar.gz --markdown 20230707/t/tibert/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-07-07 10:31:41] INFO root fetch - processPackages [v-quantum-annealing]: Downloading https://files.pythonhosted.org/packages/9d/8f/5bc22a08352bc6e11eb0dee3d5cc0e9511595befb00f71e0c4b8fcb5f07b/v_quantum_annealing-0.0.9.tar.gz
+[2023-07-07 10:31:41] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-07 10:31:41] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230706211014.tar.gz tmp/localstack-core-2.1.1.dev20230707074511.tar.gz --markdown 20230707/l/localstack-core/2.1.1.dev20230706211014-2.1.1.dev20230707074511/diff.md --exclude *.pyd
+[2023-07-07 10:31:41] INFO root fetch - processPackages [v-quantum-annealing]: executing diffoscope
+[2023-07-07 10:31:41] INFO root fetch - processPackages [v-quantum-annealing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v_quantum_annealing-0.0.8.tar.gz tmp/v_quantum_annealing-0.0.9.tar.gz --markdown 20230707/v/v-quantum-annealing/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 10:31:41] INFO root fetch - processPackages [cellmap]: Remove: archive file [/home/abi/fetcher/tmp/cellmap-1.0.1.dev202307070805-py3-none-any.whl.zip]
+[2023-07-07 10:31:41] INFO root fetch - processPackages [cellmap]: Remove: archive file [/home/abi/fetcher/tmp/cellmap-1.0.1.dev202307070810-py3-none-any.whl.zip]
+[2023-07-07 10:31:41] INFO root fetch - processPackages [cellmap]: Start processing: kensu
+[2023-07-07 10:31:41] INFO root fetch - main [MainThread]: End processing [cellmap]: success
+[2023-07-07 10:31:42] INFO root fetch - processPackages [kensu]: New version: [2.6.2] Old Version: [2.5.5]
+[2023-07-07 10:31:42] INFO root fetch - processPackages [xt-st-common]: Downloading https://files.pythonhosted.org/packages/6d/9f/d7b6e076e0332094ff9e8fe2cea0214fcf82c92bbdaf98d2091fcdd42bbb/xt_st_common-0.9.1.tar.gz
+[2023-07-07 10:31:42] INFO root fetch - processPackages [kensu]: Downloading https://files.pythonhosted.org/packages/2b/eb/34beb79f5ac680b02502161b0f4865fa922ee1622c3f5be3765788171f78/kensu-2.5.5.tar.gz
+[2023-07-07 10:31:42] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.98.tar.gz]
+[2023-07-07 10:31:42] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.99.tar.gz]
+[2023-07-07 10:31:42] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-07-07 10:31:42] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.17.4.0.tar.gz]
+[2023-07-07 10:31:42] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.17.4.1.tar.gz]
+[2023-07-07 10:31:42] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-07-07 10:31:42] INFO root fetch - processPackages [kensu]: Downloading https://files.pythonhosted.org/packages/fc/ac/2218342e2bd34f196752145b1e088f4a5d5f006efaa058c27d53e1539072/kensu-2.6.2.tar.gz
+[2023-07-07 10:31:42] INFO root fetch - processPackages [tibert]: Remove: archive file [/home/abi/fetcher/tmp/tibert-0.0.3.tar.gz]
+[2023-07-07 10:31:42] INFO root fetch - processPackages [tibert]: Remove: archive file [/home/abi/fetcher/tmp/tibert-0.1.0.tar.gz]
+[2023-07-07 10:31:42] INFO root fetch - main [MainThread]: End processing [tibert]: success
+[2023-07-07 10:31:42] INFO root fetch - processPackages [sh-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/sh-dynamodb-1.3.0.tar.gz]
+[2023-07-07 10:31:42] INFO root fetch - processPackages [sh-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/sh-dynamodb-1.3.1.tar.gz]
+[2023-07-07 10:31:42] INFO root fetch - main [MainThread]: End processing [sh-dynamodb]: success
+[2023-07-07 10:31:43] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230705-py2.py3-none-any.whl.zip]
+[2023-07-07 10:31:43] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230706-py2.py3-none-any.whl.zip]
+[2023-07-07 10:31:43] INFO root fetch - main [MainThread]: End processing [tf-model-optimization-nightly]: success
+[2023-07-07 10:31:43] INFO root fetch - processPackages [kensu]: executing diffoscope
+[2023-07-07 10:31:43] INFO root fetch - processPackages [kensu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kensu-2.5.5.tar.gz tmp/kensu-2.6.2.tar.gz --markdown 20230707/k/kensu/2.5.5-2.6.2/diff.md --exclude *.pyd
+[2023-07-07 10:31:43] INFO root fetch - processPackages [xt-st-common]: executing diffoscope
+[2023-07-07 10:31:43] INFO root fetch - processPackages [xt-st-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xt_st_common-0.8.4.tar.gz tmp/xt_st_common-0.9.1.tar.gz --markdown 20230707/x/xt-st-common/0.8.4-0.9.1/diff.md --exclude *.pyd
+[2023-07-07 10:31:43] INFO root fetch - processPackages [v-quantum-annealing]: Remove: archive file [/home/abi/fetcher/tmp/v_quantum_annealing-0.0.8.tar.gz]
+[2023-07-07 10:31:43] INFO root fetch - processPackages [v-quantum-annealing]: Remove: archive file [/home/abi/fetcher/tmp/v_quantum_annealing-0.0.9.tar.gz]
+[2023-07-07 10:31:43] INFO root fetch - main [MainThread]: End processing [v-quantum-annealing]: success
+[2023-07-07 10:31:44] INFO root fetch - processPackages [kensu]: Remove: archive file [/home/abi/fetcher/tmp/kensu-2.5.5.tar.gz]
+[2023-07-07 10:31:44] INFO root fetch - processPackages [kensu]: Remove: archive file [/home/abi/fetcher/tmp/kensu-2.6.2.tar.gz]
+[2023-07-07 10:31:44] INFO root fetch - main [MainThread]: End processing [kensu]: success
+[2023-07-07 10:31:45] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-4.6.0a1688398728.tar.gz]
+[2023-07-07 10:31:45] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-5.0.0a1688662273.tar.gz]
+[2023-07-07 10:31:45] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
+[2023-07-07 10:31:45] INFO root fetch - processPackages [xt-st-common]: Remove: archive file [/home/abi/fetcher/tmp/xt_st_common-0.8.4.tar.gz]
+[2023-07-07 10:31:45] INFO root fetch - processPackages [xt-st-common]: Remove: archive file [/home/abi/fetcher/tmp/xt_st_common-0.9.1.tar.gz]
+[2023-07-07 10:31:45] INFO root fetch - main [MainThread]: End processing [xt-st-common]: success
+[2023-07-07 10:31:46] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230706211014.tar.gz]
+[2023-07-07 10:31:46] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230707074511.tar.gz]
+[2023-07-07 10:31:46] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-07 10:31:46] INFO root fetch - main [MainThread]: Store serial: [18797541]
