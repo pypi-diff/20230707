@@ -11474,3 +11474,63 @@ EOFError: EOF read where object expected
 [2023-07-07 06:19:42] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
 [2023-07-07 06:19:42] INFO root fetch - main [MainThread]: End processing [hak]: success
 [2023-07-07 06:19:42] INFO root fetch - main [MainThread]: Store serial: [18795825]
+[2023-07-07 06:24:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18795825]
+[2023-07-07 06:24:50] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-07 06:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: roboto-sdk
+[2023-07-07 06:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bastila-search
+[2023-07-07 06:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dreamai
+[2023-07-07 06:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reactivated
+[2023-07-07 06:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hak
+[2023-07-07 06:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vanna
+[2023-07-07 06:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cp-broadcast-HuParry
+[2023-07-07 06:24:51] INFO root fetch - processPackages [bastila-search]: New version: [0.3.1] Old Version: [0.3]
+[2023-07-07 06:24:51] WARNING root fetch - processPackages [cp-broadcast-HuParry]: Skipping, unable to determine old version
+[2023-07-07 06:24:51] INFO root fetch - processPackages [vanna]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-07 06:24:51] INFO root fetch - main [MainThread]: End processing [cp-broadcast-HuParry] error
+[2023-07-07 06:24:51] INFO root fetch - processPackages [dreamai]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-07 06:24:51] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 06:24:51] INFO root fetch - processPackages [roboto-sdk]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-07 06:24:51] INFO root fetch - processPackages [reactivated]: New version: [3.0.0a64] Old Version: [0.9.0]
+[2023-07-07 06:24:51] INFO root fetch - processPackages [bastila-search]: Downloading https://files.pythonhosted.org/packages/43/aa/89734ec73da234023fa84f23710183918b1a5fc2093571d0345153dac689/bastila_search-0.3.tar.gz
+[2023-07-07 06:24:51] INFO root fetch - processPackages [vanna]: Downloading https://files.pythonhosted.org/packages/e1/be/b37ac36d07e0df4d02dba4428412484f72299b2df6efacbe8907e70629e8/vanna-0.0.5.tar.gz
+[2023-07-07 06:24:51] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-07-07 06:24:51] INFO root fetch - processPackages [roboto-sdk]: Downloading https://files.pythonhosted.org/packages/dd/77/108598f40d531f84e70f4e3ab8234ecaec7cbcf6f792129ae64d4b5fc86f/roboto_sdk-0.1.5.tar.gz
+[2023-07-07 06:24:51] INFO root fetch - processPackages [dreamai]: Downloading https://files.pythonhosted.org/packages/d1/67/8e3da3eb8a07d4d5ba8d63853c37e5c1967995d3d9b9632ae28ca971779f/dreamai-0.8.0.tar.gz
+[2023-07-07 06:24:51] INFO root fetch - processPackages [reactivated]: Downloading https://files.pythonhosted.org/packages/1a/71/35446a123e19409f94888e6e11acb49110c8ff7c7a45a894cb072e06ec46/reactivated-0.9.0.tar.gz
+[2023-07-07 06:24:51] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-07 06:24:51] INFO root fetch - processPackages [vanna]: Downloading https://files.pythonhosted.org/packages/ff/69/4afbb1b9cca17178a805d6acb65047dcef7e799cefde35273911fa066886/vanna-0.0.6.tar.gz
+[2023-07-07 06:24:51] INFO root fetch - processPackages [bastila-search]: Downloading https://files.pythonhosted.org/packages/55/de/8d3cf592565d9275f5e9f03cd4d08871e82c7ab6f22c03123d47a5bd1530/bastila_search-0.3.1.tar.gz
+[2023-07-07 06:24:51] INFO root fetch - processPackages [vanna]: executing diffoscope
+[2023-07-07 06:24:51] INFO root fetch - processPackages [vanna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vanna-0.0.5.tar.gz tmp/vanna-0.0.6.tar.gz --markdown 20230707/v/vanna/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-07 06:24:51] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-07 06:24:51] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230707/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 06:24:51] INFO root fetch - processPackages [bastila-search]: executing diffoscope
+[2023-07-07 06:24:51] INFO root fetch - processPackages [bastila-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bastila_search-0.3.tar.gz tmp/bastila_search-0.3.1.tar.gz --markdown 20230707/b/bastila-search/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-07-07 06:24:51] INFO root fetch - processPackages [reactivated]: Downloading https://files.pythonhosted.org/packages/bc/d8/5e07e04244e84ca0f743649c1aa5514ec10843e552f82eb830dbb5e7cca7/reactivated-3.0.0a64.tar.gz
+[2023-07-07 06:24:51] INFO root fetch - processPackages [roboto-sdk]: Downloading https://files.pythonhosted.org/packages/6b/d1/b8541c989328c93757a8cc3757a00e2af58f7aa8e9358d7851c9b2e43f2a/roboto_sdk-0.1.6.tar.gz
+[2023-07-07 06:24:51] INFO root fetch - processPackages [dreamai]: Downloading https://files.pythonhosted.org/packages/45/40/1d2450889d8ae23bbc2b3d0708f7c25bc9188d844249e8d88635125d98cc/dreamai-0.9.0.tar.gz
+[2023-07-07 06:24:51] INFO root fetch - processPackages [reactivated]: executing diffoscope
+[2023-07-07 06:24:51] INFO root fetch - processPackages [reactivated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reactivated-0.9.0.tar.gz tmp/reactivated-3.0.0a64.tar.gz --markdown 20230707/r/reactivated/0.9.0-3.0.0a64/diff.md --exclude *.pyd
+[2023-07-07 06:24:52] INFO root fetch - processPackages [roboto-sdk]: executing diffoscope
+[2023-07-07 06:24:52] INFO root fetch - processPackages [roboto-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roboto_sdk-0.1.5.tar.gz tmp/roboto_sdk-0.1.6.tar.gz --markdown 20230707/r/roboto-sdk/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-07 06:24:52] INFO root fetch - processPackages [dreamai]: executing diffoscope
+[2023-07-07 06:24:52] INFO root fetch - processPackages [dreamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreamai-0.8.0.tar.gz tmp/dreamai-0.9.0.tar.gz --markdown 20230707/d/dreamai/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-07 06:24:52] INFO root fetch - processPackages [vanna]: Remove: archive file [/home/abi/fetcher/tmp/vanna-0.0.5.tar.gz]
+[2023-07-07 06:24:52] INFO root fetch - processPackages [vanna]: Remove: archive file [/home/abi/fetcher/tmp/vanna-0.0.6.tar.gz]
+[2023-07-07 06:24:52] INFO root fetch - main [MainThread]: End processing [vanna]: success
+[2023-07-07 06:24:52] INFO root fetch - processPackages [bastila-search]: Remove: archive file [/home/abi/fetcher/tmp/bastila_search-0.3.tar.gz]
+[2023-07-07 06:24:52] INFO root fetch - processPackages [bastila-search]: Remove: archive file [/home/abi/fetcher/tmp/bastila_search-0.3.1.tar.gz]
+[2023-07-07 06:24:52] INFO root fetch - main [MainThread]: End processing [bastila-search]: success
+[2023-07-07 06:24:53] INFO root fetch - processPackages [reactivated]: Remove: archive file [/home/abi/fetcher/tmp/reactivated-0.9.0.tar.gz]
+[2023-07-07 06:24:53] INFO root fetch - processPackages [reactivated]: Remove: archive file [/home/abi/fetcher/tmp/reactivated-3.0.0a64.tar.gz]
+[2023-07-07 06:24:53] INFO root fetch - main [MainThread]: End processing [reactivated]: success
+[2023-07-07 06:24:53] INFO root fetch - processPackages [dreamai]: Remove: archive file [/home/abi/fetcher/tmp/dreamai-0.8.0.tar.gz]
+[2023-07-07 06:24:53] INFO root fetch - processPackages [dreamai]: Remove: archive file [/home/abi/fetcher/tmp/dreamai-0.9.0.tar.gz]
+[2023-07-07 06:24:53] INFO root fetch - main [MainThread]: End processing [dreamai]: success
+[2023-07-07 06:24:53] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-07-07 06:24:53] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-07 06:24:53] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-07 06:24:53] INFO root fetch - processPackages [roboto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/roboto_sdk-0.1.5.tar.gz]
+[2023-07-07 06:24:53] INFO root fetch - processPackages [roboto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/roboto_sdk-0.1.6.tar.gz]
+[2023-07-07 06:24:53] INFO root fetch - main [MainThread]: End processing [roboto-sdk]: success
+[2023-07-07 06:24:53] INFO root fetch - main [MainThread]: Store serial: [18795848]
