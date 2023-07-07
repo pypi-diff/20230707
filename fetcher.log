@@ -11043,3 +11043,74 @@ EOFError: EOF read where object expected
 [2023-07-07 05:53:41] INFO root fetch - processPackages [straxen]: Remove: archive file [/home/abi/fetcher/tmp/straxen-2.1.1.tar.gz]
 [2023-07-07 05:53:41] INFO root fetch - main [MainThread]: End processing [straxen]: success
 [2023-07-07 05:53:41] INFO root fetch - main [MainThread]: Store serial: [18795680]
+[2023-07-07 05:58:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18795680]
+[2023-07-07 05:58:50] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-07 05:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: protloc-mex1
+[2023-07-07 05:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: magnum-cluster-api
+[2023-07-07 05:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sentecon
+[2023-07-07 05:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ldst-monitor
+[2023-07-07 05:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cofi
+[2023-07-07 05:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: freq-mob
+[2023-07-07 05:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sentecon
+[2023-07-07 05:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sentecon
+[2023-07-07 05:58:50] INFO root fetch - processPackages [protloc-mex1]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-07 05:58:50] INFO root fetch - processPackages [sentecon]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-07 05:58:50] INFO root fetch - processPackages [sentecon]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-07 05:58:50] INFO root fetch - processPackages [sentecon]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-07 05:58:50] INFO root fetch - processPackages [magnum-cluster-api]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-07 05:58:50] INFO root fetch - processPackages [ldst-monitor]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-07 05:58:50] INFO root fetch - processPackages [freq-mob]: New version: [0.11] Old Version: [0.1]
+[2023-07-07 05:58:50] INFO root fetch - processPackages [cofi]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-07 05:58:50] INFO root fetch - processPackages [protloc-mex1]: Downloading https://files.pythonhosted.org/packages/3d/36/6bca499219d8d1f180030029b7364f9b18f4784e1411d54f945bac3c5db4/protloc_mex1-0.0.7.tar.gz
+[2023-07-07 05:58:50] INFO root fetch - processPackages [ldst-monitor]: Downloading https://files.pythonhosted.org/packages/cc/18/961feef58ca33ea49a391217b7215db2249d459be7b420109feadcf20474/ldst_monitor-1.0.4.tar.gz
+[2023-07-07 05:58:50] INFO root fetch - processPackages [sentecon]: Downloading https://files.pythonhosted.org/packages/3e/67/e3954837da7fd8bfa7d12c591aa9b144717d8a96e90c13ef9faee377120f/sentecon-0.1.4-py3-none-any.whl
+[2023-07-07 05:58:50] INFO root fetch - processPackages [sentecon]: Downloading https://files.pythonhosted.org/packages/3e/67/e3954837da7fd8bfa7d12c591aa9b144717d8a96e90c13ef9faee377120f/sentecon-0.1.4-py3-none-any.whl
+[2023-07-07 05:58:50] INFO root fetch - processPackages [sentecon]: Downloading https://files.pythonhosted.org/packages/3e/67/e3954837da7fd8bfa7d12c591aa9b144717d8a96e90c13ef9faee377120f/sentecon-0.1.4-py3-none-any.whl
+[2023-07-07 05:58:50] INFO root fetch - processPackages [cofi]: Downloading https://files.pythonhosted.org/packages/2d/d7/03eebdff7e8ef380fc68f37af1b9bc4b896b996ad6d8a9227c78b324bc23/cofi-0.2.0.tar.gz
+[2023-07-07 05:58:50] INFO root fetch - processPackages [magnum-cluster-api]: Downloading https://files.pythonhosted.org/packages/d8/e5/7d838642068b3bf0cef46ab9ab2c8323384952e8a0fdf7eb01d5f349633b/magnum_cluster_api-0.8.0.tar.gz
+[2023-07-07 05:58:50] INFO root fetch - processPackages [freq-mob]: Downloading https://files.pythonhosted.org/packages/42/fd/63d2071923d554033a6f166c0174f2add7c70b8d76e0f4d7e2ff1a87ed28/freq_mob-0.1.tar.gz
+[2023-07-07 05:58:50] INFO root fetch - processPackages [ldst-monitor]: Downloading https://files.pythonhosted.org/packages/d5/c7/8b25c89431bad95f2d91f5ad167fbab18dbe96f8645e60db8a41388887fe/ldst_monitor-1.0.5.tar.gz
+[2023-07-07 05:58:50] INFO root fetch - processPackages [protloc-mex1]: Downloading https://files.pythonhosted.org/packages/f1/a6/b12a1d269d5bdf4475b5466ebbe2ad69d3f3521620e4e11b9debbfd08d62/protloc_mex1-0.0.8.tar.gz
+[2023-07-07 05:58:51] INFO root fetch - processPackages [ldst-monitor]: executing diffoscope
+[2023-07-07 05:58:51] INFO root fetch - processPackages [ldst-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldst_monitor-1.0.4.tar.gz tmp/ldst_monitor-1.0.5.tar.gz --markdown 20230707/l/ldst-monitor/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-07 05:58:51] INFO root fetch - processPackages [protloc-mex1]: executing diffoscope
+[2023-07-07 05:58:51] INFO root fetch - processPackages [protloc-mex1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protloc_mex1-0.0.7.tar.gz tmp/protloc_mex1-0.0.8.tar.gz --markdown 20230707/p/protloc-mex1/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-07 05:58:51] INFO root fetch - processPackages [sentecon]: Downloading https://files.pythonhosted.org/packages/56/38/21b78c80392e7d8cbc1809bc64646f9a875bea3740368179d2d132badfb7/sentecon-0.1.5-py3-none-any.whl
+[2023-07-07 05:58:51] INFO root fetch - processPackages [sentecon]: Downloading https://files.pythonhosted.org/packages/56/38/21b78c80392e7d8cbc1809bc64646f9a875bea3740368179d2d132badfb7/sentecon-0.1.5-py3-none-any.whl
+[2023-07-07 05:58:51] INFO root fetch - processPackages [freq-mob]: Downloading https://files.pythonhosted.org/packages/68/64/3527dc8e7ef80cece46593c284d17ea2042c51e3a4f91085e87e5c9aedca/freq_mob-0.11.tar.gz
+[2023-07-07 05:58:51] INFO root fetch - processPackages [sentecon]: Downloading https://files.pythonhosted.org/packages/56/38/21b78c80392e7d8cbc1809bc64646f9a875bea3740368179d2d132badfb7/sentecon-0.1.5-py3-none-any.whl
+[2023-07-07 05:58:51] INFO root fetch - processPackages [cofi]: Downloading https://files.pythonhosted.org/packages/d1/98/a219ebf527be24795f12e9298e70da989e12f624b0520085250aac305a15/cofi-0.2.1.tar.gz
+[2023-07-07 05:58:51] INFO root fetch - processPackages [magnum-cluster-api]: Downloading https://files.pythonhosted.org/packages/2f/29/d3b81f2104cf7b144f2e53f735902466f97b1e3362cd2db638d949b566a9/magnum_cluster_api-0.8.1.tar.gz
+[2023-07-07 05:58:51] INFO root fetch - processPackages [cofi]: executing diffoscope
+[2023-07-07 05:58:51] INFO root fetch - processPackages [cofi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cofi-0.2.0.tar.gz tmp/cofi-0.2.1.tar.gz --markdown 20230707/c/cofi/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-07 05:58:51] INFO root fetch - processPackages [magnum-cluster-api]: executing diffoscope
+[2023-07-07 05:58:51] INFO root fetch - processPackages [magnum-cluster-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magnum_cluster_api-0.8.0.tar.gz tmp/magnum_cluster_api-0.8.1.tar.gz --markdown 20230707/m/magnum-cluster-api/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-07 05:58:51] INFO root fetch - processPackages [freq-mob]: executing diffoscope
+[2023-07-07 05:58:51] INFO root fetch - processPackages [freq-mob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freq_mob-0.1.tar.gz tmp/freq_mob-0.11.tar.gz --markdown 20230707/f/freq-mob/0.1-0.11/diff.md --exclude *.pyd
+[2023-07-07 05:58:51] INFO root fetch - processPackages [sentecon]: executing diffoscope
+[2023-07-07 05:58:51] INFO root fetch - processPackages [sentecon]: executing diffoscope
+[2023-07-07 05:58:51] INFO root fetch - processPackages [sentecon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentecon-0.1.4-py3-none-any.whl.zip tmp/sentecon-0.1.5-py3-none-any.whl.zip --markdown 20230707/s/sentecon/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-07 05:58:51] INFO root fetch - processPackages [sentecon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentecon-0.1.4-py3-none-any.whl.zip tmp/sentecon-0.1.5-py3-none-any.whl.zip --markdown 20230707/s/sentecon/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-07 05:58:51] INFO root fetch - processPackages [sentecon]: executing diffoscope
+[2023-07-07 05:58:51] INFO root fetch - processPackages [sentecon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentecon-0.1.4-py3-none-any.whl.zip tmp/sentecon-0.1.5-py3-none-any.whl.zip --markdown 20230707/s/sentecon/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-07 05:58:52] INFO root fetch - processPackages [ldst-monitor]: Remove: archive file [/home/abi/fetcher/tmp/ldst_monitor-1.0.4.tar.gz]
+[2023-07-07 05:58:52] INFO root fetch - processPackages [ldst-monitor]: Remove: archive file [/home/abi/fetcher/tmp/ldst_monitor-1.0.5.tar.gz]
+[2023-07-07 05:58:52] INFO root fetch - main [MainThread]: End processing [ldst-monitor]: success
+[2023-07-07 05:58:52] INFO root fetch - processPackages [protloc-mex1]: Remove: archive file [/home/abi/fetcher/tmp/protloc_mex1-0.0.7.tar.gz]
+[2023-07-07 05:58:52] INFO root fetch - processPackages [protloc-mex1]: Remove: archive file [/home/abi/fetcher/tmp/protloc_mex1-0.0.8.tar.gz]
+[2023-07-07 05:58:52] INFO root fetch - main [MainThread]: End processing [protloc-mex1]: success
+[2023-07-07 05:58:52] INFO root fetch - processPackages [freq-mob]: Remove: archive file [/home/abi/fetcher/tmp/freq_mob-0.1.tar.gz]
+[2023-07-07 05:58:52] INFO root fetch - processPackages [freq-mob]: Remove: archive file [/home/abi/fetcher/tmp/freq_mob-0.11.tar.gz]
+[2023-07-07 05:58:52] INFO root fetch - main [MainThread]: End processing [freq-mob]: success
+[2023-07-07 05:58:52] INFO root fetch - processPackages [cofi]: Remove: archive file [/home/abi/fetcher/tmp/cofi-0.2.0.tar.gz]
+[2023-07-07 05:58:52] INFO root fetch - processPackages [cofi]: Remove: archive file [/home/abi/fetcher/tmp/cofi-0.2.1.tar.gz]
+[2023-07-07 05:58:52] INFO root fetch - main [MainThread]: End processing [cofi]: success
+[2023-07-07 05:58:52] INFO root fetch - processPackages [sentecon]: Remove: archive file [/home/abi/fetcher/tmp/sentecon-0.1.4-py3-none-any.whl.zip]
+[2023-07-07 05:58:52] INFO root fetch - processPackages [sentecon]: Remove: archive file [/home/abi/fetcher/tmp/sentecon-0.1.5-py3-none-any.whl.zip]
+[2023-07-07 05:58:52] INFO root fetch - main [MainThread]: End processing [sentecon]: success
+[2023-07-07 05:58:52] INFO root fetch - processPackages [magnum-cluster-api]: Remove: archive file [/home/abi/fetcher/tmp/magnum_cluster_api-0.8.0.tar.gz]
+[2023-07-07 05:58:52] INFO root fetch - processPackages [magnum-cluster-api]: Remove: archive file [/home/abi/fetcher/tmp/magnum_cluster_api-0.8.1.tar.gz]
+[2023-07-07 05:58:52] INFO root fetch - main [MainThread]: End processing [magnum-cluster-api]: success
+[2023-07-07 05:58:52] INFO root fetch - main [MainThread]: End processing [sentecon]: success
+[2023-07-07 05:58:52] INFO root fetch - main [MainThread]: End processing [sentecon]: success
+[2023-07-07 05:58:52] INFO root fetch - main [MainThread]: Store serial: [18795701]
