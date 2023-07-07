@@ -21471,3 +21471,129 @@ AssertionError: tmp/tester-package-sdk-2.0.9.tar.gz does not exist
 [2023-07-07 14:09:21] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip]
 [2023-07-07 14:09:21] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
 [2023-07-07 14:09:21] INFO root fetch - main [MainThread]: Store serial: [18800115]
+[2023-07-07 14:14:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18800115]
+[2023-07-07 14:14:30] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-07 14:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: upstox-python
+[2023-07-07 14:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zit
+[2023-07-07 14:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: auterion-cli
+[2023-07-07 14:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TDXLib
+[2023-07-07 14:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: LongNet
+[2023-07-07 14:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unknown-cli
+[2023-07-07 14:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nodalize
+[2023-07-07 14:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: influxdb3-python-cli
+[2023-07-07 14:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: refoss-ha
+[2023-07-07 14:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mytoyota
+[2023-07-07 14:14:30] INFO root fetch - processPackages [refoss-ha]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-07 14:14:30] INFO root fetch - processPackages [unknown-cli]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-07-07 14:14:30] INFO root fetch - processPackages [influxdb3-python-cli]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-07 14:14:30] INFO root fetch - processPackages [zit]: New version: [0.0.2a9] Old Version: [0.0.2a8]
+[2023-07-07 14:14:30] INFO root fetch - processPackages [nodalize]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-07 14:14:30] INFO root fetch - processPackages [TDXLib]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-07 14:14:30] WARNING root fetch - processPackages [upstox-python]: Skipping, unable to determine old version
+[2023-07-07 14:14:30] INFO root fetch - processPackages [upstox-python]: Start processing: opentf-tools-nightly
+[2023-07-07 14:14:30] INFO root fetch - main [MainThread]: End processing [upstox-python] error
+[2023-07-07 14:14:30] INFO root fetch - processPackages [LongNet]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-07 14:14:30] INFO root fetch - processPackages [mytoyota]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-07 14:14:30] INFO root fetch - processPackages [auterion-cli]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-07 14:14:30] INFO root fetch - processPackages [refoss-ha]: Downloading https://files.pythonhosted.org/packages/b8/91/3cae867970dda60ae0f3ef64036fc0ae373f4aacf8a8b692ab1d37e3466a/refoss_ha-1.0.3-py3-none-any.whl
+[2023-07-07 14:14:30] INFO root fetch - processPackages [influxdb3-python-cli]: Downloading https://files.pythonhosted.org/packages/5d/a2/47c9ac88771043e74644f887824c923b52432fd95b7d7581e1bd0acf2026/influxdb3-python-cli-0.3.0.tar.gz
+[2023-07-07 14:14:30] INFO root fetch - processPackages [opentf-tools-nightly]: New version: [0.42.0.dev437] Old Version: [0.42.0.dev434]
+[2023-07-07 14:14:30] INFO root fetch - processPackages [unknown-cli]: Downloading https://files.pythonhosted.org/packages/fa/59/2facdfe3e33a92cbf0b473f2012100f31aeff67eb4f19be23ca310b4521f/unknown-cli-0.6.7.tar.gz
+[2023-07-07 14:14:31] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/f7/a4/03a25a7ac61b59027ec719ada0b3039bd56b6d1585db6047ed6699f2d774/zit-0.0.2a8.tar.gz
+[2023-07-07 14:14:31] INFO root fetch - processPackages [nodalize]: Downloading https://files.pythonhosted.org/packages/e2/00/8ded1114c8073b6a28f02dfa58bf0c4dfaea9d6d7aca80c25f7d9586898d/nodalize-1.0.2-py3-none-any.whl
+[2023-07-07 14:14:31] INFO root fetch - processPackages [opentf-tools-nightly]: Downloading https://files.pythonhosted.org/packages/7a/a1/e110a40e1454ddea6b8c68066397b50e7d6808900283ade21b25b583ba6d/opentf_tools_nightly-0.42.0.dev434-py3-none-any.whl
+[2023-07-07 14:14:31] INFO root fetch - processPackages [mytoyota]: Downloading https://files.pythonhosted.org/packages/68/5b/19b0f043869304f8efd89b68c2c5f17b3964fce204f6030309a009b5ea01/mytoyota-0.9.1.tar.gz
+[2023-07-07 14:14:31] INFO root fetch - processPackages [LongNet]: Downloading https://files.pythonhosted.org/packages/7f/52/9cb00066a89b01a2f1db07190e2085ada49aa4315b7c1090ab1cb808d11b/LongNet-0.0.3.tar.gz
+[2023-07-07 14:14:31] INFO root fetch - processPackages [auterion-cli]: Downloading https://files.pythonhosted.org/packages/89/24/575651bae28663746a25d913856feff5c0f340331571fe8b6414185b9461/auterion-cli-1.1.0.tar.gz
+[2023-07-07 14:14:31] INFO root fetch - processPackages [TDXLib]: Downloading https://files.pythonhosted.org/packages/09/7f/3f199158f10ea6d83ccda84284220328eab2eba261a6046cea086f4f59bf/TDXLib-0.5.1.tar.gz
+[2023-07-07 14:14:31] INFO root fetch - processPackages [refoss-ha]: Downloading https://files.pythonhosted.org/packages/6a/64/6de1380b6f22cdec77e4379f889ba07650c26d8d063f14d07a092ebff3c3/refoss_ha-1.0.4-py3-none-any.whl
+[2023-07-07 14:14:31] INFO root fetch - processPackages [influxdb3-python-cli]: Downloading https://files.pythonhosted.org/packages/ff/de/e7c27acee7948134de2a091daa8d7669f88069db99f050b25f6ab3cd1460/influxdb3-python-cli-0.3.1.tar.gz
+[2023-07-07 14:14:31] INFO root fetch - processPackages [unknown-cli]: Downloading https://files.pythonhosted.org/packages/5f/e3/17ee58c4f8f3c4d254f24fc1aca6e5e360a9a5b05fb13b1731bdb3890f91/unknown-cli-0.6.8.tar.gz
+[2023-07-07 14:14:31] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/a4/82/8acbbc7fb714d5fa1967462dcfd7ed8517c4d85f00ac7d63188980ac02a3/zit-0.0.2a9.tar.gz
+[2023-07-07 14:14:31] INFO root fetch - processPackages [opentf-tools-nightly]: Downloading https://files.pythonhosted.org/packages/6e/ba/615e5a01fd7376c7c2aa5de4084cc9108c95c52f1e7547e4738cdeec9c62/opentf_tools_nightly-0.42.0.dev437-py3-none-any.whl
+[2023-07-07 14:14:31] INFO root fetch - processPackages [refoss-ha]: executing diffoscope
+[2023-07-07 14:14:31] INFO root fetch - processPackages [refoss-ha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refoss_ha-1.0.3-py3-none-any.whl.zip tmp/refoss_ha-1.0.4-py3-none-any.whl.zip --markdown 20230707/r/refoss-ha/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-07 14:14:31] INFO root fetch - processPackages [nodalize]: Downloading https://files.pythonhosted.org/packages/1e/d6/e1ba183dbeb3bd79ca002fff5b9049dfaab2de9373bdf5bdc9bb07b26ce6/nodalize-1.0.3-py3-none-any.whl
+[2023-07-07 14:14:31] INFO root fetch - processPackages [influxdb3-python-cli]: executing diffoscope
+[2023-07-07 14:14:31] INFO root fetch - processPackages [influxdb3-python-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/influxdb3-python-cli-0.3.0.tar.gz tmp/influxdb3-python-cli-0.3.1.tar.gz --markdown 20230707/i/influxdb3-python-cli/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-07 14:14:31] INFO root fetch - processPackages [unknown-cli]: executing diffoscope
+[2023-07-07 14:14:31] INFO root fetch - processPackages [unknown-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unknown-cli-0.6.7.tar.gz tmp/unknown-cli-0.6.8.tar.gz --markdown 20230707/u/unknown-cli/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-07-07 14:14:31] INFO root fetch - processPackages [LongNet]: Downloading https://files.pythonhosted.org/packages/22/3c/1e9d813d78b4b655ece08e73a716e3f0f8d251581be00b3ba25b8c84ff0c/LongNet-0.0.4.tar.gz
+[2023-07-07 14:14:31] INFO root fetch - processPackages [zit]: executing diffoscope
+[2023-07-07 14:14:31] INFO root fetch - processPackages [zit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zit-0.0.2a8.tar.gz tmp/zit-0.0.2a9.tar.gz --markdown 20230707/z/zit/0.0.2a8-0.0.2a9/diff.md --exclude *.pyd
+[2023-07-07 14:14:31] INFO root fetch - processPackages [auterion-cli]: Downloading https://files.pythonhosted.org/packages/78/62/af916e3de09233352ffc10774ad6facec75a6bcda97b745963ae7ff6a9b5/auterion-cli-1.2.0.tar.gz
+[2023-07-07 14:14:31] INFO root fetch - processPackages [opentf-tools-nightly]: executing diffoscope
+[2023-07-07 14:14:31] INFO root fetch - processPackages [opentf-tools-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentf_tools_nightly-0.42.0.dev434-py3-none-any.whl.zip tmp/opentf_tools_nightly-0.42.0.dev437-py3-none-any.whl.zip --markdown 20230707/o/opentf-tools-nightly/0.42.0.dev434-0.42.0.dev437/diff.md --exclude *.pyd
+[2023-07-07 14:14:31] INFO root fetch - processPackages [TDXLib]: Downloading https://files.pythonhosted.org/packages/a5/7e/42627daaadc2c58f390540d6db836665b2d440168b72e3f4073a37148397/TDXLib-0.5.2.tar.gz
+[2023-07-07 14:14:31] INFO root fetch - processPackages [mytoyota]: Downloading https://files.pythonhosted.org/packages/99/c6/d459663c1d649ed7013c1f8dc4db691d77bd1efedd6d8082810590559727/mytoyota-0.9.2.tar.gz
+[2023-07-07 14:14:31] INFO root fetch - processPackages [nodalize]: executing diffoscope
+[2023-07-07 14:14:31] INFO root fetch - processPackages [nodalize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodalize-1.0.2-py3-none-any.whl.zip tmp/nodalize-1.0.3-py3-none-any.whl.zip --markdown 20230707/n/nodalize/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-07 14:14:32] INFO root fetch - processPackages [auterion-cli]: executing diffoscope
+[2023-07-07 14:14:32] INFO root fetch - processPackages [auterion-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auterion-cli-1.1.0.tar.gz tmp/auterion-cli-1.2.0.tar.gz --markdown 20230707/a/auterion-cli/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-07 14:14:32] INFO root fetch - processPackages [LongNet]: executing diffoscope
+[2023-07-07 14:14:32] INFO root fetch - processPackages [LongNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LongNet-0.0.3.tar.gz tmp/LongNet-0.0.4.tar.gz --markdown 20230707/L/LongNet/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-07 14:14:32] INFO root fetch - processPackages [mytoyota]: executing diffoscope
+[2023-07-07 14:14:32] INFO root fetch - processPackages [mytoyota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mytoyota-0.9.1.tar.gz tmp/mytoyota-0.9.2.tar.gz --markdown 20230707/m/mytoyota/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-07 14:14:32] INFO root fetch - processPackages [TDXLib]: executing diffoscope
+[2023-07-07 14:14:32] INFO root fetch - processPackages [TDXLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDXLib-0.5.1.tar.gz tmp/TDXLib-0.5.2.tar.gz --markdown 20230707/T/TDXLib/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-07 14:14:33] INFO root fetch - processPackages [refoss-ha]: Remove: archive file [/home/abi/fetcher/tmp/refoss_ha-1.0.3-py3-none-any.whl.zip]
+[2023-07-07 14:14:33] INFO root fetch - processPackages [refoss-ha]: Remove: archive file [/home/abi/fetcher/tmp/refoss_ha-1.0.4-py3-none-any.whl.zip]
+[2023-07-07 14:14:33] INFO root fetch - processPackages [refoss-ha]: Start processing: mlmd-utils
+[2023-07-07 14:14:33] INFO root fetch - main [MainThread]: End processing [refoss-ha]: success
+[2023-07-07 14:14:33] WARNING root fetch - processPackages [mlmd-utils]: Skipping, unable to determine old version
+[2023-07-07 14:14:33] INFO root fetch - processPackages [mlmd-utils]: Start processing: ak-vendor
+[2023-07-07 14:14:33] INFO root fetch - main [MainThread]: End processing [mlmd-utils] error
+[2023-07-07 14:14:33] INFO root fetch - processPackages [unknown-cli]: Remove: archive file [/home/abi/fetcher/tmp/unknown-cli-0.6.7.tar.gz]
+[2023-07-07 14:14:33] INFO root fetch - processPackages [unknown-cli]: Remove: archive file [/home/abi/fetcher/tmp/unknown-cli-0.6.8.tar.gz]
+[2023-07-07 14:14:33] INFO root fetch - processPackages [unknown-cli]: Start processing: pyccel
+[2023-07-07 14:14:33] INFO root fetch - main [MainThread]: End processing [unknown-cli]: success
+[2023-07-07 14:14:33] INFO root fetch - processPackages [ak-vendor]: New version: [5.1.1] Old Version: [5.1.0]
+[2023-07-07 14:14:33] INFO root fetch - processPackages [pyccel]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-07-07 14:14:33] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.2a8.tar.gz]
+[2023-07-07 14:14:33] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.2a9.tar.gz]
+[2023-07-07 14:14:33] INFO root fetch - processPackages [zit]: Start processing: sleepeeg
+[2023-07-07 14:14:33] INFO root fetch - main [MainThread]: End processing [zit]: success
+[2023-07-07 14:14:33] INFO root fetch - processPackages [opentf-tools-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_tools_nightly-0.42.0.dev434-py3-none-any.whl.zip]
+[2023-07-07 14:14:33] INFO root fetch - processPackages [opentf-tools-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_tools_nightly-0.42.0.dev437-py3-none-any.whl.zip]
+[2023-07-07 14:14:33] INFO root fetch - main [MainThread]: End processing [opentf-tools-nightly]: success
+[2023-07-07 14:14:33] INFO root fetch - processPackages [auterion-cli]: Remove: archive file [/home/abi/fetcher/tmp/auterion-cli-1.1.0.tar.gz]
+[2023-07-07 14:14:33] INFO root fetch - processPackages [auterion-cli]: Remove: archive file [/home/abi/fetcher/tmp/auterion-cli-1.2.0.tar.gz]
+[2023-07-07 14:14:33] INFO root fetch - main [MainThread]: End processing [auterion-cli]: success
+[2023-07-07 14:14:33] INFO root fetch - processPackages [sleepeeg]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-07 14:14:33] INFO root fetch - processPackages [ak-vendor]: Downloading https://files.pythonhosted.org/packages/90/d1/6793b80b24c8a60f5e5737bc9c7d7e05039ac4a81b51ab0024cb6b954ab0/ak_vendor-5.1.0.tar.gz
+[2023-07-07 14:14:33] INFO root fetch - processPackages [LongNet]: Remove: archive file [/home/abi/fetcher/tmp/LongNet-0.0.3.tar.gz]
+[2023-07-07 14:14:33] INFO root fetch - processPackages [LongNet]: Remove: archive file [/home/abi/fetcher/tmp/LongNet-0.0.4.tar.gz]
+[2023-07-07 14:14:33] INFO root fetch - main [MainThread]: End processing [LongNet]: success
+[2023-07-07 14:14:33] INFO root fetch - processPackages [pyccel]: Downloading https://files.pythonhosted.org/packages/f1/0e/4c75c73d98d057822e0ebeaad45afa51d6a65d44aa4383892f602488a09a/pyccel-1.8.0.tar.gz
+[2023-07-07 14:14:33] INFO root fetch - processPackages [influxdb3-python-cli]: Remove: archive file [/home/abi/fetcher/tmp/influxdb3-python-cli-0.3.0.tar.gz]
+[2023-07-07 14:14:33] INFO root fetch - processPackages [influxdb3-python-cli]: Remove: archive file [/home/abi/fetcher/tmp/influxdb3-python-cli-0.3.1.tar.gz]
+[2023-07-07 14:14:33] INFO root fetch - main [MainThread]: End processing [influxdb3-python-cli]: success
+[2023-07-07 14:14:33] INFO root fetch - processPackages [TDXLib]: Remove: archive file [/home/abi/fetcher/tmp/TDXLib-0.5.1.tar.gz]
+[2023-07-07 14:14:33] INFO root fetch - processPackages [TDXLib]: Remove: archive file [/home/abi/fetcher/tmp/TDXLib-0.5.2.tar.gz]
+[2023-07-07 14:14:33] INFO root fetch - main [MainThread]: End processing [TDXLib]: success
+[2023-07-07 14:14:33] INFO root fetch - processPackages [mytoyota]: Remove: archive file [/home/abi/fetcher/tmp/mytoyota-0.9.1.tar.gz]
+[2023-07-07 14:14:33] INFO root fetch - processPackages [mytoyota]: Remove: archive file [/home/abi/fetcher/tmp/mytoyota-0.9.2.tar.gz]
+[2023-07-07 14:14:33] INFO root fetch - main [MainThread]: End processing [mytoyota]: success
+[2023-07-07 14:14:33] INFO root fetch - processPackages [sleepeeg]: Downloading https://files.pythonhosted.org/packages/42/41/6b0a2e453c2d6be6c28417adafab22f19307b8ee7683e9db8dc5433d6ae6/sleepeeg-0.3.1.tar.gz
+[2023-07-07 14:14:33] INFO root fetch - processPackages [nodalize]: Remove: archive file [/home/abi/fetcher/tmp/nodalize-1.0.2-py3-none-any.whl.zip]
+[2023-07-07 14:14:33] INFO root fetch - processPackages [nodalize]: Remove: archive file [/home/abi/fetcher/tmp/nodalize-1.0.3-py3-none-any.whl.zip]
+[2023-07-07 14:14:33] INFO root fetch - main [MainThread]: End processing [nodalize]: success
+[2023-07-07 14:14:33] INFO root fetch - processPackages [ak-vendor]: Downloading https://files.pythonhosted.org/packages/ed/3b/08002a8509236b7e9c832079fe88cc33cb6f447fc31578418e33cfee6e38/ak_vendor-5.1.1.tar.gz
+[2023-07-07 14:14:34] INFO root fetch - processPackages [pyccel]: Downloading https://files.pythonhosted.org/packages/c3/15/7f401038601f3bf01a3b003defb15e066f9a29872597f3bec13f79281125/pyccel-1.8.1.tar.gz
+[2023-07-07 14:14:34] INFO root fetch - processPackages [ak-vendor]: executing diffoscope
+[2023-07-07 14:14:34] INFO root fetch - processPackages [ak-vendor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ak_vendor-5.1.0.tar.gz tmp/ak_vendor-5.1.1.tar.gz --markdown 20230707/a/ak-vendor/5.1.0-5.1.1/diff.md --exclude *.pyd
+[2023-07-07 14:14:34] INFO root fetch - processPackages [sleepeeg]: Downloading https://files.pythonhosted.org/packages/1e/f3/fe5a31657c539275c513a9052212f73dd7fba524289514270c5045705b71/sleepeeg-0.3.2.tar.gz
+[2023-07-07 14:14:34] INFO root fetch - processPackages [pyccel]: executing diffoscope
+[2023-07-07 14:14:34] INFO root fetch - processPackages [pyccel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyccel-1.8.0.tar.gz tmp/pyccel-1.8.1.tar.gz --markdown 20230707/p/pyccel/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-07-07 14:14:34] INFO root fetch - processPackages [sleepeeg]: executing diffoscope
+[2023-07-07 14:14:34] INFO root fetch - processPackages [sleepeeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleepeeg-0.3.1.tar.gz tmp/sleepeeg-0.3.2.tar.gz --markdown 20230707/s/sleepeeg/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-07 14:14:35] INFO root fetch - processPackages [ak-vendor]: Remove: archive file [/home/abi/fetcher/tmp/ak_vendor-5.1.0.tar.gz]
+[2023-07-07 14:14:35] INFO root fetch - processPackages [ak-vendor]: Remove: archive file [/home/abi/fetcher/tmp/ak_vendor-5.1.1.tar.gz]
+[2023-07-07 14:14:35] INFO root fetch - main [MainThread]: End processing [ak-vendor]: success
+[2023-07-07 14:14:35] INFO root fetch - processPackages [sleepeeg]: Remove: archive file [/home/abi/fetcher/tmp/sleepeeg-0.3.1.tar.gz]
+[2023-07-07 14:14:35] INFO root fetch - processPackages [sleepeeg]: Remove: archive file [/home/abi/fetcher/tmp/sleepeeg-0.3.2.tar.gz]
+[2023-07-07 14:14:35] INFO root fetch - main [MainThread]: End processing [sleepeeg]: success
+[2023-07-07 14:14:37] INFO root fetch - processPackages [pyccel]: Remove: archive file [/home/abi/fetcher/tmp/pyccel-1.8.0.tar.gz]
+[2023-07-07 14:14:37] INFO root fetch - processPackages [pyccel]: Remove: archive file [/home/abi/fetcher/tmp/pyccel-1.8.1.tar.gz]
+[2023-07-07 14:14:37] INFO root fetch - main [MainThread]: End processing [pyccel]: success
+[2023-07-07 14:14:37] INFO root fetch - main [MainThread]: Store serial: [18800154]
