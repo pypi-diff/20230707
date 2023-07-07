@@ -17873,3 +17873,139 @@ EOFError: EOF read where object expected
 [2023-07-07 11:46:29] INFO root fetch - processPackages [regula.facesdk.webclient]: Remove: archive file [/home/abi/fetcher/tmp/regula.facesdk.webclient-5.2.0.tar.gz]
 [2023-07-07 11:46:29] INFO root fetch - main [MainThread]: End processing [regula.facesdk.webclient]: success
 [2023-07-07 11:46:29] INFO root fetch - main [MainThread]: Store serial: [18798529]
+[2023-07-07 11:51:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18798529]
+[2023-07-07 11:51:38] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-07 11:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trumpy
+[2023-07-07 11:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: checkatlas
+[2023-07-07 11:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: practistyle
+[2023-07-07 11:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dspawpy
+[2023-07-07 11:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: irene-pro
+[2023-07-07 11:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: drug-named-entity-recognition
+[2023-07-07 11:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spam
+[2023-07-07 11:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trajMap
+[2023-07-07 11:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: satosa-oidcop
+[2023-07-07 11:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pygrb-lc
+[2023-07-07 11:51:39] INFO root fetch - processPackages [dspawpy]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-07 11:51:39] INFO root fetch - processPackages [checkatlas]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-07 11:51:39] INFO root fetch - processPackages [practistyle]: New version: [0.0.76] Old Version: [0.0.74]
+[2023-07-07 11:51:39] INFO root fetch - processPackages [trajMap]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 11:51:39] INFO root fetch - processPackages [pygrb-lc]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-07 11:51:39] INFO root fetch - processPackages [trumpy]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-07 11:51:39] INFO root fetch - processPackages [satosa-oidcop]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-07 11:51:39] INFO root fetch - processPackages [irene-pro]: New version: [0.0.90] Old Version: [0.0.89]
+[2023-07-07 11:51:39] INFO root fetch - processPackages [drug-named-entity-recognition]: New version: [1.0.0] Old Version: [0.1]
+[2023-07-07 11:51:39] INFO root fetch - processPackages [spam]: New version: [0.7] Old Version: [0.6.3.1]
+[2023-07-07 11:51:39] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/b8/f7/1f3867a3bb6864afb16a8cb1c2e3ccbabb6f6f102e77528ea1b40e282643/checkatlas-0.2.4.tar.gz
+[2023-07-07 11:51:39] INFO root fetch - processPackages [trajMap]: Downloading https://files.pythonhosted.org/packages/22/32/e95a7b3d963f96553522165545f817051bae4d4404fed555e20596507c27/trajMap-0.0.8.tar.gz
+[2023-07-07 11:51:39] INFO root fetch - processPackages [dspawpy]: Downloading https://files.pythonhosted.org/packages/c3/91/7d59a937409ea06619572a8056a7b68d362d16623eab3b82827e624e119e/dspawpy-1.0.1-py3-none-any.whl
+[2023-07-07 11:51:39] INFO root fetch - processPackages [pygrb-lc]: Downloading https://files.pythonhosted.org/packages/42/12/fd3cc57b75f172184914dff3e104854d260f7408aa3f42696c4a90c2de41/pygrb_lc-0.0.9.tar.gz
+[2023-07-07 11:51:39] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/ec/c1/b45273945a2b9524bb2df70f3d95ef9f1e92efdb4c74c174be3bc90c3100/irene_pro-0.0.89.tar.gz
+[2023-07-07 11:51:39] INFO root fetch - processPackages [trumpy]: Downloading https://files.pythonhosted.org/packages/dd/35/2b9d259317857957edfdfed32d80a716a2d72a70b28d4962b460dcdaebb1/trumpy-0.1.tar.gz
+[2023-07-07 11:51:39] INFO root fetch - processPackages [practistyle]: Downloading https://files.pythonhosted.org/packages/05/a2/ced94fa80180c81249b7b69870664c48690fc36dfd1cf4111eaab670d0c8/practistyle-0.0.74.tar.gz
+[2023-07-07 11:51:39] INFO root fetch - processPackages [spam]: Downloading https://files.pythonhosted.org/packages/68/cf/43a70f26c5af61cb45502daac5508bcef2cee9dc07f3a0f1a0e484cff199/spam-0.6.3.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-07 11:51:39] INFO root fetch - processPackages [drug-named-entity-recognition]: Downloading https://files.pythonhosted.org/packages/1e/82/780f461eef19de32598b01bd54b95dbdbd0cee34064dd2a609c5588f17bd/drug-named-entity-recognition-0.1.tar.gz
+[2023-07-07 11:51:39] INFO root fetch - processPackages [satosa-oidcop]: Downloading https://files.pythonhosted.org/packages/c9/a8/a8a7b1b8d8bb0f13f5790f33128664959a005e52bd2a2f0bc869cee29f87/satosa_oidcop-2.0.2.tar.gz
+[2023-07-07 11:51:39] WARNING root fetch - processPackages [trajMap]: Skipping package: exceeds size limit 63063583>=10485760
+[2023-07-07 11:51:39] INFO root fetch - processPackages [trajMap]: Start processing: imagegrains
+[2023-07-07 11:51:39] INFO root fetch - main [MainThread]: End processing [trajMap] error
+[2023-07-07 11:51:39] INFO root fetch - processPackages [imagegrains]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-07 11:51:39] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/a8/b5/2f7176cb67c956c89b9e4e939475770cafdc2ca059a8e4d136a48debbda0/checkatlas-0.2.5.tar.gz
+[2023-07-07 11:51:40] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/d5/b3/1f85f48fece5cc336591f3570b8a370d9c81719948685dfadd7e73b72dfa/irene_pro-0.0.90.tar.gz
+[2023-07-07 11:51:40] INFO root fetch - processPackages [pygrb-lc]: Downloading https://files.pythonhosted.org/packages/6d/db/050ad8e67dd03f77bd0e7beb63885b3e4cf3a3397665c73266e7b887bcff/pygrb_lc-0.1.0.tar.gz
+[2023-07-07 11:51:40] INFO root fetch - processPackages [dspawpy]: Downloading https://files.pythonhosted.org/packages/c7/bb/57c5cbfab0d7b6dde3d8570c0804c7570dd0444721389874841bc3b5b229/dspawpy-1.0.2-py3-none-any.whl
+[2023-07-07 11:51:40] INFO root fetch - processPackages [imagegrains]: Downloading https://files.pythonhosted.org/packages/a0/c4/7087621da82028453b936dff378044506fd4ebd592ebf6f08f86089555ea/imagegrains-0.8.0.tar.gz
+[2023-07-07 11:51:40] INFO root fetch - processPackages [trumpy]: Downloading https://files.pythonhosted.org/packages/59/3a/4b70f9913920a3e74f83c9ccfc896c2058d6d7c2043106b2842b0959cd07/trumpy-0.1.1.tar.gz
+[2023-07-07 11:51:40] INFO root fetch - processPackages [practistyle]: Downloading https://files.pythonhosted.org/packages/a2/36/be4d8fc64d95c2610d7fc7f228c3bfedfa2cf16fbf291e6cabbd293bf668/practistyle-0.0.76.tar.gz
+[2023-07-07 11:51:40] INFO root fetch - processPackages [checkatlas]: executing diffoscope
+[2023-07-07 11:51:40] INFO root fetch - processPackages [checkatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkatlas-0.2.4.tar.gz tmp/checkatlas-0.2.5.tar.gz --markdown 20230707/c/checkatlas/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-07 11:51:40] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-07-07 11:51:40] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.89.tar.gz tmp/irene_pro-0.0.90.tar.gz --markdown 20230707/i/irene-pro/0.0.89-0.0.90/diff.md --exclude *.pyd
+[2023-07-07 11:51:40] INFO root fetch - processPackages [drug-named-entity-recognition]: Downloading https://files.pythonhosted.org/packages/22/2b/bfe139258537191f1b434a206fece867e974aa73f84f902aaa3ba065df34/drug-named-entity-recognition-1.0.0.tar.gz
+[2023-07-07 11:51:40] INFO root fetch - processPackages [satosa-oidcop]: Downloading https://files.pythonhosted.org/packages/e4/c4/c2df39d81e244091a648e543f4d1d689478f57f0ee3c906a8a875b19467c/satosa_oidcop-2.0.3.tar.gz
+[2023-07-07 11:51:40] INFO root fetch - processPackages [pygrb-lc]: executing diffoscope
+[2023-07-07 11:51:40] INFO root fetch - processPackages [pygrb-lc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygrb_lc-0.0.9.tar.gz tmp/pygrb_lc-0.1.0.tar.gz --markdown 20230707/p/pygrb-lc/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-07 11:51:40] INFO root fetch - processPackages [trumpy]: executing diffoscope
+[2023-07-07 11:51:40] INFO root fetch - processPackages [trumpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trumpy-0.1.tar.gz tmp/trumpy-0.1.1.tar.gz --markdown 20230707/t/trumpy/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-07 11:51:40] INFO root fetch - processPackages [dspawpy]: executing diffoscope
+[2023-07-07 11:51:40] INFO root fetch - processPackages [dspawpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dspawpy-1.0.1-py3-none-any.whl.zip tmp/dspawpy-1.0.2-py3-none-any.whl.zip --markdown 20230707/d/dspawpy/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-07 11:51:40] INFO root fetch - processPackages [practistyle]: executing diffoscope
+[2023-07-07 11:51:40] INFO root fetch - processPackages [practistyle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/practistyle-0.0.74.tar.gz tmp/practistyle-0.0.76.tar.gz --markdown 20230707/p/practistyle/0.0.74-0.0.76/diff.md --exclude *.pyd
+[2023-07-07 11:51:40] INFO root fetch - processPackages [satosa-oidcop]: executing diffoscope
+[2023-07-07 11:51:40] INFO root fetch - processPackages [satosa-oidcop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satosa_oidcop-2.0.2.tar.gz tmp/satosa_oidcop-2.0.3.tar.gz --markdown 20230707/s/satosa-oidcop/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-07 11:51:40] INFO root fetch - processPackages [drug-named-entity-recognition]: executing diffoscope
+[2023-07-07 11:51:40] INFO root fetch - processPackages [drug-named-entity-recognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drug-named-entity-recognition-0.1.tar.gz tmp/drug-named-entity-recognition-1.0.0.tar.gz --markdown 20230707/d/drug-named-entity-recognition/0.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-07 11:51:40] WARNING root fetch - processPackages [imagegrains]: Skipping package: exceeds size limit 84192934>=10485760
+[2023-07-07 11:51:40] INFO root fetch - processPackages [imagegrains]: Start processing: wtpsplit
+[2023-07-07 11:51:40] INFO root fetch - main [MainThread]: End processing [imagegrains] error
+[2023-07-07 11:51:40] INFO root fetch - processPackages [wtpsplit]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-07 11:51:41] INFO root fetch - processPackages [wtpsplit]: Downloading https://files.pythonhosted.org/packages/6b/74/2c20446209e7f898f74b92493e3b3c7e61843c68a8497b08a4d64c73071d/wtpsplit-1.1.0.tar.gz
+[2023-07-07 11:51:41] INFO root fetch - processPackages [wtpsplit]: Downloading https://files.pythonhosted.org/packages/ae/6a/aa6433d87bace153b9cfb9f9351466c9152f758ef81a332fbacbf4f39fb3/wtpsplit-1.2.0.tar.gz
+[2023-07-07 11:51:41] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.89.tar.gz]
+[2023-07-07 11:51:41] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.90.tar.gz]
+[2023-07-07 11:51:41] INFO root fetch - processPackages [irene-pro]: Start processing: latinisation
+[2023-07-07 11:51:41] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-07-07 11:51:41] WARNING root fetch - processPackages [latinisation]: Skipping, unable to determine old version
+[2023-07-07 11:51:41] INFO root fetch - processPackages [latinisation]: Start processing: practistyle
+[2023-07-07 11:51:41] INFO root fetch - main [MainThread]: End processing [latinisation] error
+[2023-07-07 11:51:41] INFO root fetch - processPackages [practistyle]: New version: [0.0.76] Old Version: [0.0.74]
+[2023-07-07 11:51:41] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.2.4.tar.gz]
+[2023-07-07 11:51:41] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.2.5.tar.gz]
+[2023-07-07 11:51:41] INFO root fetch - processPackages [checkatlas]: Start processing: pypi-version
+[2023-07-07 11:51:41] INFO root fetch - main [MainThread]: End processing [checkatlas]: success
+[2023-07-07 11:51:41] INFO root fetch - processPackages [wtpsplit]: executing diffoscope
+[2023-07-07 11:51:41] INFO root fetch - processPackages [wtpsplit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wtpsplit-1.1.0.tar.gz tmp/wtpsplit-1.2.0.tar.gz --markdown 20230707/w/wtpsplit/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-07 11:51:41] INFO root fetch - processPackages [pypi-version]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-07 11:51:41] INFO root fetch - processPackages [pygrb-lc]: Remove: archive file [/home/abi/fetcher/tmp/pygrb_lc-0.0.9.tar.gz]
+[2023-07-07 11:51:41] INFO root fetch - processPackages [pygrb-lc]: Remove: archive file [/home/abi/fetcher/tmp/pygrb_lc-0.1.0.tar.gz]
+[2023-07-07 11:51:41] INFO root fetch - processPackages [pygrb-lc]: Start processing: pytbai
+[2023-07-07 11:51:41] INFO root fetch - main [MainThread]: End processing [pygrb-lc]: success
+[2023-07-07 11:51:41] INFO root fetch - processPackages [trumpy]: Remove: archive file [/home/abi/fetcher/tmp/trumpy-0.1.tar.gz]
+[2023-07-07 11:51:41] INFO root fetch - processPackages [trumpy]: Remove: archive file [/home/abi/fetcher/tmp/trumpy-0.1.1.tar.gz]
+[2023-07-07 11:51:41] INFO root fetch - processPackages [trumpy]: Start processing: threads-net
+[2023-07-07 11:51:41] INFO root fetch - main [MainThread]: End processing [trumpy]: success
+[2023-07-07 11:51:41] INFO root fetch - processPackages [pytbai]: New version: [1.3.0] Old Version: [1.2]
+[2023-07-07 11:51:41] INFO root fetch - processPackages [practistyle]: executing diffoscope
+[2023-07-07 11:51:41] INFO root fetch - processPackages [practistyle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/practistyle-0.0.74.tar.gz tmp/practistyle-0.0.76.tar.gz --markdown 20230707/p/practistyle/0.0.74-0.0.76/diff.md --exclude *.pyd
+[2023-07-07 11:51:41] INFO root fetch - processPackages [practistyle]: Remove: archive file [/home/abi/fetcher/tmp/practistyle-0.0.74.tar.gz]
+[2023-07-07 11:51:41] INFO root fetch - processPackages [practistyle]: Remove: archive file [/home/abi/fetcher/tmp/practistyle-0.0.76.tar.gz]
+[2023-07-07 11:51:41] INFO root fetch - main [MainThread]: End processing [practistyle]: success
+[2023-07-07 11:51:41] INFO root fetch - processPackages [satosa-oidcop]: Remove: archive file [/home/abi/fetcher/tmp/satosa_oidcop-2.0.2.tar.gz]
+[2023-07-07 11:51:41] INFO root fetch - processPackages [satosa-oidcop]: Remove: archive file [/home/abi/fetcher/tmp/satosa_oidcop-2.0.3.tar.gz]
+[2023-07-07 11:51:41] INFO root fetch - main [MainThread]: End processing [satosa-oidcop]: success
+[2023-07-07 11:51:41] INFO root fetch - processPackages [pytbai]: Downloading https://files.pythonhosted.org/packages/37/07/41d717b7243439d7e292fa9833eeeb098b76206cb846bab2fe79630246bc/pytbai-1.2.tar.gz
+[2023-07-07 11:51:41] INFO root fetch - processPackages [pypi-version]: Downloading https://files.pythonhosted.org/packages/8e/ab/4027f630374088c4782f82e8f75f704b31d6902e35b645fae9112fcbcac5/pypi-version-0.1.0.tar.gz
+[2023-07-07 11:51:41] WARNING root fetch - processPackages [threads-net]: Skipping, unable to determine old version
+[2023-07-07 11:51:41] INFO root fetch - main [MainThread]: End processing [threads-net] error
+[2023-07-07 11:51:42] WARNING root fetch - processPackages [spam]: fallback to get urls: [0.7]
+[2023-07-07 11:51:42] INFO root fetch - processPackages [dspawpy]: Remove: archive file [/home/abi/fetcher/tmp/dspawpy-1.0.1-py3-none-any.whl.zip]
+[2023-07-07 11:51:42] INFO root fetch - processPackages [dspawpy]: Remove: archive file [/home/abi/fetcher/tmp/dspawpy-1.0.2-py3-none-any.whl.zip]
+[2023-07-07 11:51:42] INFO root fetch - main [MainThread]: End processing [dspawpy]: success
+[2023-07-07 11:51:42] WARNING root fetch - processPackages [spam]: None
+[2023-07-07 11:51:42] INFO root fetch - processPackages [pytbai]: Downloading https://files.pythonhosted.org/packages/a6/15/86c364c66162ba21cf25a1679fc8d1fe40b72a5abb4d1cf09dd156fec28c/pytbai-1.3.0.tar.gz
+[2023-07-07 11:51:42] WARNING root fetch - processPackages [spam]: None
+[2023-07-07 11:51:42] WARNING root fetch - processPackages [spam]: unable to get url for both version [0.7]
+[2023-07-07 11:51:42] WARNING root fetch - processPackages [spam]: None
+[2023-07-07 11:51:42] INFO root fetch - main [MainThread]: End processing [spam] error
+[2023-07-07 11:51:42] INFO root fetch - processPackages [drug-named-entity-recognition]: Remove: archive file [/home/abi/fetcher/tmp/drug-named-entity-recognition-0.1.tar.gz]
+[2023-07-07 11:51:42] INFO root fetch - processPackages [drug-named-entity-recognition]: Remove: archive file [/home/abi/fetcher/tmp/drug-named-entity-recognition-1.0.0.tar.gz]
+[2023-07-07 11:51:42] INFO root fetch - main [MainThread]: End processing [drug-named-entity-recognition]: success
+[2023-07-07 11:51:42] INFO root fetch - processPackages [pytbai]: executing diffoscope
+[2023-07-07 11:51:42] INFO root fetch - processPackages [pytbai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytbai-1.2.tar.gz tmp/pytbai-1.3.0.tar.gz --markdown 20230707/p/pytbai/1.2-1.3.0/diff.md --exclude *.pyd
+[2023-07-07 11:51:42] ERROR root fetch - processPackages [practistyle]: Diffoscope failed: time="2023-07-07T11:51:41+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/practistyle-0.0.74.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/practistyle-0.0.76.tar.gz: No such file or directory
+
+[2023-07-07 11:51:42] INFO root fetch - main [MainThread]: End processing [practistyle] error
+[2023-07-07 11:51:42] INFO root fetch - processPackages [pypi-version]: Downloading https://files.pythonhosted.org/packages/b0/76/7095c3ade72b5a46190e1242d09197a50c2594d963538ea4fc60f84e406e/pypi-version-0.2.0.tar.gz
+[2023-07-07 11:51:42] INFO root fetch - processPackages [wtpsplit]: Remove: archive file [/home/abi/fetcher/tmp/wtpsplit-1.1.0.tar.gz]
+[2023-07-07 11:51:42] INFO root fetch - processPackages [wtpsplit]: Remove: archive file [/home/abi/fetcher/tmp/wtpsplit-1.2.0.tar.gz]
+[2023-07-07 11:51:42] INFO root fetch - main [MainThread]: End processing [wtpsplit]: success
+[2023-07-07 11:51:42] INFO root fetch - processPackages [pypi-version]: executing diffoscope
+[2023-07-07 11:51:42] INFO root fetch - processPackages [pypi-version]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypi-version-0.1.0.tar.gz tmp/pypi-version-0.2.0.tar.gz --markdown 20230707/p/pypi-version/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-07 11:51:43] INFO root fetch - processPackages [pytbai]: Remove: archive file [/home/abi/fetcher/tmp/pytbai-1.2.tar.gz]
+[2023-07-07 11:51:43] INFO root fetch - processPackages [pytbai]: Remove: archive file [/home/abi/fetcher/tmp/pytbai-1.3.0.tar.gz]
+[2023-07-07 11:51:43] INFO root fetch - main [MainThread]: End processing [pytbai]: success
+[2023-07-07 11:51:43] INFO root fetch - processPackages [pypi-version]: Remove: archive file [/home/abi/fetcher/tmp/pypi-version-0.1.0.tar.gz]
+[2023-07-07 11:51:43] INFO root fetch - processPackages [pypi-version]: Remove: archive file [/home/abi/fetcher/tmp/pypi-version-0.2.0.tar.gz]
+[2023-07-07 11:51:43] INFO root fetch - main [MainThread]: End processing [pypi-version]: success
+[2023-07-07 11:51:43] INFO root fetch - main [MainThread]: Store serial: [18798589]
