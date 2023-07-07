@@ -5554,3 +5554,70 @@ EOFError: EOF read where object expected
 [2023-07-07 03:17:59] INFO root fetch - processPackages [gpt4all]: Remove: archive file [/home/abi/fetcher/tmp/gpt4all-1.0.3-py3-none-win_amd64.whl.zip]
 [2023-07-07 03:17:59] INFO root fetch - main [MainThread]: End processing [gpt4all]: success
 [2023-07-07 03:17:59] INFO root fetch - main [MainThread]: Store serial: [18793753]
+[2023-07-07 03:23:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18793753]
+[2023-07-07 03:23:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-07 03:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ml-starter
+[2023-07-07 03:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-07-07 03:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-layer-curl
+[2023-07-07 03:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llm-chain
+[2023-07-07 03:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deeponto
+[2023-07-07 03:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zhei
+[2023-07-07 03:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MambuPy
+[2023-07-07 03:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: duckdb
+[2023-07-07 03:23:09] INFO root fetch - processPackages [ml-starter]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-07 03:23:09] INFO root fetch - processPackages [llm-chain]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 03:23:09] INFO root fetch - processPackages [deeponto]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-07 03:23:09] INFO root fetch - processPackages [zhei]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 03:23:09] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-07 03:23:09] INFO root fetch - processPackages [MambuPy]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-07-07 03:23:09] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-07 03:23:09] INFO root fetch - processPackages [duckdb]: New version: [0.8.2.dev161] Old Version: [0.8.2.dev1435]
+[2023-07-07 03:23:09] INFO root fetch - processPackages [zhei]: Downloading https://files.pythonhosted.org/packages/fe/e6/d6e9a8571394bc0f3c5f41cc8657e57af493d8f610996864a47c36f29e74/zhei-0.0.8.tar.gz
+[2023-07-07 03:23:09] INFO root fetch - processPackages [MambuPy]: Downloading https://files.pythonhosted.org/packages/10/be/ed83b02c72c57597465b97df6b0c71b1a4b4e52a6ffe963ff0edf1409f0c/MambuPy-2.0.0b8.tar.gz
+[2023-07-07 03:23:09] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-07-07 03:23:09] INFO root fetch - processPackages [llm-chain]: Downloading https://files.pythonhosted.org/packages/ad/0a/0c7f7c227359c09f5e88c872ee082cdd6d578afd846a72d7bd6e23351c19/llm-chain-0.0.8.tar.gz
+[2023-07-07 03:23:09] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/f1/6e/ab5edbd173735efb035421e439282ab35dea267430a8049f476e1d08ff16/ml-starter-0.1.8.tar.gz
+[2023-07-07 03:23:09] INFO root fetch - processPackages [deeponto]: Downloading https://files.pythonhosted.org/packages/21/29/2ad4ed2e09041d79cdd5c6a4c6a503d56f64ee14f3f279190a1bbbf6269f/deeponto-0.8.0.tar.gz
+[2023-07-07 03:23:09] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-07-07 03:23:09] WARNING root fetch - processPackages [deeponto]: Skipping package: exceeds size limit 92129381>=10485760
+[2023-07-07 03:23:09] INFO root fetch - main [MainThread]: End processing [deeponto] error
+[2023-07-07 03:23:09] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/b7/29/c46547ab228a8be154d997fb551f40ed4769269dac24b5a799f7af0db8be/duckdb-0.8.2.dev1435-cp36-cp36m-macosx_10_9_x86_64.whl
+[2023-07-07 03:23:09] INFO root fetch - processPackages [MambuPy]: Downloading https://files.pythonhosted.org/packages/62/4b/170e3742038b58448c2733e8f206eb6f367edc67d01e8c721086ddb46e3b/MambuPy-2.0.0b9.tar.gz
+[2023-07-07 03:23:09] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 14886986>=10485760
+[2023-07-07 03:23:09] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2023-07-07 03:23:09] INFO root fetch - processPackages [zhei]: Downloading https://files.pythonhosted.org/packages/d9/f8/741be51eea312a636974b7efa45fc6ce78e84d511b8b44f353639d955c27/zhei-0.0.9.tar.gz
+[2023-07-07 03:23:09] INFO root fetch - processPackages [MambuPy]: executing diffoscope
+[2023-07-07 03:23:09] INFO root fetch - processPackages [MambuPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MambuPy-2.0.0b8.tar.gz tmp/MambuPy-2.0.0b9.tar.gz --markdown 20230707/M/MambuPy/2.0.0b8-2.0.0b9/diff.md --exclude *.pyd
+[2023-07-07 03:23:09] INFO root fetch - processPackages [llm-chain]: Downloading https://files.pythonhosted.org/packages/86/bb/a6773e0c83b405b184e19aa3f5e6e685a38e64842b41a0f551b6844a6510/llm-chain-0.0.9.tar.gz
+[2023-07-07 03:23:09] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/44/9f/ffb6ae287f30a52a4bcc5aae269e948d3ffcd9bd7ab6aafda6ce73f567c8/ml-starter-0.1.9.tar.gz
+[2023-07-07 03:23:10] INFO root fetch - processPackages [zhei]: executing diffoscope
+[2023-07-07 03:23:10] INFO root fetch - processPackages [zhei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhei-0.0.8.tar.gz tmp/zhei-0.0.9.tar.gz --markdown 20230707/z/zhei/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 03:23:10] INFO root fetch - processPackages [llm-chain]: executing diffoscope
+[2023-07-07 03:23:10] INFO root fetch - processPackages [llm-chain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-chain-0.0.8.tar.gz tmp/llm-chain-0.0.9.tar.gz --markdown 20230707/l/llm-chain/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 03:23:10] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-07-07 03:23:10] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.1.8.tar.gz tmp/ml-starter-0.1.9.tar.gz --markdown 20230707/m/ml-starter/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-07 03:23:10] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-07-07 03:23:10] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-07-07 03:23:10] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-07-07 03:23:10] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230707/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-07 03:23:10] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-07-07 03:23:10] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230707/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-07 03:23:10] INFO root fetch - processPackages [zhei]: Remove: archive file [/home/abi/fetcher/tmp/zhei-0.0.8.tar.gz]
+[2023-07-07 03:23:10] INFO root fetch - processPackages [zhei]: Remove: archive file [/home/abi/fetcher/tmp/zhei-0.0.9.tar.gz]
+[2023-07-07 03:23:10] INFO root fetch - main [MainThread]: End processing [zhei]: success
+[2023-07-07 03:23:11] INFO root fetch - processPackages [llm-chain]: Remove: archive file [/home/abi/fetcher/tmp/llm-chain-0.0.8.tar.gz]
+[2023-07-07 03:23:11] INFO root fetch - processPackages [llm-chain]: Remove: archive file [/home/abi/fetcher/tmp/llm-chain-0.0.9.tar.gz]
+[2023-07-07 03:23:11] INFO root fetch - main [MainThread]: End processing [llm-chain]: success
+[2023-07-07 03:23:11] INFO root fetch - processPackages [MambuPy]: Remove: archive file [/home/abi/fetcher/tmp/MambuPy-2.0.0b8.tar.gz]
+[2023-07-07 03:23:11] INFO root fetch - processPackages [MambuPy]: Remove: archive file [/home/abi/fetcher/tmp/MambuPy-2.0.0b9.tar.gz]
+[2023-07-07 03:23:11] INFO root fetch - main [MainThread]: End processing [MambuPy]: success
+[2023-07-07 03:23:11] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.8.tar.gz]
+[2023-07-07 03:23:11] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.9.tar.gz]
+[2023-07-07 03:23:11] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-07-07 03:23:11] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-07-07 03:23:11] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-07-07 03:23:11] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-07-07 03:23:12] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-07-07 03:23:12] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-07-07 03:23:12] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-07-07 03:23:12] INFO root fetch - main [MainThread]: Store serial: [18793776]
