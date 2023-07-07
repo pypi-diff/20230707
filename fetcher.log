@@ -16740,3 +16740,151 @@ EOFError: EOF read where object expected
 [2023-07-07 11:09:21] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230707082723.tar.gz]
 [2023-07-07 11:09:21] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-07-07 11:09:21] INFO root fetch - main [MainThread]: Store serial: [18798005]
+[2023-07-07 11:14:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18798005]
+[2023-07-07 11:14:30] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-07 11:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cellmap
+[2023-07-07 11:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BigDLTools
+[2023-07-07 11:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyciactions
+[2023-07-07 11:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: loadingpy
+[2023-07-07 11:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyciactions
+[2023-07-07 11:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-openobserve
+[2023-07-07 11:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sofar
+[2023-07-07 11:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deebot-client
+[2023-07-07 11:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zit
+[2023-07-07 11:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cardsort
+[2023-07-07 11:14:30] INFO root fetch - processPackages [loadingpy]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-07 11:14:30] INFO root fetch - processPackages [pyciactions]: New version: [1.0.9] Old Version: [1.0.8a8]
+[2023-07-07 11:14:30] INFO root fetch - processPackages [pyciactions]: New version: [1.0.9] Old Version: [1.0.8a8]
+[2023-07-07 11:14:30] INFO root fetch - processPackages [cellmap]: New version: [1.0.1.dev202307070909] Old Version: [1.0.1.dev202307070836]
+[2023-07-07 11:14:30] INFO root fetch - processPackages [sofar]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-07 11:14:30] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/4f/f3/3f4bce0f1e4c09bf27f8534421b31f53514ec81a4b706ba66930ae207c9f/pyciactions-1.0.8a8.tar.gz
+[2023-07-07 11:14:30] INFO root fetch - processPackages [deebot-client]: New version: [2.0.1] Old Version: [2.0.0b3]
+[2023-07-07 11:14:30] WARNING root fetch - processPackages [BigDLTools]: Skipping, unable to determine old version
+[2023-07-07 11:14:30] INFO root fetch - processPackages [BigDLTools]: Start processing: astro-tiptop
+[2023-07-07 11:14:30] INFO root fetch - main [MainThread]: End processing [BigDLTools] error
+[2023-07-07 11:14:30] INFO root fetch - processPackages [zit]: New version: [0.0.2a9] Old Version: [0.0.2a8]
+[2023-07-07 11:14:30] INFO root fetch - processPackages [python-openobserve]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-07 11:14:30] INFO root fetch - processPackages [cardsort]: New version: [0.2.6] Old Version: [0.2.4]
+[2023-07-07 11:14:30] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/4f/f3/3f4bce0f1e4c09bf27f8534421b31f53514ec81a4b706ba66930ae207c9f/pyciactions-1.0.8a8.tar.gz
+[2023-07-07 11:14:31] INFO root fetch - processPackages [loadingpy]: Downloading https://files.pythonhosted.org/packages/4a/98/fb218a12533ac873577f2b381031d8be20d2cd4d35581f33859a8ab45d09/loadingpy-0.0.0.tar.gz
+[2023-07-07 11:14:31] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/12/9e/8a2c4acc14691f678e987fbedb86b1b94fdd8bfd7378e0c0449a1044d883/cellmap-1.0.1.dev202307070836-py3-none-any.whl
+[2023-07-07 11:14:31] INFO root fetch - processPackages [astro-tiptop]: New version: [1.1] Old Version: [1.0]
+[2023-07-07 11:14:31] INFO root fetch - processPackages [python-openobserve]: Downloading https://files.pythonhosted.org/packages/51/93/f7d81167a6ab9d0a5a8e4377cc6f810dfdb54e98184584cf21b99dc9bba8/python_openobserve-0.1.0.tar.gz
+[2023-07-07 11:14:31] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/f7/a4/03a25a7ac61b59027ec719ada0b3039bd56b6d1585db6047ed6699f2d774/zit-0.0.2a8.tar.gz
+[2023-07-07 11:14:31] INFO root fetch - processPackages [sofar]: Downloading https://files.pythonhosted.org/packages/3c/98/36f5fce75f9652e2c6e467653cac43b9cbf8950fca9ac472580f802edd0e/sofar-1.0.0.tar.gz
+[2023-07-07 11:14:31] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/31/76/449e2f9925c75cb9cae72fcc6ebcb769640e519cf941ad29cee965d3ac35/pyciactions-1.0.9.tar.gz
+[2023-07-07 11:14:31] INFO root fetch - processPackages [deebot-client]: Downloading https://files.pythonhosted.org/packages/f7/da/5e04a8902da323476308e11605cf048e66a4ba5753a2160ab12023908f2b/deebot-client-2.0.0b3.tar.gz
+[2023-07-07 11:14:31] INFO root fetch - processPackages [cardsort]: Downloading https://files.pythonhosted.org/packages/d9/a8/944c8101fd7e31ac21b19e24dd64f2b35317d6ae920c99dad3bbb1beba8f/cardsort-0.2.4.tar.gz
+[2023-07-07 11:14:31] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/31/76/449e2f9925c75cb9cae72fcc6ebcb769640e519cf941ad29cee965d3ac35/pyciactions-1.0.9.tar.gz
+[2023-07-07 11:14:31] INFO root fetch - processPackages [astro-tiptop]: Downloading https://files.pythonhosted.org/packages/f1/c0/8acea789201eb8be8604b8b161564c64e2a2d53f0eb098d8d643b6a42de5/astro-tiptop-1.0.tar.gz
+[2023-07-07 11:14:31] INFO root fetch - processPackages [pyciactions]: executing diffoscope
+[2023-07-07 11:14:31] INFO root fetch - processPackages [pyciactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyciactions-1.0.8a8.tar.gz tmp/pyciactions-1.0.9.tar.gz --markdown 20230707/p/pyciactions/1.0.8a8-1.0.9/diff.md --exclude *.pyd
+[2023-07-07 11:14:31] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/f8/80/150e0b46e2d3d1da2b95af58a4774979176d182c6af6a05f65c9822ddbd9/cellmap-1.0.1.dev202307070909-py3-none-any.whl
+[2023-07-07 11:14:31] INFO root fetch - processPackages [pyciactions]: executing diffoscope
+[2023-07-07 11:14:31] INFO root fetch - processPackages [pyciactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyciactions-1.0.8a8.tar.gz tmp/pyciactions-1.0.9.tar.gz --markdown 20230707/p/pyciactions/1.0.8a8-1.0.9/diff.md --exclude *.pyd
+[2023-07-07 11:14:31] INFO root fetch - processPackages [loadingpy]: Downloading https://files.pythonhosted.org/packages/55/f7/d994f41f88c2bc081f1cb507748a8f570e44cb5dc4a6bb7917144c30630f/loadingpy-0.0.1.tar.gz
+[2023-07-07 11:14:31] INFO root fetch - processPackages [python-openobserve]: Downloading https://files.pythonhosted.org/packages/f8/cf/907201d9732d16ffb8f227dd37d4644410ced015dd0f185d65ca4f4f8c7f/python_openobserve-0.1.1.tar.gz
+[2023-07-07 11:14:31] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/a4/82/8acbbc7fb714d5fa1967462dcfd7ed8517c4d85f00ac7d63188980ac02a3/zit-0.0.2a9.tar.gz
+[2023-07-07 11:14:31] INFO root fetch - processPackages [sofar]: Downloading https://files.pythonhosted.org/packages/e2/1f/b893f09c3b3a231ba4dbfcb8317eefc620c241ed7dfaa7a1408af9b5542e/sofar-1.1.0.tar.gz
+[2023-07-07 11:14:31] INFO root fetch - processPackages [deebot-client]: Downloading https://files.pythonhosted.org/packages/1d/f2/1b00a1995b1b31d042002e2170b082252c307ddf8df3e04e9c8f0608df6c/deebot-client-2.0.1.tar.gz
+[2023-07-07 11:14:31] INFO root fetch - processPackages [loadingpy]: executing diffoscope
+[2023-07-07 11:14:31] INFO root fetch - processPackages [loadingpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loadingpy-0.0.0.tar.gz tmp/loadingpy-0.0.1.tar.gz --markdown 20230707/l/loadingpy/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-07 11:14:31] INFO root fetch - processPackages [cellmap]: executing diffoscope
+[2023-07-07 11:14:31] INFO root fetch - processPackages [cardsort]: Downloading https://files.pythonhosted.org/packages/38/b3/86f783ce48ef147aec4dd7894dcc3bac6fa44d500ddad06fdeca3da4e3b8/cardsort-0.2.6.tar.gz
+[2023-07-07 11:14:31] INFO root fetch - processPackages [cellmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmap-1.0.1.dev202307070836-py3-none-any.whl.zip tmp/cellmap-1.0.1.dev202307070909-py3-none-any.whl.zip --markdown 20230707/c/cellmap/1.0.1.dev202307070836-1.0.1.dev202307070909/diff.md --exclude *.pyd
+[2023-07-07 11:14:31] INFO root fetch - processPackages [astro-tiptop]: Downloading https://files.pythonhosted.org/packages/8b/0a/9d6b778e9cb3ff2612af6c101ef57be2a4d257dbe1a6a6b51817694bef1a/astro-tiptop-1.1.tar.gz
+[2023-07-07 11:14:31] INFO root fetch - processPackages [python-openobserve]: executing diffoscope
+[2023-07-07 11:14:31] INFO root fetch - processPackages [python-openobserve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_openobserve-0.1.0.tar.gz tmp/python_openobserve-0.1.1.tar.gz --markdown 20230707/p/python-openobserve/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-07 11:14:31] INFO root fetch - processPackages [deebot-client]: executing diffoscope
+[2023-07-07 11:14:31] INFO root fetch - processPackages [deebot-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deebot-client-2.0.0b3.tar.gz tmp/deebot-client-2.0.1.tar.gz --markdown 20230707/d/deebot-client/2.0.0b3-2.0.1/diff.md --exclude *.pyd
+[2023-07-07 11:14:31] INFO root fetch - processPackages [zit]: executing diffoscope
+[2023-07-07 11:14:31] INFO root fetch - processPackages [zit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zit-0.0.2a8.tar.gz tmp/zit-0.0.2a9.tar.gz --markdown 20230707/z/zit/0.0.2a8-0.0.2a9/diff.md --exclude *.pyd
+[2023-07-07 11:14:31] INFO root fetch - processPackages [cardsort]: executing diffoscope
+[2023-07-07 11:14:31] INFO root fetch - processPackages [cardsort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardsort-0.2.4.tar.gz tmp/cardsort-0.2.6.tar.gz --markdown 20230707/c/cardsort/0.2.4-0.2.6/diff.md --exclude *.pyd
+[2023-07-07 11:14:32] INFO root fetch - processPackages [astro-tiptop]: executing diffoscope
+[2023-07-07 11:14:32] INFO root fetch - processPackages [astro-tiptop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-tiptop-1.0.tar.gz tmp/astro-tiptop-1.1.tar.gz --markdown 20230707/a/astro-tiptop/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-07 11:14:32] INFO root fetch - processPackages [sofar]: executing diffoscope
+[2023-07-07 11:14:32] INFO root fetch - processPackages [sofar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sofar-1.0.0.tar.gz tmp/sofar-1.1.0.tar.gz --markdown 20230707/s/sofar/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-07 11:14:32] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.8a8.tar.gz]
+[2023-07-07 11:14:32] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.9.tar.gz]
+[2023-07-07 11:14:32] INFO root fetch - processPackages [pyciactions]: Start processing: pyciactions
+[2023-07-07 11:14:32] INFO root fetch - main [MainThread]: End processing [pyciactions]: success
+[2023-07-07 11:14:32] INFO root fetch - processPackages [pyciactions]: Start processing: sphractal
+[2023-07-07 11:14:32] INFO root fetch - main [MainThread]: End processing [pyciactions]: success
+[2023-07-07 11:14:32] INFO root fetch - processPackages [pyciactions]: New version: [1.0.9] Old Version: [1.0.8a8]
+[2023-07-07 11:14:32] INFO root fetch - processPackages [sphractal]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-07-07 11:14:32] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/4f/f3/3f4bce0f1e4c09bf27f8534421b31f53514ec81a4b706ba66930ae207c9f/pyciactions-1.0.8a8.tar.gz
+[2023-07-07 11:14:33] INFO root fetch - processPackages [loadingpy]: Remove: archive file [/home/abi/fetcher/tmp/loadingpy-0.0.0.tar.gz]
+[2023-07-07 11:14:33] INFO root fetch - processPackages [loadingpy]: Remove: archive file [/home/abi/fetcher/tmp/loadingpy-0.0.1.tar.gz]
+[2023-07-07 11:14:33] INFO root fetch - processPackages [loadingpy]: Start processing: recon-lw
+[2023-07-07 11:14:33] INFO root fetch - main [MainThread]: End processing [loadingpy]: success
+[2023-07-07 11:14:33] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/9b/a0/f62e233e61fed7e1419be160cdeec3f5ec6155446130154ee518629199ff/sphractal-0.7.1.tar.gz
+[2023-07-07 11:14:33] INFO root fetch - processPackages [cellmap]: Remove: archive file [/home/abi/fetcher/tmp/cellmap-1.0.1.dev202307070836-py3-none-any.whl.zip]
+[2023-07-07 11:14:33] INFO root fetch - processPackages [cellmap]: Remove: archive file [/home/abi/fetcher/tmp/cellmap-1.0.1.dev202307070909-py3-none-any.whl.zip]
+[2023-07-07 11:14:33] INFO root fetch - processPackages [cellmap]: Start processing: pantherdb
+[2023-07-07 11:14:33] INFO root fetch - main [MainThread]: End processing [cellmap]: success
+[2023-07-07 11:14:33] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/31/76/449e2f9925c75cb9cae72fcc6ebcb769640e519cf941ad29cee965d3ac35/pyciactions-1.0.9.tar.gz
+[2023-07-07 11:14:33] INFO root fetch - processPackages [pantherdb]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-07-07 11:14:33] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev5484773776] Old Version: [2.0.0.dev5455557110]
+[2023-07-07 11:14:33] INFO root fetch - processPackages [pyciactions]: executing diffoscope
+[2023-07-07 11:14:33] INFO root fetch - processPackages [pyciactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyciactions-1.0.8a8.tar.gz tmp/pyciactions-1.0.9.tar.gz --markdown 20230707/p/pyciactions/1.0.8a8-1.0.9/diff.md --exclude *.pyd
+[2023-07-07 11:14:33] INFO root fetch - processPackages [pantherdb]: Downloading https://files.pythonhosted.org/packages/35/a1/ab11f3bd6008ad0e0b012e1ae4fee2d70b795caaebb39de83c20f7ee72fe/pantherdb-1.2.3.tar.gz
+[2023-07-07 11:14:33] INFO root fetch - processPackages [python-openobserve]: Remove: archive file [/home/abi/fetcher/tmp/python_openobserve-0.1.0.tar.gz]
+[2023-07-07 11:14:33] INFO root fetch - processPackages [python-openobserve]: Remove: archive file [/home/abi/fetcher/tmp/python_openobserve-0.1.1.tar.gz]
+[2023-07-07 11:14:33] INFO root fetch - processPackages [python-openobserve]: Start processing: python-openobserve
+[2023-07-07 11:14:33] INFO root fetch - main [MainThread]: End processing [python-openobserve]: success
+[2023-07-07 11:14:33] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.2a8.tar.gz]
+[2023-07-07 11:14:33] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.2a9.tar.gz]
+[2023-07-07 11:14:33] INFO root fetch - processPackages [zit]: Start processing: veetility
+[2023-07-07 11:14:33] INFO root fetch - main [MainThread]: End processing [zit]: success
+[2023-07-07 11:14:33] INFO root fetch - processPackages [cardsort]: Remove: archive file [/home/abi/fetcher/tmp/cardsort-0.2.4.tar.gz]
+[2023-07-07 11:14:33] INFO root fetch - processPackages [cardsort]: Remove: archive file [/home/abi/fetcher/tmp/cardsort-0.2.6.tar.gz]
+[2023-07-07 11:14:33] INFO root fetch - main [MainThread]: End processing [cardsort]: success
+[2023-07-07 11:14:33] INFO root fetch - processPackages [python-openobserve]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-07 11:14:33] INFO root fetch - processPackages [veetility]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-07 11:14:33] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/fd/c7/29a1bc711f816d7844292420df4829c92dd20370d284e5c0067b19469db4/sphractal-0.8.0.tar.gz
+[2023-07-07 11:14:33] INFO root fetch - processPackages [python-openobserve]: Downloading https://files.pythonhosted.org/packages/51/93/f7d81167a6ab9d0a5a8e4377cc6f810dfdb54e98184584cf21b99dc9bba8/python_openobserve-0.1.0.tar.gz
+[2023-07-07 11:14:33] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/b4/6c/d6775912e1f4b22333ed3a4fee91721e0069b8797ba5c31097f91a3135d6/veetility-0.1.98.tar.gz
+[2023-07-07 11:14:33] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/ed/75/847f33ecb173abdfe95cbbc064647d2754b2c58578fed1c9b8987fde40e5/recon_lw-2.0.0.dev5455557110.tar.gz
+[2023-07-07 11:14:33] INFO root fetch - processPackages [astro-tiptop]: Remove: archive file [/home/abi/fetcher/tmp/astro-tiptop-1.0.tar.gz]
+[2023-07-07 11:14:33] INFO root fetch - processPackages [astro-tiptop]: Remove: archive file [/home/abi/fetcher/tmp/astro-tiptop-1.1.tar.gz]
+[2023-07-07 11:14:33] INFO root fetch - main [MainThread]: End processing [astro-tiptop]: success
+[2023-07-07 11:14:33] INFO root fetch - processPackages [pantherdb]: Downloading https://files.pythonhosted.org/packages/88/d0/8092c8873db50470752cbc971dfeb1f1567412421bc872956b987fe26a31/pantherdb-1.2.4.tar.gz
+[2023-07-07 11:14:33] INFO root fetch - processPackages [sphractal]: executing diffoscope
+[2023-07-07 11:14:33] INFO root fetch - processPackages [sphractal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphractal-0.7.1.tar.gz tmp/sphractal-0.8.0.tar.gz --markdown 20230707/s/sphractal/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-07-07 11:14:33] INFO root fetch - processPackages [python-openobserve]: Downloading https://files.pythonhosted.org/packages/f8/cf/907201d9732d16ffb8f227dd37d4644410ced015dd0f185d65ca4f4f8c7f/python_openobserve-0.1.1.tar.gz
+[2023-07-07 11:14:33] INFO root fetch - processPackages [pantherdb]: executing diffoscope
+[2023-07-07 11:14:33] INFO root fetch - processPackages [pantherdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pantherdb-1.2.3.tar.gz tmp/pantherdb-1.2.4.tar.gz --markdown 20230707/p/pantherdb/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-07-07 11:14:33] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/a0/4f/eb1359196e4e216d1ccfde231e462db3887b8a191ac90d104f3b45fa4169/veetility-0.1.99.tar.gz
+[2023-07-07 11:14:33] INFO root fetch - processPackages [deebot-client]: Remove: archive file [/home/abi/fetcher/tmp/deebot-client-2.0.0b3.tar.gz]
+[2023-07-07 11:14:33] INFO root fetch - processPackages [deebot-client]: Remove: archive file [/home/abi/fetcher/tmp/deebot-client-2.0.1.tar.gz]
+[2023-07-07 11:14:33] INFO root fetch - main [MainThread]: End processing [deebot-client]: success
+[2023-07-07 11:14:34] INFO root fetch - processPackages [sofar]: Remove: archive file [/home/abi/fetcher/tmp/sofar-1.0.0.tar.gz]
+[2023-07-07 11:14:34] INFO root fetch - processPackages [sofar]: Remove: archive file [/home/abi/fetcher/tmp/sofar-1.1.0.tar.gz]
+[2023-07-07 11:14:34] INFO root fetch - main [MainThread]: End processing [sofar]: success
+[2023-07-07 11:14:34] INFO root fetch - processPackages [python-openobserve]: executing diffoscope
+[2023-07-07 11:14:34] INFO root fetch - processPackages [python-openobserve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_openobserve-0.1.0.tar.gz tmp/python_openobserve-0.1.1.tar.gz --markdown 20230707/p/python-openobserve/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-07 11:14:34] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-07-07 11:14:34] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.98.tar.gz tmp/veetility-0.1.99.tar.gz --markdown 20230707/v/veetility/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-07 11:14:34] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/dc/2f/f73fa235bd702a6a7660fa9c5e47a82a697c08e9f0b50a7066a7fa3b231b/recon_lw-2.0.0.dev5484773776.tar.gz
+[2023-07-07 11:14:34] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-07-07 11:14:34] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev5455557110.tar.gz tmp/recon_lw-2.0.0.dev5484773776.tar.gz --markdown 20230707/r/recon-lw/2.0.0.dev5455557110-2.0.0.dev5484773776/diff.md --exclude *.pyd
+[2023-07-07 11:14:34] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.8a8.tar.gz]
+[2023-07-07 11:14:34] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.9.tar.gz]
+[2023-07-07 11:14:34] INFO root fetch - main [MainThread]: End processing [pyciactions]: success
+[2023-07-07 11:14:34] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.7.1.tar.gz]
+[2023-07-07 11:14:34] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.8.0.tar.gz]
+[2023-07-07 11:14:34] INFO root fetch - main [MainThread]: End processing [sphractal]: success
+[2023-07-07 11:14:35] INFO root fetch - processPackages [python-openobserve]: Remove: archive file [/home/abi/fetcher/tmp/python_openobserve-0.1.0.tar.gz]
+[2023-07-07 11:14:35] INFO root fetch - processPackages [python-openobserve]: Remove: archive file [/home/abi/fetcher/tmp/python_openobserve-0.1.1.tar.gz]
+[2023-07-07 11:14:35] INFO root fetch - main [MainThread]: End processing [python-openobserve]: success
+[2023-07-07 11:14:35] INFO root fetch - processPackages [pantherdb]: Remove: archive file [/home/abi/fetcher/tmp/pantherdb-1.2.3.tar.gz]
+[2023-07-07 11:14:35] INFO root fetch - processPackages [pantherdb]: Remove: archive file [/home/abi/fetcher/tmp/pantherdb-1.2.4.tar.gz]
+[2023-07-07 11:14:35] INFO root fetch - main [MainThread]: End processing [pantherdb]: success
+[2023-07-07 11:14:35] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.98.tar.gz]
+[2023-07-07 11:14:35] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.99.tar.gz]
+[2023-07-07 11:14:35] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-07-07 11:14:35] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5455557110.tar.gz]
+[2023-07-07 11:14:35] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5484773776.tar.gz]
+[2023-07-07 11:14:35] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-07-07 11:14:35] INFO root fetch - main [MainThread]: Store serial: [18798059]
