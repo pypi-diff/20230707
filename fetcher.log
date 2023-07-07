@@ -11534,3 +11534,70 @@ EOFError: EOF read where object expected
 [2023-07-07 06:24:53] INFO root fetch - processPackages [roboto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/roboto_sdk-0.1.6.tar.gz]
 [2023-07-07 06:24:53] INFO root fetch - main [MainThread]: End processing [roboto-sdk]: success
 [2023-07-07 06:24:53] INFO root fetch - main [MainThread]: Store serial: [18795848]
+[2023-07-07 06:29:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18795848]
+[2023-07-07 06:30:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-07 06:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LongNet
+[2023-07-07 06:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyciactions
+[2023-07-07 06:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quantplay
+[2023-07-07 06:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-cp-broadcast
+[2023-07-07 06:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hak
+[2023-07-07 06:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-partner-contact-birthdate
+[2023-07-07 06:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: macrometa-target-mssql
+[2023-07-07 06:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyciactions
+[2023-07-07 06:30:02] INFO root fetch - processPackages [pyciactions]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-07 06:30:02] INFO root fetch - processPackages [macrometa-target-mssql]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 06:30:02] INFO root fetch - processPackages [LongNet]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-07 06:30:02] INFO root fetch - processPackages [pyciactions]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-07 06:30:02] INFO root fetch - processPackages [odoo-addon-partner-contact-birthdate]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2023-07-07 06:30:02] WARNING root fetch - processPackages [nonebot-plugin-cp-broadcast]: Skipping, unable to determine old version
+[2023-07-07 06:30:02] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-cp-broadcast] error
+[2023-07-07 06:30:02] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 06:30:02] INFO root fetch - processPackages [quantplay]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-07-07 06:30:02] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-07-07 06:30:03] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/41/48/7541013f776611ea32a2b50904cee7d7c03b824950052a36d8075bd340e9/pyciactions-1.0.4.tar.gz
+[2023-07-07 06:30:03] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/41/48/7541013f776611ea32a2b50904cee7d7c03b824950052a36d8075bd340e9/pyciactions-1.0.4.tar.gz
+[2023-07-07 06:30:03] INFO root fetch - processPackages [LongNet]: Downloading https://files.pythonhosted.org/packages/1c/99/bb981fd1c7574cf8a8a314052f67f4669a4cda69f7c494c3916debb2b69e/LongNet-0.0.2.tar.gz
+[2023-07-07 06:30:03] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/47/28/bece1abc54ffab5f0cddaff5d6f1e02fac1343bfb72976d5794f50dad748/macrometa-target-mssql-0.0.8.tar.gz
+[2023-07-07 06:30:03] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/35/4e/5648ae5b746c687e71ecf94b72be4d10d1a88694e00b9b9c759887760fab/quantplay-1.3.5.tar.gz
+[2023-07-07 06:30:03] INFO root fetch - processPackages [odoo-addon-partner-contact-birthdate]: Downloading https://files.pythonhosted.org/packages/9a/1f/ea544ccb7c3ebcac92cd963cab6c51592a9611330c52ce6ac401a322619f/odoo_addon_partner_contact_birthdate-16.0.1.0.0.7-py3-none-any.whl
+[2023-07-07 06:30:03] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-07 06:30:03] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/1a/cf/bb729453c83053520a7d57a07618baf3e639e2c717c68b25a639a6f15271/pyciactions-1.0.5.tar.gz
+[2023-07-07 06:30:03] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/1a/cf/bb729453c83053520a7d57a07618baf3e639e2c717c68b25a639a6f15271/pyciactions-1.0.5.tar.gz
+[2023-07-07 06:30:03] INFO root fetch - processPackages [LongNet]: Downloading https://files.pythonhosted.org/packages/7f/52/9cb00066a89b01a2f1db07190e2085ada49aa4315b7c1090ab1cb808d11b/LongNet-0.0.3.tar.gz
+[2023-07-07 06:30:03] INFO root fetch - processPackages [odoo-addon-partner-contact-birthdate]: Downloading https://files.pythonhosted.org/packages/59/05/dfa588e526378dbdd3380d09a9585253c2959608c01ae5707778f33461b4/odoo_addon_partner_contact_birthdate-16.0.1.0.0.8-py3-none-any.whl
+[2023-07-07 06:30:03] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-07 06:30:03] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230707/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 06:30:03] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/3d/97/96f149d7c5c167814edbae8e9693e5915bdec86dfd31a669e08d21162ee9/macrometa-target-mssql-0.0.9.tar.gz
+[2023-07-07 06:30:03] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/57/6e/f14772501966f0da2217c6c0dc9b873e99a50b0e8872443684ea3236fd0a/quantplay-1.3.6.tar.gz
+[2023-07-07 06:30:03] INFO root fetch - processPackages [pyciactions]: executing diffoscope
+[2023-07-07 06:30:03] INFO root fetch - processPackages [pyciactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyciactions-1.0.4.tar.gz tmp/pyciactions-1.0.5.tar.gz --markdown 20230707/p/pyciactions/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-07 06:30:03] INFO root fetch - processPackages [pyciactions]: executing diffoscope
+[2023-07-07 06:30:03] INFO root fetch - processPackages [pyciactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyciactions-1.0.4.tar.gz tmp/pyciactions-1.0.5.tar.gz --markdown 20230707/p/pyciactions/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-07 06:30:03] INFO root fetch - processPackages [odoo-addon-partner-contact-birthdate]: executing diffoscope
+[2023-07-07 06:30:03] INFO root fetch - processPackages [odoo-addon-partner-contact-birthdate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_partner_contact_birthdate-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_partner_contact_birthdate-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20230707/o/odoo-addon-partner-contact-birthdate/16.0.1.0.0.7-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2023-07-07 06:30:03] INFO root fetch - processPackages [macrometa-target-mssql]: executing diffoscope
+[2023-07-07 06:30:03] INFO root fetch - processPackages [macrometa-target-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-mssql-0.0.8.tar.gz tmp/macrometa-target-mssql-0.0.9.tar.gz --markdown 20230707/m/macrometa-target-mssql/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 06:30:03] INFO root fetch - processPackages [LongNet]: executing diffoscope
+[2023-07-07 06:30:03] INFO root fetch - processPackages [LongNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LongNet-0.0.2.tar.gz tmp/LongNet-0.0.3.tar.gz --markdown 20230707/L/LongNet/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-07 06:30:03] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-07-07 06:30:03] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.3.5.tar.gz tmp/quantplay-1.3.6.tar.gz --markdown 20230707/q/quantplay/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-07-07 06:30:04] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.4.tar.gz]
+[2023-07-07 06:30:04] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.5.tar.gz]
+[2023-07-07 06:30:04] INFO root fetch - main [MainThread]: End processing [pyciactions]: success
+[2023-07-07 06:30:04] INFO root fetch - main [MainThread]: End processing [pyciactions]: success
+[2023-07-07 06:30:04] INFO root fetch - processPackages [LongNet]: Remove: archive file [/home/abi/fetcher/tmp/LongNet-0.0.2.tar.gz]
+[2023-07-07 06:30:04] INFO root fetch - processPackages [LongNet]: Remove: archive file [/home/abi/fetcher/tmp/LongNet-0.0.3.tar.gz]
+[2023-07-07 06:30:04] INFO root fetch - main [MainThread]: End processing [LongNet]: success
+[2023-07-07 06:30:05] INFO root fetch - processPackages [odoo-addon-partner-contact-birthdate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_contact_birthdate-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-07-07 06:30:05] INFO root fetch - processPackages [odoo-addon-partner-contact-birthdate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_contact_birthdate-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-07-07 06:30:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-contact-birthdate]: success
+[2023-07-07 06:30:05] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.8.tar.gz]
+[2023-07-07 06:30:05] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.9.tar.gz]
+[2023-07-07 06:30:05] INFO root fetch - main [MainThread]: End processing [macrometa-target-mssql]: success
+[2023-07-07 06:30:05] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.5.tar.gz]
+[2023-07-07 06:30:05] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.6.tar.gz]
+[2023-07-07 06:30:05] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-07-07 06:30:05] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-07-07 06:30:05] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-07 06:30:05] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-07 06:30:05] INFO root fetch - main [MainThread]: Store serial: [18795874]
