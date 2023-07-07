@@ -12033,3 +12033,51 @@ EOFError: EOF read where object expected
 [2023-07-07 07:17:32] INFO root fetch - processPackages [bulk-directory-tree]: Remove: archive file [/home/abi/fetcher/tmp/bulk_directory_tree-1.0.5.tar.gz]
 [2023-07-07 07:17:32] INFO root fetch - main [MainThread]: End processing [bulk-directory-tree]: success
 [2023-07-07 07:17:32] INFO root fetch - main [MainThread]: Store serial: [18796059]
+[2023-07-07 07:22:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18796059]
+[2023-07-07 07:22:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-07 07:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reactivated
+[2023-07-07 07:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: teampy
+[2023-07-07 07:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deepchem
+[2023-07-07 07:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hak
+[2023-07-07 07:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reliability
+[2023-07-07 07:22:41] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 07:22:41] INFO root fetch - processPackages [deepchem]: New version: [2.7.2.dev20230707051842] Old Version: [2.7.2.dev20230705190043]
+[2023-07-07 07:22:41] INFO root fetch - processPackages [teampy]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-07 07:22:41] INFO root fetch - processPackages [reactivated]: New version: [3.0.0a64] Old Version: [0.9.0]
+[2023-07-07 07:22:41] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-07-07 07:22:41] INFO root fetch - processPackages [deepchem]: Downloading https://files.pythonhosted.org/packages/f0/5d/d61393776eb933886485099180ba87ae1139aae7fddca15b07e893774176/deepchem-2.7.2.dev20230705190043.tar.gz
+[2023-07-07 07:22:41] INFO root fetch - processPackages [reactivated]: Downloading https://files.pythonhosted.org/packages/1a/71/35446a123e19409f94888e6e11acb49110c8ff7c7a45a894cb072e06ec46/reactivated-0.9.0.tar.gz
+[2023-07-07 07:22:41] INFO root fetch - processPackages [reliability]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-07 07:22:41] INFO root fetch - processPackages [teampy]: Downloading https://files.pythonhosted.org/packages/ab/63/3e36af8843b16b02e219171a52cb4f9329b20fca9da4df275b2554d3a498/teampy-0.1.9.tar.gz
+[2023-07-07 07:22:41] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-07 07:22:41] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-07 07:22:41] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230707/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 07:22:41] INFO root fetch - processPackages [reliability]: Downloading https://files.pythonhosted.org/packages/d2/79/221445e50d12bfd5d185c753c71357107d3323e99e9f0f22da8f1cda1e69/reliability-0.8.8.tar.gz
+[2023-07-07 07:22:41] INFO root fetch - processPackages [reactivated]: Downloading https://files.pythonhosted.org/packages/bc/d8/5e07e04244e84ca0f743649c1aa5514ec10843e552f82eb830dbb5e7cca7/reactivated-3.0.0a64.tar.gz
+[2023-07-07 07:22:41] INFO root fetch - processPackages [reactivated]: executing diffoscope
+[2023-07-07 07:22:41] INFO root fetch - processPackages [reactivated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reactivated-0.9.0.tar.gz tmp/reactivated-3.0.0a64.tar.gz --markdown 20230707/r/reactivated/0.9.0-3.0.0a64/diff.md --exclude *.pyd
+[2023-07-07 07:22:41] INFO root fetch - processPackages [teampy]: Downloading https://files.pythonhosted.org/packages/fd/62/1e86c1660a794fbd31ffafb4bac141ef52e2fa17fa68c04a2bbb98671072/teampy-0.2.0.tar.gz
+[2023-07-07 07:22:41] INFO root fetch - processPackages [deepchem]: Downloading https://files.pythonhosted.org/packages/2a/eb/764d92d4161f4720abb68fb4bf2cf563f569f02d462c19de9d045e8ea1f1/deepchem-2.7.2.dev20230707051842.tar.gz
+[2023-07-07 07:22:42] INFO root fetch - processPackages [teampy]: executing diffoscope
+[2023-07-07 07:22:42] INFO root fetch - processPackages [teampy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teampy-0.1.9.tar.gz tmp/teampy-0.2.0.tar.gz --markdown 20230707/t/teampy/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-07 07:22:42] INFO root fetch - processPackages [deepchem]: executing diffoscope
+[2023-07-07 07:22:42] INFO root fetch - processPackages [deepchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepchem-2.7.2.dev20230705190043.tar.gz tmp/deepchem-2.7.2.dev20230707051842.tar.gz --markdown 20230707/d/deepchem/2.7.2.dev20230705190043-2.7.2.dev20230707051842/diff.md --exclude *.pyd
+[2023-07-07 07:22:42] INFO root fetch - processPackages [teampy]: Remove: archive file [/home/abi/fetcher/tmp/teampy-0.1.9.tar.gz]
+[2023-07-07 07:22:42] INFO root fetch - processPackages [teampy]: Remove: archive file [/home/abi/fetcher/tmp/teampy-0.2.0.tar.gz]
+[2023-07-07 07:22:42] INFO root fetch - main [MainThread]: End processing [teampy]: success
+[2023-07-07 07:22:42] INFO root fetch - processPackages [reactivated]: Remove: archive file [/home/abi/fetcher/tmp/reactivated-0.9.0.tar.gz]
+[2023-07-07 07:22:42] INFO root fetch - processPackages [reactivated]: Remove: archive file [/home/abi/fetcher/tmp/reactivated-3.0.0a64.tar.gz]
+[2023-07-07 07:22:42] INFO root fetch - main [MainThread]: End processing [reactivated]: success
+[2023-07-07 07:22:43] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-07-07 07:22:43] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-07 07:22:43] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-07 07:22:43] INFO root fetch - processPackages [reliability]: Downloading https://files.pythonhosted.org/packages/3a/43/ffdf1e9baf80baaf58e0e91509d5096dc98aeabc6d7ed3fe4fcd167ea88b/reliability-0.8.9.tar.gz
+[2023-07-07 07:22:43] INFO root fetch - processPackages [reliability]: executing diffoscope
+[2023-07-07 07:22:43] INFO root fetch - processPackages [reliability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliability-0.8.8.tar.gz tmp/reliability-0.8.9.tar.gz --markdown 20230707/r/reliability/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-07 07:22:44] INFO root fetch - processPackages [deepchem]: Remove: archive file [/home/abi/fetcher/tmp/deepchem-2.7.2.dev20230705190043.tar.gz]
+[2023-07-07 07:22:44] INFO root fetch - processPackages [deepchem]: Remove: archive file [/home/abi/fetcher/tmp/deepchem-2.7.2.dev20230707051842.tar.gz]
+[2023-07-07 07:22:44] INFO root fetch - main [MainThread]: End processing [deepchem]: success
+[2023-07-07 07:22:45] INFO root fetch - processPackages [reliability]: Remove: archive file [/home/abi/fetcher/tmp/reliability-0.8.8.tar.gz]
+[2023-07-07 07:22:45] INFO root fetch - processPackages [reliability]: Remove: archive file [/home/abi/fetcher/tmp/reliability-0.8.9.tar.gz]
+[2023-07-07 07:22:45] INFO root fetch - main [MainThread]: End processing [reliability]: success
+[2023-07-07 07:22:45] INFO root fetch - main [MainThread]: Store serial: [18796072]
