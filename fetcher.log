@@ -11721,3 +11721,51 @@ EOFError: EOF read where object expected
 [2023-07-07 06:41:13] INFO root fetch - processPackages [psyke]: Remove: archive file [/home/abi/fetcher/tmp/psyke-0.4.9.dev8.tar.gz]
 [2023-07-07 06:41:13] INFO root fetch - main [MainThread]: End processing [psyke]: success
 [2023-07-07 06:41:13] INFO root fetch - main [MainThread]: Store serial: [18795923]
+[2023-07-07 06:46:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18795923]
+[2023-07-07 06:46:22] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-07 06:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: khoj-assistant
+[2023-07-07 06:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: remotivelabs-cli
+[2023-07-07 06:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DriverPAC3120
+[2023-07-07 06:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sf-apm-lib
+[2023-07-07 06:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pygrab
+[2023-07-07 06:46:22] INFO root fetch - processPackages [DriverPAC3120]: New version: [1.2] Old Version: [0.2]
+[2023-07-07 06:46:22] INFO root fetch - processPackages [sf-apm-lib]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-07 06:46:22] INFO root fetch - processPackages [pygrab]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-07 06:46:22] INFO root fetch - processPackages [remotivelabs-cli]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-07-07 06:46:22] INFO root fetch - processPackages [khoj-assistant]: New version: [0.7.2.dev4] Old Version: [0.7.2.dev3]
+[2023-07-07 06:46:22] INFO root fetch - processPackages [pygrab]: Downloading https://files.pythonhosted.org/packages/d3/b2/b94df00689d506b164915a637069269d827312cd52bb617aed4b25a80cde/pygrab-1.1.0.tar.gz
+[2023-07-07 06:46:23] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/88/c6/2cb94daaed2e53ded0fb36ef4fbc2718cafb0913be3ca5a04dbbbc0b3ea2/khoj_assistant-0.7.2.dev3.tar.gz
+[2023-07-07 06:46:23] INFO root fetch - processPackages [DriverPAC3120]: Downloading https://files.pythonhosted.org/packages/11/5c/af6c1db0ef8e0be58ffb87711dfa07590380cdedf617efcbe713ca7500a5/DriverPAC3120-0.2.tar.gz
+[2023-07-07 06:46:23] INFO root fetch - processPackages [sf-apm-lib]: Downloading https://files.pythonhosted.org/packages/75/d1/88f9b7ba14ee68d6dcb11a6506969c5129c6d045dc71001aa0d55df71364/sf_apm_lib-0.1.3.tar.gz
+[2023-07-07 06:46:23] INFO root fetch - processPackages [remotivelabs-cli]: Downloading https://files.pythonhosted.org/packages/9e/af/b85d4ab12b3ff8b26eeb84f5748bf68a170ccb0483ce464fbc14dfacaa8e/remotivelabs_cli-0.0.1a8.tar.gz
+[2023-07-07 06:46:23] INFO root fetch - processPackages [pygrab]: Downloading https://files.pythonhosted.org/packages/08/77/c5091ca4e43ee43cd65191cbb18dbd24fc34998cbd3ae2e03a530a7577eb/pygrab-1.1.1.tar.gz
+[2023-07-07 06:46:23] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/73/aa/033d52c8171d9ef20ea673de1753232bb27beb74b259991bcceeabea9485/khoj_assistant-0.7.2.dev4.tar.gz
+[2023-07-07 06:46:23] INFO root fetch - processPackages [DriverPAC3120]: Downloading https://files.pythonhosted.org/packages/d4/85/cfe0393e7d2100fdc343c4fa3983419a0a4402410e33ee88e83d36fd268f/DriverPAC3120-1.2.tar.gz
+[2023-07-07 06:46:23] INFO root fetch - processPackages [sf-apm-lib]: Downloading https://files.pythonhosted.org/packages/8a/28/055cdadf2207c2fc62f9da5dca73b5f8795a62b0630049e4c4c346b6623d/sf_apm_lib-0.1.4.tar.gz
+[2023-07-07 06:46:23] INFO root fetch - processPackages [pygrab]: executing diffoscope
+[2023-07-07 06:46:23] INFO root fetch - processPackages [pygrab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygrab-1.1.0.tar.gz tmp/pygrab-1.1.1.tar.gz --markdown 20230707/p/pygrab/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-07 06:46:23] INFO root fetch - processPackages [remotivelabs-cli]: Downloading https://files.pythonhosted.org/packages/6e/ec/8b4e17df12c5a2d39a005264591da395be8eae3517772654316d89e40301/remotivelabs_cli-0.0.1a9.tar.gz
+[2023-07-07 06:46:23] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-07 06:46:23] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.7.2.dev3.tar.gz tmp/khoj_assistant-0.7.2.dev4.tar.gz --markdown 20230707/k/khoj-assistant/0.7.2.dev3-0.7.2.dev4/diff.md --exclude *.pyd
+[2023-07-07 06:46:23] INFO root fetch - processPackages [DriverPAC3120]: executing diffoscope
+[2023-07-07 06:46:23] INFO root fetch - processPackages [DriverPAC3120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DriverPAC3120-0.2.tar.gz tmp/DriverPAC3120-1.2.tar.gz --markdown 20230707/D/DriverPAC3120/0.2-1.2/diff.md --exclude *.pyd
+[2023-07-07 06:46:23] INFO root fetch - processPackages [remotivelabs-cli]: executing diffoscope
+[2023-07-07 06:46:23] INFO root fetch - processPackages [remotivelabs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotivelabs_cli-0.0.1a8.tar.gz tmp/remotivelabs_cli-0.0.1a9.tar.gz --markdown 20230707/r/remotivelabs-cli/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-07-07 06:46:23] INFO root fetch - processPackages [sf-apm-lib]: executing diffoscope
+[2023-07-07 06:46:23] INFO root fetch - processPackages [sf-apm-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sf_apm_lib-0.1.3.tar.gz tmp/sf_apm_lib-0.1.4.tar.gz --markdown 20230707/s/sf-apm-lib/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-07 06:46:24] INFO root fetch - processPackages [pygrab]: Remove: archive file [/home/abi/fetcher/tmp/pygrab-1.1.0.tar.gz]
+[2023-07-07 06:46:24] INFO root fetch - processPackages [pygrab]: Remove: archive file [/home/abi/fetcher/tmp/pygrab-1.1.1.tar.gz]
+[2023-07-07 06:46:24] INFO root fetch - main [MainThread]: End processing [pygrab]: success
+[2023-07-07 06:46:24] INFO root fetch - processPackages [DriverPAC3120]: Remove: archive file [/home/abi/fetcher/tmp/DriverPAC3120-0.2.tar.gz]
+[2023-07-07 06:46:24] INFO root fetch - processPackages [DriverPAC3120]: Remove: archive file [/home/abi/fetcher/tmp/DriverPAC3120-1.2.tar.gz]
+[2023-07-07 06:46:24] INFO root fetch - main [MainThread]: End processing [DriverPAC3120]: success
+[2023-07-07 06:46:24] INFO root fetch - processPackages [sf-apm-lib]: Remove: archive file [/home/abi/fetcher/tmp/sf_apm_lib-0.1.3.tar.gz]
+[2023-07-07 06:46:24] INFO root fetch - processPackages [sf-apm-lib]: Remove: archive file [/home/abi/fetcher/tmp/sf_apm_lib-0.1.4.tar.gz]
+[2023-07-07 06:46:24] INFO root fetch - main [MainThread]: End processing [sf-apm-lib]: success
+[2023-07-07 06:46:24] INFO root fetch - processPackages [remotivelabs-cli]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_cli-0.0.1a8.tar.gz]
+[2023-07-07 06:46:24] INFO root fetch - processPackages [remotivelabs-cli]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_cli-0.0.1a9.tar.gz]
+[2023-07-07 06:46:24] INFO root fetch - main [MainThread]: End processing [remotivelabs-cli]: success
+[2023-07-07 06:46:24] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.7.2.dev3.tar.gz]
+[2023-07-07 06:46:24] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.7.2.dev4.tar.gz]
+[2023-07-07 06:46:24] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-07 06:46:24] INFO root fetch - main [MainThread]: Store serial: [18795940]
