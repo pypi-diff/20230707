@@ -15412,3 +15412,104 @@ EOFError: EOF read where object expected
 [2023-07-07 10:15:55] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.6a1.tar.gz]
 [2023-07-07 10:15:55] INFO root fetch - main [MainThread]: End processing [fedml]: success
 [2023-07-07 10:15:55] INFO root fetch - main [MainThread]: Store serial: [18797378]
+[2023-07-07 10:20:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18797378]
+[2023-07-07 10:21:04] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-07 10:21:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdocs-zip-folders
+[2023-07-07 10:21:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ssh-terminal-manager
+[2023-07-07 10:21:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unknown-cli
+[2023-07-07 10:21:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydatawork
+[2023-07-07 10:21:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Geode-Common
+[2023-07-07 10:21:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: frites
+[2023-07-07 10:21:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aeromaps
+[2023-07-07 10:21:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dbt-clickzetta
+[2023-07-07 10:21:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-cp-broadcast
+[2023-07-07 10:21:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: s3cps3
+[2023-07-07 10:21:04] INFO root fetch - processPackages [pydatawork]: New version: [0.17.4.0] Old Version: [0.17.3.4]
+[2023-07-07 10:21:04] WARNING root fetch - processPackages [mkdocs-zip-folders]: Skipping, unable to determine old version
+[2023-07-07 10:21:04] INFO root fetch - processPackages [mkdocs-zip-folders]: Start processing: OctoBot-Trading
+[2023-07-07 10:21:04] INFO root fetch - main [MainThread]: End processing [mkdocs-zip-folders] error
+[2023-07-07 10:21:04] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-07-07 10:21:04] INFO root fetch - processPackages [s3cps3]: New version: [6.6.2] Old Version: [6.6.1]
+[2023-07-07 10:21:04] INFO root fetch - processPackages [dbt-clickzetta]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-07 10:21:04] INFO root fetch - processPackages [unknown-cli]: New version: [0.6.7] Old Version: [0.5.5]
+[2023-07-07 10:21:04] INFO root fetch - processPackages [frites]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-07 10:21:04] INFO root fetch - processPackages [aeromaps]: New version: [0.1.1b0] Old Version: [0.1.0b0]
+[2023-07-07 10:21:04] INFO root fetch - processPackages [ssh-terminal-manager]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-07 10:21:04] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/0f/9f/44538eebc7979cf7c7ad5305b7671d8142abb737f13259f547738d5dc5a0/pydatawork-0.17.3.4.tar.gz
+[2023-07-07 10:21:04] INFO root fetch - processPackages [OctoBot-Trading]: New version: [2.4.7] Old Version: [2.4.6]
+[2023-07-07 10:21:04] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Downloading https://files.pythonhosted.org/packages/79/36/0f49706de963ae0a68f38b5564aef1d66c143c7c50d49391f0c88f402942/nonebot_plugin_cp_broadcast-0.1.1.tar.gz
+[2023-07-07 10:21:04] INFO root fetch - processPackages [s3cps3]: Downloading https://files.pythonhosted.org/packages/ac/cf/f2f93aa80a9927cfd8b6d4f953d5503092099cd6912518be10533073739f/s3cps3-6.6.1.tar.gz
+[2023-07-07 10:21:04] INFO root fetch - processPackages [Geode-Common]: New version: [26.1.3rc1] Old Version: [26.1.2rc3]
+[2023-07-07 10:21:04] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/09/f0/5a413293e92b4ca0d7431450a7218700efac779c0ce2a94f2b8d575440f2/dbt-clickzetta-0.2.8.tar.gz
+[2023-07-07 10:21:04] INFO root fetch - processPackages [unknown-cli]: Downloading https://files.pythonhosted.org/packages/6e/ff/c10bbb2d3de9755c3e5c01d259b01f7c8b7723f1c916e479e624411f7952/unknown-cli-0.5.5.tar.gz
+[2023-07-07 10:21:05] INFO root fetch - processPackages [frites]: Downloading https://files.pythonhosted.org/packages/32/5b/9772a48ba637f7ff49b83b17664fd2d1426aaa85d29d5f67ff2f4551ad8c/frites-0.4.3.tar.gz
+[2023-07-07 10:21:05] INFO root fetch - processPackages [aeromaps]: Downloading https://files.pythonhosted.org/packages/5f/08/3cfbad371f2b01f089172d995624f17a3a1afeaad3d03fbb454b7e6656e7/aeromaps-0.1.0b0.tar.gz
+[2023-07-07 10:21:05] INFO root fetch - processPackages [ssh-terminal-manager]: Downloading https://files.pythonhosted.org/packages/31/dc/e9cc4cdeccdbb8d9b27bd96d8ef39f84c1d037835511acab010c29871e02/ssh_terminal_manager-0.1.1.tar.gz
+[2023-07-07 10:21:05] INFO root fetch - processPackages [OctoBot-Trading]: Downloading https://files.pythonhosted.org/packages/71/00/04951793d372f07adf8550c35ae1e1d1bbf14ec084cde5683aa2071bdcae/OctoBot-Trading-2.4.6.tar.gz
+[2023-07-07 10:21:05] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/30/8f/56e31df93c2b578e33fcbbf2b386084efe840a10cfdcf283d170e1853cc5/pydatawork-0.17.4.0.tar.gz
+[2023-07-07 10:21:05] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Downloading https://files.pythonhosted.org/packages/c6/4d/e1c246a81a508492a23d940f890cd406e38a3379387899eeaf00aec7179b/nonebot_plugin_cp_broadcast-0.1.3.tar.gz
+[2023-07-07 10:21:05] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/d8/6c/bd3026f8beac3e4a2efcbc40049bfe83764b05a61bbabb5eb55958a65e7c/Geode_Common-26.1.2rc3-cp39-cp39-win_amd64.whl
+[2023-07-07 10:21:05] INFO root fetch - processPackages [s3cps3]: Downloading https://files.pythonhosted.org/packages/cb/57/95d4b6e2531c0a19cd2b8cd71dc1457363a5c394ae0524f5b3b57d3d12f1/s3cps3-6.6.2.tar.gz
+[2023-07-07 10:21:05] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-07-07 10:21:05] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.17.3.4.tar.gz tmp/pydatawork-0.17.4.0.tar.gz --markdown 20230707/p/pydatawork/0.17.3.4-0.17.4.0/diff.md --exclude *.pyd
+[2023-07-07 10:21:05] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/c1/14/85271f2139ff454c5ff9bcefec81d708e59f4ed0230702dafe1a5b557869/dbt-clickzetta-0.2.9.tar.gz
+[2023-07-07 10:21:05] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: executing diffoscope
+[2023-07-07 10:21:05] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_cp_broadcast-0.1.1.tar.gz tmp/nonebot_plugin_cp_broadcast-0.1.3.tar.gz --markdown 20230707/n/nonebot-plugin-cp-broadcast/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-07-07 10:21:05] INFO root fetch - processPackages [unknown-cli]: Downloading https://files.pythonhosted.org/packages/fa/59/2facdfe3e33a92cbf0b473f2012100f31aeff67eb4f19be23ca310b4521f/unknown-cli-0.6.7.tar.gz
+[2023-07-07 10:21:05] INFO root fetch - processPackages [s3cps3]: executing diffoscope
+[2023-07-07 10:21:05] INFO root fetch - processPackages [s3cps3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3cps3-6.6.1.tar.gz tmp/s3cps3-6.6.2.tar.gz --markdown 20230707/s/s3cps3/6.6.1-6.6.2/diff.md --exclude *.pyd
+[2023-07-07 10:21:05] INFO root fetch - processPackages [dbt-clickzetta]: executing diffoscope
+[2023-07-07 10:21:05] INFO root fetch - processPackages [dbt-clickzetta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-clickzetta-0.2.8.tar.gz tmp/dbt-clickzetta-0.2.9.tar.gz --markdown 20230707/d/dbt-clickzetta/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-07 10:21:05] INFO root fetch - processPackages [OctoBot-Trading]: Downloading https://files.pythonhosted.org/packages/10/84/5b5bcb6b0f7adaaff7057e550894d2658ea2cdd32841e44e2750a4666a59/OctoBot-Trading-2.4.7.tar.gz
+[2023-07-07 10:21:05] INFO root fetch - processPackages [aeromaps]: Downloading https://files.pythonhosted.org/packages/a8/bb/1f06336e84b0ee4cacd8760b8baff7f11439e0ae7679c8349d7c4ec0470c/aeromaps-0.1.1b0.tar.gz
+[2023-07-07 10:21:05] INFO root fetch - processPackages [frites]: Downloading https://files.pythonhosted.org/packages/94/dd/3a7c098fcdbf9a23a58dfe388dbf1ed96ea87b650ce0fa061770e060fb0f/frites-0.4.4.tar.gz
+[2023-07-07 10:21:05] INFO root fetch - processPackages [unknown-cli]: executing diffoscope
+[2023-07-07 10:21:05] INFO root fetch - processPackages [unknown-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unknown-cli-0.5.5.tar.gz tmp/unknown-cli-0.6.7.tar.gz --markdown 20230707/u/unknown-cli/0.5.5-0.6.7/diff.md --exclude *.pyd
+[2023-07-07 10:21:05] INFO root fetch - processPackages [OctoBot-Trading]: executing diffoscope
+[2023-07-07 10:21:05] INFO root fetch - processPackages [OctoBot-Trading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoBot-Trading-2.4.6.tar.gz tmp/OctoBot-Trading-2.4.7.tar.gz --markdown 20230707/O/OctoBot-Trading/2.4.6-2.4.7/diff.md --exclude *.pyd
+[2023-07-07 10:21:05] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/c0/7a/a1a1a069fc35de04a5b41119624a954c7289b18f791c546098e32dfe99e0/Geode_Common-26.1.3rc1-cp39-cp39-win_amd64.whl
+[2023-07-07 10:21:05] INFO root fetch - processPackages [ssh-terminal-manager]: Downloading https://files.pythonhosted.org/packages/b7/33/05a2b870b131c76a314e7d8008f4a04712f658abb24ea3da83712d709b76/ssh_terminal_manager-0.2.0.tar.gz
+[2023-07-07 10:21:06] INFO root fetch - processPackages [frites]: executing diffoscope
+[2023-07-07 10:21:06] INFO root fetch - processPackages [frites]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frites-0.4.3.tar.gz tmp/frites-0.4.4.tar.gz --markdown 20230707/f/frites/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-07 10:21:06] INFO root fetch - processPackages [aeromaps]: executing diffoscope
+[2023-07-07 10:21:06] INFO root fetch - processPackages [aeromaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeromaps-0.1.0b0.tar.gz tmp/aeromaps-0.1.1b0.tar.gz --markdown 20230707/a/aeromaps/0.1.0b0-0.1.1b0/diff.md --exclude *.pyd
+[2023-07-07 10:21:06] INFO root fetch - processPackages [ssh-terminal-manager]: executing diffoscope
+[2023-07-07 10:21:06] INFO root fetch - processPackages [ssh-terminal-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_terminal_manager-0.1.1.tar.gz tmp/ssh_terminal_manager-0.2.0.tar.gz --markdown 20230707/s/ssh-terminal-manager/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-07 10:21:06] INFO root fetch - processPackages [Geode-Common]: executing diffoscope
+[2023-07-07 10:21:06] INFO root fetch - processPackages [Geode-Common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Common-26.1.2rc3-cp39-cp39-win_amd64.whl.zip tmp/Geode_Common-26.1.3rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230707/G/Geode-Common/26.1.2rc3-26.1.3rc1/diff.md --exclude *.pyd
+[2023-07-07 10:21:06] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.17.3.4.tar.gz]
+[2023-07-07 10:21:06] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.17.4.0.tar.gz]
+[2023-07-07 10:21:06] INFO root fetch - processPackages [pydatawork]: Start processing: spotPython
+[2023-07-07 10:21:06] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-07-07 10:21:06] INFO root fetch - processPackages [s3cps3]: Remove: archive file [/home/abi/fetcher/tmp/s3cps3-6.6.1.tar.gz]
+[2023-07-07 10:21:06] INFO root fetch - processPackages [s3cps3]: Remove: archive file [/home/abi/fetcher/tmp/s3cps3-6.6.2.tar.gz]
+[2023-07-07 10:21:06] INFO root fetch - main [MainThread]: End processing [s3cps3]: success
+[2023-07-07 10:21:06] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_cp_broadcast-0.1.1.tar.gz]
+[2023-07-07 10:21:06] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_cp_broadcast-0.1.3.tar.gz]
+[2023-07-07 10:21:06] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-cp-broadcast]: success
+[2023-07-07 10:21:06] INFO root fetch - processPackages [spotPython]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-07 10:21:06] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/32/b2/d5c97722371cfd2629768337052ec371b96a3a3ebc58a69ee5166615f455/spotPython-0.5.2.tar.gz
+[2023-07-07 10:21:06] WARNING root fetch - processPackages [spotPython]: Skipping package: exceeds size limit 28705437>=10485760
+[2023-07-07 10:21:06] INFO root fetch - main [MainThread]: End processing [spotPython] error
+[2023-07-07 10:21:06] INFO root fetch - processPackages [dbt-clickzetta]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickzetta-0.2.8.tar.gz]
+[2023-07-07 10:21:06] INFO root fetch - processPackages [dbt-clickzetta]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickzetta-0.2.9.tar.gz]
+[2023-07-07 10:21:06] INFO root fetch - main [MainThread]: End processing [dbt-clickzetta]: success
+[2023-07-07 10:21:07] INFO root fetch - processPackages [unknown-cli]: Remove: archive file [/home/abi/fetcher/tmp/unknown-cli-0.5.5.tar.gz]
+[2023-07-07 10:21:07] INFO root fetch - processPackages [unknown-cli]: Remove: archive file [/home/abi/fetcher/tmp/unknown-cli-0.6.7.tar.gz]
+[2023-07-07 10:21:07] INFO root fetch - main [MainThread]: End processing [unknown-cli]: success
+[2023-07-07 10:21:07] INFO root fetch - processPackages [ssh-terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/ssh_terminal_manager-0.1.1.tar.gz]
+[2023-07-07 10:21:07] INFO root fetch - processPackages [ssh-terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/ssh_terminal_manager-0.2.0.tar.gz]
+[2023-07-07 10:21:07] INFO root fetch - main [MainThread]: End processing [ssh-terminal-manager]: success
+[2023-07-07 10:21:07] INFO root fetch - processPackages [frites]: Remove: archive file [/home/abi/fetcher/tmp/frites-0.4.3.tar.gz]
+[2023-07-07 10:21:07] INFO root fetch - processPackages [frites]: Remove: archive file [/home/abi/fetcher/tmp/frites-0.4.4.tar.gz]
+[2023-07-07 10:21:07] INFO root fetch - main [MainThread]: End processing [frites]: success
+[2023-07-07 10:21:07] INFO root fetch - processPackages [aeromaps]: Remove: archive file [/home/abi/fetcher/tmp/aeromaps-0.1.0b0.tar.gz]
+[2023-07-07 10:21:07] INFO root fetch - processPackages [aeromaps]: Remove: archive file [/home/abi/fetcher/tmp/aeromaps-0.1.1b0.tar.gz]
+[2023-07-07 10:21:07] INFO root fetch - main [MainThread]: End processing [aeromaps]: success
+[2023-07-07 10:21:09] INFO root fetch - processPackages [OctoBot-Trading]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Trading-2.4.6.tar.gz]
+[2023-07-07 10:21:09] INFO root fetch - processPackages [OctoBot-Trading]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Trading-2.4.7.tar.gz]
+[2023-07-07 10:21:09] INFO root fetch - main [MainThread]: End processing [OctoBot-Trading]: success
+[2023-07-07 10:21:13] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-26.1.2rc3-cp39-cp39-win_amd64.whl.zip]
+[2023-07-07 10:21:13] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-26.1.3rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-07 10:21:13] INFO root fetch - main [MainThread]: End processing [Geode-Common]: success
+[2023-07-07 10:21:13] INFO root fetch - main [MainThread]: Store serial: [18797419]
