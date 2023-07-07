@@ -1869,3 +1869,79 @@
 [2023-07-07 01:57:30] INFO root fetch - processPackages [databento]: Remove: archive file [/home/abi/fetcher/tmp/databento-0.9.0.tar.gz]
 [2023-07-07 01:57:30] INFO root fetch - main [MainThread]: End processing [databento]: success
 [2023-07-07 01:57:30] INFO root fetch - main [MainThread]: Store serial: [18792429]
+[2023-07-07 02:02:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18792429]
+[2023-07-07 02:02:39] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-07 02:02:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: platformdirs
+[2023-07-07 02:02:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-github
+[2023-07-07 02:02:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: warn-transformer
+[2023-07-07 02:02:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: threemystic-cloud-client
+[2023-07-07 02:02:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agentmemory
+[2023-07-07 02:02:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agentmemory
+[2023-07-07 02:02:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: agentmemory
+[2023-07-07 02:02:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aind-data-schema
+[2023-07-07 02:02:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: airmailer
+[2023-07-07 02:02:39] INFO root fetch - processPackages [agentmemory]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-07 02:02:39] INFO root fetch - processPackages [agentmemory]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-07 02:02:39] INFO root fetch - processPackages [warn-transformer]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-07 02:02:39] INFO root fetch - processPackages [threemystic-cloud-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-07 02:02:39] INFO root fetch - processPackages [platformdirs]: New version: [3.8.1] Old Version: [3.8.0]
+[2023-07-07 02:02:39] INFO root fetch - processPackages [agentmemory]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-07 02:02:39] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-07 02:02:39] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-07 02:02:39] INFO root fetch - processPackages [airmailer]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-07 02:02:39] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/21/55/0d93ff51b93cf1370a6ff9cd9683dc061f70e86ba87772d8f40cff9ce147/threemystic_cloud_client-0.1.8.tar.gz
+[2023-07-07 02:02:39] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/e7/5b/6f2d1f4e2fefddbd40e74f524f5ca2c35326868a16598769547e36006b2a/agentmemory-0.1.3.tar.gz
+[2023-07-07 02:02:39] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/e7/5b/6f2d1f4e2fefddbd40e74f524f5ca2c35326868a16598769547e36006b2a/agentmemory-0.1.3.tar.gz
+[2023-07-07 02:02:39] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/e7/5b/6f2d1f4e2fefddbd40e74f524f5ca2c35326868a16598769547e36006b2a/agentmemory-0.1.3.tar.gz
+[2023-07-07 02:02:39] INFO root fetch - processPackages [platformdirs]: Downloading https://files.pythonhosted.org/packages/cb/10/e5478cc0c3ee5563f91ab7b9da15d16e21f3737b6286ed3fd9a8fb1a99dd/platformdirs-3.8.0.tar.gz
+[2023-07-07 02:02:39] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/f0/3d/4b855ccf3f1b8204c6d84b119d9c98b856c1659bfafe8aa893009a0e4d63/aind-data-schema-0.9.5.tar.gz
+[2023-07-07 02:02:39] INFO root fetch - processPackages [warn-transformer]: Downloading https://files.pythonhosted.org/packages/27/ea/a7f48507ea48fcdbce1aeece06724a91fabd45f25890432912afb917e10a/warn-transformer-1.3.8.tar.gz
+[2023-07-07 02:02:39] INFO root fetch - processPackages [airmailer]: Downloading https://files.pythonhosted.org/packages/fb/29/1d1d8efe572406a92d73efe4e1fb77e9d435c05f261c22437beb4a7e44c7/airmailer-0.1.2.tar.gz
+[2023-07-07 02:02:39] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-07-07 02:02:39] WARNING root fetch - processPackages [warn-transformer]: Skipping package: exceeds size limit 17532658>=10485760
+[2023-07-07 02:02:39] INFO root fetch - main [MainThread]: End processing [warn-transformer] error
+[2023-07-07 02:02:40] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/5a/9b/cbd5b9284e41b5cc028fb320b18688a66a36de021d3470b4235cdff327bf/threemystic_cloud_client-0.1.9.tar.gz
+[2023-07-07 02:02:40] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/8d/e8/49aaa5d7f68f29dfda7f801cded97ad1a69226f3b2ea3093ff44a8b32507/agentmemory-0.1.4.tar.gz
+[2023-07-07 02:02:40] INFO root fetch - processPackages [platformdirs]: Downloading https://files.pythonhosted.org/packages/92/38/3dd18a282991c004851ea1f0953105a186cfc691eee2792778ac2ca060f8/platformdirs-3.8.1.tar.gz
+[2023-07-07 02:02:40] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/8d/e8/49aaa5d7f68f29dfda7f801cded97ad1a69226f3b2ea3093ff44a8b32507/agentmemory-0.1.4.tar.gz
+[2023-07-07 02:02:40] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/8d/e8/49aaa5d7f68f29dfda7f801cded97ad1a69226f3b2ea3093ff44a8b32507/agentmemory-0.1.4.tar.gz
+[2023-07-07 02:02:40] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/42/51/6b230e8ca198de797130787e0cd5036fc8d11696d1c43a8c8c07152176e8/aind-data-schema-0.9.6.tar.gz
+[2023-07-07 02:02:40] INFO root fetch - processPackages [threemystic-cloud-client]: executing diffoscope
+[2023-07-07 02:02:40] INFO root fetch - processPackages [threemystic-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_client-0.1.8.tar.gz tmp/threemystic_cloud_client-0.1.9.tar.gz --markdown 20230707/t/threemystic-cloud-client/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-07 02:02:40] INFO root fetch - processPackages [airmailer]: Downloading https://files.pythonhosted.org/packages/d6/97/3b46d4676368b394b5d64fc3e3117067ea383d646446d2d73d4530e5ec1a/airmailer-0.2.0.tar.gz
+[2023-07-07 02:02:40] INFO root fetch - processPackages [agentmemory]: executing diffoscope
+[2023-07-07 02:02:40] INFO root fetch - processPackages [agentmemory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentmemory-0.1.3.tar.gz tmp/agentmemory-0.1.4.tar.gz --markdown 20230707/a/agentmemory/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-07 02:02:40] INFO root fetch - processPackages [platformdirs]: executing diffoscope
+[2023-07-07 02:02:40] INFO root fetch - processPackages [platformdirs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/platformdirs-3.8.0.tar.gz tmp/platformdirs-3.8.1.tar.gz --markdown 20230707/p/platformdirs/3.8.0-3.8.1/diff.md --exclude *.pyd
+[2023-07-07 02:02:40] INFO root fetch - processPackages [agentmemory]: executing diffoscope
+[2023-07-07 02:02:40] INFO root fetch - processPackages [agentmemory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentmemory-0.1.3.tar.gz tmp/agentmemory-0.1.4.tar.gz --markdown 20230707/a/agentmemory/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-07 02:02:40] INFO root fetch - processPackages [agentmemory]: executing diffoscope
+[2023-07-07 02:02:40] INFO root fetch - processPackages [agentmemory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentmemory-0.1.3.tar.gz tmp/agentmemory-0.1.4.tar.gz --markdown 20230707/a/agentmemory/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-07 02:02:40] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2023-07-07 02:02:40] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20230707/a/aind-data-schema/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-07 02:02:40] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-07-07 02:02:40] INFO root fetch - processPackages [airmailer]: executing diffoscope
+[2023-07-07 02:02:40] INFO root fetch - processPackages [airmailer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airmailer-0.1.2.tar.gz tmp/airmailer-0.2.0.tar.gz --markdown 20230707/a/airmailer/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-07 02:02:40] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-07-07 02:02:40] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230707/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-07 02:02:41] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.8.tar.gz]
+[2023-07-07 02:02:41] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.9.tar.gz]
+[2023-07-07 02:02:41] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-client]: success
+[2023-07-07 02:02:41] INFO root fetch - processPackages [platformdirs]: Remove: archive file [/home/abi/fetcher/tmp/platformdirs-3.8.0.tar.gz]
+[2023-07-07 02:02:41] INFO root fetch - processPackages [platformdirs]: Remove: archive file [/home/abi/fetcher/tmp/platformdirs-3.8.1.tar.gz]
+[2023-07-07 02:02:41] INFO root fetch - main [MainThread]: End processing [platformdirs]: success
+[2023-07-07 02:02:41] INFO root fetch - processPackages [agentmemory]: Remove: archive file [/home/abi/fetcher/tmp/agentmemory-0.1.3.tar.gz]
+[2023-07-07 02:02:41] INFO root fetch - processPackages [agentmemory]: Remove: archive file [/home/abi/fetcher/tmp/agentmemory-0.1.4.tar.gz]
+[2023-07-07 02:02:41] INFO root fetch - main [MainThread]: End processing [agentmemory]: success
+[2023-07-07 02:02:41] INFO root fetch - processPackages [airmailer]: Remove: archive file [/home/abi/fetcher/tmp/airmailer-0.1.2.tar.gz]
+[2023-07-07 02:02:41] INFO root fetch - processPackages [airmailer]: Remove: archive file [/home/abi/fetcher/tmp/airmailer-0.2.0.tar.gz]
+[2023-07-07 02:02:41] INFO root fetch - main [MainThread]: End processing [airmailer]: success
+[2023-07-07 02:02:41] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-07-07 02:02:41] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-07-07 02:02:41] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-07-07 02:02:41] INFO root fetch - main [MainThread]: End processing [agentmemory]: success
+[2023-07-07 02:02:41] INFO root fetch - main [MainThread]: End processing [agentmemory]: success
+[2023-07-07 02:02:41] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.5.tar.gz]
+[2023-07-07 02:02:41] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.6.tar.gz]
+[2023-07-07 02:02:41] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2023-07-07 02:02:41] INFO root fetch - main [MainThread]: Store serial: [18792453]
