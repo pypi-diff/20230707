@@ -20040,3 +20040,133 @@ AssertionError: tmp/tester-package-sdk-2.0.9.tar.gz does not exist
 [2023-07-07 13:11:08] INFO root fetch - processPackages [pytbai]: Remove: archive file [/home/abi/fetcher/tmp/pytbai-1.3.5.tar.gz]
 [2023-07-07 13:11:08] INFO root fetch - main [MainThread]: End processing [pytbai]: success
 [2023-07-07 13:11:08] INFO root fetch - main [MainThread]: Store serial: [18799391]
+[2023-07-07 13:16:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18799391]
+[2023-07-07 13:16:17] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-07 13:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyvoikko
+[2023-07-07 13:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hadoop-fs-wrapper
+[2023-07-07 13:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: e2e-cli
+[2023-07-07 13:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chemistry-tools
+[2023-07-07 13:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sphinx-readme
+[2023-07-07 13:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eodhd
+[2023-07-07 13:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cognite-neat
+[2023-07-07 13:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sam-ml-py
+[2023-07-07 13:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py-book-util
+[2023-07-07 13:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: phenom-xfel
+[2023-07-07 13:16:17] INFO root fetch - processPackages [py-book-util]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-07 13:16:17] INFO root fetch - processPackages [e2e-cli]: New version: [0.9.9.9] Old Version: [0.9.9.8]
+[2023-07-07 13:16:18] INFO root fetch - processPackages [sam-ml-py]: New version: [0.9.0rc1] Old Version: [0.8.1]
+[2023-07-07 13:16:18] WARNING root fetch - processPackages [sphinx-readme]: Skipping, unable to determine old version
+[2023-07-07 13:16:18] INFO root fetch - processPackages [sphinx-readme]: Start processing: e2e-cli
+[2023-07-07 13:16:18] INFO root fetch - main [MainThread]: End processing [sphinx-readme] error
+[2023-07-07 13:16:18] INFO root fetch - processPackages [cognite-neat]: New version: [0.14.2] Old Version: [0.14.1]
+[2023-07-07 13:16:18] INFO root fetch - processPackages [chemistry-tools]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-07-07 13:16:18] INFO root fetch - processPackages [py-book-util]: Downloading https://files.pythonhosted.org/packages/8e/b0/9504155f9895b66bac6ce6ec5f9f521cfcc070673417ec7d583fb50bef75/py_book_util-0.1.8.tar.gz
+[2023-07-07 13:16:18] INFO root fetch - processPackages [eodhd]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-07 13:16:18] INFO root fetch - processPackages [phenom-xfel]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-07 13:16:18] INFO root fetch - processPackages [hadoop-fs-wrapper]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-07 13:16:18] INFO root fetch - processPackages [pyvoikko]: New version: [0.2] Old Version: [0.1]
+[2023-07-07 13:16:18] INFO root fetch - processPackages [e2e-cli]: New version: [0.9.9.9] Old Version: [0.9.9.8]
+[2023-07-07 13:16:18] INFO root fetch - processPackages [sam-ml-py]: Downloading https://files.pythonhosted.org/packages/1d/9c/619a6c34a3eaa5a97983f77485a36a0fa5a5e6fddb111a21b40bb24941c3/sam_ml-py-0.8.1.tar.gz
+[2023-07-07 13:16:18] INFO root fetch - processPackages [e2e-cli]: Downloading https://files.pythonhosted.org/packages/ec/1b/ad4f51ec93196297c0b54e02688fb85b060154257686a6d769a190c1695d/e2e_cli-0.9.9.8.tar.gz
+[2023-07-07 13:16:18] INFO root fetch - processPackages [e2e-cli]: Downloading https://files.pythonhosted.org/packages/ec/1b/ad4f51ec93196297c0b54e02688fb85b060154257686a6d769a190c1695d/e2e_cli-0.9.9.8.tar.gz
+[2023-07-07 13:16:18] INFO root fetch - processPackages [pyvoikko]: Downloading https://files.pythonhosted.org/packages/7d/0a/d847c78fa9c58e76dcbe6d48ea1dda04a6b052a8ce8a6bbeaea37c638bdc/pyvoikko-0.1.tar.gz
+[2023-07-07 13:16:18] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/82/9b/4f7174c1070b5b94bcb23f738e3964dce89ef50d21f0420a0fbb46fd0d81/cognite_neat-0.14.1.tar.gz
+[2023-07-07 13:16:18] INFO root fetch - processPackages [phenom-xfel]: Downloading https://files.pythonhosted.org/packages/d8/bf/4d653e1ae77cb904bb89c544e9f3323c39f7e85ffb480130545a0d3c1f75/phenom_xfel-0.0.1-py3-none-any.whl
+[2023-07-07 13:16:18] INFO root fetch - processPackages [eodhd]: Downloading https://files.pythonhosted.org/packages/6b/a8/f815d6d0508c5f846e77a607973b290124b9418d56ce464af6fa6ef5e614/eodhd-1.0.8.tar.gz
+[2023-07-07 13:16:18] INFO root fetch - processPackages [hadoop-fs-wrapper]: Downloading https://files.pythonhosted.org/packages/56/a1/a99515bbf1fe63edeb7e348a5a1b606103e9dd3b6f4932b835f8efbab857/hadoop_fs_wrapper-0.6.0.tar.gz
+[2023-07-07 13:16:18] INFO root fetch - processPackages [chemistry-tools]: Downloading https://files.pythonhosted.org/packages/eb/0a/c23234e86c727cf406a895ffd39872dcbe8771b11063ce000c9a4fb50258/chemistry_tools-0.5.1.tar.gz
+[2023-07-07 13:16:18] INFO root fetch - processPackages [py-book-util]: Downloading https://files.pythonhosted.org/packages/7a/24/f9aa1a02020217de693a235eede5ff9b666a960b8f5f4d7f052c6527bcaf/py_book_util-0.1.9.tar.gz
+[2023-07-07 13:16:18] INFO root fetch - processPackages [sam-ml-py]: Downloading https://files.pythonhosted.org/packages/f4/f8/0aac2de659e4c5c99aad68feefdcc828e72f5c03ad8479b05f47c0ca01ad/sam_ml-py-0.9.0rc1.tar.gz
+[2023-07-07 13:16:18] INFO root fetch - processPackages [e2e-cli]: Downloading https://files.pythonhosted.org/packages/cc/fe/f6dc0978925707ba4bed62a3b1e1ac6d18857331343c1ca7f8a18e071351/e2e_cli-0.9.9.9.tar.gz
+[2023-07-07 13:16:18] INFO root fetch - processPackages [e2e-cli]: Downloading https://files.pythonhosted.org/packages/cc/fe/f6dc0978925707ba4bed62a3b1e1ac6d18857331343c1ca7f8a18e071351/e2e_cli-0.9.9.9.tar.gz
+[2023-07-07 13:16:18] INFO root fetch - processPackages [py-book-util]: executing diffoscope
+[2023-07-07 13:16:18] INFO root fetch - processPackages [py-book-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_book_util-0.1.8.tar.gz tmp/py_book_util-0.1.9.tar.gz --markdown 20230707/p/py-book-util/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-07 13:16:18] INFO root fetch - processPackages [sam-ml-py]: executing diffoscope
+[2023-07-07 13:16:18] INFO root fetch - processPackages [sam-ml-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sam_ml-py-0.8.1.tar.gz tmp/sam_ml-py-0.9.0rc1.tar.gz --markdown 20230707/s/sam-ml-py/0.8.1-0.9.0rc1/diff.md --exclude *.pyd
+[2023-07-07 13:16:18] INFO root fetch - processPackages [phenom-xfel]: Downloading https://files.pythonhosted.org/packages/57/2e/3d3730a359ce640930ef44497bde0b9fcfdeecb96e336c26953c6169333d/phenom_xfel-0.0.2-py3-none-any.whl
+[2023-07-07 13:16:18] INFO root fetch - processPackages [hadoop-fs-wrapper]: Downloading https://files.pythonhosted.org/packages/6e/07/3acfc2e76bc9e5cd6c64a55281de512b93e5d730c88cc6e7e646ec272e44/hadoop_fs_wrapper-0.6.1.tar.gz
+[2023-07-07 13:16:18] INFO root fetch - processPackages [eodhd]: Downloading https://files.pythonhosted.org/packages/74/15/a49024eba8d8741c93edcc8aff70b92effd14ab5c445a7bdbde0c59dcd89/eodhd-1.0.9.tar.gz
+[2023-07-07 13:16:18] INFO root fetch - processPackages [e2e-cli]: executing diffoscope
+[2023-07-07 13:16:18] INFO root fetch - processPackages [e2e-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2e_cli-0.9.9.8.tar.gz tmp/e2e_cli-0.9.9.9.tar.gz --markdown 20230707/e/e2e-cli/0.9.9.8-0.9.9.9/diff.md --exclude *.pyd
+[2023-07-07 13:16:18] INFO root fetch - processPackages [e2e-cli]: executing diffoscope
+[2023-07-07 13:16:18] INFO root fetch - processPackages [e2e-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2e_cli-0.9.9.8.tar.gz tmp/e2e_cli-0.9.9.9.tar.gz --markdown 20230707/e/e2e-cli/0.9.9.8-0.9.9.9/diff.md --exclude *.pyd
+[2023-07-07 13:16:18] INFO root fetch - processPackages [pyvoikko]: Downloading https://files.pythonhosted.org/packages/44/4a/fc19cdd217ae5bf8a6dd723ec909d9f89357e9f25158264ed420b304e421/pyvoikko-0.2.tar.gz
+[2023-07-07 13:16:19] INFO root fetch - processPackages [chemistry-tools]: Downloading https://files.pythonhosted.org/packages/be/1b/a0067076473ecb38ffba8f8ec8bb760aa0390f332a147320b022e57d7612/chemistry_tools-0.6.0.tar.gz
+[2023-07-07 13:16:19] INFO root fetch - processPackages [phenom-xfel]: executing diffoscope
+[2023-07-07 13:16:19] INFO root fetch - processPackages [phenom-xfel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenom_xfel-0.0.1-py3-none-any.whl.zip tmp/phenom_xfel-0.0.2-py3-none-any.whl.zip --markdown 20230707/p/phenom-xfel/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-07 13:16:19] INFO root fetch - processPackages [hadoop-fs-wrapper]: executing diffoscope
+[2023-07-07 13:16:19] INFO root fetch - processPackages [hadoop-fs-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hadoop_fs_wrapper-0.6.0.tar.gz tmp/hadoop_fs_wrapper-0.6.1.tar.gz --markdown 20230707/h/hadoop-fs-wrapper/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-07 13:16:19] INFO root fetch - processPackages [eodhd]: executing diffoscope
+[2023-07-07 13:16:19] INFO root fetch - processPackages [eodhd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodhd-1.0.8.tar.gz tmp/eodhd-1.0.9.tar.gz --markdown 20230707/e/eodhd/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-07 13:16:19] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/70/19/7a62925d897dd2cf054e0ecc5f96d437357c476b10b2b6f91e1c83f686b3/cognite_neat-0.14.2.tar.gz
+[2023-07-07 13:16:19] INFO root fetch - processPackages [pyvoikko]: executing diffoscope
+[2023-07-07 13:16:19] INFO root fetch - processPackages [pyvoikko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvoikko-0.1.tar.gz tmp/pyvoikko-0.2.tar.gz --markdown 20230707/p/pyvoikko/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-07 13:16:19] INFO root fetch - processPackages [chemistry-tools]: executing diffoscope
+[2023-07-07 13:16:19] INFO root fetch - processPackages [chemistry-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemistry_tools-0.5.1.tar.gz tmp/chemistry_tools-0.6.0.tar.gz --markdown 20230707/c/chemistry-tools/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-07-07 13:16:19] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2023-07-07 13:16:19] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.14.1.tar.gz tmp/cognite_neat-0.14.2.tar.gz --markdown 20230707/c/cognite-neat/0.14.1-0.14.2/diff.md --exclude *.pyd
+[2023-07-07 13:16:20] INFO root fetch - processPackages [py-book-util]: Remove: archive file [/home/abi/fetcher/tmp/py_book_util-0.1.8.tar.gz]
+[2023-07-07 13:16:20] INFO root fetch - processPackages [py-book-util]: Remove: archive file [/home/abi/fetcher/tmp/py_book_util-0.1.9.tar.gz]
+[2023-07-07 13:16:20] INFO root fetch - processPackages [py-book-util]: Start processing: openhab-pythonrule-engine
+[2023-07-07 13:16:20] INFO root fetch - main [MainThread]: End processing [py-book-util]: success
+[2023-07-07 13:16:20] INFO root fetch - processPackages [openhab-pythonrule-engine]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-07 13:16:20] INFO root fetch - processPackages [openhab-pythonrule-engine]: Downloading https://files.pythonhosted.org/packages/53/b8/8bd822aa58f48f87a165a41c13622aca27f3899dbee42acdab33276b63b3/openhab_pythonrule_engine-1.1.8.tar.gz
+[2023-07-07 13:16:20] INFO root fetch - processPackages [phenom-xfel]: Remove: archive file [/home/abi/fetcher/tmp/phenom_xfel-0.0.1-py3-none-any.whl.zip]
+[2023-07-07 13:16:20] INFO root fetch - processPackages [phenom-xfel]: Remove: archive file [/home/abi/fetcher/tmp/phenom_xfel-0.0.2-py3-none-any.whl.zip]
+[2023-07-07 13:16:20] INFO root fetch - processPackages [phenom-xfel]: Start processing: duplipy
+[2023-07-07 13:16:20] INFO root fetch - main [MainThread]: End processing [phenom-xfel]: success
+[2023-07-07 13:16:20] INFO root fetch - processPackages [sam-ml-py]: Remove: archive file [/home/abi/fetcher/tmp/sam_ml-py-0.8.1.tar.gz]
+[2023-07-07 13:16:20] INFO root fetch - processPackages [sam-ml-py]: Remove: archive file [/home/abi/fetcher/tmp/sam_ml-py-0.9.0rc1.tar.gz]
+[2023-07-07 13:16:20] INFO root fetch - processPackages [sam-ml-py]: Start processing: helios-rl
+[2023-07-07 13:16:20] INFO root fetch - main [MainThread]: End processing [sam-ml-py]: success
+[2023-07-07 13:16:20] INFO root fetch - processPackages [duplipy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-07 13:16:20] INFO root fetch - processPackages [openhab-pythonrule-engine]: Downloading https://files.pythonhosted.org/packages/1b/0a/e52241e767752cebdb61146d8c9d4151b7cdd5a1b4c1d8234193fcde1b20/openhab_pythonrule_engine-1.1.9.tar.gz
+[2023-07-07 13:16:20] INFO root fetch - processPackages [duplipy]: Downloading https://files.pythonhosted.org/packages/06/c6/c4817b97a34a1bd10e9d07119b7b551c3d7a82a68e3b6fde476862081974/DupliPy-0.1.0.tar.gz
+[2023-07-07 13:16:20] INFO root fetch - processPackages [eodhd]: Remove: archive file [/home/abi/fetcher/tmp/eodhd-1.0.8.tar.gz]
+[2023-07-07 13:16:20] INFO root fetch - processPackages [eodhd]: Remove: archive file [/home/abi/fetcher/tmp/eodhd-1.0.9.tar.gz]
+[2023-07-07 13:16:20] INFO root fetch - processPackages [eodhd]: Start processing: multi-file-converter
+[2023-07-07 13:16:20] INFO root fetch - main [MainThread]: End processing [eodhd]: success
+[2023-07-07 13:16:20] INFO root fetch - processPackages [helios-rl]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-07 13:16:20] INFO root fetch - processPackages [hadoop-fs-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/hadoop_fs_wrapper-0.6.0.tar.gz]
+[2023-07-07 13:16:20] INFO root fetch - processPackages [hadoop-fs-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/hadoop_fs_wrapper-0.6.1.tar.gz]
+[2023-07-07 13:16:20] INFO root fetch - main [MainThread]: End processing [hadoop-fs-wrapper]: success
+[2023-07-07 13:16:20] INFO root fetch - processPackages [openhab-pythonrule-engine]: executing diffoscope
+[2023-07-07 13:16:20] INFO root fetch - processPackages [openhab-pythonrule-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhab_pythonrule_engine-1.1.8.tar.gz tmp/openhab_pythonrule_engine-1.1.9.tar.gz --markdown 20230707/o/openhab-pythonrule-engine/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-07 13:16:21] INFO root fetch - processPackages [e2e-cli]: Remove: archive file [/home/abi/fetcher/tmp/e2e_cli-0.9.9.8.tar.gz]
+[2023-07-07 13:16:21] INFO root fetch - processPackages [e2e-cli]: Remove: archive file [/home/abi/fetcher/tmp/e2e_cli-0.9.9.9.tar.gz]
+[2023-07-07 13:16:21] INFO root fetch - main [MainThread]: End processing [e2e-cli]: success
+[2023-07-07 13:16:21] INFO root fetch - processPackages [pyvoikko]: Remove: archive file [/home/abi/fetcher/tmp/pyvoikko-0.1.tar.gz]
+[2023-07-07 13:16:21] INFO root fetch - processPackages [pyvoikko]: Remove: archive file [/home/abi/fetcher/tmp/pyvoikko-0.2.tar.gz]
+[2023-07-07 13:16:21] INFO root fetch - main [MainThread]: End processing [pyvoikko]: success
+[2023-07-07 13:16:21] INFO root fetch - processPackages [multi-file-converter]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-07 13:16:21] INFO root fetch - main [MainThread]: End processing [e2e-cli]: success
+[2023-07-07 13:16:21] INFO root fetch - processPackages [duplipy]: Downloading https://files.pythonhosted.org/packages/56/df/66471320e1227e0c262332fe2eb2f4308cbc5963234c2ddb145e8aac0f1a/DupliPy-0.1.1.tar.gz
+[2023-07-07 13:16:21] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/33/d1/be075a1e5d5f954f82d56d83f1d2196518bdec41cc97f043adc3180e0f19/helios-rl-1.0.4.tar.gz
+[2023-07-07 13:16:21] INFO root fetch - processPackages [chemistry-tools]: Remove: archive file [/home/abi/fetcher/tmp/chemistry_tools-0.5.1.tar.gz]
+[2023-07-07 13:16:21] INFO root fetch - processPackages [chemistry-tools]: Remove: archive file [/home/abi/fetcher/tmp/chemistry_tools-0.6.0.tar.gz]
+[2023-07-07 13:16:21] INFO root fetch - main [MainThread]: End processing [chemistry-tools]: success
+[2023-07-07 13:16:21] INFO root fetch - processPackages [duplipy]: executing diffoscope
+[2023-07-07 13:16:21] INFO root fetch - processPackages [duplipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DupliPy-0.1.0.tar.gz tmp/DupliPy-0.1.1.tar.gz --markdown 20230707/d/duplipy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-07 13:16:21] INFO root fetch - processPackages [multi-file-converter]: Downloading https://files.pythonhosted.org/packages/e0/af/d6c296094aed9a028be71fffa54e7f1551758a5c2bb9dbc6e43b6bf17e2b/multi_file_converter-1.0.1.tar.gz
+[2023-07-07 13:16:21] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/e5/f7/0f13b386e31c72c39c397769cc699b3d8b1eb0acc85cf3e96bfa353e8697/helios-rl-1.0.5.tar.gz
+[2023-07-07 13:16:21] INFO root fetch - processPackages [multi-file-converter]: Downloading https://files.pythonhosted.org/packages/01/c3/3f1f6c12b349c2c6e5a1755a7bce665914a82e1c7b14af872e5c1dfcabf6/multi_file_converter-1.0.2.tar.gz
+[2023-07-07 13:16:21] INFO root fetch - processPackages [helios-rl]: executing diffoscope
+[2023-07-07 13:16:21] INFO root fetch - processPackages [helios-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-rl-1.0.4.tar.gz tmp/helios-rl-1.0.5.tar.gz --markdown 20230707/h/helios-rl/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-07 13:16:21] INFO root fetch - processPackages [openhab-pythonrule-engine]: Remove: archive file [/home/abi/fetcher/tmp/openhab_pythonrule_engine-1.1.8.tar.gz]
+[2023-07-07 13:16:21] INFO root fetch - processPackages [openhab-pythonrule-engine]: Remove: archive file [/home/abi/fetcher/tmp/openhab_pythonrule_engine-1.1.9.tar.gz]
+[2023-07-07 13:16:21] INFO root fetch - main [MainThread]: End processing [openhab-pythonrule-engine]: success
+[2023-07-07 13:16:21] INFO root fetch - processPackages [multi-file-converter]: executing diffoscope
+[2023-07-07 13:16:21] INFO root fetch - processPackages [multi-file-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_file_converter-1.0.1.tar.gz tmp/multi_file_converter-1.0.2.tar.gz --markdown 20230707/m/multi-file-converter/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-07 13:16:21] INFO root fetch - processPackages [duplipy]: Remove: archive file [/home/abi/fetcher/tmp/DupliPy-0.1.0.tar.gz]
+[2023-07-07 13:16:21] INFO root fetch - processPackages [duplipy]: Remove: archive file [/home/abi/fetcher/tmp/DupliPy-0.1.1.tar.gz]
+[2023-07-07 13:16:21] INFO root fetch - main [MainThread]: End processing [duplipy]: success
+[2023-07-07 13:16:22] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.14.1.tar.gz]
+[2023-07-07 13:16:22] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.14.2.tar.gz]
+[2023-07-07 13:16:22] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2023-07-07 13:16:22] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.4.tar.gz]
+[2023-07-07 13:16:22] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.5.tar.gz]
+[2023-07-07 13:16:22] INFO root fetch - main [MainThread]: End processing [helios-rl]: success
+[2023-07-07 13:16:22] INFO root fetch - processPackages [multi-file-converter]: Remove: archive file [/home/abi/fetcher/tmp/multi_file_converter-1.0.1.tar.gz]
+[2023-07-07 13:16:22] INFO root fetch - processPackages [multi-file-converter]: Remove: archive file [/home/abi/fetcher/tmp/multi_file_converter-1.0.2.tar.gz]
+[2023-07-07 13:16:22] INFO root fetch - main [MainThread]: End processing [multi-file-converter]: success
+[2023-07-07 13:16:22] INFO root fetch - main [MainThread]: Store serial: [18799440]
