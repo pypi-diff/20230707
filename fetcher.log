@@ -21038,3 +21038,173 @@ AssertionError: tmp/tester-package-sdk-2.0.9.tar.gz does not exist
 [2023-07-07 13:53:31] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307071149-py3-none-any.whl.zip]
 [2023-07-07 13:53:31] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-07-07 13:53:31] INFO root fetch - main [MainThread]: Store serial: [18799848]
+[2023-07-07 13:58:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18799848]
+[2023-07-07 13:58:40] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-07 13:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: besecure-developer-toolkit
+[2023-07-07 13:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hfttai
+[2023-07-07 13:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygmtools
+[2023-07-07 13:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sphinx-readme
+[2023-07-07 13:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-prototyping-sdk.aws-arch
+[2023-07-07 13:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-prototyping-sdk.cloudscape-react-ts-website
+[2023-07-07 13:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aws-prototyping-sdk.identity
+[2023-07-07 13:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-prototyping-sdk.nx-monorepo
+[2023-07-07 13:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: music-assistant
+[2023-07-07 13:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aws-prototyping-sdk.open-api-gateway
+[2023-07-07 13:58:41] INFO root fetch - processPackages [besecure-developer-toolkit]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-07 13:58:41] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: New version: [0.19.9] Old Version: [0.19.8]
+[2023-07-07 13:58:41] INFO root fetch - processPackages [hfttai]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-07 13:58:41] INFO root fetch - processPackages [sphinx-readme]: New version: [0.0.1b5] Old Version: [0.0.1b4]
+[2023-07-07 13:58:41] INFO root fetch - processPackages [pygmtools]: New version: [0.3.8a2] Old Version: [0.3.8a0]
+[2023-07-07 13:58:41] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-07 13:58:41] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-07 13:58:41] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-07 13:58:41] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-07 13:58:41] INFO root fetch - processPackages [music-assistant]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-07-07 13:58:41] INFO root fetch - processPackages [hfttai]: Downloading https://files.pythonhosted.org/packages/9d/d3/8f966980179f41e750efe79b1064a270d71f575120ed0bc114c45da6d83a/hfttai-0.1.2.tar.gz
+[2023-07-07 13:58:41] INFO root fetch - processPackages [pygmtools]: Downloading https://files.pythonhosted.org/packages/c2/6f/1a78b0378268302007883803f0e669e85b0b82e03cc09a2672cf732395da/pygmtools-0.3.8a0.tar.gz
+[2023-07-07 13:58:41] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/01/81/90b4aed85dc1c0ddc370cac2850f4f155120a91bed518c846ed8aaf92f03/music_assistant-2.0.0b8.tar.gz
+[2023-07-07 13:58:41] INFO root fetch - processPackages [sphinx-readme]: Downloading https://files.pythonhosted.org/packages/4e/19/fcbd6851d78a781a51f11da886beb7e1a19faccb0599770cec9f4c9c0b5e/sphinx-readme-0.0.1b4.tar.gz
+[2023-07-07 13:58:41] INFO root fetch - processPackages [besecure-developer-toolkit]: Downloading https://files.pythonhosted.org/packages/53/6a/bfcb81743236727f34cb1926e1e23acbf4bc0b1f93e34734e61bd70e0cbe/besecure_developer_toolkit-0.0.5.tar.gz
+[2023-07-07 13:58:41] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Downloading https://files.pythonhosted.org/packages/62/6e/219166e3d14e639aae9211cbc1509a6dbe15cc23f9142e59ce77cdea2f2e/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz
+[2023-07-07 13:58:41] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Downloading https://files.pythonhosted.org/packages/9b/9d/e0b01f09029cc3275b5cbb982ad82eb722a32dabcd2db0b85d04e5e1e95e/aws_prototyping_sdk.aws_arch-0.19.8.tar.gz
+[2023-07-07 13:58:41] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Downloading https://files.pythonhosted.org/packages/89/4d/0cfe83cf0a1839adc268021cacce00587ffd6e3e033f30a3109817ac616e/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz
+[2023-07-07 13:58:41] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Downloading https://files.pythonhosted.org/packages/a6/45/ddfefdff429d9a4baf37e564fdd0a983f5ea8166d0e2334b90c0b418756a/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz
+[2023-07-07 13:58:41] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Downloading https://files.pythonhosted.org/packages/97/38/e2f9b14890efcd00ef828b165bd9ff276265616d79d8d621c6ec8b436d08/aws_prototyping_sdk.identity-0.9.3.tar.gz
+[2023-07-07 13:58:41] INFO root fetch - processPackages [pygmtools]: Downloading https://files.pythonhosted.org/packages/b0/7c/9e554e6734419f1265f77b86b6c0e6439ae2abfc04893cda068a01092200/pygmtools-0.3.8a2.tar.gz
+[2023-07-07 13:58:42] INFO root fetch - processPackages [hfttai]: Downloading https://files.pythonhosted.org/packages/4d/f1/138f668f641ccdc536015163ced76d07bb854a76dd9b8b90cb543b2cf823/hfttai-0.1.3.tar.gz
+[2023-07-07 13:58:42] INFO root fetch - processPackages [besecure-developer-toolkit]: Downloading https://files.pythonhosted.org/packages/56/1f/f82fbf8c4dbd2a67bf6c53cbff0c8ec3deb4f67a592eb2c0b20dad990067/besecure_developer_toolkit-0.0.6.tar.gz
+[2023-07-07 13:58:42] INFO root fetch - processPackages [sphinx-readme]: Downloading https://files.pythonhosted.org/packages/ee/ff/b4eb0043eb1acdb70a711a8aca88f1a7e0d5e3306115fd757fb5c3cb3ca5/sphinx-readme-0.0.1b5.tar.gz
+[2023-07-07 13:58:42] INFO root fetch - processPackages [pygmtools]: executing diffoscope
+[2023-07-07 13:58:42] INFO root fetch - processPackages [pygmtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygmtools-0.3.8a0.tar.gz tmp/pygmtools-0.3.8a2.tar.gz --markdown 20230707/p/pygmtools/0.3.8a0-0.3.8a2/diff.md --exclude *.pyd
+[2023-07-07 13:58:42] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Downloading https://files.pythonhosted.org/packages/ef/05/b722ba023c19fdaec868b3d4963e41743ef58e82a6aa6b26fdc843152495/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz
+[2023-07-07 13:58:42] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Downloading https://files.pythonhosted.org/packages/f7/be/7cbad907d8e6a591b873fd439e612fd865cdc76a1042feba71c36cd4bed5/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz
+[2023-07-07 13:58:42] INFO root fetch - processPackages [hfttai]: executing diffoscope
+[2023-07-07 13:58:42] INFO root fetch - processPackages [hfttai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hfttai-0.1.2.tar.gz tmp/hfttai-0.1.3.tar.gz --markdown 20230707/h/hfttai/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-07 13:58:42] INFO root fetch - processPackages [besecure-developer-toolkit]: executing diffoscope
+[2023-07-07 13:58:42] INFO root fetch - processPackages [besecure-developer-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/besecure_developer_toolkit-0.0.5.tar.gz tmp/besecure_developer_toolkit-0.0.6.tar.gz --markdown 20230707/b/besecure-developer-toolkit/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-07 13:58:42] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Downloading https://files.pythonhosted.org/packages/4f/9d/94a124e4f88dd060b8de9979d16e3ba1cb19e6590bed27dc100625fd0edb/aws_prototyping_sdk.identity-0.9.4.tar.gz
+[2023-07-07 13:58:42] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Downloading https://files.pythonhosted.org/packages/50/a5/38b1bbe94b587fb0e87caef969a05ba18b295e505292f0ba228b136ae731/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz
+[2023-07-07 13:58:42] INFO root fetch - processPackages [sphinx-readme]: executing diffoscope
+[2023-07-07 13:58:42] INFO root fetch - processPackages [sphinx-readme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-readme-0.0.1b4.tar.gz tmp/sphinx-readme-0.0.1b5.tar.gz --markdown 20230707/s/sphinx-readme/0.0.1b4-0.0.1b5/diff.md --exclude *.pyd
+[2023-07-07 13:58:42] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: executing diffoscope
+[2023-07-07 13:58:42] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz --markdown 20230707/a/aws-prototyping-sdk.nx-monorepo/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-07 13:58:42] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: executing diffoscope
+[2023-07-07 13:58:42] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz --markdown 20230707/a/aws-prototyping-sdk.cloudscape-react-ts-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-07 13:58:42] WARNING root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Skipping package: exceeds size limit 19300041>=10485760
+[2023-07-07 13:58:42] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Start processing: tiledb-plot-widget
+[2023-07-07 13:58:42] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.aws-arch] error
+[2023-07-07 13:58:42] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: executing diffoscope
+[2023-07-07 13:58:42] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz --markdown 20230707/a/aws-prototyping-sdk.identity/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-07 13:58:42] INFO root fetch - processPackages [tiledb-plot-widget]: New version: [1.1.0a0] Old Version: [1.0.9b1]
+[2023-07-07 13:58:42] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: executing diffoscope
+[2023-07-07 13:58:42] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz --markdown 20230707/a/aws-prototyping-sdk.open-api-gateway/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-07 13:58:42] INFO root fetch - processPackages [tiledb-plot-widget]: Downloading https://files.pythonhosted.org/packages/c8/68/adb72104301594131a91c408e6ad89c2ece20e587f1f5b43461f2002baff/tiledb_plot_widget-1.0.9b1-py3-none-any.whl
+[2023-07-07 13:58:43] INFO root fetch - processPackages [tiledb-plot-widget]: Downloading https://files.pythonhosted.org/packages/36/c3/f400e1a38004b811a4b464abc2122056f5d7d666525b63dd897c165923eb/tiledb_plot_widget-1.1.0a0-py3-none-any.whl
+[2023-07-07 13:58:43] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 60699137>=10485760
+[2023-07-07 13:58:43] INFO root fetch - processPackages [music-assistant]: Start processing: aws-prototyping-sdk.pdk-nag
+[2023-07-07 13:58:43] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2023-07-07 13:58:43] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-07 13:58:43] INFO root fetch - processPackages [tiledb-plot-widget]: executing diffoscope
+[2023-07-07 13:58:43] INFO root fetch - processPackages [tiledb-plot-widget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb_plot_widget-1.0.9b1-py3-none-any.whl.zip tmp/tiledb_plot_widget-1.1.0a0-py3-none-any.whl.zip --markdown 20230707/t/tiledb-plot-widget/1.0.9b1-1.1.0a0/diff.md --exclude *.pyd
+[2023-07-07 13:58:43] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Downloading https://files.pythonhosted.org/packages/9b/a8/fb239c1d2008fa7b1297ad1672aa3e98e9a9063bff2eaa6cdcd842a88a9b/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz
+[2023-07-07 13:58:43] INFO root fetch - processPackages [hfttai]: Remove: archive file [/home/abi/fetcher/tmp/hfttai-0.1.2.tar.gz]
+[2023-07-07 13:58:43] INFO root fetch - processPackages [hfttai]: Remove: archive file [/home/abi/fetcher/tmp/hfttai-0.1.3.tar.gz]
+[2023-07-07 13:58:43] INFO root fetch - processPackages [hfttai]: Start processing: aws-prototyping-sdk.pipeline
+[2023-07-07 13:58:43] INFO root fetch - main [MainThread]: End processing [hfttai]: success
+[2023-07-07 13:58:43] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz]
+[2023-07-07 13:58:43] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz]
+[2023-07-07 13:58:43] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Start processing: Janex
+[2023-07-07 13:58:43] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.nx-monorepo]: success
+[2023-07-07 13:58:43] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-07 13:58:43] INFO root fetch - processPackages [besecure-developer-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/besecure_developer_toolkit-0.0.5.tar.gz]
+[2023-07-07 13:58:43] INFO root fetch - processPackages [besecure-developer-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/besecure_developer_toolkit-0.0.6.tar.gz]
+[2023-07-07 13:58:43] INFO root fetch - processPackages [besecure-developer-toolkit]: Start processing: aws-prototyping-sdk.static-website
+[2023-07-07 13:58:43] INFO root fetch - main [MainThread]: End processing [besecure-developer-toolkit]: success
+[2023-07-07 13:58:43] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Downloading https://files.pythonhosted.org/packages/12/71/4f7e5e98d46a0838bcfdff9092c0d810bc7a9d8a2026f6359027e18bd571/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz
+[2023-07-07 13:58:43] INFO root fetch - processPackages [pygmtools]: Remove: archive file [/home/abi/fetcher/tmp/pygmtools-0.3.8a0.tar.gz]
+[2023-07-07 13:58:43] INFO root fetch - processPackages [pygmtools]: Remove: archive file [/home/abi/fetcher/tmp/pygmtools-0.3.8a2.tar.gz]
+[2023-07-07 13:58:43] INFO root fetch - processPackages [pygmtools]: Start processing: aws-prototyping-sdk.type-safe-api
+[2023-07-07 13:58:43] INFO root fetch - main [MainThread]: End processing [pygmtools]: success
+[2023-07-07 13:58:43] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz]
+[2023-07-07 13:58:43] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz]
+[2023-07-07 13:58:43] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Start processing: nwebclient
+[2023-07-07 13:58:43] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.cloudscape-react-ts-website]: success
+[2023-07-07 13:58:43] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz]
+[2023-07-07 13:58:43] WARNING root fetch - processPackages [Janex]: Skipping, unable to determine old version
+[2023-07-07 13:58:43] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz]
+[2023-07-07 13:58:43] INFO root fetch - processPackages [Janex]: Start processing: clickhouse-connect
+[2023-07-07 13:58:43] INFO root fetch - main [MainThread]: End processing [Janex] error
+[2023-07-07 13:58:43] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Start processing: easycompletion
+[2023-07-07 13:58:43] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.identity]: success
+[2023-07-07 13:58:43] INFO root fetch - processPackages [sphinx-readme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-readme-0.0.1b4.tar.gz]
+[2023-07-07 13:58:43] INFO root fetch - processPackages [sphinx-readme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-readme-0.0.1b5.tar.gz]
+[2023-07-07 13:58:43] INFO root fetch - processPackages [sphinx-readme]: Start processing: dalpha
+[2023-07-07 13:58:43] INFO root fetch - main [MainThread]: End processing [sphinx-readme]: success
+[2023-07-07 13:58:44] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-07 13:58:44] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Downloading https://files.pythonhosted.org/packages/42/08/74d21c65ab1d20b6b0ffa70724b1674c9dfb7fb5928c75be8facb32049a8/aws_prototyping_sdk.pipeline-0.9.3.tar.gz
+[2023-07-07 13:58:44] INFO root fetch - processPackages [clickhouse-connect]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-07-07 13:58:44] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz]
+[2023-07-07 13:58:44] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz]
+[2023-07-07 13:58:44] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: executing diffoscope
+[2023-07-07 13:58:44] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz --markdown 20230707/a/aws-prototyping-sdk.pdk-nag/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-07 13:58:44] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Start processing: dalpha
+[2023-07-07 13:58:44] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.open-api-gateway]: success
+[2023-07-07 13:58:44] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-07 13:58:44] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: New version: [0.19.9] Old Version: [0.19.8]
+[2023-07-07 13:58:44] WARNING root fetch - processPackages [easycompletion]: Skipping, unable to determine old version
+[2023-07-07 13:58:44] INFO root fetch - main [MainThread]: End processing [easycompletion] error
+[2023-07-07 13:58:44] INFO root fetch - processPackages [clickhouse-connect]: Downloading https://files.pythonhosted.org/packages/34/b5/cc75d656403b494a749db0fe76bc527dc9c0bb9c2557551cc8023d5c4db4/clickhouse-connect-0.6.4.tar.gz
+[2023-07-07 13:58:44] INFO root fetch - processPackages [dalpha]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-07 13:58:44] INFO root fetch - processPackages [dalpha]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-07 13:58:44] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Downloading https://files.pythonhosted.org/packages/33/2f/60587f31d52e48c949b1da26eb9e70f7d2091bc14ce396730cba7ee0991f/aws_prototyping_sdk.static_website-0.9.3.tar.gz
+[2023-07-07 13:58:44] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-07 13:58:44] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/ce/60/72043fc0e30f8705240241169b3b70906aceae84a2a19822234ae4fa038d/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz
+[2023-07-07 13:58:44] INFO root fetch - processPackages [clickhouse-connect]: Downloading https://files.pythonhosted.org/packages/08/83/dc12ad3f53fef01c7bbf1aa408242996c6924844f57a8444905069f71dd6/clickhouse-connect-0.6.5.tar.gz
+[2023-07-07 13:58:44] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/33/d7/e7457f9ad65cd50f009363f07e29cd79703e4ce51657b3545806ad8392d6/dalpha-0.1.2.tar.gz
+[2023-07-07 13:58:44] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/33/d7/e7457f9ad65cd50f009363f07e29cd79703e4ce51657b3545806ad8392d6/dalpha-0.1.2.tar.gz
+[2023-07-07 13:58:44] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Downloading https://files.pythonhosted.org/packages/3b/25/07bfef78766c8655b384c468aeb5f171d537aafabe48a0af1fd12c7301df/aws_prototyping_sdk.pipeline-0.9.4.tar.gz
+[2023-07-07 13:58:44] INFO root fetch - processPackages [clickhouse-connect]: executing diffoscope
+[2023-07-07 13:58:44] INFO root fetch - processPackages [clickhouse-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickhouse-connect-0.6.4.tar.gz tmp/clickhouse-connect-0.6.5.tar.gz --markdown 20230707/c/clickhouse-connect/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-07-07 13:58:44] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Downloading https://files.pythonhosted.org/packages/e5/0f/641eb55e81a3b33a7465ceab3037ff68668a4f9bba07d31995a7c7bd15b2/aws_prototyping_sdk.static_website-0.9.4.tar.gz
+[2023-07-07 13:58:44] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/1b/50/1742fcce189bf18abc0df40f147b10b33e57ffc41235a3734e4d4216e1d0/dalpha-0.1.3.tar.gz
+[2023-07-07 13:58:44] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/1b/50/1742fcce189bf18abc0df40f147b10b33e57ffc41235a3734e4d4216e1d0/dalpha-0.1.3.tar.gz
+[2023-07-07 13:58:44] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: executing diffoscope
+[2023-07-07 13:58:44] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz --markdown 20230707/a/aws-prototyping-sdk.pipeline/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-07 13:58:44] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: executing diffoscope
+[2023-07-07 13:58:44] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz --markdown 20230707/a/aws-prototyping-sdk.static-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-07 13:58:44] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz]
+[2023-07-07 13:58:44] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz]
+[2023-07-07 13:58:44] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pdk-nag]: success
+[2023-07-07 13:58:44] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-07 13:58:44] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/f4/27/5047b871b36882879776010666de606ac6b0119b47d0cac24792b8cc5991/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz
+[2023-07-07 13:58:44] INFO root fetch - processPackages [dalpha]: executing diffoscope
+[2023-07-07 13:58:44] INFO root fetch - processPackages [dalpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalpha-0.1.2.tar.gz tmp/dalpha-0.1.3.tar.gz --markdown 20230707/d/dalpha/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-07 13:58:44] INFO root fetch - processPackages [dalpha]: executing diffoscope
+[2023-07-07 13:58:44] INFO root fetch - processPackages [dalpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalpha-0.1.2.tar.gz tmp/dalpha-0.1.3.tar.gz --markdown 20230707/d/dalpha/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-07 13:58:45] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-07 13:58:45] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230707/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-07 13:58:45] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: executing diffoscope
+[2023-07-07 13:58:45] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz tmp/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz --markdown 20230707/a/aws-prototyping-sdk.type-safe-api/0.19.8-0.19.9/diff.md --exclude *.pyd
+[2023-07-07 13:58:46] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz]
+[2023-07-07 13:58:46] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz]
+[2023-07-07 13:58:46] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.static-website]: success
+[2023-07-07 13:58:46] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz]
+[2023-07-07 13:58:46] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz]
+[2023-07-07 13:58:46] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pipeline]: success
+[2023-07-07 13:58:46] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.1.2.tar.gz]
+[2023-07-07 13:58:46] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.1.3.tar.gz]
+[2023-07-07 13:58:46] INFO root fetch - main [MainThread]: End processing [dalpha]: success
+[2023-07-07 13:58:46] INFO root fetch - processPackages [clickhouse-connect]: Remove: archive file [/home/abi/fetcher/tmp/clickhouse-connect-0.6.4.tar.gz]
+[2023-07-07 13:58:46] INFO root fetch - processPackages [clickhouse-connect]: Remove: archive file [/home/abi/fetcher/tmp/clickhouse-connect-0.6.5.tar.gz]
+[2023-07-07 13:58:46] INFO root fetch - main [MainThread]: End processing [clickhouse-connect]: success
+[2023-07-07 13:58:46] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-07 13:58:46] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-07 13:58:46] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-07 13:58:46] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz]
+[2023-07-07 13:58:46] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz]
+[2023-07-07 13:58:46] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
+[2023-07-07 13:58:46] INFO root fetch - main [MainThread]: End processing [dalpha]: success
+[2023-07-07 13:58:51] INFO root fetch - processPackages [tiledb-plot-widget]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_plot_widget-1.0.9b1-py3-none-any.whl.zip]
+[2023-07-07 13:58:51] INFO root fetch - processPackages [tiledb-plot-widget]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_plot_widget-1.1.0a0-py3-none-any.whl.zip]
+[2023-07-07 13:58:51] INFO root fetch - main [MainThread]: End processing [tiledb-plot-widget]: success
+[2023-07-07 13:58:51] INFO root fetch - main [MainThread]: Store serial: [18799981]
