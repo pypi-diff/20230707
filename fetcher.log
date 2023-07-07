@@ -9702,3 +9702,68 @@ EOFError: EOF read where object expected
 [2023-07-07 04:19:51] INFO root fetch - processPackages [express-py]: Remove: archive file [/home/abi/fetcher/tmp/express-py-2023.7.7.post0.tar.gz]
 [2023-07-07 04:19:51] INFO root fetch - main [MainThread]: End processing [express-py]: success
 [2023-07-07 04:19:51] INFO root fetch - main [MainThread]: Store serial: [18795181]
+[2023-07-07 04:24:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18795181]
+[2023-07-07 04:25:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-07 04:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seven-cloudapp-frame
+[2023-07-07 04:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gradio
+[2023-07-07 04:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: emailalert
+[2023-07-07 04:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-daterangefilter-plus
+[2023-07-07 04:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: innerverz
+[2023-07-07 04:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nextpcg
+[2023-07-07 04:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lazyearth
+[2023-07-07 04:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hubotlibs
+[2023-07-07 04:25:01] INFO root fetch - processPackages [nextpcg]: New version: [0.6.1] Old Version: [0.5.9]
+[2023-07-07 04:25:01] INFO root fetch - processPackages [emailalert]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-07-07 04:25:01] INFO root fetch - processPackages [hubotlibs]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-07 04:25:01] WARNING root fetch - processPackages [django-daterangefilter-plus]: Skipping, unable to determine old version
+[2023-07-07 04:25:01] INFO root fetch - main [MainThread]: End processing [django-daterangefilter-plus] error
+[2023-07-07 04:25:01] INFO root fetch - processPackages [innerverz]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-07 04:25:01] INFO root fetch - processPackages [lazyearth]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-07 04:25:01] INFO root fetch - processPackages [gradio]: New version: [3.9.1] Old Version: [3.9]
+[2023-07-07 04:25:01] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-07-07 04:25:01] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/b9/2e/b3512141e74e0df7e6713de36e0002e7cd873b051d7f587e68a2d99c0b5c/emailalert-1.4.3.tar.gz
+[2023-07-07 04:25:01] INFO root fetch - processPackages [hubotlibs]: Downloading https://files.pythonhosted.org/packages/8c/ad/678b7c9c45474abaad61415d3b482483526c4d78ac75a06a3ea569d135dd/hubotlibs-0.2.7.tar.gz
+[2023-07-07 04:25:01] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/d9/c7/af1d2c78694d1c93c56f540f2905e5ba84ce2e701c057e6ed55b4a5924bd/lazyearth-1.0.7.tar.gz
+[2023-07-07 04:25:01] INFO root fetch - processPackages [nextpcg]: Downloading https://files.pythonhosted.org/packages/cf/08/4cf741b08ba79aab0af730a364994d72c10b23055730e8331317a461fdee/nextpcg-0.5.9.tar.gz
+[2023-07-07 04:25:01] INFO root fetch - processPackages [innerverz]: Downloading https://files.pythonhosted.org/packages/96/ef/89d4db4a00a5090807487ff605fa31c10b2cb3ab62ae693e8f68daa8f929/innerverz-0.1.0.tar.gz
+[2023-07-07 04:25:01] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/35/2b/05b1b8a3faf3e0417c648bb54a3032af0de6b3d08180acd83e1eea5e3701/seven_cloudapp_frame-1.0.9.8.tar.gz
+[2023-07-07 04:25:01] INFO root fetch - processPackages [gradio]: Downloading https://files.pythonhosted.org/packages/b2/2d/f8dc88b392cdaac54b5bf6b56af321211f705494f4a0b2a1589717c06ff5/gradio-3.9.tar.gz
+[2023-07-07 04:25:01] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/65/04/4c773aef0a678afeaa0cd65d7829423a2c1f321a5d3bca3b824eafe58fb6/emailalert-1.4.4.tar.gz
+[2023-07-07 04:25:01] INFO root fetch - processPackages [hubotlibs]: Downloading https://files.pythonhosted.org/packages/15/94/146deff27b83b069f51719ce20597312a2b283295b708d6bbfcbb1e72a49/hubotlibs-0.2.8.tar.gz
+[2023-07-07 04:25:01] WARNING root fetch - processPackages [gradio]: Skipping package: exceeds size limit 12444246>=10485760
+[2023-07-07 04:25:01] INFO root fetch - main [MainThread]: End processing [gradio] error
+[2023-07-07 04:25:01] INFO root fetch - processPackages [nextpcg]: Downloading https://files.pythonhosted.org/packages/49/3f/86c318f44153259a0ae826f9b41ce0757ebb430b117ee36b7a88b2f198e1/nextpcg-0.6.1.tar.gz
+[2023-07-07 04:25:01] INFO root fetch - processPackages [hubotlibs]: executing diffoscope
+[2023-07-07 04:25:01] INFO root fetch - processPackages [hubotlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubotlibs-0.2.7.tar.gz tmp/hubotlibs-0.2.8.tar.gz --markdown 20230707/h/hubotlibs/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-07 04:25:02] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/57/a4/1f336b2de35597565a2417d8be51639317ff136edaf8e169f5f0828f24fc/lazyearth-1.0.8.tar.gz
+[2023-07-07 04:25:02] INFO root fetch - processPackages [innerverz]: Downloading https://files.pythonhosted.org/packages/9a/2f/a17d1d1f143b4aa55d2950a6b09504128eb35d405929b11c8aa06f55caaa/innerverz-0.1.1.tar.gz
+[2023-07-07 04:25:02] INFO root fetch - processPackages [emailalert]: executing diffoscope
+[2023-07-07 04:25:02] INFO root fetch - processPackages [emailalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailalert-1.4.3.tar.gz tmp/emailalert-1.4.4.tar.gz --markdown 20230707/e/emailalert/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-07-07 04:25:02] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/74/d6/645286f46e81a7cbd30574c917b65af03679c974a979c0421012bd713cbd/seven_cloudapp_frame-1.0.9.9.tar.gz
+[2023-07-07 04:25:02] INFO root fetch - processPackages [lazyearth]: executing diffoscope
+[2023-07-07 04:25:02] INFO root fetch - processPackages [lazyearth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyearth-1.0.7.tar.gz tmp/lazyearth-1.0.8.tar.gz --markdown 20230707/l/lazyearth/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-07 04:25:02] INFO root fetch - processPackages [innerverz]: executing diffoscope
+[2023-07-07 04:25:02] INFO root fetch - processPackages [innerverz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/innerverz-0.1.0.tar.gz tmp/innerverz-0.1.1.tar.gz --markdown 20230707/i/innerverz/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-07 04:25:02] INFO root fetch - processPackages [nextpcg]: executing diffoscope
+[2023-07-07 04:25:02] INFO root fetch - processPackages [nextpcg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextpcg-0.5.9.tar.gz tmp/nextpcg-0.6.1.tar.gz --markdown 20230707/n/nextpcg/0.5.9-0.6.1/diff.md --exclude *.pyd
+[2023-07-07 04:25:02] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-07-07 04:25:02] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230707/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-07-07 04:25:03] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.4.3.tar.gz]
+[2023-07-07 04:25:03] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.4.4.tar.gz]
+[2023-07-07 04:25:03] INFO root fetch - main [MainThread]: End processing [emailalert]: success
+[2023-07-07 04:25:03] INFO root fetch - processPackages [hubotlibs]: Remove: archive file [/home/abi/fetcher/tmp/hubotlibs-0.2.7.tar.gz]
+[2023-07-07 04:25:03] INFO root fetch - processPackages [hubotlibs]: Remove: archive file [/home/abi/fetcher/tmp/hubotlibs-0.2.8.tar.gz]
+[2023-07-07 04:25:03] INFO root fetch - main [MainThread]: End processing [hubotlibs]: success
+[2023-07-07 04:25:03] INFO root fetch - processPackages [lazyearth]: Remove: archive file [/home/abi/fetcher/tmp/lazyearth-1.0.7.tar.gz]
+[2023-07-07 04:25:03] INFO root fetch - processPackages [lazyearth]: Remove: archive file [/home/abi/fetcher/tmp/lazyearth-1.0.8.tar.gz]
+[2023-07-07 04:25:03] INFO root fetch - main [MainThread]: End processing [lazyearth]: success
+[2023-07-07 04:25:03] INFO root fetch - processPackages [nextpcg]: Remove: archive file [/home/abi/fetcher/tmp/nextpcg-0.5.9.tar.gz]
+[2023-07-07 04:25:03] INFO root fetch - processPackages [nextpcg]: Remove: archive file [/home/abi/fetcher/tmp/nextpcg-0.6.1.tar.gz]
+[2023-07-07 04:25:03] INFO root fetch - main [MainThread]: End processing [nextpcg]: success
+[2023-07-07 04:25:03] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.8.tar.gz]
+[2023-07-07 04:25:03] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.9.tar.gz]
+[2023-07-07 04:25:03] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-07-07 04:25:03] INFO root fetch - processPackages [innerverz]: Remove: archive file [/home/abi/fetcher/tmp/innerverz-0.1.0.tar.gz]
+[2023-07-07 04:25:03] INFO root fetch - processPackages [innerverz]: Remove: archive file [/home/abi/fetcher/tmp/innerverz-0.1.1.tar.gz]
+[2023-07-07 04:25:03] INFO root fetch - main [MainThread]: End processing [innerverz]: success
+[2023-07-07 04:25:03] INFO root fetch - main [MainThread]: Store serial: [18795204]
