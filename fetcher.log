@@ -5098,3 +5098,46 @@ EOFError: EOF read where object expected
 [2023-07-07 02:50:51] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
 [2023-07-07 02:50:51] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-07-07 02:50:51] INFO root fetch - main [MainThread]: Store serial: [18793512]
+[2023-07-07 02:55:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18793512]
+[2023-07-07 02:55:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-07 02:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pythreads
+[2023-07-07 02:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gitman
+[2023-07-07 02:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lasfile
+[2023-07-07 02:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycde
+[2023-07-07 02:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: im-openai
+[2023-07-07 02:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-comprehend-s3olap
+[2023-07-07 02:55:59] INFO root fetch - processPackages [gitman]: New version: [3.4b3] Old Version: [3.4b2]
+[2023-07-07 02:55:59] INFO root fetch - processPackages [lasfile]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-07 02:55:59] WARNING root fetch - processPackages [pythreads]: Skipping, unable to determine old version
+[2023-07-07 02:55:59] INFO root fetch - main [MainThread]: End processing [pythreads] error
+[2023-07-07 02:55:59] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-07 02:55:59] INFO root fetch - processPackages [pycde]: New version: [0.2.1.dev9] Old Version: [0.2.1.dev890]
+[2023-07-07 02:56:00] INFO root fetch - processPackages [lasfile]: Downloading https://files.pythonhosted.org/packages/d5/64/ec9a7cc9d411e7c7da40b3dad36030498cc079c8f4f65beae1c5d32d33fc/lasfile-0.1.8.tar.gz
+[2023-07-07 02:56:00] INFO root fetch - processPackages [im-openai]: New version: [0.5.0] Old Version: [0.4.4]
+[2023-07-07 02:56:00] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-07-07 02:56:00] INFO root fetch - processPackages [gitman]: Downloading https://files.pythonhosted.org/packages/7a/92/16ac178e0a4da7d8a2465593f2ab0f15cc310d99e79c114641a52397f7b5/gitman-3.4b2.tar.gz
+[2023-07-07 02:56:00] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/90/56/a5798ff86ebeb09623d50c17ac9b59dacb8587a0c0156f89603140ff178d/pycde-0.2.1.dev890-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-07 02:56:00] INFO root fetch - processPackages [im-openai]: Downloading https://files.pythonhosted.org/packages/54/4e/08194a0cae8e8da4cab84e2c9359ba51c272f206387ddb73c4c9f6ff5c52/im_openai-0.4.4.tar.gz
+[2023-07-07 02:56:00] INFO root fetch - processPackages [lasfile]: Downloading https://files.pythonhosted.org/packages/81/46/99cbc4f9407daa16b3fe90802004647de4ec0eb60dfa6c1a4e06fbe5d312/lasfile-0.1.9.tar.gz
+[2023-07-07 02:56:00] WARNING root fetch - processPackages [pycde]: Skipping package: exceeds size limit 13487574>=10485760
+[2023-07-07 02:56:00] INFO root fetch - main [MainThread]: End processing [pycde] error
+[2023-07-07 02:56:00] INFO root fetch - processPackages [lasfile]: executing diffoscope
+[2023-07-07 02:56:00] INFO root fetch - processPackages [lasfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lasfile-0.1.8.tar.gz tmp/lasfile-0.1.9.tar.gz --markdown 20230707/l/lasfile/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-07 02:56:00] INFO root fetch - processPackages [gitman]: Downloading https://files.pythonhosted.org/packages/76/a9/45028992c7b9c9b89e25547a9023188831b65d31a8105dca510cbb3b540c/gitman-3.4b3.tar.gz
+[2023-07-07 02:56:00] INFO root fetch - processPackages [gitman]: executing diffoscope
+[2023-07-07 02:56:00] INFO root fetch - processPackages [gitman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitman-3.4b2.tar.gz tmp/gitman-3.4b3.tar.gz --markdown 20230707/g/gitman/3.4b2-3.4b3/diff.md --exclude *.pyd
+[2023-07-07 02:56:00] INFO root fetch - processPackages [im-openai]: Downloading https://files.pythonhosted.org/packages/ec/4b/3abbb580c9d3d57404f11e3b129d7638b064477f08178b7b39bfb2cbc5a6/im_openai-0.5.0.tar.gz
+[2023-07-07 02:56:00] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-07-07 02:56:00] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-07-07 02:56:00] INFO root fetch - processPackages [im-openai]: executing diffoscope
+[2023-07-07 02:56:00] INFO root fetch - processPackages [im-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/im_openai-0.4.4.tar.gz tmp/im_openai-0.5.0.tar.gz --markdown 20230707/i/im-openai/0.4.4-0.5.0/diff.md --exclude *.pyd
+[2023-07-07 02:56:01] INFO root fetch - processPackages [lasfile]: Remove: archive file [/home/abi/fetcher/tmp/lasfile-0.1.8.tar.gz]
+[2023-07-07 02:56:01] INFO root fetch - processPackages [lasfile]: Remove: archive file [/home/abi/fetcher/tmp/lasfile-0.1.9.tar.gz]
+[2023-07-07 02:56:01] INFO root fetch - main [MainThread]: End processing [lasfile]: success
+[2023-07-07 02:56:01] INFO root fetch - processPackages [gitman]: Remove: archive file [/home/abi/fetcher/tmp/gitman-3.4b2.tar.gz]
+[2023-07-07 02:56:01] INFO root fetch - processPackages [gitman]: Remove: archive file [/home/abi/fetcher/tmp/gitman-3.4b3.tar.gz]
+[2023-07-07 02:56:01] INFO root fetch - main [MainThread]: End processing [gitman]: success
+[2023-07-07 02:56:01] INFO root fetch - processPackages [im-openai]: Remove: archive file [/home/abi/fetcher/tmp/im_openai-0.4.4.tar.gz]
+[2023-07-07 02:56:01] INFO root fetch - processPackages [im-openai]: Remove: archive file [/home/abi/fetcher/tmp/im_openai-0.5.0.tar.gz]
+[2023-07-07 02:56:01] INFO root fetch - main [MainThread]: End processing [im-openai]: success
+[2023-07-07 02:56:01] INFO root fetch - main [MainThread]: Store serial: [18793535]
