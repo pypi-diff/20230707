@@ -5452,3 +5452,105 @@ EOFError: EOF read where object expected
 [2023-07-07 03:12:30] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2023-07-07 03:12:30] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-07-07 03:12:30] INFO root fetch - main [MainThread]: Store serial: [18793690]
+[2023-07-07 03:17:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18793690]
+[2023-07-07 03:17:40] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-07 03:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: terminal-notebook-for-lesson
+[2023-07-07 03:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-organizations
+[2023-07-07 03:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hak
+[2023-07-07 03:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyagrum-nightly
+[2023-07-07 03:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: semgrep
+[2023-07-07 03:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smartsim
+[2023-07-07 03:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sabathdev
+[2023-07-07 03:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aemcmc-nightly
+[2023-07-07 03:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gpt4all
+[2023-07-07 03:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: datajunction-server
+[2023-07-07 03:17:40] INFO root fetch - processPackages [gpt4all]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-07 03:17:40] WARNING root fetch - processPackages [terminal-notebook-for-lesson]: Skipping, unable to determine old version
+[2023-07-07 03:17:40] INFO root fetch - processPackages [terminal-notebook-for-lesson]: Start processing: zhei
+[2023-07-07 03:17:40] INFO root fetch - main [MainThread]: End processing [terminal-notebook-for-lesson] error
+[2023-07-07 03:17:40] WARNING root fetch - processPackages [sabathdev]: Skipping, unable to determine old version
+[2023-07-07 03:17:40] INFO root fetch - processPackages [sabathdev]: Start processing: ncs-uml
+[2023-07-07 03:17:40] INFO root fetch - main [MainThread]: End processing [sabathdev] error
+[2023-07-07 03:17:40] INFO root fetch - processPackages [smartsim]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-07-07 03:17:40] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-07 03:17:40] INFO root fetch - processPackages [datajunction-server]: New version: [0.0.1a8] Old Version: [0.0.1a7]
+[2023-07-07 03:17:40] INFO root fetch - processPackages [semgrep]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-07 03:17:40] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230706] Old Version: [0.0.8.dev20230705]
+[2023-07-07 03:17:40] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.8.3.dev202306121686326557] Old Version: [1.8.3.dev202306111686326557]
+[2023-07-07 03:17:40] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-07 03:17:40] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/a0/ac/5dd2bdba889a35bc79744a6045d033464f2d4f2b72e4670b023fc13bd5c6/aemcmc-nightly-0.0.8.dev20230705.tar.gz
+[2023-07-07 03:17:40] INFO root fetch - processPackages [ncs-uml]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-07 03:17:40] INFO root fetch - processPackages [zhei]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-07-07 03:17:40] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/07/46/270b8b245feb59d5f249e10ced72a02b0db3ac8b574dbdc1c90e197d19b0/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl
+[2023-07-07 03:17:40] INFO root fetch - processPackages [gpt4all]: Downloading https://files.pythonhosted.org/packages/40/c8/baff8b3965c5d49d05ec9ceec4d771bd679c2dc6b26ec62f8380f719b534/gpt4all-1.0.2-py3-none-win_amd64.whl
+[2023-07-07 03:17:40] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-07-07 03:17:40] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-07-07 03:17:40] INFO root fetch - processPackages [smartsim]: Downloading https://files.pythonhosted.org/packages/4a/bd/909f59dd93d6aa8ac1458c14f43381058857dda50e23603eee2180552eec/smartsim-0.4.2.tar.gz
+[2023-07-07 03:17:40] INFO root fetch - processPackages [datajunction-server]: Downloading https://files.pythonhosted.org/packages/5e/74/837b55d32da7e6b69cec7b2da69fbb3dcc2a71dc1ee1e0d3dd407363f091/datajunction_server-0.0.1a8.tar.gz
+[2023-07-07 03:17:41] INFO root fetch - processPackages [ncs-uml]: Downloading https://files.pythonhosted.org/packages/52/04/6b718ac9e443fc07d7956fd88074cae5b2f2e94a42c4ae16b3c42084c295/ncs-uml-1.0.1.tar.gz
+[2023-07-07 03:17:41] WARNING root fetch - processPackages [datajunction-server]: Skipping package: exceeds size limit 25698763>=10485760
+[2023-07-07 03:17:41] INFO root fetch - processPackages [datajunction-server]: Start processing: datajunction
+[2023-07-07 03:17:41] INFO root fetch - main [MainThread]: End processing [datajunction-server] error
+[2023-07-07 03:17:41] INFO root fetch - processPackages [zhei]: Downloading https://files.pythonhosted.org/packages/b3/fc/65e3400c5f7ac57deb5813fa845ac78df78b2fce177b575f104c4be45c88/zhei-0.0.6.tar.gz
+[2023-07-07 03:17:41] INFO root fetch - processPackages [datajunction]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-07-07 03:17:41] INFO root fetch - processPackages [semgrep]: executing diffoscope
+[2023-07-07 03:17:41] INFO root fetch - processPackages [semgrep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semgrep-1.8.0.tar.gz tmp/semgrep-1.9.0.tar.gz --markdown 20230707/s/semgrep/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-07 03:17:41] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-07-07 03:17:41] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/ef/ca/65897c68d1aee0df855c4e3f6a2205a06f424f3a043f7f02748c1193d890/aemcmc-nightly-0.0.8.dev20230706.tar.gz
+[2023-07-07 03:17:41] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-07 03:17:41] INFO root fetch - processPackages [datajunction]: Downloading https://files.pythonhosted.org/packages/1c/dd/d011039dbc015ee0cadf6a3a31cdaef350b9b1ee49373c7b04f51d601564/datajunction-0.0.1a8.tar.gz
+[2023-07-07 03:17:41] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-07-07 03:17:41] INFO root fetch - processPackages [ncs-uml]: Downloading https://files.pythonhosted.org/packages/4b/f6/2e23f3f2cd5729def637ec0df75776c540c1fd4710031a7eb91ad7219a86/ncs-uml-1.0.2.tar.gz
+[2023-07-07 03:17:41] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230707/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-07 03:17:41] INFO root fetch - processPackages [smartsim]: Downloading https://files.pythonhosted.org/packages/c5/e2/08b54b07d069733960520aef1b2aacb69978719ea7d12dc59a3673121be0/smartsim-0.5.0.tar.gz
+[2023-07-07 03:17:41] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/c0/d4/20a48d2f9b4e252fe76b5a7e22de84caa21e8f08934645676fb47376de73/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl
+[2023-07-07 03:17:41] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-07-07 03:17:41] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230705.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230706.tar.gz --markdown 20230707/a/aemcmc-nightly/0.0.8.dev20230705-0.0.8.dev20230706/diff.md --exclude *.pyd
+[2023-07-07 03:17:41] INFO root fetch - processPackages [zhei]: Downloading https://files.pythonhosted.org/packages/fe/e6/d6e9a8571394bc0f3c5f41cc8657e57af493d8f610996864a47c36f29e74/zhei-0.0.8.tar.gz
+[2023-07-07 03:17:41] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-07 03:17:41] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230707/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-07 03:17:41] INFO root fetch - processPackages [ncs-uml]: executing diffoscope
+[2023-07-07 03:17:41] INFO root fetch - processPackages [ncs-uml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncs-uml-1.0.1.tar.gz tmp/ncs-uml-1.0.2.tar.gz --markdown 20230707/n/ncs-uml/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-07 03:17:41] INFO root fetch - processPackages [smartsim]: executing diffoscope
+[2023-07-07 03:17:41] INFO root fetch - processPackages [gpt4all]: Downloading https://files.pythonhosted.org/packages/6e/81/cce30d6b8f34c4eb015a939019b70dee3828d0ddeae37b9e9292b4930e18/gpt4all-1.0.3-py3-none-win_amd64.whl
+[2023-07-07 03:17:41] INFO root fetch - processPackages [smartsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartsim-0.4.2.tar.gz tmp/smartsim-0.5.0.tar.gz --markdown 20230707/s/smartsim/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-07-07 03:17:41] INFO root fetch - processPackages [zhei]: executing diffoscope
+[2023-07-07 03:17:41] INFO root fetch - processPackages [zhei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhei-0.0.6.tar.gz tmp/zhei-0.0.8.tar.gz --markdown 20230707/z/zhei/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-07-07 03:17:41] INFO root fetch - processPackages [datajunction]: Downloading https://files.pythonhosted.org/packages/a3/56/726ef8b88da5d7d28a93212e0247effc166d3a97fbe5bb9c64412e7e2c66/datajunction-0.0.1a9.tar.gz
+[2023-07-07 03:17:41] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-07-07 03:17:41] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip --markdown 20230707/p/pyagrum-nightly/1.8.3.dev202306111686326557-1.8.3.dev202306121686326557/diff.md --exclude *.pyd
+[2023-07-07 03:17:41] INFO root fetch - processPackages [datajunction]: executing diffoscope
+[2023-07-07 03:17:41] INFO root fetch - processPackages [datajunction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datajunction-0.0.1a8.tar.gz tmp/datajunction-0.0.1a9.tar.gz --markdown 20230707/d/datajunction/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-07-07 03:17:42] INFO root fetch - processPackages [semgrep]: Remove: archive file [/home/abi/fetcher/tmp/semgrep-1.8.0.tar.gz]
+[2023-07-07 03:17:42] INFO root fetch - processPackages [semgrep]: Remove: archive file [/home/abi/fetcher/tmp/semgrep-1.9.0.tar.gz]
+[2023-07-07 03:17:42] INFO root fetch - main [MainThread]: End processing [semgrep]: success
+[2023-07-07 03:17:42] INFO root fetch - processPackages [gpt4all]: executing diffoscope
+[2023-07-07 03:17:42] INFO root fetch - processPackages [gpt4all]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4all-1.0.2-py3-none-win_amd64.whl.zip tmp/gpt4all-1.0.3-py3-none-win_amd64.whl.zip --markdown 20230707/g/gpt4all/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-07 03:17:42] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-07-07 03:17:42] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-07-07 03:17:42] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-07-07 03:17:43] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230705.tar.gz]
+[2023-07-07 03:17:43] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230706.tar.gz]
+[2023-07-07 03:17:43] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-07-07 03:17:43] INFO root fetch - processPackages [ncs-uml]: Remove: archive file [/home/abi/fetcher/tmp/ncs-uml-1.0.1.tar.gz]
+[2023-07-07 03:17:43] INFO root fetch - processPackages [ncs-uml]: Remove: archive file [/home/abi/fetcher/tmp/ncs-uml-1.0.2.tar.gz]
+[2023-07-07 03:17:43] INFO root fetch - main [MainThread]: End processing [ncs-uml]: success
+[2023-07-07 03:17:43] INFO root fetch - processPackages [zhei]: Remove: archive file [/home/abi/fetcher/tmp/zhei-0.0.6.tar.gz]
+[2023-07-07 03:17:43] INFO root fetch - processPackages [zhei]: Remove: archive file [/home/abi/fetcher/tmp/zhei-0.0.8.tar.gz]
+[2023-07-07 03:17:43] INFO root fetch - main [MainThread]: End processing [zhei]: success
+[2023-07-07 03:17:43] INFO root fetch - processPackages [datajunction]: Remove: archive file [/home/abi/fetcher/tmp/datajunction-0.0.1a8.tar.gz]
+[2023-07-07 03:17:43] INFO root fetch - processPackages [datajunction]: Remove: archive file [/home/abi/fetcher/tmp/datajunction-0.0.1a9.tar.gz]
+[2023-07-07 03:17:43] INFO root fetch - main [MainThread]: End processing [datajunction]: success
+[2023-07-07 03:17:43] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-07-07 03:17:43] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-07-07 03:17:43] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-07-07 03:17:43] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-07-07 03:17:43] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-07 03:17:43] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-07 03:17:44] INFO root fetch - processPackages [smartsim]: Remove: archive file [/home/abi/fetcher/tmp/smartsim-0.4.2.tar.gz]
+[2023-07-07 03:17:44] INFO root fetch - processPackages [smartsim]: Remove: archive file [/home/abi/fetcher/tmp/smartsim-0.5.0.tar.gz]
+[2023-07-07 03:17:44] INFO root fetch - main [MainThread]: End processing [smartsim]: success
+[2023-07-07 03:17:59] INFO root fetch - processPackages [gpt4all]: Remove: archive file [/home/abi/fetcher/tmp/gpt4all-1.0.2-py3-none-win_amd64.whl.zip]
+[2023-07-07 03:17:59] INFO root fetch - processPackages [gpt4all]: Remove: archive file [/home/abi/fetcher/tmp/gpt4all-1.0.3-py3-none-win_amd64.whl.zip]
+[2023-07-07 03:17:59] INFO root fetch - main [MainThread]: End processing [gpt4all]: success
+[2023-07-07 03:17:59] INFO root fetch - main [MainThread]: Store serial: [18793753]
