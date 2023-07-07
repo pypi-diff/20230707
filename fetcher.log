@@ -12840,3 +12840,69 @@ EOFError: EOF read where object expected
 [2023-07-07 08:20:04] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230707.tar.gz]
 [2023-07-07 08:20:04] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-07-07 08:20:04] INFO root fetch - main [MainThread]: Store serial: [18796401]
+[2023-07-07 08:25:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18796401]
+[2023-07-07 08:25:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-07 08:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyjd
+[2023-07-07 08:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ldst-monitor
+[2023-07-07 08:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: LLM-Toolbox
+[2023-07-07 08:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: runweb
+[2023-07-07 08:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bluecast
+[2023-07-07 08:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastlabel
+[2023-07-07 08:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tlgateway
+[2023-07-07 08:25:13] INFO root fetch - processPackages [pyjd]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-07 08:25:13] INFO root fetch - processPackages [bluecast]: New version: [0.9] Old Version: [0.8]
+[2023-07-07 08:25:13] INFO root fetch - processPackages [ldst-monitor]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-07 08:25:13] INFO root fetch - processPackages [LLM-Toolbox]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-07 08:25:13] INFO root fetch - processPackages [runweb]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-07 08:25:13] INFO root fetch - processPackages [fastlabel]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-07 08:25:13] INFO root fetch - processPackages [pyjd]: Downloading https://files.pythonhosted.org/packages/bf/77/1ea0c3cde777d3bbd98b1996057454b6f5d9cdf49c94b2dbcc5f0dd23cf6/pyjd-1.0.1.tar.gz
+[2023-07-07 08:25:13] INFO root fetch - processPackages [tlgateway]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-07 08:25:13] INFO root fetch - processPackages [ldst-monitor]: Downloading https://files.pythonhosted.org/packages/d5/c7/8b25c89431bad95f2d91f5ad167fbab18dbe96f8645e60db8a41388887fe/ldst_monitor-1.0.5.tar.gz
+[2023-07-07 08:25:13] INFO root fetch - processPackages [runweb]: Downloading https://files.pythonhosted.org/packages/0c/de/31f45d968a9c4afe5276b5310de10c876635f83156ad58698c8d4bf74b43/runweb-0.3.0.tar.gz
+[2023-07-07 08:25:13] INFO root fetch - processPackages [LLM-Toolbox]: Downloading https://files.pythonhosted.org/packages/66/27/f9b07e1127b9d022d4aa32b547b9d984934eea0564a18452a5d24b2da0fd/LLM-Toolbox-0.1.7.tar.gz
+[2023-07-07 08:25:13] INFO root fetch - processPackages [bluecast]: Downloading https://files.pythonhosted.org/packages/ec/3d/50055360ed61d23dcf174f7fce737def086bcd8b7ce250ec97745eb8d831/bluecast-0.8.tar.gz
+[2023-07-07 08:25:14] INFO root fetch - processPackages [fastlabel]: Downloading https://files.pythonhosted.org/packages/57/be/7f95f0710f3736b944abf8635802ed7c4fa9ed908af29b88814533d5d1aa/fastlabel-0.9.8.tar.gz
+[2023-07-07 08:25:14] INFO root fetch - processPackages [tlgateway]: Downloading https://files.pythonhosted.org/packages/35/b5/caf8984bb26f6f0882adefb2fe248f314943e74fc6f5becd2e33c58505a1/tlgateway-0.2.8.tar.gz
+[2023-07-07 08:25:14] INFO root fetch - processPackages [ldst-monitor]: Downloading https://files.pythonhosted.org/packages/e4/38/e6a42611cb361f18a42a7432f68e4f186486bad2ee6552294bfeec2dfe4f/ldst_monitor-1.0.6.tar.gz
+[2023-07-07 08:25:14] INFO root fetch - processPackages [pyjd]: Downloading https://files.pythonhosted.org/packages/ab/72/eb7af2eb05d8ed9dea54c348f35a313b64e18648584bf961813025ee9215/pyjd-1.0.2.tar.gz
+[2023-07-07 08:25:14] INFO root fetch - processPackages [runweb]: Downloading https://files.pythonhosted.org/packages/db/4d/39cc8c6d7df222ff226237e9aab699977eaf58e820a05c6356f3b22a0702/runweb-0.3.1.tar.gz
+[2023-07-07 08:25:14] INFO root fetch - processPackages [LLM-Toolbox]: Downloading https://files.pythonhosted.org/packages/31/d3/b4543953079da290fe639f07c370f9d917f7f568a4a58e935a7d853580cb/LLM-Toolbox-0.1.8.tar.gz
+[2023-07-07 08:25:14] INFO root fetch - processPackages [ldst-monitor]: executing diffoscope
+[2023-07-07 08:25:14] INFO root fetch - processPackages [ldst-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldst_monitor-1.0.5.tar.gz tmp/ldst_monitor-1.0.6.tar.gz --markdown 20230707/l/ldst-monitor/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-07 08:25:14] INFO root fetch - processPackages [pyjd]: executing diffoscope
+[2023-07-07 08:25:14] INFO root fetch - processPackages [pyjd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjd-1.0.1.tar.gz tmp/pyjd-1.0.2.tar.gz --markdown 20230707/p/pyjd/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-07 08:25:14] INFO root fetch - processPackages [LLM-Toolbox]: executing diffoscope
+[2023-07-07 08:25:14] INFO root fetch - processPackages [LLM-Toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LLM-Toolbox-0.1.7.tar.gz tmp/LLM-Toolbox-0.1.8.tar.gz --markdown 20230707/L/LLM-Toolbox/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-07 08:25:14] INFO root fetch - processPackages [bluecast]: Downloading https://files.pythonhosted.org/packages/4c/dd/ff7880db0e7fc26a888065b8f429a2bddace77a3ea05a72224e8a4f90fb4/bluecast-0.9.tar.gz
+[2023-07-07 08:25:14] INFO root fetch - processPackages [runweb]: executing diffoscope
+[2023-07-07 08:25:14] INFO root fetch - processPackages [runweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runweb-0.3.0.tar.gz tmp/runweb-0.3.1.tar.gz --markdown 20230707/r/runweb/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-07 08:25:14] INFO root fetch - processPackages [tlgateway]: Downloading https://files.pythonhosted.org/packages/1b/83/52f36a3a7bf56d581a8138b72788416f2e9432ff0b53ebeecada9a66e70a/tlgateway-0.2.9.tar.gz
+[2023-07-07 08:25:14] INFO root fetch - processPackages [bluecast]: executing diffoscope
+[2023-07-07 08:25:14] INFO root fetch - processPackages [fastlabel]: Downloading https://files.pythonhosted.org/packages/d0/e5/f18c001dc7450d962af6e6925a6600fb1877e202166062e99e6d1fadf36b/fastlabel-0.9.9.tar.gz
+[2023-07-07 08:25:14] INFO root fetch - processPackages [bluecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluecast-0.8.tar.gz tmp/bluecast-0.9.tar.gz --markdown 20230707/b/bluecast/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-07 08:25:14] INFO root fetch - processPackages [tlgateway]: executing diffoscope
+[2023-07-07 08:25:14] INFO root fetch - processPackages [tlgateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tlgateway-0.2.8.tar.gz tmp/tlgateway-0.2.9.tar.gz --markdown 20230707/t/tlgateway/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-07 08:25:14] INFO root fetch - processPackages [fastlabel]: executing diffoscope
+[2023-07-07 08:25:14] INFO root fetch - processPackages [fastlabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230707:/home/abi/fetcher/20230707:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlabel-0.9.8.tar.gz tmp/fastlabel-0.9.9.tar.gz --markdown 20230707/f/fastlabel/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-07 08:25:15] INFO root fetch - processPackages [ldst-monitor]: Remove: archive file [/home/abi/fetcher/tmp/ldst_monitor-1.0.5.tar.gz]
+[2023-07-07 08:25:15] INFO root fetch - processPackages [ldst-monitor]: Remove: archive file [/home/abi/fetcher/tmp/ldst_monitor-1.0.6.tar.gz]
+[2023-07-07 08:25:15] INFO root fetch - main [MainThread]: End processing [ldst-monitor]: success
+[2023-07-07 08:25:15] INFO root fetch - processPackages [pyjd]: Remove: archive file [/home/abi/fetcher/tmp/pyjd-1.0.1.tar.gz]
+[2023-07-07 08:25:15] INFO root fetch - processPackages [pyjd]: Remove: archive file [/home/abi/fetcher/tmp/pyjd-1.0.2.tar.gz]
+[2023-07-07 08:25:15] INFO root fetch - main [MainThread]: End processing [pyjd]: success
+[2023-07-07 08:25:15] INFO root fetch - processPackages [runweb]: Remove: archive file [/home/abi/fetcher/tmp/runweb-0.3.0.tar.gz]
+[2023-07-07 08:25:15] INFO root fetch - processPackages [runweb]: Remove: archive file [/home/abi/fetcher/tmp/runweb-0.3.1.tar.gz]
+[2023-07-07 08:25:15] INFO root fetch - main [MainThread]: End processing [runweb]: success
+[2023-07-07 08:25:15] INFO root fetch - processPackages [LLM-Toolbox]: Remove: archive file [/home/abi/fetcher/tmp/LLM-Toolbox-0.1.7.tar.gz]
+[2023-07-07 08:25:15] INFO root fetch - processPackages [LLM-Toolbox]: Remove: archive file [/home/abi/fetcher/tmp/LLM-Toolbox-0.1.8.tar.gz]
+[2023-07-07 08:25:15] INFO root fetch - main [MainThread]: End processing [LLM-Toolbox]: success
+[2023-07-07 08:25:15] INFO root fetch - processPackages [tlgateway]: Remove: archive file [/home/abi/fetcher/tmp/tlgateway-0.2.8.tar.gz]
+[2023-07-07 08:25:15] INFO root fetch - processPackages [tlgateway]: Remove: archive file [/home/abi/fetcher/tmp/tlgateway-0.2.9.tar.gz]
+[2023-07-07 08:25:15] INFO root fetch - main [MainThread]: End processing [tlgateway]: success
+[2023-07-07 08:25:15] INFO root fetch - processPackages [fastlabel]: Remove: archive file [/home/abi/fetcher/tmp/fastlabel-0.9.8.tar.gz]
+[2023-07-07 08:25:15] INFO root fetch - processPackages [fastlabel]: Remove: archive file [/home/abi/fetcher/tmp/fastlabel-0.9.9.tar.gz]
+[2023-07-07 08:25:15] INFO root fetch - main [MainThread]: End processing [fastlabel]: success
+[2023-07-07 08:25:16] INFO root fetch - processPackages [bluecast]: Remove: archive file [/home/abi/fetcher/tmp/bluecast-0.8.tar.gz]
+[2023-07-07 08:25:16] INFO root fetch - processPackages [bluecast]: Remove: archive file [/home/abi/fetcher/tmp/bluecast-0.9.tar.gz]
+[2023-07-07 08:25:16] INFO root fetch - main [MainThread]: End processing [bluecast]: success
+[2023-07-07 08:25:16] INFO root fetch - main [MainThread]: Store serial: [18796426]
